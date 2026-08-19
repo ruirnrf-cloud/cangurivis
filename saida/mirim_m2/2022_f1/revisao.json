@@ -1,0 +1,569 @@
+{
+  "1": {
+    "enunciado_md": "Qual número vai aparecer após encaixar as peças do quebra-cabeça?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "486"
+      },
+      {
+        "letra": "B",
+        "texto": "489"
+      },
+      {
+        "letra": "C",
+        "texto": "648"
+      },
+      {
+        "letra": "D",
+        "texto": "684"
+      },
+      {
+        "letra": "E",
+        "texto": "984"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "quebra-cabeça espacial",
+      "raciocínio visual"
+    ],
+    "dica_curta": "Repara bem: cada peça do quebra-cabeça pode estar desenhada torta ou virada — pensa em como ela vai ficar quando estiver na posição certa, não só em como ela está agora.",
+    "primeiro_passo": "Observa o formato das bolinhas e reentrâncias de encaixe de cada peça pra descobrir a ordem certa delas lado a lado. Depois olha pra peça do número 6: será que ela continua em pé, ou vai precisar girar quando encaixar com as outras?",
+    "solucao_completa": "- As três peças mostram os números 6, 4 e 8, mas estão soltas e em ângulos diferentes.\n- O pulo do gato: quando a peça do \"6\" gira pra encaixar certinho com as outras (seguindo o formato das bolinhas de encaixe), ela fica de cabeça para baixo — e um 6 de cabeça para baixo vira um 9!\n- Os números 4 e 8 não mudam de aparência quando giram pra encaixar (o 8 é simétrico, e o 4 já estava na posição certa).\n- Encaixando as peças na ordem certa, o número formado é 489.\n- Resposta certa: alternativa B (489)."
+  },
+  "2": {
+    "enunciado_md": "Janaína é desenhista e começou a fazer o desenho de um castelo. Qual das alternativas abaixo não é um pedaço do desenho de janaína?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocínio visual",
+      "quebra-cabeça espacial"
+    ],
+    "dica_curta": "Compara cada pedacinho com o contorno inteiro do castelo, olhando a forma exata das curvas e dos ângulos — não só se \"parece parecido\".",
+    "primeiro_passo": "Percorre o contorno do castelo da esquerda pra direita e vai guardando de cabeça cada trechinho (as bolinhas, o triângulo, o degrau, as cúpulas em \"M\", a torre quadrada). Um dos pedaços das alternativas tem um formato que nunca aparece nesse percurso.",
+    "solucao_completa": "- O contorno do castelo tem: duas bolinhas (arcos), um degrau subindo até um triângulo (torre pontuda), um \"V\" pequeno, duas cúpulas arredondadas (tipo \"M\") e uma torre quadrada com duas barras.\n- Cada alternativa A, C, D e E é um pedacinho que realmente aparece em algum trecho desse contorno.\n- Já a alternativa B mostra três triângulos pontudos seguidos, em zigue-zague — e esse padrão de três picos iguais em fileira não existe em nenhum lugar do desenho original (nele só há UM triângulo pontudo isolado).\n- Resposta certa: alternativa B."
+  },
+  "3": {
+    "enunciado_md": "Um carrinho de um supermercado tem 70 cm de comprimento. Dois carrinhos encaixados têm 80 cm de comprimento. Quantos centímetros de comprimento têm 5 carrinhos encaixados?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "100"
+      },
+      {
+        "letra": "B",
+        "texto": "110"
+      },
+      {
+        "letra": "C",
+        "texto": "120"
+      },
+      {
+        "letra": "D",
+        "texto": "130"
+      },
+      {
+        "letra": "E",
+        "texto": "140"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "padrões e sequências",
+      "operações basicas"
+    ],
+    "dica_curta": "Descobre primeiro quanto cada carrinho A MAIS soma no comprimento total quando é encaixado — não é o comprimento inteiro dele.",
+    "primeiro_passo": "Um carrinho sozinho tem 70 cm. Dois encaixados têm 80 cm. Então o segundo carrinho encaixado só aumentou 10 cm no total (não 70 cm!). Essa é a pista de quanto cada carrinho extra acrescenta quando é encaixado.",
+    "solucao_completa": "- 1 carrinho sozinho = 70 cm.\n- 2 carrinhos encaixados = 80 cm → cada carrinho a mais que se encaixa soma só +10 cm (porque um entra dentro do outro).\n- Para 5 carrinhos: o primeiro vale 70 cm, e cada um dos outros 4 soma +10 cm.\n- Conta: 70 + 4 × 10 = 70 + 40 = 110 cm.\n- Resposta certa: alternativa B (110)."
+  },
+  "4": {
+    "enunciado_md": "A chave do desenho é capaz de abrir qual das fechaduras abaixo?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocínio visual",
+      "orientação espacial"
+    ],
+    "dica_curta": "Pensa em como fica o desenho da chave quando ela está de fato dentro da fechadura — o buraco não é igual ao desenho da chave vista de fora.",
+    "primeiro_passo": "Repara no contorno dos dentes da chave (onde ela é mais larga, mais estreita, os degraus). A fechadura certa precisa ter esse contorno espelhado (invertido, como no espelho), porque um lado é a chave vista de fora e o outro é o buraco visto de dentro.",
+    "solucao_completa": "- A chave tem um contorno de dentes: uma curva arredondada perto do cabo e dois degraus (dentes) logo depois.\n- Quando a chave entra na fechadura, o buraco que a recebe tem o formato espelhado (invertido da esquerda pra direita) desse contorno.\n- Comparando as 5 fechaduras, só a alternativa A tem exatamente esse contorno espelhado: a curva arredondada e os dois dentes na posição certa, invertidos.\n- Resposta certa: alternativa A."
+  },
+  "5": {
+    "enunciado_md": "Ontem maria disse: “depois de amanhã será quarta-feira”. Que dia é hoje?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "SEGUNDA-FEIRA"
+      },
+      {
+        "letra": "B",
+        "texto": "TERÇA-FEIRA"
+      },
+      {
+        "letra": "C",
+        "texto": "QUARTA-FEIRA"
+      },
+      {
+        "letra": "D",
+        "texto": "QUINTA-FEIRA"
+      },
+      {
+        "letra": "E",
+        "texto": "SEXTA-FEIRA"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "lógica com pistas"
+    ],
+    "dica_curta": "Cuidado: a frase foi dita ONTEM, não hoje — então conta os dias a partir de ontem, não a partir de hoje.",
+    "primeiro_passo": "Se ontem a Maria disse \"depois de amanhã será quarta\", esse \"depois de amanhã\" é contado a partir de ontem: ontem + 2 dias = quarta-feira. Isso já te diz que dia da semana foi ontem.",
+    "solucao_completa": "- Ontem + 2 dias = quarta-feira → então ontem foi segunda-feira.\n- Se ontem foi segunda-feira, hoje é o dia seguinte: terça-feira.\n- Resposta certa: alternativa B (terça-feira)."
+  },
+  "6": {
+    "enunciado_md": "O padeiro João demora 45 minutos para assar seus pães. A figura ao lado mostra o horário em que ele acabou de tirar os pães de uma fornada. A que horas ele colocou esses pães para assar?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "As alternativas são imagens de relógios, não texto: o rascunho tinha capturado por engano números soltos do mostrador (\"12\",\"11\",\"10\",\"1\",\"2\") como se fossem o texto das alternativas; corrigido para tipo imagem.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "medidas"
+    ],
+    "dica_curta": "Primeiro descubra que horas o relógio grande está marcando — depois é só voltar no tempo 45 minutos.",
+    "primeiro_passo": "No relógio grande, o ponteiro pequeno (das horas) aponta pro 3 e o ponteiro grande (dos minutos) aponta pro 12 — ou seja, são 3 horas em ponto. Agora pensa: se os pães ficaram 45 minutos assando e SAÍRAM do forno às 3:00, a que horas eles ENTRARAM?",
+    "solucao_completa": "- O relógio grande mostra 3:00 (hora em que os pães saíram do forno).\n- Os pães ficaram 45 minutos assando, então eles entraram 45 minutos ANTES das 3:00.\n- 3:00 menos 45 minutos = 2:15.\n- Entre os relógios das alternativas, o único que mostra 2 horas e 15 minutos (ponteiro das horas logo depois do 2, ponteiro dos minutos no 3) é o da alternativa B.\n- Resposta certa: alternativa B."
+  },
+  "7": {
+    "enunciado_md": "Isabel e Paula estão brincando de par ou ímpar. Cada uma delas mostra uma de suas mãos e elas contam o total de dedos mostrados. Paula escolheu par e mostrou a mão como na figura. De quantas maneiras Isabel pode mostrar sua mão e ganhar a brincadeira?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "paridade",
+      "contagem sistemática"
+    ],
+    "dica_curta": "Lembra que quem ganha em \"par ou ímpar\" depende da SOMA dos dedos das duas mãos, e do que a Paula escolheu — não só da mão da Isabel sozinha.",
+    "primeiro_passo": "Conta quantos dedos a mão da Paula está mostrando na figura. Como Paula escolheu \"par\", ela ganha se a soma total for par — então, pra Isabel GANHAR, a soma das duas mãos precisa dar ÍMPAR. Que quantidades de dedos (de 0 a 5) a Isabel pode mostrar pra isso acontecer?",
+    "solucao_completa": "- Na figura, a mão da Paula mostra 4 dedos.\n- Paula escolheu \"par\": ela ganha se dedos(Paula) + dedos(Isabel) for par, e Isabel ganha se a soma for ÍMPAR.\n- Como Paula já mostrou um número par (4), a soma só fica ímpar se Isabel mostrar um número ÍMPAR de dedos.\n- Isabel pode mostrar de 0 a 5 dedos numa mão. Os números ímpares nesse intervalo são: 1, 3 e 5.\n- Isso dá 3 maneiras diferentes de Isabel ganhar.\n- Resposta certa: alternativa C (3)."
+  },
+  "8": {
+    "enunciado_md": "Quatro das figuras abaixo são desenhos da mesma da roda gigante do parque de diversões. Qual das figuras abaixo não é um desenho dessa roda gigante?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "No recorte figuras/q08_fig4.png aparece um resquício de um rótulo \"(A)\" vazando na borda inferior esquerda (contaminação de outra alternativa vizinha); o desenho da roda gigante em si está íntegro.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "padrões e sequências",
+      "raciocínio visual"
+    ],
+    "dica_curta": "Em vez de comparar as rodas gigantes \"de olho\", tenta seguir a sequência de cores (preto e branco) ao redor do círculo, sempre no mesmo sentido.",
+    "primeiro_passo": "Escolhe uma roda (por exemplo, a A) e anota a sequência de cores dos assentos, girando sempre no mesmo sentido e começando de um ponto fixo (tipo o assento mais alto). Faz o mesmo pras outras rodas: girando o início da lista, quatro delas devem dar exatamente a mesma sequência de cores.",
+    "solucao_completa": "- Cada roda gigante tem 10 assentos (pretos e brancos) numa certa ordem ao redor do círculo.\n- Girar a roda não muda a ordem dos assentos, só troca qual assento \"começa\" a contagem — então duas rodas são a mesma roda se a sequência de cores bater, mesmo que comecem em pontos diferentes (como girar um colar de contas).\n- Comparando as 5 rodas dessa forma, as alternativas A, B, C e D têm todas a mesma sequência de cores (uma é só a outra girada).\n- A alternativa E tem uma sequência diferente, que não bate com nenhuma rotação das outras.\n- Resposta certa: alternativa E."
+  },
+  "9": {
+    "enunciado_md": "Os dois triângulos ao lado tem lados iguais. Joaquim montou figuras juntando esses triângulos pelos lados ou colocando um em cima do outro. Qual das seguintes figuras não pode ter sido uma das montadas por Joaquim?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "quebra-cabeça espacial",
+      "raciocínio visual"
+    ],
+    "dica_curta": "Pensa nos ângulos das pontas de cada triângulo, e no que acontece com esses ângulos quando você junta vários triângulos iguais, lado a lado ou um em cima do outro.",
+    "primeiro_passo": "Olha o ângulo de cada \"bico\" das figuras das alternativas. Um quadrado tem cantos de 90°. Será que dá pra formar um ângulo de exatamente 90° juntando ou empilhando ângulos de 60°?",
+    "solucao_completa": "- Cada triângulo, por ser equilátero, só tem ângulos de 60°.\n- Juntando triângulos lado a lado ou empilhando um sobre o outro, qualquer ângulo que aparecer nos encontros vai ser sempre um múltiplo de 60° (60°, 120°, 180°, 240°...).\n- O ângulo de 90° (o canto de um quadrado) nunca é múltiplo de 60°, então é impossível formar um quadrado assim.\n- As outras figuras (triângulo, losango, estrela de 6 pontas, laço) usam só ângulos de 60° ou 120°, então são possíveis de montar.\n- Resposta certa: alternativa B (o quadrado)."
+  },
+  "10": {
+    "enunciado_md": "Ana é 5 anos mais jovem do que Beatriz e 7 anos mais jovem do que Carla. Carla tem 15 anos. Quantos anos tem Beatriz?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8"
+      },
+      {
+        "letra": "B",
+        "texto": "12"
+      },
+      {
+        "letra": "C",
+        "texto": "13"
+      },
+      {
+        "letra": "D",
+        "texto": "15"
+      },
+      {
+        "letra": "E",
+        "texto": "18"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "operações basicas",
+      "lógica com pistas"
+    ],
+    "dica_curta": "Vai comparando as idades de duas em duas, usando a Carla como ponto de partida, já que a idade dela você já sabe.",
+    "primeiro_passo": "Se Carla tem 15 anos e Ana é 7 anos mais jovem que Carla, dá pra calcular a idade da Ana primeiro. Depois usa a idade da Ana pra achar a da Beatriz.",
+    "solucao_completa": "- Carla tem 15 anos.\n- Ana é 7 anos mais jovem que Carla: 15 − 7 = 8 anos.\n- Ana é 5 anos mais jovem que Beatriz, ou seja, Beatriz é 5 anos MAIS VELHA que Ana: 8 + 5 = 13 anos.\n- Resposta certa: alternativa C (13)."
+  },
+  "11": {
+    "enunciado_md": "Na aula de educação física, Mariana correu do início até a 1ª bandeira, voltou ao início, depois correu até a 2ª bandeira, voltou ao início, correu até a 3ª bandeira e voltou ao início. Quantos metros Mariana percorreu nessa atividade?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "37"
+      },
+      {
+        "letra": "B",
+        "texto": "74"
+      },
+      {
+        "letra": "C",
+        "texto": "69"
+      },
+      {
+        "letra": "D",
+        "texto": "101"
+      },
+      {
+        "letra": "E",
+        "texto": "138"
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "medidas",
+      "operações basicas"
+    ],
+    "dica_curta": "Pensa em quantas vezes a Mariana passa por cada trechinho do caminho, do início até cada bandeira, antes de terminar a atividade.",
+    "primeiro_passo": "Descubra a distância do início até cada bandeira (some os trechinhos mostrados na figura, um atrás do outro). Depois lembra que cada distância até uma bandeira é percorrida DUAS vezes: ida e volta.",
+    "solucao_completa": "- Distância do início até a 1ª bandeira: 10 m.\n- Distância até a 2ª bandeira: 10 + 12 = 22 m.\n- Distância até a 3ª bandeira: 22 + 15 = 37 m.\n- Como ela vai e volta em cada uma: (10 × 2) + (22 × 2) + (37 × 2) = 20 + 44 + 74 = 138 m.\n- Resposta certa: alternativa E (138)."
+  },
+  "12": {
+    "enunciado_md": "Que algarismos estão faltando nos quadradinhos da adição ao lado para que ela fique correta e para que a diferença entre as parcelas dessa adição seja a menor possível?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2 e 9"
+      },
+      {
+        "letra": "B",
+        "texto": "3 e 8"
+      },
+      {
+        "letra": "C",
+        "texto": "4 e 7"
+      },
+      {
+        "letra": "D",
+        "texto": "5 e 6"
+      },
+      {
+        "letra": "E",
+        "texto": "0 e 1"
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O rascunho tinha o número da questão (\"12.\") grudado no início do enunciado; removido. Alternativas normalizadas de \"2 E 9\" para \"2 e 9\" (letra maiúscula era artefato do texto em caixa alta do PDF).",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "sistema de numeracao",
+      "operações basicas"
+    ],
+    "dica_curta": "Primeiro descubra a relação entre os dois algarismos que faltam usando a soma total — só depois pense em qual opção deixa a diferença menor.",
+    "primeiro_passo": "Chama de x o algarismo que falta em \"3▢\" e de y o que falta em \"2▢\". Sabendo que a soma dá 61, dá pra descobrir que x + y = 11. Agora pensa: quais pares de algarismos de 0 a 9 somam 11?",
+    "solucao_completa": "- Sendo x e y os algarismos que faltam: (30 + x) + (20 + y) = 61, ou seja, x + y = 11.\n- Pares possíveis (x de 2 a 9, pra y também ficar entre 0 e 9): (2,9), (3,8), (4,7), (5,6), (6,5), (7,4), (8,3), (9,2).\n- A diferença entre as parcelas é (30 + x) − (20 + y) = 10 + x − y. Queremos essa diferença a MENOR possível.\n- Testando cada par, a menor diferença acontece com x = 2 e y = 9: as parcelas ficam 32 e 29, com diferença de só 3.\n- Resposta certa: alternativa A (2 e 9)."
+  },
+  "13": {
+    "enunciado_md": "Para ir de sua casa para a escola, Débora precisa virar 4 vezes à esquerda e 2 vezes à direita. Qual das figuras abaixo mostra o caminho que Débora faz?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O rascunho tinha texto dos rótulos da figura (\"Casa casa escola\") grudado no final do enunciado; removido. Os recortes figuras/q13_fig2.png e figuras/q13_fig3.png cortam parcialmente o ícone/rótulo \"ESCOLA\" na borda esquerda, mas a imagem completa da questão (imagem_questao) está íntegra.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "orientação espacial"
+    ],
+    "dica_curta": "Vai percorrendo cada caminho com o dedo, começando na Casa, e conta só as viradas (esquerda ou direita) — não os trechos retos.",
+    "primeiro_passo": "Escolhe um caminho e imagina que está andando nele, começando na Casa. A cada esquina, decide se foi uma virada pra esquerda ou pra direita. O caminho certo precisa ter exatamente 4 viradas à esquerda e 2 à direita, nessa ordem, do início ao fim.",
+    "solucao_completa": "- Em cada alternativa, percorre o caminho da Casa até a Escola e anota cada virada como E (esquerda) ou D (direita).\n- Muitos caminhos têm o número errado de viradas, ou viram sempre pro mesmo lado (formando uma espiral só de um tipo de virada).\n- Só a alternativa C tem exatamente 4 viradas à esquerda e 2 à direita, na ordem certa, indo da Casa até a Escola.\n- Resposta certa: alternativa C."
+  },
+  "14": {
+    "enunciado_md": "Rosinha cortou a folha quadrada nas linhas pontilhadas. Além do quadradinho central, ela juntou os pedacinhos cortados e formou outros quadradinhos iguais ao central. No total, incluindo o central, com quantos quadradinhos ela ficou?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "7"
+      },
+      {
+        "letra": "D",
+        "texto": "8"
+      },
+      {
+        "letra": "E",
+        "texto": "9"
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte figuras/q14_fig0.png corta parcialmente os rótulos \"1 cm\" no topo e à direita da figura; a imagem completa da questão (imagem_questao) mostra as medidas por completo. (18/08/2026: primeiro_passo/solucao_completa foram reescritos após verificação achar que a explicação anterior descrevia uma figura errada — grade 3x3 em vez do catavento real de 4 diagonais. Resposta A/5 sempre esteve correta; refeito e reconferido por análise de pixel + shapely, ver saida/mirim_m2 STATUS.md.)",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "perímetro e área",
+      "quebra-cabeça espacial"
+    ],
+    "dica_curta": "Repara bem em ONDE cada linha pontilhada começa e termina — não é uma gradinha quadriculada, é um desenho tipo catavento. Isso muda quais pedacinhos conseguem se juntar de novo formando um quadradinho inteiro.",
+    "primeiro_passo": "Cada uma das 4 linhas pontilhadas liga um canto do quadrado ao PONTO MÉDIO do lado que fica na frente dele, sempre girando no mesmo sentido — é um desenho de catavento, não uma gradinha. Isso corta a folha em 9 pedaços: 1 quadradinho no meio (torto), 4 triangulinhos nas quinas e 4 pedaços maiores em forma de pipa, um do lado de cada triangulinho. Agora pensa: se você juntar cada triangulinho com a pipa vizinha dele, dá pra formar um quadradinho do mesmo tamanho que o do meio?",
+    "solucao_completa": "- A folha é um quadrado de 3 cm × 3 cm, então a área total é 3 × 3 = 9 cm².\n- As 4 linhas pontilhadas NÃO formam uma gradinha: cada uma liga um canto do quadrado ao ponto médio do lado que fica na frente dele, sempre girando no mesmo sentido — um desenho de catavento.\n- Isso corta a folha em 9 pedaços: 1 quadradinho torto no meio, 4 triangulinhos pequenos nas quinas, e 4 pedaços maiores (forma de pipa), um do lado de cada triangulinho.\n- O quadradinho do meio tem área 1,8 cm².\n- Cada triangulinho tem área 0,45 cm², e cada pipa tem área 1,35 cm² — juntos, 0,45 + 1,35 = 1,8 cm², exatamente do tamanho do quadradinho do meio! Encaixando esses dois pedacinhos (um trianguinho com a pipa vizinha), eles formam um novo quadradinho igualzinho ao central.\n- Como são 4 triangulinhos e 4 pipas (4 pares), isso dá mais 4 quadradinhos novos, além do do meio.\n- Total: 1 (do meio) + 4 (dos pares reencaixados) = 5 quadradinhos.\n- Resposta certa: alternativa **A (5)**."
+  },
+  "15": {
+    "enunciado_md": "Francisco foi para a padaria com 1 nota de 2 reais. Ele comprou apenas 1 doce, e voltou para casa com 3 moedas. Qual doce, com certeza, ele não comprou?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Um doce que custa 50 centavos."
+      },
+      {
+        "letra": "B",
+        "texto": "Um doce que custa 60 centavos."
+      },
+      {
+        "letra": "C",
+        "texto": "Um doce que custa 75 centavos."
+      },
+      {
+        "letra": "D",
+        "texto": "Um doce que custa 80 centavos."
+      },
+      {
+        "letra": "E",
+        "texto": "Um doce que custa 1 real e 30 centavos."
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "O rascunho classificou as alternativas como imagem (null), mas na verdade são texto corrido; alternativas extraídas da imagem. Esse mesmo texto das alternativas também estava grudado, por engano, ao final do enunciado (contaminação de OCR); removido de lá.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "operações basicas",
+      "lógica com pistas"
+    ],
+    "dica_curta": "Pensa no troco de cada doce e se dá pra formar esse valor usando EXATAMENTE 3 moedas comuns (5, 10, 25, 50 centavos e 1 real).",
+    "primeiro_passo": "Calcule quanto de troco sobra pra cada doce (200 centavos menos o preço). Depois, pra cada valor de troco, tenta achar 3 moedas (podem repetir o mesmo valor) que somem exatamente esse total.",
+    "solucao_completa": "- Francisco pagou com R$ 2,00 (200 centavos) e recebeu o troco em exatamente 3 moedas.\n- Troco de cada doce: 50c → 150c; 60c → 140c; 75c → 125c; 80c → 120c; R$1,30 → 70c.\n- Testando combinações de 3 moedas (valores possíveis: 1, 5, 10, 25, 50 centavos e R$1 = 100 centavos):\n  - 150c: 100 + 25 + 25 ✓\n  - 125c: 50 + 50 + 25 ✓\n  - 120c: 100 + 10 + 10 ✓\n  - 70c: 50 + 10 + 10 ✓\n  - 140c: por mais que se tente, não existe nenhuma combinação de 3 dessas moedas que some exatamente 140!\n- Como não dá pra formar 140 centavos com exatamente 3 moedas, o doce de 60 centavos com certeza NÃO foi o que ele comprou.\n- Resposta certa: alternativa B."
+  }
+}

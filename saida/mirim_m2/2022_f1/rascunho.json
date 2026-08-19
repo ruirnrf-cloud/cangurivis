@@ -1,0 +1,481 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m2",
+    "ano": 2022,
+    "fase": 1
+  },
+  "pdf_prova": "acervo/mirim/2022_F1_PROVA_M2.pdf",
+  "pdf_solucao": "acervo/mirim/2022_F1_SOL_M2.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2022-f1-m2-q01",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 60.5,
+        "y_bottom": 213.4
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q01_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f1/figuras/q01_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Qual número vai aparecer após encaixar as peças do quebra-cabeça?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "486"
+        },
+        {
+          "letra": "B",
+          "texto": "489"
+        },
+        {
+          "letra": "C",
+          "texto": "648"
+        },
+        {
+          "letra": "D",
+          "texto": "684"
+        },
+        {
+          "letra": "E",
+          "texto": "984"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2022-f1-m2-q02",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 211.4,
+        "y_bottom": 415.6
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q02_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f1/figuras/q02_fig0.png",
+        "saida/mirim_m2/2022_f1/figuras/q02_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Janaína é desenhista e começou a fazer o desenho de um castelo. Qual das alternativas abaixo não é um pedaço do desenho de janaína?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2022-f1-m2-q03",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 413.6,
+        "y_bottom": 571.4
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q03_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f1/figuras/q03_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Um carrinho de um supermercado tem 70 cm de comprimento. Dois carrinhos encaixados têm 80 cm de comprimento. Quantos centímetros de comprimento têm 5 carrinhos encaixados?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "100"
+        },
+        {
+          "letra": "B",
+          "texto": "110"
+        },
+        {
+          "letra": "C",
+          "texto": "120"
+        },
+        {
+          "letra": "D",
+          "texto": "130"
+        },
+        {
+          "letra": "E",
+          "texto": "140"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2022-f1-m2-q04",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 569.4,
+        "y_bottom": 721.0
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q04_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f1/figuras/q04_fig0.png",
+        "saida/mirim_m2/2022_f1/figuras/q04_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "A chave do desenho é capaz de abrir qual das fechaduras abaixo?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2022-f1-m2-q05",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 719.0,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q05_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Ontem maria disse: “depois de amanhã será quarta-feira”. Que dia é hoje?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "SEGUNDA-FEIRA"
+        },
+        {
+          "letra": "B",
+          "texto": "TERÇA-FEIRA"
+        },
+        {
+          "letra": "C",
+          "texto": "QUARTA-FEIRA"
+        },
+        {
+          "letra": "D",
+          "texto": "QUINTA-FEIRA"
+        },
+        {
+          "letra": "E",
+          "texto": "SEXTA-FEIRA"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2022-f1-m2-q06",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 60.0,
+        "y_bottom": 216.9
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q06_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f1/figuras/q06_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "O padeiro joão demora 45 minutos para assar seus pães. A figura ao lado mostra o horário em que ele acabou de tirar os pães de uma fornada. A que horas ele colocou esses pães para assar?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "12"
+        },
+        {
+          "letra": "B",
+          "texto": "11"
+        },
+        {
+          "letra": "C",
+          "texto": "10"
+        },
+        {
+          "letra": "D",
+          "texto": "1"
+        },
+        {
+          "letra": "E",
+          "texto": "2"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2022-f1-m2-q07",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 214.9,
+        "y_bottom": 377.3
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q07_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f1/figuras/q07_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Isabel e paula estão brincando de par ou ímpar. Cada uma delas mostra uma de suas mãos e elas contam o total de dedos mostrados. Paula escolheu par e mostrou a mão como na figura. De quantas maneiras isabel pode mostrar sua mão e ganhar a brincadeira?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2022-f1-m2-q08",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 375.3,
+        "y_bottom": 535.9
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q08_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f1/figuras/q08_fig0.png",
+        "saida/mirim_m2/2022_f1/figuras/q08_fig1.png",
+        "saida/mirim_m2/2022_f1/figuras/q08_fig2.png",
+        "saida/mirim_m2/2022_f1/figuras/q08_fig3.png",
+        "saida/mirim_m2/2022_f1/figuras/q08_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Quatro das figuras abaixo são desenhos da mesma da roda gigante do parque de diversões. Qual das figuras abaixo não é um desenho dessa roda gigante?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2022-f1-m2-q09",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 533.9,
+        "y_bottom": 698.9
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q09_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f1/figuras/q09_fig0.png",
+        "saida/mirim_m2/2022_f1/figuras/q09_fig1.png",
+        "saida/mirim_m2/2022_f1/figuras/q09_fig2.png",
+        "saida/mirim_m2/2022_f1/figuras/q09_fig3.png",
+        "saida/mirim_m2/2022_f1/figuras/q09_fig4.png",
+        "saida/mirim_m2/2022_f1/figuras/q09_fig5.png"
+      ],
+      "n_figuras": 6,
+      "enunciado_rascunho": "Os dois triângulos ao lado tem lados iguais. Joaquim montou figuras juntando esses triângulos pelos lados ou colocando um em cima do outro. Qual das seguintes figuras não pode ter sido uma das montadas por joaquim?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2022-f1-m2-q10",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 696.9,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q10_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Ana é 5 anos mais jovem do que beatriz e 7 anos mais jovem do que carla. Carla tem 15 anos. Quantos anos tem beatriz?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "8"
+        },
+        {
+          "letra": "B",
+          "texto": "12"
+        },
+        {
+          "letra": "C",
+          "texto": "13"
+        },
+        {
+          "letra": "D",
+          "texto": "15"
+        },
+        {
+          "letra": "E",
+          "texto": "18"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2022-f1-m2-q11",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 60.5,
+        "y_bottom": 225.1
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q11_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f1/figuras/q11_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Na aula de educação física, mariana correu do início até a 1ª bandeira, voltou ao início, depois correu até a 2ª bandeira, voltou ao início, correu até a 3ª bandeira e voltou ao início. Quantos metros mariana percorreu nessa atividade?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "37"
+        },
+        {
+          "letra": "B",
+          "texto": "74"
+        },
+        {
+          "letra": "C",
+          "texto": "69"
+        },
+        {
+          "letra": "D",
+          "texto": "101"
+        },
+        {
+          "letra": "E",
+          "texto": "138"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2022-f1-m2-q12",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 223.1,
+        "y_bottom": 378.5
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q12_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "12. Que algarismos estão faltando nos quadradinhos da adição ao lado para que ela fique correta e para que a diferença entre as parcelas dessa adição seja a menor possível?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "2 E 9"
+        },
+        {
+          "letra": "B",
+          "texto": "3 E 8"
+        },
+        {
+          "letra": "C",
+          "texto": "4 E 7"
+        },
+        {
+          "letra": "D",
+          "texto": "5 E 6"
+        },
+        {
+          "letra": "E",
+          "texto": "0 E 1"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2022-f1-m2-q13",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 376.5,
+        "y_bottom": 516.1
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q13_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f1/figuras/q13_fig0.png",
+        "saida/mirim_m2/2022_f1/figuras/q13_fig1.png",
+        "saida/mirim_m2/2022_f1/figuras/q13_fig2.png",
+        "saida/mirim_m2/2022_f1/figuras/q13_fig3.png",
+        "saida/mirim_m2/2022_f1/figuras/q13_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Para ir de sua casa para a escola, débora precisa virar 4 vezes à esquerda e 2 vezes à direita. Qual das figuras abaixo mostra o caminho que débora faz? Casa casa escola",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2022-f1-m2-q14",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 514.1,
+        "y_bottom": 672.9
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q14_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f1/figuras/q14_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Rosinha cortou a folha quadrada nas linhas pontilhadas. Além do quadradinho central, ela juntou os pedacinhos cortados e formou outros quadradinhos iguais ao central. No total, incluindo o central, com quantos quadradinhos ela ficou?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "5"
+        },
+        {
+          "letra": "B",
+          "texto": "6"
+        },
+        {
+          "letra": "C",
+          "texto": "7"
+        },
+        {
+          "letra": "D",
+          "texto": "8"
+        },
+        {
+          "letra": "E",
+          "texto": "9"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2022-f1-m2-q15",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 670.9,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f1/paginas/q15_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Francisco foi para a padaria com 1 nota de 2 reais. Ele comprou apenas 1 doce, e voltou para casa com 3 moedas. Qual doce, com certeza, ele não comprou? Um doce que custa 50 centavos. Um doce que custa 60 centavos. Um doce que custa 75 centavos. Um doce que custa 80 centavos. Um doce que custa 1 real e 30 centavos.",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    }
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m2",
+    "ano": 2024,
+    "fase": 1
+  },
+  "pdf_prova": "acervo/mirim/2024_F1_PROVA_M2.pdf",
+  "pdf_solucao": "acervo/mirim/2024_F1_SOL_M2.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2024-f1-m2-q01",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 60.5,
+        "y_bottom": 214.9
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q01_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f1/figuras/q01_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Joana colocou 1 tijolo em um prato da balança e no outro prato colocou meio tijolo junto com 1 quilo. A balança ficou equilibrada, como mostra a figura. Quanto pesa um tijolo inteiro?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "MEIO QUILO"
+        },
+        {
+          "letra": "B",
+          "texto": "1 QUILO"
+        },
+        {
+          "letra": "C",
+          "texto": "1 QUILO E MEIO"
+        },
+        {
+          "letra": "D",
+          "texto": "2 QUILOS"
+        },
+        {
+          "letra": "E",
+          "texto": "4 QUILOS"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2024-f1-m2-q02",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 212.9,
+        "y_bottom": 353.5
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q02_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f1/figuras/q02_fig0.png",
+        "saida/mirim_m2/2024_f1/figuras/q02_fig1.png",
+        "saida/mirim_m2/2024_f1/figuras/q02_fig2.png"
+      ],
+      "n_figuras": 3,
+      "enunciado_rascunho": "Quantos conjuntos com 1 lápis, 1 borracha e 1 apontador podem ser formados com os objetos da figura?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "8"
+        },
+        {
+          "letra": "B",
+          "texto": "7"
+        },
+        {
+          "letra": "C",
+          "texto": "6"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "4"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2024-f1-m2-q03",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 351.5,
+        "y_bottom": 515.0
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q03_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f1/figuras/q03_fig0.png",
+        "saida/mirim_m2/2024_f1/figuras/q03_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Qual é a diferença entre os comprimentos do lápis e do pincel?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "11 CENTÍMETROS"
+        },
+        {
+          "letra": "B",
+          "texto": "5 CENTÍMETROS"
+        },
+        {
+          "letra": "C",
+          "texto": "3 CENTÍMETROS"
+        },
+        {
+          "letra": "D",
+          "texto": "2 CENTÍMETROS"
+        },
+        {
+          "letra": "E",
+          "texto": "1 CENTÍMETROS"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2024-f1-m2-q04",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 513.0,
+        "y_bottom": 669.8
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q04_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f1/figuras/q04_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "André jogou um dado três vezes seguidas e contou 17 pontos nas faces que ficaram viradas para cima. Qual das seguintes faces apareceu entre as viradas para cima?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2024-f1-m2-q05",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 667.8,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q05_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f1/figuras/q05_fig0.png",
+        "saida/mirim_m2/2024_f1/figuras/q05_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Na figura, vemos uma mesma locomotiva puxando 2 ou 3 vagões iguais. O primeiro trem tem 34 metros de comprimento no total e o segundo trem tem 45 metros de comprimento no total qual é o comprimento da locomotiva?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "10 METROS"
+        },
+        {
+          "letra": "B",
+          "texto": "11 METROS"
+        },
+        {
+          "letra": "C",
+          "texto": "12 METROS"
+        },
+        {
+          "letra": "D",
+          "texto": "13 METROS"
+        },
+        {
+          "letra": "E",
+          "texto": "14 METROS"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2024-f1-m2-q06",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 56.9,
+        "y_bottom": 224.2
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q06_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f1/figuras/q06_fig0.png",
+        "saida/mirim_m2/2024_f1/figuras/q06_fig1.png",
+        "saida/mirim_m2/2024_f1/figuras/q06_fig2.png",
+        "saida/mirim_m2/2024_f1/figuras/q06_fig3.png",
+        "saida/mirim_m2/2024_f1/figuras/q06_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Ana fez um desenho formado por um triângulo, um círculo e um quadrado em seu caderno. Ela decidiu que, se pintasse uma das figuras de branco, pelo menos uma outra figura deveria ser pintada de preto. Qual desenho não pode ter sido aquele que ana fez?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2024-f1-m2-q07",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 222.2,
+        "y_bottom": 383.0
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q07_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f1/figuras/q07_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "O tamanho normal do nariz de pinóquio é 3 centímetros. Seu nariz aumenta 5 centímetros cada vez que ele fala uma mentira e volta para o tamanho normal quando fala uma verdade. Pinóquio disse 5 afirmações e, ao final, seu nariz ficou com 18 centímetros. Qual das afirmações que ele disse foi, com certeza, verdadeira?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "A PRIMEIRA"
+        },
+        {
+          "letra": "B",
+          "texto": "A SEGUNDA"
+        },
+        {
+          "letra": "C",
+          "texto": "A TERCEIRA"
+        },
+        {
+          "letra": "D",
+          "texto": "A QUARTA"
+        },
+        {
+          "letra": "E",
+          "texto": "A QUINTA"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2024-f1-m2-q08",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 381.0,
+        "y_bottom": 532.8
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q08_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Uma fábrica de brinquedos produzia bolas pequenas, médias e grandes, nas cores verde, azul e amarela. Ela deixou de fabricar bolas verdes pequenas e bolas amarelas de todos os tamanhos. Quantos tipos diferentes de bolas ela produz agora?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "5"
+        },
+        {
+          "letra": "C",
+          "texto": "6"
+        },
+        {
+          "letra": "D",
+          "texto": "7"
+        },
+        {
+          "letra": "E",
+          "texto": "8"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2024-f1-m2-q09",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 530.8,
+        "y_bottom": 687.8
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q09_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f1/figuras/q09_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "A figura é formada por 2 quadrados iguais e 2 triângulos iguais. Os lados dos triângulos são todos de mesmo tamanho. O comprimento do contorno da figura, destacado em linha mais grossa, é igual a 24 cm. Qual é o comprimento do contorno de toda a região cinza?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "10 CENTÍMETROS"
+        },
+        {
+          "letra": "B",
+          "texto": "12 CENTÍMETROS"
+        },
+        {
+          "letra": "C",
+          "texto": "14 CENTÍMETROS"
+        },
+        {
+          "letra": "D",
+          "texto": "16 CENTÍMETROS"
+        },
+        {
+          "letra": "E",
+          "texto": "20 CENTÍMETROS"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2024-f1-m2-q10",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 685.8,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q10_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Abel, beto, carlos, dudu e emanuel disputaram uma corrida. Abel chegou em 2o lugar, nem carlos nem dudu chegaram em 3o lugar, e beto chegou logo atrás de emanuel. Além disso, não houve empates. Em que lugar emanuel chegou?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1º"
+        },
+        {
+          "letra": "B",
+          "texto": "2º"
+        },
+        {
+          "letra": "C",
+          "texto": "3º"
+        },
+        {
+          "letra": "D",
+          "texto": "4º"
+        },
+        {
+          "letra": "E",
+          "texto": "5º"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2024-f1-m2-q11",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 62.6,
+        "y_bottom": 190.2
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q11_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "A soma dos números na linha de cima é igual à soma dos números na linha de baixo. Qual é o valor de ?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "12"
+        },
+        {
+          "letra": "C",
+          "texto": "16"
+        },
+        {
+          "letra": "D",
+          "texto": "18"
+        },
+        {
+          "letra": "E",
+          "texto": "24"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2024-f1-m2-q12",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 188.2,
+        "y_bottom": 337.5
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q12_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Cinco jogadores disputaram entre si um campeonato. Cada jogador jogou no máximo uma vez. O 1º jogador jogou somente uma vez. O 3º jogador jogou duas vezes, o 4º jogou três vezes e o 5º jogou quatro vezes. Quantas vezes jogou o 2º jogador?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "UMA"
+        },
+        {
+          "letra": "B",
+          "texto": "DUAS"
+        },
+        {
+          "letra": "C",
+          "texto": "TRÊS"
+        },
+        {
+          "letra": "D",
+          "texto": "QUATRO"
+        },
+        {
+          "letra": "E",
+          "texto": "CINCO"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2024-f1-m2-q13",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 335.5,
+        "y_bottom": 544.8
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q13_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Cinco amigos estavam juntos durante as férias e se esqueceram em que dia da semana estavam. Ao tentar descobrir que dia era, cada um deles disse o seguinte: Sse o seguinte: Alceu: “ontem foi quarta-feira”. Bruno: “amanhã será sexta-feira”. Célio: “anteontem foi terça-feira”. Davi: “depois de amanhã será sábado”. Ernesto: “hoje é segunda-feira”. Apenas um dos amigos estava errado. Qual deles errou?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "ALCEU"
+        },
+        {
+          "letra": "B",
+          "texto": "BRUNO"
+        },
+        {
+          "letra": "C",
+          "texto": "CÉLIO"
+        },
+        {
+          "letra": "D",
+          "texto": "DAVI"
+        },
+        {
+          "letra": "E",
+          "texto": "ERNESTO"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2024-f1-m2-q14",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 542.8,
+        "y_bottom": 704.8
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q14_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f1/figuras/q14_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Janaína tem 2 vasos diferentes, 4 rosas iguais e 3 margaridas iguais. A figura mostra uma possível maneira de colocar as flores nos vasos, com 3 rosas e 1 margarida em um dos vasos e 1 rosa e 2 margaridas no outro. De quantas maneiras diferentes ela pode fazer isso, de modo que haja pelo menos uma flor de cada tipo em cada vaso?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "6"
+        },
+        {
+          "letra": "C",
+          "texto": "8"
+        },
+        {
+          "letra": "D",
+          "texto": "10"
+        },
+        {
+          "letra": "E",
+          "texto": "12"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2024-f1-m2-q15",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 702.8,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f1/paginas/q15_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Vinícius coloca dentro de uma caixa 3 moedas de um real, 3 moedas de cinquenta centavos e 3 moedas de vinte e cinco centavos. Ele chacoalha a caixa para misturar as moedas e, sem olhar, retira 4 moedas da caixa. Podemos dizer, com certeza, que vinícius terá em mãos: Uma moeda de um real. Uma moeda de cada tipo. Pelo menos duas moedas de um mesmo tipo. Mais do que um real e cinquenta centavos. Menos do que três reais.",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    }
+  }
+}

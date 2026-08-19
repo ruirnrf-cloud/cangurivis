@@ -1,0 +1,524 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m2",
+    "ano": 2022,
+    "fase": 2
+  },
+  "pdf_prova": "acervo/mirim/2022_F2_PROVA_M2.pdf",
+  "pdf_solucao": "acervo/mirim/2022_F2_SOL_M2.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2022-f2-m2-q01",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 62.5,
+        "y_bottom": 226.3
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q01_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f2/figuras/q01_fig0.png",
+        "saida/mirim_m2/2022_f2/figuras/q01_fig1.png",
+        "saida/mirim_m2/2022_f2/figuras/q01_fig2.png",
+        "saida/mirim_m2/2022_f2/figuras/q01_fig3.png"
+      ],
+      "n_figuras": 4,
+      "enunciado_rascunho": "Ana monta estrelas usando pares de figuras geométricas iguais. Com triângulos e com quadrados, ela formou as seguintes estrelas: Quantas pontas terá a estrela que ana vai montar usando pentágonos?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "8"
+        },
+        {
+          "letra": "C",
+          "texto": "10"
+        },
+        {
+          "letra": "D",
+          "texto": "12"
+        },
+        {
+          "letra": "E",
+          "texto": "14"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2022-f2-m2-q02",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 224.3,
+        "y_bottom": 385.5
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q02_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f2/figuras/q02_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "O ábaco mostra o número 142. Manuela retirou um disco do pino das dezenas e o colocou no pino das unidades. A seguir, ela retirou outro disco do pino das dezenas e o colocou no pino das centenas. Qual número o ábaco passou a mostrar?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "34"
+        },
+        {
+          "letra": "B",
+          "texto": "124"
+        },
+        {
+          "letra": "C",
+          "texto": "223"
+        },
+        {
+          "letra": "D",
+          "texto": "304"
+        },
+        {
+          "letra": "E",
+          "texto": "324"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2022-f2-m2-q03",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 383.5,
+        "y_bottom": 527.9
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q03_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f2/figuras/q03_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Algumas crianças carimbaram suas mãos em uma cartolina. Todas as crianças carimbaram a mão esquerda. Quantas crianças esqueceram de carimbar a mão direita?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2022-f2-m2-q04",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 525.9,
+        "y_bottom": 675.5
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q04_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f2/figuras/q04_fig0.png",
+        "saida/mirim_m2/2022_f2/figuras/q04_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Oito bolas, com pesos indicados em quilogramas, estão em duas caixas, como na figura. Qual é o peso da bola que deve ser transferida de uma caixa para outra para que as caixas fiquem com o mesmo peso?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2022-f2-m2-q05",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 673.5,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q05_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f2/figuras/q05_fig0.png",
+        "saida/mirim_m2/2022_f2/figuras/q05_fig1.png",
+        "saida/mirim_m2/2022_f2/figuras/q05_fig2.png",
+        "saida/mirim_m2/2022_f2/figuras/q05_fig3.png",
+        "saida/mirim_m2/2022_f2/figuras/q05_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Maria eduarda forma torres de cubinhos idênticos num círculo, colocando um cubinho em cima do outro. Ao terminar uma torre, ela escreve no seu topo o número de cubinhos que ela usou. O que ela vê ao olhar de cima as torres da figura?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2022-f2-m2-q06",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 61.8,
+        "y_bottom": 200.7
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q06_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "O dia 1º de janeiro de 2000 caiu em um sábado. Em que dia da semana caiu 31 de janeiro de 2000?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "SEGUNDA-FEIRA"
+        },
+        {
+          "letra": "B",
+          "texto": "TERÇA-FEIRA"
+        },
+        {
+          "letra": "C",
+          "texto": "QUARTA-FEIRA"
+        },
+        {
+          "letra": "D",
+          "texto": "QUINTA-FEIRA"
+        },
+        {
+          "letra": "E",
+          "texto": "SEXTA-FEIRA"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2022-f2-m2-q07",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 198.7,
+        "y_bottom": 352.3
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q07_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Numa fila, há seis meninos esperando para entrar no laboratório. A professora separou os meninos, colocando entre cada dois deles três meninas. No total, quantos meninos e meninas ficaram na fila?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "10"
+        },
+        {
+          "letra": "B",
+          "texto": "12"
+        },
+        {
+          "letra": "C",
+          "texto": "18"
+        },
+        {
+          "letra": "D",
+          "texto": "21"
+        },
+        {
+          "letra": "E",
+          "texto": "25"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2022-f2-m2-q08",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 350.3,
+        "y_bottom": 513.8
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q08_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f2/figuras/q08_fig0.png",
+        "saida/mirim_m2/2022_f2/figuras/q08_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Emiliano gosta de empilhar cubinhos no canto da sala, como mostrado na figura abaixo. Ele usa 1 cubinho na 1ª pilha, 4 cubinhos na 2ª pilha, 10 cubinhos na 3ª pilha, e assim por diante. Quantos cubinhos ele terá que usar para montar a 5ª pilha?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "35"
+        },
+        {
+          "letra": "B",
+          "texto": "56"
+        },
+        {
+          "letra": "C",
+          "texto": "61"
+        },
+        {
+          "letra": "D",
+          "texto": "73"
+        },
+        {
+          "letra": "E",
+          "texto": "84"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2022-f2-m2-q09",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 511.8,
+        "y_bottom": 665.0
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q09_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f2/figuras/q09_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Uma régua de 15 centímetros tem uma marca a cada milímetro. Quantas marcas tem essa régua ao todo?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "15"
+        },
+        {
+          "letra": "B",
+          "texto": "31"
+        },
+        {
+          "letra": "C",
+          "texto": "149"
+        },
+        {
+          "letra": "D",
+          "texto": "150"
+        },
+        {
+          "letra": "E",
+          "texto": "151"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2022-f2-m2-q10",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 663.0,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q10_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "A data 22/02/2022 é interessante porque dia e mês juntos formam o ano ao contrário, ou seja, essa data pode ser lida tanto da esquerda para a direita, quanto da direita para a esquerda, apresentando o mesmo resultado. Em qual das seguintes datas isso também acontece?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "12/12/2112"
+        },
+        {
+          "letra": "B",
+          "texto": "23/02/3022"
+        },
+        {
+          "letra": "C",
+          "texto": "13/02/2031"
+        },
+        {
+          "letra": "D",
+          "texto": "21/12/1221"
+        },
+        {
+          "letra": "E",
+          "texto": "12/21/2121"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2022-f2-m2-q11",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 62.5,
+        "y_bottom": 206.2
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q11_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f2/figuras/q11_fig0.png",
+        "saida/mirim_m2/2022_f2/figuras/q11_fig1.png",
+        "saida/mirim_m2/2022_f2/figuras/q11_fig2.png",
+        "saida/mirim_m2/2022_f2/figuras/q11_fig3.png",
+        "saida/mirim_m2/2022_f2/figuras/q11_fig4.png",
+        "saida/mirim_m2/2022_f2/figuras/q11_fig5.png",
+        "saida/mirim_m2/2022_f2/figuras/q11_fig6.png",
+        "saida/mirim_m2/2022_f2/figuras/q11_fig7.png"
+      ],
+      "n_figuras": 8,
+      "enunciado_rascunho": "Três cartas de um baralho possuem figuras nas suas duas faces. As figuras não se repetem dentre as cartas. Essas cartas foram colocadas numa mesa de três maneiras diferentes. Qual o outro lado da carta com o sol?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2022-f2-m2-q12",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 204.2,
+        "y_bottom": 345.8
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q12_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "A sala de aula da professora débora tem 13 alunos e no mural da sala há um cartaz com os meses do ano. Cada aluno escreveu seu nome no mês em que nasceu. O que acontece com certeza, na sala da professora débora? Em todo mês há um aniversariante. Há um mês com 2 aniversariantes ou mais. Há um mês sem nenhum aniversariante. Há um mês com 3 aniversariantes. Todos os aniversariantes fazem aniversário no mesmo mês.",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2022-f2-m2-q13",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 343.8,
+        "y_bottom": 479.1
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q13_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f2/figuras/q13_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Com sua jarra cheia de suco, marta consegue encher 10 copos. Com essa mesma jarra ela consegue encher 2 garrafas. Quantos copos ela consegue encher com 3 garrafas cheias de suco?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "12"
+        },
+        {
+          "letra": "B",
+          "texto": "14"
+        },
+        {
+          "letra": "C",
+          "texto": "15"
+        },
+        {
+          "letra": "D",
+          "texto": "16"
+        },
+        {
+          "letra": "E",
+          "texto": "20"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2022-f2-m2-q14",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 477.1,
+        "y_bottom": 621.1
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q14_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f2/figuras/q14_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Patrícia viu que no cubo da figura só existem os números 1, 2 e 4 pintados nas faces. Cada um desses números aparece em alguma face. Ela coloca o cubo no canto e só três faces aparecem. É correto afirmar, com certeza, que nesse cubo: A soma dos números de todas as seis faces é no máximo 15. A soma dos números de todas as seis faces é no mínimo 10. O número 1 aparece no máximo 3 vezes nesse cubo. O número na face em contato com o chão é 2. O número 4 só aparece uma vez.",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2022-f2-m2-q15",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 619.1,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2022_f2/paginas/q15_full.png",
+      "figuras": [
+        "saida/mirim_m2/2022_f2/figuras/q15_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Um jogo consiste em descobrir uma senha de 3 algarismos. Para descobrir qual é essa senha um jogador faz várias tentativas e, em cada uma delas, recebe uma pista através de três bolinhas. Cada bolinha vermelha indica que existe um algarismo que não faz parte da senha; Cada bolinha amarela indica que existe um algarismo que faz parte da senha, mas está na posição errada; Cada bolinha verde indica que existe um algarismo que faz parte da senha e está na posição correta. Qual é a senha no jogo da figura?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "103"
+        },
+        {
+          "letra": "B",
+          "texto": "130"
+        },
+        {
+          "letra": "C",
+          "texto": "310"
+        },
+        {
+          "letra": "D",
+          "texto": "031"
+        },
+        {
+          "letra": "E",
+          "texto": "013"
+        }
+      ],
+      "confianca_texto": "alta"
+    }
+  }
+}

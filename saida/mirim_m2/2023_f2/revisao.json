@@ -1,0 +1,570 @@
+{
+  "1": {
+    "enunciado_md": "Qual das contas abaixo tem o maior resultado?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2 + 0 + 2 – 3"
+      },
+      {
+        "letra": "B",
+        "texto": "20 x 2 + 3"
+      },
+      {
+        "letra": "C",
+        "texto": "2 x 0 x 23"
+      },
+      {
+        "letra": "D",
+        "texto": "20 + 23"
+      },
+      {
+        "letra": "E",
+        "texto": "202 – 3"
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "Alternativas A e E tinham o sinal de subtração corrompido (caractere de encoding inválido) no rascunho; corrigido para '–' conforme a imagem. Alternativas B e C tinham 'X' maiúsculo no rascunho, normalizado para 'x' minúsculo conforme a imagem.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "operações básicas"
+    ],
+    "dica_curta": "Não precisa fazer só a conta mais difícil de cabeça — repara se alguma conta tem um truque escondido, tipo um número que zera tudo.",
+    "primeiro_passo": "Resolve cada conta com calma, uma de cada vez. Perceba que a alternativa C tem um '× 0' no meio — isso já derruba ela na hora, porque qualquer coisa vezes 0 vira 0.",
+    "solucao_completa": "Vamos resolver as 5 contas:\n- A) 2 + 0 + 2 – 3 = 1\n- B) 20 x 2 + 3 = 43\n- C) 2 x 0 x 23 = 0\n- D) 20 + 23 = 43\n- E) 202 – 3 = 199\n\nComparando os resultados (1, 43, 0, 43, 199), o maior de todos é 199.\n\nResposta: alternativa **E** (202 – 3)."
+  },
+  "2": {
+    "enunciado_md": "O dia primeiro de julho de 2023 caiu em um sábado. Dentre os dias desse mês listados abaixo, qual **não** caiu em um sábado?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8"
+      },
+      {
+        "letra": "B",
+        "texto": "15"
+      },
+      {
+        "letra": "C",
+        "texto": "22"
+      },
+      {
+        "letra": "D",
+        "texto": "27"
+      },
+      {
+        "letra": "E",
+        "texto": "29"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "padrões e sequências",
+      "operações básicas"
+    ],
+    "dica_curta": "Pensa em quantos dias tem uma semana, e o que acontece quando você soma esse número várias vezes seguidas.",
+    "primeiro_passo": "Se o dia 1 é sábado, o próximo sábado é 7 dias depois: dia 1 + 7 = dia 8. Continue somando 7 pra achar todos os sábados de julho.",
+    "solucao_completa": "Como uma semana tem 7 dias, todo sábado de julho está a uma distância de 7 dias do dia 1º:\n- 1 (sábado)\n- 1 + 7 = 8 (sábado)\n- 8 + 7 = 15 (sábado)\n- 15 + 7 = 22 (sábado)\n- 22 + 7 = 29 (sábado)\n\nOs sábados de julho são: 1, 8, 15, 22 e 29. Entre as alternativas (8, 15, 22, 27, 29), o único dia que **não** está nessa lista é o 27.\n\nResposta: alternativa **D** (27)."
+  },
+  "3": {
+    "enunciado_md": "O relógio da figura está 10 minutos atrasado. Se ele não estivesse atrasado, qual horário estaria marcando?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2h55"
+      },
+      {
+        "letra": "B",
+        "texto": "3h05"
+      },
+      {
+        "letra": "C",
+        "texto": "3h15"
+      },
+      {
+        "letra": "D",
+        "texto": "3h25"
+      },
+      {
+        "letra": "E",
+        "texto": "3h35"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "medidas",
+      "raciocínio visual"
+    ],
+    "dica_curta": "Antes de pensar no atraso, olha com atenção pros dois ponteiros e descubra que horas o relógio está marcando agora mesmo.",
+    "primeiro_passo": "O ponteiro grande (dos minutos) está apontando bem perto do número 1 — cada número no relógio vale 5 minutos, então o número 1 representa 5 minutos. O ponteiro pequeno (das horas) já passou um pouquinho do número 3.",
+    "solucao_completa": "Lendo o relógio da figura:\n- O ponteiro dos minutos aponta para perto do 1, ou seja, **5 minutos**.\n- O ponteiro das horas já passou um pouco do 3, confirmando que a hora é a das 3.\n\nEntão o relógio (atrasado) está marcando **3h05**.\n\nComo ele está 10 minutos atrasado, o horário real é 3h05 + 10 minutos = **3h15**.\n\nResposta: alternativa **C** (3h15)."
+  },
+  "4": {
+    "enunciado_md": "As casas das diagonais dos tabuleiros abaixo foram pintadas de preto. O tabuleiro maior está parcialmente coberto por um tecido azul. Quantos quadradinhos pretos foram pintados no tabuleiro maior?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15"
+      },
+      {
+        "letra": "B",
+        "texto": "16"
+      },
+      {
+        "letra": "C",
+        "texto": "17"
+      },
+      {
+        "letra": "D",
+        "texto": "18"
+      },
+      {
+        "letra": "E",
+        "texto": "19"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "padrões e sequências",
+      "contagem sistemática"
+    ],
+    "dica_curta": "Não dá pra contar o tabuleiro grande direto, porque ele está tampado — procura um padrão no número de quadradinhos pretos dos tabuleiros menores.",
+    "primeiro_passo": "Conta quantos quadradinhos pretos aparecem nos três primeiros tabuleiros (que dá pra ver inteiros): o primeiro tem 5, o segundo tem 9, o terceiro tem 13. Repara quanto o número aumenta de um tabuleiro pro outro.",
+    "solucao_completa": "Contando os quadradinhos pretos dos tabuleiros que estão completos:\n- 1º tabuleiro (3x3): 5 quadradinhos pretos\n- 2º tabuleiro (5x5): 9 quadradinhos pretos\n- 3º tabuleiro (7x7): 13 quadradinhos pretos\n\nRepare no padrão: de um tabuleiro pro outro, o número de quadradinhos pretos sempre aumenta 4 (5, 9, 13, ...).\n\nSeguindo esse padrão, o 4º tabuleiro (o maior, coberto pelo tecido) deve ter 13 + 4 = **17** quadradinhos pretos.\n\nResposta: alternativa **C** (17)."
+  },
+  "5": {
+    "enunciado_md": "Em um hotel, 20 quartos estão localizados em um único corredor, 10 de cada lado, com portas frente a frente. Os quartos de um lado são identificados com números ímpares em ordem crescente e os do outro lado, com números pares em ordem decrescente. Qual quarto está em frente ao quarto 17?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10"
+      },
+      {
+        "letra": "B",
+        "texto": "8"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "2"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "lógica com pistas",
+      "padrões e sequências"
+    ],
+    "dica_curta": "Olha os quartos que a figura já mostra frente a frente — será que rolou alguma relação entre os números dos dois lados?",
+    "primeiro_passo": "Olha os pares de quartos que já aparecem no desenho: o quarto 1 fica de frente pro quarto 20, e o quarto 3 fica de frente pro quarto 18. Some cada par e veja o que descobre.",
+    "solucao_completa": "Observando os quartos que ficam frente a frente:\n- Quarto 1 ↔ Quarto 20 → soma 21\n- Quarto 3 ↔ Quarto 18 → soma 21\n\nOu seja, todo par de quartos frente a frente soma sempre **21**! Isso faz sentido, porque de um lado os números ímpares crescem (1, 3, 5, ...) e do outro os pares decrescem (20, 18, 16, ...) na mesma velocidade.\n\nPara achar o quarto em frente ao quarto 17, basta calcular: 21 – 17 = **4**.\n\nResposta: alternativa **D** (4)."
+  },
+  "6": {
+    "enunciado_md": "A tabela mostra o número de meninos e meninas da sala 1 e somente o número de meninos da sala 2 de uma escola. O número de estudantes da sala 2 é o dobro do número de estudantes da sala 1. Qual é a quantidade de meninas da sala 2?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6"
+      },
+      {
+        "letra": "B",
+        "texto": "12"
+      },
+      {
+        "letra": "C",
+        "texto": "14"
+      },
+      {
+        "letra": "D",
+        "texto": "16"
+      },
+      {
+        "letra": "E",
+        "texto": "20"
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "leitura de tabelas e gráficos",
+      "operações básicas"
+    ],
+    "dica_curta": "Antes de pensar só nas meninas, descubra quantos alunos tem ao todo em cada sala.",
+    "primeiro_passo": "Na sala 1, some as meninas com os meninos pra saber o total de alunos dessa sala. Depois, use a informação de que a sala 2 tem o dobro de alunos da sala 1.",
+    "solucao_completa": "Total de alunos da sala 1: 8 meninas + 6 meninos = 14 alunos.\n\nComo a sala 2 tem o dobro de alunos da sala 1: 2 x 14 = 28 alunos na sala 2.\n\nA tabela já diz que a sala 2 tem 8 meninos. Então o número de meninas da sala 2 é: 28 – 8 = **20**.\n\nResposta: alternativa **E** (20)."
+  },
+  "7": {
+    "enunciado_md": "O tempo que Mariazinha leva para ir de sua casa para a escola é o mesmo que ela leva da escola para casa. A que horas Mariazinha chegou em casa hoje, se ela saiu da escola às 15h32?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "16h20"
+      },
+      {
+        "letra": "B",
+        "texto": "17h00"
+      },
+      {
+        "letra": "C",
+        "texto": "17h12"
+      },
+      {
+        "letra": "D",
+        "texto": "17h32"
+      },
+      {
+        "letra": "E",
+        "texto": "18h00"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O enunciado_rascunho veio inteiramente em caixa alta (diferente das demais questões, que já vieram em case normal na extração); reescrito em português normal a partir da imagem.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "medidas",
+      "operações básicas"
+    ],
+    "dica_curta": "Descubra primeiro quanto tempo Mariazinha demora no caminho, usando os dois relógios da ida — esse tempo vai se repetir na volta.",
+    "primeiro_passo": "Calcule quanto tempo passou entre 06h24 e 07h52. Esse é o tempo que ela sempre leva para ir (ou voltar) da escola.",
+    "solucao_completa": "Tempo de caminho (ida): de 06h24 até 07h52 passaram **1 hora e 28 minutos**.\n\nComo o tempo da volta é igual ao da ida, e ela saiu da escola às 15h32, basta somar:\n\n15h32 + 1h28min = 17h00.\n\nResposta: alternativa **B** (17h00)."
+  },
+  "8": {
+    "enunciado_md": "No dado da figura, a soma dos números em faces opostas sempre é 7. A face de cima está coberta por um cartão azul, mas sabemos que ela **não** tem um número par de pontos. Quantos pontos há na face de cima?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "5"
+      },
+      {
+        "letra": "E",
+        "texto": "6"
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "lógica com pistas",
+      "geometria de solidos"
+    ],
+    "dica_curta": "Usa a regra de que faces opostas somam 7 pra descobrir quais números do dado já estão \"ocupados\" antes de pensar no que sobrou pra face de cima.",
+    "primeiro_passo": "As duas faces visíveis do dado mostram 4 e 2 pontinhos. Como a soma das faces opostas é sempre 7, descubra quais são as faces opostas a essas duas — elas também já estão \"tomadas\", mesmo escondidas.",
+    "solucao_completa": "As faces visíveis mostram **4** e **2** pontos.\n\nComo faces opostas somam 7:\n- a face oposta ao 4 é o 3\n- a face oposta ao 2 é o 5\n\nEntão os números 4, 3, 2 e 5 já estão todos ocupados em alguma face do dado. Sobram apenas os números **1** e **6** para o par topo/base (a face de cima e a de baixo, escondida na mesa).\n\nComo a pista diz que a face de cima **não** tem um número par de pontos, ela não pode ser 6. Logo, a face de cima tem **1** ponto.\n\nResposta: alternativa **A** (1)."
+  },
+  "9": {
+    "enunciado_md": "Mariana escreveu em seu caderno todos os números de 2000 a 2023, incluindo esses dois números. Quantas vezes Mariana escreveu o algarismo zero?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "23"
+      },
+      {
+        "letra": "B",
+        "texto": "28"
+      },
+      {
+        "letra": "C",
+        "texto": "32"
+      },
+      {
+        "letra": "D",
+        "texto": "36"
+      },
+      {
+        "letra": "E",
+        "texto": "37"
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem sistemática",
+      "sistema de numeração"
+    ],
+    "dica_curta": "Em vez de escrever todos os números, organiza a contagem em grupinhos de 10 (2000 a 2009, depois 2010 a 2019...) e conta os zeros de cada grupo separadamente.",
+    "primeiro_passo": "No grupinho de 2000 a 2009, o número 2000 sozinho já tem três zeros (2-0-0-0), e cada um dos outros números desse grupo (2001, 2002, ..., 2009) tem exatamente dois zeros. Comece somando esse grupo.",
+    "solucao_completa": "Vamos contar os zeros em grupos de 10 números:\n\n- **2000 a 2009**: o número 2000 tem 3 zeros; os outros 9 números (2001 a 2009) têm 2 zeros cada → 3 + 9x2 = 3 + 18 = 21 zeros\n- **2010 a 2019**: o número 2010 tem 2 zeros; os outros 9 números (2011 a 2019) têm 1 zero cada → 2 + 9x1 = 2 + 9 = 11 zeros\n- **2020 a 2023**: o número 2020 tem 2 zeros; 2021, 2022 e 2023 têm 1 zero cada → 2 + 3x1 = 2 + 3 = 5 zeros\n\nSomando tudo: 21 + 11 + 5 = **37**.\n\nResposta: alternativa **E** (37)."
+  },
+  "10": {
+    "enunciado_md": "Pedrinho fez uma conta, mas seu irmãozinho deixou cair pingos de tinta sobre o papel. Qual é a soma dos algarismos que foram borrados?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12"
+      },
+      {
+        "letra": "B",
+        "texto": "13"
+      },
+      {
+        "letra": "C",
+        "texto": "14"
+      },
+      {
+        "letra": "D",
+        "texto": "15"
+      },
+      {
+        "letra": "E",
+        "texto": "18"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "operações básicas",
+      "lógica com pistas"
+    ],
+    "dica_curta": "Resolve a conta de trás pra frente, coluna por coluna, igual você faz numa continha de somar armada.",
+    "primeiro_passo": "Comece pela coluna das unidades (a última, da direita): um número borrado mais 3 tem que dar um número terminado em 1. Pensa em qual algarismo, somado com 3, dá um resultado terminado em 1.",
+    "solucao_completa": "Vamos resolver coluna por coluna, da direita pra esquerda:\n\n- **Unidades**: 3 + (algarismo borrado) termina em 1. Como 3 + 8 = 11, o algarismo é **8** (e \"vai 1\" pra próxima coluna).\n- **Dezenas**: 2 + 2 + 1 (que veio da conta anterior) = 5. Confere certinho com o 5 que já aparece no resultado, sem precisar de nenhum algarismo novo aqui.\n- **Centenas**: 0 + 0 = o algarismo borrado do resultado, que é **0**.\n- **Milhares**: (algarismo borrado) + 2 = 7, então esse algarismo é **5**.\n\nOu seja, a conta certinha é 5023 + 2028 = 7051.\n\nOs algarismos que sumiram são 5, 8 e 0. Somando: 5 + 8 + 0 = **13**.\n\nResposta: alternativa **B** (13)."
+  },
+  "11": {
+    "enunciado_md": "Sete cubinhos foram empilhados sobre uma mesa. Na figura, vemos 6 deles, pois um cubinho ficou escondido atrás da pilha. Qual pode ser a vista de cima desses 7 cubinhos?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "quebra-cabeça espacial",
+      "raciocínio visual"
+    ],
+    "dica_curta": "Pensa em quantos cubinhos formam cada \"coluna\" da pilha que você vê, e onde dá pra esconder mais um cubinho sem que ele apareça no desenho.",
+    "primeiro_passo": "Na figura você vê 3 colunas de cubinhos, com alturas 3, 2 e 1 — isso já são 6 cubinhos, exatamente como o enunciado disse. O 7º cubinho precisa estar bem atrás de uma dessas colunas, rente ao chão, pra ficar completamente escondido atrás da pilha.",
+    "solucao_completa": "As 3 colunas visíveis (alturas 3, 2 e 1) formam, vistas de cima, uma fileira de 3 quadradinhos — essa é a \"base\" da pilha que dá pra ver.\n\nO 7º cubinho está escondido atrás da pilha, encostadinho no chão, atrás da coluna do meio (a de altura 2) — dessa forma ele fica completamente tapado pelas colunas da frente e não aparece na figura.\n\nEntão, na vista de cima, além da fileira de 3 quadradinhos, aparece mais 1 quadradinho extra logo atrás do quadradinho do meio, formando um formato de T.\n\nResposta: alternativa **A**."
+  },
+  "12": {
+    "enunciado_md": "Os 5 cartões devem ser colocados nas 5 casas ao lado. Dois cartões só podem ser unidos quando os lados em contato tiverem números iguais. Qual cartão deve ser colocado na casa cinza?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O enunciado_rascunho tinha uma sequência de números soltos ('1 1 1 2 1 1 1 6 1 1 3 2 1 5 6 1 5 9 1 3 12.') contaminando o início do texto — provavelmente conteúdo dos cartões capturado por engano pela extração de texto. Removido; o enunciado ficou apenas com o texto real da questão.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "lógica com pistas"
+    ],
+    "dica_curta": "Presta atenção nos números das bordas de cada cartão: dois cartões só se encaixam quando os números dos lados que se tocam são iguais.",
+    "primeiro_passo": "Repara que só um cartão tem o número 5 numa borda (o cartão \"5, 3, 9, 1\"). Esse cartão só pode ficar encostado num outro cartão que também tenha um 5 numa borda que combine com ele. Comece encontrando esse encaixe.",
+    "solucao_completa": "Vamos chamar os cartões de (cima, esquerda, direita, baixo):\n- Cartão 1: (2, 1, 1, 1)\n- Cartão 2: (6, 1, 1, 1)\n- Cartão 3: (2, 1, 1, 3)\n- Cartão 4: (1, 1, 5, 6)\n- Cartão 5: (3, 5, 9, 1)\n\nO cartão 5 tem um 5 na esquerda — o único outro cartão com um 5 é o cartão 4, que tem 5 na direita. Então o cartão 4 e o cartão 5 se encaixam lado a lado (4 à esquerda, 5 à direita).\n\nAgora olhando o cartão 4: ele tem 1 em cima e 6 embaixo.\n- Precisamos de um cartão com \"baixo = 1\" para colocar acima dele: o cartão 1 serve (baixo = 1).\n- Precisamos de um cartão com \"cima = 6\" para colocar abaixo dele: o cartão 2 serve (cima = 6).\n\nSobra o cartão 3 para completar a casa da esquerda, e ele encaixa direitinho (direita = 1, igual à esquerda do cartão 4).\n\nConferindo tudo, o cartão que fica na casa cinza (o centro da cruz) é o **cartão 4**: 1 em cima, 1 na esquerda, 5 na direita, 6 embaixo.\n\nResposta: alternativa **D**."
+  },
+  "13": {
+    "enunciado_md": "Paulinho dobrou o cartão ao lado e obteve o cubo, conforme mostrado na figura. Qual é o desenho que está na face com ponto de interrogação?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte de figura q13_fig0.png capturou a questão inteira (enunciado + planificação + alternativas), não uma figura isolada. O conteúdo está completo e legível, mas o recorte não está limpo/isolado como esperado.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "quebra-cabeça espacial",
+      "orientação espacial"
+    ],
+    "dica_curta": "Pensa em quais duas carinhas do cartão nunca vão aparecer juntas no cubo montado — essas são as carinhas \"opostas\".",
+    "primeiro_passo": "Numa fileira de 4 carinhas coladas uma do lado da outra, a 1ª e a 3ª ficam opostas no cubo, e a 2ª e a 4ª também ficam opostas. A carinha de cima da cruz e a de baixo também formam um par de opostas. Descubra esses 3 pares antes de continuar.",
+    "solucao_completa": "Olhando o cartão planificado, os pares de carinhas opostas (que nunca aparecem juntas no cubo) são:\n- a carinha triste do meio da fileira ↔ a carinha brava\n- a carinha triste da pontinha esquerda ↔ a carinha sorridente \"maroto\"\n- a carinha feliz de cima ↔ a carinha feliz de baixo\n\nNo cubo montado da figura, a carinha **brava** aparece bem na frente. Isso quer dizer que estamos olhando o cubo do lado de trás da carinha triste do meio — e quando a gente olha um cubo \"pela parte de trás\", o que era esquerda vira direita!\n\nEntão a face com o \"?\", que fica do lado da carinha brava, não é a carinha \"maroto\" — é a **outra** carinha triste (a da pontinha esquerda do cartão).\n\nResposta: alternativa **B**."
+  },
+  "14": {
+    "enunciado_md": "Um cubo de 2 centímetros de lado foi dividido em 4 peças iguais. Qual das alternativas abaixo pode ser uma dessas peças?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "Os recortes de figura q14_fig1 a q14_fig4 cortam parcialmente as etiquetas de medida ('1 cm', '2 cm') nas bordas da imagem. O conteúdo essencial (a forma da peça) está presente e a imagem completa da página (imagem_questao) mostra todas as etiquetas por inteiro, mas os recortes individuais ficaram com cosmética imperfeita.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "geometria de solidos",
+      "medidas"
+    ],
+    "dica_curta": "Antes de olhar as formas, calcula quanto cada pedaço PRECISA valer de volume, já que o cubo foi repartido em 4 partes iguais.",
+    "primeiro_passo": "O cubo tem 2 cm de lado, então o volume dele é 2 x 2 x 2 = 8 cm³. Se ele foi dividido em 4 pedaços iguais, quanto vale o volume de cada pedaço?",
+    "solucao_completa": "Volume do cubo inteiro: 2 x 2 x 2 = 8 cm³.\n\nComo ele foi dividido em 4 peças iguais, cada peça tem volume 8 ÷ 4 = **2 cm³**.\n\nAgora vamos ver o volume de cada alternativa (lembrando que o volume de um prisma é área da base x altura):\n- A) triângulo de catetos 2 e 2 (área 2) x altura 2 = 4 cm³\n- B) parece metade do cubo = 4 cm³\n- C) cubinho de 1x1x1 = 1 cm³\n- D) caixa de 2 x 2 x 1 = 4 cm³\n- E) triângulo de catetos 1 e 2 (área 1) x altura 2 = 2 cm³ ✓\n\nSó a alternativa E dá exatamente 2 cm³, que é o volume que cada peça precisa ter.\n\nResposta: alternativa **E**."
+  },
+  "15": {
+    "enunciado_md": "Numa prateleira, há 6 livros à esquerda do livro mais grosso e 7 livros à direita do livro mais fino. O livro mais grosso e o livro mais fino estão ao lado do livro mais velho. Qual é o menor número possível de livros nessa prateleira?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10"
+      },
+      {
+        "letra": "B",
+        "texto": "11"
+      },
+      {
+        "letra": "C",
+        "texto": "12"
+      },
+      {
+        "letra": "D",
+        "texto": "13"
+      },
+      {
+        "letra": "E",
+        "texto": "14"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "lógica com pistas",
+      "contagem sistemática"
+    ],
+    "dica_curta": "Desenha a prateleira com letrinhas na cabeça e pensa em qual ordem o livro mais grosso, o mais fino e o mais velho podem ficar coladinhos um no outro.",
+    "primeiro_passo": "Já que o livro mais grosso E o livro mais fino ficam os dois do lado do livro mais velho, eles precisam ser os dois vizinhos dele — um de cada lado, tipo um sanduíche: fino-velho-grosso ou grosso-velho-fino.",
+    "solucao_completa": "Para ter o **menor** número de livros possível, os grupos de livros contados nas duas pistas (\"6 à esquerda do grosso\" e \"7 à direita do fino\") devem se sobrepor o máximo possível.\n\nIsso acontece quando o livro mais fino fica à esquerda do trio, e o mais grosso à direita: **fino — velho — grosso**.\n\nComo há 6 livros à esquerda do livro mais grosso, e o fino e o velho já são 2 desses vizinhos, o livro mais grosso é o 7º livro contando da esquerda (posições 1 a 6 antes dele). Isso coloca o fino na posição 5 e o velho na posição 6.\n\nComo há 7 livros à direita do livro mais fino (que está na posição 5), a prateleira tem 5 + 7 = **12** livros no total.\n\nResposta: alternativa **C** (12)."
+  }
+}

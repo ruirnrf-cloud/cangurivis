@@ -1,0 +1,517 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m2",
+    "ano": 2023,
+    "fase": 2
+  },
+  "pdf_prova": "acervo/mirim/2023_F2_PROVA_M2.pdf",
+  "pdf_solucao": "acervo/mirim/2023_F2_SOL_M2.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2023-f2-m2-q01",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 60.5,
+        "y_bottom": 185.0
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q01_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Qual das contas abaixo tem o maior resultado?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "2 + 0 + 2 – 3"
+        },
+        {
+          "letra": "B",
+          "texto": "20 X 2 + 3"
+        },
+        {
+          "letra": "C",
+          "texto": "2 X 0 X 23"
+        },
+        {
+          "letra": "D",
+          "texto": "20 + 23"
+        },
+        {
+          "letra": "E",
+          "texto": "202 – 3"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2023-f2-m2-q02",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 183.0,
+        "y_bottom": 318.9
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q02_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "O dia primeiro de julho de 2023 caiu em um sábado. Dentre os dias desse mês listados abaixo, qual não caiu em um sábado?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "8"
+        },
+        {
+          "letra": "B",
+          "texto": "15"
+        },
+        {
+          "letra": "C",
+          "texto": "22"
+        },
+        {
+          "letra": "D",
+          "texto": "27"
+        },
+        {
+          "letra": "E",
+          "texto": "29"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2023-f2-m2-q03",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 316.9,
+        "y_bottom": 468.1
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q03_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "O relógio da figura está 10 minutos atrasado. Se ele não estivesse atrasado, qual horário estaria marcando?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "2h55"
+        },
+        {
+          "letra": "B",
+          "texto": "3h05"
+        },
+        {
+          "letra": "C",
+          "texto": "3h15"
+        },
+        {
+          "letra": "D",
+          "texto": "3h25"
+        },
+        {
+          "letra": "E",
+          "texto": "3h35"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2023-f2-m2-q04",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 466.1,
+        "y_bottom": 644.6
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q04_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f2/figuras/q04_fig0.png",
+        "saida/mirim_m2/2023_f2/figuras/q04_fig1.png",
+        "saida/mirim_m2/2023_f2/figuras/q04_fig2.png",
+        "saida/mirim_m2/2023_f2/figuras/q04_fig3.png"
+      ],
+      "n_figuras": 4,
+      "enunciado_rascunho": "As casas das diagonais dos tabuleiros abaixo foram pintadas de preto. O tabuleiro maior está parcialmente coberto por um tecido azul. Quantos quadradinhos pretos foram pintados no tabuleiro maior?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "15"
+        },
+        {
+          "letra": "B",
+          "texto": "16"
+        },
+        {
+          "letra": "C",
+          "texto": "17"
+        },
+        {
+          "letra": "D",
+          "texto": "18"
+        },
+        {
+          "letra": "E",
+          "texto": "19"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2023-f2-m2-q05",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 642.6,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q05_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f2/figuras/q05_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Em um hotel, 20 quartos estão localizados em um único corredor, 10 de cada lado, com portas frente a frente. Os quartos de um lado são identificados com números ímpares em ordem crescente e os do outro lado, com números pares em ordem decrescente. Qual quarto está em frente ao quarto 17?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "10"
+        },
+        {
+          "letra": "B",
+          "texto": "8"
+        },
+        {
+          "letra": "C",
+          "texto": "6"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "2"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2023-f2-m2-q06",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 60.5,
+        "y_bottom": 231.1
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q06_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f2/figuras/q06_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "A tabela mostra o número de meninos e meninas da sala 1 e somente o número de meninos da sala 2 de uma escola. O número de estudantes da sala 2 é o dobro do número de estudantes da sala 1. Qual é a quantidade de meninas da sala 2?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "12"
+        },
+        {
+          "letra": "C",
+          "texto": "14"
+        },
+        {
+          "letra": "D",
+          "texto": "16"
+        },
+        {
+          "letra": "E",
+          "texto": "20"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2023-f2-m2-q07",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 229.1,
+        "y_bottom": 388.5
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q07_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f2/figuras/q07_fig0.png",
+        "saida/mirim_m2/2023_f2/figuras/q07_fig1.png",
+        "saida/mirim_m2/2023_f2/figuras/q07_fig2.png",
+        "saida/mirim_m2/2023_f2/figuras/q07_fig3.png"
+      ],
+      "n_figuras": 4,
+      "enunciado_rascunho": "O TEMPO QUE MARIAZINHA LEVA PARA IR DE SUA CASA PARA A ESCOLA É O MESMO QUE ELA LEVA DA ESCOLA PARA CASA. A QUE HORAS MARIAZINHA CHEGOU EM CASA HOJE, SE ELA SAIU DA ESCOLA ÀS 15h32?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "16h20"
+        },
+        {
+          "letra": "B",
+          "texto": "17h00"
+        },
+        {
+          "letra": "C",
+          "texto": "17h12"
+        },
+        {
+          "letra": "D",
+          "texto": "17h32"
+        },
+        {
+          "letra": "E",
+          "texto": "18h00"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2023-f2-m2-q08",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 386.5,
+        "y_bottom": 535.2
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q08_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f2/figuras/q08_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "No dado da figura, a soma dos números em faces opostas sempre é 7. A face de cima está coberta por um cartão azul, mas sabemos que ela não tem um número par de pontos. Quantos pontos há na face de cima?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2023-f2-m2-q09",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 533.2,
+        "y_bottom": 668.9
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q09_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Mariana escreveu em seu caderno todos os números de 2000 a 2023, incluindo esses dois números. Quantas vezes mariana escreveu o algarismo zero?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "23"
+        },
+        {
+          "letra": "B",
+          "texto": "28"
+        },
+        {
+          "letra": "C",
+          "texto": "32"
+        },
+        {
+          "letra": "D",
+          "texto": "36"
+        },
+        {
+          "letra": "E",
+          "texto": "37"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2023-f2-m2-q10",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 666.9,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q10_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Pedrinho fez uma conta, mas seu irmãozinho deixou cair pingos de tinta sobre o papel. Qual é a soma dos algarismos que foram borrados?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "12"
+        },
+        {
+          "letra": "B",
+          "texto": "13"
+        },
+        {
+          "letra": "C",
+          "texto": "14"
+        },
+        {
+          "letra": "D",
+          "texto": "15"
+        },
+        {
+          "letra": "E",
+          "texto": "18"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2023-f2-m2-q11",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 59.8,
+        "y_bottom": 235.7
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q11_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f2/figuras/q11_fig0.png",
+        "saida/mirim_m2/2023_f2/figuras/q11_fig1.png",
+        "saida/mirim_m2/2023_f2/figuras/q11_fig2.png",
+        "saida/mirim_m2/2023_f2/figuras/q11_fig3.png",
+        "saida/mirim_m2/2023_f2/figuras/q11_fig4.png",
+        "saida/mirim_m2/2023_f2/figuras/q11_fig5.png"
+      ],
+      "n_figuras": 6,
+      "enunciado_rascunho": "Sete cubinhos foram empilhados sobre uma mesa. Na figura, vemos 6 deles, pois um cubinho ficou escondido atrás da pilha. Qual pode ser a vista de cima desses 7 cubinhos?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2023-f2-m2-q12",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 233.7,
+        "y_bottom": 380.4
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q12_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "1 1 1 2 1 1 1 6 1 1 3 2 1 5 6 1 5 9 1 3 12. Os 5 cartões devem ser colocados nas 5 casas ao lado. Dois cartões só podem ser unidos quando os lados em contato tiverem números iguais. Qual cartão deve ser colocado na casa cinza?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2023-f2-m2-q13",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 378.4,
+        "y_bottom": 550.5
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q13_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f2/figuras/q13_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Paulinho dobrou o cartão ao lado e obteve o cubo, conforme mostrado na figura. Qual é o desenho que está na face com ponto de interrogação?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2023-f2-m2-q14",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 548.5,
+        "y_bottom": 695.0
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q14_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f2/figuras/q14_fig0.png",
+        "saida/mirim_m2/2023_f2/figuras/q14_fig1.png",
+        "saida/mirim_m2/2023_f2/figuras/q14_fig2.png",
+        "saida/mirim_m2/2023_f2/figuras/q14_fig3.png",
+        "saida/mirim_m2/2023_f2/figuras/q14_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Um cubo de 2 centímetros de lado foi dividido em 4 peças iguais. Qual das alternativas abaixo pode ser uma dessas peças?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2023-f2-m2-q15",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 693.0,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f2/paginas/q15_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Numa prateleira, há 6 livros à esquerda do livro mais grosso e 7 livros à direita do livro mais fino. O livro mais grosso e o livro mais fino estão ao lado do livro mais velho. Qual é o menor número possível de livros nessa prateleira?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "10"
+        },
+        {
+          "letra": "B",
+          "texto": "11"
+        },
+        {
+          "letra": "C",
+          "texto": "12"
+        },
+        {
+          "letra": "D",
+          "texto": "13"
+        },
+        {
+          "letra": "E",
+          "texto": "14"
+        }
+      ],
+      "confianca_texto": "alta"
+    }
+  }
+}

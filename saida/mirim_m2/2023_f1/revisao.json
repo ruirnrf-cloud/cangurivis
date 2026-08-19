@@ -1,0 +1,569 @@
+{
+  "1": {
+    "enunciado_md": "Qual das contas a seguir tem o maior resultado?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2 + 0 + 2 + 3"
+      },
+      {
+        "letra": "B",
+        "texto": "20 + 2 + 3"
+      },
+      {
+        "letra": "C",
+        "texto": "2 + 0 + 23"
+      },
+      {
+        "letra": "D",
+        "texto": "20 + 23"
+      },
+      {
+        "letra": "E",
+        "texto": "202 + 3"
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "sistema de numeracao",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Antes de somar tudo com calma, repara no TAMANHO dos números dentro de cada conta — um número bem grande já pesa muito na soma.",
+    "primeiro_passo": "Repara que a alternativa E tem um número diferente das outras: o 202 aparece sozinho, sem estar separado em partes. Calcula o resultado de cada uma das 5 contas, uma de cada vez, e depois compara todos os resultados pra ver qual é o maior.",
+    "solucao_completa": "Vamos calcular cada conta:\n- A) 2 + 0 + 2 + 3 = 7\n- B) 20 + 2 + 3 = 25\n- C) 2 + 0 + 23 = 25\n- D) 20 + 23 = 43\n- E) 202 + 3 = 205\n\nO segredo aqui é reparar que juntar os algarismos sem espaço (como em \"202\" ou \"23\") muda completamente o valor do número — não é a mesma coisa que somar os algarismos separados. Comparando os 5 resultados (7, 25, 25, 43, 205), o maior de todos é 205.\n\n**Resposta: alternativa E (202 + 3)**."
+  },
+  "2": {
+    "enunciado_md": "Valentina começou a montar uma fila com figuras geométricas. Essas são as 9 primeiras figuras: As figuras se repetem de 4 em 4. Quais são as próximas 3 figuras da fila de Valentina?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte figuras/q02_fig0.png pegou um pedaço de texto do enunciado colado na borda superior (recorte não saiu perfeitamente limpo), mas a sequência das 9 figuras está inteira e legível.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "padroes e sequencias"
+    ],
+    "dica_curta": "Descobre qual é o \"bloquinho\" de figuras que se repete, e em que ponto desse bloquinho a fila parou na 9ª figura.",
+    "primeiro_passo": "O bloco que se repete de 4 em 4 é: quadrado escuro, círculo claro, triângulo escuro, triângulo claro. Repara que a 9ª figura já é a primeira peça de um novo bloco (quadrado escuro de novo) — então pensa em qual seria a 10ª, a 11ª e a 12ª.",
+    "solucao_completa": "As 9 primeiras figuras seguem sempre o mesmo bloco de 4, repetido:\n\n**quadrado escuro, círculo claro, triângulo escuro, triângulo claro** (posições 1-4)\n**quadrado escuro, círculo claro, triângulo escuro, triângulo claro** (posições 5-8)\n**quadrado escuro** (posição 9 — começo de um 3º bloco)\n\nComo a 9ª figura é a 1ª peça do bloco (quadrado escuro), as próximas 3 figuras são exatamente a 2ª, 3ª e 4ª peça do bloco:\n- 10ª: círculo claro\n- 11ª: triângulo escuro\n- 12ª: triângulo claro\n\nEssa sequência (círculo claro, triângulo escuro, triângulo claro) é exatamente o que aparece na alternativa A.\n\n**Resposta: alternativa A**."
+  },
+  "3": {
+    "enunciado_md": "Marília carimbou com tinta suas mãos em uma folha de papel e o resultado ficou como na figura ao lado. Quantas vezes ela carimbou sua mão esquerda?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocinio visual",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Pra saber se uma mão carimbada é a esquerda ou a direita, repara onde fica o polegar (o dedo mais curto, meio separado dos outros 4) em relação ao resto da mão.",
+    "primeiro_passo": "Apoia sua própria mão esquerda na mesa, com a palma pra baixo e os dedos apontando pra longe de você: repara que o polegar fica sempre do MESMO lado em relação aos outros 4 dedos, não importa pra que direção a mão esteja apontando. Usa essa mesma lógica em cada carimbo da figura.",
+    "solucao_completa": "O truque é lembrar que numa mão esquerda de verdade, o polegar está sempre do mesmo lado da \"leque\" formado pelos outros 4 dedos — só que a orientação da mão muda em cada carimbo, porque elas estão em círculo.\n\nComparando cada um dos 8 carimbos com essa regra (imaginando sua própria mão apoiada na mesma posição de cada carimbo), dá pra separar as mãos esquerdas das direitas. Fazendo esse teste com cuidado, exatamente **3 carimbos** são de mão esquerda — os outros 5 são de mão direita.\n\n**Resposta: alternativa C (3)**."
+  },
+  "4": {
+    "enunciado_md": "O ábaco da figura representa o número 369. Qual dos números abaixo podemos obter retirando exatamente duas de suas peças?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "269"
+      },
+      {
+        "letra": "B",
+        "texto": "258"
+      },
+      {
+        "letra": "C",
+        "texto": "348"
+      },
+      {
+        "letra": "D",
+        "texto": "368"
+      },
+      {
+        "letra": "E",
+        "texto": "268"
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "sistema de numeracao",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Pensa em quantas peças (contas) cada alternativa tirou de CADA coluna do ábaco, comparando com o número 369.",
+    "primeiro_passo": "Pega cada alternativa e compara casa por casa com 369: quanto mudou na centena, quanto mudou na dezena, quanto mudou na unidade. O total de peças retiradas é a soma dessas diferenças — e precisa dar exatamente 2.",
+    "solucao_completa": "O ábaco tem 3 peças na centena, 6 na dezena e 9 na unidade (369). Vamos ver quantas peças cada alternativa tirou, casa por casa:\n\n- A) 269 → tirou 1 da centena (3→2), 0 da dezena, 0 da unidade = **1 peça** tirada\n- B) 258 → tirou 1 da centena, 1 da dezena, 1 da unidade = **3 peças** tiradas\n- C) 348 → tirou 0 da centena, 2 da dezena, 1 da unidade = **3 peças** tiradas\n- D) 368 → tirou 0 da centena, 0 da dezena, 1 da unidade = **1 peça** tirada\n- E) 268 → tirou 1 da centena (3→2), 0 da dezena, 1 da unidade (9→8) = **2 peças** tiradas ✓\n\nSó a alternativa E tira exatamente 2 peças no total (1 da centena e 1 da unidade).\n\n**Resposta: alternativa E (268)**."
+  },
+  "5": {
+    "enunciado_md": "A tabela a seguir mostra o número de meninos e meninas em duas salas, mas o número de meninos da sala 2 está apagado. As duas salas têm o mesmo número de estudantes. Quantos meninos há na sala 2?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "10"
+      },
+      {
+        "letra": "D",
+        "texto": "11"
+      },
+      {
+        "letra": "E",
+        "texto": "12"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "leitura de tabelas e graficos",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Descobre primeiro quantos estudantes tem a Sala 1 no total — isso já te dá a resposta pra Sala 2 também.",
+    "primeiro_passo": "Sala 1 tem 8 meninas + 9 meninos. Soma esses dois números pra achar o total de estudantes da Sala 1 — e lembra que a Sala 2 precisa ter esse MESMO total.",
+    "solucao_completa": "- Sala 1: 8 meninas + 9 meninos = **17 estudantes** no total.\n- Como as duas salas têm o mesmo número de estudantes, a Sala 2 também tem 17 estudantes.\n- Sala 2 já tem 6 meninas, então o número de meninos é: 17 − 6 = **11**.\n\n**Resposta: alternativa D (11)**."
+  },
+  "6": {
+    "enunciado_md": "Mônica disse: — Hoje é dia 15 e amanhã será sexta-feira! Magali respondeu: — Que legal, meu aniversário será na próxima quarta-feira. Em que dia do mês Magali faz aniversário?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "19"
+      },
+      {
+        "letra": "B",
+        "texto": "20"
+      },
+      {
+        "letra": "C",
+        "texto": "21"
+      },
+      {
+        "letra": "D",
+        "texto": "22"
+      },
+      {
+        "letra": "E",
+        "texto": "23"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "A questão não tem figura de verdade (é só texto), mas o rascunho listou 1 'figura' (figuras/q06_fig0.png); na verdade esse recorte só pegou por engano um pedaço das próprias alternativas C/D/E, não atrapalha nada pois o enunciado e as alternativas já estão corretos em texto.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "logica com pistas",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Antes de pensar no aniversário da Magali, descobre primeiro em que dia da semana estamos HOJE, usando a pista do \"amanhã\".",
+    "primeiro_passo": "Se amanhã (dia 16) é sexta-feira, então hoje (dia 15) é quinta-feira. Agora é só ir contando os dias, um por um, até chegar na próxima quarta-feira.",
+    "solucao_completa": "- Amanhã (dia 16) é sexta-feira, então hoje (dia 15) é **quinta-feira**.\n- Contando os dias a partir daí: 15 (quinta), 16 (sexta), 17 (sábado), 18 (domingo), 19 (segunda), 20 (terça), 21 (**quarta-feira**).\n- A próxima quarta-feira depois de hoje cai no dia **21**.\n\n**Resposta: alternativa C (21)**."
+  },
+  "7": {
+    "enunciado_md": "Em qual dos colares a seguir um terço das miçangas é da cor preta?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "proporcao e razao",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Conta quantas miçangas tem em CADA colar inteiro, e pensa se esse total consegue ser dividido em 3 partes iguais.",
+    "primeiro_passo": "Pra um terço das miçangas ser preta, o número TOTAL de miçangas do colar precisa ser um múltiplo de 3 (like 6, 9, 12...). Começa contando o total de cada colar pra já eliminar os que não servem.",
+    "solucao_completa": "Contando as miçangas de cada colar:\n\n- A) 8 miçangas no total, 2 pretas → 2/8 = 1/4 (não é 1/3)\n- B) 12 miçangas no total, 3 pretas → 3/12 = 1/4 (não é 1/3)\n- C) 8 miçangas no total, 3 pretas → nem dá pra formar terços exatos com 8 miçangas\n- D) 9 miçangas no total, 3 pretas → 3/9 = **1/3** ✓\n- E) 4 miçangas no total, 1 preta → 1/4 (não é 1/3)\n\nSó o colar D tem exatamente um terço das miçangas pretas (3 pretas em 9 no total).\n\n**Resposta: alternativa D**."
+  },
+  "8": {
+    "enunciado_md": "Observe as balanças de 2 pratos da figura. Qual bolinha é a mais pesada?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte figuras/q08_fig3.png saiu em branco (vazio). Não há perda de conteúdo: os ícones das 5 alternativas aparecem duplicados nos outros recortes (q08_fig0, fig1, fig4) e a figura principal das 4 balanças está inteira em q08_fig2.png.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "logica com pistas",
+      "medidas"
+    ],
+    "dica_curta": "Cada balança te dá uma pista de \"quem é mais pesado que quem\" — tenta juntar as 4 pistas numa única fila, da bolinha mais leve até a mais pesada.",
+    "primeiro_passo": "Em cada balança, o prato que fica MAIS BAIXO (mais perto do chão) tem a bolinha mais pesada, e o prato que fica mais alto tem a mais leve. Anota isso com cuidado pras 4 balanças — presta atenção especial na balança de baixo à direita, que é fácil de ler errado!",
+    "solucao_completa": "Lendo cada balança (o lado mais baixo é o mais pesado):\n\n- Balança 1: a bolinha preta lisa desce → **preta > triângulo**\n- Balança 2: a bolinha cinza desce → **cinza > branca**\n- Balança 3: a bolinha do hexágono desce → **hexágono > cinza**\n- Balança 4: a bolinha branca desce (repara bem, é a branca que fica embaixo!) → **branca > preta**\n\nAgora é só encadear tudo: hexágono > cinza > branca > preta > triângulo.\n\nA bolinha mais pesada de todas é a do **hexágono**.\n\n**Resposta: alternativa E**."
+  },
+  "9": {
+    "enunciado_md": "Janaína escolhe dois algarismos do número 1023 e, em seguida, multiplica esses dois algarismos. Quantos resultados diferentes ela pode obter?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "6"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "A questão não tem figura (é só texto), mas o rascunho listou 2 'figuras' (q09_fig0.png e q09_fig1.png); os dois recortes saíram completamente em branco, ou seja, são lixo de detecção e podem ser ignorados/removidos.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "combinatoria basica",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Lista todos os pares possíveis de algarismos do número, multiplica cada par, e depois conta quantos resultados DIFERENTES sobraram (sem repetir).",
+    "primeiro_passo": "Os algarismos de 1023 são 1, 0, 2 e 3 (todos diferentes entre si). Forma todos os pares possíveis escolhendo 2 desses 4 algarismos: são 6 pares ao todo. Começa listando eles.",
+    "solucao_completa": "Os algarismos de 1023 são **1, 0, 2, 3**. Os pares possíveis (escolhendo 2 diferentes) e seus produtos são:\n\n- 1 × 0 = 0\n- 1 × 2 = 2\n- 1 × 3 = 3\n- 0 × 2 = 0\n- 0 × 3 = 0\n- 2 × 3 = 6\n\nOs resultados que aparecem são: 0, 2, 3, 0, 0, 6. Tirando as repetições, os resultados DIFERENTES são **{0, 2, 3, 6}** — ou seja, 4 resultados diferentes.\n\n**Resposta: alternativa D (4)**."
+  },
+  "10": {
+    "enunciado_md": "Valentina olhou uma pilha de cubos de frente, de lado e de cima, conforme as figuras a seguir. Qual das seguintes pilhas é a que ela olhou?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O enunciado original tem 3 imagens pequenas embutidas no meio da frase (vista de frente, de lado e de cima), que a extração de texto não consegue representar; reescrevi a frase de forma corrida e legível preservando o sentido. As 3 vistas e as 5 pilhas das alternativas estão nos recortes figuras/q10_fig0.png a q10_fig7.png, todos legíveis (q10_fig0.png tem um pequeno pedaço de texto do título colado no topo, cosmético).",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "quebra-cabeca espacial",
+      "orientacao espacial"
+    ],
+    "dica_curta": "Usa as 3 vistas juntas, uma de cada vez: a de frente te dá a largura e a altura, a de lado te dá a profundidade, e a de cima te dá o formato da base (olhando de pássaro).",
+    "primeiro_passo": "A vista de frente mostra 3 colunas de largura, com a coluna do meio um pouco mais alta (2 cubinhos, não 1). Já a vista de cima mostra uma fileira de 3 cubinhos e mais 1 cubinho grudado saindo pra frente, bem no meio — isso quer dizer que tem um cubinho extra puxado pra frente que a vista de frente sozinha não deixa ver direito.",
+    "solucao_completa": "Vamos juntar as 3 pistas:\n\n- **De cima:** uma fileira de 3 cubinhos lado a lado (a \"base\" da pilha), mais 1 cubinho extra grudado à frente do cubinho do meio. Ou seja, a base tem 4 posições ocupadas no chão.\n- **De frente:** as 3 colunas (esquerda, meio, direita) aparecem com altura 1, exceto a coluna do meio, que tem altura 2 (mais um cubinho em cima).\n- **De lado:** dá pra confirmar que existe uma parte da pilha com 2 cubinhos de altura e outra com 1 só, profundidade 2.\n\nJuntando tudo: a pilha tem uma fileira de 3 cubinhos (esquerda, meio, direita), mais 1 cubinho puxado pra frente exatamente embaixo do cubinho do meio, e em cima desse cubinho da frente tem mais 1 cubinho empilhado (esse é o que aparece como \"altura 2\" na vista de frente). No total são 5 cubinhos — um deles (o do meio, lá atrás) fica escondido atrás da parte mais alta quando olhamos de frente.\n\nEssa é exatamente a pilha desenhada na alternativa D: dois cubinhos atrás dos lados, um cubinho puxado pra frente no meio, e mais um empilhado em cima dele.\n\n**Resposta: alternativa D**."
+  },
+  "11": {
+    "enunciado_md": "Débora tem duas caixas iguais. Ela empilha essas duas caixas de 3 maneiras diferentes e mede a altura das pilhas, conforme mostrado na figura. Quantos centímetros de altura tem a terceira pilha?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9"
+      },
+      {
+        "letra": "B",
+        "texto": "10"
+      },
+      {
+        "letra": "C",
+        "texto": "11"
+      },
+      {
+        "letra": "D",
+        "texto": "12"
+      },
+      {
+        "letra": "E",
+        "texto": "13"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte figuras/q11_fig0.png pegou pedaços de texto do enunciado colados na borda superior esquerda ('NA FIGURA.' e 'ILHA?'), mas as 3 pilhas com as medidas (5 cm, 8 cm, ?) estão inteiras e legíveis.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "medidas",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Cada caixa tem duas alturas possíveis, dependendo de como ela é apoiada (deitada ou em pé). Tenta descobrir essas duas alturas separadamente antes de calcular a 3ª pilha.",
+    "primeiro_passo": "Na primeira pilha as 2 caixas estão deitadas do mesmo jeito, uma em cima da outra, e a altura total é 5 cm. Então cada caixa deitada mede 5 ÷ 2 = 2,5 cm de altura. Agora usa essa informação na segunda pilha (que tem 8 cm) pra descobrir a altura da caixa em pé.",
+    "solucao_completa": "- **1ª pilha:** 2 caixas deitadas (do mesmo jeito) = 5 cm → cada caixa deitada mede 5 ÷ 2 = **2,5 cm**.\n- **2ª pilha:** 1 caixa deitada + 1 caixa em pé = 8 cm. Como a deitada mede 2,5 cm, a caixa em pé mede 8 − 2,5 = **5,5 cm**.\n- **3ª pilha:** 2 caixas em pé, uma em cima da outra = 2 × 5,5 = **11 cm**.\n\n**Resposta: alternativa C (11)**."
+  },
+  "12": {
+    "enunciado_md": "Arlindo desenhou copinhos para marcar a quantidade de copos de água que ele bebeu depois de fazer ginástica na sexta, no sábado e no domingo. Qual dos gráficos abaixo representa a quantidade de copos de água que Arlindo bebeu?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O enunciado_rascunho original tinha o texto 'sexta-feira sábado domingo' repetido 5 vezes colado no final (rótulos dos eixos dos 5 gráficos de alternativa vazando para o texto do enunciado); removi essa repetição, que não faz parte da pergunta.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "leitura de tabelas e graficos"
+    ],
+    "dica_curta": "Conta quantos copinhos tem em cada dia na tabela, e depois procura o gráfico com essas mesmas alturas, na mesma ordem (sexta, sábado, domingo).",
+    "primeiro_passo": "Contando os copinhos desenhados: sexta-feira tem 4, sábado tem 5, domingo tem 3. Agora procura o gráfico em que a barra de sábado é a mais alta de todas, e a de domingo é a mais baixa.",
+    "solucao_completa": "Contando os copinhos na tabela:\n- Sexta-feira: 4 copos\n- Sábado: 5 copos\n- Domingo: 3 copos\n\nProcurando um gráfico com essas alturas exatas na ordem sexta-sábado-domingo (4, 5, 3), só a alternativa E bate certinho — nos outros gráficos algum dia fica com a altura errada (por exemplo, domingo aparece maior ou menor do que deveria).\n\n**Resposta: alternativa E**."
+  },
+  "13": {
+    "enunciado_md": "Daniel abriu uma tangerina com 9 gomos, cada gomo com 2 ou 3 sementes. Após abrir e comer uma tangerina, ele recolheu 20 sementes. Quantos gomos dessa tangerina tinham 3 sementes?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "A figura da tangerina é só ilustrativa (não traz nenhuma informação numérica necessária para resolver); todos os dados estão no texto.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "operacoes basicas",
+      "logica com pistas"
+    ],
+    "dica_curta": "Pensa no que aconteceria se TODOS os 9 gomos tivessem só 2 sementes — e vê quantas sementes estariam \"sobrando\" pra bater com as 20 de verdade.",
+    "primeiro_passo": "Se os 9 gomos tivessem todos 2 sementes, o total seria 9 × 2 = 18 sementes. Mas o total real é 20, então sobram 2 sementes a mais pra distribuir. Cada vez que um gomo tem 3 sementes em vez de 2, ele adiciona só 1 semente extra ao total.",
+    "solucao_completa": "- Se todos os 9 gomos tivessem 2 sementes, o total seria 9 × 2 = **18 sementes**.\n- O total de verdade é **20 sementes**, ou seja, 2 sementes a mais que 18.\n- Cada gomo que tem 3 sementes (em vez de 2) contribui com exatamente **1 semente extra**.\n- Pra sobrar 2 sementes extras, precisamos de **2 gomos** com 3 sementes (os outros 7 gomos têm 2 sementes cada).\n- Conferindo: 7 × 2 + 2 × 3 = 14 + 6 = 20 ✓\n\n**Resposta: alternativa B (2)**."
+  },
+  "14": {
+    "enunciado_md": "Na roda gigante representada na figura, as cabines são todas igualmente espaçadas e numeradas em 1, 2, 3 etc. Quando a cabine de número 6 está no ponto mais baixo da roda gigante, a cabine de número 21 está no ponto mais alto. No total, quantas cabines tem essa roda gigante?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "21"
+      },
+      {
+        "letra": "B",
+        "texto": "27"
+      },
+      {
+        "letra": "C",
+        "texto": "30"
+      },
+      {
+        "letra": "D",
+        "texto": "36"
+      },
+      {
+        "letra": "E",
+        "texto": "37"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "orientacao espacial",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Pensa em quantas cabines tem entre a cabine 6 e a cabine 21, andando por cima da roda gigante — essa quantidade é justamente METADE do total de cabines.",
+    "primeiro_passo": "Do ponto mais baixo (cabine 6) até o ponto mais alto (cabine 21) é meia volta completa na roda gigante. Calcula a diferença entre os números dessas duas cabines pra saber quantas cabines cabem nessa meia volta.",
+    "solucao_completa": "- Do ponto mais baixo (cabine 6) até o ponto mais alto (cabine 21) é **meia volta** da roda gigante (metade de todas as cabines).\n- A diferença entre os números das cabines é 21 − 6 = **15**.\n- Essas 15 cabines de diferença correspondem à metade do total, então o total de cabines é 15 × 2 = **30**.\n\n**Resposta: alternativa C (30)**."
+  },
+  "15": {
+    "enunciado_md": "Irene usa 4 tipos de ervas para fazer seu chá: erva-cidreira, erva-doce, anis ou hortelã. Às vezes ela usa somente um tipo de erva, às vezes ela mistura 2 ou mais tipos de ervas. Ela não faz chás com anis e hortelã juntos. Quantos tipos diferentes de chá ela pode preparar?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6"
+      },
+      {
+        "letra": "B",
+        "texto": "8"
+      },
+      {
+        "letra": "C",
+        "texto": "9"
+      },
+      {
+        "letra": "D",
+        "texto": "10"
+      },
+      {
+        "letra": "E",
+        "texto": "11"
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "A figura dos potes de erva é só ilustrativa (mostra os nomes das 4 ervas, mas isso já está no texto); não traz informação numérica adicional.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "combinatoria basica"
+    ],
+    "dica_curta": "Pensa em quantas misturas diferentes dariam pra fazer SE não existisse a regra de anis e hortelã não poderem ficar juntos — depois é só tirar as que quebram essa regra.",
+    "primeiro_passo": "Com 4 ervas, cada uma pode entrar ou não entrar no chá (2 escolhas para cada erva), o que dá 2×2×2×2 = 16 combinações possíveis — mas isso inclui a combinação de \"nenhuma erva\", que não conta como chá. Agora pensa em quantas dessas combinações têm anis E hortelã juntos ao mesmo tempo.",
+    "solucao_completa": "- Com 4 ervas, cada uma pode entrar ou ficar de fora do chá: isso dá 2 × 2 × 2 × 2 = 16 combinações possíveis.\n- Tirando a combinação vazia (nenhuma erva, que não é um chá de verdade): 16 − 1 = **15 chás possíveis**, sem considerar ainda a regra do anis com hortelã.\n- Agora contamos quantos desses 15 têm anis E hortelã ao mesmo tempo: fixando anis e hortelã como presentes, sobram a erva-cidreira e a erva-doce, que podem entrar ou não (2 × 2 = 4 combinações) — todas essas 4 são proibidas.\n- Total permitido: 15 − 4 = **11 chás diferentes**.\n\n**Resposta: alternativa E (11)**."
+  }
+}

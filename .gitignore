@@ -1,0 +1,16 @@
+# PDFs originais das provas -- nao usados em runtime pelo app (so na extracao/
+# verificacao), 252MB, e sao material com direitos autorais das bancas.
+acervo/
+
+# segredos -- token do GitHub, PIN de acesso. Nunca commitar.
+.streamlit/secrets.toml
+
+# progresso do Rui agora vive num Gist privado, nao mais em arquivo local
+# (ver app/treino_app.py) -- este arquivo local ficou obsoleto.
+saida/progresso_rui.json
+saida/progresso_rui.json.bak*
+
+__pycache__/
+*.pyc
+.venv/
+venv/

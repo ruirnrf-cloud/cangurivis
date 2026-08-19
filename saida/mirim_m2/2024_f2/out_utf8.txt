@@ -1,0 +1,75 @@
+==== 1 ====
+solucao_md: 
+figura_essencial: True
+problemas: 
+
+==== 2 ====
+solucao_md: 
+figura_essencial: True
+problemas: 
+
+==== 3 ====
+solucao_md: 
+figura_essencial: True
+problemas: Os recortes de figuras isoladas (q03_fig0 e q03_fig1) juntam duas alternativas diferentes numa mesma imagem, e o recorte da montagem 3D (q03_fig3) traz um residuo de texto do enunciado (a palavra IGUAIS cortada) no canto superior esquerdo. A imagem completa da questao (imagem_questao) esta correta e legivel, entao isso nao impede o uso da questao.
+
+==== 4 ====
+solucao_md: 
+figura_essencial: True
+problemas: O enunciado do rascunho estava completamente embaralhado (texto fora de ordem, invertido letra a letra); foi reescrito a partir da leitura da imagem.
+
+==== 5 ====
+solucao_md: 
+figura_essencial: True
+problemas: O enunciado do rascunho tinha os rotulos Figura 1, figura 2, figura 3, figura 4, figura 5 colados no final (contaminacao vinda das legendas sob cada figura); removido.
+
+==== 6 ====
+solucao_md: 
+figura_essencial: True
+problemas: O enunciado do rascunho tinha No de alunos no de alunos colado no final (residuo do rotulo do eixo Y dos graficos); removido. As alternativas do rascunho traziam o texto M P C I repetido de forma identica nas 5 opcoes (rotulo dos eixos, nao o conteudo das opcoes) - as alternativas na verdade sao os 5 graficos de barra (imagem), entao alternativa_tipo foi corrigido para imagem. Os recortes de figura isolada (q06_fig0 a q06_fig4) tem um pequeno residuo do rotulo do eixo Y na borda esquerda, mas o conteudo de cada grafico esta integro.
+
+==== 7 ====
+solucao_md: 
+figura_essencial: True
+problemas: O recorte da figura isolada (q07_fig0) inclui residuos de texto do enunciado e das alternativas na borda superior/esquerda. A imagem completa da questao esta correta e legivel.
+
+==== 8 ====
+solucao_md: 
+figura_essencial: False
+problemas: 
+
+==== 9 ====
+solucao_md: 
+figura_essencial: False
+problemas: 
+
+==== 10 ====
+solucao_md: 
+figura_essencial: True
+problemas: 
+
+==== 11 ====
+solucao_md: 
+figura_essencial: True
+problemas: O recorte da figura isolada (q11_fig0) inclui um pequeno residuo de texto (final da pergunta ...am estudar?) na borda superior. O conteudo da figura (as 5 casas numeradas) esta completo e legivel.
+
+==== 12 ====
+solucao_md: 
+figura_essencial: True
+problemas: O recorte da figura isolada (q12_fig0) corta a prateleira de cima (os 3 chapeus) e parte do primeiro texto - o recorte comeca so a partir da segunda linha de marcadores. A imagem completa da questao (imagem_questao) mostra as 3 prateleiras e as 5 alternativas por completo e deve ser usada como referencia.
+
+==== 13 ====
+solucao_md: 
+figura_essencial: True
+problemas: 
+
+==== 14 ====
+solucao_md: 
+figura_essencial: True
+problemas: 
+
+==== 15 ====
+solucao_md: 
+figura_essencial: True
+problemas: O enunciado do rascunho tinha o texto das 5 alternativas colado no final (contaminacao), e alternativas_rascunho estava null mesmo sendo alternativas de texto. Enunciado cortado corretamente no ponto de interrogacao e as 5 alternativas foram extraidas a partir do texto que estava grudado nele.
+

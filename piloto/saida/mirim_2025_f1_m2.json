@@ -1,0 +1,798 @@
+{
+  "questoes": [
+    {
+      "numero": 1,
+      "id": "mirim-2025-f1-m2-q01",
+      "enunciado_md": "Jussara preencheu as casas da tabela ao lado até o número 22, seguindo a ordem natural dos números. Se ela continuar até o número 50, qual das peças abaixo poderá ser recortada da tabela?",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "imagem",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": null,
+          "descricao_imagem": "peça com células 22 / 32,33 / 44"
+        },
+        {
+          "letra": "B",
+          "texto": null,
+          "descricao_imagem": "peça com células 22 / 32,34 / 44"
+        },
+        {
+          "letra": "C",
+          "texto": null,
+          "descricao_imagem": "peça com células 22 / 32,33 / 43"
+        },
+        {
+          "letra": "D",
+          "texto": null,
+          "descricao_imagem": "peça com células 22 / 33,34 / 45"
+        },
+        {
+          "letra": "E",
+          "texto": null,
+          "descricao_imagem": "peça com células 22 / 32,33 / 42"
+        }
+      ],
+      "gabarito": "C",
+      "solucao_md": "Basta continuar e seguir a ordem natural. A tabela tem 10 colunas; a linha 3 vai de 21 a 30, a linha 4 de 31 a 40 e a linha 5 de 41 a 50. Isso dá 22 na linha 3 coluna 2, 32 e 33 na linha 4, e 43 na linha 5 coluna 3 — exatamente a peça C.",
+      "tem_figura": true,
+      "figura_essencial": true,
+      "tipo_figura": "tabuleiro",
+      "figuras": [
+        "figuras/q01_fig0.png",
+        "figuras/q01_fig1.png",
+        "figuras/q01_fig2.png",
+        "figuras/q01_fig3.png",
+        "figuras/q01_fig4.png",
+        "figuras/q01_fig5.png"
+      ],
+      "imagem_questao": "paginas/q01_full.png",
+      "problemas": [],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado"
+    },
+    {
+      "numero": 2,
+      "id": "mirim-2025-f1-m2-q02",
+      "enunciado_md": "Os preços dos presentes estão escritos em suas etiquetas. Qual é a diferença entre o preço do presente mais caro e o preço do mais barato?",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "texto",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 60,00"
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 62,00"
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 65,00"
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 70,00"
+        },
+        {
+          "letra": "E",
+          "texto": "R$ 78,00"
+        }
+      ],
+      "gabarito": "D",
+      "solucao_md": "O presente mais caro custa R$ 177,00 e o mais barato, R$ 107,00. A diferença de preços é de R$ 70,00.",
+      "tem_figura": true,
+      "figura_essencial": true,
+      "tipo_figura": "ilustracao_com_valores",
+      "figuras": [
+        "figuras/q02_fig0.png"
+      ],
+      "imagem_questao": "paginas/q02_full.png",
+      "problemas": [],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado"
+    },
+    {
+      "numero": 3,
+      "id": "mirim-2025-f1-m2-q03",
+      "enunciado_md": "Maria soltou, ao mesmo tempo, três bolas numeradas nos tubos ao lado. Como as bolas ficaram posicionadas ao sair do tubo?",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "texto",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "③②①"
+        },
+        {
+          "letra": "B",
+          "texto": "②③①"
+        },
+        {
+          "letra": "C",
+          "texto": "③①②"
+        },
+        {
+          "letra": "D",
+          "texto": "①③②"
+        },
+        {
+          "letra": "E",
+          "texto": "①②③"
+        }
+      ],
+      "gabarito": "C",
+      "solucao_md": "Como as bolas são idênticas, elas se deslocam com a mesma velocidade, e como são lançadas ao mesmo tempo, a bola 2 chegará primeiro à saída, seguida da bola 1 e, finalmente, pela bola 3. O resultado final é 3, 1, 2.",
+      "tem_figura": true,
+      "figura_essencial": true,
+      "tipo_figura": "diagrama",
+      "figuras": [
+        "figuras/q03_fig0.png"
+      ],
+      "imagem_questao": "paginas/q03_full.png",
+      "problemas": [],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado"
+    },
+    {
+      "numero": 4,
+      "id": "mirim-2025-f1-m2-q04",
+      "enunciado_md": "Dois atletas mediram suas alturas usando marcas igualmente espaçadas desenhadas em uma parede, como mostra a ilustração. O atleta maior mede 175 centímetros. Qual é a altura, em centímetros, do atleta menor?",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "texto",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "145"
+        },
+        {
+          "letra": "B",
+          "texto": "150"
+        },
+        {
+          "letra": "C",
+          "texto": "155"
+        },
+        {
+          "letra": "D",
+          "texto": "160"
+        },
+        {
+          "letra": "E",
+          "texto": "165"
+        }
+      ],
+      "gabarito": "B",
+      "solucao_md": "O atleta maior mede 175 centímetros, logo a altura de cada azulejo da parede é de 25 centímetros. O atleta menor mede o mesmo que a altura de 6 azulejos, ou seja, 150 centímetros.",
+      "tem_figura": true,
+      "figura_essencial": true,
+      "tipo_figura": "ilustracao_com_grade",
+      "figuras": [
+        "figuras/q04_fig0.png"
+      ],
+      "imagem_questao": "paginas/q04_full.png",
+      "problemas": [],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado"
+    },
+    {
+      "numero": 5,
+      "id": "mirim-2025-f1-m2-q05",
+      "enunciado_md": "Em uma garagem, os carros estacionam de frente ou de ré, um em cada vaga. Nessa garagem estão estacionados 3 carros. O carro que está chegando poderá estacionar de quantas maneiras diferentes?",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "texto",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5"
+        },
+        {
+          "letra": "B",
+          "texto": "6"
+        },
+        {
+          "letra": "C",
+          "texto": "10"
+        },
+        {
+          "letra": "D",
+          "texto": "12"
+        },
+        {
+          "letra": "E",
+          "texto": "22"
+        }
+      ],
+      "gabarito": "E",
+      "solucao_md": "Há 11 vagas disponíveis e duas maneiras de estacionar em cada uma dessas vagas (de frente ou de ré). Logo, pelo princípio multiplicativo, há 22 maneiras distintas do carro que está chegando estacionar.",
+      "tem_figura": true,
+      "figura_essencial": true,
+      "tipo_figura": "ilustracao",
+      "figuras": [
+        "figuras/q05_fig0.png"
+      ],
+      "imagem_questao": "paginas/q05_full.png",
+      "problemas": [],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado"
+    },
+    {
+      "numero": 6,
+      "id": "mirim-2025-f1-m2-q06",
+      "enunciado_md": "João tem os quatro adesivos abaixo (losango, quadrado, elipse vertical, elipse horizontal). Qual das figuras ele vai obter se colar todos os adesivos uns sobre os outros, centralizados, sem girar nenhum deles?",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "imagem",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": null,
+          "descricao_imagem": "contorno escalopado de 8 pontas"
+        },
+        {
+          "letra": "B",
+          "texto": null,
+          "descricao_imagem": "contorno com pontas assimétricas"
+        },
+        {
+          "letra": "C",
+          "texto": null,
+          "descricao_imagem": "contorno com pontas assimétricas variante"
+        },
+        {
+          "letra": "D",
+          "texto": null,
+          "descricao_imagem": "contorno estrelado de 8 pontas variante"
+        },
+        {
+          "letra": "E",
+          "texto": null,
+          "descricao_imagem": "contorno de 4 pontas (tipo flor de 4 pétalas)"
+        }
+      ],
+      "gabarito": "A",
+      "solucao_md": "Os cantos da segunda figura (o quadrado) não são cobertos pelas outras três figuras quando sobrepostas. As duas últimas figuras (as elipses) cobrem os cantos da primeira figura (o losango). Sobrepondo as quatro, na ordem losango, quadrado, elipse vertical, elipse horizontal, chega-se ao contorno da alternativa A.",
+      "tem_figura": true,
+      "figura_essencial": true,
+      "tipo_figura": "sobreposicao_de_formas",
+      "figuras": [
+        "figuras/q06_fig0.png",
+        "figuras/q06_fig1.png",
+        "figuras/q06_fig2.png",
+        "figuras/q06_fig3.png",
+        "figuras/q06_fig4.png",
+        "figuras/q06_fig5.png"
+      ],
+      "imagem_questao": "paginas/q06_full.png",
+      "problemas": [],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado"
+    },
+    {
+      "numero": 7,
+      "id": "mirim-2025-f1-m2-q07",
+      "enunciado_md": "De acordo com a tabela, quantos gramas de ração devem ser colocados por dia no aquário?",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "texto",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "70"
+        },
+        {
+          "letra": "B",
+          "texto": "95"
+        },
+        {
+          "letra": "C",
+          "texto": "100"
+        },
+        {
+          "letra": "D",
+          "texto": "105"
+        },
+        {
+          "letra": "E",
+          "texto": "110"
+        }
+      ],
+      "gabarito": "D",
+      "solucao_md": "A quantidade total de ração é 1×25 + 2×15 + 1×20 + 3×10 = 25 + 30 + 20 + 30 = 105 gramas (contando, na ilustração do aquário, 1 polvo, 2 peixes do segundo tipo, 1 peixe do terceiro tipo e 3 peixes do quarto tipo, cada um com o consumo diário indicado na tabela).",
+      "tem_figura": true,
+      "figura_essencial": true,
+      "tipo_figura": "tabela_e_ilustracao",
+      "figuras": [
+        "figuras/q07_fig0.png"
+      ],
+      "imagem_questao": "paginas/q07_full.png",
+      "problemas": [
+        "FALHA: recorte automatico da figura colou a questao inteira (enunciado + 5 alternativas + tabela + aquario) em vez de isolar so a figura. Causa raiz: os circulos vetoriais das letras A-E ficaram geometricamente proximos da tabela/aquario e o cluster_drawings do proprio MuPDF ja devolve tudo como 1 unico cluster, antes de qualquer merge feito no nosso codigo. Correcao proposta para a Fase 3: excluir da busca de figura a faixa de x onde already sabemos (pelos blocos de texto) que ficam os marcadores de alternativa."
+      ],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado_com_ressalva"
+    },
+    {
+      "numero": 8,
+      "id": "mirim-2025-f1-m2-q08",
+      "enunciado_md": "A faixa decorativa foi feita com palitos de fósforo de 3 centímetros de comprimento. Quantos palitos de fósforo foram usados?",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "texto",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "15"
+        },
+        {
+          "letra": "B",
+          "texto": "41"
+        },
+        {
+          "letra": "C",
+          "texto": "50"
+        },
+        {
+          "letra": "D",
+          "texto": "51"
+        },
+        {
+          "letra": "E",
+          "texto": "55"
+        }
+      ],
+      "gabarito": "D",
+      "solucao_md": "Cada 'casinha' tem 3+3 = 6 centímetros de comprimento na horizontal, logo a faixa inteira (30 cm) é formada por 30÷6 = 5 casinhas iguais a essa. Contando diretamente: 25 palitos na horizontal, 11 na vertical e 15 na diagonal, total 25+11+15 = 51 palitos. Outra solução: cada casinha usa 11 palitos, mas casas vizinhas compartilham 1 palito (4 compartilhamentos ao todo); como 5×11 = 55, a faixa tem 55-4 = 51 palitos.",
+      "tem_figura": true,
+      "figura_essencial": true,
+      "tipo_figura": "ilustracao_com_medida",
+      "figuras": [
+        "figuras/q08_fig0.png"
+      ],
+      "imagem_questao": "paginas/q08_full.png",
+      "problemas": [],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado"
+    },
+    {
+      "numero": 9,
+      "id": "mirim-2025-f1-m2-q09",
+      "enunciado_md": "As casas do tabuleiro ao lado devem ser preenchidas com os números de 1 a 9 de forma que as somas dos números nas duas primeiras linhas e colunas sejam as indicadas (linha 1 = 6, linha 2 = 22, coluna 1 = 20, coluna 2 = 14). Qual número deve ser escrito na casa cinza?",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "texto",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "5"
+        },
+        {
+          "letra": "C",
+          "texto": "6"
+        },
+        {
+          "letra": "D",
+          "texto": "7"
+        },
+        {
+          "letra": "E",
+          "texto": "8"
+        }
+      ],
+      "gabarito": "A",
+      "solucao_md": "Na primeira linha devem aparecer, em alguma ordem, 1, 2 e 3 (única forma de somar 6 com três números distintos menores que 9). O 3 deve estar na primeira casa da primeira coluna, pois só 9+8+3=20 fecha a soma da coluna 1. O 9 deve estar no meio da primeira coluna, pois 6+7+9=22 na segunda linha. O 6 não pode ficar na casa central (levaria a repetição ou inconsistência), então a casa central é 7 e a primeira linha fica 3, 2, 1 nessa ordem. O tabuleiro completo fica: linha1 = 3,2,1; linha2 = 9,7,6; linha3 = 8,5,4. A casa cinza (linha3, coluna3) recebe o número 4.",
+      "tem_figura": true,
+      "figura_essencial": true,
+      "tipo_figura": "tabuleiro",
+      "figuras": [
+        "figuras/q09_fig0.png"
+      ],
+      "imagem_questao": "paginas/q09_full.png",
+      "problemas": [],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado"
+    },
+    {
+      "numero": 10,
+      "id": "mirim-2025-f1-m2-q10",
+      "enunciado_md": "A figura ao lado é formada por 3 quadrados. Qual é a medida, em centímetros, do contorno dessa figura? (lados indicados: 3 cm e 4 cm)",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "texto",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20"
+        },
+        {
+          "letra": "B",
+          "texto": "22"
+        },
+        {
+          "letra": "C",
+          "texto": "24"
+        },
+        {
+          "letra": "D",
+          "texto": "28"
+        },
+        {
+          "letra": "E",
+          "texto": "30"
+        }
+      ],
+      "gabarito": "B",
+      "solucao_md": "A soma dos segmentos horizontais do contorno é 2×(3+4) = 2×7 = 14 cm, e a soma dos segmentos verticais é 2×4 = 8 cm (usando que 4-3=1 e 3-1=2 para os trechos internos em degrau). Logo, o contorno inteiro mede 14+8 = 22 cm.",
+      "tem_figura": true,
+      "figura_essencial": true,
+      "tipo_figura": "geometria",
+      "figuras": [
+        "figuras/q10_fig0.png"
+      ],
+      "imagem_questao": "paginas/q10_full.png",
+      "problemas": [],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado"
+    },
+    {
+      "numero": 11,
+      "id": "mirim-2025-f1-m2-q11",
+      "enunciado_md": "Quantos quadrados da cor cinza serão formados quando as quatro peças de quebra-cabeça forem encaixadas corretamente, respeitando a forma e a cor?",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "texto",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0"
+        },
+        {
+          "letra": "B",
+          "texto": "1"
+        },
+        {
+          "letra": "C",
+          "texto": "2"
+        },
+        {
+          "letra": "D",
+          "texto": "3"
+        },
+        {
+          "letra": "E",
+          "texto": "4"
+        }
+      ],
+      "gabarito": "D",
+      "solucao_md": "Numerando as peças de 1 a 4 da esquerda para a direita: a peça 3 é a única que se encaixa na peça 1 (pelo formato circular branco). As peças 2 e 4 são idênticas e se encaixam entre si. Encaixando as quatro peças, formam-se 3 quadrados no interior do quebra-cabeça.",
+      "tem_figura": true,
+      "figura_essencial": true,
+      "tipo_figura": "quebra_cabeca",
+      "figuras": [
+        "figuras/q11_fig0.png",
+        "figuras/q11_fig1.png",
+        "figuras/q11_fig2.png"
+      ],
+      "imagem_questao": "paginas/q11_full.png",
+      "problemas": [
+        "RESSALVA LEVE: das 4 peças do quebra-cabeça, 2 saíram juntas no mesmo recorte (figuras/q11_fig1.png) em vez de isoladas uma a uma; nenhuma peça foi perdida ou cortada, é só uma junção cosmética."
+      ],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado_com_ressalva"
+    },
+    {
+      "numero": 12,
+      "id": "mirim-2025-f1-m2-q12",
+      "enunciado_md": "João montou as cinco peças abaixo com cubinhos. Ele usou um pingo de cola para unir duas faces em contato. Em qual peça ele usou mais pingos de cola?",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "imagem",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": null,
+          "descricao_imagem": "peça em L com 5 cubos, 5 pingos de cola"
+        },
+        {
+          "letra": "B",
+          "texto": null,
+          "descricao_imagem": "peça em degrau com 6 cubos, 6 pingos de cola"
+        },
+        {
+          "letra": "C",
+          "texto": null,
+          "descricao_imagem": "peça em coluna 2x3 com 6 cubos, 7 pingos de cola"
+        },
+        {
+          "letra": "D",
+          "texto": null,
+          "descricao_imagem": "peça em L com 5 cubos, 5 pingos de cola"
+        },
+        {
+          "letra": "E",
+          "texto": null,
+          "descricao_imagem": "peça em degrau com 6 cubos, 6 pingos de cola"
+        }
+      ],
+      "gabarito": "C",
+      "solucao_md": "Contando os pingos de cola em cada figura: A) 5 pingos, B) 6 pingos, C) 7 pingos, D) 5 pingos, E) 6 pingos. A peça em que foi usada mais pingos de cola é a da alternativa C.",
+      "tem_figura": true,
+      "figura_essencial": true,
+      "tipo_figura": "solido_3d",
+      "figuras": [
+        "figuras/q12_fig0.png",
+        "figuras/q12_fig1.png",
+        "figuras/q12_fig2.png",
+        "figuras/q12_fig3.png",
+        "figuras/q12_fig4.png"
+      ],
+      "imagem_questao": "paginas/q12_full.png",
+      "problemas": [],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado"
+    },
+    {
+      "numero": 13,
+      "id": "mirim-2025-f1-m2-q13",
+      "enunciado_md": "Roberto anda em linha reta e vira à direita sempre que encontra uma parede, como mostra o exemplo ao lado. No labirinto abaixo, por qual ponto ele deverá sair?",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "texto",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A"
+        },
+        {
+          "letra": "B",
+          "texto": "B"
+        },
+        {
+          "letra": "C",
+          "texto": "C"
+        },
+        {
+          "letra": "D",
+          "texto": "D"
+        },
+        {
+          "letra": "E",
+          "texto": "E"
+        }
+      ],
+      "gabarito": "A",
+      "solucao_md": "Seguindo a regra de virar à direita a cada parede encontrada a partir da entrada, o trajeto de Roberto o leva a sair do labirinto pelo ponto A.",
+      "tem_figura": true,
+      "figura_essencial": true,
+      "tipo_figura": "labirinto",
+      "figuras": [
+        "figuras/q13_fig0.png",
+        "figuras/q13_fig1.png"
+      ],
+      "imagem_questao": "paginas/q13_full.png",
+      "problemas": [],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado"
+    },
+    {
+      "numero": 14,
+      "id": "mirim-2025-f1-m2-q14",
+      "enunciado_md": "Ernesto quer colocar as peças de um quebra-cabeças sobre um quadriculado, sem girar ou virar as peças. Ele já colocou algumas delas, conforme mostrado na figura, e ainda falta colocar cinco peças, mostradas abaixo. Qual dessas peças irá cobrir o quadrado com o ponto de interrogação?",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "imagem",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": null,
+          "descricao_imagem": "peça de 2 quadrados na diagonal do tabuleiro isométrico"
+        },
+        {
+          "letra": "B",
+          "texto": null,
+          "descricao_imagem": "peça quadrada 2x2 (4 quadrados)"
+        },
+        {
+          "letra": "C",
+          "texto": null,
+          "descricao_imagem": "peça reta de 4 quadrados"
+        },
+        {
+          "letra": "D",
+          "texto": null,
+          "descricao_imagem": "peça reta de 2 quadrados"
+        },
+        {
+          "letra": "E",
+          "texto": null,
+          "descricao_imagem": "peça reta de 3 quadrados"
+        }
+      ],
+      "gabarito": "D",
+      "solucao_md": "Há duas maneiras de posicionar a peça da alternativa B no quadriculado; numa delas um quadrado fica isolado, e Ernesto não tem peça de 1 quadrado só — por isso B fica na outra posição. Isso define as posições de A e C, o que por sua vez define D e E. A peça da alternativa D é a que cobre o quadrado com o ponto de interrogação.",
+      "tem_figura": true,
+      "figura_essencial": true,
+      "tipo_figura": "quebra_cabeca",
+      "figuras": [
+        "figuras/q14_fig0.png",
+        "figuras/q14_fig1.png",
+        "figuras/q14_fig2.png"
+      ],
+      "imagem_questao": "paginas/q14_full.png",
+      "problemas": [],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado"
+    },
+    {
+      "numero": 15,
+      "id": "mirim-2025-f1-m2-q15",
+      "enunciado_md": "Observe as meninas: Ana, Bia e Cléo estão de olhos abertos; Cléo, Duda e Eva estão de boca aberta; Bia, Cléo e Eva estão com laço na cabeça; Duda e Ana estão lado a lado. Qual é a ordem das meninas, da esquerda para a direita?",
+      "tipo": "multipla_escolha",
+      "alternativa_tipo": "texto",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Duda, Ana, Cléo, Bia, Eva"
+        },
+        {
+          "letra": "B",
+          "texto": "Duda, Ana, Cléo, Eva, Bia"
+        },
+        {
+          "letra": "C",
+          "texto": "Eva, Bia, Duda, Ana, Cléo"
+        },
+        {
+          "letra": "D",
+          "texto": "Eva, Bia, Cléo, Ana, Duda"
+        },
+        {
+          "letra": "E",
+          "texto": "Bia, Eva, Cléo, Duda, Ana"
+        }
+      ],
+      "gabarito": "D",
+      "solucao_md": "Cléo está de olhos abertos, boca aberta e com laço — ela é a menina do meio. Eva está de boca aberta e laço — ela é a mais à esquerda. Duda e Ana estão juntas, então são as duas mais à direita; como Ana está de olhos abertos e Duda de boca aberta, Ana é a quarta e Duda a última. Bia só pode ser a segunda (e de fato está de olhos abertos e laço). Ordem final: Eva, Bia, Cléo, Ana, Duda.",
+      "tem_figura": true,
+      "figura_essencial": false,
+      "tipo_figura": "ilustracao_personagens",
+      "figuras": [
+        "figuras/q15_fig0.png"
+      ],
+      "imagem_questao": "paginas/q15_full.png",
+      "problemas": [],
+      "fonte": {
+        "olimpiada": "Olimpíada Mirim - OBMEP",
+        "nivel": "Mirim 2",
+        "ano": 2025,
+        "fase": 1,
+        "edicao": "4a",
+        "pdf_prova": "acervo/mirim/2025_F1_PROVA_M2.pdf",
+        "pdf_solucao": "acervo/mirim/2025_F1_SOL_M2.pdf"
+      },
+      "revisado_por": "piloto manual (Claude, leitura visual direta)",
+      "status": "aprovado"
+    }
+  ],
+  "total": 15
+}

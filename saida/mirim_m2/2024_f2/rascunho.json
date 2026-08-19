@@ -1,0 +1,540 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m2",
+    "ano": 2024,
+    "fase": 2
+  },
+  "pdf_prova": "acervo/mirim/2024_F2_PROVA_M2.pdf",
+  "pdf_solucao": "acervo/mirim/2024_F2_SOL_M2.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2024-f2-m2-q01",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 61.1,
+        "y_bottom": 178.5
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q01_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f2/figuras/q01_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Quantos triângulos brancos há na figura?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "8"
+        },
+        {
+          "letra": "C",
+          "texto": "12"
+        },
+        {
+          "letra": "D",
+          "texto": "16"
+        },
+        {
+          "letra": "E",
+          "texto": "20"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2024-f2-m2-q02",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 176.5,
+        "y_bottom": 303.9
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q02_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f2/figuras/q02_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Quantas bolinhas brancas devem ser pintadas de preto para que o número de bolinhas pretas fique igual ao dobro do número de bolinhas brancas?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2024-f2-m2-q03",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 301.9,
+        "y_bottom": 519.7
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q03_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f2/figuras/q03_fig0.png",
+        "saida/mirim_m2/2024_f2/figuras/q03_fig1.png",
+        "saida/mirim_m2/2024_f2/figuras/q03_fig2.png",
+        "saida/mirim_m2/2024_f2/figuras/q03_fig3.png"
+      ],
+      "n_figuras": 4,
+      "enunciado_rascunho": "Laura fez a montagem ao lado usando 21 cubinhos iguais. Ela olhou a montagem de cima e fez um desenho do que viu. Qual dos desenhos abaixo pode ser o que laura fez?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2024-f2-m2-q04",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 517.7,
+        "y_bottom": 686.1
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q04_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f2/figuras/q04_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "S o l e n i h c s e s s e d s n u g l a . O ã ç a t a n e d a l u a a a r a p s o l e n i h c s u e s m a r a r i t e r s o n u l a s o estão mostrados na figura abaixo. Qual é o menor número de alunos que podem ter participado dessa aula?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "5"
+        },
+        {
+          "letra": "D",
+          "texto": "6"
+        },
+        {
+          "letra": "E",
+          "texto": "7"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2024-f2-m2-q05",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 684.1,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q05_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f2/figuras/q05_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "As figuras abaixo foram construídas ligando pontos de uma malha de quadradinhos de mesmo tamanho. Qual delas possui o maior contorno? Figura 1 figura 2 figura 3 figura 4 figura 5",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "FIGURA 1"
+        },
+        {
+          "letra": "B",
+          "texto": "FIGURA 2"
+        },
+        {
+          "letra": "C",
+          "texto": "FIGURA 3"
+        },
+        {
+          "letra": "D",
+          "texto": "FIGURA 4"
+        },
+        {
+          "letra": "E",
+          "texto": "FIGURA 5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2024-f2-m2-q06",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 61.1,
+        "y_bottom": 233.9
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q06_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f2/figuras/q06_fig0.png",
+        "saida/mirim_m2/2024_f2/figuras/q06_fig1.png",
+        "saida/mirim_m2/2024_f2/figuras/q06_fig2.png",
+        "saida/mirim_m2/2024_f2/figuras/q06_fig3.png",
+        "saida/mirim_m2/2024_f2/figuras/q06_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Em uma escola, o número de alunos que preferem matemática é o dobro dos que preferem português, o dobro dos que preferem ciências e o triplo dos que preferem inglês. Qual dos gráficos abaixo representa melhor essa situação? No de alunos no de alunos",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "M P C I"
+        },
+        {
+          "letra": "B",
+          "texto": "M P C I"
+        },
+        {
+          "letra": "C",
+          "texto": "M P C I"
+        },
+        {
+          "letra": "D",
+          "texto": "M P C I"
+        },
+        {
+          "letra": "E",
+          "texto": "M P C I"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2024-f2-m2-q07",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 231.9,
+        "y_bottom": 377.8
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q07_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f2/figuras/q07_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Martina quer retirar todas as estrelas do colar pelo cordão, sem cortar o cordão. Qual é o menor número de bolinhas que ela terá que retirar?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "7"
+        },
+        {
+          "letra": "C",
+          "texto": "8"
+        },
+        {
+          "letra": "D",
+          "texto": "9"
+        },
+        {
+          "letra": "E",
+          "texto": "10"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2024-f2-m2-q08",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 375.8,
+        "y_bottom": 533.0
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q08_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Juliano tem uma camiseta branca, uma preta, uma azul e uma vermelha. Ele também tem uma bermuda branca, uma azul e uma cinza. Quantas são as maneiras de juliano se vestir com uma camiseta e uma bermuda de cores diferentes?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "8"
+        },
+        {
+          "letra": "B",
+          "texto": "9"
+        },
+        {
+          "letra": "C",
+          "texto": "10"
+        },
+        {
+          "letra": "D",
+          "texto": "11"
+        },
+        {
+          "letra": "E",
+          "texto": "12"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2024-f2-m2-q09",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 531.0,
+        "y_bottom": 683.0
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q09_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Na classe de pedrinho há 36 alunos presentes. A professora pergunta quem gosta de português e 28 alunos levantam a mão. Ela também pergunta quem gosta de matemática e 32 alunos levantam a mão. Pedrinho foi o único que não levantou a mão em nenhuma das vezes. Quantos alunos da classe gostam de matemática, mas não gostam de português?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "7"
+        },
+        {
+          "letra": "C",
+          "texto": "9"
+        },
+        {
+          "letra": "D",
+          "texto": "15"
+        },
+        {
+          "letra": "E",
+          "texto": "25"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2024-f2-m2-q10",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 681.0,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q10_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f2/figuras/q10_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Benício viu um relógio pelo espelho retrovisor de seu carro, como mostra a figura. Que horas o relógio estava marcando?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "4 HORAS E 30 MINUTOS"
+        },
+        {
+          "letra": "B",
+          "texto": "5 HORAS E 30 MINUTOS"
+        },
+        {
+          "letra": "C",
+          "texto": "6 HORAS E 30 MINUTOS"
+        },
+        {
+          "letra": "D",
+          "texto": "7 HORAS E 30 MINUTOS"
+        },
+        {
+          "letra": "E",
+          "texto": "7 HORAS E 6 MINUTOS"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2024-f2-m2-q11",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 60.4,
+        "y_bottom": 227.1
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q11_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f2/figuras/q11_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Ana, beto, cris, duda e enzo moram nas casas de número 10, 30, 50, 60 e 80 de uma rua, nessa ordem. Nessa rua, o número de uma casa corresponde à sua distância, em metros, do início da rua. Certo dia, os amigos foram estudar juntos na casa de um deles, e perceberam que a soma das distâncias percorridas por todos foi de 110 metros. Na casa de quem eles foram estudar?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "ANA"
+        },
+        {
+          "letra": "B",
+          "texto": "BETO"
+        },
+        {
+          "letra": "C",
+          "texto": "CRIS"
+        },
+        {
+          "letra": "D",
+          "texto": "DUDA"
+        },
+        {
+          "letra": "E",
+          "texto": "ENZO"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2024-f2-m2-q12",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 225.1,
+        "y_bottom": 382.4
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q12_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f2/figuras/q12_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Os chapéus, gravatas e sapatos dos palhaços pirilampo, zé grilo e xurupita estão nas prateleiras ao lado. Sabe-se que: Pirilampo e xurupita não possuem chapéus iguais; Pirilampo e xurupita possuem gravatas iguais; Pirilampo e zé grilo não possuem sapatos iguais; Xurupita e zé grilo não possuem sapatos iguais. Quais são o chapéu, a gravata e o sapato de zé grilo?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2024-f2-m2-q13",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 380.4,
+        "y_bottom": 534.8
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q13_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f2/figuras/q13_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "O gráfico abaixo mostra os horários de modalidades olímpicas em um dia. Não é possível assistir a duas modalidades ao vivo ao mesmo tempo. Qual é o maior número de modalidades a que alguém pode assistir ao vivo do início ao fim?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "5"
+        },
+        {
+          "letra": "D",
+          "texto": "6"
+        },
+        {
+          "letra": "E",
+          "texto": "7"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2024-f2-m2-q14",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 532.8,
+        "y_bottom": 689.9
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q14_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f2/figuras/q14_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Emiliano terminou de preencher o quadriculado da figura com peças iguais às que ele já colocou, sem sobreposições. Além das 3 peças colocadas, ele colocou mais 3 peças verdes, 2 peças amarelas e algumas vermelhas. Ao todo, quantas peças vermelhas ele usou?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "5"
+        },
+        {
+          "letra": "D",
+          "texto": "6"
+        },
+        {
+          "letra": "E",
+          "texto": "7"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2024-f2-m2-q15",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 687.9,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2024_f2/paginas/q15_full.png",
+      "figuras": [
+        "saida/mirim_m2/2024_f2/figuras/q15_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Na figura podemos ver 4 quadrados. O quadrado maior está dividido em 5 regiões. A área da região azul é igual à de 15 quadradinhos pretos, e a área da região amarela é igual à de 8 quadradinhos pretos. Qual é a área de cada um dos retângulos cor-de-rosa? A mesma que a de 4 quadradinhos pretos a mesma que a de 5 quadradinhos pretos a mesma que a de 6 quadradinhos pretos a mesma que a de 8 quadradinhos pretos a mesma que a de 10 quadradinhos pretos",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    }
+  }
+}

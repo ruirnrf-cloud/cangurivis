@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cangurivis-revisao",
+      "runtimeExecutable": "streamlit",
+      "runtimeArgs": ["run", "pipeline/revisao_app.py", "--server.headless", "true"],
+      "port": 8501
+    },
+    {
+      "name": "cangurivis-treino",
+      "runtimeExecutable": "streamlit",
+      "runtimeArgs": ["run", "app/treino_app.py", "--server.headless", "true", "--server.port", "8502"],
+      "port": 8502
+    }
+  ]
+}

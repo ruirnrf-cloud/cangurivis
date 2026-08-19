@@ -1,0 +1,572 @@
+{
+  "1": {
+    "enunciado_md": "Quantos triângulos brancos há na figura?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "8"
+      },
+      {
+        "letra": "C",
+        "texto": "12"
+      },
+      {
+        "letra": "D",
+        "texto": "16"
+      },
+      {
+        "letra": "E",
+        "texto": "20"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocinio visual",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Não tenta adivinhar de olho — separa a figura em quadradinhos e confere cada um, um de cada vez.",
+    "primeiro_passo": "A figura é um quadriculado 4x4, ou seja, 16 quadradinhos. Alguns quadradinhos ficam totalmente brancos (sem nenhuma diagonal desenhada) e outros são cortados ao meio por uma diagonal, formando um triângulo verde e um triângulo branco. Comece contando quantos quadradinhos ficam totalmente brancos, sem diagonal nenhuma.",
+    "solucao_completa": "- A figura tem 16 quadradinhos (4 linhas x 4 colunas).\n- Repare que 4 desses quadradinhos são totalmente brancos, sem nenhuma diagonal desenhada — esses não formam nenhum triângulo, são só um quadradinho branco inteiro.\n- Os outros 12 quadradinhos são cortados por uma diagonal, formando sempre 1 triângulo verde + 1 triângulo branco cada um.\n- Isso já dá 12 triângulos brancos (um em cada um desses 12 quadradinhos cortados).\n- Resposta: alternativa C (12)."
+  },
+  "2": {
+    "enunciado_md": "Quantas bolinhas brancas devem ser pintadas de preto para que o número de bolinhas pretas fique igual ao dobro do número de bolinhas brancas?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "operacoes basicas",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Antes de pintar nada, conta com cuidado quantas bolinhas pretas e quantas brancas já existem na figura.",
+    "primeiro_passo": "Na figura há 9 bolinhas ao todo: 2 pretas e 7 brancas. Se pintarmos x bolinhas brancas de preto, o número de pretas vira 2+x e o de brancas vira 7-x. Monte uma equação com a condição do enunciado (pretas = dobro de brancas) e resolva para x.",
+    "solucao_completa": "- Na figura há 2 bolinhas pretas e 7 brancas (9 no total).\n- Se pintarmos x bolinhas de branco para preto: pretas passam a ser 2+x, e brancas passam a ser 7-x.\n- Queremos que pretas = 2 x brancas: 2+x = 2(7-x)\n- 2+x = 14-2x\n- 3x = 12\n- x = 4\n- Confere: pretas=6, brancas=3, e 6 é realmente o dobro de 3. ✓\n- Resposta: alternativa D (4)."
+  },
+  "3": {
+    "enunciado_md": "Laura fez a montagem ao lado usando 21 cubinhos iguais. Ela olhou a montagem de cima e fez um desenho do que viu. Qual dos desenhos abaixo pode ser o que laura fez?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "Os recortes de figuras isoladas (q03_fig0 e q03_fig1) juntam duas alternativas diferentes numa mesma imagem, e o recorte da montagem 3D (q03_fig3) traz um residuo de texto do enunciado (a palavra IGUAIS cortada) no canto superior esquerdo. A imagem completa da questao (imagem_questao) esta correta e legivel, entao isso nao impede o uso da questao.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "quebra-cabeca espacial",
+      "orientacao espacial",
+      "geometria de solidos"
+    ],
+    "dica_curta": "Imagina que você está bem em cima da construção, olhando reto para baixo — o que você desenharia?",
+    "primeiro_passo": "Para cada posição do chão que tem pelo menos um cubinho empilhado em cima (não importa a altura da pilha), marque um quadradinho no seu desenho. O que interessa é só 'tem cubo aqui' ou 'não tem', a altura não aparece na vista de cima. Comece pelas colunas mais isoladas, que são mais fáceis de identificar na figura.",
+    "solucao_completa": "- O truque é esquecer a ALTURA de cada pilha e enxergar só o 'pé' de cada uma: em quais posições do chão existe pelo menos um cubinho.\n- Seguindo os cantos e degraus da montagem com cuidado (a torre mais alta no meio, os blocos mais baixos dos dois lados, e os degraus que aparecem na frente), a planta baixa (vista de cima) forma um contorno com uma parte mais larga de um lado, um degrau saindo para fora e um quadradinho faltando em outro canto — exatamente o formato da alternativa A.\n- As outras alternativas parecem parecidas à primeira vista, mas cada uma tem pelo menos um quadradinho a mais, a menos ou fora do lugar em relação à planta real da montagem.\n- Resposta: alternativa A."
+  },
+  "4": {
+    "enunciado_md": "Os alunos retiraram seus chinelos para a aula de natação. Alguns desses chinelos estão mostrados na figura abaixo. Qual é o menor número de alunos que podem ter participado dessa aula?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "5"
+      },
+      {
+        "letra": "D",
+        "texto": "6"
+      },
+      {
+        "letra": "E",
+        "texto": "7"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O enunciado do rascunho estava completamente embaralhado (texto fora de ordem, invertido letra a letra); foi reescrito a partir da leitura da imagem.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "contagem sistematica",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Repara que os chinelos vêm em pares — um do pé esquerdo e um do pé direito — e pensa em quantos de cada tipo aparecem na figura.",
+    "primeiro_passo": "Cada aluno tira exatamente 1 chinelo do pé esquerdo e 1 do pé direito. Então dois chinelos 'do mesmo pé' nunca podem ter sido usados pelo mesmo aluno. Olhando a curva da tira em cada chinelo da figura, separe-os em dois grupos — os que são do mesmo pé — e conte quantos ficam em cada grupo.",
+    "solucao_completa": "- Cada aluno usa 1 chinelo esquerdo + 1 chinelo direito. Então o número de alunos tem que ser, no mínimo, igual à quantidade de chinelos do pé que aparece MAIS vezes na figura — porque dois chinelos do mesmo pé nunca podem ser do mesmo aluno.\n- Olhando com atenção a curva da tira em cada um dos 6 chinelos da figura, dá para separá-los em dois grupos pelo formato: 5 deles são de um mesmo pé, e só 1 é do pé oposto.\n- Isso significa que são necessários pelo menos 5 alunos diferentes (um para cada chinelo daquele pé que se repete 5 vezes). O chinelo sozinho do outro pé pode muito bem ter sido de qualquer um desses mesmos 5 alunos, sem precisar de um aluno a mais.\n- Resposta: alternativa C (5)."
+  },
+  "5": {
+    "enunciado_md": "As figuras abaixo foram construídas ligando pontos de uma malha de quadradinhos de mesmo tamanho. Qual delas possui o maior contorno?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "FIGURA 1"
+      },
+      {
+        "letra": "B",
+        "texto": "FIGURA 2"
+      },
+      {
+        "letra": "C",
+        "texto": "FIGURA 3"
+      },
+      {
+        "letra": "D",
+        "texto": "FIGURA 4"
+      },
+      {
+        "letra": "E",
+        "texto": "FIGURA 5"
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O enunciado do rascunho tinha os rotulos Figura 1, figura 2, figura 3, figura 4, figura 5 colados no final (contaminacao vinda das legendas sob cada figura); removido.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "perimetro e area",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Não compara 'no olho' — soma o comprimento de cada lado de cada figura, incluindo os lados na diagonal.",
+    "primeiro_passo": "Cada lado das figuras ou é reto (horizontal/vertical, e vale exatamente 1 quadradinho) ou é uma diagonal (que corta um quadradinho de canto a canto, e por isso vale um pouco mais que 1 quadradinho). Comece contando quantos lados retos e quantos lados na diagonal tem a Figura 1, que parece ser a mais 'recortada' de todas.",
+    "solucao_completa": "- Cada lado das figuras é horizontal/vertical (mede exatamente 1 quadradinho) ou é uma diagonal que atravessa um quadradinho de canto a canto (mede um pouco mais que 1 quadradinho, cerca de 1,4).\n- A Figura 1 tem 2 lados retos compridos (de 3 quadradinhos cada) mais 4 lados na diagonal (formando os dois 'bicos' apertados, um de cada lado da figura).\n- As Figuras 2, 3, 4 e 5 têm menos lados na diagonal, ou lados retos mais curtos, então o contorno total delas acaba sendo menor que o da Figura 1.\n- Como a diagonal 'custa' mais que um lado reto, e a Figura 1 é a que tem mais diagonais somadas aos lados retos mais longos, ela é a que tem o maior contorno de todas.\n- Resposta: alternativa A (Figura 1)."
+  },
+  "6": {
+    "enunciado_md": "Em uma escola, o número de alunos que preferem matemática é o dobro dos que preferem português, o dobro dos que preferem ciências e o triplo dos que preferem inglês. Qual dos gráficos abaixo representa melhor essa situação?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O enunciado do rascunho tinha No de alunos no de alunos colado no final (residuo do rotulo do eixo Y dos graficos); removido. As alternativas do rascunho traziam o texto M P C I repetido de forma identica nas 5 opcoes (rotulo dos eixos, nao o conteudo das opcoes) - as alternativas na verdade sao os 5 graficos de barra (imagem), entao alternativa_tipo foi corrigido para imagem. Os recortes de figura isolada (q06_fig0 a q06_fig4) tem um pequeno residuo do rotulo do eixo Y na borda esquerda, mas o conteudo de cada grafico esta integro.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "leitura de tabelas e graficos",
+      "proporcao e razao"
+    ],
+    "dica_curta": "Antes de olhar os gráficos, pensa: quem deveria ser a barra mais alta, e quais duas barras deveriam ficar exatamente do mesmo tamanho?",
+    "primeiro_passo": "Matemática é o dobro de Português E o dobro de Ciências — ou seja, Português e Ciências devem ter a MESMA altura no gráfico (as duas valem metade de Matemática). Já Inglês é ainda menor, porque vale só a terça parte de Matemática. Procure o gráfico em que a barra de Matemática é a maior, Português e Ciências são iguais entre si, e Inglês é a menor de todas.",
+    "solucao_completa": "- Do enunciado: M = 2P, M = 2C, M = 3I. Isso quer dizer P = C = M/2, e I = M/3.\n- Como M/3 é menor que M/2, a ordem das alturas das barras deve ser: M (a maior de todas) > P = C (iguais entre si, no meio) > I (a menor de todas, mas não zero).\n- No gráfico da alternativa C, a barra de Matemática é claramente a mais alta, as barras de Português e Ciências têm exatamente a mesma altura, e a barra de Inglês é a mais baixa das quatro.\n- Resposta: alternativa C."
+  },
+  "7": {
+    "enunciado_md": "Martina quer retirar todas as estrelas do colar pelo cordão, sem cortar o cordão. Qual é o menor número de bolinhas que ela terá que retirar?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6"
+      },
+      {
+        "letra": "B",
+        "texto": "7"
+      },
+      {
+        "letra": "C",
+        "texto": "8"
+      },
+      {
+        "letra": "D",
+        "texto": "9"
+      },
+      {
+        "letra": "E",
+        "texto": "10"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte da figura isolada (q07_fig0) inclui residuos de texto do enunciado e das alternativas na borda superior/esquerda. A imagem completa da questao esta correta e legivel.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "contagem sistematica",
+      "logica com pistas"
+    ],
+    "dica_curta": "O cordão só abre pelas duas pontas — pensa em tirar as bolinhas de cada ponta para dentro, até liberar todas as estrelas.",
+    "primeiro_passo": "Numere as peças do colar da esquerda para a direita. Para tirar uma estrela, é preciso primeiro remover TODAS as peças que estão entre ela e uma das duas pontas do cordão. Escolha, para cada estrela, qual ponta (esquerda ou direita) dá menos trabalho, e teste diferentes formas de dividir o colar em 'lado esquerdo' e 'lado direito'.",
+    "solucao_completa": "- O colar tem, da esquerda para a direita: bolinha, ESTRELA, bolinha, bolinha, bolinha, ESTRELA, bolinha, bolinha, bolinha, ESTRELA, bolinha, ESTRELA, bolinha, bolinha — ao todo, 4 estrelas e 10 bolinhas.\n- Como o cordão só abre pelas pontas, para tirar uma estrela é preciso remover antes tudo o que está entre ela e a ponta escolhida.\n- A melhor estratégia é dividir o colar em duas partes: as primeiras estrelas saem pela ponta esquerda, e as últimas saem pela ponta direita — e as bolinhas que ficam bem no meio, entre as duas partes, podem continuar no cordão para sempre.\n- Testando: tirar a 1ª estrela pela esquerda (remove 1 bolinha antes dela) e as outras 3 estrelas pela direita (remove 6 bolinhas depois da 2ª estrela) dá 1+6 = 7 bolinhas retiradas — sobram 2 bolinhas soltas no meio do cordão, sem problema nenhum.\n- Não dá para fazer com menos de 7 bolinhas: qualquer outra forma de dividir o colar obriga a tirar mais bolinhas ao todo.\n- Resposta: alternativa B (7)."
+  },
+  "8": {
+    "enunciado_md": "Juliano tem uma camiseta branca, uma preta, uma azul e uma vermelha. Ele também tem uma bermuda branca, uma azul e uma cinza. Quantas são as maneiras de juliano se vestir com uma camiseta e uma bermuda de cores diferentes?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "10"
+      },
+      {
+        "letra": "D",
+        "texto": "11"
+      },
+      {
+        "letra": "E",
+        "texto": "12"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "combinatoria basica",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Conta primeiro TODAS as combinações possíveis, sem se preocupar com a regra das cores — depois é só tirar as que não valem.",
+    "primeiro_passo": "Juliano tem 4 camisetas e 3 bermudas, então sem regra nenhuma ele teria 4x3 combinações de se vestir. Agora pensa: quais dessas combinações têm camiseta e bermuda exatamente da mesma cor? Só essas precisam ser descontadas do total.",
+    "solucao_completa": "- Sem restrição nenhuma: 4 camisetas x 3 bermudas = 12 combinações possíveis.\n- Agora é preciso tirar as combinações em que a cor é igual. As cores das bermudas são branca, azul e cinza. Dessas três, só branca e azul também aparecem entre as camisetas (preta e vermelha não têm bermuda da mesma cor para combinar).\n- Então existem exatamente 2 combinações 'proibidas': camiseta branca + bermuda branca, e camiseta azul + bermuda azul.\n- 12 - 2 = 10 combinações válidas.\n- Resposta: alternativa C (10)."
+  },
+  "9": {
+    "enunciado_md": "Na classe de pedrinho há 36 alunos presentes. A professora pergunta quem gosta de português e 28 alunos levantam a mão. Ela também pergunta quem gosta de matemática e 32 alunos levantam a mão. Pedrinho foi o único que não levantou a mão em nenhuma das vezes. Quantos alunos da classe gostam de matemática, mas não gostam de português?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6"
+      },
+      {
+        "letra": "B",
+        "texto": "7"
+      },
+      {
+        "letra": "C",
+        "texto": "9"
+      },
+      {
+        "letra": "D",
+        "texto": "15"
+      },
+      {
+        "letra": "E",
+        "texto": "25"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "operacoes basicas",
+      "logica com pistas"
+    ],
+    "dica_curta": "Pensa em quantos alunos gostam de pelo menos uma das duas matérias, sabendo que só o Pedrinho não gosta de nenhuma.",
+    "primeiro_passo": "Se Pedrinho é o único que não levantou a mão nas duas perguntas, então todos os outros alunos levantaram a mão pelo menos uma vez (para português OU para matemática, ou para as duas). Use esse total para descobrir quantos alunos gostam DAS DUAS matérias ao mesmo tempo.",
+    "solucao_completa": "- Total de alunos presentes: 36. Só o Pedrinho não gosta de nenhuma das duas matérias, então 36 - 1 = 35 alunos gostam de português OU de matemática (ou das duas).\n- Sabemos: português = 28 alunos, matemática = 32 alunos.\n- Se somarmos 28 + 32 = 60, estamos contando duas vezes quem gosta das DUAS matérias ao mesmo tempo. Como sabemos que só 35 alunos gostam de pelo menos uma, descobrimos quantos gostam das duas: 28 + 32 - 35 = 25 alunos gostam de português E de matemática.\n- Quem gosta de matemática mas NÃO de português = total de matemática - quem gosta das duas = 32 - 25 = 7.\n- Resposta: alternativa B (7)."
+  },
+  "10": {
+    "enunciado_md": "Benício viu um relógio pelo espelho retrovisor de seu carro, como mostra a figura. Que horas o relógio estava marcando?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4 HORAS E 30 MINUTOS"
+      },
+      {
+        "letra": "B",
+        "texto": "5 HORAS E 30 MINUTOS"
+      },
+      {
+        "letra": "C",
+        "texto": "6 HORAS E 30 MINUTOS"
+      },
+      {
+        "letra": "D",
+        "texto": "7 HORAS E 30 MINUTOS"
+      },
+      {
+        "letra": "E",
+        "texto": "7 HORAS E 6 MINUTOS"
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "orientacao espacial",
+      "medidas"
+    ],
+    "dica_curta": "Um espelho vira tudo ao contrário — pensa em como fica a hora quando você espelha o relógio de volta.",
+    "primeiro_passo": "Primeiro leia as horas exatamente como o relógio aparece NO ESPELHO, sem se preocupar ainda que está invertido. Depois, para achar a hora real, use o truque do relógio espelhado: a hora real é o que falta para a hora do espelho completar 12 horas certinhas.",
+    "solucao_completa": "- No espelho, o ponteiro dos minutos aponta certinho para o 6 (ou seja, 30 minutos), e o ponteiro das horas aponta para perto do 7-8.\n- Truque do relógio espelhado: a hora real + a hora mostrada no espelho sempre somam 12 horas certinhas (é como se o tempo andasse 'ao contrário' quando refletido no espelho).\n- Se o espelho mostra por volta de 7 horas e 30 minutos, a hora real é 12h00 - 7h30 = 4h30.\n- Resposta: alternativa A (4 horas e 30 minutos)."
+  },
+  "11": {
+    "enunciado_md": "Ana, beto, cris, duda e enzo moram nas casas de número 10, 30, 50, 60 e 80 de uma rua, nessa ordem. Nessa rua, o número de uma casa corresponde à sua distância, em metros, do início da rua. Certo dia, os amigos foram estudar juntos na casa de um deles, e perceberam que a soma das distâncias percorridas por todos foi de 110 metros. Na casa de quem eles foram estudar?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ANA"
+      },
+      {
+        "letra": "B",
+        "texto": "BETO"
+      },
+      {
+        "letra": "C",
+        "texto": "CRIS"
+      },
+      {
+        "letra": "D",
+        "texto": "DUDA"
+      },
+      {
+        "letra": "E",
+        "texto": "ENZO"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte da figura isolada (q11_fig0) inclui um pequeno residuo de texto (final da pergunta ...am estudar?) na borda superior. O conteudo da figura (as 5 casas numeradas) esta completo e legivel.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "operacoes basicas",
+      "medidas"
+    ],
+    "dica_curta": "Calcula, casa por casa, a distância total que todo mundo andaria se o encontro fosse ali.",
+    "primeiro_passo": "Escolhe uma das 5 casas (por exemplo, a da Ana, número 10) e calcula a distância de CADA amigo até essa casa — é só a diferença entre os números das casas. Soma tudo, e depois repete o mesmo processo para as outras casas até achar a soma que dá exatamente 110.",
+    "solucao_completa": "- As casas são: Ana=10, Beto=30, Cris=50, Duda=60, Enzo=80.\n- Testando o encontro na casa da Duda (número 60): a distância de cada um até 60 é |10-60|=50, |30-60|=30, |50-60|=10, |60-60|=0, |80-60|=20.\n- Somando: 50+30+10+0+20 = 110. Bateu certinho com o enunciado!\n- (Só para conferir: nas outras casas a soma dá diferente de 110 — por exemplo, na casa da Cris a soma dá 100, e na casa do Beto dá 120.)\n- Resposta: alternativa D (Duda)."
+  },
+  "12": {
+    "enunciado_md": "Os chapéus, gravatas e sapatos dos palhaços pirilampo, zé grilo e xurupita estão nas prateleiras ao lado. Sabe-se que: Pirilampo e xurupita não possuem chapéus iguais; Pirilampo e xurupita possuem gravatas iguais; Pirilampo e zé grilo não possuem sapatos iguais; Xurupita e zé grilo não possuem sapatos iguais. Quais são o chapéu, a gravata e o sapato de zé grilo?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte da figura isolada (q12_fig0) corta a prateleira de cima (os 3 chapeus) e parte do primeiro texto - o recorte comeca so a partir da segunda linha de marcadores. A imagem completa da questao (imagem_questao) mostra as 3 prateleiras e as 5 alternativas por completo e deve ser usada como referencia.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "logica com pistas"
+    ],
+    "dica_curta": "Começa pelas pistas que dizem 'são diferentes' — elas eliminam possibilidades mais rápido do que as que dizem 'são iguais'.",
+    "primeiro_passo": "Nas prateleiras, os chapéus são: verde, amarelo, verde (dois iguais e um diferente). Como Pirilampo e Xurupita NÃO têm chapéus iguais, um deles fica com o chapéu amarelo (o diferente) e o outro com um dos verdes. Pensa: qual chapéu sobra então para o Zé Grilo? Depois, usa esse mesmo tipo de raciocínio (pensando em quais pistas dizem 'iguais' e quais dizem 'diferentes') para descobrir também a gravata e o sapato dele.",
+    "solucao_completa": "- Chapéus: há 2 verdes e 1 amarelo. Pirilampo e Xurupita têm chapéus diferentes, então um fica com o amarelo e o outro com um verde — sobra para Zé Grilo o chapéu VERDE.\n- Gravatas: há 1 azul e 2 laranjas iguais entre si. Pirilampo e Xurupita têm a MESMA gravata — só é possível se os dois tiverem gravata laranja (não dá pra ambos terem a única gravata azul). Sobra para Zé Grilo a gravata AZUL.\n- Sapatos: há 2 vermelho-e-amarelo iguais entre si e 1 cinza-com-vermelho diferente. Zé Grilo não pode ter sapato igual ao de Pirilampo NEM ao de Xurupita ao mesmo tempo — isso só é possível se Zé Grilo ficar com o sapato diferente (cinza-com-vermelho), e os outros dois ficarem com os sapatos iguais entre si.\n- Então Zé Grilo usa: chapéu verde, gravata azul e sapato cinza-com-vermelho — exatamente a combinação da alternativa E.\n- Resposta: alternativa E."
+  },
+  "13": {
+    "enunciado_md": "O gráfico abaixo mostra os horários de modalidades olímpicas em um dia. Não é possível assistir a duas modalidades ao vivo ao mesmo tempo. Qual é o maior número de modalidades a que alguém pode assistir ao vivo do início ao fim?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "5"
+      },
+      {
+        "letra": "D",
+        "texto": "6"
+      },
+      {
+        "letra": "E",
+        "texto": "7"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "leitura de tabelas e graficos",
+      "logica com pistas"
+    ],
+    "dica_curta": "Não dá pra assistir a duas coisas ao mesmo tempo — procura o maior grupo de barras que não se cruzam no gráfico.",
+    "primeiro_passo": "Escolhe sempre, entre as modalidades disponíveis, a que TERMINA mais cedo (isso deixa mais tempo livre para o resto do dia). Depois de escolher uma, pula para a próxima modalidade que só começa depois dela terminar, e repete esse processo até o fim do gráfico.",
+    "solucao_completa": "- A estratégia certa é sempre escolher, entre as modalidades disponíveis, a que termina PRIMEIRO — assim sobra mais tempo livre para encaixar outras depois.\n- Seguindo essa estratégia no gráfico: Canoagem (é a que termina primeiro de todas) → depois dela terminar, a próxima que termina mais cedo entre as que sobraram é o Judô → depois do Judô, a próxima é o Surfe → depois do Surfe, a próxima é o Futebol.\n- Isso dá 4 modalidades assistidas do início ao fim: Canoagem, Judô, Surfe e Futebol, sem nenhuma sobreposição de horário entre elas.\n- Não dá pra encaixar uma 5ª: qualquer uma das que sobraram (Natação, Basquete ou Vôlei) sempre esbarra no horário de alguma dessas 4 já escolhidas.\n- Resposta: alternativa B (4)."
+  },
+  "14": {
+    "enunciado_md": "Emiliano terminou de preencher o quadriculado da figura com peças iguais às que ele já colocou, sem sobreposições. Além das 3 peças colocadas, ele colocou mais 3 peças verdes, 2 peças amarelas e algumas vermelhas. Ao todo, quantas peças vermelhas ele usou?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "5"
+      },
+      {
+        "letra": "D",
+        "texto": "6"
+      },
+      {
+        "letra": "E",
+        "texto": "7"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "perimetro e area",
+      "quebra-cabeca espacial"
+    ],
+    "dica_curta": "Antes de pensar nas peças vermelhas, calcula quantos quadradinhos o tabuleiro inteiro tem e quantos já estão ocupados.",
+    "primeiro_passo": "O tabuleiro tem 7 colunas x 6 linhas = 42 quadradinhos. As 3 peças já colocadas na figura ocupam, ao todo, 6 (a amarela) + 4 (a vermelha) + 2 (a verde) quadradinhos. Cada peça nova do mesmo formato de uma cor usa sempre essa mesma quantidade de quadradinhos. Usa isso para montar uma conta com os quadradinhos que ainda faltam preencher.",
+    "solucao_completa": "- O tabuleiro inteiro tem 7 x 6 = 42 quadradinhos.\n- As 3 peças já colocadas na figura cobrem, ao todo, 6 (a amarela) + 4 (a vermelha) + 2 (a verde) = 12 quadradinhos.\n- Faltam preencher 42 - 12 = 30 quadradinhos.\n- Emiliano usou mais 3 peças verdes (3 x 2 = 6 quadradinhos) e mais 2 peças amarelas (2 x 6 = 12 quadradinhos) — um total de 6+12 = 18 quadradinhos preenchidos com essas peças.\n- Sobram 30 - 18 = 12 quadradinhos para serem cobertos só com peças vermelhas.\n- Como cada peça vermelha cobre sempre 4 quadradinhos: 12 ÷ 4 = 3 peças vermelhas A MAIS foram colocadas.\n- Somando com a peça vermelha que já estava na figura desde o início: 1 + 3 = 4 peças vermelhas ao todo.\n- Resposta: alternativa B (4)."
+  },
+  "15": {
+    "enunciado_md": "Na figura podemos ver 4 quadrados. O quadrado maior está dividido em 5 regiões. A área da região azul é igual à de 15 quadradinhos pretos, e a área da região amarela é igual à de 8 quadradinhos pretos. Qual é a área de cada um dos retângulos cor-de-rosa?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A MESMA QUE A DE 4 QUADRADINHOS PRETOS"
+      },
+      {
+        "letra": "B",
+        "texto": "A MESMA QUE A DE 5 QUADRADINHOS PRETOS"
+      },
+      {
+        "letra": "C",
+        "texto": "A MESMA QUE A DE 6 QUADRADINHOS PRETOS"
+      },
+      {
+        "letra": "D",
+        "texto": "A MESMA QUE A DE 8 QUADRADINHOS PRETOS"
+      },
+      {
+        "letra": "E",
+        "texto": "A MESMA QUE A DE 10 QUADRADINHOS PRETOS"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O enunciado do rascunho tinha o texto das 5 alternativas colado no final (contaminacao), e alternativas_rascunho estava null mesmo sendo alternativas de texto. Enunciado cortado corretamente no ponto de interrogacao e as 5 alternativas foram extraidas a partir do texto que estava grudado nele.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "perimetro e area",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Usa o quadradinho preto pequeno (que vale exatamente 1) como sua régua para medir o lado dos outros quadrados.",
+    "primeiro_passo": "Repara que a região azul, junto com o quadradinho preto, forma um quadrado inteiro, sem nenhum buraco — descubra o lado desse quadrado grande a partir da área 15+1=16. Faz o mesmo raciocínio com a região amarela e o quadradinho preto.",
+    "solucao_completa": "- O quadradinho preto pequeno vale exatamente 1 (é a nossa unidade de medida), então seu lado mede 1.\n- A região azul (15) junto com o quadradinho preto (1), juntos, formam um quadrado 'cheio', sem nenhum buraco, de área 15+1 = 16. Um quadrado de área 16 tem lado 4.\n- Do mesmo jeito, a região amarela (8) junto com o quadradinho preto (1), juntos, formam outro quadrado cheio, de área 8+1 = 9, que tem lado 3.\n- Cada retângulo cor-de-rosa tem um lado igual a (lado do quadrado azul menos 1) = 4-1 = 3, e o outro lado igual a (lado do quadrado amarelo menos 1) = 3-1 = 2.\n- Área do retângulo cor-de-rosa: 3 x 2 = 6.\n- (Dá pra conferir: azul 15 + amarelo 8 + preto 1 + os dois retângulos rosa de 6 cada = 15+8+1+6+6 = 36, que é exatamente a área do quadrado grande de fora, de lado 4+3-1=6. Fechou certinho!)\n- Resposta: alternativa C (a mesma área de 6 quadradinhos pretos)."
+  }
+}

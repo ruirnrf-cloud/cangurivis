@@ -1,0 +1,18 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m2",
+    "ano": 2022,
+    "fase": 1
+  },
+  "pdf_prova": "acervo/mirim/2022_F1_PROVA_M2.pdf",
+  "pdf_solucao": "acervo/mirim/2022_F1_SOL_M2.pdf",
+  "n_questoes_segmentadas": 3,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [
+    "sequencia de numeros quebrada ou duplicada: [2, 11, 12]",
+    "questoes segmentadas ([2, 11, 12]) != questoes com gabarito ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])",
+    "numeracao das questoes tem lacuna ou duplicata: [2, 11, 12]"
+  ],
+  "questoes": {}
+}

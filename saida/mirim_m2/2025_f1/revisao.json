@@ -1,0 +1,569 @@
+{
+  "1": {
+    "enunciado_md": "Jussara preencheu as casas da tabela ao lado até o número 22, seguindo a ordem natural dos números. Se ela continuar até o número 50, qual das peças abaixo poderá ser recortada da tabela?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte isolado da tabela de referencia (q01_fig0) corta a primeira linha (numeros 1-10); a imagem completa da questao (imagem_questao) esta integra e mostra a tabela inteira.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "padroes e sequencias",
+      "sistema de numeracao"
+    ],
+    "dica_curta": "Repara em como a tabela está organizada: quantas casas cabem em cada linha? Isso ajuda a achar rapidinho embaixo de quem fica cada número.",
+    "primeiro_passo": "A tabela tem 10 colunas. Isso quer dizer que cada linha nova começa com um número terminado em 1 (1, 11, 21, 31...). Descubra em que linha e coluna o número 22 está.",
+    "solucao_completa": "- A tabela tem 10 colunas, então cada linha vai de X1 até X0: a 1ª linha é 1–10, a 2ª é 11–20, a 3ª é 21–30, e assim por diante.\n- O número 22 fica na 3ª linha, na 2ª coluna.\n- A casa logo ABAIXO de 22 fica na 4ª linha (31–40), na 2ª coluna: esse número é 32.\n- A casa à DIREITA de 32 é 33.\n- A casa abaixo de 33 fica na 5ª linha (41–50), na 3ª coluna: esse número é 43.\n- Então a peça certa tem os números 22, 32, 33 e 43 formando esse desenho em L — isso é exatamente a alternativa **C**."
+  },
+  "2": {
+    "enunciado_md": "Os preços dos presentes estão escritos em suas etiquetas. Qual é a diferença entre o preço do presente mais caro e o preço do mais barato?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 60,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 62,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 65,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 70,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 78,00"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte da figura dos presentes (q02_fig0) capturou residuo de texto do enunciado (coluna da esquerda) na borda; o conteudo da figura em si esta completo e legivel.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "operacoes basicas",
+      "leitura de tabelas e graficos"
+    ],
+    "dica_curta": "Você não precisa somar nada ainda — primeiro ache só os dois presentes que interessam.",
+    "primeiro_passo": "Ache o presente mais caro e o presente mais barato entre as cinco etiquetas.",
+    "solucao_completa": "- Os preços são: R$ 127, R$ 107, R$ 177, R$ 172 e R$ 170.\n- O mais caro é R$ 177,00 e o mais barato é R$ 107,00.\n- A diferença é 177 − 107 = 70.\n- Resposta: alternativa **D**, R$ 70,00."
+  },
+  "3": {
+    "enunciado_md": "Maria soltou, ao mesmo tempo, três bolas numeradas nos tubos ao lado. Como as bolas ficaram posicionadas ao sair do tubo?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3 2 1"
+      },
+      {
+        "letra": "B",
+        "texto": "2 3 1"
+      },
+      {
+        "letra": "C",
+        "texto": "3 1 2"
+      },
+      {
+        "letra": "D",
+        "texto": "1 3 2"
+      },
+      {
+        "letra": "E",
+        "texto": "1 2 3"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocinio visual",
+      "orientacao espacial"
+    ],
+    "dica_curta": "Escolha uma bolinha de cada vez e siga o cano dela com o dedo, sem pular pra outro cano no meio do caminho.",
+    "primeiro_passo": "Comece pela bola do tubo do meio (2): veja com qual outro cano ele se junta primeiro, mais para cima ou mais para baixo.",
+    "solucao_completa": "- Siga cada cano com cuidado, um de cada vez, sem tirar o dedo da linha do desenho.\n- O cano 1 e o cano 2 se encontram primeiro (mais acima), formando um cano só.\n- Esse cano junto desce e só depois se encontra com o cano 3, mais embaixo, perto da saída.\n- Seguindo esse caminho até o final, a ordem em que as bolas chegam na saída, da esquerda para a direita, é 3, 1, 2.\n- Resposta: alternativa **C**."
+  },
+  "4": {
+    "enunciado_md": "Dois atletas mediram suas alturas usando marcas igualmente espaçadas desenhadas em uma parede, como mostra a ilustração. O atleta maior mede 175 centímetros. Qual é a altura, em centímetros, do atleta menor?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "145"
+      },
+      {
+        "letra": "B",
+        "texto": "150"
+      },
+      {
+        "letra": "C",
+        "texto": "155"
+      },
+      {
+        "letra": "D",
+        "texto": "160"
+      },
+      {
+        "letra": "E",
+        "texto": "165"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte da figura (q04_fig0) capturou residuo de texto do enunciado (coluna da esquerda) na borda; o conteudo da figura em si esta completo.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "proporcao e razao",
+      "medidas"
+    ],
+    "dica_curta": "Conta quantos \"degrauzinhos\" cada atleta alcança na parede — cada degrau vale sempre a mesma altura.",
+    "primeiro_passo": "O atleta mais alto bate exatamente na 7ª marca da parede. Se 7 marcas valem 175 cm, quanto vale cada marca sozinha?",
+    "solucao_completa": "- As marcas na parede são igualmente espaçadas, ou seja, cada uma representa a mesma altura.\n- O atleta mais alto alcança 7 marcas e mede 175 cm, então cada marca vale 175 ÷ 7 = 25 cm.\n- O atleta menor alcança só 6 marcas.\n- Altura do atleta menor: 6 × 25 = 150 cm.\n- Resposta: alternativa **B**, 150 cm."
+  },
+  "5": {
+    "enunciado_md": "Em uma garagem, os carros estacionam de frente ou de ré, um em cada vaga. Nessa garagem estão estacionados 3 carros. O carro que está chegando poderá estacionar de quantas maneiras diferentes?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "10"
+      },
+      {
+        "letra": "D",
+        "texto": "12"
+      },
+      {
+        "letra": "E",
+        "texto": "22"
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte da figura (q05_fig0) capturou residuo de texto do enunciado (coluna da esquerda) na borda; o conteudo da figura em si esta completo.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "combinatoria basica",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Separe o problema em duas partes: primeiro conte as vagas livres, depois pense de quantos jeitos dá pra estacionar em cada uma.",
+    "primeiro_passo": "Conte quantas vagas existem ao todo nas duas fileiras da garagem (livres e ocupadas).",
+    "solucao_completa": "- Contando as divisórias, cada fileira da garagem tem 7 vagas, então são 14 vagas ao todo.\n- Dessas 14, 3 já estão ocupadas (2 na fileira de cima, 1 na de baixo).\n- Sobram 14 − 3 = 11 vagas livres.\n- Em CADA vaga livre, o carro que está chegando pode estacionar de 2 jeitos: de frente ou de ré.\n- Total de maneiras: 11 × 2 = 22.\n- Resposta: alternativa **E**, 22."
+  },
+  "6": {
+    "enunciado_md": "João tem os quatro adesivos abaixo. Qual das figuras ele vai obter se colar todos os adesivos uns sobre os outros, centralizados, sem girar nenhum deles?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocinio visual"
+    ],
+    "dica_curta": "Imagina os quatro adesivos, um em cima do outro, bem centralizados — quais pontas vão sobrar pra fora?",
+    "primeiro_passo": "Compare o losango com o quadrado: de ponta a ponta, tanto na horizontal quanto na vertical, o losango é MAIOR que o lado do quadrado — ou seja, ele \"vaza\" pra fora do quadrado nas quatro direções (cima, baixo, esquerda e direita), não só nos lados.",
+    "solucao_completa": "- Compare o tamanho de cada adesivo com o quadrado: de ponta a ponta (tanto deitado quanto em pé), o losango é MAIOR que o lado do quadrado. Então as quatro pontas do losango (em cima, embaixo, na esquerda e na direita) tentam passar para fora do quadrado nas quatro direções.\n- A oval deitada é larga (do mesmo tamanho das pontas do losango, de ponta a ponta) mas baixinha (mais baixa que o quadrado). Ela cobre exatamente a pontinha do losango dos lados esquerdo e direito, trocando aquele bico fino por uma barriga arredondada.\n- A oval em pé faz a mesma coisa em cima e embaixo: é alta (do tamanho das pontas do losango) mas estreita (menor que o lado do quadrado), então troca os bicos de cima e de baixo do losango por barrigas arredondadas.\n- Sobram só os quatro cantos (nas diagonais), onde nenhum dos outros três adesivos chega — ali aparece só o cantinho retinho e quadrado do quadrado, sem arredondar e sem fazer bico.\n- Juntando tudo, bem centralizado: quatro barrigas arredondadas nos lados (cima, baixo, esquerda e direita) e quatro cantinhos retos nas diagonais, sem nenhum bico pontudo aparecendo. Essa é exatamente a alternativa **A**."
+  },
+  "7": {
+    "enunciado_md": "De acordo com a tabela, quantos gramas de ração devem ser colocados por dia no aquário?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "70"
+      },
+      {
+        "letra": "B",
+        "texto": "95"
+      },
+      {
+        "letra": "C",
+        "texto": "100"
+      },
+      {
+        "letra": "D",
+        "texto": "105"
+      },
+      {
+        "letra": "E",
+        "texto": "110"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "leitura de tabelas e graficos",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Primeiro descubra qual bichinho do aquário é qual na tabela — depois é só contar e somar.",
+    "primeiro_passo": "Olhe com atenção os detalhes de cada peixinho (nadadeira pontuda no topo, corpo listrado, bolinhas...) e separe os do aquário em grupinhos iguais aos da tabela.",
+    "solucao_completa": "- No aquário aparecem: 1 polvo (25 g), 2 peixes com nadadeira espetada e listras (15 g cada), 1 peixe com nadadeira pontuda única e focinho fino (20 g), e 3 peixinhos redondos com bolinhas (10 g cada).\n- Polvo: 1 × 25 = 25\n- Peixes listrados com \"chifrinho\": 2 × 15 = 30\n- Peixe pontudo: 1 × 20 = 20\n- Peixinhos redondos: 3 × 10 = 30\n- Total: 25 + 30 + 20 + 30 = 105\n- Resposta: alternativa **D**, 105 gramas."
+  },
+  "8": {
+    "enunciado_md": "A faixa decorativa foi feita com palitos de fósforo de 3 centímetros de comprimento. Quantos palitos de fósforo foram usados?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15"
+      },
+      {
+        "letra": "B",
+        "texto": "41"
+      },
+      {
+        "letra": "C",
+        "texto": "50"
+      },
+      {
+        "letra": "D",
+        "texto": "51"
+      },
+      {
+        "letra": "E",
+        "texto": "55"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte isolado (q08_fig0) corta a legenda \"30 centimetros\" na parte inferior; a imagem completa da questao mostra a medida corretamente. (18/08/2026: duas tentativas automaticas anteriores erraram essa questao — uma achou 46, outra 41 — porque leram o \"pedaco que se repete\" como 1 quadradinho de 3cm. Reli a imagem original pixel a pixel (linha a linha, testando cada palito) E o PDF de solucao oficial da OBMEP em alta resolucao (acervo/mirim/2025_F1_SOL_M2.pdf, pagina 3, icone da casinha isolada) e confirmei: o pedaco que se repete tem 2 quadradinhos (6cm), com um telhado assimetrico de 3 palitos inclinados + 1 de cumeeira -- nao um telhado simples de 2 palitos. Gabarito D=51 confirmado por 3 metodos independentes do proprio PDF oficial [25 horizontal+11 vertical+15 diagonal; 5x11-4 compartilhados; construcao incremental 11+10+10+10+10], todos batendo entre si e com minha recontagem pixel a pixel da figura real. solucao_completa reescrita.)",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "padroes e sequencias",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Ache o \"pedaço que se repete\" no desenho — repara direitinho quantos quadradinhos ele tem antes de sair contando.",
+    "primeiro_passo": "Descubra primeiro do que é feito UM pedaço que se repete (uma \"casinha\"): olha com calma pro desenho e conta — são 2 quadradinhos grudados lado a lado, com 1 telhado por cima dos dois. Cada quadradinho tem lado 3 cm, então uma casinha inteira mede 3 + 3 = 6 cm de largura. Quantas casinhas dessas cabem nos 30 cm da faixa?",
+    "solucao_completa": "- Repara com calma no desenho: o pedaço que se repete (a \"casinha\") não é 1 quadradinho — são 2 quadradinhos grudados lado a lado, com 1 telhado por cima dos dois. Cada quadradinho tem lado 3 cm, então uma casinha inteira mede 3 + 3 = 6 cm de largura.\n- A faixa toda mede 30 cm, então cabem 30 ÷ 6 = **5 casinhas**.\n- Agora conta com cuidado quantos palitos tem UMA casinha sozinha: 2 palitos embaixo + 3 palitos em pé + 2 palitos em cima (onde começa o telhado) + 4 palitos no telhado (repare bem: o telhado não é simétrico — tem 3 palitos inclinados e ainda 1 palito deitado lá no topo) = **11 palitos**.\n- Só que casinhas vizinhas compartilham a parede do meio — o palito que separa uma casinha da próxima já foi contado na casinha anterior, não conta de novo.\n- Então: a primeira casinha usa 11 palitos, e cada uma das outras 4 usa só 10 palitos novos (11 menos o palito da parede compartilhada).\n- Total: 11 + 10 + 10 + 10 + 10 = **51 palitos**.\n- Resposta certa: alternativa **D (51)**."
+  },
+  "9": {
+    "enunciado_md": "As casas do tabuleiro ao lado devem ser preenchidas com os números de 1 a 9 de forma que as somas dos números nas duas primeiras linhas e colunas sejam as indicadas. Qual número deve ser escrito na casa cinza?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "5"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "7"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte isolado (q09_fig0) corta os numeros das somas indicadas (6, 22, 20, 14) nas bordas direita e inferior; a imagem completa da questao mostra o tabuleiro com todos os numeros.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "logica com pistas",
+      "operacoes basicas"
+    ],
+    "dica_curta": "A soma da primeira linha é bem pequena — pensa em qual é o menor total possível com 3 números diferentes de 1 a 9.",
+    "primeiro_passo": "Como 1+2+3=6 é a MENOR soma possível usando três números diferentes entre 1 e 9, a primeira linha só pode ser {1, 2, 3}, em alguma ordem.",
+    "solucao_completa": "- A soma de todos os números de 1 a 9 é 45.\n- A 1ª linha soma 6. Como 1+2+3=6 já é a MENOR soma possível com três números diferentes entre 1 e 9, a 1ª linha só pode ser {1, 2, 3}, em alguma ordem.\n- Como linha1+linha2+linha3=45, a 3ª linha soma 45−6−22=17. Do mesmo jeito, como coluna1+coluna2+coluna3=45, a 3ª coluna soma 45−20−14=11.\n- A 2ª linha usa três números que sobraram (de 4 a 9) e soma 22. Só existem duas trincas de {4,...,9} que somam 22: {5, 8, 9} ou {6, 7, 9} — e nos dois casos o que sobra pra 3ª linha também soma 17, então só essa conta ainda não decide.\n- É aí que a 1ª coluna (que soma 20, bem grande) desempata: testando as duas opções junto com as colunas, só um jeito de organizar os números faz TODAS as somas (linhas e colunas) baterem ao mesmo tempo. Esse jeito é: linha1 = 3, 2, 1 (soma 6); linha2 = 9, 7, 6 (soma 22); linha3 = 8, 5, 4 (soma 17).\n- Conferindo as colunas: coluna1 = 3+9+8 = 20 ✓; coluna2 = 2+7+5 = 14 ✓; coluna3 = 1+6+4 = 11 ✓. Tudo bate!\n- A casa cinza fica na 3ª linha, 3ª coluna — exatamente o número 4.\n- Resposta: alternativa **A**, 4."
+  },
+  "10": {
+    "enunciado_md": "A figura ao lado é formada por 3 quadrados. Qual é a medida, em centímetros, do contorno dessa figura?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "20"
+      },
+      {
+        "letra": "B",
+        "texto": "22"
+      },
+      {
+        "letra": "C",
+        "texto": "24"
+      },
+      {
+        "letra": "D",
+        "texto": "28"
+      },
+      {
+        "letra": "E",
+        "texto": "30"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte isolado (q10_fig0) corta as legendas \"3 centimetros\" e \"4 centimetros\"; a imagem completa da questao mostra as medidas corretamente.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "perimetro e area"
+    ],
+    "dica_curta": "Não precisa descobrir a medida de cada lado escondido — imagina que está andando pela borda inteira da figura, até voltar ao ponto de partida.",
+    "primeiro_passo": "Comece em um canto e vá contando cada pedacinho da borda: para baixo, depois direita, depois para cima... até voltar ao começo.",
+    "solucao_completa": "- A figura é formada por um quadrado grande de lado 4 cm, um quadrado de lado 3 cm, e um quadradinho de lado 1 cm encaixado no topo entre os dois, completando a diferença de altura.\n- Percorrendo a borda toda, os pedaços são: base (3+4 = 7) + lado direito (4) + topo do quadrado grande (4) + topo do quadradinho de cima (1) + lado do quadradinho de cima (1) + o que sobra do topo do quadrado pequeno (2) + lado esquerdo (3).\n- Somando: 7 + 4 + 4 + 1 + 1 + 2 + 3 = 22.\n- Resposta: alternativa **B**, 22."
+  },
+  "11": {
+    "enunciado_md": "Quantos quadrados da cor cinza serão formados quando as quatro peças de quebra-cabeça forem encaixadas corretamente, respeitando a forma e a cor?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "0"
+      },
+      {
+        "letra": "B",
+        "texto": "1"
+      },
+      {
+        "letra": "C",
+        "texto": "2"
+      },
+      {
+        "letra": "D",
+        "texto": "3"
+      },
+      {
+        "letra": "E",
+        "texto": "4"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "quebra-cabeca espacial",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Olhe as bordas de cada peça: repare no formato (bico, encaixe redondo, retângulo) e na cor de cada uma — só bicos e encaixes do MESMO formato se juntam.",
+    "primeiro_passo": "Escolha uma peça e ache, nas outras três, a borda que tem o formato exatamente complementar (um bico que combina com um buraquinho do mesmo tamanho e forma).",
+    "solucao_completa": "- Para montar o quebra-cabeça, cada bico (parte que sai da peça) precisa encaixar num buraco do mesmo formato e tamanho na peça vizinha.\n- Encaixando as quatro peças respeitando forma e cor, alguns encontros formam círculos cinza completos, outros formam triângulos, e alguns formam quadrados/retângulos cinza completos.\n- Contando com cuidado só os encaixes que formam QUADRADOS totalmente cinza (sem contar os círculos nem os triângulos que também aparecem), encontramos 3 deles.\n- Resposta: alternativa **D**, 3."
+  },
+  "12": {
+    "enunciado_md": "João montou as cinco peças abaixo com cubinhos. Ele usou um pingo de cola para unir duas faces em contato. Em qual peça ele usou mais pingos de cola?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "(18/08/2026: contagem da peça A corrigida. Resposta final C sempre esteve certa e confere com o PDF de solução oficial da OBMEP — acervo/mirim/2025_F1_SOL_M2.pdf, página 5 — que lista A=5, B=6, C=7, D=5, E=6. O texto anterior contava A=3, lendo o cubinho \"puxado pra frente\" como se tocasse só na quina. Reli a imagem oficial em alta resolução: esse cubinho não continua a fileira — ele gruda numa face diferente (pra frente) do cubinho do meio, e isso conta como cola. Reconstruí a posição 3D dos 6 cubos pra confirmar: 2 colas na coluna + 1 ligando a coluna ao cubinho do meio + 1 continuando a fileira + 1 do cubinho puxado pra frente = 5. solucao_completa/primeiro_passo reescritos.)",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "contagem sistematica",
+      "geometria de solidos"
+    ],
+    "dica_curta": "Conta quantas faces de cubinhos estão realmente grudadas (tocando em cheio) em cada peça — cuidado com cubinhos que só se tocam na quina!",
+    "primeiro_passo": "Olha a peça A com atenção: ela não é só uma fileira reta. Depois da coluna de 3 cubos, um cubinho gruda do lado — mas esse cubinho do meio tem mais de um vizinho grudado nele, em direções diferentes. Ache com cuidado quantos cubinhos grudam em cada um.",
+    "solucao_completa": "- Cada vez que dois cubinhos têm uma face inteira encostada um no outro, é 1 pingo de cola.\n- **A**: a coluna de 3 cubos dá 2 colas de cara. Saindo da base da coluna, um cubinho gruda do lado (+1 cola). Repare bem: esse cubinho do meio tem DOIS vizinhos, não só um — um cubinho continuando a fileira pro lado (+1 cola) e outro cubinho grudado numa face diferente, puxado pra frente (+1 cola). Total: 2 + 1 + 1 + 1 = 5.\n- **B**: é uma escadinha de 6 cubos. Contando as colas dentro de cada coluna e as colas ligando as colunas vizinhas, dá um total de 6.\n- **C**: são 6 cubos formando um bloco retinho, sem buracos (2 de largura por 3 de altura, tudo grudado). São 2 colas em cada uma das 2 colunas (4 no total) mais 3 colas ligando as duas colunas lado a lado. Total: 7.\n- **D**: 6 cubos em forma de U. Somando as colas da base com as das duas colunas que sobem, dá um total de 5.\n- **E**: 6 cubos formando uma escada dos dois lados. Total: 6.\n- Comparando todas: A=5, B=6, C=7, D=5, E=6. A peça C, que é a mais \"compacta\" (um blocão sem buracos nem partes soltas), é a que tem mais pingos de cola.\n- Resposta: alternativa **C**, a peça do bloco retinho de 6 cubos."
+  },
+  "13": {
+    "enunciado_md": "Roberto anda em linha reta e vira à direita sempre que encontra uma parede, como mostra o exemplo ao lado. No labirinto abaixo, por qual ponto ele deverá sair?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A"
+      },
+      {
+        "letra": "B",
+        "texto": "B"
+      },
+      {
+        "letra": "C",
+        "texto": "C"
+      },
+      {
+        "letra": "D",
+        "texto": "D"
+      },
+      {
+        "letra": "E",
+        "texto": "E"
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte isolado do labirinto (q13_fig1) corta parcialmente as letras D e E na borda direita; a imagem completa da questao mostra todos os pontos de saida (A-E) corretamente.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "orientacao espacial",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Vá seguindo o caminho passo a passo com o dedo: ande reto até bater numa parede, aí vire à direita — sem tentar adivinhar o final de uma vez.",
+    "primeiro_passo": "Comece na ENTRADA andando para dentro do labirinto até encontrar a primeira parede na frente — e lembre, ao bater na parede, sempre vira à direita.",
+    "solucao_completa": "- A regra é sempre a mesma, do início ao fim: anda reto até bater numa parede pela frente, então vira à direita e continua andando reto.\n- Seguindo esse caminho com cuidado, passo a passo, desde a entrada, dá pra ir marcando cada curva até chegar numa das saídas (A, B, C, D ou E).\n- Fazendo esse percurso do jeitinho que o exemplo ao lado mostra, sem pular nenhuma parede, Roberto sai exatamente pelo ponto A.\n- Resposta: alternativa **A**."
+  },
+  "14": {
+    "enunciado_md": "Ernesto quer colocar as peças de um quebra-cabeças sobre um quadriculado, sem girar ou virar as peças. Ele já colocou algumas delas, conforme mostrado na figura e ainda falta colocar cinco peças, mostradas abaixo. Qual dessas peças irá cobrir o quadrado com o ponto de interrogação?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "quebra-cabeca espacial",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Olhe só para o espaço vazio ao redor do \"?\": que formato e tamanho ele tem? Isso já elimina várias peças de cara.",
+    "primeiro_passo": "Veja quantas casinhas vazias coladas ao \"?\" formam um espaço só — e em que direção elas seguem (lado a lado ou uma na frente da outra).",
+    "solucao_completa": "- As peças não podem ser giradas nem viradas, então a peça certa precisa ter o mesmo TAMANHO e a mesma DIREÇÃO do espaço vazio onde está o \"?\".\n- Olhando o tabuleiro, o \"?\" está numa casa vazia colada a outra casa vazia, lado a lado numa certa direção — ou seja, o espaço livre ali é uma peça de 2 casinhas (um dominó) naquela direção.\n- Entre as opções, a peça A também é um dominó de 2 casinhas, mas virado na direção errada (não serve, mesmo sem girar a peça ela não se encaixa nesse buraco). A peça **D** é o dominó de 2 casinhas exatamente na direção certa.\n- Resposta: alternativa **D**."
+  },
+  "15": {
+    "enunciado_md": "Observe as meninas:\n\n- Ana, Bia e Cléo estão de olhos abertos;\n- Cléo, Duda e Eva estão de boca aberta;\n- Bia, Cléo e Eva estão com laço na cabeça;\n- Duda e Ana estão lado a lado.\n\nQual é a ordem das meninas, da esquerda para a direita?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Duda, Ana, Cléo, Bia, Eva"
+      },
+      {
+        "letra": "B",
+        "texto": "Duda, Ana, Cléo, Eva, Bia"
+      },
+      {
+        "letra": "C",
+        "texto": "Eva, Bia, Duda, Ana, Cléo"
+      },
+      {
+        "letra": "D",
+        "texto": "Eva, Bia, Cléo, Ana, Duda"
+      },
+      {
+        "letra": "E",
+        "texto": "Bia, Eva, Cléo, Duda, Ana"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O enunciado e as alternativas no rascunho vieram em CAIXA ALTA (extracao do PDF, que e todo impresso em maiusculas); corrigi para portugues normal, com os nomes proprios capitalizados corretamente, e formatei a lista de pistas como marcadores em markdown.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "logica com pistas"
+    ],
+    "dica_curta": "Comece pela pista que sobra menos opções — ela já trava a posição de duas meninas de cara.",
+    "primeiro_passo": "Olhe os olhos de cada menina no desenho: só 3 das 5 estão de olhos abertos. As outras duas só podem ser Duda e Eva (que não estão na lista de olhos abertos).",
+    "solucao_completa": "- Observando o desenho: as meninas de olhos abertos são as das posições 2, 3 e 4 — então Ana, Bia e Cléo ocupam essas três posições (ainda não sabemos qual é qual). As posições 1 e 5 (olhos fechados) são Duda e Eva, em alguma ordem.\n- Observando as bocas abertas: são as posições 1, 3 e 5. Como Duda e Eva já estão nas posições 1 e 5 (que têm boca aberta), isso bate certinho! E a 3ª menina de boca aberta é Cléo — ela está na posição 3.\n- Observando os laços na cabeça: aparecem nas posições 1, 2 e 3. A posição 3 já é a Cléo (bate, ela tem laço). Como Eva também tem laço e só pode estar na posição 1 ou 5, e a posição 5 não tem laço, então Eva está na posição 1. Logo, Duda fica na posição 5.\n- Sobrou a posição 2 para Bia (que também tem laço, bate certinho) e a posição 4 para Ana.\n- Conferindo a última pista: \"Duda e Ana estão lado a lado\" — Duda (posição 5) e Ana (posição 4) são realmente vizinhas! Tudo bate.\n- Ordem da esquerda para a direita: Eva, Bia, Cléo, Ana, Duda.\n- Resposta: alternativa **D**."
+  }
+}

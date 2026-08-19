@@ -1,0 +1,570 @@
+{
+  "1": {
+    "enunciado_md": "Ana monta estrelas usando pares de figuras geométricas iguais. Com triângulos e com quadrados, ela formou as seguintes estrelas:\n\nQuantas pontas terá a estrela que Ana vai montar usando pentágonos?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6"
+      },
+      {
+        "letra": "B",
+        "texto": "8"
+      },
+      {
+        "letra": "C",
+        "texto": "10"
+      },
+      {
+        "letra": "D",
+        "texto": "12"
+      },
+      {
+        "letra": "E",
+        "texto": "14"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "Recorte de figuras isoladas capturou so 4 dos elementos visuais da questao (faltam o par quadrado/losango e a estrela de 8 pontas que aparecem no meio do enunciado); a imagem completa da questao (imagem_questao) mostra tudo corretamente, entao nao ha perda de conteudo, so um recorte incompleto no array de figuras.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "padroes e sequencias",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Repara no número de lados de cada polígono e compara com o número de pontas da estrela que ele formou. Tem um padrão escondido aí!",
+    "primeiro_passo": "O triângulo tem 3 lados e virou uma estrela de 6 pontas. O quadrado tem 4 lados e virou uma estrela de 8 pontas. Compare: quantas pontas a mais tem a estrela em relação ao número de lados do polígono?",
+    "solucao_completa": "- Triângulo: 3 lados → estrela de 6 pontas.\n- Quadrado: 4 lados → estrela de 8 pontas.\n- Repara no padrão: o número de pontas é sempre o DOBRO do número de lados do polígono (3×2=6, 4×2=8).\n- Pentágono tem 5 lados, então a estrela dele vai ter 5×2 = 10 pontas.\n- Resposta: alternativa C (10)."
+  },
+  "2": {
+    "enunciado_md": "O ábaco mostra o número 142. Manuela retirou um disco do pino das dezenas e o colocou no pino das unidades. A seguir, ela retirou outro disco do pino das dezenas e o colocou no pino das centenas. Qual número o ábaco passou a mostrar?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "34"
+      },
+      {
+        "letra": "B",
+        "texto": "124"
+      },
+      {
+        "letra": "C",
+        "texto": "223"
+      },
+      {
+        "letra": "D",
+        "texto": "304"
+      },
+      {
+        "letra": "E",
+        "texto": "324"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "O recorte da figura isolada (q02_fig0.png) pegou um pequeno residuo de texto do enunciado no canto superior esquerdo (fragmentos como ELA e PINO), mas o desenho do abaco em si esta integro e legivel.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "sistema de numeracao"
+    ],
+    "dica_curta": "Lembra que cada pino do ábaco é uma casa do número (centena, dezena, unidade). Vai atualizando o número devagar, um movimento de cada vez.",
+    "primeiro_passo": "O número 142 tem 1 centena, 4 dezenas e 2 unidades. Manuela tira 1 disco da dezena e coloca na unidade: o que acontece com esses dois valores?",
+    "solucao_completa": "- Início: 142 → 1 centena, 4 dezenas, 2 unidades.\n- 1º movimento: tira 1 disco da dezena e põe na unidade → fica 1 centena, 3 dezenas, 3 unidades → o número é 133.\n- 2º movimento: tira outro disco da dezena e põe na centena → fica 2 centenas, 2 dezenas, 3 unidades → o número é 223.\n- Resposta: alternativa C (223)."
+  },
+  "3": {
+    "enunciado_md": "Algumas crianças carimbaram suas mãos em uma cartolina. Todas as crianças carimbaram a mão esquerda. Quantas crianças esqueceram de carimbar a mão direita?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem sistematica",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Cada criança devia carimbar as duas mãos. Olha com atenção pra cada carimbo e pensa: é uma mão esquerda ou uma mão direita?",
+    "primeiro_passo": "Olhando a posição do polegar em cada carimbo, dá pra separar quais são carimbos de mão esquerda e quais são de mão direita. Conte quantos são de cada tipo.",
+    "solucao_completa": "- No total, há 9 carimbos de mãos na cartolina.\n- Separando pela posição do polegar: 6 carimbos são de mão esquerda e 3 são de mão direita.\n- Como TODAS as crianças carimbaram a mão esquerda, o número de crianças é igual ao número de carimbos de mão esquerda: 6 crianças ao todo.\n- Dessas 6 crianças, só 3 também carimbaram a mão direita (as que lembraram).\n- Então 6 − 3 = 3 crianças esqueceram de carimbar a mão direita.\n- Resposta: alternativa C (3)."
+  },
+  "4": {
+    "enunciado_md": "Oito bolas, com pesos indicados em quilogramas, estão em duas caixas, como na figura. Qual é o peso da bola que deve ser transferida de uma caixa para outra para que as caixas fiquem com o mesmo peso?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O segundo recorte de figura (q04_fig1.png) saiu quase em branco, so com um fragmento minusculo de um icone no canto (provavelmente residuo de outra parte da pagina), sem conteudo util; o primeiro recorte (q04_fig0.png) e a imagem completa da questao tem as duas caixas de bolas corretas e legiveis.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "operacoes basicas",
+      "medidas"
+    ],
+    "dica_curta": "Descubra primeiro quanto pesa cada caixa somando as bolas dela, e pensa em qual deveria ser o peso final das duas caixas se ficassem iguais.",
+    "primeiro_passo": "A caixa com as bolas 1, 6 e 2 pesa 9 kg. A caixa com as bolas 1, 2, 3, 4 e 5 pesa 15 kg. Qual é a diferença de peso entre as duas caixas?",
+    "solucao_completa": "- Caixa 1 (1, 6, 2): 1+6+2 = 9 kg.\n- Caixa 2 (1, 2, 3, 4, 5): 1+2+3+4+5 = 15 kg.\n- Para ficarem iguais, cada caixa precisa pesar (9+15) ÷ 2 = 12 kg.\n- A caixa 2 tem 15 kg e precisa perder 15 − 12 = 3 kg, transferindo uma bola de 3 kg pra caixa 1.\n- Conferindo: caixa 1 fica com 9+3 = 12 kg, caixa 2 fica com 15−3 = 12 kg. Iguais!\n- A caixa 2 realmente tem uma bola de 3 kg, então é essa que deve ser transferida.\n- Resposta: alternativa C (3)."
+  },
+  "5": {
+    "enunciado_md": "Maria Eduarda forma torres de cubinhos idênticos num círculo, colocando um cubinho em cima do outro. Ao terminar uma torre, ela escreve no seu topo o número de cubinhos que ela usou. O que ela vê ao olhar de cima as torres da figura?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "As alternativas sao 5 diagramas circulares (imagem), mas so 4 recortes isolados de opcoes foram extraidos, e um deles (q05_fig4.png) veio misturado com um pedaco cortado da imagem das torres 3D alem do diagrama da opcao E; a imagem completa da questao (imagem_questao) mostra as 5 alternativas A-E corretamente, entao o conteudo nao foi perdido, so o recorte individual ficou incompleto e um pouco bagunçado.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "orientacao espacial",
+      "quebra-cabeca espacial"
+    ],
+    "dica_curta": "Imagina que você é um passarinho voando bem em cima da mesa: você só vai enxergar os números escritos no topo de cada torre, cada um na posição em que a torre está.",
+    "primeiro_passo": "Conte quantos cubinhos tem cada uma das 6 torres da figura (repare que tem torres bem baixinhas e outras bem altas), e observe também qual torre fica na frente, atrás, à esquerda e à direita das outras.",
+    "solucao_completa": "- Contando os cubinhos de cada torre na figura, as alturas são: 2, 2, 3, 4, 4 e 5.\n- Olhando de cima, cada torre vira só um número, na posição em que ela está ao redor do círculo (a torre mais ao fundo aparece na parte de cima do desenho visto de cima, a mais na frente aparece embaixo, e assim por diante).\n- Seguindo a posição de cada torre ao redor da mesa, no sentido horário a sequência de alturas é: 4, 3, 5, 4, 2, 2 — repare que as duas torres de altura 2 ficam uma do lado da outra.\n- Essa é exatamente a distribuição mostrada na alternativa D.\n- Resposta: alternativa D."
+  },
+  "6": {
+    "enunciado_md": "O dia 1º de janeiro de 2000 caiu em um sábado. Em que dia da semana caiu 31 de janeiro de 2000?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Segunda-feira"
+      },
+      {
+        "letra": "B",
+        "texto": "Terça-feira"
+      },
+      {
+        "letra": "C",
+        "texto": "Quarta-feira"
+      },
+      {
+        "letra": "D",
+        "texto": "Quinta-feira"
+      },
+      {
+        "letra": "E",
+        "texto": "Sexta-feira"
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "padroes e sequencias",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Pensa em quantos dias existem entre o dia 1º e o dia 31 de janeiro, e lembra que os dias da semana se repetem a cada 7 dias.",
+    "primeiro_passo": "Do dia 1º ao dia 31 de janeiro se passam 30 dias. Divida 30 por 7 pra ver quantas semanas completas passam e quantos dias sobram.",
+    "solucao_completa": "- Do dia 1º ao dia 31 de janeiro se passam 31 − 1 = 30 dias.\n- 30 dividido por 7 dá 4 semanas completas (28 dias) e sobram 2 dias.\n- Como o dia 1º foi um sábado, avançando 2 dias: sábado → domingo → segunda-feira.\n- Resposta: alternativa A (Segunda-feira)."
+  },
+  "7": {
+    "enunciado_md": "Numa fila, há seis meninos esperando para entrar no laboratório. A professora separou os meninos, colocando entre cada dois deles três meninas. No total, quantos meninos e meninas ficaram na fila?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10"
+      },
+      {
+        "letra": "B",
+        "texto": "12"
+      },
+      {
+        "letra": "C",
+        "texto": "18"
+      },
+      {
+        "letra": "D",
+        "texto": "21"
+      },
+      {
+        "letra": "E",
+        "texto": "25"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem sistematica",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Imagina a fila de meninos primeiro, e pensa em quantos 'espaços entre eles' existem pra professora encaixar as meninas.",
+    "primeiro_passo": "Com 6 meninos em fila, quantos espaços existem ENTRE eles (não conta antes do primeiro nem depois do último)? Em cada um desses espaços entram 3 meninas.",
+    "solucao_completa": "- 6 meninos em fila criam 5 espaços entre eles (entre o 1º e o 2º, entre o 2º e o 3º, e assim por diante).\n- Em cada um dos 5 espaços a professora coloca 3 meninas: 5 × 3 = 15 meninas.\n- Total na fila: 6 meninos + 15 meninas = 21 pessoas.\n- Resposta: alternativa D (21)."
+  },
+  "8": {
+    "enunciado_md": "Emiliano gosta de empilhar cubinhos no canto da sala, como mostrado na figura abaixo. Ele usa 1 cubinho na 1ª pilha, 4 cubinhos na 2ª pilha, 10 cubinhos na 3ª pilha, e assim por diante. Quantos cubinhos ele terá que usar para montar a 5ª pilha?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "35"
+      },
+      {
+        "letra": "B",
+        "texto": "56"
+      },
+      {
+        "letra": "C",
+        "texto": "61"
+      },
+      {
+        "letra": "D",
+        "texto": "73"
+      },
+      {
+        "letra": "E",
+        "texto": "84"
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "padroes e sequencias"
+    ],
+    "dica_curta": "Olha as diferenças entre uma pilha e a próxima (o quanto ela cresceu) — essas diferenças também seguem um padrão.",
+    "primeiro_passo": "As pilhas conhecidas são 1, 4 e 10. Quanto cresceu de 1 pra 4? E de 4 pra 10? Anota esses dois números de crescimento.",
+    "solucao_completa": "- Pilhas conhecidas: 1ª = 1, 2ª = 4, 3ª = 10.\n- Crescimento entre pilhas: de 1 pra 4 cresceu 3; de 4 pra 10 cresceu 6.\n- Esses crescimentos (3, 6, ...) também seguem um padrão, os números triangulares: 3, 6, 10, 15 (cada um soma mais um número que o anterior: 1+2=3, 1+2+3=6, 1+2+3+4=10, 1+2+3+4+5=15).\n- Próximo crescimento (3ª pra 4ª pilha) é 10: 4ª pilha = 10+10 = 20.\n- Crescimento seguinte (4ª pra 5ª pilha) é 15: 5ª pilha = 20+15 = 35.\n- Resposta: alternativa A (35)."
+  },
+  "9": {
+    "enunciado_md": "Uma régua de 15 centímetros tem uma marca a cada milímetro. Quantas marcas tem essa régua ao todo?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15"
+      },
+      {
+        "letra": "B",
+        "texto": "31"
+      },
+      {
+        "letra": "C",
+        "texto": "149"
+      },
+      {
+        "letra": "D",
+        "texto": "150"
+      },
+      {
+        "letra": "E",
+        "texto": "151"
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem sistematica",
+      "medidas"
+    ],
+    "dica_curta": "Cuidado com uma pegadinha clássica: conta as MARCAS, não os espaços entre elas — são coisas diferentes!",
+    "primeiro_passo": "15 cm equivalem a 150 mm. Se a régua começa com uma marca no 0 mm, quantas marcas existem, no total, até chegar na marca de 150 mm?",
+    "solucao_completa": "- 15 cm = 150 mm, então a régua vai da marca 0 mm até a marca 150 mm.\n- As marcas são: 0, 1, 2, 3, ..., 150 — todos os números inteiros de 0 até 150.\n- Quantidade de marcas = 150 − 0 + 1 = 151 (soma 1 porque conta tanto o 0 quanto o 150).\n- Resposta: alternativa E (151)."
+  },
+  "10": {
+    "enunciado_md": "A data 22/02/2022 é interessante porque dia e mês juntos formam o ano ao contrário, ou seja, essa data pode ser lida tanto da esquerda para a direita, quanto da direita para a esquerda, apresentando o mesmo resultado. Em qual das seguintes datas isso também acontece?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12/12/2112"
+      },
+      {
+        "letra": "B",
+        "texto": "23/02/3022"
+      },
+      {
+        "letra": "C",
+        "texto": "13/02/2031"
+      },
+      {
+        "letra": "D",
+        "texto": "21/12/1221"
+      },
+      {
+        "letra": "E",
+        "texto": "12/21/2121"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "padroes e sequencias",
+      "logica com pistas"
+    ],
+    "dica_curta": "Escreve cada data juntando dia e mês (sem a barra) e compara essa sequência de trás pra frente com o ano. É só isso que precisa bater.",
+    "primeiro_passo": "Em 22/02/2022, juntando dia e mês dá '2202'. Lendo de trás pra frente, '2202' vira '2022' — exatamente o ano! Testa essa mesma ideia em cada alternativa.",
+    "solucao_completa": "- A regra escondida: juntando o dia e o mês (DDMM) e lendo de trás pra frente, tem que dar o ano.\n- 22/02/2022 → DDMM = 2202 → invertido = 2022 = o ano. Funciona!\n- Testando as alternativas:\n  - A) 12/12/2112 → 1212 invertido = 2121 ≠ 2112.\n  - B) 23/02/3022 → 2302 invertido = 2032 ≠ 3022.\n  - C) 13/02/2031 → 1302 invertido = 2031 = o ano! Funciona!\n  - D) 21/12/1221 → 2112 invertido = 2112 ≠ 1221.\n  - E) 12/21/2121 → não existe mês 21, essa data nem existe.\n- Resposta: alternativa C (13/02/2031)."
+  },
+  "11": {
+    "enunciado_md": "Três cartas de um baralho possuem figuras nas suas duas faces. As figuras não se repetem dentre as cartas. Essas cartas foram colocadas numa mesa de três maneiras diferentes. Qual o outro lado da carta com o sol?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "Varios recortes de figuras isoladas pegaram um pequeno fragmento do parenteses da letra da alternativa vizinha (por exemplo um C, um B, um D ou so um fechamento de parenteses no canto), mas o desenho principal de cada carta esta completo e legivel em todos os recortes; a imagem completa da questao tambem esta correta.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "logica com pistas",
+      "combinatoria basica"
+    ],
+    "dica_curta": "Repara quais figuras aparecem juntas em cada rodada e quais nunca aparecem ao mesmo tempo — isso ajuda a descobrir quem forma par com quem.",
+    "primeiro_passo": "O foguete aparece na 1ª e na 2ª maneira, mas some na 3ª — nessa rodada aquela carta virou pro outro lado. Qual figura aparece só na 3ª maneira, sem repetir em nenhuma outra?",
+    "solucao_completa": "- Cada carta tem 2 lados diferentes, e nas 3 rodadas as cartas podem ter sido viradas.\n- O foguete aparece na 1ª e na 2ª maneira, mas não na 3ª — então nessa rodada a carta virou, mostrando o outro lado. A única figura nova na 3ª maneira é o astronauta. Logo, foguete e astronauta são a mesma carta.\n- A lua aparece na 1ª e na 3ª maneira, mas não na 2ª — nessa rodada ela virou. A figura que aparece só na 2ª maneira é a estrela cadente. Logo, lua e estrela cadente são a mesma carta.\n- Sobram sol e Terra: o sol aparece só na 1ª maneira, e a Terra aparece na 2ª e na 3ª (mas não na 1ª) — exatamente o par que falta! Sol e Terra são a mesma carta.\n- Então o outro lado da carta com o sol é a Terra.\n- Resposta: alternativa E (Terra)."
+  },
+  "12": {
+    "enunciado_md": "A sala de aula da professora Débora tem 13 alunos e no mural da sala há um cartaz com os meses do ano. Cada aluno escreveu seu nome no mês em que nasceu. O que acontece com certeza, na sala da professora Débora?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Em todo mês há um aniversariante."
+      },
+      {
+        "letra": "B",
+        "texto": "Há um mês com 2 aniversariantes ou mais."
+      },
+      {
+        "letra": "C",
+        "texto": "Há um mês sem nenhum aniversariante."
+      },
+      {
+        "letra": "D",
+        "texto": "Há um mês com 3 aniversariantes."
+      },
+      {
+        "letra": "E",
+        "texto": "Todos os aniversariantes fazem aniversário no mesmo mês."
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "O enunciado_rascunho estava contaminado: as 5 alternativas (que sao texto, nao imagem) tinham sido coladas ao final do enunciado, e alternativas_rascunho tinha ficado null como se fossem imagem. Separei o enunciado das 5 alternativas de texto e corrigi alternativa_tipo para texto. Tambem corrigi a capitalizacao de debora para Debora (nome proprio), duas ocorrencias.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "logica com pistas",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Pensa: são 13 crianças pra encaixar em só 12 meses. Alguma coisa tem que 'sobrar' em algum lugar.",
+    "primeiro_passo": "Se cada um dos 12 meses tivesse no máximo 1 aniversariante, qual seria o número máximo de alunos possível? Compare esse número com os 13 alunos reais da turma.",
+    "solucao_completa": "- Existem 12 meses no ano e 13 alunos na sala.\n- Se cada mês tivesse no máximo 1 aniversariante, o máximo de alunos possível seria 12 — mas a sala tem 13, um a mais.\n- Então, não importa como os aniversários se espalhem pelos meses, é impossível evitar que algum mês tenha 2 ou mais aniversariantes (esse raciocínio se chama 'princípio da casa dos pombos').\n- As outras alternativas não são garantidas: dá pra imaginar uma distribuição em que todo mês tem pelo menos 1 aniversariante, então não dá pra garantir que exista um mês sem nenhum, nem que exista um mês com exatamente 3, nem que todo mês tenha aniversariante.\n- Resposta: alternativa B (Há um mês com 2 aniversariantes ou mais)."
+  },
+  "13": {
+    "enunciado_md": "Com sua jarra cheia de suco, Marta consegue encher 10 copos. Com essa mesma jarra ela consegue encher 2 garrafas. Quantos copos ela consegue encher com 3 garrafas cheias de suco?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12"
+      },
+      {
+        "letra": "B",
+        "texto": "14"
+      },
+      {
+        "letra": "C",
+        "texto": "15"
+      },
+      {
+        "letra": "D",
+        "texto": "16"
+      },
+      {
+        "letra": "E",
+        "texto": "20"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "proporcao e razao",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Descubra primeiro quantos copos cabem em UMA garrafa, usando a informação da jarra como ponte entre copos e garrafas.",
+    "primeiro_passo": "A jarra enche 10 copos e também enche 2 garrafas. Então, quantos copos equivalem a 1 garrafa só?",
+    "solucao_completa": "- A jarra enche 10 copos e também enche 2 garrafas — ou seja, 2 garrafas = 10 copos.\n- Logo, 1 garrafa = 10 ÷ 2 = 5 copos.\n- Com 3 garrafas: 3 × 5 = 15 copos.\n- Resposta: alternativa C (15)."
+  },
+  "14": {
+    "enunciado_md": "Patrícia viu que no cubo da figura só existem os números 1, 2 e 4 pintados nas faces. Cada um desses números aparece em alguma face. Ela coloca o cubo no canto e só três faces aparecem. É correto afirmar, com certeza, que nesse cubo:",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A soma dos números de todas as seis faces é no máximo 15."
+      },
+      {
+        "letra": "B",
+        "texto": "A soma dos números de todas as seis faces é no mínimo 10."
+      },
+      {
+        "letra": "C",
+        "texto": "O número 1 aparece no máximo 3 vezes nesse cubo."
+      },
+      {
+        "letra": "D",
+        "texto": "O número na face em contato com o chão é 2."
+      },
+      {
+        "letra": "E",
+        "texto": "O número 4 só aparece uma vez."
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "Mesmo problema da questao 12: o enunciado_rascunho estava com as 5 alternativas de texto coladas ao final, e alternativas_rascunho tinha ficado null. Separei o enunciado das alternativas e corrigi alternativa_tipo para texto.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "geometria de solidos",
+      "logica com pistas"
+    ],
+    "dica_curta": "Pensa no que TEM que ser verdade em qualquer situação possível, não só no que você está vendo agora — o cubo tem faces escondidas que você não conhece.",
+    "primeiro_passo": "Você vê 1, 4 e 1 nas três faces visíveis. O número 2 tem que aparecer em alguma das 3 faces escondidas (porque ele é obrigatório e ainda não apareceu). Pensa: qual seria a MENOR soma possível de todas as 6 faces, considerando isso?",
+    "solucao_completa": "- Faces visíveis: 1, 4 e 1 (soma = 6).\n- O número 2 é obrigatório e ainda não apareceu, então pelo menos uma das 3 faces escondidas tem que ser 2.\n- Para a soma total ser a MENOR possível, as outras 2 faces escondidas seriam 1 (o menor valor permitido): soma mínima das escondidas = 2+1+1 = 4.\n- Soma mínima total = 6 (visíveis) + 4 (escondidas) = 10. Isso é sempre possível de acontecer, então a soma nunca pode ser menor que 10 — ela é, no mínimo, 10. Isso é sempre verdade, não importa como estejam as faces escondidas.\n- As outras alternativas podem ser verdadeiras ou falsas dependendo de como estão as faces escondidas (por exemplo, a soma pode chegar a 16, o número 1 pode aparecer até 4 vezes, e não dá pra saber com certeza o número da face no chão) — por isso não podem ser afirmadas 'com certeza'.\n- Resposta: alternativa B."
+  },
+  "15": {
+    "enunciado_md": "Um jogo consiste em descobrir uma senha de 3 algarismos. Para descobrir qual é essa senha, um jogador faz várias tentativas e, em cada uma delas, recebe uma pista através de três bolinhas.\n\n- Cada bolinha vermelha indica que existe um algarismo que não faz parte da senha.\n- Cada bolinha amarela indica que existe um algarismo que faz parte da senha, mas está na posição errada.\n- Cada bolinha verde indica que existe um algarismo que faz parte da senha e está na posição correta.\n\nQual é a senha no jogo da figura?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "103"
+      },
+      {
+        "letra": "B",
+        "texto": "130"
+      },
+      {
+        "letra": "C",
+        "texto": "310"
+      },
+      {
+        "letra": "D",
+        "texto": "031"
+      },
+      {
+        "letra": "E",
+        "texto": "013"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas",
+      "combinatoria basica"
+    ],
+    "dica_curta": "Começa pela pista mais forte: quando TODAS as bolinhas de uma tentativa são da mesma cor, ela te conta praticamente tudo sobre aquela tentativa.",
+    "primeiro_passo": "Na tentativa 248, as três bolinhas são vermelhas — isso significa que 2, 4 e 8 NÃO fazem parte da senha. Na tentativa 301, as três bolinhas são amarelas — isso significa que 3, 0 e 1 fazem parte da senha, mas nenhum deles está na posição em que foi tentado.",
+    "solucao_completa": "- Tentativa 248 → 3 vermelhas: os algarismos 2, 4 e 8 não estão na senha.\n- Tentativa 301 → 3 amarelas: os algarismos 3, 0 e 1 estão todos na senha, só que nenhum na posição tentada (então a senha não tem 3 na 1ª posição, nem 0 na 2ª, nem 1 na 3ª).\n- Tentativa 350 → 1 verde, 1 amarela, 1 vermelha: como o 5 não está na senha (é a vermelha), a verde e a amarela são o 3 (1ª posição) e o 0 (3ª posição), em alguma ordem.\n  - Se o 3 estivesse certo na 1ª posição, isso contradiria a pista da tentativa 301 (que já disse que o 3 não pode estar na 1ª posição). Então o 3 é a amarela (errada) e o 0 é a verde (certa): a senha termina em 0.\n- Como a senha termina em 0 e usa os algarismos 1, 3 e 0, restam 1 e 3 para as duas primeiras posições. Como o 3 não pode ficar na 1ª posição, sobra o 1 pra 1ª posição, e o 3 fica na 2ª.\n- Senha: 1, 3, 0 → 130.\n- Resposta: alternativa B (130)."
+  }
+}

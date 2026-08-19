@@ -1,0 +1,569 @@
+{
+  "1": {
+    "enunciado_md": "Joana colocou 1 tijolo em um prato da balança e no outro prato colocou meio tijolo junto com 1 quilo. A balança ficou equilibrada, como mostra a figura. Quanto pesa um tijolo inteiro?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Meio quilo"
+      },
+      {
+        "letra": "B",
+        "texto": "1 quilo"
+      },
+      {
+        "letra": "C",
+        "texto": "1 quilo e meio"
+      },
+      {
+        "letra": "D",
+        "texto": "2 quilos"
+      },
+      {
+        "letra": "E",
+        "texto": "4 quilos"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "operacoes basicas",
+      "medidas"
+    ],
+    "dica_curta": "Pensa no que dá pra 'tirar' dos dois pratos da balança sem desequilibrar nada.",
+    "primeiro_passo": "Se você tirar meio tijolo de cada prato, a balança continua equilibrada do mesmo jeito. Do lado do tijolo inteiro sobra meio tijolo; do outro lado sobra só o quilo. O que isso te diz sobre o peso de meio tijolo?",
+    "solucao_completa": "- A balança mostra: 1 tijolo inteiro = meio tijolo + 1 kg\n- Tira meio tijolo dos dois pratos ao mesmo tempo (isso não desequilibra nada): sobra meio tijolo = 1 kg\n- Se meio tijolo pesa 1 kg, o tijolo inteiro pesa o dobro: 2 kg\n- Resposta: alternativa D (2 quilos)"
+  },
+  "2": {
+    "enunciado_md": "Quantos conjuntos com 1 lápis, 1 borracha e 1 apontador podem ser formados com os objetos da figura?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8"
+      },
+      {
+        "letra": "B",
+        "texto": "7"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "5"
+      },
+      {
+        "letra": "E",
+        "texto": "4"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem sistematica",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Pra montar um conjunto com um de cada objeto, o que importa é o tipo que aparece MENOS vezes na figura.",
+    "primeiro_passo": "Conta com calma quantos lápis tem na figura, depois quantas borrachas, depois quantos apontadores — sem contar nenhum duas vezes nem esquecer nenhum escondido atrás de outro.",
+    "solucao_completa": "- Contando com cuidado: são 7 lápis, 5 borrachas e 6 apontadores na figura\n- Cada conjunto precisa de 1 lápis + 1 borracha + 1 apontador\n- O número de conjuntos completos que dá pra montar é limitado pelo objeto que tem MENOS unidades — as borrachas, que são só 5\n- Resposta: alternativa D (5)"
+  },
+  "3": {
+    "enunciado_md": "Qual é a diferença entre os comprimentos do lápis e do pincel?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "11 centímetros"
+      },
+      {
+        "letra": "B",
+        "texto": "5 centímetros"
+      },
+      {
+        "letra": "C",
+        "texto": "3 centímetros"
+      },
+      {
+        "letra": "D",
+        "texto": "2 centímetros"
+      },
+      {
+        "letra": "E",
+        "texto": "1 centímetro"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte figuras/q03_fig1.png não é uma figura de conteúdo: capturou apenas a linha divisória impressa abaixo da questão. A figura útil (régua com o lápis e o pincel) está completa em figuras/q03_fig0.png e na imagem_questao.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "medidas",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Usa a régua da figura: descubra o comprimento de cada objeto separado antes de comparar os dois.",
+    "primeiro_passo": "Olha onde começa e onde termina o lápis na régua, e faz o mesmo pro pincel. Anota os dois comprimentos.",
+    "solucao_completa": "- O lápis vai da marca 1 até a marca 11 na régua → comprimento = 11 − 1 = 10 cm\n- O pincel vai da marca 2 até a marca 14 → comprimento = 14 − 2 = 12 cm\n- A diferença entre os dois é 12 − 10 = 2 cm\n- Resposta: alternativa D (2 centímetros)"
+  },
+  "4": {
+    "enunciado_md": "André jogou um dado três vezes seguidas e contou 17 pontos nas faces que ficaram viradas para cima. Qual das seguintes faces apareceu entre as viradas para cima?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O recorte figuras/q04_fig0.png ficou malfeito (repete texto do enunciado e corta a borda do dado decorativo do canto superior), mas as 5 alternativas (dados com pontos) aparecem completas e legíveis na imagem_questao.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "operacoes basicas",
+      "logica com pistas"
+    ],
+    "dica_curta": "Pensa no valor MÁXIMO que dá pra tirar em 3 jogadas de dado, e o quanto 17 está perto desse máximo.",
+    "primeiro_passo": "O maior total possível em 3 jogadas é 6 + 6 + 6 = 18. Como o total foi 17 (só 1 a menos), pensa em quais 3 números de 1 a 6 somam exatamente 17.",
+    "solucao_completa": "- O máximo que 3 dados podem somar é 6 + 6 + 6 = 18\n- Precisamos de um total 1 a menos: 17\n- A única combinação de 3 números entre 1 e 6 que soma 17 é 6, 6 e 5 (em alguma ordem) — não existe outro jeito, porque se dois números já são 6, o terceiro tem que ser 5 pra completar 17\n- Então as três faces viradas para cima foram 6, 6 e 5 — a face 5 com certeza apareceu entre elas\n- Resposta: alternativa E (o dado com 5 pontos)"
+  },
+  "5": {
+    "enunciado_md": "Na figura, vemos uma mesma locomotiva puxando 2 ou 3 vagões iguais. O primeiro trem tem 34 metros de comprimento no total e o segundo trem tem 45 metros de comprimento no total. Qual é o comprimento da locomotiva?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10 metros"
+      },
+      {
+        "letra": "B",
+        "texto": "11 metros"
+      },
+      {
+        "letra": "C",
+        "texto": "12 metros"
+      },
+      {
+        "letra": "D",
+        "texto": "13 metros"
+      },
+      {
+        "letra": "E",
+        "texto": "14 metros"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "operacoes basicas",
+      "medidas"
+    ],
+    "dica_curta": "Compara os dois trens: o que muda de um pro outro é só a quantidade de vagões — usa essa diferença a seu favor.",
+    "primeiro_passo": "O segundo trem tem 1 vagão a mais que o primeiro, e é 11 metros mais comprido (45 − 34). Isso te diz o tamanho de 1 vagão sozinho.",
+    "solucao_completa": "- Trem 1 = locomotiva + 2 vagões = 34 m\n- Trem 2 = locomotiva + 3 vagões = 45 m\n- A diferença entre os trens é exatamente 1 vagão: 45 − 34 = 11 m → cada vagão mede 11 m\n- Substituindo no trem 1: locomotiva + 2 × 11 = 34 → locomotiva + 22 = 34 → locomotiva = 12 m\n- Resposta: alternativa C (12 metros)"
+  },
+  "6": {
+    "enunciado_md": "Ana fez um desenho formado por um triângulo, um círculo e um quadrado em seu caderno. Ela decidiu que, se pintasse uma das figuras de branco, pelo menos uma outra figura deveria ser pintada de preto. Qual desenho **não** pode ter sido aquele que Ana fez?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas"
+    ],
+    "dica_curta": "A regra da Ana só 'liga' quando alguma figura está branca — testa desenho por desenho pensando nisso.",
+    "primeiro_passo": "Em cada desenho, marca quais figuras estão brancas e quais estão pretas (as cinzas não contam como nenhuma das duas). Depois confere se, toda vez que tem uma figura branca, existe também uma preta.",
+    "solucao_completa": "- A regra da Ana: SE alguma figura ficou branca, ENTÃO pelo menos uma outra figura tem que ficar preta\n- Nos desenhos A, B, C e E, sempre que existe uma figura branca, também existe uma preta — a regra é respeitada\n- No desenho D, o círculo e o quadrado estão brancos, e nenhuma figura está preta (o triângulo é cinza, não preto) — isso quebra a regra da Ana\n- Por isso o desenho D não pode ter sido aquele que a Ana fez\n- Resposta: alternativa D"
+  },
+  "7": {
+    "enunciado_md": "O tamanho normal do nariz de Pinóquio é 3 centímetros. Seu nariz aumenta 5 centímetros cada vez que ele fala uma mentira e volta para o tamanho normal quando fala uma verdade. Pinóquio disse 5 afirmações e, ao final, seu nariz ficou com 18 centímetros. Qual das afirmações que ele disse foi, com certeza, verdadeira?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A primeira"
+      },
+      {
+        "letra": "B",
+        "texto": "A segunda"
+      },
+      {
+        "letra": "C",
+        "texto": "A terceira"
+      },
+      {
+        "letra": "D",
+        "texto": "A quarta"
+      },
+      {
+        "letra": "E",
+        "texto": "A quinta"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Pensa de trás pra frente: o tamanho final do nariz depende de quantas mentiras SEGUIDAS ele contou por último, sem nenhuma verdade no meio.",
+    "primeiro_passo": "O nariz cresce 5 cm a cada mentira e volta pro tamanho normal (3 cm) quando ele fala a verdade. Se terminou com 18 cm, quantas mentiras seguidas, contando a partir da última verdade, são precisas pra chegar nesse tamanho?",
+    "solucao_completa": "- Nariz normal = 3 cm. Cada mentira soma 5 cm; uma verdade zera de volta pro 3 cm\n- 18 − 3 = 15, e 15 ÷ 5 = 3 → as últimas 3 afirmações (a 3ª, a 4ª e a 5ª) foram mentiras seguidas, sem nenhuma verdade resetando o nariz nesse meio tempo\n- Se essas 3 últimas foram mentiras, a afirmação logo antes delas — a 2ª — precisa ter sido verdadeira, porque foi ela que resetou o nariz para 3 cm antes da sequência de mentiras começar\n- (Se a 2ª também fosse mentira, a sequência de mentiras seria maior que 3, e o nariz passaria de 18 cm)\n- Resposta: alternativa B (a segunda)"
+  },
+  "8": {
+    "enunciado_md": "Uma fábrica de brinquedos produzia bolas pequenas, médias e grandes, nas cores verde, azul e amarela. Ela deixou de fabricar bolas verdes pequenas e bolas amarelas de todos os tamanhos. Quantos tipos diferentes de bolas ela produz agora?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "5"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "7"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "combinatoria basica",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Primeiro descobre quantos tipos de bola existiam no total, depois pensa em quantos tipos deixaram de existir.",
+    "primeiro_passo": "Com 3 tamanhos e 3 cores, quantos tipos diferentes de bola existiam antes de qualquer coisa deixar de ser fabricada?",
+    "solucao_completa": "- Antes: 3 tamanhos × 3 cores = 9 tipos de bola diferentes\n- A fábrica parou de fazer: bolas verdes pequenas (1 tipo) e bolas amarelas de todos os tamanhos (3 tipos: pequena, média e grande)\n- Total de tipos que deixaram de existir: 1 + 3 = 4\n- Tipos que restam: 9 − 4 = 5\n- Resposta: alternativa B (5)"
+  },
+  "9": {
+    "enunciado_md": "A figura é formada por 2 quadrados iguais e 2 triângulos iguais. Os lados dos triângulos são todos de mesmo tamanho. O comprimento do contorno da figura, destacado em linha mais grossa, é igual a 24 cm. Qual é o comprimento do contorno de toda a região cinza?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10 centímetros"
+      },
+      {
+        "letra": "B",
+        "texto": "12 centímetros"
+      },
+      {
+        "letra": "C",
+        "texto": "14 centímetros"
+      },
+      {
+        "letra": "D",
+        "texto": "16 centímetros"
+      },
+      {
+        "letra": "E",
+        "texto": "20 centímetros"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "perimetro e area",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Separa mentalmente o contorno grosso em pedacinhos do mesmo tamanho, e descobre quanto vale cada pedacinho antes de pensar na região cinza.",
+    "primeiro_passo": "O contorno grosso (24 cm) é feito de vários lados iguais — os lados dos quadrados e dos triângulos, que têm todos o mesmo tamanho. Conta quantos desses ladinhos formam o contorno grosso inteiro.",
+    "solucao_completa": "- Como os quadrados e os triângulos têm todos os lados do mesmo tamanho, vamos chamar esse tamanho de \"s\"\n- O contorno grosso (24 cm) é formado por 8 lados de tamanho s: 3 lados de cada quadrado (sem contar o lado que encosta nos triângulos) mais 2 lados dos triângulos (os que ficam na borda de cima e de baixo da figura toda)\n- 8 × s = 24 → s = 3 cm\n- A região cinza (os 2 triângulos juntos) tem seu próprio contorno, formado por 4 lados de tamanho s: os 2 que também são borda do contorno grande, mais os 2 que encostam nos quadrados\n- 4 × s = 4 × 3 = 12 cm\n- Resposta: alternativa B (12 centímetros)"
+  },
+  "10": {
+    "enunciado_md": "Abel, Beto, Carlos, Dudu e Emanuel disputaram uma corrida. Abel chegou em 2º lugar, nem Carlos nem Dudu chegaram em 3º lugar, e Beto chegou logo atrás de Emanuel. Além disso, não houve empates. Em que lugar Emanuel chegou?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1º"
+      },
+      {
+        "letra": "B",
+        "texto": "2º"
+      },
+      {
+        "letra": "C",
+        "texto": "3º"
+      },
+      {
+        "letra": "D",
+        "texto": "4º"
+      },
+      {
+        "letra": "E",
+        "texto": "5º"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas"
+    ],
+    "dica_curta": "Vai testando as posições uma pista de cada vez, começando pela mais forte: quem NÃO pode ficar em 3º lugar.",
+    "primeiro_passo": "Abel já está garantido no 2º lugar. Beto chega logo depois de Emanuel — ou seja, as posições dos dois são vizinhas (Emanuel numa posição, Beto na seguinte). Pensa em quais posições sobraram pra esse par existir.",
+    "solucao_completa": "- Abel = 2º lugar (dado)\n- Beto chega logo atrás de Emanuel, então as posições de Emanuel e Beto são consecutivas. As posições livres (fora do 2º) são 1º, 3º, 4º e 5º\n- Os pares consecutivos possíveis nessas posições livres são (3º e 4º) ou (4º e 5º) para (Emanuel, Beto)\n- Se Emanuel ficasse em 4º e Beto em 5º, sobrariam as posições 1º e 3º para Carlos e Dudu — mas o problema diz que nem Carlos nem Dudu podem ficar em 3º. Essa opção não dá certo\n- Sobra a outra opção: Emanuel em 3º e Beto em 4º. Carlos e Dudu ficam com 1º e 5º (em alguma ordem), o que não quebra nenhuma regra\n- Resposta: alternativa C (3º)"
+  },
+  "11": {
+    "enunciado_md": "A soma dos números na linha de cima é igual à soma dos números na linha de baixo. Qual é o valor de ★?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "12"
+      },
+      {
+        "letra": "C",
+        "texto": "16"
+      },
+      {
+        "letra": "D",
+        "texto": "18"
+      },
+      {
+        "letra": "E",
+        "texto": "24"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "O enunciado_rascunho estava incompleto ('Qual é o valor de ?'): o símbolo da estrela na tabela não é texto e ficou de fora da extração automática. Corrigido para citar a estrela (★) explicitamente.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "operacoes basicas",
+      "leitura de tabelas e graficos"
+    ],
+    "dica_curta": "Some cada linha da tabela separadamente e compara — a diferença entre as somas é a pista que você precisa.",
+    "primeiro_passo": "Some todos os números da linha de baixo (ela já está completa). Depois some os números da linha de cima que você já conhece, sem contar a estrela.",
+    "solucao_completa": "- Soma da linha de baixo: 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 44\n- Soma da linha de cima sem a estrela: 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28\n- Como as duas linhas precisam somar o mesmo total: 28 + ★ = 44\n- ★ = 44 − 28 = 16\n- Resposta: alternativa C (16)"
+  },
+  "12": {
+    "enunciado_md": "Cinco jogadores disputaram entre si um campeonato. Cada jogador jogou no máximo uma vez. O 1º jogador jogou somente uma vez. O 3º jogador jogou duas vezes, o 4º jogou três vezes e o 5º jogou quatro vezes. Quantas vezes jogou o 2º jogador?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Uma"
+      },
+      {
+        "letra": "B",
+        "texto": "Duas"
+      },
+      {
+        "letra": "C",
+        "texto": "Três"
+      },
+      {
+        "letra": "D",
+        "texto": "Quatro"
+      },
+      {
+        "letra": "E",
+        "texto": "Cinco"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Pensa em quem cada jogador enfrentou, um de cada vez — quem jogou o máximo de vezes com certeza enfrentou todo mundo.",
+    "primeiro_passo": "O 5º jogador jogou 4 vezes — o máximo possível, já que só existem 4 outros jogadores. Isso significa que ele jogou contra TODOS os outros, inclusive contra o 1º jogador. Mas o 1º jogador jogou só 1 vez no total... o que isso te diz sobre quem foi o único adversário dele?",
+    "solucao_completa": "- O jogador 5 jogou 4 vezes, ou seja, jogou contra todos os outros 4 jogadores (1, 2, 3 e 4)\n- O jogador 1 jogou só 1 vez no total — e como o jogador 5 com certeza jogou contra ele, esse foi o único jogo do jogador 1 (ele não jogou contra 2, 3 ou 4)\n- O jogador 4 jogou 3 vezes. Como ele não jogou contra o jogador 1 (acabamos de ver isso), os 3 jogos dele foram contra os jogadores 2, 3 e 5\n- O jogador 3 jogou 2 vezes. Um desses jogos foi contra o jogador 5, e o outro contra o jogador 4 (que jogou contra todo mundo, menos o 1). Então o jogador 3 NÃO jogou contra o jogador 2\n- Vendo com quem o jogador 2 jogou: com o jogador 5 (sim, pois o 5 jogou com todos) e com o jogador 4 (sim), mas não com o 1 nem com o 3 — isso dá exatamente 2 jogos\n- Resposta: alternativa B (duas)"
+  },
+  "13": {
+    "enunciado_md": "Cinco amigos estavam juntos durante as férias e se esqueceram em que dia da semana estavam. Ao tentar descobrir que dia era, cada um deles disse o seguinte:\n\n- Alceu: \"Ontem foi quarta-feira\".\n- Bruno: \"Amanhã será sexta-feira\".\n- Célio: \"Anteontem foi terça-feira\".\n- Davi: \"Depois de amanhã será sábado\".\n- Ernesto: \"Hoje é segunda-feira\".\n\nApenas um dos amigos estava errado. Qual deles errou?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Alceu"
+      },
+      {
+        "letra": "B",
+        "texto": "Bruno"
+      },
+      {
+        "letra": "C",
+        "texto": "Célio"
+      },
+      {
+        "letra": "D",
+        "texto": "Davi"
+      },
+      {
+        "letra": "E",
+        "texto": "Ernesto"
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "O enunciado_rascunho tinha um fragmento quebrado/duplicado ('Sse o seguinte:') logo antes da lista de falas dos amigos, provavelmente resíduo da extração automática; removido na correção.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "logica com pistas"
+    ],
+    "dica_curta": "Transforma cada fala em \"hoje é ___\" e veja se todo mundo concorda entre si.",
+    "primeiro_passo": "Pega a fala do Alceu: se ontem foi quarta-feira, que dia é hoje? Faz a mesma conta pra cada um dos cinco amigos.",
+    "solucao_completa": "- Alceu: \"ontem foi quarta\" → hoje é quinta-feira\n- Bruno: \"amanhã será sexta\" → hoje é quinta-feira\n- Célio: \"anteontem foi terça\" → hoje é quinta-feira\n- Davi: \"depois de amanhã será sábado\" → hoje é quinta-feira\n- Ernesto: \"hoje é segunda\" → segundo ele, hoje seria segunda-feira\n- Quatro amigos (Alceu, Bruno, Célio e Davi) concordam que hoje é quinta-feira. Só o Ernesto fala um dia diferente\n- Como apenas um deles errou, só pode ser o Ernesto\n- Resposta: alternativa E (Ernesto)"
+  },
+  "14": {
+    "enunciado_md": "Janaína tem 2 vasos diferentes, 4 rosas iguais e 3 margaridas iguais. A figura mostra uma possível maneira de colocar as flores nos vasos, com 3 rosas e 1 margarida em um dos vasos e 1 rosa e 2 margaridas no outro. De quantas maneiras diferentes ela pode fazer isso, de modo que haja pelo menos uma flor de cada tipo em cada vaso?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "8"
+      },
+      {
+        "letra": "D",
+        "texto": "10"
+      },
+      {
+        "letra": "E",
+        "texto": "12"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "combinatoria basica",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Separa o problema em duas partes: de quantos jeitos dá pra dividir as rosas, e de quantos jeitos dá pra dividir as margaridas — depois junta as duas contagens.",
+    "primeiro_passo": "As 4 rosas precisam ficar divididas nos 2 vasos com pelo menos 1 rosa em cada. Lista todas as divisões possíveis das rosas entre os dois vasos.",
+    "solucao_completa": "- As 4 rosas, com pelo menos 1 em cada vaso, podem se dividir assim: (1 e 3), (2 e 2), (3 e 1) → 3 maneiras diferentes\n- As 3 margaridas, com pelo menos 1 em cada vaso, podem se dividir assim: (1 e 2), (2 e 1) → 2 maneiras diferentes\n- Como a escolha das rosas e a escolha das margaridas são independentes uma da outra, a gente multiplica: 3 × 2 = 6\n- Resposta: alternativa B (6)"
+  },
+  "15": {
+    "enunciado_md": "Vinícius coloca dentro de uma caixa 3 moedas de um real, 3 moedas de cinquenta centavos e 3 moedas de vinte e cinco centavos. Ele chacoalha a caixa para misturar as moedas e, sem olhar, retira 4 moedas da caixa. Podemos dizer, com certeza, que Vinícius terá em mãos:",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Uma moeda de um real."
+      },
+      {
+        "letra": "B",
+        "texto": "Uma moeda de cada tipo."
+      },
+      {
+        "letra": "C",
+        "texto": "Pelo menos duas moedas de um mesmo tipo."
+      },
+      {
+        "letra": "D",
+        "texto": "Mais do que um real e cinquenta centavos."
+      },
+      {
+        "letra": "E",
+        "texto": "Menos do que três reais."
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "As alternativas estavam fundidas ao enunciado no rascunho (alternativas_rascunho veio null e o texto das 5 opções apareceu grudado ao final do enunciado_rascunho). Separei o enunciado das 5 alternativas de texto, transcrevendo-as da imagem.",
+    "status": "aprovado_com_ressalva",
+    "tags": [
+      "logica com pistas",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Não dá pra saber exatamente quais moedas ele vai pegar — pensa no que é IMPOSSÍVEL de evitar, não no que pode acontecer.",
+    "primeiro_passo": "Existem só 3 tipos de moeda na caixa. Se Vinícius tira 4 moedas, imagina o jeito mais 'espalhado' possível de pegar moedas diferentes antes de repetir algum tipo — até onde dá pra ir sem repetir?",
+    "solucao_completa": "- Existem só 3 tipos de moeda: de R$ 1, de R$ 0,50 e de R$ 0,25\n- Se Vinícius pegasse no máximo 3 moedas, seria possível pegar uma de cada tipo, sem repetir nenhuma\n- Mas ele tira 4 moedas — uma a mais do que o número de tipos que existem. Não importa a ordem ou quais ele pegue, pelo menos um tipo vai aparecer repetido (é o chamado princípio da casa dos pombos: 4 moedas em só 3 \"gavetas\" de tipo, então alguma gaveta recebe 2 ou mais)\n- As outras alternativas não são garantidas: dá pra tirar 4 moedas sem nenhuma de R$ 1 (por exemplo, 3 de R$ 0,50 e 1 de R$ 0,25), então A e B não são certezas; e dá pra montar combinações que passam de R$ 1,50 ou que ficam abaixo de R$ 3, então D e E também não valem sempre\n- Resposta: alternativa C (pelo menos duas moedas de um mesmo tipo)"
+  }
+}

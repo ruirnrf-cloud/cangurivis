@@ -1,0 +1,511 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m2",
+    "ano": 2023,
+    "fase": 1
+  },
+  "pdf_prova": "acervo/mirim/2023_F1_PROVA_M2.pdf",
+  "pdf_solucao": "acervo/mirim/2023_F1_SOL_M2.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2023-f1-m2-q01",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 60.5,
+        "y_bottom": 172.3
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q01_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Qual das contas a seguir tem o maior resultado?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "2 + 0 + 2 + 3"
+        },
+        {
+          "letra": "B",
+          "texto": "20 + 2 + 3"
+        },
+        {
+          "letra": "C",
+          "texto": "2 + 0 + 23"
+        },
+        {
+          "letra": "D",
+          "texto": "20 + 23"
+        },
+        {
+          "letra": "E",
+          "texto": "202 + 3"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2023-f1-m2-q02",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 170.3,
+        "y_bottom": 374.9
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q02_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f1/figuras/q02_fig0.png",
+        "saida/mirim_m2/2023_f1/figuras/q02_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Valentina começou a montar uma fila com figuras geométricas. Essas são as 9 primeiras figuras: As figuras se repetem de 4 em 4. Quais são as próximas 3 figuras da fila de valentina?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2023-f1-m2-q03",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 372.9,
+        "y_bottom": 525.3
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q03_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f1/figuras/q03_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Marília carimbou com tinta suas mãos em uma folha de papel e o resultado ficou como na figura ao lado. Quantas vezes ela carimbou sua mão esquerda?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2023-f1-m2-q04",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 523.3,
+        "y_bottom": 655.8
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q04_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f1/figuras/q04_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "O ábaco da figura representa o número 369. Qual dos números abaixo podemos obter retirando exatamente duas de suas peças?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "269"
+        },
+        {
+          "letra": "B",
+          "texto": "258"
+        },
+        {
+          "letra": "C",
+          "texto": "348"
+        },
+        {
+          "letra": "D",
+          "texto": "368"
+        },
+        {
+          "letra": "E",
+          "texto": "268"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2023-f1-m2-q05",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 653.8,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q05_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f1/figuras/q05_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "A tabela a seguir mostra o número de meninos e meninas em duas salas, mas o número de meninos da sala 2 está apagado. As duas salas têm o mesmo número de estudantes. Quantos meninos há na sala 2?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "8"
+        },
+        {
+          "letra": "B",
+          "texto": "9"
+        },
+        {
+          "letra": "C",
+          "texto": "10"
+        },
+        {
+          "letra": "D",
+          "texto": "11"
+        },
+        {
+          "letra": "E",
+          "texto": "12"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2023-f1-m2-q06",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 60.5,
+        "y_bottom": 224.9
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q06_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f1/figuras/q06_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Mônica disse: — hoje é dia 15 e amanhã será sexta-feira! Magali respondeu: — que legal, meu aniversário será na próxima quarta-feira. Em que dia do mês magali faz aniversário?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "19"
+        },
+        {
+          "letra": "B",
+          "texto": "20"
+        },
+        {
+          "letra": "C",
+          "texto": "21"
+        },
+        {
+          "letra": "D",
+          "texto": "22"
+        },
+        {
+          "letra": "E",
+          "texto": "23"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2023-f1-m2-q07",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 222.9,
+        "y_bottom": 348.7
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q07_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f1/figuras/q07_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Em qual dos colares a seguir um terço das miçangas é da cor preta?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2023-f1-m2-q08",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 346.7,
+        "y_bottom": 497.7
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q08_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f1/figuras/q08_fig0.png",
+        "saida/mirim_m2/2023_f1/figuras/q08_fig1.png",
+        "saida/mirim_m2/2023_f1/figuras/q08_fig2.png",
+        "saida/mirim_m2/2023_f1/figuras/q08_fig3.png",
+        "saida/mirim_m2/2023_f1/figuras/q08_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Observe as balanças de 2 pratos da figura. Qual bolinha é a mais pesada?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2023-f1-m2-q09",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 495.7,
+        "y_bottom": 646.7
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q09_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f1/figuras/q09_fig0.png",
+        "saida/mirim_m2/2023_f1/figuras/q09_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Janaína escolhe dois algarismos do número 1023 e, em seguida, multiplica esses dois algarismos. Quantos resultados diferentes ela pode obter?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2023-f1-m2-q10",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 644.7,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q10_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f1/figuras/q10_fig0.png",
+        "saida/mirim_m2/2023_f1/figuras/q10_fig1.png",
+        "saida/mirim_m2/2023_f1/figuras/q10_fig2.png",
+        "saida/mirim_m2/2023_f1/figuras/q10_fig3.png",
+        "saida/mirim_m2/2023_f1/figuras/q10_fig4.png",
+        "saida/mirim_m2/2023_f1/figuras/q10_fig5.png",
+        "saida/mirim_m2/2023_f1/figuras/q10_fig6.png",
+        "saida/mirim_m2/2023_f1/figuras/q10_fig7.png"
+      ],
+      "n_figuras": 8,
+      "enunciado_rascunho": "Valentina olhou uma pilha de cubos de frente: , de lado: E de cima: . Qual das seguintes pilhas é a que ela olhou?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2023-f1-m2-q11",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 59.8,
+        "y_bottom": 203.7
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q11_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f1/figuras/q11_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Débora tem duas caixas iguais. Ela empilha essas duas caixas de 3 maneiras diferentes e mede a altura das pilhas, conforme mostrado na figura. Quantos centímetros de altura tem a terceira pilha?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "9"
+        },
+        {
+          "letra": "B",
+          "texto": "10"
+        },
+        {
+          "letra": "C",
+          "texto": "11"
+        },
+        {
+          "letra": "D",
+          "texto": "12"
+        },
+        {
+          "letra": "E",
+          "texto": "13"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2023-f1-m2-q12",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 201.7,
+        "y_bottom": 378.3
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q12_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f1/figuras/q12_fig0.png",
+        "saida/mirim_m2/2023_f1/figuras/q12_fig1.png",
+        "saida/mirim_m2/2023_f1/figuras/q12_fig2.png",
+        "saida/mirim_m2/2023_f1/figuras/q12_fig3.png",
+        "saida/mirim_m2/2023_f1/figuras/q12_fig4.png",
+        "saida/mirim_m2/2023_f1/figuras/q12_fig5.png"
+      ],
+      "n_figuras": 6,
+      "enunciado_rascunho": "Arlindo desenhou copinhos para marcar a quantidade de copos de água que ele bebeu depois de fazer ginástica na sexta, no sábado e no domingo. Qual dos gráficos abaixo representa a quantidade de copos de água que arlindo bebeu? Sexta-feira sábado domingo sexta-feira sábado domingo sexta-feira sábado domingo sexta-feira sábado domingo sexta-feira sábado domingo",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2023-f1-m2-q13",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 376.3,
+        "y_bottom": 522.9
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q13_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f1/figuras/q13_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Daniel abriu uma tangerina com 9 gomos, cada gomo com 2 ou 3 sementes. Após abrir e comer uma tangerina, ele recolheu 20 sementes. Quantos gomos dessa tangerina tinham 3 sementes?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2023-f1-m2-q14",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 520.9,
+        "y_bottom": 679.1
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q14_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f1/figuras/q14_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Na roda gigante representada na figura, as cabines são todas igualmente espaçadas e numeradas em 1, 2, 3 etc. Quando a cabine de número 6 está no ponto mais baixo da roda gigante, a cabine de número 21 está no ponto mais alto. No total, quantas cabines tem essa roda gigante?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "21"
+        },
+        {
+          "letra": "B",
+          "texto": "27"
+        },
+        {
+          "letra": "C",
+          "texto": "30"
+        },
+        {
+          "letra": "D",
+          "texto": "36"
+        },
+        {
+          "letra": "E",
+          "texto": "37"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2023-f1-m2-q15",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 677.1,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2023_f1/paginas/q15_full.png",
+      "figuras": [
+        "saida/mirim_m2/2023_f1/figuras/q15_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Irene usa 4 tipos de ervas para fazer seu chá: Erva-cidreira, erva-doce, anis ou hortelã. Às vezes ela usa somente um tipo de erva, às vezes ela mistura 2 ou mais tipos de ervas. Ela não faz chás com anis e hortelã juntos. Quantos tipos diferentes de chá ela pode preparar?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "8"
+        },
+        {
+          "letra": "C",
+          "texto": "9"
+        },
+        {
+          "letra": "D",
+          "texto": "10"
+        },
+        {
+          "letra": "E",
+          "texto": "11"
+        }
+      ],
+      "confianca_texto": "alta"
+    }
+  }
+}
