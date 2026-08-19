@@ -27,13 +27,16 @@ import glob
 import json
 import os
 import random
-from datetime import datetime
+from datetime import datetime, timedelta
 
+import pandas as pd
 import requests
 import streamlit as st
 
 BASE = "saida"
 LETRAS = ["A", "B", "C", "D", "E"]
+# pontos por resposta certa, conforme quantas dicas precisou (0 = sem ajuda nenhuma)
+PONTOS_POR_DICAS = {0: 10, 1: 6, 2: 3, 3: 1}
 
 GIST_ID = st.secrets.get("GIST_ID", "")
 GITHUB_TOKEN = st.secrets.get("GITHUB_TOKEN", "")
@@ -115,6 +118,52 @@ def salvar_no_log(gist_arquivo, registro):
     resp.raise_for_status()
 
 
+def calcular_stats(respostas):
+    """Pontos, nivel, sequencia de dias e acerto por habilidade a partir do log completo
+    (todas as sessoes ja gravadas, nao so a de agora)."""
+    pontos_totais = sum(PONTOS_POR_DICAS[r["dicas_usadas"]] for r in respostas)
+
+    # so entram no calculo de "acertou" as respostas onde a criança escolheu a letra certa
+    # de verdade (dicas_usadas 0-2); quando travado em 3 tentativas a solucao foi revelada
+    # sem ela acertar, entao isso mede dificuldade, nao acerto.
+    respondidas_certo = [r for r in respostas if r["dicas_usadas"] < 3]
+    taxa_de_primeira = (
+        sum(1 for r in respondidas_certo if r["dicas_usadas"] == 0) / len(respondidas_certo) * 100
+        if respondidas_certo else 0
+    )
+
+    por_tag = {}
+    for r in respondidas_certo:
+        for tag in r["tags"]:
+            s = por_tag.setdefault(tag, {"de_primeira": 0, "total": 0})
+            s["total"] += 1
+            if r["dicas_usadas"] == 0:
+                s["de_primeira"] += 1
+    acerto_por_tag = {
+        tag: round(s["de_primeira"] / s["total"] * 100)
+        for tag, s in por_tag.items()
+        if s["total"] >= 3  # amostra pequena demais vira grafico ruidoso
+    }
+
+    dias_com_treino = {r["quando"][:10] for r in respostas}
+    dias_seguidos = 0
+    if dias_com_treino:
+        hoje = datetime.now().date()
+        cursor = hoje if hoje.isoformat() in dias_com_treino else hoje - timedelta(days=1)
+        while cursor.isoformat() in dias_com_treino:
+            dias_seguidos += 1
+            cursor -= timedelta(days=1)
+
+    return {
+        "pontos_totais": pontos_totais,
+        "nivel": pontos_totais // 100 + 1,
+        "pontos_no_nivel": pontos_totais % 100,
+        "taxa_de_primeira": taxa_de_primeira,
+        "acerto_por_tag": acerto_por_tag,
+        "dias_seguidos": dias_seguidos,
+    }
+
+
 # ---------- PIN de acesso ----------
 # A URL do app hospedado e publica (qualquer um com o link abre) -- esse PIN
 # nao e seguranca de verdade, so evita que alguem tropece no link por acaso
@@ -170,6 +219,9 @@ if "fila" not in st.session_state:
     st.session_state.revelado = 0  # 0=nada, 1=dica_curta, 2=primeiro_passo, 3=solucao_completa
     st.session_state.travado = False  # trava os botoes depois que a solucao aparece
     st.session_state.sessao_registros = []  # so as desta sessao, pra tela final
+    st.session_state.log_completo = log  # cache em memoria pra stats sem bater no Gist de novo
+    st.session_state.combo = 0  # respostas certas seguidas sem pedir dica, nesta sessao
+    st.session_state.mostrar_progresso = False
 
 
 def proxima_questao():
@@ -181,13 +233,16 @@ def proxima_questao():
 
 def responder(letra, q):
     if letra == q["gabarito"]:
-        salvar_no_log(config_perfil["gist_arquivo"], {
+        registro = {
             "id": q["id"], "prova": q["prova"], "tags": q["tags"],
             "acertou_de_primeira": st.session_state.tentativas == 0,
             "tentativas": st.session_state.tentativas + 1,
             "dicas_usadas": st.session_state.revelado,
             "quando": datetime.now().isoformat(timespec="seconds"),
-        })
+        }
+        salvar_no_log(config_perfil["gist_arquivo"], registro)
+        st.session_state.log_completo["respostas"].append(registro)
+        st.session_state.combo = st.session_state.combo + 1 if st.session_state.revelado == 0 else 0
         st.session_state.sessao_registros.append({
             "prova": q["prova"], "acertou_de_primeira": st.session_state.tentativas == 0,
             "dicas_usadas": st.session_state.revelado, "tags": q["tags"],
@@ -198,11 +253,14 @@ def responder(letra, q):
         st.session_state.revelado = min(3, st.session_state.tentativas)
         if st.session_state.tentativas == 3:
             st.session_state.travado = True
-            salvar_no_log(config_perfil["gist_arquivo"], {
+            st.session_state.combo = 0
+            registro = {
                 "id": q["id"], "prova": q["prova"], "tags": q["tags"],
                 "acertou_de_primeira": False, "tentativas": st.session_state.tentativas,
                 "dicas_usadas": 3, "quando": datetime.now().isoformat(timespec="seconds"),
-            })
+            }
+            salvar_no_log(config_perfil["gist_arquivo"], registro)
+            st.session_state.log_completo["respostas"].append(registro)
             st.session_state.sessao_registros.append({
                 "prova": q["prova"], "acertou_de_primeira": False,
                 "dicas_usadas": 3, "tags": q["tags"],
@@ -211,14 +269,46 @@ def responder(letra, q):
 
 # ---------- tela ----------
 
-col_titulo, col_trocar = st.columns([6, 1])
+col_titulo, col_progresso, col_trocar = st.columns([5, 1, 1])
 col_titulo.markdown(f"## 🦘 Cangurivis — hora de treinar, {config_perfil['nome']}!")
+if col_progresso.button("📊", help="Ver meu progresso"):
+    st.session_state.mostrar_progresso = not st.session_state.mostrar_progresso
+    st.rerun()
 if col_trocar.button("↩", help="Trocar quem vai treinar"):
     for chave in ("perfil", "fila", "pos", "tentativas", "revelado", "travado",
-                  "sessao_registros", "total_banco", "ja_feitas_antes", "acabou_de_acertar"):
+                  "sessao_registros", "total_banco", "ja_feitas_antes", "acabou_de_acertar",
+                  "log_completo", "combo", "mostrar_progresso"):
         st.session_state.pop(chave, None)
     st.query_params.clear()
     st.rerun()
+
+stats = calcular_stats(st.session_state.log_completo["respostas"])
+
+if st.session_state.mostrar_progresso:
+    respondidas_total = st.session_state.ja_feitas_antes + len(st.session_state.sessao_registros)
+    st.progress(min(1.0, respondidas_total / st.session_state.total_banco))
+    st.caption(f"{respondidas_total}/{st.session_state.total_banco} questões do banco já respondidas")
+
+    col1, col2, col3 = st.columns(3)
+    col1.metric("⭐ Pontos", stats["pontos_totais"])
+    col2.metric("🏆 Nível", stats["nivel"])
+    col3.metric("🔥 Dias seguidos", stats["dias_seguidos"])
+    st.caption(f"Faltam {100 - stats['pontos_no_nivel']} pontos pro nível {stats['nivel'] + 1}.")
+
+    if stats["taxa_de_primeira"]:
+        st.markdown(f"**{stats['taxa_de_primeira']:.0f}%** das questões você acerta de primeira, sem pedir dica.")
+
+    if stats["acerto_por_tag"]:
+        st.markdown("**Acerto por habilidade** (sem usar dica):")
+        df_tags = pd.DataFrame({"acerto (%)": stats["acerto_por_tag"]}).sort_values("acerto (%)")
+        st.bar_chart(df_tags)
+    else:
+        st.caption("Continua praticando pra desbloquear o gráfico por habilidade!")
+
+    if st.button("◀ Voltar a treinar", type="primary", width="stretch"):
+        st.session_state.mostrar_progresso = False
+        st.rerun()
+    st.stop()
 
 fila = st.session_state.fila
 
@@ -239,15 +329,30 @@ if st.session_state.pos >= len(fila):
                 st.markdown(f"- {r['prova']} — {tags} ({r['dicas_usadas']} dica(s) usada(s))")
     st.caption(f"Progresso total: {st.session_state.ja_feitas_antes + feitas_agora}/{st.session_state.total_banco} "
                f"questões do banco já respondidas.")
+    if feitas_agora:
+        st.markdown(f"⭐ **{stats['pontos_totais']} pontos** · 🏆 **nível {stats['nivel']}** · "
+                     f"🔥 **{stats['dias_seguidos']} dia(s) seguido(s)** treinando")
+    if st.button("📊 Ver meu progresso completo", width="stretch"):
+        st.session_state.mostrar_progresso = True
+        st.rerun()
     st.stop()
 
 q = fila[st.session_state.pos]
+
+col_pts, col_nivel, col_combo = st.columns(3)
+col_pts.metric("⭐ Pontos", stats["pontos_totais"])
+col_nivel.metric("🏆 Nível", stats["nivel"])
+col_combo.metric("🔥 Combo", st.session_state.combo)
 
 st.caption(f"Questão {st.session_state.pos + 1} de {len(fila)} nesta sessão · {q['prova']}")
 st.image(q["imagem_questao"], width="stretch")
 
 if st.session_state.get("acabou_de_acertar"):
-    st.success("🎉 Isso aí! Resposta certa.")
+    st.balloons()
+    if st.session_state.combo >= 3:
+        st.success(f"🎉 Isso aí! Resposta certa. Combo de {st.session_state.combo}! 🔥")
+    else:
+        st.success("🎉 Isso aí! Resposta certa.")
     with st.expander("Ver a explicação completa", expanded=False):
         st.markdown(q["solucao_completa"])
     if st.button("Próxima questão ▶", type="primary", width="stretch"):
