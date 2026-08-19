@@ -1,0 +1,567 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m1",
+    "ano": 2023,
+    "fase": 1
+  },
+  "pdf_prova": "acervo/mirim/2023_F1_PROVA_M1.pdf",
+  "pdf_solucao": "acervo/mirim/2023_F1_SOL_M1.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2023-f1-m1-q01",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 60.5,
+        "y_bottom": 214.9
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q01_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q01_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Qual das frutas da feira aparece em quantidade diferente das outras?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "ABACAXI"
+        },
+        {
+          "letra": "B",
+          "texto": "BANANA"
+        },
+        {
+          "letra": "C",
+          "texto": "LARANJA"
+        },
+        {
+          "letra": "D",
+          "texto": "MAÇÃ"
+        },
+        {
+          "letra": "E",
+          "texto": "PERA"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2023-f1-m1-q02",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 212.9,
+        "y_bottom": 374.7
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q02_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q02_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Olhe para as placas de trânsito ao lado. Quantas placas têm a forma de um círculo, mas não têm nenhuma seta?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "5"
+        },
+        {
+          "letra": "D",
+          "texto": "6"
+        },
+        {
+          "letra": "E",
+          "texto": "7"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2023-f1-m1-q03",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 372.7,
+        "y_bottom": 515.0
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q03_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q03_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Cada tangerina que daniel abriu tinha 9 gomos e cada gomo tinha 2 sementes. Se daniel abriu 2 tangerinas, quantas sementes ele encontrou no total?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "30"
+        },
+        {
+          "letra": "B",
+          "texto": "33"
+        },
+        {
+          "letra": "C",
+          "texto": "34"
+        },
+        {
+          "letra": "D",
+          "texto": "36"
+        },
+        {
+          "letra": "E",
+          "texto": "39"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2023-f1-m1-q04",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 513.0,
+        "y_bottom": 682.2
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q04_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q04_fig0.png",
+        "saida/mirim_m1/2023_f1/figuras/q04_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "João recortou bandeirinhas em forma de triângulo para a festa junina da escola, depois colou as bandeirinhas em uma linha, como mostrado na figura. Quando joão esticar essa linha, quantas bandeirinhas triangulares apontarão para ele?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "3"
+        },
+        {
+          "letra": "C",
+          "texto": "4"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2023-f1-m1-q05",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 680.2,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q05_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q05_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Marcela cantou uma música como indicado na figura. Ela se esqueceu de cantar 2 números que estão entre 1 e 10. Qual é a soma desses números?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "8"
+        },
+        {
+          "letra": "B",
+          "texto": "9"
+        },
+        {
+          "letra": "C",
+          "texto": "10"
+        },
+        {
+          "letra": "D",
+          "texto": "11"
+        },
+        {
+          "letra": "E",
+          "texto": "12"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2023-f1-m1-q06",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 60.5,
+        "y_bottom": 212.9
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q06_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q06_fig0.png",
+        "saida/mirim_m1/2023_f1/figuras/q06_fig1.png",
+        "saida/mirim_m1/2023_f1/figuras/q06_fig2.png",
+        "saida/mirim_m1/2023_f1/figuras/q06_fig3.png",
+        "saida/mirim_m1/2023_f1/figuras/q06_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Qual figura deve ser colocada na casa com ponto de interrogação para que, em cada linha e em cada coluna do quadriculado, haja um par de triângulos, um par de retângulos e um par de estrelas?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2023-f1-m1-q07",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 210.9,
+        "y_bottom": 364.6
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q07_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q07_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Todos os caminhos ao lado foram feitos em um mesmo quadriculado. Qual deles tem o maior comprimento?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "A"
+        },
+        {
+          "letra": "B",
+          "texto": "B"
+        },
+        {
+          "letra": "C",
+          "texto": "C"
+        },
+        {
+          "letra": "D",
+          "texto": "D"
+        },
+        {
+          "letra": "E",
+          "texto": "E"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2023-f1-m1-q08",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 362.6,
+        "y_bottom": 560.4
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q08_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q08_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Olhe o cartaz ao lado com os aniversariantes da sala da professora aline. Quantas crianças fazem aniversário no mês anterior ao mês em que isabel nasceu?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2023-f1-m1-q09",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 558.4,
+        "y_bottom": 687.6
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q09_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q09_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Leonardo fez as 3 contas indicadas pelas flechas e foi escrevendo os resultados nos quadradinhos. Que número ele escreveu no último quadradinho?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "13"
+        },
+        {
+          "letra": "B",
+          "texto": "15"
+        },
+        {
+          "letra": "C",
+          "texto": "17"
+        },
+        {
+          "letra": "D",
+          "texto": "26"
+        },
+        {
+          "letra": "E",
+          "texto": "29"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2023-f1-m1-q10",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 685.6,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q10_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q10_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "O pai de marcos comprou, em uma loja de materiais de construção, os três algarismos abaixo para identificar o número da casa onde eles moram. Qual dos números abaixo não pode ser o número da casa deles?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "193"
+        },
+        {
+          "letra": "B",
+          "texto": "631"
+        },
+        {
+          "letra": "C",
+          "texto": "361"
+        },
+        {
+          "letra": "D",
+          "texto": "169"
+        },
+        {
+          "letra": "E",
+          "texto": "913"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2023-f1-m1-q11",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 59.8,
+        "y_bottom": 215.0
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q11_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q11_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Olhe o que dizem os 4 amigos. Quantas bolinhas samuel tem?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "3 BOLINHAS"
+        },
+        {
+          "letra": "B",
+          "texto": "4 BOLINHAS"
+        },
+        {
+          "letra": "C",
+          "texto": "5 BOLINHAS"
+        },
+        {
+          "letra": "D",
+          "texto": "6 BOLINHAS"
+        },
+        {
+          "letra": "E",
+          "texto": "9 BOLINHAS"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2023-f1-m1-q12",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 213.0,
+        "y_bottom": 356.3
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q12_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q12_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "A figura mostra o relógio do ginásio de esportes antes de um jogo começar. Esse jogo vai começar às 4 horas e 5 minutos. Quantos minutos faltam para o início do jogo?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "15 MINUTOS"
+        },
+        {
+          "letra": "B",
+          "texto": "30 MINUTOS"
+        },
+        {
+          "letra": "C",
+          "texto": "45 MINUTOS"
+        },
+        {
+          "letra": "D",
+          "texto": "55 MINUTOS"
+        },
+        {
+          "letra": "E",
+          "texto": "75 MINUTOS"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2023-f1-m1-q13",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 354.3,
+        "y_bottom": 503.8
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q13_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q13_fig0.png",
+        "saida/mirim_m1/2023_f1/figuras/q13_fig1.png",
+        "saida/mirim_m1/2023_f1/figuras/q13_fig2.png",
+        "saida/mirim_m1/2023_f1/figuras/q13_fig3.png",
+        "saida/mirim_m1/2023_f1/figuras/q13_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Qual moeda deve ser levada de um quadrado para outro para que o valor total das moedas nos dois quadrados seja o mesmo?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2023-f1-m1-q14",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 501.8,
+        "y_bottom": 662.8
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q14_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q14_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Débora tem duas caixas iguais. Ela empilha essas duas caixas de três maneiras diferentes e mede a altura das pilhas, conforme mostrado na figura. Quantos centímetros de altura tem a terceira pilha?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "18"
+        },
+        {
+          "letra": "B",
+          "texto": "20"
+        },
+        {
+          "letra": "C",
+          "texto": "22"
+        },
+        {
+          "letra": "D",
+          "texto": "24"
+        },
+        {
+          "letra": "E",
+          "texto": "26"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2023-f1-m1-q15",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 660.8,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f1/paginas/q15_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f1/figuras/q15_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Irene tem três tipos de ervas para fazer seu chá. Às vezes ela usa somente um tipo de erva, às vezes ela mistura dois tipos de ervas. Quantos tipos diferentes de chá ela consegue preparar?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "5"
+        },
+        {
+          "letra": "C",
+          "texto": "6"
+        },
+        {
+          "letra": "D",
+          "texto": "7"
+        },
+        {
+          "letra": "E",
+          "texto": "8"
+        }
+      ],
+      "confianca_texto": "alta"
+    }
+  }
+}

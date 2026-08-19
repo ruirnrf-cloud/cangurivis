@@ -1,0 +1,473 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m1",
+    "ano": 2025,
+    "fase": 1
+  },
+  "pdf_prova": "acervo/mirim/2025_F1_PROVA_M1.pdf",
+  "pdf_solucao": "acervo/mirim/2025_F1_SOL_M1.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2025-f1-m1-q01",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 60.5,
+        "y_bottom": 186.5
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q01_full.png",
+      "figuras": [
+        "saida/mirim_m1/2025_f1/figuras/q01_fig0.png",
+        "saida/mirim_m1/2025_f1/figuras/q01_fig1.png",
+        "saida/mirim_m1/2025_f1/figuras/q01_fig2.png",
+        "saida/mirim_m1/2025_f1/figuras/q01_fig3.png"
+      ],
+      "n_figuras": 4,
+      "enunciado_rascunho": "Em qual das figuras abaixo aparecem mais palitos?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2025-f1-m1-q02",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 184.5,
+        "y_bottom": 367.6
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q02_full.png",
+      "figuras": [
+        "saida/mirim_m1/2025_f1/figuras/q02_fig0.png",
+        "saida/mirim_m1/2025_f1/figuras/q02_fig1.png",
+        "saida/mirim_m1/2025_f1/figuras/q02_fig2.png"
+      ],
+      "n_figuras": 3,
+      "enunciado_rascunho": "Joana montou um gatinho com as peças abaixo. Como joana pode ter colocado as peças?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2025-f1-m1-q03",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 365.6,
+        "y_bottom": 513.5
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q03_full.png",
+      "figuras": [
+        "saida/mirim_m1/2025_f1/figuras/q03_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Quantos bois devem passar da esquerda para a direita para que os dois cercados fiquem com a mesma quantidade de bois?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2025-f1-m1-q04",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 511.5,
+        "y_bottom": 672.7
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q04_full.png",
+      "figuras": [
+        "saida/mirim_m1/2025_f1/figuras/q04_fig0.png",
+        "saida/mirim_m1/2025_f1/figuras/q04_fig1.png",
+        "saida/mirim_m1/2025_f1/figuras/q04_fig2.png",
+        "saida/mirim_m1/2025_f1/figuras/q04_fig3.png"
+      ],
+      "n_figuras": 4,
+      "enunciado_rascunho": "A formiga anda na vertical e na horizontal pelas casas do quadriculado. A cada etapa, ela anda para pegar a folha mais próxima. Qual é a última folha que a formiga vai pegar?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2025-f1-m1-q05",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 670.7,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q05_full.png",
+      "figuras": [
+        "saida/mirim_m1/2025_f1/figuras/q05_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Uma formiguinha estava na marca de 12 centímetros de uma régua, como mostra a figura. Ela caminhou 5 centímetros para a direita, depois 9 centímetros para a esquerda e parou para descansar. Quantos centímetros ela deve caminhar para a direita para retornar ao ponto de partida?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "5"
+        },
+        {
+          "letra": "D",
+          "texto": "6"
+        },
+        {
+          "letra": "E",
+          "texto": "7"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2025-f1-m1-q06",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 60.5,
+        "y_bottom": 222.9
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q06_full.png",
+      "figuras": [
+        "saida/mirim_m1/2025_f1/figuras/q06_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "José deve tomar 8 comprimidos. Ele vai tomar um comprimido a cada 8 horas, começando na segunda feira às 8 horas da manhã. Quando josé vai tomar o último comprimido?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "NA QUARTA-FEIRA DE MANHÃ."
+        },
+        {
+          "letra": "B",
+          "texto": "NA QUARTA-FEIRA À TARDE."
+        },
+        {
+          "letra": "C",
+          "texto": "NA QUARTA-FEIRA À NOITE."
+        },
+        {
+          "letra": "D",
+          "texto": "NA QUINTA-FEIRA DE MANHÃ."
+        },
+        {
+          "letra": "E",
+          "texto": "NA QUINTA-FEIRA À TARDE."
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2025-f1-m1-q07",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 220.9,
+        "y_bottom": 418.4
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q07_full.png",
+      "figuras": [
+        "saida/mirim_m1/2025_f1/figuras/q07_fig0.png",
+        "saida/mirim_m1/2025_f1/figuras/q07_fig1.png",
+        "saida/mirim_m1/2025_f1/figuras/q07_fig2.png",
+        "saida/mirim_m1/2025_f1/figuras/q07_fig3.png"
+      ],
+      "n_figuras": 4,
+      "enunciado_rascunho": "Marina cortou o papel retangular da figura ao lado em dois quadrados. Depois, ela usou os quadrados cortados para formar um novo retângulo. Qual dos retângulos abaixo ela não pode ter formado?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2025-f1-m1-q08",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 416.4,
+        "y_bottom": 556.9
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q08_full.png",
+      "figuras": [
+        "saida/mirim_m1/2025_f1/figuras/q08_fig0.png",
+        "saida/mirim_m1/2025_f1/figuras/q08_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Ágata deu um terço do chocolate ao lado para sua amiga jade. Depois, deu metade do que restou para sua amiga esmeralda. Com quantos quadradinhos do chocolate ágata ficou?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2025-f1-m1-q09",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 554.9,
+        "y_bottom": 709.6
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q09_full.png",
+      "figuras": [
+        "saida/mirim_m1/2025_f1/figuras/q09_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Quem está falando a verdade?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "PEDRO"
+        },
+        {
+          "letra": "B",
+          "texto": "PAULO"
+        },
+        {
+          "letra": "C",
+          "texto": "HÉLIO"
+        },
+        {
+          "letra": "D",
+          "texto": "EMILIANO"
+        },
+        {
+          "letra": "E",
+          "texto": "LÉO"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2025-f1-m1-q10",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 707.6,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q10_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Um campeonato de basquete é disputado por 4 times. Cada time enfrenta cada um dos outros uma vez. No total, quantas partidas são disputadas?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "6"
+        },
+        {
+          "letra": "D",
+          "texto": "9"
+        },
+        {
+          "letra": "E",
+          "texto": "10"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2025-f1-m1-q11",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 59.8,
+        "y_bottom": 202.3
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q11_full.png",
+      "figuras": [
+        "saida/mirim_m1/2025_f1/figuras/q11_fig0.png",
+        "saida/mirim_m1/2025_f1/figuras/q11_fig1.png",
+        "saida/mirim_m1/2025_f1/figuras/q11_fig2.png",
+        "saida/mirim_m1/2025_f1/figuras/q11_fig3.png",
+        "saida/mirim_m1/2025_f1/figuras/q11_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "João fez um corte em um papel quadrado. Depois ele fez outro corte em um dos pedaços cortados e ficou com três triângulos. Qual é a figura que mostra um corte que joão pode ter feito no papel quadrado?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2025-f1-m1-q12",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 200.3,
+        "y_bottom": 346.4
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q12_full.png",
+      "figuras": [
+        "saida/mirim_m1/2025_f1/figuras/q12_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Joana colocou cinco cartões numerados na mesa, como mostrado abaixo. Ela vai tirar três cartões da mesa. Qual é o maior número que ela pode formar juntando os outros dois na ordem em que estão?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "54"
+        },
+        {
+          "letra": "B",
+          "texto": "53"
+        },
+        {
+          "letra": "C",
+          "texto": "45"
+        },
+        {
+          "letra": "D",
+          "texto": "43"
+        },
+        {
+          "letra": "E",
+          "texto": "34"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2025-f1-m1-q13",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 344.4,
+        "y_bottom": 488.2
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q13_full.png",
+      "figuras": [
+        "saida/mirim_m1/2025_f1/figuras/q13_fig0.png",
+        "saida/mirim_m1/2025_f1/figuras/q13_fig1.png",
+        "saida/mirim_m1/2025_f1/figuras/q13_fig2.png",
+        "saida/mirim_m1/2025_f1/figuras/q13_fig3.png",
+        "saida/mirim_m1/2025_f1/figuras/q13_fig4.png",
+        "saida/mirim_m1/2025_f1/figuras/q13_fig5.png"
+      ],
+      "n_figuras": 6,
+      "enunciado_rascunho": "Joaquim montou o cubo ao lado usando oito cubinhos iguais. Nesses cubinhos, qual é a figura que está na face oposta à face em que está o circulo?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2025-f1-m1-q14",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 486.2,
+        "y_bottom": 645.8
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q14_full.png",
+      "figuras": [
+        "saida/mirim_m1/2025_f1/figuras/q14_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "O gráfico mostra a temperatura mínima registrada em cinco cidades no mês de julho. Em quantas dessas cidades a temperatura mínima esteve entre 4 e 8 graus?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2025-f1-m1-q15",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 643.8,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f1/paginas/q15_full.png",
+      "figuras": [
+        "saida/mirim_m1/2025_f1/figuras/q15_fig0.png",
+        "saida/mirim_m1/2025_f1/figuras/q15_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "As caixas abaixo foram divididas entre três crianças. Cada criança ficou com duas caixas. Uma criança ficou só com caixas grandes, outra ficou só com caixas de bolinha e outra ficou só com caixas pequenas. Qual alternativa mostra as caixas com que uma das crianças ficou?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    }
+  }
+}

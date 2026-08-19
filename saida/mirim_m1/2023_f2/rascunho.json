@@ -1,0 +1,449 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m1",
+    "ano": 2023,
+    "fase": 2
+  },
+  "pdf_prova": "acervo/mirim/2023_F2_PROVA_M1.pdf",
+  "pdf_solucao": "acervo/mirim/2023_F2_SOL_M1.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2023-f2-m1-q01",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 62.5,
+        "y_bottom": 205.5
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q01_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f2/figuras/q01_fig0.png",
+        "saida/mirim_m1/2023_f2/figuras/q01_fig1.png",
+        "saida/mirim_m1/2023_f2/figuras/q01_fig2.png",
+        "saida/mirim_m1/2023_f2/figuras/q01_fig3.png",
+        "saida/mirim_m1/2023_f2/figuras/q01_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Qual dos quadros a seguir tem mais vogais do que consoantes?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2023-f2-m1-q02",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 203.5,
+        "y_bottom": 358.6
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q02_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f2/figuras/q02_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Um dos dinossauros da figura não botou ovos e cada um dos outros botou 2 ovos. No total, quantos ovos eles botaram?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "9"
+        },
+        {
+          "letra": "B",
+          "texto": "10"
+        },
+        {
+          "letra": "C",
+          "texto": "12"
+        },
+        {
+          "letra": "D",
+          "texto": "16"
+        },
+        {
+          "letra": "E",
+          "texto": "18"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2023-f2-m1-q03",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 356.6,
+        "y_bottom": 512.2
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q03_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f2/figuras/q03_fig0.png",
+        "saida/mirim_m1/2023_f2/figuras/q03_fig1.png",
+        "saida/mirim_m1/2023_f2/figuras/q03_fig2.png",
+        "saida/mirim_m1/2023_f2/figuras/q03_fig3.png",
+        "saida/mirim_m1/2023_f2/figuras/q03_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Qual dos quadriculados tem mais quadradinhos pintados?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2023-f2-m1-q04",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 510.2,
+        "y_bottom": 651.7
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q04_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f2/figuras/q04_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "O RELÓGIO DA FIGURA ACABA DE MOSTRAR QUE SÃO 9h13. QUANTOS MINUTOS AINDA FALTAM PARA O RELÓGIO MARCAR 10h00?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "13"
+        },
+        {
+          "letra": "B",
+          "texto": "17"
+        },
+        {
+          "letra": "C",
+          "texto": "37"
+        },
+        {
+          "letra": "D",
+          "texto": "47"
+        },
+        {
+          "letra": "E",
+          "texto": "87"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2023-f2-m1-q05",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 649.7,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q05_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f2/figuras/q05_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Quantos círculos estão entre o terceiro quadrado e o quinto triângulo?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "4"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "8"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2023-f2-m1-q06",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 60.5,
+        "y_bottom": 219.1
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q06_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f2/figuras/q06_fig0.png",
+        "saida/mirim_m1/2023_f2/figuras/q06_fig1.png",
+        "saida/mirim_m1/2023_f2/figuras/q06_fig2.png",
+        "saida/mirim_m1/2023_f2/figuras/q06_fig3.png",
+        "saida/mirim_m1/2023_f2/figuras/q06_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Qual das figuras abaixo tem menos maçãs?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2023-f2-m1-q07",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 217.1,
+        "y_bottom": 348.4
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q07_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f2/figuras/q07_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Qual é o comprimento da caneta?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "5 CENTÍMETROS"
+        },
+        {
+          "letra": "B",
+          "texto": "10 CENTÍMETROS"
+        },
+        {
+          "letra": "C",
+          "texto": "11 CENTÍMETROS"
+        },
+        {
+          "letra": "D",
+          "texto": "13 CENTÍMETROS"
+        },
+        {
+          "letra": "E",
+          "texto": "18 CENTÍMETROS"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2023-f2-m1-q08",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 346.4,
+        "y_bottom": 523.2
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q08_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "As datas podem ser escritas com números. Por exemplo, 23/4/2015 é uma maneira de escrever o dia vinte e três de abril de dois mil e quinze, pois abril é o quarto mês do ano. José escreveu de trás para frente a data de seu nascimento e ficou assim: 7102/2/42. Em que dia josé nasceu? Vinte e quatro de março de dois mil e sete. Dois de julho de dois mil e dezessete. Vinte e quatro de fevereiro de dois mil e dezessete. Dezessete de fevereiro de dois mil e vinte e um. Sete de novembro de dois mil e doze.",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2023-f2-m1-q09",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 521.2,
+        "y_bottom": 650.9
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q09_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Em vez de adicionar 10 a um número, maria subtraiu 10 desse mesmo número e obteve 5 como resultado. Qual resultado ela teria obtido se tivesse feito a adição?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "10"
+        },
+        {
+          "letra": "B",
+          "texto": "15"
+        },
+        {
+          "letra": "C",
+          "texto": "20"
+        },
+        {
+          "letra": "D",
+          "texto": "25"
+        },
+        {
+          "letra": "E",
+          "texto": "30"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2023-f2-m1-q10",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 648.9,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q10_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f2/figuras/q10_fig0.png",
+        "saida/mirim_m1/2023_f2/figuras/q10_fig1.png",
+        "saida/mirim_m1/2023_f2/figuras/q10_fig2.png",
+        "saida/mirim_m1/2023_f2/figuras/q10_fig3.png",
+        "saida/mirim_m1/2023_f2/figuras/q10_fig4.png",
+        "saida/mirim_m1/2023_f2/figuras/q10_fig5.png"
+      ],
+      "n_figuras": 6,
+      "enunciado_rascunho": "Mateus tem as seguintes figuras de papel: Qual das seguintes montagens ele não consegue fazer colocando essas figuras umas sobre as outras?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2023-f2-m1-q11",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 59.8,
+        "y_bottom": 195.3
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q11_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f2/figuras/q11_fig0.png",
+        "saida/mirim_m1/2023_f2/figuras/q11_fig1.png",
+        "saida/mirim_m1/2023_f2/figuras/q11_fig2.png",
+        "saida/mirim_m1/2023_f2/figuras/q11_fig3.png",
+        "saida/mirim_m1/2023_f2/figuras/q11_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Tiago passou um fio por alguns buracos de uma placa. A figura ao lado mostra a placa vista de frente. Qual das alternativas mostra a placa vista por trás?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2023-f2-m1-q12",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 193.3,
+        "y_bottom": 320.4
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q12_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f2/figuras/q12_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Os alunos do primeiro ano da escola de juliana foram visitar uma chácara. Depois do almoço, cada criança escolheu exatamente uma fruta de sobremesa. O gráfico ao lado mostra quantos alunos escolheram cada fruta. Quantos alunos foram visitar a chácara?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "20"
+        },
+        {
+          "letra": "B",
+          "texto": "36"
+        },
+        {
+          "letra": "C",
+          "texto": "48"
+        },
+        {
+          "letra": "D",
+          "texto": "56"
+        },
+        {
+          "letra": "E",
+          "texto": "60"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2023-f2-m1-q13",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 318.4,
+        "y_bottom": 446.4
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q13_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f2/figuras/q13_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Júlia e carlos têm, juntos, as figurinhas ao lado. Carlos tem 3 figurinhas a mais do que júlia. Quantas figurinhas júlia tem?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2023-f2-m1-q14",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 444.4,
+        "y_bottom": 614.0
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q14_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f2/figuras/q14_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Paulinho dobrou o cartão ao lado e obteve o cubo, conforme mostrado na figura. Qual é o desenho que está na face com ponto de interrogação?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2023-f2-m1-q15",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 612.0,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2023_f2/paginas/q15_full.png",
+      "figuras": [
+        "saida/mirim_m1/2023_f2/figuras/q15_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Joana tem moedas de 3 tipos diferentes, que têm figuras nas suas duas faces. Moeda 1 frente verso ela colocou todas essas moedas sobre sobre a mesa. Sem que ela visse, seu irmão misturou as moedas, virou algumas do lado contrário e voltou a colocar as moedas sobre a mesa. Uma das alternativas abaixo mostra como o irmão de joana colocou as moedas na mesa. Qual é essa alternativa?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    }
+  }
+}

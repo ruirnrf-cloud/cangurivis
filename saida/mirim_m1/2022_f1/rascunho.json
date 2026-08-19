@@ -1,0 +1,508 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m1",
+    "ano": 2022,
+    "fase": 1
+  },
+  "pdf_prova": "acervo/mirim/2022_F1_PROVA_M1.pdf",
+  "pdf_solucao": "acervo/mirim/2022_F1_SOL_M1.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2022-f1-m1-q01",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 60.5,
+        "y_bottom": 190.8
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q01_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Qual das contas abaixo tem resultado diferente de 9?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "5 + 4"
+        },
+        {
+          "letra": "B",
+          "texto": "4 + 5"
+        },
+        {
+          "letra": "C",
+          "texto": "6 + 3"
+        },
+        {
+          "letra": "D",
+          "texto": "1 + 8"
+        },
+        {
+          "letra": "E",
+          "texto": "2 + 6"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2022-f1-m1-q02",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 188.8,
+        "y_bottom": 343.3
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q02_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f1/figuras/q02_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Joãozinho nasceu no penúltimo dia do mês de março de 2019. Em que dia da semana ele nasceu?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "DOMINGO"
+        },
+        {
+          "letra": "B",
+          "texto": "TERÇA-FEIRA"
+        },
+        {
+          "letra": "C",
+          "texto": "QUARTA-FEIRA"
+        },
+        {
+          "letra": "D",
+          "texto": "SEXTA-FEIRA"
+        },
+        {
+          "letra": "E",
+          "texto": "SÁBADO"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2022-f1-m1-q03",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 341.3,
+        "y_bottom": 493.4
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q03_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f1/figuras/q03_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Qual número vai aparecer após encaixar as peças do quebra-cabeça?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "40"
+        },
+        {
+          "letra": "B",
+          "texto": "46"
+        },
+        {
+          "letra": "C",
+          "texto": "49"
+        },
+        {
+          "letra": "D",
+          "texto": "64"
+        },
+        {
+          "letra": "E",
+          "texto": "94"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2022-f1-m1-q04",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 491.4,
+        "y_bottom": 667.1
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q04_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f1/figuras/q04_fig0.png",
+        "saida/mirim_m1/2022_f1/figuras/q04_fig1.png",
+        "saida/mirim_m1/2022_f1/figuras/q04_fig2.png",
+        "saida/mirim_m1/2022_f1/figuras/q04_fig3.png"
+      ],
+      "n_figuras": 4,
+      "enunciado_rascunho": "Bruno gosta de jogar . José deu um para eduardo. Paulo adora sua . Marcelo sempre usa . Quem é josé?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2022-f1-m1-q05",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 665.1,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q05_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f1/figuras/q05_fig0.png",
+        "saida/mirim_m1/2022_f1/figuras/q05_fig1.png",
+        "saida/mirim_m1/2022_f1/figuras/q05_fig2.png",
+        "saida/mirim_m1/2022_f1/figuras/q05_fig3.png"
+      ],
+      "n_figuras": 4,
+      "enunciado_rascunho": "Das figuras das alternativas, qual é a que está embaixo da folha de papel?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2022-f1-m1-q06",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 60.0,
+        "y_bottom": 204.3
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q06_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f1/figuras/q06_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Quantos pares completos de chinelos (esquerdo e direito) há na figura?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2022-f1-m1-q07",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 202.3,
+        "y_bottom": 341.8
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q07_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Qual é o maior dos números abaixo?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "QUATORZE"
+        },
+        {
+          "letra": "B",
+          "texto": "ONZE"
+        },
+        {
+          "letra": "C",
+          "texto": "QUINZE"
+        },
+        {
+          "letra": "D",
+          "texto": "DOZE"
+        },
+        {
+          "letra": "E",
+          "texto": "TREZE"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2022-f1-m1-q08",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 339.8,
+        "y_bottom": 518.9
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q08_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f1/figuras/q08_fig0.png",
+        "saida/mirim_m1/2022_f1/figuras/q08_fig1.png",
+        "saida/mirim_m1/2022_f1/figuras/q08_fig2.png",
+        "saida/mirim_m1/2022_f1/figuras/q08_fig3.png",
+        "saida/mirim_m1/2022_f1/figuras/q08_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Mateus dobra uma folha de papel 2 vezes. Quando ele desdobrar a folha, qual das alternativas não pode aparecer?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2022-f1-m1-q09",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 516.9,
+        "y_bottom": 688.5
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q09_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f1/figuras/q09_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Na aula de educação física, mariana correu do início até uma das bandeiras, voltou ao início; Depois correu até a outra bandeira e voltou ao início novamente. No total, quantos metros mariana percorreu?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "25"
+        },
+        {
+          "letra": "B",
+          "texto": "30"
+        },
+        {
+          "letra": "C",
+          "texto": "40"
+        },
+        {
+          "letra": "D",
+          "texto": "50"
+        },
+        {
+          "letra": "E",
+          "texto": "70"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2022-f1-m1-q10",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 686.5,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q10_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f1/figuras/q10_fig0.png",
+        "saida/mirim_m1/2022_f1/figuras/q10_fig1.png",
+        "saida/mirim_m1/2022_f1/figuras/q10_fig2.png",
+        "saida/mirim_m1/2022_f1/figuras/q10_fig3.png",
+        "saida/mirim_m1/2022_f1/figuras/q10_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Qual é o colar diferente dos demais?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2022-f1-m1-q11",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 60.5,
+        "y_bottom": 224.1
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q11_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f1/figuras/q11_fig0.png",
+        "saida/mirim_m1/2022_f1/figuras/q11_fig1.png",
+        "saida/mirim_m1/2022_f1/figuras/q11_fig2.png",
+        "saida/mirim_m1/2022_f1/figuras/q11_fig3.png"
+      ],
+      "n_figuras": 4,
+      "enunciado_rascunho": "Pedrinho olhou de cima a montagem de cubinhos ao lado: O que ele enxergou?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2022-f1-m1-q12",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 222.1,
+        "y_bottom": 380.0
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q12_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f1/figuras/q12_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Se você puxar as pontas do barbante, quantos nós vão aparecer?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2022-f1-m1-q13",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 378.0,
+        "y_bottom": 525.3
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q13_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f1/figuras/q13_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "João e maria foram ao cinema. João comprou 2 sacos de pipoca e 1 suco. Maria comprou 1 saco de pipoca e 1 suco. João gastou 16 reais a mais do que maria. Qual é o preço de 1 saco de pipoca?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "8 REAIS"
+        },
+        {
+          "letra": "B",
+          "texto": "9 REAIS"
+        },
+        {
+          "letra": "C",
+          "texto": "11 REAIS"
+        },
+        {
+          "letra": "D",
+          "texto": "15 REAIS"
+        },
+        {
+          "letra": "E",
+          "texto": "16 REAIS"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2022-f1-m1-q14",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 523.3,
+        "y_bottom": 676.5
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q14_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f1/figuras/q14_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Quantos quadradinhos brancos devem ser pintados de preto para que a quantidade de quadradinhos pretos da figura passe a ser o dobro da quantidade de quadradinhos brancos?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "5"
+        },
+        {
+          "letra": "D",
+          "texto": "6"
+        },
+        {
+          "letra": "E",
+          "texto": "7"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2022-f1-m1-q15",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 674.5,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f1/paginas/q15_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f1/figuras/q15_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "O cachorrinho está na base de uma escada e o gatinho no 3º degrau. O cachorrinho sobe a escada pulando de 3 em 3 degraus. A cada pulo do cachorrinho, o gatinho sobe 2 degraus. Em qual degrau o cachorrinho alcança o gatinho?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "5"
+        },
+        {
+          "letra": "B",
+          "texto": "6"
+        },
+        {
+          "letra": "C",
+          "texto": "7"
+        },
+        {
+          "letra": "D",
+          "texto": "8"
+        },
+        {
+          "letra": "E",
+          "texto": "9"
+        }
+      ],
+      "confianca_texto": "alta"
+    }
+  }
+}

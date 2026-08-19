@@ -1,21 +1,27 @@
 # -*- coding: utf-8 -*-
-"""Cangurivis - app de treino pro Rui Neto (v1, sem agendador por habilidade ainda).
+"""Cangurivis - app de treino pro Rui Neto e pro Rafael (v1, sem agendador por
+habilidade ainda).
 
 Local: streamlit run app/treino_app.py
 Nuvem: hospedado no Streamlit Community Cloud, sempre disponivel, sem depender
 do PC de casa ligado -- ver pipeline/STATUS.md secao "Fase 5".
 
-v1 deliberadamente simples: junta as questoes aprovadas de todas as provas,
-sorteia sem repetir as ja respondidas antes (uma questao usada e "queimada" --
-ver memoria cangurivis-srs-por-habilidade), mostra a escada de dicas so depois
-de errar (nunca a resposta de cara). O log de respostas fica num Gist privado
-do GitHub (nao em arquivo local) porque o Community Cloud pode recriar o
-container e apagar disco local a qualquer redeploy -- precisa de storage
-externo pra nao perder o progresso do Rui.
+v1 deliberadamente simples: cada perfil (Rui/Rafael) tem sua propria trilha de
+provas (PERFIS) e junta as questoes aprovadas dessa trilha, sorteia sem
+repetir as ja respondidas antes (uma questao usada e "queimada" -- ver
+memoria cangurivis-srs-por-habilidade), mostra a escada de dicas so depois de
+errar (nunca a resposta de cara). O log de respostas de cada perfil fica num
+arquivo proprio dentro do mesmo Gist privado do GitHub (nao em arquivo local)
+porque o Community Cloud pode recriar o container e apagar disco local a
+qualquer redeploy -- precisa de storage externo pra nao perder o progresso.
 
-Nao tem ainda: agendador por tag/habilidade, Elo/dificuldade adaptativa,
-perfis (Fase 5 do plano). Fica pra quando houver dado de uso real pra guiar
-o design disso.
+Rafael tem 7 anos (2o ano) e vai treinar com a mesma interface do Rui --
+sem narracao em audio nem quebra de enunciado em blocos: decisao consciente
+do usuario, porque a prova de verdade nao tem esses apoios e ele precisa
+aprender a ler o enunciado como ele vai aparecer no dia.
+
+Nao tem ainda: agendador por tag/habilidade, Elo/dificuldade adaptativa. Fica
+pra quando houver dado de uso real pra guiar o design disso.
 """
 import glob
 import json
@@ -31,18 +37,28 @@ LETRAS = ["A", "B", "C", "D", "E"]
 
 GIST_ID = st.secrets.get("GIST_ID", "")
 GITHUB_TOKEN = st.secrets.get("GITHUB_TOKEN", "")
-GIST_FILENAME = "progresso_rui.json"
 ACCESS_PIN = st.secrets.get("PIN", "")
+
+# Cada filho treina na propria trilha de provas (nivel de olimpiada
+# diferente) e tem o progresso gravado num arquivo proprio dentro do mesmo
+# Gist -- nunca mistura o banco nem o log dos dois.
+PERFIS = {
+    "rui": {"nome": "Rui", "trilhas": ["mirim_m2"], "gist_arquivo": "progresso_rui.json"},
+    "rafael": {"nome": "Rafael", "trilhas": ["mirim_m1"], "gist_arquivo": "progresso_rafael.json"},
+}
 
 st.set_page_config(layout="centered", page_title="Cangurivis - Treino")
 
 
 # ---------- dados ----------
 
-def carregar_banco():
-    """Junta as questoes aprovadas de todas as provas num pool so."""
+def carregar_banco(trilhas):
+    """Junta as questoes aprovadas das trilhas do perfil (ex.: mirim_m2 pro Rui) num pool so."""
     pool = []
-    for rascunho_path in sorted(glob.glob(f"{BASE}/*/*/rascunho.json")):
+    caminhos = []
+    for trilha in trilhas:
+        caminhos += glob.glob(f"{BASE}/{trilha}/*/rascunho.json")
+    for rascunho_path in sorted(caminhos):
         prova_dir = os.path.dirname(rascunho_path).replace("\\", "/")
         rev_path = f"{prova_dir}/revisao.json"
         if not os.path.exists(rev_path):
@@ -77,21 +93,23 @@ def _gist_headers():
     }
 
 
-def carregar_log():
+def carregar_log(gist_arquivo):
     resp = requests.get(f"https://api.github.com/gists/{GIST_ID}", headers=_gist_headers(), timeout=10)
     resp.raise_for_status()
-    conteudo = resp.json()["files"][GIST_FILENAME]["content"]
-    return json.loads(conteudo)
+    arquivo = resp.json()["files"].get(gist_arquivo)
+    if arquivo is None:
+        return {"respostas": []}  # perfil novo, ainda sem arquivo gravado no gist
+    return json.loads(arquivo["content"])
 
 
-def salvar_no_log(registro):
-    log = carregar_log()
+def salvar_no_log(gist_arquivo, registro):
+    log = carregar_log(gist_arquivo)
     log["respostas"].append(registro)
     conteudo = json.dumps(log, ensure_ascii=False, indent=2)
     resp = requests.patch(
         f"https://api.github.com/gists/{GIST_ID}",
         headers=_gist_headers(),
-        json={"files": {GIST_FILENAME: {"content": conteudo}}},
+        json={"files": {gist_arquivo: {"content": conteudo}}},
         timeout=10,
     )
     resp.raise_for_status()
@@ -113,12 +131,35 @@ if ACCESS_PIN and not st.session_state.get("autenticado"):
             st.error("PIN errado.")
     st.stop()
 
+# ---------- perfil (Rui ou Rafael) ----------
+# a URL pode fixar o perfil (?quem=rafael), util pra cada um abrir sempre
+# direto no proprio tablet sem precisar escolher.
+
+if "perfil" not in st.session_state:
+    perfil_url = st.query_params.get("quem")
+    if perfil_url in PERFIS:
+        st.session_state.perfil = perfil_url
+
+if "perfil" not in st.session_state:
+    st.markdown("## 🦘 Cangurivis")
+    st.markdown("### Quem vai treinar?")
+    cols = st.columns(len(PERFIS))
+    for col, (chave, p) in zip(cols, PERFIS.items()):
+        if col.button(p["nome"], width="stretch", type="primary"):
+            st.session_state.perfil = chave
+            st.query_params["quem"] = chave
+            st.rerun()
+    st.stop()
+
+perfil = st.session_state.perfil
+config_perfil = PERFIS[perfil]
+
 # ---------- estado da sessao ----------
 
 if "fila" not in st.session_state:
-    log = carregar_log()
+    log = carregar_log(config_perfil["gist_arquivo"])
     ja_feitas = {r["id"] for r in log["respostas"]}
-    banco = carregar_banco()
+    banco = carregar_banco(config_perfil["trilhas"])
     pendentes = [q for q in banco if q["id"] not in ja_feitas]
     random.shuffle(pendentes)
     st.session_state.fila = pendentes
@@ -140,7 +181,7 @@ def proxima_questao():
 
 def responder(letra, q):
     if letra == q["gabarito"]:
-        salvar_no_log({
+        salvar_no_log(config_perfil["gist_arquivo"], {
             "id": q["id"], "prova": q["prova"], "tags": q["tags"],
             "acertou_de_primeira": st.session_state.tentativas == 0,
             "tentativas": st.session_state.tentativas + 1,
@@ -157,7 +198,7 @@ def responder(letra, q):
         st.session_state.revelado = min(3, st.session_state.tentativas)
         if st.session_state.tentativas == 3:
             st.session_state.travado = True
-            salvar_no_log({
+            salvar_no_log(config_perfil["gist_arquivo"], {
                 "id": q["id"], "prova": q["prova"], "tags": q["tags"],
                 "acertou_de_primeira": False, "tentativas": st.session_state.tentativas,
                 "dicas_usadas": 3, "quando": datetime.now().isoformat(timespec="seconds"),
@@ -170,7 +211,14 @@ def responder(letra, q):
 
 # ---------- tela ----------
 
-st.markdown("## 🦘 Cangurivis — hora de treinar!")
+col_titulo, col_trocar = st.columns([6, 1])
+col_titulo.markdown(f"## 🦘 Cangurivis — hora de treinar, {config_perfil['nome']}!")
+if col_trocar.button("↩", help="Trocar quem vai treinar"):
+    for chave in ("perfil", "fila", "pos", "tentativas", "revelado", "travado",
+                  "sessao_registros", "total_banco", "ja_feitas_antes", "acabou_de_acertar"):
+        st.session_state.pop(chave, None)
+    st.query_params.clear()
+    st.rerun()
 
 fila = st.session_state.fila
 
@@ -185,7 +233,7 @@ if st.session_state.pos >= len(fila):
         plural = "questões" if feitas_agora != 1 else "questão"
         st.success(f"Sessão terminada! {feitas_agora} {plural}, {acertos_de_primeira} acertada(s) de primeira. 🎉")
         if precisou_dica:
-            st.markdown("**Questões que deram mais trabalho (pra revisar com o Rui):**")
+            st.markdown(f"**Questões que deram mais trabalho (pra revisar com {config_perfil['nome']}):**")
             for r in precisou_dica:
                 tags = ", ".join(r["tags"]) if r["tags"] else "sem tag"
                 st.markdown(f"- {r['prova']} — {tags} ({r['dicas_usadas']} dica(s) usada(s))")

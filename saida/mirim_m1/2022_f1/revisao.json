@@ -1,0 +1,302 @@
+{
+  "1": {
+    "enunciado_md": "Qual das contas abaixo tem resultado diferente de 9?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "5 + 4"},
+      {"letra": "B", "texto": "4 + 5"},
+      {"letra": "C", "texto": "6 + 3"},
+      {"letra": "D", "texto": "1 + 8"},
+      {"letra": "E", "texto": "2 + 6"}
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["soma", "operações básicas"],
+    "dica_curta": "Faz cada continha com calma. Só uma delas não dá 9.",
+    "primeiro_passo": "Começa pela conta A. Depois faz a B, a C... até achar a diferente.",
+    "solucao_completa": "- 5 + 4 = 9\n- 4 + 5 = 9\n- 6 + 3 = 9\n- 1 + 8 = 9\n- 2 + 6 = 8 (essa é diferente!)\n- Resposta certa: alternativa E."
+  },
+  "2": {
+    "enunciado_md": "Joãozinho nasceu no penúltimo dia do mês de março de 2019. Em que dia da semana ele nasceu?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "DOMINGO"},
+      {"letra": "B", "texto": "TERÇA-FEIRA"},
+      {"letra": "C", "texto": "QUARTA-FEIRA"},
+      {"letra": "D", "texto": "SEXTA-FEIRA"},
+      {"letra": "E", "texto": "SÁBADO"}
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["calendário", "dias da semana"],
+    "dica_curta": "O dedo na foto está tampando um número do calendário. Descubra esse número primeiro.",
+    "primeiro_passo": "Março tem 31 dias. Ache o último dia do mês. O penúltimo é o dia de antes dele.",
+    "solucao_completa": "- O último dia de março é o dia 31.\n- O penúltimo dia (o escondido pelo dedo) é o dia 30.\n- No calendário, o dia 31 cai num domingo.\n- Um dia antes do domingo é sábado.\n- Resposta certa: alternativa E (sábado)."
+  },
+  "3": {
+    "enunciado_md": "Qual número vai aparecer após encaixar as peças do quebra-cabeça?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "40"},
+      {"letra": "B", "texto": "46"},
+      {"letra": "C", "texto": "49"},
+      {"letra": "D", "texto": "64"},
+      {"letra": "E", "texto": "94"}
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["quebra-cabeça", "raciocínio visual"],
+    "dica_curta": "Os números das peças estão tortos. Imagine cada peça girando até ficar em pé.",
+    "primeiro_passo": "Gire a peça do 6 na sua cabeça. Em que número ela vira?",
+    "solucao_completa": "- Girando a peça do \"6\" até encaixar, ela fica de cabeça pra baixo.\n- Um 6 de cabeça pra baixo vira um 9!\n- A peça do \"4\" só endireita e continua sendo 4.\n- Juntando as duas peças: 4 e 9, forma o número 49.\n- Resposta certa: alternativa C (49)."
+  },
+  "4": {
+    "enunciado_md": "Bruno gosta de jogar futebol. José deu um skate para Eduardo. Paulo adora sua bicicleta. Marcelo sempre usa mochila. Quem é José?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["lógica", "dedução"],
+    "dica_curta": "Ache primeiro quem são Bruno, Eduardo, Paulo e Marcelo. Quem sobrar é o José.",
+    "primeiro_passo": "Bruno gosta de futebol — ache o menino com a bola. Esse é o Bruno.",
+    "solucao_completa": "- Bruno gosta de futebol → é o menino com a bola (C).\n- Eduardo ganhou um skate de presente → é o menino do skate (E).\n- Paulo adora bicicleta → é o menino de bicicleta (B).\n- Marcelo sempre usa mochila → é o menino da mochila (A).\n- Só sobrou o menino da pipa (D). Esse é o José!\n- Resposta certa: alternativa D."
+  },
+  "5": {
+    "enunciado_md": "Das figuras das alternativas, qual é a que está embaixo da folha de papel?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["formas geométricas", "raciocínio visual"],
+    "dica_curta": "Olhe o pedacinho preto que aparece acima do papel. Ele é um canto largo, ou fininho?",
+    "primeiro_passo": "Compare esse pedacinho com os cantos de cada forma das alternativas.",
+    "solucao_completa": "- A folha tampa quase tudo. Só um pedacinho preto aparece, num canto.\n- Esse canto é bem LARGO e aberto.\n- A estrela tem pontas finas. O quadrado tem cantos retos. O triângulo é pontudo.\n- Só o hexágono (a forma de 6 lados) tem cantos largos que nem esse pedacinho.\n- Resposta certa: alternativa E (hexágono)."
+  },
+  "6": {
+    "enunciado_md": "Quantos pares completos de chinelos (esquerdo e direito) há na figura?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "1"},
+      {"letra": "B", "texto": "2"},
+      {"letra": "C", "texto": "3"},
+      {"letra": "D", "texto": "4"},
+      {"letra": "E", "texto": "5"}
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["contagem", "pares"],
+    "dica_curta": "Cada chinelo é do pé esquerdo ou do pé direito. Um par só junta um de cada.",
+    "primeiro_passo": "Olhe os 7 chinelos com calma. Tente achar os que combinam em pares.",
+    "solucao_completa": "- São 7 chinelos ao todo.\n- 5 deles são do pé esquerdo. Só 2 são do pé direito.\n- Um par completo precisa de 1 esquerdo + 1 direito.\n- Como só há 2 direitos, só dá pra fazer 2 pares. Sobram 3 chinelos sem par.\n- Resposta certa: alternativa B (2)."
+  },
+  "7": {
+    "enunciado_md": "Qual é o maior dos números abaixo?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "QUATORZE"},
+      {"letra": "B", "texto": "ONZE"},
+      {"letra": "C", "texto": "QUINZE"},
+      {"letra": "D", "texto": "DOZE"},
+      {"letra": "E", "texto": "TREZE"}
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["comparar números", "números por extenso"],
+    "dica_curta": "Troque cada nome por um número. Aí fica fácil ver qual é o maior.",
+    "primeiro_passo": "Escreva do lado de cada alternativa o número que ela significa.",
+    "solucao_completa": "- QUATORZE = 14\n- ONZE = 11\n- QUINZE = 15\n- DOZE = 12\n- TREZE = 13\n- Em ordem: 11, 12, 13, 14, 15. O maior é 15.\n- Resposta certa: alternativa C (quinze)."
+  },
+  "8": {
+    "enunciado_md": "Mateus dobra uma folha de papel 2 vezes. Quando ele desdobrar a folha, qual das alternativas **não** pode aparecer?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["dobradura", "raciocínio visual"],
+    "dica_curta": "Cada dobra faz UMA marca reta no papel. Com 2 dobras, só podem aparecer 2 marcas.",
+    "primeiro_passo": "Conte as linhas retas em cada alternativa.",
+    "solucao_completa": "- Mateus dobrou o papel 2 vezes, então só podem aparecer 2 marcas retas.\n- Nas alternativas A, B, C e E aparecem exatamente 2 linhas.\n- Na alternativa D aparecem 3 linhas — elas até formam um triângulo!\n- 3 linhas não dá pra conseguir com só 2 dobras.\n- Resposta certa: alternativa D (é a que não pode aparecer)."
+  },
+  "9": {
+    "enunciado_md": "Na aula de educação física, Mariana correu do início até uma das bandeiras, voltou ao início; depois correu até a outra bandeira e voltou ao início novamente. No total, quantos metros Mariana percorreu?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "25"},
+      {"letra": "B", "texto": "30"},
+      {"letra": "C", "texto": "40"},
+      {"letra": "D", "texto": "50"},
+      {"letra": "E", "texto": "70"}
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["soma", "medidas"],
+    "dica_curta": "Mariana vai e volta duas vezes — uma pra cada bandeira. Não esqueça da volta!",
+    "primeiro_passo": "Descubra a distância até cada bandeira: a mais perto e a mais longe.",
+    "solucao_completa": "- A bandeira mais perto fica a 10 metros.\n- A mais longe fica a 10 + 15 = 25 metros.\n- Bandeira perto: ida (10) + volta (10) = 20 metros.\n- Bandeira longe: ida (25) + volta (25) = 50 metros.\n- No total: 20 + 50 = 70 metros.\n- Resposta certa: alternativa E (70)."
+  },
+  "10": {
+    "enunciado_md": "Qual é o colar diferente dos demais?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["raciocínio visual", "padrões"],
+    "dica_curta": "Siga o fio de cada colar com o dedo, de uma ponta até a outra.",
+    "primeiro_passo": "Veja em que ordem aparecem a estrela, a bolinha e o losango em cada colar.",
+    "solucao_completa": "- Em 4 colares, a bolinha redonda aparece sempre NO MEIO das outras duas continhas.\n- Só em um colar isso muda: seguindo o fio (que se cruza!), a bolinha fica perto de uma ponta, não no meio.\n- Esse colar diferente é o E.\n- Resposta certa: alternativa E."
+  },
+  "11": {
+    "enunciado_md": "Pedrinho olhou de cima a montagem de cubinhos ao lado. O que ele enxergou?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["visão espacial", "formas geométricas"],
+    "dica_curta": "De cima, só dá pra ver os cubinhos que tocam a mesa. Não dá pra ver o que tem empilhado.",
+    "primeiro_passo": "Veja: tem um espaço vazio bem no meio da frente da montagem, sem cubinho ali.",
+    "solucao_completa": "- De cima, um cubinho empilhado em cima de outro vira só 1 quadradinho — o de baixo fica escondido.\n- A montagem tem 3 cubinhos numa fileira, mais 2 na frente, um em cada ponta.\n- No meio da frente não tem cubinho nenhum: fica um buraco.\n- Vista de cima, a forma fica com esse buraco no meio, que nem a letra U.\n- Resposta certa: alternativa A."
+  },
+  "12": {
+    "enunciado_md": "Se você puxar as pontas do barbante, quantos nós vão aparecer?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "1"},
+      {"letra": "B", "texto": "2"},
+      {"letra": "C", "texto": "3"},
+      {"letra": "D", "texto": "4"},
+      {"letra": "E", "texto": "5"}
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["raciocínio visual", "lógica"],
+    "dica_curta": "Siga o barbante bem devagar com o dedo. Um nó só é de verdade quando o fio passa por dentro do laço.",
+    "primeiro_passo": "Escolha uma ponta do barbante e vá seguindo, laço por laço, sem pular nenhum.",
+    "solucao_completa": "- O barbante forma 6 laços no caminho todo.\n- Um laço só vira nó DE VERDADE se o fio passar por dentro dele.\n- Se o fio só passa por cima ou por baixo, desmancha quando a gente puxa.\n- Conferindo um por um, só o terceiro laço é nó de verdade.\n- Resposta certa: alternativa A (1)."
+  },
+  "13": {
+    "enunciado_md": "João e Maria foram ao cinema. João comprou 2 sacos de pipoca e 1 suco. Maria comprou 1 saco de pipoca e 1 suco. João gastou 16 reais a mais do que Maria. Qual é o preço de 1 saco de pipoca?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "8 REAIS"},
+      {"letra": "B", "texto": "9 REAIS"},
+      {"letra": "C", "texto": "11 REAIS"},
+      {"letra": "D", "texto": "15 REAIS"},
+      {"letra": "E", "texto": "16 REAIS"}
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["subtração", "situação-problema"],
+    "dica_curta": "João comprou 1 saco de pipoca A MAIS que Maria. É só isso que faz ele gastar mais.",
+    "primeiro_passo": "Repare: os dois compraram 1 suco cada. Essa parte é igual pros dois.",
+    "solucao_completa": "- João comprou 2 pipocas + 1 suco. Maria comprou 1 pipoca + 1 suco.\n- Os dois gastaram o mesmo tanto com suco.\n- A diferença é só 1 saco de pipoca a mais que o João comprou.\n- Essa diferença é de 16 reais. Então 1 saco de pipoca custa 16 reais.\n- Resposta certa: alternativa E (16 reais)."
+  },
+  "14": {
+    "enunciado_md": "Quantos quadradinhos brancos devem ser pintados de preto para que a quantidade de quadradinhos pretos da figura passe a ser o dobro da quantidade de quadradinhos brancos?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "3"},
+      {"letra": "B", "texto": "4"},
+      {"letra": "C", "texto": "5"},
+      {"letra": "D", "texto": "6"},
+      {"letra": "E", "texto": "7"}
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["contagem", "dobro"],
+    "dica_curta": "Conte os quadradinhos pretos e os brancos. Quantos brancos precisam virar preto pra dobrar?",
+    "primeiro_passo": "A figura tem 12 quadradinhos. Conte quantos já são pretos e quantos são brancos.",
+    "solucao_completa": "- A figura tem 12 quadradinhos: 2 pretos e 10 brancos.\n- No final, os pretos precisam ser o DOBRO dos brancos.\n- Separando em 3 grupos iguais de 4: 2 grupos pretos (8) e 1 grupo branco (4). 8 é o dobro de 4!\n- Já tem 2 pretos, então faltam pintar 8 - 2 = 6.\n- Resposta certa: alternativa D (6)."
+  },
+  "15": {
+    "enunciado_md": "O cachorrinho está na base de uma escada e o gatinho no 3º degrau. O cachorrinho sobe a escada pulando de 3 em 3 degraus. A cada pulo do cachorrinho, o gatinho sobe 2 degraus. Em qual degrau o cachorrinho alcança o gatinho?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "5"},
+      {"letra": "B", "texto": "6"},
+      {"letra": "C", "texto": "7"},
+      {"letra": "D", "texto": "8"},
+      {"letra": "E", "texto": "9"}
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["sequência lógica", "contagem"],
+    "dica_curta": "O cachorrinho começa no chão, antes do degrau 1. O gatinho já começa no degrau 3.",
+    "primeiro_passo": "Veja onde cada um fica depois do 1º pulo do cachorrinho: ele sobe 3, o gatinho sobe 2.",
+    "solucao_completa": "- 1º pulo: cachorrinho vai pro degrau 3. Gatinho vai pro degrau 5.\n- 2º pulo: cachorrinho vai pro degrau 6. Gatinho vai pro degrau 7.\n- 3º pulo: cachorrinho vai pro degrau 9. Gatinho vai pro degrau 9.\n- Os dois se encontram no degrau 9!\n- Resposta certa: alternativa E (9)."
+  }
+}

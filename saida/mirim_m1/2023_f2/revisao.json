@@ -1,0 +1,572 @@
+{
+  "1": {
+    "enunciado_md": "Qual dos quadros a seguir tem mais vogais do que consoantes?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "vogais e consoantes",
+      "contagem"
+    ],
+    "dica_curta": "Lembra quais são as vogais (A, E, I, O, U)? Em cada quadro-negro, conte quantas letras são vogais e quantas são consoantes.",
+    "primeiro_passo": "Escolha um quadro por vez e separe as letras dele em dois grupos: vogais (A, E, I, O, U) de um lado, e todas as outras letras (consoantes) do outro.",
+    "solucao_completa": "Vamos contar as letras de cada quadro-negro!\n\nAs vogais são só estas 5: **A, E, I, O, U**. Todas as outras letras são consoantes.\n\n- Quadro A: A, E, B, L, T, C → 2 vogais e 4 consoantes.\n- Quadro B: E, M, J, D, U, A → 3 vogais e 3 consoantes.\n- Quadro C: E, V, Z, U, C, D → 2 vogais e 4 consoantes.\n- Quadro D: O, U, B, A, G, E → **4 vogais** e só 2 consoantes!\n- Quadro E: R, F, A, I, S, G → 2 vogais e 4 consoantes.\n\nSó o quadro **D** tem mais vogais (4) do que consoantes (2). Essa é a resposta certa!"
+  },
+  "2": {
+    "enunciado_md": "Um dos dinossauros da figura não botou ovos e cada um dos outros botou 2 ovos. No total, quantos ovos eles botaram?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9"
+      },
+      {
+        "letra": "B",
+        "texto": "10"
+      },
+      {
+        "letra": "C",
+        "texto": "12"
+      },
+      {
+        "letra": "D",
+        "texto": "16"
+      },
+      {
+        "letra": "E",
+        "texto": "18"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem",
+      "multiplicação"
+    ],
+    "dica_curta": "Primeiro conte quantos dinossauros aparecem no desenho todo. Depois pense: quantos deles botaram ovos?",
+    "primeiro_passo": "Conte todos os dinossauros da figura. Depois tire 1 (o que não botou ovos) — todos os outros botaram 2 ovos cada um.",
+    "solucao_completa": "Vamos contar os dinossauros!\n\nNa figura tem **9 dinossauros** no total.\n\nUm deles não botou nenhum ovo. Então sobram **8 dinossauros** que botaram ovos.\n\nCada um desses 8 botou 2 ovos. Então é só somar 2 oito vezes, ou fazer 8 × 2:\n\n8 + 8 = **16**\n\nNo total, os dinossauros botaram **16 ovos**. A resposta certa é a letra D!"
+  },
+  "3": {
+    "enunciado_md": "Qual dos quadriculados tem mais quadradinhos pintados?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem",
+      "formas geométricas"
+    ],
+    "dica_curta": "Em cada quadriculado, conte quantos quadradinhos estão pintados de roxo. Vá com calma para não contar duas vezes nem esquecer nenhum.",
+    "primeiro_passo": "Escolha um quadriculado e conte, fileira por fileira, quantos quadradinhos roxos tem em cada uma. Depois some tudo.",
+    "solucao_completa": "Essa é de contar com bastante atenção!\n\nContando os quadradinhos pintados de roxo em cada quadriculado:\n\n- A: 20 quadradinhos pintados\n- B: 20 quadradinhos pintados\n- C: 24 quadradinhos pintados\n- D: **28 quadradinhos pintados**\n- E: 24 quadradinhos pintados\n\nO quadriculado **D** é o que tem mais quadradinhos pintados. Essa é a resposta certa!"
+  },
+  "4": {
+    "enunciado_md": "O relógio da figura acaba de mostrar que são 9h13. Quantos minutos ainda faltam para o relógio marcar 10h00?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "13"
+      },
+      {
+        "letra": "B",
+        "texto": "17"
+      },
+      {
+        "letra": "C",
+        "texto": "37"
+      },
+      {
+        "letra": "D",
+        "texto": "47"
+      },
+      {
+        "letra": "E",
+        "texto": "87"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "horas",
+      "subtração"
+    ],
+    "dica_curta": "Pense em quantos minutos faltam para o relógio chegar na hora certinha (10h00), sabendo que cada hora tem 60 minutos.",
+    "primeiro_passo": "Descubra quantos minutos faltam para passar de 9h13 até 10h00. Dica: pense em 60 menos 13.",
+    "solucao_completa": "São 9h13. Queremos saber quantos minutos faltam para dar 10h00.\n\nUma hora inteira tem **60 minutos**.\n\nEntão fazemos: 60 − 13 = **47**\n\nFaltam **47 minutos** para o relógio marcar 10h00. A resposta certa é a letra D!"
+  },
+  "5": {
+    "enunciado_md": "Quantos círculos estão entre o terceiro quadrado e o quinto triângulo?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "4"
+      },
+      {
+        "letra": "D",
+        "texto": "5"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem",
+      "sequência lógica"
+    ],
+    "dica_curta": "Ache o terceiro quadrado da fileira e marque com o dedo. Depois ache o quinto triângulo. Agora conte só as bolinhas que estão entre os dois.",
+    "primeiro_passo": "Vá contando os quadrados da esquerda para a direita até achar o terceiro. Depois vá contando os triângulos até achar o quinto.",
+    "solucao_completa": "Vamos usar o dedo para ajudar a contar!\n\nPrimeiro, ache o **terceiro quadrado**, contando os quadrados da esquerda para a direita: 1º, 2º, 3º — achou!\n\nAgora ache o **quinto triângulo**, contando os triângulos: 1º, 2º, 3º, 4º, 5º — achou!\n\nEntre essas duas formas, conte só os **círculos** (as bolinhas redondas), sem contar quadrados nem triângulos.\n\nVocê vai encontrar **4 círculos** entre o terceiro quadrado e o quinto triângulo. A resposta certa é a letra C!"
+  },
+  "6": {
+    "enunciado_md": "Qual das figuras abaixo tem menos maçãs?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem",
+      "multiplicação"
+    ],
+    "dica_curta": "Para saber qual caixa tem menos maçãs, não precisa adivinhar — dá para contar fileira por fileira em cada caixa.",
+    "primeiro_passo": "Escolha uma caixa e conte quantas maçãs tem em uma fileira, depois conte quantas fileiras a caixa tem.",
+    "solucao_completa": "Vamos contar as maçãs de cada caixa!\n\n- Caixa A: 4 colunas × 5 fileiras = 20 maçãs\n- Caixa B: 5 colunas × 4 fileiras = 20 maçãs\n- Caixa C: 7 colunas × 3 fileiras = 21 maçãs\n- Caixa D: 3 colunas × 6 fileiras = **18 maçãs**\n- Caixa E: 10 colunas × 2 fileiras = 20 maçãs\n\nA caixa **D** é a que tem menos maçãs (só 18). Essa é a resposta certa!"
+  },
+  "7": {
+    "enunciado_md": "Qual é o comprimento da caneta?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5 centímetros"
+      },
+      {
+        "letra": "B",
+        "texto": "10 centímetros"
+      },
+      {
+        "letra": "C",
+        "texto": "11 centímetros"
+      },
+      {
+        "letra": "D",
+        "texto": "13 centímetros"
+      },
+      {
+        "letra": "E",
+        "texto": "18 centímetros"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "medidas",
+      "subtração"
+    ],
+    "dica_curta": "Olhe em qual número da régua começa a ponta da caneta, e em qual número termina a outra ponta. O comprimento é a diferença entre esses dois números.",
+    "primeiro_passo": "Veja em qual número da régua está a ponta fina da caneta (a ponta de escrever). Depois veja em qual número está a outra ponta.",
+    "solucao_completa": "Vamos medir a caneta usando a régua!\n\nA ponta fina da caneta começa bem em cima do número **5** da régua.\n\nA outra ponta da caneta termina bem em cima do número **18**.\n\nPara saber o comprimento, fazemos: 18 − 5 = **13**\n\nA caneta tem **13 centímetros**. A resposta certa é a letra D!"
+  },
+  "8": {
+    "enunciado_md": "As datas podem ser escritas com números. Por exemplo, 23/4/2015 é uma maneira de escrever o dia vinte e três de abril de dois mil e quinze, pois abril é o quarto mês do ano. José escreveu de trás para frente a data de seu nascimento e ficou assim: 7102/2/42. Em que dia José nasceu?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Vinte e quatro de março de dois mil e sete."
+      },
+      {
+        "letra": "B",
+        "texto": "Dois de julho de dois mil e dezessete."
+      },
+      {
+        "letra": "C",
+        "texto": "Vinte e quatro de fevereiro de dois mil e dezessete."
+      },
+      {
+        "letra": "D",
+        "texto": "Dezessete de fevereiro de dois mil e vinte e um."
+      },
+      {
+        "letra": "E",
+        "texto": "Sete de novembro de dois mil e doze."
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "datas",
+      "lógica"
+    ],
+    "dica_curta": "José escreveu a data ao contrário. Tente ler os números de trás para frente, um por um, para descobrir a data certa.",
+    "primeiro_passo": "Pegue o número 7102/2/42 e escreva cada algarismo na ordem invertida, do último até o primeiro.",
+    "solucao_completa": "José escreveu a data de trás para frente. Vamos inverter de volta!\n\nA data que ele escreveu foi: **7102/2/42**\n\nLendo de trás para frente (do último número até o primeiro), fica: **24/2/2017**\n\nLembrando do exemplo do enunciado: o primeiro número é o dia, o segundo é o mês, e o terceiro é o ano.\n\nEntão: dia **24**, mês **2** (fevereiro), ano **2017**.\n\nJosé nasceu no dia **vinte e quatro de fevereiro de dois mil e dezessete**. A resposta certa é a letra C!"
+  },
+  "9": {
+    "enunciado_md": "Em vez de adicionar 10 a um número, Maria subtraiu 10 desse mesmo número e obteve 5 como resultado. Qual resultado ela teria obtido se tivesse feito a adição?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10"
+      },
+      {
+        "letra": "B",
+        "texto": "15"
+      },
+      {
+        "letra": "C",
+        "texto": "20"
+      },
+      {
+        "letra": "D",
+        "texto": "25"
+      },
+      {
+        "letra": "E",
+        "texto": "30"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "soma",
+      "subtração"
+    ],
+    "dica_curta": "Primeiro descubra qual é o número secreto de Maria usando a subtração que ela fez. Depois é só somar 10 nesse número.",
+    "primeiro_passo": "Se subtrair 10 de um número dá 5, pense: que número é esse? (dica: some 10 de volta a partir do 5)",
+    "solucao_completa": "Maria pegou um número, tirou 10, e sobrou 5.\n\nEntão o número secreto era: 5 + 10 = **15**\n\nAgora, se Maria tivesse **somado** 10 nesse número (em vez de subtrair), o resultado seria:\n\n15 + 10 = **25**\n\nA resposta certa é a letra D!"
+  },
+  "10": {
+    "enunciado_md": "Mateus tem as seguintes figuras de papel (veja a imagem). Qual das seguintes montagens ele **não** consegue fazer colocando essas figuras umas sobre as outras?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "formas geométricas",
+      "raciocínio espacial"
+    ],
+    "dica_curta": "Mateus só tem UM pedaço branco (o quadradinho branco). Em cada alternativa, veja se dá pra fazer as partes brancas usando só esse UM pedaço.",
+    "primeiro_passo": "Repare no tamanho do quadrado branco: o lado dele é a metade do lado do quadrado preto grande. Guarde bem esse tamanho na cabeça.",
+    "solucao_completa": "Mateus tem 4 pedaços de papel: 2 triângulos cinzas do mesmo tamanho, 1 quadrado branco pequeno e 1 quadrado preto grande.\n\nRepare no tamanho do quadrado branco: o lado dele é a **metade** do lado do quadrado preto.\n\nAgora vamos olhar as partes brancas em cada alternativa:\n\n- Em **A**, **B**, **C** e **D**, a parte branca sempre forma o desenho de UM quadrado branco (inteiro ou com um triângulo em cima dele) — dá para montar com a peça que Mateus tem.\n- Em **E**, aparecem pedacinhos brancos em **dois lugares diferentes** do desenho, que não formam o desenho de um único quadrado.\n\nMas Mateus só tem **UM** quadrado branco — ele não pode aparecer em dois lugares ao mesmo tempo!\n\nPor isso, a montagem da alternativa **E** é a única que Mateus **não** consegue fazer. A resposta certa é a letra E!"
+  },
+  "11": {
+    "enunciado_md": "Tiago passou um fio por alguns buracos de uma placa. A figura ao lado mostra a placa vista de frente. Qual das alternativas mostra a placa vista por trás?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "simetria",
+      "raciocínio espacial"
+    ],
+    "dica_curta": "Primeiro conte em quantos buracos o fio passa na figura da frente. Depois veja quais alternativas têm esse mesmo número de buracos usados.",
+    "primeiro_passo": "Na figura do enunciado, conte quantos buracos têm fio (uma linha ou uma pontinha saindo deles). Um dos 4 buracos fica vazio — descubra qual.",
+    "solucao_completa": "Vamos com calma, passo a passo!\n\n**Passo 1 — contar os buracos usados.** Na figura da frente, o fio passa por **3 buracos** (os 2 de cima, e o de baixo à esquerda). O buraco de baixo à direita fica vazio.\n\nNas alternativas A e B, o fio passa por só 2 buracos — não serve. Na alternativa C, o fio passa pelos 4 buracos — também não serve. Sobram as alternativas **D** e **E**, que também usam 3 buracos.\n\n**Passo 2 — o truque do espelho.** Quando você vira a placa para ver por trás (como virar uma página), a esquerda e a direita trocam de lugar, mas em cima continua em cima, e embaixo continua embaixo.\n\nNa frente, o buraco vazio fica embaixo, **à direita**. Então, visto por trás, esse buraco vazio tem que aparecer embaixo, **à esquerda**.\n\nOlhando as alternativas: em **D**, o buraco vazio está embaixo à esquerda — combina certinho! Em E, o buraco vazio está embaixo à direita — não combina.\n\nA resposta certa é a letra D!"
+  },
+  "12": {
+    "enunciado_md": "Os alunos do primeiro ano da escola de Juliana foram visitar uma chácara. Depois do almoço, cada criança escolheu exatamente uma fruta de sobremesa. O gráfico ao lado mostra quantos alunos escolheram cada fruta. Quantos alunos foram visitar a chácara?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "20"
+      },
+      {
+        "letra": "B",
+        "texto": "36"
+      },
+      {
+        "letra": "C",
+        "texto": "48"
+      },
+      {
+        "letra": "D",
+        "texto": "56"
+      },
+      {
+        "letra": "E",
+        "texto": "60"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "gráficos",
+      "soma"
+    ],
+    "dica_curta": "Olhe a altura de cada barrinha do gráfico até a régua do lado, e depois some as três alturas.",
+    "primeiro_passo": "Veja até qual número (na régua do lado esquerdo) chega a barra laranja. Depois faça o mesmo com a barra verde e com a vermelha.",
+    "solucao_completa": "O gráfico mostra quantos alunos escolheram cada fruta.\n\n- A barra laranja (laranja) chega até **20**.\n- A barra verde (abacate) chega até **12**.\n- A barra vermelha (maçã) chega até **4**.\n\nCada aluno escolheu só uma fruta, então para saber quantos alunos foram à chácara, somamos as três quantidades:\n\n20 + 12 + 4 = **36**\n\nA resposta certa é a letra B!"
+  },
+  "13": {
+    "enunciado_md": "Júlia e Carlos têm, juntos, as figurinhas ao lado. Carlos tem 3 figurinhas a mais do que Júlia. Quantas figurinhas Júlia tem?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem",
+      "soma"
+    ],
+    "dica_curta": "Primeiro conte quantas figurinhas tem ao todo na mesa. Depois pense: se Carlos tem 3 a mais que Júlia, como repartir esse total entre os dois?",
+    "primeiro_passo": "Conte todas as figurinhas da imagem, uma por uma, para saber quantas Júlia e Carlos têm juntos.",
+    "solucao_completa": "Vamos contar as figurinhas da mesa: são **11 figurinhas** ao todo (5 em cima e 6 embaixo).\n\nJúlia + Carlos = 11, e Carlos tem 3 figurinhas a mais do que Júlia.\n\nVamos tentar: se Júlia tem 4 figurinhas, Carlos teria 4 + 3 = 7 figurinhas.\n\nJuntando os dois: 4 + 7 = **11** — bateu certinho!\n\nEntão Júlia tem **4 figurinhas**. A resposta certa é a letra D!"
+  },
+  "14": {
+    "enunciado_md": "Paulinho dobrou o cartão ao lado e obteve o cubo, conforme mostrado na figura. Qual é o desenho que está na face com ponto de interrogação?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "planificação de sólidos",
+      "raciocínio espacial"
+    ],
+    "dica_curta": "Procure a carinha sorridente com sobrancelhas tortas no molde de papel (o desenho em forma de cruz). Veja qual carinha está bem coladinha nela, do lado direito.",
+    "primeiro_passo": "No molde em forma de cruz, ache a carinha que aparece na frente do cubo já montado. Ela está bem no meio de uma fileira com 4 carinhas.",
+    "solucao_completa": "Essa é de imaginar a dobradura!\n\nNo desenho do cubo já montado, a carinha da **frente** é a que sorri com uma sobrancelha levantada.\n\nAgora olhe o molde de papel (antes de dobrar): essa mesma carinha sorridente está no meio de uma fileira com 4 carinhas.\n\nQuando dobramos o papel para formar o cubo, as carinhas que estão **coladinhas** uma do lado da outra no molde continuam **vizinhas** no cubo.\n\nA carinha com **ponto de interrogação** fica bem ao lado direito da carinha sorridente — e no molde, quem está ali é a carinha **brava**, com as sobrancelhas levantadas para cima de raiva.\n\nA resposta certa é a letra C!"
+  },
+  "15": {
+    "enunciado_md": "Joana tem moedas de 3 tipos diferentes, que têm figuras nas suas duas faces (veja a imagem). Ela colocou todas essas moedas sobre a mesa. Sem que ela visse, seu irmão misturou as moedas, virou algumas do lado contrário e voltou a colocar as moedas sobre a mesa. Uma das alternativas abaixo mostra como o irmão de Joana colocou as moedas na mesa. Qual é essa alternativa?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem",
+      "lógica"
+    ],
+    "dica_curta": "Cada moeda pode estar de frente ou de verso, mas o TIPO dela não muda. Conte quantas moedas são de cada tipo, em vez de olhar se é frente ou verso.",
+    "primeiro_passo": "Olhe a moeda 1, a moeda 2 e a moeda 3 lá no começo da questão. Repare no desenho de cada uma — isso é o que não muda quando a moeda é virada.",
+    "solucao_completa": "Joana tinha 3 tipos de moeda, e cada tipo tem 2 desenhos diferentes (frente e verso) — mas continua sendo o MESMO tipo de moeda, só virada.\n\nOlhando a mesa antes do irmão mexer: Joana tinha **3 moedas do tipo 1** (estrela ou coração), **2 moedas do tipo 2** (seta) e **1 moeda do tipo 3** (risco brilhante ou bolinha).\n\nO irmão só virou as moedas — ele não trocou nem fez nenhuma sumir! Então, depois de mexido, ainda tem que ter **3 do tipo 1, 2 do tipo 2 e 1 do tipo 3**.\n\nVamos conferir cada alternativa contando os tipos (não importa se é frente ou verso):\n\n- A: tem 2 moedas do tipo 3 — não pode ser.\n- B: tem 3 moedas do tipo 3 — não pode ser.\n- D: tem só 1 moeda do tipo 2 — não pode ser.\n- E: tem 2 moedas do tipo 3 — não pode ser.\n- **C**: tem 3 do tipo 1, 2 do tipo 2 e 1 do tipo 3 — combina certinho!\n\nA resposta certa é a letra C!"
+  }
+}

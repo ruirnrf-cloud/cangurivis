@@ -1,0 +1,17 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m1",
+    "ano": 2025,
+    "fase": 2
+  },
+  "pdf_prova": "acervo/mirim/2025_F2_PROVA_M1.pdf",
+  "pdf_solucao": "acervo/mirim/2025_F2_SOL_M1.pdf",
+  "n_questoes_segmentadas": 0,
+  "n_gabaritos_extraidos": 11,
+  "problemas_bloqueantes": [
+    "nenhuma ancora encontrada (texto pode estar vetorizado -- ver chars/pagina)",
+    "questoes segmentadas ([]) != questoes com gabarito ([5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])"
+  ],
+  "questoes": {}
+}

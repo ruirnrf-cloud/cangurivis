@@ -1,0 +1,571 @@
+{
+  "1": {
+    "enunciado_md": "Em qual das figuras abaixo aparecem mais palitos?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem"
+    ],
+    "dica_curta": "Conte os palitinhos de cada figura, bem devagarinho, sem pular nenhum.",
+    "primeiro_passo": "Escolha a primeira figura e conte quantos palitos ela tem. Depois conte as outras, uma de cada vez.",
+    "solucao_completa": "Vamos contar os palitos de cada figura com calma!\n\n- **A**: são 3 triângulos que se encostam bem no meio → 9 palitos\n- **B**: é 1 triângulo grande dividido em 4 triângulos pequenos → 9 palitos\n- **C**: parece um desenho de cubo, com 6 lados e mais 3 palitos dentro → 9 palitos\n- **D**: são 2 losangos (parecidos com pipas) grudados um no outro → **10 palitos**\n- **E**: são 3 triângulos deitados → 9 palitos\n\nViu só? Quase todas as figuras têm 9 palitos, mas a **D** tem 10! Por isso a resposta certa é a letra **D**."
+  },
+  "2": {
+    "enunciado_md": "Joana montou um gatinho com as peças abaixo. Como Joana pode ter colocado as peças?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "quebra-cabeça",
+      "formas geométricas"
+    ],
+    "dica_curta": "Olhe a peça 2: ela já tem as orelhinhas do gato. Ela precisa ficar em cima!",
+    "primeiro_passo": "Ache a peça com as orelhas e os olhinhos do gato — essa é a peça 2. Ela tem que ficar na parte de cima do desenho.",
+    "solucao_completa": "Esse é um quebra-cabeça de encaixar linhas!\n\nA peça **2** já mostra o rosto do gatinho, com as orelhas e os olhos fechadinhos. Como as orelhas ficam sempre em cima da cabeça, a peça 2 precisa ficar numa das casinhas de cima.\n\nAgora é só ir testando: quando a gente organiza as peças na ordem **4, 2** (em cima) e **1, 3** (embaixo), as linhas de cada peça se encontram certinho e formam um gatinho sentado, bonitinho e inteiro!\n\nNas outras opções, as linhas do desenho ficam cortadas ou tortas, e não parece mais um gato de verdade.\n\nPor isso a resposta certa é a letra **C**."
+  },
+  "3": {
+    "enunciado_md": "Quantos bois devem passar da esquerda para a direita para que os dois cercados fiquem com a mesma quantidade de bois?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem",
+      "subtração"
+    ],
+    "dica_curta": "Primeiro conte quantos bois têm em cada cercado. Depois pense: quanto falta pra ficar igual?",
+    "primeiro_passo": "Conte, um por um, quantos bois estão no cercado da esquerda. Depois conte os do cercado da direita.",
+    "solucao_completa": "Vamos contar os bois de cada cercado com bastante calma, um de cada vez, pra não errar!\n\n- Cercado da **esquerda**: 10 bois\n- Cercado da **direita**: 2 bois\n\nJuntando os dois grupos: 10 + 2 = **12 bois** no total.\n\nPara os dois cercados ficarem iguais, cada um precisa ficar com metade de 12, ou seja, **6 bois** em cada lado.\n\nO cercado da esquerda tem 10 e precisa ficar com 6. Então: 10 − 6 = **4 bois** precisam passar para o outro lado.\n\nVamos conferir: 10 − 4 = 6 (fica a esquerda) e 2 + 4 = 6 (fica a direita). Ficou igual!\n\nA resposta certa é a letra **D**, 4 bois."
+  },
+  "4": {
+    "enunciado_md": "A formiga anda na vertical e na horizontal pelas casas do quadriculado. A cada etapa, ela anda para pegar a folha mais próxima. Qual é a última folha que a formiga vai pegar?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem",
+      "raciocínio espacial"
+    ],
+    "dica_curta": "A formiguinha sempre escolhe a folha mais pertinho dela. Vá seguindo o caminho passo a passo.",
+    "primeiro_passo": "Olhando de onde a formiga está, conte quantas casinhas (para cima, baixo ou lado) até cada folha. A mais perto é a primeira que ela pega.",
+    "solucao_completa": "A formiguinha só anda pelas linhas do quadriculado: para cima, para baixo, ou para o lado — sempre retinho, nunca cortando caminho. E ela sempre escolhe a folha mais pertinho para pegar primeiro.\n\nVamos seguir o passeio dela, passo a passo:\n\n1. A folha mais perto do começo é a **folha do meio (a da forma de B)** — a formiga anda até lá.\n2. Dali, a mais perto agora é a **folha da forma de A**.\n3. Depois, a mais perto é a **folha grande (forma de E)**, lá no cantinho.\n4. Em seguida, ela anda bastante e pega a **folha da forma de D**.\n5. E por último, sobrou só uma folha: a **folha da forma de C**!\n\nComo essa é a última que sobra depois que a formiga pega todas as outras, a resposta certa é a letra **C**."
+  },
+  "5": {
+    "enunciado_md": "Uma formiguinha estava na marca de 12 centímetros de uma régua, como mostra a figura. Ela caminhou 5 centímetros para a direita, depois 9 centímetros para a esquerda e parou para descansar. Quantos centímetros ela deve caminhar para a direita para retornar ao ponto de partida?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "5"
+      },
+      {
+        "letra": "D",
+        "texto": "6"
+      },
+      {
+        "letra": "E",
+        "texto": "7"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "reta numérica",
+      "soma e subtração"
+    ],
+    "dica_curta": "Vá seguindo o caminho da formiguinha número por número: primeiro pra direita, depois pra esquerda.",
+    "primeiro_passo": "Comece no número 12. Ande 5 para a direita: em que número ela chegou?",
+    "solucao_completa": "Vamos seguir o caminho da formiguinha, um passo de cada vez!\n\n- Ela começa no **12**.\n- Anda 5 para a direita: 12 + 5 = **17**.\n- Depois anda 9 para a esquerda: 17 − 9 = **8**.\n\nAgora ela está parada no **8** e quer voltar para o **12**.\n\nDe 8 até 12 são: 12 − 8 = **4 centímetros** para a direita.\n\nA resposta certa é a letra **B**, 4 centímetros."
+  },
+  "6": {
+    "enunciado_md": "José deve tomar 8 comprimidos. Ele vai tomar um comprimido a cada 8 horas, começando na segunda-feira às 8 horas da manhã. Quando José vai tomar o último comprimido?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Na quarta-feira de manhã"
+      },
+      {
+        "letra": "B",
+        "texto": "Na quarta-feira à tarde"
+      },
+      {
+        "letra": "C",
+        "texto": "Na quarta-feira à noite"
+      },
+      {
+        "letra": "D",
+        "texto": "Na quinta-feira de manhã"
+      },
+      {
+        "letra": "E",
+        "texto": "Na quinta-feira à tarde"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "sequência lógica",
+      "dias da semana"
+    ],
+    "dica_curta": "Cada 8 horas é um pedaço do dia: manhã, tarde ou noite. Vá contando os remedinhos um a um.",
+    "primeiro_passo": "O primeiro comprimido é segunda de manhã. Conte: qual vai ser o período (manhã, tarde ou noite) do segundo comprimido, 8 horas depois?",
+    "solucao_completa": "Repare numa coisa importante: o dia tem 3 partes parecidas — manhã, tarde e noite — e cada parte dura mais ou menos 8 horas. Então, a cada comprimido, José passa para o período seguinte!\n\nVamos contar todos os 8 comprimidos:\n\n1. Segunda de manhã\n2. Segunda à tarde\n3. Segunda à noite\n4. Terça de manhã\n5. Terça à tarde\n6. Terça à noite\n7. Quarta de manhã\n8. **Quarta à tarde** (último!)\n\nO oitavo e último comprimido cai na **quarta-feira à tarde**.\n\nA resposta certa é a letra **B**."
+  },
+  "7": {
+    "enunciado_md": "Marina cortou o papel retangular da figura ao lado em dois quadrados. Depois, ela usou os quadrados cortados para formar um novo retângulo. Qual dos retângulos abaixo ela NÃO pode ter formado?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "formas geométricas",
+      "raciocínio espacial"
+    ],
+    "dica_curta": "Essa é bem difícil! Olhe onde fica a pontinha da estrela dentro de cada quadradinho: será que ela sempre para bem no meio do quadrado, ou às vezes encosta na beirada?",
+    "primeiro_passo": "Olhe a figura original: quando Marina corta ao meio, cada metade fica com uma pontinha de estrela que termina bem no centro do quadradinho, sem tocar a borda de fora. Procure, nas opções, um quadradinho em que a pontinha vai longe demais e toca a beirada de fora.",
+    "solucao_completa": "Essa questão é mesmo complicada, vamos com calma!\n\nQuando Marina corta o retângulo ao meio, cada quadrado fica com um pedacinho da estrela. Se você olhar bem, a ponta da estrela em cada quadrado sempre para **bem no centro** daquele quadrado — ela nunca chega a encostar na beirada de fora.\n\nAgora vamos olhar as opções: em quatro delas (A, C, D e E), as pontas sempre param no meio de cada quadradinho, do jeitinho que deveriam.\n\nMas na opção **B**, a ponta de cada estrela vai longe demais: ela começa colada na beirada de fora do quadrado, e a pontinha fica apontando pro meio — é o contrário do que deveria ser! Isso não combina com os pedaços que Marina realmente cortou.\n\nPor isso, a figura que Marina **não pode** ter formado é a letra **B**."
+  },
+  "8": {
+    "enunciado_md": "Ágata deu um terço do chocolate ao lado para sua amiga Jade. Depois, deu metade do que restou para sua amiga Esmeralda. Com quantos quadradinhos do chocolate Ágata ficou?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "frações",
+      "contagem"
+    ],
+    "dica_curta": "Primeiro veja quantos quadradinhos tem o chocolate todo. Depois vá tirando um pedaço de cada vez.",
+    "primeiro_passo": "Conte quantos quadradinhos tem o chocolate inteiro (conte as fileiras e as colunas).",
+    "solucao_completa": "Vamos por partes, devagarinho!\n\nO chocolate inteiro tem **9 quadradinhos** (3 fileiras com 3 quadradinhos cada).\n\n**Passo 1:** Ágata dá um terço (1/3) para Jade. Um terço de 9 é 9 ÷ 3 = **3 quadradinhos**. Sobram: 9 − 3 = **6 quadradinhos**.\n\n**Passo 2:** Agora Ágata dá metade do que restou para Esmeralda. Metade de 6 é 6 ÷ 2 = **3 quadradinhos**. Sobram: 6 − 3 = **3 quadradinhos**.\n\nEntão Ágata ficou com **3 quadradinhos** de chocolate.\n\nA resposta certa é a letra **C**."
+  },
+  "9": {
+    "enunciado_md": "Quem está falando a verdade?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Pedro"
+      },
+      {
+        "letra": "B",
+        "texto": "Paulo"
+      },
+      {
+        "letra": "C",
+        "texto": "Hélio"
+      },
+      {
+        "letra": "D",
+        "texto": "Emiliano"
+      },
+      {
+        "letra": "E",
+        "texto": "Léo"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "lógica",
+      "comparação"
+    ],
+    "dica_curta": "Todo mundo diz a mesma frase: 'Sou mais alto que 2 dos outros'. Olhe as alturas de cada um na figura e veja pra quem isso é verdade.",
+    "primeiro_passo": "Olhe a fileira de crianças e descubra a ordem: quem é o mais baixinho, quem vem depois, até chegar no mais alto.",
+    "solucao_completa": "Todas as crianças falam a mesma frase: 'De nós 5, sou mais alto do que 2.' Isso só pode ser verdade para quem é EXATAMENTE o terceiro mais alto (nem muito baixo, nem muito alto) — porque aí tem exatamente 2 mais baixos do que ele.\n\nOlhando as alturas na figura, do mais baixinho para o mais altão:\n\n1. Pedro (o mais baixinho)\n2. Léo\n3. **Paulo**\n4. Hélio\n5. Emiliano (o mais alto)\n\nPedro não é mais alto que ninguém — mentira.\nLéo só é mais alto que 1 pessoa (Pedro) — mentira.\n**Paulo é mais alto que 2 pessoas (Pedro e Léo) — verdade!**\nHélio é mais alto que 3 pessoas — mentira (ele disse só 2).\nEmiliano é mais alto que todo mundo (4 pessoas) — mentira.\n\nQuem fala a verdade é o **Paulo**, resposta letra **B**."
+  },
+  "10": {
+    "enunciado_md": "Um campeonato de basquete é disputado por 4 times. Cada time enfrenta cada um dos outros uma vez. No total, quantas partidas são disputadas?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "9"
+      },
+      {
+        "letra": "E",
+        "texto": "10"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem",
+      "combinação"
+    ],
+    "dica_curta": "Dê um nome pra cada time (A, B, C, D) e liste todos os jogos possíveis, sem repetir.",
+    "primeiro_passo": "Chame os times de A, B, C e D. Escreva todos os jogos que o time A vai jogar.",
+    "solucao_completa": "Vamos chamar os 4 times de **A, B, C e D** e listar todos os jogos, sem repetir nenhum!\n\n- A joga com B, C e D → 3 jogos\n- B já jogou com A, então só falta jogar com C e D → 2 jogos novos\n- C já jogou com A e B, então só falta jogar com D → 1 jogo novo\n- D já jogou com todo mundo → 0 jogos novos\n\nSomando: 3 + 2 + 1 + 0 = **6 partidas**.\n\nRepare que não contamos 'A com B' e depois 'B com A' de novo — é o mesmo jogo!\n\nA resposta certa é a letra **C**, 6 partidas."
+  },
+  "11": {
+    "enunciado_md": "João fez um corte em um papel quadrado. Depois ele fez outro corte em um dos pedaços cortados e ficou com três triângulos. Qual é a figura que mostra um corte que João pode ter feito no papel quadrado?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "formas geométricas",
+      "raciocínio espacial"
+    ],
+    "dica_curta": "João corta o quadrado uma vez, e SÓ UM dos dois pedaços é cortado de novo. Pense: esse primeiro corte já precisa deixar pelo menos um triângulo pronto.",
+    "primeiro_passo": "Para cada figura, imagine o primeiro corte (a linha pontilhada). Ele forma algum triângulo? Se não formar nenhum triângulo de cara, aquela opção não serve.",
+    "solucao_completa": "João faz só 2 cortes no total, e o segundo corte é feito em APENAS um dos pedaços. Isso quer dizer que, no final, um dos pedaços do primeiro corte não é mexido de novo — ele já precisa ser um triângulo sozinho!\n\nVamos ver cada opção:\n\n- **A** e **B**: o corte é bem no meio, reto. Isso forma 2 retângulos — nenhum triângulo! Não dá certo.\n- **C**: o corte forma 2 formas de 4 lados — nenhum triângulo direto. Não dá certo.\n- **E**: o corte tira um triangulozinho de um canto, mas o pedaço que sobra tem 5 lados. Não existe um jeito de cortar essa forma de 5 lados e virar 2 triângulos com um corte só. Não dá certo.\n- **D**: o corte vai de um canto até a base, formando **1 triângulo** de um lado e uma forma de 4 lados do outro. Cortando essa forma de 4 lados uma vez (de canto a canto), ela vira **2 triângulos**! No total: 1 + 2 = **3 triângulos**! Deu certo!\n\nA resposta certa é a letra **D**."
+  },
+  "12": {
+    "enunciado_md": "Joana colocou cinco cartões numerados na mesa, como mostrado abaixo. Ela vai tirar três cartões da mesa. Qual é o maior número que ela pode formar juntando os outros dois na ordem em que estão?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "54"
+      },
+      {
+        "letra": "B",
+        "texto": "53"
+      },
+      {
+        "letra": "C",
+        "texto": "45"
+      },
+      {
+        "letra": "D",
+        "texto": "43"
+      },
+      {
+        "letra": "E",
+        "texto": "34"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "ordenação",
+      "maior número"
+    ],
+    "dica_curta": "Sobram só 2 cartões, e eles têm que ficar na mesma ordem em que já estão em cima da mesa. Pense em qual pode ser o algarismo das dezenas.",
+    "primeiro_passo": "O cartão 5 é o maior de todos, mas ele é o ÚLTIMO da fila. Ele pode virar o primeiro algarismo (dezena) do número?",
+    "solucao_completa": "Os cartões na mesa são: **1, 4, 3, 2, 5** — nessa ordem, da esquerda para a direita. Joana só pode ESCOLHER 2 para ficar, mas eles continuam na mesma ordem (não pode trocar o da esquerda com o da direita).\n\nO número 5 é o maior cartão, mas ele está bem no final da fila. Se ele ficar, tem que ser o ÚLTIMO algarismo (o das unidades) — não tem nenhum cartão depois dele para virem juntos.\n\nEntão, para o número ficar o maior possível:\n- As **unidades** (último algarismo) devem ser o maior cartão possível: o **5**.\n- As **dezenas** (primeiro algarismo) devem ser o maior cartão ANTES do 5: olhando 1, 4, 3, 2 — o maior é o **4**.\n\nJuntando: **4** e **5** formam **45**.\n\nA resposta certa é a letra **C**."
+  },
+  "13": {
+    "enunciado_md": "Joaquim montou o cubo ao lado usando oito cubinhos iguais. Nesses cubinhos, qual é a figura que está na face oposta à face em que está o círculo?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocínio espacial",
+      "formas geométricas"
+    ],
+    "dica_curta": "Cada cubinho tem 6 desenhos diferentes, um em cada lado. Olhe quais desenhos aparecem GRUDADOS do lado do círculo — esses não podem ser o desenho oposto.",
+    "primeiro_passo": "Procure, no desenho grande, um cubinho onde dá pra ver o círculo e mais um ou dois desenhos vizinhos ao mesmo tempo. Esses vizinhos nunca ficam do lado oposto ao círculo.",
+    "solucao_completa": "Cada cubinho tem 6 desenhos diferentes (um em cada face) e nunca repete nenhum: círculo, hexágono, quadrado, triângulo, estrela fininha e estrela grande.\n\nComo todos os 8 cubinhos são **iguais**, se a gente descobrir quais desenhos ficam GRUDADOS ao lado do círculo em qualquer cubinho, sabemos que esses NUNCA podem estar no lado oposto ao círculo (lados grudados nunca são opostos!).\n\nOlhando os cubinhos do desenho:\n\n- Em um deles, o **hexágono** está do lado do círculo.\n- Em outro, o **quadrado** está do lado do círculo.\n- Em outro, o **triângulo** e a **estrela fininha** estão do lado do círculo.\n\nIsso já são 4 desenhos diferentes (hexágono, quadrado, triângulo, estrela fininha) que NÃO podem ser opostos ao círculo. Só sobrou um desenho que ainda não apareceu do lado do círculo: a **estrela grande**!\n\nPor isso, o desenho oposto ao círculo só pode ser a estrela grande — resposta letra **C**."
+  },
+  "14": {
+    "enunciado_md": "O gráfico mostra a temperatura mínima registrada em cinco cidades no mês de julho. Em quantas dessas cidades a temperatura mínima esteve entre 4 e 8 graus?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "gráficos",
+      "leitura de dados"
+    ],
+    "dica_curta": "Olhe a altura de cada barrinha do gráfico e veja se ela fica entre os números 4 e 8.",
+    "primeiro_passo": "Olhe a barra da cidade A: ela passa de 8 ou fica entre 4 e 8?",
+    "solucao_completa": "Vamos olhar a altura de cada barra do gráfico, uma de cada vez:\n\n- **A**: quase 9 (passa de 8) → é maior que 8, **não conta**\n- **B**: 7 → está entre 4 e 8, **conta!**\n- **C**: 6 → está entre 4 e 8, **conta!**\n- **D**: um pouco mais que 4 → está entre 4 e 8, **conta!**\n- **E**: 3 → é menor que 4, **não conta**\n\nEntão, as cidades B, C e D ficaram com a temperatura entre 4 e 8 graus. Isso dá **3 cidades**.\n\nA resposta certa é a letra **C**."
+  },
+  "15": {
+    "enunciado_md": "As caixas abaixo foram divididas entre três crianças. Cada criança ficou com duas caixas. Uma criança ficou só com caixas grandes, outra ficou só com caixas de bolinha e outra ficou só com caixas pequenas. Qual alternativa mostra as caixas com que uma das crianças ficou?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "lógica",
+      "classificação"
+    ],
+    "dica_curta": "Primeiro ache as caixas pequenas — elas são só 2, então já sabemos quem fica com elas!",
+    "primeiro_passo": "Conte quantas caixas pequenas existem no total. Essas duas já formam o par de uma das crianças.",
+    "solucao_completa": "Vamos separar as 6 caixas em grupos, começando pelo mais fácil!\n\n**Passo 1 — caixas pequenas:** só existem **2** caixas pequenas no desenho todo. Como uma criança ficou só com pequenas, ela ficou exatamente com essas duas.\n\n**Passo 2 — as outras 4 caixas são todas grandes.** Entre essas 4 grandes, algumas têm bolinhas e outras não. As que têm bolinha são **2** — e como uma criança ficou só com caixas de bolinha, ela fica com essas duas (que aliás também são grandes, mas o que importa pra ela são as bolinhas).\n\n**Passo 3 — sobraram 2 caixas**, que são grandes e lisas (sem bolinha). Essas duas são de quem ficou só com caixas grandes!\n\nEntão, uma criança tem: 2 caixas grandes **sem bolinha**. Procurando essa combinação entre as opções, ela aparece na letra **D**.\n\nAs outras opções misturam uma caixa grande com uma pequena, ou uma com bolinha com uma sem bolinha — coisas que nenhuma criança tem, porque cada uma delas só tem caixas de UM tipo.\n\nA resposta certa é a letra **D**."
+  }
+}

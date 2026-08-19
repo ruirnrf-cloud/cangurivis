@@ -1,0 +1,497 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m1",
+    "ano": 2024,
+    "fase": 1
+  },
+  "pdf_prova": "acervo/mirim/2024_F1_PROVA_M1.pdf",
+  "pdf_solucao": "acervo/mirim/2024_F1_SOL_M1.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2024-f1-m1-q01",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 62.5,
+        "y_bottom": 195.5
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q01_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f1/figuras/q01_fig0.png",
+        "saida/mirim_m1/2024_f1/figuras/q01_fig1.png",
+        "saida/mirim_m1/2024_f1/figuras/q01_fig2.png",
+        "saida/mirim_m1/2024_f1/figuras/q01_fig3.png",
+        "saida/mirim_m1/2024_f1/figuras/q01_fig4.png",
+        "saida/mirim_m1/2024_f1/figuras/q01_fig5.png"
+      ],
+      "n_figuras": 6,
+      "enunciado_rascunho": "A abelhinha vai pousar na flor com mais pétalas. Qual é essa flor?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2024-f1-m1-q02",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 193.5,
+        "y_bottom": 355.5
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q02_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f1/figuras/q02_fig0.png",
+        "saida/mirim_m1/2024_f1/figuras/q02_fig1.png",
+        "saida/mirim_m1/2024_f1/figuras/q02_fig2.png",
+        "saida/mirim_m1/2024_f1/figuras/q02_fig3.png",
+        "saida/mirim_m1/2024_f1/figuras/q02_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Carlos precisa de uma das peças abaixo para completar o quebra-cabeças qual é essa peça?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2024-f1-m1-q03",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 353.5,
+        "y_bottom": 517.0
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q03_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f1/figuras/q03_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Um jogo de dominó completo tem 28 peças, como mostra a figura. Marcela separou todas as peças com 10 pontos no total. Quantas peças ela separou?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2024-f1-m1-q04",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 515.0,
+        "y_bottom": 660.5
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q04_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f1/figuras/q04_fig0.png",
+        "saida/mirim_m1/2024_f1/figuras/q04_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Suzana vai mover a estrela 4 casas para cima e 2 casas para a esquerda. A estrela vai ficar na mesma casa de qual peça?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2024-f1-m1-q05",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 658.5,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q05_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f1/figuras/q05_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Mariana estava pulando corda e contando de dois em dois. No 1º pulo ela falou: — dois, no 2º pulo ela falou: — quatro, e assim por diante. Qual foi o número que ela falou quando deu o 9º pulo?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "16"
+        },
+        {
+          "letra": "B",
+          "texto": "18"
+        },
+        {
+          "letra": "C",
+          "texto": "20"
+        },
+        {
+          "letra": "D",
+          "texto": "22"
+        },
+        {
+          "letra": "E",
+          "texto": "24"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2024-f1-m1-q06",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 62.5,
+        "y_bottom": 214.9
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q06_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f1/figuras/q06_fig0.png",
+        "saida/mirim_m1/2024_f1/figuras/q06_fig1.png",
+        "saida/mirim_m1/2024_f1/figuras/q06_fig2.png",
+        "saida/mirim_m1/2024_f1/figuras/q06_fig3.png",
+        "saida/mirim_m1/2024_f1/figuras/q06_fig4.png",
+        "saida/mirim_m1/2024_f1/figuras/q06_fig5.png",
+        "saida/mirim_m1/2024_f1/figuras/q06_fig6.png",
+        "saida/mirim_m1/2024_f1/figuras/q06_fig7.png",
+        "saida/mirim_m1/2024_f1/figuras/q06_fig8.png",
+        "saida/mirim_m1/2024_f1/figuras/q06_fig9.png"
+      ],
+      "n_figuras": 10,
+      "enunciado_rascunho": "Marina tem uma folha de papel, branca de um lado e cinza do outro. Ela dobrou a folha duas vezes, cortou e retirou um cantinho, como mostra a figura. Como ficou a folha que marina cortou depois de desdobrada?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2024-f1-m1-q07",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 212.9,
+        "y_bottom": 324.1
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q07_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f1/figuras/q07_fig0.png",
+        "saida/mirim_m1/2024_f1/figuras/q07_fig1.png",
+        "saida/mirim_m1/2024_f1/figuras/q07_fig2.png",
+        "saida/mirim_m1/2024_f1/figuras/q07_fig3.png",
+        "saida/mirim_m1/2024_f1/figuras/q07_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Carlos saiu de casa, caminhou 15 minutos e chegou no campo de futebol às 9 horas da manhã. A que horas ele saiu de casa?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2024-f1-m1-q08",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 322.1,
+        "y_bottom": 484.5
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q08_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f1/figuras/q08_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Um papel quadriculado tem 5 furos quadrados, que são os quadradinhos em branco. Quando esse papel for dobrado ao meio na linha tracejada, como se fosse um livro se fechando, qual letra não vai ficar visível?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "A"
+        },
+        {
+          "letra": "B",
+          "texto": "B"
+        },
+        {
+          "letra": "C",
+          "texto": "C"
+        },
+        {
+          "letra": "D",
+          "texto": "D"
+        },
+        {
+          "letra": "E",
+          "texto": "E"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2024-f1-m1-q09",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 482.5,
+        "y_bottom": 625.9
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q09_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f1/figuras/q09_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Qual é a diferença entre os comprimentos do lápis e do pincel?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "11 CENTÍMETROS"
+        },
+        {
+          "letra": "B",
+          "texto": "5 CENTÍMETROS"
+        },
+        {
+          "letra": "C",
+          "texto": "3 CENTÍMETROS"
+        },
+        {
+          "letra": "D",
+          "texto": "2 CENTÍMETROS"
+        },
+        {
+          "letra": "E",
+          "texto": "1 CENTÍMETROS"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2024-f1-m1-q10",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 623.9,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q10_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f1/figuras/q10_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Uma galinha, um pato e um sapo percorreram um mesmo caminho e deixaram as suas pegadas no chão. Em que ordem os animais percorreram esse caminho?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "SAPO, GALINHA E PATO"
+        },
+        {
+          "letra": "B",
+          "texto": "PATO, SAPO E GALINHA"
+        },
+        {
+          "letra": "C",
+          "texto": "PATO, GALINHA E SAPO"
+        },
+        {
+          "letra": "D",
+          "texto": "GALINHA, SAPO E PATO"
+        },
+        {
+          "letra": "E",
+          "texto": "GALINHA, PATO E SAPO"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2024-f1-m1-q11",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 61.8,
+        "y_bottom": 190.1
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q11_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f1/figuras/q11_fig0.png",
+        "saida/mirim_m1/2024_f1/figuras/q11_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Quatro laranjas custam 15 centavos a mais do que uma laranja. Quantos centavos custam quatro laranjas?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "20"
+        },
+        {
+          "letra": "B",
+          "texto": "25"
+        },
+        {
+          "letra": "C",
+          "texto": "30"
+        },
+        {
+          "letra": "D",
+          "texto": "35"
+        },
+        {
+          "letra": "E",
+          "texto": "40"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2024-f1-m1-q12",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 188.1,
+        "y_bottom": 327.1
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q12_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f1/figuras/q12_fig0.png",
+        "saida/mirim_m1/2024_f1/figuras/q12_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Na figura, vemos uma mesma locomotiva puxando 2 ou 3 vagões iguais. O primeiro trem tem 28 metros de comprimento no total e o segundo trem tem 38 metros de comprimento no total qual é o comprimento da locomotiva?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "6 METROS"
+        },
+        {
+          "letra": "B",
+          "texto": "8 METROS"
+        },
+        {
+          "letra": "C",
+          "texto": "10 METROS"
+        },
+        {
+          "letra": "D",
+          "texto": "12 METROS"
+        },
+        {
+          "letra": "E",
+          "texto": "14 METROS"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2024-f1-m1-q13",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 325.1,
+        "y_bottom": 524.2
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q13_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f1/figuras/q13_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "No jogo do pirata, a peça de marcelo está na casa de número 6. Ele joga uma moeda; Se sair cara, anda com a peça uma casa para a direita, se sair coroa, volta uma casa para a esquerda. Ele pode jogar só mais 4 vezes para tentar chegar com a peça até o tesouro. O que podemos dizer com certeza? Marcelo nunca vai chegar ao tesouro. Marcelo pode ser pego pelo pirata depois das 4 jogadas. Marcelo pode terminar o jogo na casa 9. Marcelo pode terminar o jogo na casa 6 onde começou. Marcelo pode terminar o jogo na casa 5.",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2024-f1-m1-q14",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 522.2,
+        "y_bottom": 633.7
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q14_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Quantos são os números de 2 algarismos que têm a dezena ímpar e a unidade par?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "5"
+        },
+        {
+          "letra": "B",
+          "texto": "10"
+        },
+        {
+          "letra": "C",
+          "texto": "15"
+        },
+        {
+          "letra": "D",
+          "texto": "20"
+        },
+        {
+          "letra": "E",
+          "texto": "25"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2024-f1-m1-q15",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 631.7,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f1/paginas/q15_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f1/figuras/q15_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Cinco amigos estavam juntos durante as férias e se esqueceram em que dia da semana estavam. Ao tentar descobrir que dia era, cada um deles disse o seguinte: Alceu: “ontem foi quarta-feira”. Bruno: “amanhã será sexta-feira”. Célio: “anteontem foi terça-feira”. Davi: “depois de amanhã será sábado”. Ernesto: “hoje é segunda-feira”. Apenas um dos amigos estava errado. Qual deles errou?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "ALCEU"
+        },
+        {
+          "letra": "B",
+          "texto": "BRUNO"
+        },
+        {
+          "letra": "C",
+          "texto": "CÉLIO"
+        },
+        {
+          "letra": "D",
+          "texto": "DAVI"
+        },
+        {
+          "letra": "E",
+          "texto": "ERNESTO"
+        }
+      ],
+      "confianca_texto": "alta"
+    }
+  }
+}

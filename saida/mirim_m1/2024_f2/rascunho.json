@@ -1,0 +1,494 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m1",
+    "ano": 2024,
+    "fase": 2
+  },
+  "pdf_prova": "acervo/mirim/2024_F2_PROVA_M1.pdf",
+  "pdf_solucao": "acervo/mirim/2024_F2_SOL_M1.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2024-f2-m1-q01",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 61.1,
+        "y_bottom": 248.9
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q01_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f2/figuras/q01_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "O atleta da pista 1 estava em último lugar, como mostra a figura. Ele ultrapassou exatamente 5 atletas antes da chegada e não foi ultrapassado por ninguém. Em que lugar ele terminou a corrida?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "PRIMEIRO"
+        },
+        {
+          "letra": "B",
+          "texto": "SEGUNDO"
+        },
+        {
+          "letra": "C",
+          "texto": "TERCEIRO"
+        },
+        {
+          "letra": "D",
+          "texto": "QUARTO"
+        },
+        {
+          "letra": "E",
+          "texto": "QUINTO"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2024-f2-m1-q02",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 246.9,
+        "y_bottom": 392.0
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q02_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f2/figuras/q02_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Qual das plantas abaixo tem mais pétalas do que folhas?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2024-f2-m1-q03",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 390.0,
+        "y_bottom": 535.8
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q03_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f2/figuras/q03_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "O time vermelho jogou uma partida de futebol contra o time azul. Os dois times marcaram gols e o time azul venceu o jogo. Qual foi o placar final dessa partida? Placar vermelho azul",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2024-f2-m1-q04",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 533.8,
+        "y_bottom": 688.7
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q04_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f2/figuras/q04_fig0.png",
+        "saida/mirim_m1/2024_f2/figuras/q04_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Danilo colou alguns adesivos no vidro de sua janela pelo lado de dentro, como mostra a figura ao lado. O que ele verá quando olhar a janela pelo lado de fora?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2024-f2-m1-q05",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 686.7,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q05_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f2/figuras/q05_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Quantas são as maneiras diferentes de empilhar os três cubos sobre a mesa, sem que o cubo verde fique junto com o cubo amarelo?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2024-f2-m1-q06",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 61.1,
+        "y_bottom": 193.6
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q06_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Uma fila tem 11 pessoas. Helena está exatamente no meio da fila e gabriel é o último da fila. Quantas pessoas estão entre helena e gabriel?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "3"
+        },
+        {
+          "letra": "C",
+          "texto": "4"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2024-f2-m1-q07",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 191.6,
+        "y_bottom": 353.3
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q07_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f2/figuras/q07_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "A figura mostra a frente de um prédio. O número de janelas de trás é o dobro do número de janelas da frente e não há outras janelas no prédio. Quantas janelas há no prédio inteiro?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "5"
+        },
+        {
+          "letra": "B",
+          "texto": "8"
+        },
+        {
+          "letra": "C",
+          "texto": "10"
+        },
+        {
+          "letra": "D",
+          "texto": "15"
+        },
+        {
+          "letra": "E",
+          "texto": "20"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2024-f2-m1-q08",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 351.3,
+        "y_bottom": 513.6
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q08_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f2/figuras/q08_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "A figura mostra algumas marcas dos pés de gabriela na areia. Quantas dessas marcas são do pé direito de gabriela?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "5"
+        },
+        {
+          "letra": "C",
+          "texto": "6"
+        },
+        {
+          "letra": "D",
+          "texto": "7"
+        },
+        {
+          "letra": "E",
+          "texto": "8"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2024-f2-m1-q09",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 511.6,
+        "y_bottom": 686.9
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q09_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Francisco acorda às 5 horas e 50 minutos e começa a fazer as atividades abaixo, uma depois da outra. A que horas ele termina de fazer essas atividades?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "6 HORAS E 25 MINUTOS"
+        },
+        {
+          "letra": "B",
+          "texto": "6 HORAS E 30 MINUTOS"
+        },
+        {
+          "letra": "C",
+          "texto": "6 HORAS E 35 MINUTOS"
+        },
+        {
+          "letra": "D",
+          "texto": "6 HORAS E 40 MINUTOS"
+        },
+        {
+          "letra": "E",
+          "texto": "6 HORAS E 45 MINUTOS"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2024-f2-m1-q10",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 684.9,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q10_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f2/figuras/q10_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Martina quer retirar todas as estrelas do colar pelo cordão, sem cortar o cordão. Qual é o menor número de bolinhas que ela terá que retirar?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "7"
+        },
+        {
+          "letra": "C",
+          "texto": "8"
+        },
+        {
+          "letra": "D",
+          "texto": "9"
+        },
+        {
+          "letra": "E",
+          "texto": "10"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2024-f2-m1-q11",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 60.4,
+        "y_bottom": 229.2
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q11_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f2/figuras/q11_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Pedro sobe uma escada de um jeito diferente. Depois que ele pisa com o pé direito em um degrau, ele pisa com o pé esquerdo no degrau seguinte. Depois que ele pisa com o pé esquerdo em um degrau, ele pula um degrau e pisa com o pé direito no degrau seguinte. Pedro começa a subir a escada pisando com o pé direito no primeiro degrau. Em que degrau ele estará quando pisar pela quarta vez com seu pé esquerdo?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "NONO"
+        },
+        {
+          "letra": "B",
+          "texto": "DÉCIMO"
+        },
+        {
+          "letra": "C",
+          "texto": "DÉCIMO PRIMEIRO"
+        },
+        {
+          "letra": "D",
+          "texto": "DÉCIMO SEGUNDO"
+        },
+        {
+          "letra": "E",
+          "texto": "DÉCIMO TERCEIRO"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2024-f2-m1-q12",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 227.2,
+        "y_bottom": 384.7
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q12_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f2/figuras/q12_fig0.png",
+        "saida/mirim_m1/2024_f2/figuras/q12_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Falta um azulejo para ana completar seu mural. Ela quer que a quantidade de triângulos pequenos pretos fique igual à quantidade de triângulos pequenos amarelos. Qual dos azulejos abaixo ela deve colocar no mural?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2024-f2-m1-q13",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 382.7,
+        "y_bottom": 512.9
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q13_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f2/figuras/q13_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Paulo tem as cédulas de 2, 5, 10 e 20 reais, uma de cada, mostradas abaixo. Quantos valores diferentes em reais ele pode pagar usando uma ou mais dessas cédulas?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "12"
+        },
+        {
+          "letra": "C",
+          "texto": "15"
+        },
+        {
+          "letra": "D",
+          "texto": "30"
+        },
+        {
+          "letra": "E",
+          "texto": "37"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2024-f2-m1-q14",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 510.9,
+        "y_bottom": 668.5
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q14_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f2/figuras/q14_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "14. Lucimara usou cubos azuis e cubos amarelos para montar o cubo maior da figura. Cubos de mesma cor têm o mesmo tamanho. Qual é o menor número de cubos azuis que ela pode ter usado para montar o cubo maior?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "32"
+        },
+        {
+          "letra": "B",
+          "texto": "26"
+        },
+        {
+          "letra": "C",
+          "texto": "27"
+        },
+        {
+          "letra": "D",
+          "texto": "43"
+        },
+        {
+          "letra": "E",
+          "texto": "64"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2024-f2-m1-q15",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 666.5,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2024_f2/paginas/q15_full.png",
+      "figuras": [
+        "saida/mirim_m1/2024_f2/figuras/q15_fig0.png",
+        "saida/mirim_m1/2024_f2/figuras/q15_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Em um jogo de dominó, as peças devem ser unidas pelas suas partes com a mesma quantidade de pontos. Quatro das cinco peças abaixo devem ser colocadas em linha como mostra a figura ao lado. Qual das peças abaixo não será utilizada?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    }
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m1",
+    "ano": 2022,
+    "fase": 2
+  },
+  "pdf_prova": "acervo/mirim/2022_F2_PROVA_M1.pdf",
+  "pdf_solucao": "acervo/mirim/2022_F2_SOL_M1.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2022-f2-m1-q01",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 62.5,
+        "y_bottom": 185.5
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q01_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f2/figuras/q01_fig0.png",
+        "saida/mirim_m1/2022_f2/figuras/q01_fig1.png",
+        "saida/mirim_m1/2022_f2/figuras/q01_fig2.png"
+      ],
+      "n_figuras": 3,
+      "enunciado_rascunho": "Qual das seguintes placas de carro é formada por 4 letras e 3 números de 0 a 9?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2022-f2-m1-q02",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 183.5,
+        "y_bottom": 368.7
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q02_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f2/figuras/q02_fig0.png",
+        "saida/mirim_m1/2022_f2/figuras/q02_fig1.png",
+        "saida/mirim_m1/2022_f2/figuras/q02_fig2.png",
+        "saida/mirim_m1/2022_f2/figuras/q02_fig3.png"
+      ],
+      "n_figuras": 4,
+      "enunciado_rascunho": "Os dois plugues elétricos da figura entram em somente uma das tomadas. Qual é essa tomada?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2022-f2-m1-q03",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 366.7,
+        "y_bottom": 531.2
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q03_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f2/figuras/q03_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "O ábaco mostra o número 142. Manuela retirou um disco do pino das dezenas e o colocou no pino das unidades. A seguir, ela retirou outro disco do pino das dezenas e o colocou no pino das centenas. Qual número o ábaco passou a mostrar?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "132"
+        },
+        {
+          "letra": "B",
+          "texto": "142"
+        },
+        {
+          "letra": "C",
+          "texto": "220"
+        },
+        {
+          "letra": "D",
+          "texto": "223"
+        },
+        {
+          "letra": "E",
+          "texto": "232"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2022-f2-m1-q04",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 529.2,
+        "y_bottom": 690.3
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q04_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f2/figuras/q04_fig0.png",
+        "saida/mirim_m1/2022_f2/figuras/q04_fig1.png"
+      ],
+      "n_figuras": 2,
+      "enunciado_rascunho": "Uma corda enrolada tem a forma ao lado. Qual das alternativas mostra essa corda desenrolada?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2022-f2-m1-q05",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 688.3,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q05_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f2/figuras/q05_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Joaquim dobrou uma fita de papel e escreveu números de 1 a 10, em ordem, conforme a figura. Entre a 1ª e a 4ª dobras, aparecem 2, 3 e 4. Quais números aparecem entre a 6ª e a 9ª dobras?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "5, 6 E 7"
+        },
+        {
+          "letra": "B",
+          "texto": "6, 7 E 8"
+        },
+        {
+          "letra": "C",
+          "texto": "7, 8 E 9"
+        },
+        {
+          "letra": "D",
+          "texto": "6, 7, 8 E 9"
+        },
+        {
+          "letra": "E",
+          "texto": "7, 8, 9 E 10"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2022-f2-m1-q06",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 62.0,
+        "y_bottom": 220.4
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q06_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f2/figuras/q06_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Veja o calendário do mês de janeiro de 2022. Em qual dia da semana caiu o dia 8 de fevereiro de 2022?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "SEGUNDA-FEIRA"
+        },
+        {
+          "letra": "B",
+          "texto": "TERÇA-FEIRA"
+        },
+        {
+          "letra": "C",
+          "texto": "QUARTA-FEIRA"
+        },
+        {
+          "letra": "D",
+          "texto": "QUINTA-FEIRA"
+        },
+        {
+          "letra": "E",
+          "texto": "SEXTA-FEIRA"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2022-f2-m1-q07",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 218.4,
+        "y_bottom": 371.5
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q07_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f2/figuras/q07_fig0.png",
+        "saida/mirim_m1/2022_f2/figuras/q07_fig1.png",
+        "saida/mirim_m1/2022_f2/figuras/q07_fig2.png",
+        "saida/mirim_m1/2022_f2/figuras/q07_fig3.png",
+        "saida/mirim_m1/2022_f2/figuras/q07_fig4.png",
+        "saida/mirim_m1/2022_f2/figuras/q07_fig5.png"
+      ],
+      "n_figuras": 6,
+      "enunciado_rascunho": "Qual dos cartões é igual ao cartão ao lado?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2022-f2-m1-q08",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 369.5,
+        "y_bottom": 520.9
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q08_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f2/figuras/q08_fig0.png",
+        "saida/mirim_m1/2022_f2/figuras/q08_fig1.png",
+        "saida/mirim_m1/2022_f2/figuras/q08_fig2.png",
+        "saida/mirim_m1/2022_f2/figuras/q08_fig3.png",
+        "saida/mirim_m1/2022_f2/figuras/q08_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Douglas viu que seu relógio marcava 8 horas e 52 minutos. Ele colocou o despertador para tocar 18 minutos mais tarde. A que horas o despertador vai tocar?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2022-f2-m1-q09",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 518.9,
+        "y_bottom": 669.3
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q09_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f2/figuras/q09_fig0.png",
+        "saida/mirim_m1/2022_f2/figuras/q09_fig1.png",
+        "saida/mirim_m1/2022_f2/figuras/q09_fig2.png",
+        "saida/mirim_m1/2022_f2/figuras/q09_fig3.png",
+        "saida/mirim_m1/2022_f2/figuras/q09_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Qual das caixinhas tem menos bolinhas?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2022-f2-m1-q10",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 667.3,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q10_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f2/figuras/q10_fig0.png",
+        "saida/mirim_m1/2022_f2/figuras/q10_fig1.png",
+        "saida/mirim_m1/2022_f2/figuras/q10_fig2.png",
+        "saida/mirim_m1/2022_f2/figuras/q10_fig3.png",
+        "saida/mirim_m1/2022_f2/figuras/q10_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Carlinhos viu os objetos ao lado na mesinha do seu irmão. Ele chegou perto e olhou de cima. O que carlinhos viu?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2022-f2-m1-q11",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 62.5,
+        "y_bottom": 253.0
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q11_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f2/figuras/q11_fig0.png",
+        "saida/mirim_m1/2022_f2/figuras/q11_fig1.png",
+        "saida/mirim_m1/2022_f2/figuras/q11_fig2.png",
+        "saida/mirim_m1/2022_f2/figuras/q11_fig3.png",
+        "saida/mirim_m1/2022_f2/figuras/q11_fig4.png"
+      ],
+      "n_figuras": 5,
+      "enunciado_rascunho": "Quais peças devem ser colocadas nos espaços disponíveis para que a quantidade de bolinhas seja 9 em cada linha e cada coluna indicadas?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2022-f2-m1-q12",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 251.0,
+        "y_bottom": 391.9
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q12_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f2/figuras/q12_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Luís, mário e ana aproveitaram a oferta ao lado e receberam um lanche e um refresco cada um. Quanto cada um pagou, se eles gastaram a mesma quantia?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "R$ 6,00"
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 7,00"
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 8,00"
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 9,00"
+        },
+        {
+          "letra": "E",
+          "texto": "R$ 10,00"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2022-f2-m1-q13",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 389.9,
+        "y_bottom": 548.6
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q13_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Para numerar as páginas de um livro, luísa vai usar cartelas de adesivos como esta: De quantas cartelas ela vai precisar para numerar as páginas de 1 a 15?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "5"
+        },
+        {
+          "letra": "C",
+          "texto": "6"
+        },
+        {
+          "letra": "D",
+          "texto": "7"
+        },
+        {
+          "letra": "E",
+          "texto": "8"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2022-f2-m1-q14",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 546.6,
+        "y_bottom": 678.5
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q14_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f2/figuras/q14_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "Um caramujo está subindo uma rampa. A cada 4 cm que ele sobe, ele para e desliza 1 cm para baixo. Quantas vezes, no total, ele para antes de chegar ao topo da rampa?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "8"
+        },
+        {
+          "letra": "B",
+          "texto": "9"
+        },
+        {
+          "letra": "C",
+          "texto": "10"
+        },
+        {
+          "letra": "D",
+          "texto": "11"
+        },
+        {
+          "letra": "E",
+          "texto": "12"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2022-f2-m1-q15",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 676.5,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m1/2022_f2/paginas/q15_full.png",
+      "figuras": [
+        "saida/mirim_m1/2022_f2/figuras/q15_fig0.png"
+      ],
+      "n_figuras": 1,
+      "enunciado_rascunho": "No jogo pega varetas, é permitido pegar uma vareta por vez, sem mexer as demais. Por exemplo, podemos pegar as varetas da figura da seguinte maneira: Rosa, azul, vermelha, laranja, amarela e verde. De quantas maneiras diferentes é possível pegar todas as varetas da figura?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "4"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ],
+      "confianca_texto": "alta"
+    }
+  }
+}

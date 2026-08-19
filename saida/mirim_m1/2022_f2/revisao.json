@@ -1,0 +1,302 @@
+{
+  "1": {
+    "enunciado_md": "Qual das seguintes placas de carro é formada por 4 letras e 3 números de 0 a 9?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "BRA2919"},
+      {"letra": "B", "texto": "BRA2E1A"},
+      {"letra": "C", "texto": "B1A2919"},
+      {"letra": "D", "texto": "BRA2E19"},
+      {"letra": "E", "texto": "BRA2EBE"}
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["contagem", "letras e números"],
+    "dica_curta": "Olhe cada placa e separe: quais letrinhas são LETRAS e quais são NÚMEROS. Só uma placa tem exatamente 4 letras e 3 números.",
+    "primeiro_passo": "Comece pela placa A: conte quantas letras ela tem e quantos números ela tem. Depois faça o mesmo com as outras placas.",
+    "solucao_completa": "Vamos contar letra por letra e número por número em cada placa!\n\n- **A) BRA2919** tem as letras B, R, A (3 letras) e os números 2, 9, 1, 9 (4 números).\n- **B) BRA2E1A** tem as letras B, R, A, E, A (5 letras) e os números 2, 1 (2 números).\n- **C) B1A2919** tem as letras B, A (2 letras) e os números 1, 2, 9, 1, 9 (5 números).\n- **D) BRA2E19** tem as letras B, R, A, E (4 letras) e os números 2, 1, 9 (3 números).\n- **E) BRA2EBE** tem as letras B, R, A, E, B, E (6 letras) e o número 2 (1 número).\n\nSó a placa **D** tem exatamente 4 letras e 3 números, do jeitinho que o problema pediu.\n\nA resposta certa é a letra **D**."
+  },
+  "2": {
+    "enunciado_md": "Os dois plugues elétricos da figura entram em somente uma das tomadas. Qual é essa tomada?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["formas geométricas", "lógica"],
+    "dica_curta": "Olhe o formato dos pininhos dos dois plugues. Depois procure a tomada que tenha buraquinhos certinhos para os DOIS plugues encaixarem.",
+    "primeiro_passo": "Olhe só o plugue da esquerda: os pininhos dele são redondos. Veja em quais tomadas esses dois pininhos redondos encaixam.",
+    "solucao_completa": "Vamos com calma, plugue por plugue!\n\nO primeiro plugue tem 2 pininhos redondos.\n\nO segundo plugue é diferente: tem 2 pininhos retos em cima e 1 pininho redondo embaixo.\n\nAgora é só ir conferindo tomada por tomada se o formato dos buraquinhos combina com os dois plugues, um de cada vez.\n\nExiste só uma tomada onde os dois plugues, mesmo sendo diferentes, conseguem entrar direitinho.\n\nA resposta certa é a letra **D**."
+  },
+  "3": {
+    "enunciado_md": "O ábaco mostra o número 142. Manuela retirou um disco do pino das dezenas e o colocou no pino das unidades. A seguir, ela retirou outro disco do pino das dezenas e o colocou no pino das centenas. Qual número o ábaco passou a mostrar?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "132"},
+      {"letra": "B", "texto": "142"},
+      {"letra": "C", "texto": "220"},
+      {"letra": "D", "texto": "223"},
+      {"letra": "E", "texto": "232"}
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["valor posicional", "ábaco"],
+    "dica_curta": "No começo, o ábaco tem 1 disco na centena, 4 na dezena e 2 na unidade. Vá mudando os discos de pino devagar, um passo de cada vez.",
+    "primeiro_passo": "Imagine os 3 pinos: centena com 1 disco, dezena com 4 discos, unidade com 2 discos. Agora tire 1 disco da dezena e coloque na unidade. Quantos discos ficam em cada pino?",
+    "solucao_completa": "Vamos passo a passo, igual a Manuela fez!\n\nNo começo: 1 disco na centena, 4 discos na dezena, 2 discos na unidade. Isso forma o número 142.\n\n**Passo 1:** Manuela tira 1 disco da dezena e coloca na unidade.\n- Dezena: 4 - 1 = 3 discos\n- Unidade: 2 + 1 = 3 discos\n- Centena continua com 1 disco\n\nAgora o ábaco mostra 133.\n\n**Passo 2:** Manuela tira mais 1 disco da dezena e coloca na centena.\n- Dezena: 3 - 1 = 2 discos\n- Centena: 1 + 1 = 2 discos\n- Unidade continua com 3 discos\n\nAgora o ábaco mostra: 2 centenas, 2 dezenas, 3 unidades, ou seja, **223**.\n\nA resposta certa é a letra **D**."
+  },
+  "4": {
+    "enunciado_md": "Uma corda enrolada tem a forma ao lado. Qual das alternativas mostra essa corda desenrolada?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["sequência lógica", "cores"],
+    "dica_curta": "Escolha uma pontinha da corda enrolada e siga com o dedo até a outra pontinha, prestando atenção na ordem das cores.",
+    "primeiro_passo": "Coloque o dedo na ponta de fora da espiral e siga a cor até ela mudar. Qual é a primeira cor? E a segunda?",
+    "solucao_completa": "Essa corda enrolada tem 4 cores: amarelo, laranja, roxo e azul-clarinho.\n\nO truque é seguir a corda com o dedo, do começo ao fim, bem devagarinho, dizendo a cor em voz alta: primeiro amarelo, depois laranja, depois roxo, depois azul.\n\nAgora é só procurar, entre as faixas retas, a que tem as cores exatamente nessa ordem: amarelo, laranja, roxo e azul.\n\nNas outras alternativas, a ordem das cores fica embaralhada.\n\nA resposta certa é a letra **C**."
+  },
+  "5": {
+    "enunciado_md": "Joaquim dobrou uma fita de papel e escreveu números de 1 a 10, em ordem, conforme a figura. Entre a 1ª e a 4ª dobras, aparecem 2, 3 e 4. Quais números aparecem entre a 6ª e a 9ª dobras?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "5, 6 e 7"},
+      {"letra": "B", "texto": "6, 7 e 8"},
+      {"letra": "C", "texto": "7, 8 e 9"},
+      {"letra": "D", "texto": "6, 7, 8 e 9"},
+      {"letra": "E", "texto": "7, 8, 9 e 10"}
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["sequência lógica", "padrões"],
+    "dica_curta": "Repare no exemplo que já foi dado: entre a dobra 1 e a dobra 4 aparecem os números 2, 3 e 4. Será que dá para achar um padrão aí?",
+    "primeiro_passo": "Pense: quantas dobras de diferença tem entre a dobra 1 e a dobra 6? E entre a dobra 4 e a dobra 9?",
+    "solucao_completa": "Olha que legal: entre a dobra 1 e a dobra 4, aparecem os números 2, 3 e 4.\n\nRepare: a dobra 6 é 5 dobras depois da dobra 1 (1 + 5 = 6). E a dobra 9 é 5 dobras depois da dobra 4 (4 + 5 = 9).\n\nComo a fita e os números andam sempre juntos, os números que aparecem entre a dobra 6 e a dobra 9 também são 5 a mais do que 2, 3 e 4:\n- 2 + 5 = 7\n- 3 + 5 = 8\n- 4 + 5 = 9\n\nEntão, entre a 6ª e a 9ª dobras aparecem os números 7, 8 e 9.\n\nA resposta certa é a letra **C**."
+  },
+  "6": {
+    "enunciado_md": "Veja o calendário do mês de janeiro de 2022. Em qual dia da semana caiu o dia 8 de fevereiro de 2022?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "Segunda-feira"},
+      {"letra": "B", "texto": "Terça-feira"},
+      {"letra": "C", "texto": "Quarta-feira"},
+      {"letra": "D", "texto": "Quinta-feira"},
+      {"letra": "E", "texto": "Sexta-feira"}
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["calendário", "dias da semana"],
+    "dica_curta": "Ache o dia 31 de janeiro no calendário e veja em que dia da semana ele caiu. O dia 1º de fevereiro é logo o dia seguinte!",
+    "primeiro_passo": "Olhe no calendário em que coluna (dia da semana) está o número 31.",
+    "solucao_completa": "Vamos usar o calendário de janeiro para descobrir!\n\nO dia 31 de janeiro caiu numa segunda-feira — é só olhar a coluna do calendário.\n\nComo depois de 31 de janeiro vem 1º de fevereiro, esse dia caiu numa terça-feira (o dia seguinte à segunda-feira).\n\nOs dias da semana se repetem sempre de 7 em 7 dias. Se 1º de fevereiro foi terça-feira, o dia 8 de fevereiro (1 + 7 = 8) também foi terça-feira!\n\nA resposta certa é a letra **B**."
+  },
+  "7": {
+    "enunciado_md": "Qual dos cartões é igual ao cartão ao lado?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["formas geométricas", "rotação"],
+    "dica_curta": "Olhe bem o quadradinho azul, o quadradinho verde e os dois números 3 do cartão modelo. Gire cada cartão de resposta na sua cabeça até os números 3 ficarem do mesmo jeito.",
+    "primeiro_passo": "No cartão modelo, veja: o quadradinho azul fica perto do 3 'normal', e o quadradinho verde fica perto do 3 'de cabeça para baixo'. Procure essa mesma combinação nos cartões de resposta.",
+    "solucao_completa": "O cartão modelo tem um número 3 normal num canto e um número 3 de cabeça para baixo no canto oposto. No meio, tem um quadradinho azul perto do 3 normal, e um quadradinho verde perto do 3 de cabeça para baixo.\n\nVamos conferir cada cartão de resposta:\n- No cartão **B**, o quadradinho azul está no lugar errado.\n- No cartão **C**, os quadradinhos azul e verde estão nos lugares errados.\n- No cartão **D**, os quadradinhos estão errados e os dois números 3 também estão virados do jeito errado.\n- No cartão **E**, o número 3 que fica perto do quadradinho azul está virado do jeito errado.\n\nSó o cartão **A** tem tudo igualzinho ao cartão modelo.\n\nA resposta certa é a letra **A**."
+  },
+  "8": {
+    "enunciado_md": "Douglas viu que seu relógio marcava 8 horas e 52 minutos. Ele colocou o despertador para tocar 18 minutos mais tarde. A que horas o despertador vai tocar?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "08:22"},
+      {"letra": "B", "texto": "10:10"},
+      {"letra": "C", "texto": "08:35"},
+      {"letra": "D", "texto": "09:00"},
+      {"letra": "E", "texto": "09:10"}
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["horas", "soma"],
+    "dica_curta": "De 8h52 até 9 horas faltam só alguns minutinhos. Descubra quantos — o resto dos 18 minutos você soma depois das 9 horas.",
+    "primeiro_passo": "Quantos minutos faltam para o relógio chegar em 9 horas, partindo de 8h52?",
+    "solucao_completa": "Vamos separar os 18 minutos em duas partes para facilitar!\n\nDe 8 horas e 52 minutos até 9 horas faltam 8 minutos (52 + 8 = 60, que é uma hora certinha).\n\nDos 18 minutos que o despertador vai esperar, já usamos 8 minutinhos para chegar em 9 horas. Sobraram: 18 - 8 = 10 minutos.\n\nAgora é só somar esses 10 minutos depois das 9 horas: 9 horas e 10 minutos.\n\nA resposta certa é a letra **E**."
+  },
+  "9": {
+    "enunciado_md": "Qual das caixinhas tem menos bolinhas?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["contagem", "comparação"],
+    "dica_curta": "Cada caixinha tem bolinhas em fileiras bem certinhas. Conte quantas fileiras tem e quantas bolinhas tem em cada fileira.",
+    "primeiro_passo": "Escolha a caixinha A. Conte: quantas fileiras de bolinhas ela tem? E quantas bolinhas tem em cada fileira?",
+    "solucao_completa": "O jeito mais fácil de contar muitas bolinhas é organizá-las em fileiras e ir somando.\n\nContando fileira por fileira em cada caixinha, dá para descobrir que quatro caixinhas têm exatamente 36 bolinhas cada uma — só que organizadas de formas diferentes (algumas caixinhas são mais compridas e finas, outras mais quadradas).\n\nSó uma caixinha tem 35 bolinhas, ou seja, uma bolinha a menos que as outras.\n\nA resposta certa é a letra **E**."
+  },
+  "10": {
+    "enunciado_md": "Carlinhos viu os objetos ao lado na mesinha do seu irmão. Ele chegou perto e olhou de cima. O que Carlinhos viu?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["formas geométricas", "visualização espacial"],
+    "dica_curta": "Imagine um passarinho voando bem em cima da mesa e olhando para baixo. Uma bola e um cone, vistos de cima, os dois parecem um círculo — só que de cores diferentes! Não troque as cores de lugar.",
+    "primeiro_passo": "Olhe cada objeto, um de cada vez: a caixa vermelha, a tigela amarela, a pirâmide amarela, a bola vermelha e o cone verde. Pense: visto de cima, que formato cada um vai ter?",
+    "solucao_completa": "Vamos pensar em cada objeto visto de cima, como um passarinho olhando para baixo:\n- A caixa vermelha vira um losango vermelho (um quadrado 'deitado' na diagonal).\n- A tigela amarela vira um círculo amarelo.\n- A pirâmide amarela vira um triângulo amarelo.\n- A bola vermelha vira um círculo vermelho.\n- O cone verde vira um círculo verde.\n\nRepare que a bola e o cone os dois viram círculo — a diferença é só a cor e o lugar de cada um na mesa.\n\nComparando com a posição de cada objeto na mesinha de verdade, só um desenho tem todas as formas, todas as cores e todos os lugares certinhos.\n\nA resposta certa é a letra **D**."
+  },
+  "11": {
+    "enunciado_md": "Quais peças devem ser colocadas nos espaços disponíveis para que a quantidade de bolinhas seja 9 em cada linha e cada coluna indicadas?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["soma", "lógica"],
+    "dica_curta": "As duas peças deitadas já têm 8 bolinhas e 9 bolinhas. Para cada coluna marcada dar 9 ao todo, quantas bolinhas estão faltando em cada uma?",
+    "primeiro_passo": "Conte as bolinhas da peça deitada de cima: quantas bolinhas ela tem ao todo?",
+    "solucao_completa": "Cada linha e cada coluna marcada precisa somar exatamente 9 bolinhas.\n\nAs duas peças que já estão deitadas têm 8 bolinhas e 9 bolinhas.\n\nOlhando as colunas marcadas, dá para descobrir que está faltando uma peça com 3 bolinhas numa coluna, e outra peça com 5 bolinhas na outra coluna, para completar o 9 certinho.\n\nAgora é só procurar, entre as alternativas, o par de peças em pé que tenha exatamente uma peça de 3 bolinhas e uma peça de 5 bolinhas.\n\nA resposta certa é a letra **A**."
+  },
+  "12": {
+    "enunciado_md": "Luís, Mário e Ana aproveitaram a oferta ao lado e receberam um lanche e um refresco cada um. Quanto cada um pagou, se eles gastaram a mesma quantia?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "R$ 6,00"},
+      {"letra": "B", "texto": "R$ 7,00"},
+      {"letra": "C", "texto": "R$ 8,00"},
+      {"letra": "D", "texto": "R$ 9,00"},
+      {"letra": "E", "texto": "R$ 10,00"}
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["dinheiro", "soma"],
+    "dica_curta": "Junte as duas ofertas: '1 lanche + 2 refrescos' com '2 lanches + 1 refresco'. Quanto dá tudo junto?",
+    "primeiro_passo": "Some o preço das duas ofertas: R$ 12,00 + R$ 18,00. Quanto dá?",
+    "solucao_completa": "Vamos juntar as duas ofertas!\n\nOferta 1: 1 lanche + 2 refrescos = R$ 12,00\nOferta 2: 2 lanches + 1 refresco = R$ 18,00\n\nJuntando as duas ofertas, temos ao todo 3 lanches + 3 refrescos, custando R$ 12,00 + R$ 18,00 = R$ 30,00.\n\nComo são 3 lanches e 3 refrescos para 3 pessoas (Luís, Mário e Ana), cada um levou exatamente 1 lanche e 1 refresco.\n\nE como os três gastaram a mesma quantia, é só dividir os R$ 30,00 entre os 3: 30 ÷ 3 = R$ 10,00 para cada um.\n\nA resposta certa é a letra **E**."
+  },
+  "13": {
+    "enunciado_md": "Para numerar as páginas de um livro, Luísa vai usar cartelas de adesivos como esta:\n\nDe quantas cartelas ela vai precisar para numerar as páginas de 1 a 15?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "4"},
+      {"letra": "B", "texto": "5"},
+      {"letra": "C", "texto": "6"},
+      {"letra": "D", "texto": "7"},
+      {"letra": "E", "texto": "8"}
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["contagem", "números"],
+    "dica_curta": "Cada cartela só tem 1 adesivo de cada número, do 0 até o 9. Escreva os números das páginas de 1 a 15 em fileira e veja qual algarismo mais se repete.",
+    "primeiro_passo": "Escreva numa folha os números de 1 até 15, um do lado do outro. Depois conte quantas vezes aparece o algarismo 1 (vale contar o 1 escondido dentro do 10, 11, 12, 13, 14 e 15 também!).",
+    "solucao_completa": "Vamos escrever as páginas de 1 a 15 bem juntinhas: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15.\n\nCada cartela tem só um adesivo de cada número, de 0 a 9. Se um algarismo aparece várias vezes na lista, Luísa vai precisar de uma cartela nova para cada vez que ele aparecer.\n\nVamos contar quantas vezes aparece o algarismo 1: em 1, 10, 11 (duas vezes!), 12, 13, 14 e 15. Ao todo, o algarismo 1 aparece 8 vezes.\n\nNenhum outro algarismo aparece tantas vezes assim. Como cada cartela só dá 1 adesivo do número 1, Luísa precisa de 8 cartelas.\n\nA resposta certa é a letra **E**."
+  },
+  "14": {
+    "enunciado_md": "Um caramujo está subindo uma rampa. A cada 4 cm que ele sobe, ele para e desliza 1 cm para baixo. Quantas vezes, no total, ele para antes de chegar ao topo da rampa?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "8"},
+      {"letra": "B", "texto": "9"},
+      {"letra": "C", "texto": "10"},
+      {"letra": "D", "texto": "11"},
+      {"letra": "E", "texto": "12"}
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["sequência lógica", "soma"],
+    "dica_curta": "A rampa toda tem 30 cm. Toda vez que o caramujo sobe 4 cm e escorrega 1 cm, ele avança só 3 cm 'de verdade'. Vai contando parada por parada!",
+    "primeiro_passo": "Na primeira subida, o caramujo sobe 4 cm e para. Depois escorrega 1 cm. Quanto ele já avançou de verdade depois dessa primeira parada?",
+    "solucao_completa": "A rampa tem 30 cm do começo até o topo.\n\nToda vez que o caramujo sobe 4 cm e depois escorrega 1 cm para baixo, ele avança só 3 cm 'de verdade' (o espaço limpinho que ele nunca mais perde).\n\nVamos contar parada por parada, somando o quanto ele já avançou de verdade:\n- 1ª parada: 4 cm\n- 2ª parada: 4 + 3 = 7 cm\n- 3ª parada: 7 + 3 = 10 cm\n- 4ª parada: 10 + 3 = 13 cm\n- 5ª parada: 13 + 3 = 16 cm\n- 6ª parada: 16 + 3 = 19 cm\n- 7ª parada: 19 + 3 = 22 cm\n- 8ª parada: 22 + 3 = 25 cm\n- 9ª parada: 25 + 3 = 28 cm\n\nDepois da 9ª parada, ele escorrega 1 cm e fica em 27 cm. Para chegar aos 30 cm do topo, faltam só 3 cm — e ele sobe esse tanto de uma vez, sem precisar parar de novo, porque já chega ao topo!\n\nPor isso, ao todo, ele para 9 vezes.\n\nA resposta certa é a letra **B**."
+  },
+  "15": {
+    "enunciado_md": "No jogo pega varetas, é permitido pegar uma vareta por vez, sem mexer as demais. Por exemplo, podemos pegar as varetas da figura da seguinte maneira: rosa, azul, vermelha, laranja, amarela e verde. De quantas maneiras diferentes é possível pegar todas as varetas da figura?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "1"},
+      {"letra": "B", "texto": "2"},
+      {"letra": "C", "texto": "4"},
+      {"letra": "D", "texto": "5"},
+      {"letra": "E", "texto": "6"}
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["contagem", "lógica"],
+    "dica_curta": "Repare quais varetas estão por CIMA de todas as outras (essas dá para tirar primeiro) e qual está embaixo de tudo (essa só dá para tirar por último).",
+    "primeiro_passo": "Olhe a vareta rosa: ela está por cima de todas as varetas que ela cruza? Se estiver, ela pode ser sempre a primeira a sair.",
+    "solucao_completa": "A vareta rosa está por cima de todas as outras que ela cruza, por isso ela sempre precisa ser a primeira a sair. Só 1 jeito de começar.\n\nDepois que a rosa sai, as varetas azul e vermelha ficam livres — elas não se cruzam uma com a outra, então uma não atrapalha a outra. Dá para tirar primeiro a azul e depois a vermelha, ou primeiro a vermelha e depois a azul. São 2 jeitos.\n\nDepois que azul e vermelha saem, as varetas amarela e laranja ficam livres, do mesmo jeito. De novo, são 2 jeitos.\n\nA vareta verde está embaixo de todo mundo, então ela só pode ser a última a sair. Só 1 jeito.\n\nPara saber o total de jeitos diferentes, a gente multiplica: 1 x 2 x 2 x 1 = 4.\n\nA resposta certa é a letra **C**."
+  }
+}

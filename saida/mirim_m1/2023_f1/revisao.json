@@ -1,0 +1,572 @@
+{
+  "1": {
+    "enunciado_md": "Qual das frutas da feira aparece em quantidade diferente das outras?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Abacaxi"
+      },
+      {
+        "letra": "B",
+        "texto": "Banana"
+      },
+      {
+        "letra": "C",
+        "texto": "Laranja"
+      },
+      {
+        "letra": "D",
+        "texto": "Maçã"
+      },
+      {
+        "letra": "E",
+        "texto": "Pera"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem",
+      "comparação"
+    ],
+    "dica_curta": "Conta quantas frutas tem em cada grupo. Quase todas têm o mesmo tanto — só uma fruta é diferente!",
+    "primeiro_passo": "Comece contando os abacaxis, um por um. Depois conta as maçãs, as peras e as bananas. Guarde esses números na cabeça.",
+    "solucao_completa": "- Vamos contar cada fruta, uma por uma:\n- Abacaxi: 6\n- Maçã: 6\n- Pera: 6\n- Banana: 6\n- Laranja: 7\n- Quase todas as frutas aparecem 6 vezes. Só a laranja é diferente: ela aparece 7 vezes!\n- Resposta certa: alternativa C (Laranja)."
+  },
+  "2": {
+    "enunciado_md": "Olhe para as placas de trânsito ao lado. Quantas placas têm a forma de um círculo, mas não têm nenhuma seta?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "5"
+      },
+      {
+        "letra": "D",
+        "texto": "6"
+      },
+      {
+        "letra": "E",
+        "texto": "7"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "formas geométricas",
+      "contagem"
+    ],
+    "dica_curta": "Primeiro ache só as placas redondas (em forma de círculo). Depois, entre essas, tire as que têm uma seta desenhada.",
+    "primeiro_passo": "Olhe as 20 placas e separe só as redondas. Não conte as que são quadradas, triangulares ou em forma de losango (diamante).",
+    "solucao_completa": "- Primeiro, vamos achar todas as placas redondas (em forma de círculo): são 9 placas redondas.\n- Agora, dessas 9, vamos ver quais têm uma seta desenhada. Três delas têm seta: uma seta curva de virar à direita, uma seta que se divide em duas pontas, e uma seta reta apontando para a direita.\n- Sobram 9 − 3 = 6 placas redondas sem nenhuma seta: a de buzina proibida, a de velocidade máxima de 20 km/h, a de proibido estacionar, a de permitido estacionar, a de pedestre proibido e a de pedestre andando.\n- Resposta certa: alternativa D (6)."
+  },
+  "3": {
+    "enunciado_md": "Cada tangerina que Daniel abriu tinha 9 gomos, e cada gomo tinha 2 sementes. Se Daniel abriu 2 tangerinas, quantas sementes ele encontrou no total?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30"
+      },
+      {
+        "letra": "B",
+        "texto": "33"
+      },
+      {
+        "letra": "C",
+        "texto": "34"
+      },
+      {
+        "letra": "D",
+        "texto": "36"
+      },
+      {
+        "letra": "E",
+        "texto": "39"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "soma",
+      "multiplicação"
+    ],
+    "dica_curta": "Descubra primeiro quantos gomos tem no total, juntando as duas tangerinas. Só depois pense nas sementes.",
+    "primeiro_passo": "Uma tangerina tem 9 gomos. Some quantos gomos tem em 2 tangerinas: 9 + 9.",
+    "solucao_completa": "- Cada tangerina tem 9 gomos. Daniel abriu 2 tangerinas, então ele tem 9 + 9 = 18 gomos ao todo.\n- Cada gomo tem 2 sementes. Para achar o total de sementes, é como juntar 2 sementes de cada um dos 18 gomos: 18 + 18 = 36.\n- Daniel encontrou 36 sementes no total.\n- Resposta certa: alternativa D (36)."
+  },
+  "4": {
+    "enunciado_md": "João recortou bandeirinhas em forma de triângulo para a festa junina da escola, depois colou as bandeirinhas em uma linha, como mostrado na figura. Quando João esticar essa linha, quantas bandeirinhas triangulares apontarão para ele?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2"
+      },
+      {
+        "letra": "B",
+        "texto": "3"
+      },
+      {
+        "letra": "C",
+        "texto": "4"
+      },
+      {
+        "letra": "D",
+        "texto": "5"
+      },
+      {
+        "letra": "E",
+        "texto": "6"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "orientação espacial",
+      "contagem"
+    ],
+    "dica_curta": "Olhe cada bandeirinha (triângulo) da linha e veja para qual lado a ponta dela está virada: para o João ou para a parede.",
+    "primeiro_passo": "Comece pela bandeirinha mais perto da parede e vá seguindo a linha até o João, uma bandeirinha de cada vez, olhando para que lado cada ponta aponta.",
+    "solucao_completa": "- No desenho tem 6 bandeirinhas triangulares coladas na linha.\n- Seguindo a linha da parede até o João, 5 dessas bandeirinhas têm a ponta virada para o lado do João.\n- Só 1 bandeirinha (a que fica no alto do laço, no meio do desenho) está com a ponta virada para o outro lado.\n- Então, quando João esticar a linha, 5 bandeirinhas vão apontar para ele.\n- Resposta certa: alternativa D (5)."
+  },
+  "5": {
+    "enunciado_md": "Marcela cantou uma música, como mostrado na figura:\n\n> Um, dois, feijão com arroz;\n> Três, quatro, feijão no prato;\n> Sete, oito, comer biscoito;\n> Nove, dez, comer pastéis.\n\nEla se esqueceu de cantar 2 números que estão entre 1 e 10. Qual é a soma desses números?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "10"
+      },
+      {
+        "letra": "D",
+        "texto": "11"
+      },
+      {
+        "letra": "E",
+        "texto": "12"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "sequência numérica",
+      "soma"
+    ],
+    "dica_curta": "Leia a música numerozinho por numerozinho, bem devagar, e veja quais números de 1 a 10 não foram ditos.",
+    "primeiro_passo": "Imagine os números de 1 a 10 em ordem: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Depois vá riscando os que aparecem na música.",
+    "solucao_completa": "- A música diz: um, dois, três, quatro, sete, oito, nove, dez.\n- Os números de 1 a 10 que faltam são o 5 e o 6.\n- Para achar a soma, juntamos os dois: 5 + 6 = 11.\n- Resposta certa: alternativa D (11)."
+  },
+  "6": {
+    "enunciado_md": "Qual figura deve ser colocada na casa com ponto de interrogação para que, em cada linha e em cada coluna do quadriculado, haja um par de triângulos, um par de retângulos e um par de estrelas?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "lógica",
+      "padrões"
+    ],
+    "dica_curta": "Em cada linha e em cada coluna do quadriculado sempre tem 2 triângulos, 2 retângulos e 2 estrelas. Veja o que já tem perto do sinal de interrogação e descubra o que está faltando.",
+    "primeiro_passo": "Olhe só a fileira (linha) onde está o sinal de interrogação. Conte quantos triângulos, quantos retângulos e quantas estrelas já aparecem nela.",
+    "solucao_completa": "- A regra do jogo é: em toda linha e em toda coluna do quadriculado tem que ter exatamente 2 triângulos, 2 retângulos e 2 estrelas.\n- Na linha onde está o sinal de interrogação, já aparecem 2 triângulos e 2 retângulos, mas só 1 estrela.\n- Na coluna onde está o sinal de interrogação, também já aparecem 2 triângulos e 2 retângulos, mas só 1 estrela.\n- Como os triângulos e os retângulos já estão completos nos dois casos, só falta completar o par de estrelas.\n- Resposta certa: alternativa C (a figura da estrela)."
+  },
+  "7": {
+    "enunciado_md": "Todos os caminhos ao lado foram feitos em um mesmo quadriculado. Qual deles tem o maior comprimento?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A"
+      },
+      {
+        "letra": "B",
+        "texto": "B"
+      },
+      {
+        "letra": "C",
+        "texto": "C"
+      },
+      {
+        "letra": "D",
+        "texto": "D"
+      },
+      {
+        "letra": "E",
+        "texto": "E"
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "medidas",
+      "contagem"
+    ],
+    "dica_curta": "Cada quadradinho do quadriculado vale 1 pedacinho de tamanho. Conte quantos quadradinhos cada caminho anda, mesmo quando ele vira.",
+    "primeiro_passo": "Escolha um caminho e vá contando 1, 2, 3... para cada quadradinho que ele percorre, do começo até o fim, sem pular nenhuma virada.",
+    "solucao_completa": "- Contando quadradinho por quadradinho, cada caminho tem este tamanho:\n- Caminho A: 11\n- Caminho B: 12\n- Caminho C: 11\n- Caminho D: 9\n- Caminho E: 13\n- O caminho E é o que anda mais longe, mesmo parecendo mais \"amontoado\" no desenho — o que importa não é o espaço que ele ocupa na folha, é quanto ele andou.\n- Resposta certa: alternativa E (o caminho E, com 13 quadradinhos)."
+  },
+  "8": {
+    "enunciado_md": "Olhe o cartaz ao lado com os aniversariantes da sala da professora Aline. Quantas crianças fazem aniversário no mês anterior ao mês em que Isabel nasceu?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "calendário",
+      "contagem"
+    ],
+    "dica_curta": "Primeiro descubra em que mês Isabel faz aniversário. Depois pense: qual é o mês que vem logo antes desse?",
+    "primeiro_passo": "Ache o nome de Isabel no cartaz e veja em qual mês ela está. Depois lembre a ordem dos meses do ano para achar o mês anterior.",
+    "solucao_completa": "- Isabel nasceu em janeiro.\n- O mês que vem antes de janeiro é dezembro (janeiro é sempre o primeiro mês do ano, e dezembro é o último, bem antes de começar tudo de novo).\n- No cartaz, em dezembro aparecem 4 nomes: Rui, Leonardo, Tomas e Paulo.\n- Então, 4 crianças fazem aniversário no mês anterior ao de Isabel.\n- Resposta certa: alternativa D (4)."
+  },
+  "9": {
+    "enunciado_md": "Leonardo fez as 3 contas indicadas pelas flechas e foi escrevendo os resultados nos quadradinhos:\n\n10 → +5 → ___ → −4 → ___ → +15 → ___\n\nQue número ele escreveu no último quadradinho?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "13"
+      },
+      {
+        "letra": "B",
+        "texto": "15"
+      },
+      {
+        "letra": "C",
+        "texto": "17"
+      },
+      {
+        "letra": "D",
+        "texto": "26"
+      },
+      {
+        "letra": "E",
+        "texto": "29"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "soma",
+      "subtração"
+    ],
+    "dica_curta": "Faça uma conta de cada vez, na ordem das flechas, e vá anotando o resultado antes de passar para a próxima.",
+    "primeiro_passo": "Comece com o número 10, que já está no primeiro quadradinho. Siga a primeira flecha: quanto é 10 + 5?",
+    "solucao_completa": "- Primeiro quadradinho: 10.\n- Segunda flecha diz +5: 10 + 5 = 15.\n- Terceira flecha diz −4: 15 − 4 = 11.\n- Quarta flecha diz +15: 11 + 15 = 26.\n- No último quadradinho, Leonardo escreveu o número 26.\n- Resposta certa: alternativa D (26)."
+  },
+  "10": {
+    "enunciado_md": "O pai de Marcos comprou, em uma loja de materiais de construção, os três algarismos abaixo para identificar o número da casa onde eles moram. Qual dos números abaixo **não** pode ser o número da casa deles?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "193"
+      },
+      {
+        "letra": "B",
+        "texto": "631"
+      },
+      {
+        "letra": "C",
+        "texto": "361"
+      },
+      {
+        "letra": "D",
+        "texto": "169"
+      },
+      {
+        "letra": "E",
+        "texto": "913"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "lógica",
+      "números"
+    ],
+    "dica_curta": "Repare que um dos algarismos está desenhado de um jeito que pode ser lido de duas formas diferentes, dependendo de como ele fica virado.",
+    "primeiro_passo": "Olhe os três algarismos com bastante atenção. Será que todos eles só podem ser lidos de um jeito? Experimente imaginar cada um virado de cabeça para baixo.",
+    "solucao_completa": "- Os três algarismos são 1, 3 e um terceiro que pode ser lido como 6 ou como 9, porque essa peça pode ser virada de dois jeitos diferentes.\n- Ou seja, ele tem só UMA peça de \"6-ou-9\" — nunca as duas coisas ao mesmo tempo, porque é uma peça só.\n- Com as peças 1, 3 e 6 dá para formar números como 631 e 361.\n- Com as peças 1, 3 e 9 dá para formar números como 193 e 913.\n- Mas o número 169 precisaria de um 6 E de um 9 ao mesmo tempo — ou seja, precisaria de duas peças ambíguas, uma virada para 6 e outra para 9. E ele só tem uma!\n- Resposta certa: alternativa D (169)."
+  },
+  "11": {
+    "enunciado_md": "Olhe o que dizem os 4 amigos:\n\n- Benjamin: \"Eu tenho 6 bolinhas.\"\n- Alícia: \"Eu tenho 2 bolinhas a menos que Benjamin.\"\n- Rafael: \"Eu tenho 5 bolinhas a mais que Alícia.\"\n- Samuel: \"Eu tenho 4 bolinhas a menos que Rafael.\"\n\nQuantas bolinhas Samuel tem?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3 bolinhas"
+      },
+      {
+        "letra": "B",
+        "texto": "4 bolinhas"
+      },
+      {
+        "letra": "C",
+        "texto": "5 bolinhas"
+      },
+      {
+        "letra": "D",
+        "texto": "6 bolinhas"
+      },
+      {
+        "letra": "E",
+        "texto": "9 bolinhas"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "lógica com pistas",
+      "subtração"
+    ],
+    "dica_curta": "Comece pelo amigo que já contou quantas bolinhas tem certinho. Depois siga as pistas dos outros, um de cada vez, na ordem.",
+    "primeiro_passo": "Benjamin já disse o número dele: 6 bolinhas. Agora use a pista da Alícia para descobrir quantas bolinhas ela tem.",
+    "solucao_completa": "- Benjamin tem 6 bolinhas (ele falou isso direto).\n- Alícia tem 2 bolinhas a menos que Benjamin: 6 − 2 = 4 bolinhas.\n- Rafael tem 5 bolinhas a mais que Alícia: 4 + 5 = 9 bolinhas.\n- Samuel tem 4 bolinhas a menos que Rafael: 9 − 4 = 5 bolinhas.\n- Resposta certa: alternativa C (5 bolinhas)."
+  },
+  "12": {
+    "enunciado_md": "A figura mostra o relógio do ginásio de esportes antes de um jogo começar. Esse jogo vai começar às 4 horas e 5 minutos. Quantos minutos faltam para o início do jogo?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15 minutos"
+      },
+      {
+        "letra": "B",
+        "texto": "30 minutos"
+      },
+      {
+        "letra": "C",
+        "texto": "45 minutos"
+      },
+      {
+        "letra": "D",
+        "texto": "55 minutos"
+      },
+      {
+        "letra": "E",
+        "texto": "75 minutos"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "horas",
+      "medidas"
+    ],
+    "dica_curta": "Veja que horas o relógio está marcando agora. Depois pense em quanto tempo falta até chegar às 4 horas e 5 minutos.",
+    "primeiro_passo": "O relógio está marcando 3 horas e 10 minutos. Pense: quantos minutos faltam para chegar até 4 horas em ponto?",
+    "solucao_completa": "- O relógio está marcando 3 horas e 10 minutos.\n- Das 3 horas e 10 até as 4 horas em ponto, faltam 50 minutos.\n- Mas o jogo só começa às 4 horas e 5 minutos, ou seja, 5 minutos depois das 4 horas.\n- Então, o tempo total que falta é 50 + 5 = 55 minutos.\n- Resposta certa: alternativa D (55 minutos)."
+  },
+  "13": {
+    "enunciado_md": "Qual moeda deve ser levada de um quadrado para outro, para que o valor total das moedas nos dois quadrados fique o mesmo?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "dinheiro",
+      "soma"
+    ],
+    "dica_curta": "Descubra quanto dinheiro tem em cada quadrado. Depois pense em qual moeda, ao trocar de lugar, deixa os dois quadrados com o mesmo valor.",
+    "primeiro_passo": "Some o valor das moedas do primeiro quadrado. Depois some o valor das moedas do segundo quadrado.",
+    "solucao_completa": "- No primeiro quadrado: 1 real + 25 centavos + 10 centavos + 5 centavos = R$ 1,40.\n- No segundo quadrado: 50 centavos + 50 centavos + 10 centavos + 5 centavos + 5 centavos = R$ 1,20.\n- O primeiro quadrado tem 20 centavos a mais que o segundo.\n- Se levarmos a moeda de 10 centavos do primeiro quadrado para o segundo, o primeiro fica com R$ 1,30 e o segundo também fica com R$ 1,30. Ficaram iguais!\n- Resposta certa: alternativa B (a moeda de 10 centavos)."
+  },
+  "14": {
+    "enunciado_md": "Débora tem duas caixas iguais. Ela empilha essas duas caixas de três maneiras diferentes e mede a altura das pilhas, conforme mostrado na figura. Quantos centímetros de altura tem a terceira pilha?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "18"
+      },
+      {
+        "letra": "B",
+        "texto": "20"
+      },
+      {
+        "letra": "C",
+        "texto": "22"
+      },
+      {
+        "letra": "D",
+        "texto": "24"
+      },
+      {
+        "letra": "E",
+        "texto": "26"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "medidas",
+      "lógica"
+    ],
+    "dica_curta": "Repare que, nas duas primeiras pilhas, cada caixa pode estar deitada ou em pé — e isso muda a altura dela!",
+    "primeiro_passo": "Na primeira pilha, as duas caixas estão deitadas, e a altura é 10 cm. Descubra: quanto mede uma caixa deitada sozinha?",
+    "solucao_completa": "- Na primeira pilha, 2 caixas deitadas, uma sobre a outra, medem 10 cm. Então, 1 caixa deitada sozinha mede 10 ÷ 2 = 5 cm.\n- Na segunda pilha, 1 caixa deitada + 1 caixa em pé medem 16 cm. Como a deitada mede 5 cm, a caixa em pé mede 16 − 5 = 11 cm.\n- Na terceira pilha, as duas caixas estão em pé, uma sobre a outra: 11 + 11 = 22 cm.\n- Resposta certa: alternativa C (22)."
+  },
+  "15": {
+    "enunciado_md": "Irene tem três tipos de ervas para fazer seu chá. Às vezes ela usa somente um tipo de erva, às vezes ela mistura dois tipos de ervas. Quantos tipos diferentes de chá ela consegue preparar?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "5"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "7"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": [
+      "combinação",
+      "contagem"
+    ],
+    "dica_curta": "Pense em todos os jeitos de fazer chá: primeiro usando só 1 erva de cada vez, depois usando 2 ervas misturadas.",
+    "primeiro_passo": "Irene tem 3 ervas. Conte: de quantos jeitos diferentes ela pode fazer um chá usando só 1 erva?",
+    "solucao_completa": "- Usando só 1 tipo de erva por vez, Irene pode fazer 3 chás diferentes (um para cada erva que ela tem).\n- Misturando 2 tipos de erva, as misturas possíveis são: erva-doce com hortelã, erva-doce com camomila, e hortelã com camomila — isso dá mais 3 chás diferentes.\n- Juntando tudo: 3 + 3 = 6 tipos diferentes de chá.\n- Resposta certa: alternativa C (6)."
+  }
+}

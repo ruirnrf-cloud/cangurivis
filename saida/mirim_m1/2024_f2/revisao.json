@@ -1,0 +1,302 @@
+{
+  "1": {
+    "enunciado_md": "O atleta da pista 1 estava em último lugar, como mostra a figura. Ele ultrapassou exatamente 5 atletas antes da chegada e não foi ultrapassado por ninguém.\n\nEm que lugar ele terminou a corrida?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "PRIMEIRO"},
+      {"letra": "B", "texto": "SEGUNDO"},
+      {"letra": "C", "texto": "TERCEIRO"},
+      {"letra": "D", "texto": "QUARTO"},
+      {"letra": "E", "texto": "QUINTO"}
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["lógica", "ordem", "contagem"],
+    "dica_curta": "Conta quantos corredores tem no total na figura. Ele começou por último — pensa em quantos lugares ele sobe cada vez que passa alguém.",
+    "primeiro_passo": "Conta quantas pistas (corredores) aparecem na figura, do número 1 até o último.",
+    "solucao_completa": "Olha bem a figura: tem **8 corredores** na corrida (as pistas vão do 1 até o 8).\n\nO menino da pista 1 estava em último lugar. Ou seja, ele estava em **8º lugar**.\n\nAgora vamos contar ele passando os outros, um de cada vez:\n\n- Passa 1 → vai pro 7º lugar\n- Passa 2 → vai pro 6º lugar\n- Passa 3 → vai pro 5º lugar\n- Passa 4 → vai pro 4º lugar\n- Passa 5 → vai pro 3º lugar\n\nEle ultrapassou exatamente 5 atletas, e ninguém ultrapassou ele depois disso. Então ele terminou em **terceiro lugar**! Boa corrida!"
+  },
+  "2": {
+    "enunciado_md": "Qual das plantas abaixo tem mais pétalas do que folhas?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["contagem", "comparação"],
+    "dica_curta": "Pétala é a parte colorida da flor. Folha é a parte verde. Conta as duas em cada planta e compara.",
+    "primeiro_passo": "Escolhe uma planta de cada vez e conta primeiro quantas pétalas ela tem.",
+    "solucao_completa": "Vamos contar pétala (a parte colorida, laranja) e folha (a parte verde) de cada planta:\n\n- Planta A: 3 pétalas e 4 folhas\n- Planta B: 6 pétalas e 7 folhas\n- Planta C: 5 pétalas e 6 folhas\n- Planta D: 4 pétalas e 3 folhas\n- Planta E: 3 pétalas e 6 folhas\n\nEm quase todas, tem mais folha do que pétala. Só numa planta é ao contrário: a planta **D** tem 4 pétalas e apenas 3 folhas. Pétala ganhou de folha! Essa é a resposta."
+  },
+  "3": {
+    "enunciado_md": "O time vermelho jogou uma partida de futebol contra o time azul. Os dois times marcaram gols e o time azul venceu o jogo.\n\nQual foi o placar final dessa partida?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["lógica", "comparação"],
+    "dica_curta": "O time azul precisa ter mais gols. Mas os dois times marcaram gol — ninguém pode ficar com zero!",
+    "primeiro_passo": "Risca os placares em que o time azul não venceu (empate ou vermelho na frente).",
+    "solucao_completa": "A questão conta duas coisas importantes:\n\n1. Os **dois** times marcaram gol (nenhum ficou com zero).\n2. O time **azul** venceu (azul tem mais gols que vermelho).\n\nVamos conferir cada placar:\n\n- A) Vermelho 4 x 0 Azul → vermelho venceu, não serve\n- B) Vermelho 3 x 1 Azul → vermelho venceu, não serve\n- C) Vermelho 2 x 2 Azul → empatou, não serve (ninguém venceu)\n- D) Vermelho 1 x 3 Azul → azul venceu e os dois marcaram gol! Serve!\n- E) Vermelho 0 x 4 Azul → azul venceu, mas o vermelho ficou com zero gols, não serve\n\nO único placar que combina com tudo é **1 a 3** para o time azul."
+  },
+  "4": {
+    "enunciado_md": "Danilo colou alguns adesivos no vidro de sua janela pelo lado de dentro, como mostra a figura ao lado.\n\nO que ele verá quando olhar a janela pelo lado de fora?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["visualização espacial", "simetria"],
+    "dica_curta": "Quando você olha um vidro pelo lado de trás, tudo fica invertido, que nem espelho. E quem tava na frente escondendo os outros, agora fica escondido também!",
+    "primeiro_passo": "Olha a figura original e repara qual adesivo está bem na frente (todo visível) e qual está mais escondido atrás dos outros.",
+    "solucao_completa": "Essa questão é sobre olhar as coisas do outro lado do vidro!\n\nNa figura original, de dentro do quarto, dá pra ver:\n\n- O losango verde está por cima de tudo, aparecendo inteirinho.\n- O círculo azul está um pouco escondido atrás do retângulo rosa.\n- O triângulo amarelo está bem escondido, só aparece um pedacinho embaixo.\n\nAgora vem o truque: quando a gente olha o mesmo vidro do lado de **fora**, duas coisas mudam:\n\n1. Tudo fica ao contrário — esquerda vira direita, que nem espelho.\n2. O que estava mais na frente (mais pertinho de quem olhava de dentro) fica o mais **escondido** pra quem olha de fora — e o que estava mais escondido, aparece mais!\n\nPor isso, do lado de fora, o losango verde (que antes aparecia inteiro) some completamente. Já o círculo azul aparece inteiro, e dá pra ver a pontinha de baixo do triângulo amarelo.\n\nA única figura que mostra isso certinho é a **B**."
+  },
+  "5": {
+    "enunciado_md": "Quantas são as maneiras diferentes de empilhar os três cubos sobre a mesa, sem que o cubo verde fique junto com o cubo amarelo?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "1"},
+      {"letra": "B", "texto": "2"},
+      {"letra": "C", "texto": "3"},
+      {"letra": "D", "texto": "4"},
+      {"letra": "E", "texto": "6"}
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["combinatória", "contagem"],
+    "dica_curta": "Primeiro pensa em todas as formas de empilhar os 3 cubos. Depois risca as que têm o verde grudado no amarelo.",
+    "primeiro_passo": "Pensa em todas as ordens possíveis de empilhar os 3 cubos, um em cima do outro.",
+    "solucao_completa": "Os três cubos são: verde, amarelo e rosa. Empilhando um em cima do outro, existem **6 jeitos diferentes** de organizar os três (isso é bom treinar contando nos dedos ou desenhando!).\n\nAgora o pulo do gato: pra separar o verde do amarelo, só existe um jeito — colocar o cubo **rosa bem no meio** dos dois, como um sanduíche.\n\nDá pra fazer esse \"sanduíche\" de 2 jeitos:\n\n- de baixo pra cima: verde, rosa, amarelo\n- de baixo pra cima: amarelo, rosa, verde\n\nEm todas as OUTRAS 4 formas de empilhar, o verde e o amarelo acabam ficando grudados um no outro.\n\nEntão a resposta é **2**."
+  },
+  "6": {
+    "enunciado_md": "Uma fila tem 11 pessoas. Helena está exatamente no meio da fila e Gabriel é o último da fila.\n\nQuantas pessoas estão entre Helena e Gabriel?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "2"},
+      {"letra": "B", "texto": "3"},
+      {"letra": "C", "texto": "4"},
+      {"letra": "D", "texto": "5"},
+      {"letra": "E", "texto": "6"}
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["contagem", "fila"],
+    "dica_curta": "Se a fila tem 11 pessoas e Helena está bem no meio, em que posição da fila ela está?",
+    "primeiro_passo": "Descobre em que posição da fila Helena está (lembra: ela está exatamente no meio das 11 pessoas).",
+    "solucao_completa": "A fila tem 11 pessoas, e Helena está bem no meio. Pra achar o meio de 11, pensa assim: 5 pessoas na frente dela, ela, e mais 5 pessoas atrás dela (5 + 1 + 5 = 11). Então Helena está na posição **6**.\n\nGabriel é o último da fila: posição **11**.\n\nAgora vamos contar quem está ENTRE a posição 6 (Helena) e a posição 11 (Gabriel), sem contar os dois:\n\nposição 7, posição 8, posição 9 e posição 10.\n\nSão **4 pessoas** entre Helena e Gabriel."
+  },
+  "7": {
+    "enunciado_md": "A figura mostra a frente de um prédio. O número de janelas de trás é o dobro do número de janelas da frente e não há outras janelas no prédio.\n\nQuantas janelas há no prédio inteiro?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "5"},
+      {"letra": "B", "texto": "8"},
+      {"letra": "C", "texto": "10"},
+      {"letra": "D", "texto": "15"},
+      {"letra": "E", "texto": "20"}
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["dobro", "soma"],
+    "dica_curta": "Conta as janelas que aparecem na figura — essas são as da frente. Dobro quer dizer duas vezes mais.",
+    "primeiro_passo": "Conta com cuidado quantas janelas tem na frente do prédio, olhando andar por andar.",
+    "solucao_completa": "Vamos contar as janelas da FRENTE do prédio na figura: são **5 janelas** (1 no andar de cima, 2 no andar do meio, 2 no andar debaixo).\n\nA questão diz que atrás tem o **dobro** de janelas da frente. Dobro é duas vezes mais: 5 + 5 = 10 janelas atrás.\n\nPra saber o total do prédio inteiro, soma frente com trás: 5 + 10 = **15 janelas**."
+  },
+  "8": {
+    "enunciado_md": "A figura mostra algumas marcas dos pés de Gabriela na areia.\n\nQuantas dessas marcas são do pé direito de Gabriela?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "4"},
+      {"letra": "B", "texto": "5"},
+      {"letra": "C", "texto": "6"},
+      {"letra": "D", "texto": "7"},
+      {"letra": "E", "texto": "8"}
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["lateralidade", "observação"],
+    "dica_curta": "Olha o dedão (o dedo maior) de cada pegada, imaginando os dedinhos apontando pra cima.",
+    "primeiro_passo": "Junta os seus dois pés descalços e repara onde ficam os dois dedões.",
+    "solucao_completa": "Truque pra descobrir: gira cada pegada, no seu pensamento, até os dedinhos apontarem pra cima (pra frente).\n\nAgora repara onde fica o dedão (o dedinho maior):\n\n- Se o dedão fica do lado **esquerdo**, é uma pegada do pé **direito**.\n- Se o dedão fica do lado **direito**, é uma pegada do pé **esquerdo**.\n\n(Confere nos seus próprios pés: quando você junta os dois pés, os dois dedões se encostam bem no meio!)\n\nA figura tem 10 marcas de pegadas ao todo. Conferindo o dedão de cada uma, **6 delas** são do pé direito de Gabriela."
+  },
+  "9": {
+    "enunciado_md": "Francisco acorda às 5 horas e 50 minutos e começa a fazer as atividades abaixo, uma depois da outra:\n\n- Ir ao banheiro: 10 minutos\n- Tomar café da manhã: 15 minutos\n- Escovar os dentes: 10 minutos\n\nA que horas ele termina de fazer essas atividades?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "6 HORAS E 25 MINUTOS"},
+      {"letra": "B", "texto": "6 HORAS E 30 MINUTOS"},
+      {"letra": "C", "texto": "6 HORAS E 35 MINUTOS"},
+      {"letra": "D", "texto": "6 HORAS E 40 MINUTOS"},
+      {"letra": "E", "texto": "6 HORAS E 45 MINUTOS"}
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["horas", "soma"],
+    "dica_curta": "Soma o tempo de todas as atividades primeiro. Depois soma esse tanto de minutos na hora que ele acordou.",
+    "primeiro_passo": "Soma quantos minutos duram as 3 atividades juntas: 10 + 15 + 10.",
+    "solucao_completa": "Primeiro, vamos somar o tempo de todas as atividades:\n\n10 minutos + 15 minutos + 10 minutos = **35 minutos**\n\nFrancisco acordou às 5 horas e 50 minutos. Vamos somar esses minutinhos aos poucos, atividade por atividade:\n\n5h50min + 10 minutos (ir ao banheiro) = 6h00min (deu uma hora certinha!)\n\n6h00min + 15 minutos (café da manhã) = 6h15min\n\n6h15min + 10 minutos (escovar os dentes) = 6h25min\n\nFrancisco termina tudo às **6 horas e 25 minutos**."
+  },
+  "10": {
+    "enunciado_md": "Martina quer retirar todas as estrelas do colar pelo cordão, sem cortar o cordão.\n\nQual é o menor número de bolinhas que ela terá que retirar?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "6"},
+      {"letra": "B", "texto": "7"},
+      {"letra": "C", "texto": "8"},
+      {"letra": "D", "texto": "9"},
+      {"letra": "E", "texto": "10"}
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["contagem", "lógica"],
+    "dica_curta": "As bolinhas só saem pelas pontas do cordão. Ache o maior grupinho de bolinhas que fica preso entre duas estrelas — ele pode continuar no colar!",
+    "primeiro_passo": "Conta quantas bolinhas tem em cada espacinho, entre uma estrela e a próxima (e nas pontas).",
+    "solucao_completa": "O cordão tem 4 estrelas e 10 bolinhas no total, nessa ordem, da ponta esquerda até a direita:\n\n1 bolinha, estrela, 3 bolinhas, estrela, 3 bolinhas, estrela, 1 bolinha, estrela, 2 bolinhas.\n\nComo as coisas só saem pelas pontas do cordão (sem cortar!), pra tirar uma estrela, Martina precisa tirar também tudo que está entre essa estrela e a ponta mais perto.\n\nAqui vem o pulo do gato: existe um grupinho de bolinhas, no meio do colar, que fica preso ENTRE duas estrelas — esse grupinho pode ficar tranquilo, sem precisar sair! E pra tirar o MENOR número de bolinhas possível, Martina quer deixar o MAIOR grupinho parado.\n\nO maior grupinho entre duas estrelas tem **3 bolinhas**. Se esse grupo fica no colar, todas as outras bolinhas saem: 10 bolinhas no total, menos as 3 que ficam, sobra 10 − 3 = **7 bolinhas** que ela precisa retirar."
+  },
+  "11": {
+    "enunciado_md": "Pedro sobe uma escada de um jeito diferente. Depois que ele pisa com o pé direito em um degrau, ele pisa com o pé esquerdo no degrau seguinte. Depois que ele pisa com o pé esquerdo em um degrau, ele pula um degrau e pisa com o pé direito no degrau seguinte.\n\nPedro começa a subir a escada pisando com o pé direito no primeiro degrau. Em que degrau ele estará quando pisar pela quarta vez com seu pé esquerdo?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "NONO"},
+      {"letra": "B", "texto": "DÉCIMO"},
+      {"letra": "C", "texto": "DÉCIMO PRIMEIRO"},
+      {"letra": "D", "texto": "DÉCIMO SEGUNDO"},
+      {"letra": "E", "texto": "DÉCIMO TERCEIRO"}
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["sequência lógica", "padrão"],
+    "dica_curta": "Vai anotando, degrau por degrau, qual pé o Pedro usa. Conta quantas vezes aparece o pé esquerdo.",
+    "primeiro_passo": "Escreve os números dos degraus em fileira (1, 2, 3, 4...) e vai marcando embaixo de cada um qual pé o Pedro usa.",
+    "solucao_completa": "Vamos seguir o Pedro degrau por degrau, anotando qual pé ele usa:\n\n- Degrau 1: pé direito (é o começo)\n- Degrau 2: pé esquerdo (1ª vez com o esquerdo!)\n- Degrau 3: ele pula, não pisa aqui\n- Degrau 4: pé direito\n- Degrau 5: pé esquerdo (2ª vez!)\n- Degrau 6: ele pula\n- Degrau 7: pé direito\n- Degrau 8: pé esquerdo (3ª vez!)\n- Degrau 9: ele pula\n- Degrau 10: pé direito\n- Degrau 11: pé esquerdo (4ª vez!)\n\nReparou o padrão? Ele pisa com o pé esquerdo sempre 3 degraus depois do último esquerdo: degrau 2, depois 5, depois 8, depois 11 (sempre soma 3).\n\nA quarta vez que ele pisa com o pé esquerdo é no degrau **11**, ou seja, o **décimo primeiro** degrau."
+  },
+  "12": {
+    "enunciado_md": "Falta um azulejo para Ana completar seu mural. Ela quer que a quantidade de triângulos pequenos pretos fique igual à quantidade de triângulos pequenos amarelos.\n\nQual dos azulejos abaixo ela deve colocar no mural?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["contagem", "geometria"],
+    "dica_curta": "Cada quadradinho do mural tem 4 triangulinhos. Conta quantos pretos e quantos amarelos já apareceram no mural inteiro.",
+    "primeiro_passo": "Conta, quadradinho por quadradinho, quantos triângulos pretos e quantos amarelos já tem no mural (sem contar o quadradinho com a interrogação).",
+    "solucao_completa": "Cada quadradinho do mural é dividido em 4 triangulinhos. Como são 8 quadradinhos ao todo (2 fileiras de 4), o mural inteiro tem 8 x 4 = **32 triangulinhos**.\n\nContando os 7 quadradinhos que já têm desenho (sem contar o da interrogação): tem **15 triângulos amarelos** e **13 triângulos pretos**.\n\nAna quer que amarelo e preto fiquem iguais. Se o total é 32, ela quer 16 amarelos e 16 pretos (16 + 16 = 32).\n\nEntão, o quadradinho que falta precisa ter:\n\n16 − 15 = **1 triângulo amarelo**\n\n16 − 13 = **3 triângulos pretos**\n\nO único azulejo, entre as opções, com exatamente 1 triangulinho amarelo e 3 pretos é o **D**."
+  },
+  "13": {
+    "enunciado_md": "Paulo tem as cédulas de 2, 5, 10 e 20 reais, uma de cada, mostradas abaixo.\n\nQuantos valores diferentes em reais ele pode pagar usando uma ou mais dessas cédulas?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "4"},
+      {"letra": "B", "texto": "12"},
+      {"letra": "C", "texto": "15"},
+      {"letra": "D", "texto": "30"},
+      {"letra": "E", "texto": "37"}
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["combinações", "dinheiro"],
+    "dica_curta": "Pensa por partes: quantos valores dá pra fazer com 1 cédula, depois com 2, depois com 3...",
+    "primeiro_passo": "Começa pelo mais fácil: usando só uma cédula de cada vez, quantos valores diferentes Paulo consegue pagar?",
+    "solucao_completa": "Vamos organizar por quantas cédulas Paulo usa de cada vez:\n\n**Usando 1 cédula:** dá pra pagar 2, 5, 10 ou 20 reais. São **4 valores**.\n\n**Usando 2 cédulas juntas:** 2+5=7, 2+10=12, 2+20=22, 5+10=15, 5+20=25, 10+20=30. São **6 valores**.\n\n**Usando 3 cédulas juntas:** 2+5+10=17, 2+5+20=27, 2+10+20=32, 5+10+20=35. São **4 valores**.\n\n**Usando as 4 cédulas juntas:** 2+5+10+20=37. É **1 valor**.\n\nAgora soma tudo: 4 + 6 + 4 + 1 = **15 valores diferentes** que Paulo pode pagar."
+  },
+  "14": {
+    "enunciado_md": "Lucimara usou cubos azuis e cubos amarelos para montar o cubo maior da figura. Cubos de mesma cor têm o mesmo tamanho.\n\nQual é o menor número de cubos azuis que ela pode ter usado para montar o cubo maior?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "32"},
+      {"letra": "B", "texto": "26"},
+      {"letra": "C", "texto": "27"},
+      {"letra": "D", "texto": "43"},
+      {"letra": "E", "texto": "64"}
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["visualização espacial", "cubos"],
+    "dica_curta": "Cada cubo amarelo é grandão: ocupa o espaço de 8 cubinhos azuis juntos. Conta quantos cubos amarelos você consegue ver na figura.",
+    "primeiro_passo": "Conta quantos cubos amarelos aparecem na figura (cada um vale por 8 cubinhos pequenos).",
+    "solucao_completa": "O cubo grande é formado por um montão de cubinhos pequenos: 4 fileiras, 4 colunas e 4 andares, ou seja, 4 x 4 x 4 = **64 espacinhos** ao todo.\n\nCada cubo AMARELO é maior: ele ocupa o espaço de 2 x 2 x 2 = **8 cubinhos azuis** juntos.\n\nNa figura, dá pra ver **3 cubos amarelos**. Eles ocupam 3 x 8 = 24 espacinhos.\n\nSe não tivesse mais nenhum cubo amarelo escondido, sobrariam 64 − 24 = 40 cubinhos azuis.\n\nMas aqui vem o pulo do gato: no cantinho de trás do cubo grande tem um pedaço que a gente não consegue ver de jeito nenhum no desenho, porque fica escondido atrás de tudo. E, sem estragar nada do que já vemos, dá pra caber mais um cubo amarelo escondidinho bem nesse canto!\n\nEntão, pra usar o MENOR número de cubos azuis possível, a gente imagina esse 4º cubo amarelo escondido lá atrás: 4 cubos amarelos x 8 = 32 espaços amarelos.\n\nSobra pros cubinhos azuis: 64 − 32 = **32 cubinhos azuis**. Esse é o menor número possível."
+  },
+  "15": {
+    "enunciado_md": "Em um jogo de dominó, as peças devem ser unidas pelas suas partes com a mesma quantidade de pontos. Quatro das cinco peças abaixo devem ser colocadas em linha, uma do lado da outra, como mostra a figura ao lado.\n\nQual das peças abaixo NÃO será utilizada?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["lógica", "contagem"],
+    "dica_curta": "Conta os pontinhos de cada metade de cada peça. Um número que só aparece uma vez só pode ficar numa ponta da fileira.",
+    "primeiro_passo": "Conta quantos pontinhos tem em cada metade das 5 peças e escreve os números de cada uma.",
+    "solucao_completa": "Primeiro, vamos contar os pontinhos de cada metade das peças:\n\n- A: 6 e 4\n- B: 5 e 2\n- C: 5 e 3\n- D: 2 e 1\n- E: 6 e 5\n\nRepara numa coisa: o número **3** só aparece em UM lugar, na peça C. Isso é um problema! Pra usar a peça C, o lado dela com 3 pontinhos precisaria encostar em outra peça que também tivesse 3 — mas não existe nenhuma outra peça com 3! Esse lado só poderia ficar numa ponta da fileira, sobrando sozinho.\n\nMesmo colocando a peça C numa ponta, não dá pra encaixar as outras 4 peças certinho, sem sobrar ninguém de fora.\n\nJá as peças A, B, D e E encaixam perfeitinho, nessa ordem:\n\n**4 - [A] - 6 = 6 - [E] - 5 = 5 - [B] - 2 = 2 - [D] - 1**\n\nRepara como cada encontro tem o mesmo número dos dois lados: 6 com 6, 5 com 5, 2 com 2. Perfeito!\n\nA peça que sobra, e por isso NÃO é usada, é a **C**."
+  }
+}

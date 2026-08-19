@@ -1,5 +1,58 @@
 # Fase 3 — status
 
+## Fase 6 — segundo perfil: Rafael entra no app (18-19/08/2026, sessão noturna autônoma)
+
+O usuário pediu pra partir pro Rafael (7 anos, 2º ano) e foi dormir, autorizando trabalho
+autônomo até o app estar pronto. Decisão explícita do usuário: **sem narração em áudio nem
+enunciado em blocos**, mesmo o Rafael travando em texto longo — a prova de verdade não tem
+esses apoios, e ele precisa aprender a ler o enunciado como vai aparecer nela. Registrado
+também na memória (`projeto-cangurivis-escopo`).
+
+**Trilha escolhida**: Mirim 1 da OBMEP (2º-3º ano, PDFs já estavam em `acervo/mirim/*_M1.pdf`
+desde o download original). Canguru Brasil ficou de fora pro Rafael porque só começa no 3º
+ano (ver `niveis-olimpiadas-mapeamento`) — a substituta seria a Canguru de Portugal, não
+tentada nesta rodada.
+
+**Fase 3 (extração) rodada nas 8 provas M1**: 7/8 limpas (15/15 segmentadas + gabarito, zero
+bloqueio), mesmo padrão do M2 do Rui. `2025_F2_M1` tem o mesmo problema de texto vetorizado
+que a irmã `2025_F2_M2` (nenhuma âncora encontrada) — fica fora do pipeline automático, mesma
+situação do Rui. Saída em `saida/mirim_m1/{ano}_f{fase}/`.
+
+**Fase 4 (soluções) via 7 agentes em paralelo** (um por prova, sem o Workflow tool — não havia
+opt-in de orquestração multiagente nesta sessão): cada agente resolveu as 15 questões do zero
+olhando a imagem renderizada diretamente (não confiando no texto auto-extraído, que tem
+confiança "baixa" em ~39% das questões do M1, vs. ~28% no M2 — esperado, prova mais visual pra
+essa faixa etária), conferiu contra o PDF de solução oficial da OBMEP (que tem raciocínio
+comentado completo, não só gabarito, igual ao M2) e escreveu a solução em 3 camadas
+(`dica_curta`/`primeiro_passo`/`solucao_completa`) em linguagem simples pra 7 anos.
+
+**Resultado: 105/105 questões aprovadas, 0 em dúvida** (mesmo padrão de 0% de divergência real
+do Fase 4 original do Rui). Validação automática rodada depois (schema completo, gabarito da
+`revisao.json` batendo com `rascunho.json`, ids canônicos únicos nas 105) — tudo OK. Não houve
+revisão humana questão-por-questão (mesma decisão já tomada pro Rui na Fase 5: soltar e ir
+acompanhando dúvida conforme aparece).
+
+**App (`app/treino_app.py`) ganhou perfis**: tela "Quem vai treinar?" (Rui/Rafael) depois do
+PIN, com `?quem=` na URL pra abrir direto no perfil certo num tablet dedicado. Cada perfil tem
+sua trilha (`PERFIS` dict: rui→mirim_m2, rafael→mirim_m1) e seu próprio arquivo de progresso
+dentro do mesmo Gist (`progresso_rui.json` / `progresso_rafael.json`) — nunca mistura banco nem
+log dos dois. Testado ao vivo no navegador local contra o Gist real: os dois perfis carregam
+certo, hint ladder (dica → primeiro passo → solução + trava) funciona, acerto de primeira
+funciona, e confirmei que o Rui continua exatamente como antes (103/105 pendentes dele, do jeito
+que já estava). Resetei `progresso_rafael.json` pra `{"respostas": []}` depois do teste, mesmo
+procedimento usado pro Rui antes de liberar.
+
+**Achado operacional**: a pasta de scratchpad da sessão tinha um arquivo `inspect.py` (deixado
+por trabalho anterior de análise de pixel) que sombreava o módulo `inspect` da stdlib do Python
+e quebrava qualquer script novo que importasse `requests`/`typing` rodando a partir dali —
+renomeado. Vale lembrar se um script novo nessa pasta falhar com erro estranho de import.
+
+**Não feito nesta rodada**: bônus de questões fáceis da Canguru Brasil Nível P que o usuário
+pediu (aceitando nível acima do dele) — confirmei que a Canguru só publica gabarito, sem
+solução comentada (diferente da OBMEP), e o layout nunca foi testado no pipeline (regex de
+âncora e de gabarito atuais são específicos do formato OBMEP). Fica como próximo passo, não
+arriscado sem verificação por não ter fonte oficial de solução pra conferir.
+
 ## Fase 5 — v1 do app de treino no ar (18/08/2026)
 
 O usuário decidiu **pular a revisão humana formal** das 105 questões e soltar a v1 direto pro
@@ -20,8 +73,9 @@ O que faz:
   primeiro_passo, 3º erro → solução completa + trava os botões + mostra "próxima". Acertou →
   celebra, oferece a explicação completa num expander opcional (não forçado).
 - **Nunca repete questão já respondida** (mesmo princípio do banco por habilidade — questão é
-  "queimada" depois de usada, ver [[cangurivis-srs-por-habilidade]]): grava cada resposta em
-  `saida/progresso_rui.json`, e a fila da sessão exclui o que já tem log.
+  "queimada" depois de usada, ver [[cangurivis-srs-por-habilidade]]): grava cada resposta num
+  Gist privado do GitHub (não mais em arquivo local — ver seção "Sempre disponível" abaixo), e a
+  fila da sessão exclui o que já tem log.
 - Ao esgotar a fila da sessão, mostra um resumo (quantas acertou de primeira, quais precisaram
   de dica, agrupado por prova/tag) — pensado pra você conferir rápido com o Rui o que rendeu mais
   dúvida, sem precisar abrir o JSON.
@@ -35,9 +89,47 @@ empilham em botões grandes, sem estourar a largura — dá pra usar no tablet/c
 habilidade/tag (a v1 não escolhe questão por SRS, só sorteia entre as não-feitas), Elo/dificuldade
 adaptativa, perfis (essa v1 é só pro Rui, sem seleção de perfil).
 
-**Pra rodar de verdade pro Rui usar**: `streamlit run app/treino_app.py` a partir da raiz do
-projeto. Se for usar em tablet/celular na mesma rede, Streamlit expõe automaticamente um
-endereço de rede local (aparece no terminal ao rodar, algo como `Network URL: http://<ip-local>:8501`).
+**Pra rodar local** (dev/teste): `streamlit run app/treino_app.py` a partir da raiz do projeto —
+precisa de `.streamlit/secrets.toml` preenchido (gitignored, ver template no arquivo).
+
+### Sempre disponível (19/08/2026): deploy no Streamlit Community Cloud
+
+O usuário pediu acesso de qualquer lugar (ex.: casa da mãe do Rui), de celular ou computador,
+sem depender do PC de casa ligado — Tailscale (proposto antes) não serve porque exige o PC da
+sua casa ligado e rodando o Streamlit na hora. Mudança: hospedar o app no **Streamlit Community
+Cloud** (gratuito, URL fixo tipo `https://algo.streamlit.app`, funciona em qualquer navegador,
+não precisa instalar nada no dispositivo do Rui nem no da mãe).
+
+Duas implicações técnicas resolvidas:
+- **Storage do progresso não pode ser arquivo local** — o Community Cloud recria o container a
+  cada redeploy (e o app vai ganhar redeploys com frequência, conforme mais provas entrarem no
+  banco), o que apagaria `saida/progresso_rui.json` sem aviso. Resolvido: `treino_app.py` agora
+  lê/grava o progresso num **Gist privado do GitHub** via API REST (`requests` + token em
+  `st.secrets`), não em arquivo. Testado offline com a API do GitHub mockada (leitura, escrita,
+  acúmulo de respostas) antes de precisar de credenciais reais.
+- **URL pública = qualquer um com o link acessa** — o Community Cloud gratuito não tem
+  autenticação de visitante embutida, e o conteúdo são imagens de provas oficiais (direitos
+  autorais das bancas). Mitigado com um **PIN simples** na entrada do app (`st.secrets["PIN"]`)
+  — não é segurança de verdade, só evita que alguém tropece no link. Se `PIN` não estiver
+  configurado nos secrets, a trava fica desligada (é assim que fica rodando local sem precisar
+  configurar nada). Combinar o número com o Rui e a mãe dele.
+
+`acervo/` (252MB de PDFs originais das provas, não usados em runtime pelo app — só na extração e
+verificação) fica de fora do repositório Git (`.gitignore`), tanto por tamanho quanto porque são
+material com direitos autorais; o repositório em si deve ser **privado** no GitHub.
+
+**Deploy executado (19/08/2026)**: repo privado criado e com push feito —
+[github.com/ruirnrf-cloud/cangurivis](https://github.com/ruirnrf-cloud/cangurivis) (commit
+inicial `b3555b1`, 422 arquivos). Gist secreto criado pro progresso do Rui. Token de acesso ao
+Gist: **correção** do que essa seção dizia antes — não precisou ser um token clássico, um
+**fine-grained token** funcionou (permissão em "Account" → "Gists: Read and write", sem precisar
+de nenhuma permissão de repositório), configurado sem expiração. Testado ao vivo contra o Gist
+de verdade (não mockado): respondida uma questão real pelo navegador, confirmado via API que a
+gravação foi parar no Gist certinho (`tentativas`, `dicas_usadas`, etc.), e o Gist foi resetado
+pra `{"respostas": []}` depois — Rui começa do zero, sem os dados do meu teste. Valores reais
+(GIST_ID, GITHUB_TOKEN, PIN) estão só em `.streamlit/secrets.toml` local (gitignored) e nos
+secrets do app no Streamlit Cloud — deliberadamente não escritos aqui nem em nenhum arquivo
+versionado.
 
 ## O que já está pronto e testado
 

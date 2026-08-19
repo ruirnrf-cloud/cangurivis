@@ -1,0 +1,302 @@
+{
+  "1": {
+    "enunciado_md": "A abelhinha vai pousar na flor com mais pétalas. Qual é essa flor?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["contagem", "comparação"],
+    "dica_curta": "Conte as pétalas de cada florzinha. A abelha vai pousar na flor que tiver o maior número de pétalas!",
+    "primeiro_passo": "Comece contando as pétalas da flor A. Depois conte as da flor B, e siga contando até chegar na E.",
+    "solucao_completa": "Vamos contar as pétalas de cada flor, uma por uma:\n\n- Flor A: 3 pétalas\n- Flor B: 6 pétalas\n- Flor C: 5 pétalas\n- Flor D: 4 pétalas\n- Flor E: 5 pétalas\n\nA flor **B** é a campeã: ela tem 6 pétalas, mais do que todas as outras! Por isso a abelhinha vai pousar nela.\n\nResposta: **B**"
+  },
+  "2": {
+    "enunciado_md": "Carlos precisa de uma das peças abaixo para completar o quebra-cabeças. Qual é essa peça?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["formas geométricas", "raciocínio espacial"],
+    "dica_curta": "Olhe o espaço vazio do quebra-cabeças. Ele fica no canto de cima, à esquerda — a peça certa precisa ter dois lados retinhos, como um canto de caderno.",
+    "primeiro_passo": "Repare que uma das peças está desenhada torta, de lado. Tente imaginar essa peça virada, em pé, como as outras.",
+    "solucao_completa": "O pedacinho que falta fica bem no canto de cima do quebra-cabeças. Como é um canto, a peça certa precisa ter uma borda reta em cima e outra borda reta do lado esquerdo, e os bicos e buraquinhos certos para encaixar nas peças vizinhas.\n\nA peça **A** é a única desenhada torta, tombada de lado. Se a gente girar essa peça para deixá-la em pé, ela encaixa perfeitinho no espaço vazio!\n\nAs outras peças (B, C, D, E) já estão em pé, mas nenhuma delas tem o formato certo para aquele cantinho.\n\nResposta: **A**"
+  },
+  "3": {
+    "enunciado_md": "Um jogo de dominó completo tem 28 peças, como mostra a figura. Marcela separou todas as peças com 10 pontos no total. Quantas peças ela separou?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "1"},
+      {"letra": "B", "texto": "2"},
+      {"letra": "C", "texto": "3"},
+      {"letra": "D", "texto": "4"},
+      {"letra": "E", "texto": "5"}
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["contagem", "soma"],
+    "dica_curta": "Olhe cada peça do dominó e some os pontinhos dos dois lados. Procure as que dão exatamente 10.",
+    "primeiro_passo": "Comece pela peça lá no topo e some os pontinhos dela. Depois vá passando peça por peça, sempre somando os dois lados.",
+    "solucao_completa": "Cada peça de dominó tem dois lados com pontinhos. Para achar as peças de Marcela, a gente soma os pontos dos dois lados e vê quais dão 10.\n\nOlhando as 28 peças do jogo, só existem duas com soma 10:\n\n- a peça com 4 e 6 (4 + 6 = 10)\n- a peça com 5 e 5 (5 + 5 = 10)\n\nNenhuma outra combinação de pontinhos, de 0 a 6, dá exatamente 10.\n\nEntão Marcela separou **2 peças**.\n\nResposta: **B**"
+  },
+  "4": {
+    "enunciado_md": "Suzana vai mover a estrela 4 casas para cima e 2 casas para a esquerda. A estrela vai ficar na mesma casa de qual peça?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["raciocínio espacial", "contagem"],
+    "dica_curta": "Ache a estrela no tabuleiro. Depois conte as casinhas: primeiro para cima, depois para a esquerda.",
+    "primeiro_passo": "Coloque o dedo em cima da estrela. Agora suba 1 casinha, 2, 3... até subir 4 casinhas para cima. Onde você parou?",
+    "solucao_completa": "Vamos mover a estrela devagar, passo a passo.\n\nPrimeiro, sobe 4 casinhas para cima: 1, 2, 3, 4.\n\nDepois, anda 2 casinhas para a esquerda: 1, 2.\n\nQuando a estrela termina esse caminho, ela cai bem em cima do lugar onde está o **triângulo**!\n\nResposta: **C**"
+  },
+  "5": {
+    "enunciado_md": "Mariana estava pulando corda e contando de dois em dois.\n\nNo 1º pulo ela falou: — dois.\n\nNo 2º pulo ela falou: — quatro.\n\nE assim por diante.\n\nQual foi o número que ela falou quando deu o 9º pulo?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "16"},
+      {"letra": "B", "texto": "18"},
+      {"letra": "C", "texto": "20"},
+      {"letra": "D", "texto": "22"},
+      {"letra": "E", "texto": "24"}
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["contagem", "sequência lógica"],
+    "dica_curta": "Mariana sempre fala o dobro do número do pulo (o número vezes 2). Qual é o dobro de 9?",
+    "primeiro_passo": "Faça uma listinha: no pulo 1 ela fala 2, no pulo 2 ela fala 4, no pulo 3 ela fala 6... Continue a lista até chegar no pulo 9.",
+    "solucao_completa": "Repare no padrão: a cada pulo, Mariana fala um número que é o dobro (2 vezes) do número do pulo.\n\n- 1º pulo: 2\n- 2º pulo: 4\n- 3º pulo: 6\n- 4º pulo: 8\n- 5º pulo: 10\n- 6º pulo: 12\n- 7º pulo: 14\n- 8º pulo: 16\n- 9º pulo: 18\n\nNo 9º pulo, Mariana fala **18** (porque 9 + 9 = 18, ou seja, 2 vezes 9).\n\nResposta: **B**"
+  },
+  "6": {
+    "enunciado_md": "Marina tem uma folha de papel, branca de um lado e cinza do outro. Ela dobrou a folha duas vezes, cortou e retirou um cantinho, como mostra a figura. Como ficou a folha que Marina cortou, depois de desdobrada?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {"letra": "A", "texto": ""},
+      {"letra": "B", "texto": ""},
+      {"letra": "C", "texto": ""},
+      {"letra": "D", "texto": ""},
+      {"letra": "E", "texto": ""}
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["formas geométricas", "raciocínio espacial"],
+    "dica_curta": "Pense em quantas camadas de papel ficam empilhadas depois das duas dobras, e em qual cantinho desse quadradinho pequeno Marina cortou.",
+    "primeiro_passo": "Olhe com atenção: o corte foi feito bem no canto onde as duas linhas de dobra se encontram — não no canto de fora, que é a beirada original do papel.",
+    "solucao_completa": "Marina dobrou a folha duas vezes, então o papel ficou pequenininho, com 4 camadas grudadas. O cantinho que ela cortou é justamente o canto onde as duas dobras se encontram — esse canto vira o **centro** da folha quando tudo é desdobrado.\n\nPor isso, quando o papel é aberto, o corte não aparece espalhado pelos 4 cantos de fora. Ele aparece como uma figurinha só, bem no meio da folha, em forma de losango (um quadradinho de ponta-cabeça), exatamente onde as duas linhas de dobra se cruzam.\n\nResposta: **B**"
+  },
+  "7": {
+    "enunciado_md": "Carlos saiu de casa, caminhou 15 minutos e chegou ao campo de futebol às 9 horas da manhã. A que horas ele saiu de casa?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "08:15"},
+      {"letra": "B", "texto": "08:35"},
+      {"letra": "C", "texto": "08:45"},
+      {"letra": "D", "texto": "09:15"},
+      {"letra": "E", "texto": "09:45"}
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["horas", "subtração"],
+    "dica_curta": "Carlos chegou às 9 horas depois de andar 15 minutinhos. Para saber quando ele saiu, você precisa voltar no tempo!",
+    "primeiro_passo": "Pense: que horas eram 15 minutos antes das 9 horas?",
+    "solucao_completa": "Carlos chegou ao campo às 9 horas, depois de caminhar 15 minutos. Para descobrir a que horas ele saiu de casa, a gente volta 15 minutinhos no relógio, a partir das 9 horas.\n\n9 horas menos 15 minutos dá 8 horas e 45 minutos.\n\nResposta: **C** (08:45)"
+  },
+  "8": {
+    "enunciado_md": "Um papel quadriculado tem 5 furos quadrados, que são os quadradinhos em branco. Quando esse papel for dobrado ao meio na linha tracejada, como se fosse um livro se fechando, qual letra **não** vai ficar visível?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "A"},
+      {"letra": "B", "texto": "B"},
+      {"letra": "C", "texto": "C"},
+      {"letra": "D", "texto": "D"},
+      {"letra": "E", "texto": "E"}
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["simetria", "raciocínio espacial"],
+    "dica_curta": "Olhe a linha pontilhada: ela é a dobra do papel. Quando o papel fecha, cada furinho mostra a letra que está na mesma distância dele, do outro lado da linha.",
+    "primeiro_passo": "Escolha um furinho branco e conte quantas casinhas ele está longe da linha pontilhada. Depois procure, do outro lado da linha, uma letra que esteja a essa mesma distância.",
+    "solucao_completa": "Quando o papel se dobra na linha pontilhada, cada quadradinho de um lado cai exatamente em cima do quadradinho que fica na mesma distância, do outro lado da linha — como um espelho.\n\nVamos conferir cada letra, contando quantas casinhas ela e o furinho da mesma fileira estão longe da linha:\n\n- Fileira do A: o furo e a letra A estão na mesma distância → A aparece.\n- Fileira do B: o furo está pertinho da linha, mas a letra B está lá longe, na pontinha → **não combina**.\n- Fileira do C: o furo e a letra C estão na mesma distância → C aparece.\n- Fileira do D: o furo e a letra D estão na mesma distância → D aparece.\n- Fileira do E: o furo e a letra E estão na mesma distância → E aparece.\n\nSó a letra **B** não está na mesma distância do seu furinho. Por isso, ela é a única que não vai aparecer.\n\nResposta: **B**"
+  },
+  "9": {
+    "enunciado_md": "Qual é a diferença entre os comprimentos do lápis e do pincel?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "11 centímetros"},
+      {"letra": "B", "texto": "5 centímetros"},
+      {"letra": "C", "texto": "3 centímetros"},
+      {"letra": "D", "texto": "2 centímetros"},
+      {"letra": "E", "texto": "1 centímetro"}
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["medidas", "subtração"],
+    "dica_curta": "Use a régua para ver onde começa e onde termina o lápis, e onde começa e termina o pincel. Depois compare os dois tamanhos.",
+    "primeiro_passo": "Olhe a régua embaixo do lápis: em qual número ele começa e em qual número ele termina?",
+    "solucao_completa": "Vamos medir os dois com a régua.\n\nO lápis começa no 1 e termina no 15. Então o lápis tem 15 − 1 = **14 centímetros**.\n\nO pincel começa no 2 e termina no 14. Então o pincel tem 14 − 2 = **12 centímetros**.\n\nAgora é só comparar: 14 − 12 = **2 centímetros**.\n\nO lápis é 2 centímetros mais comprido que o pincel.\n\nResposta: **D**"
+  },
+  "10": {
+    "enunciado_md": "Uma galinha, um pato e um sapo percorreram um mesmo caminho e deixaram as suas pegadas no chão. Em que ordem os animais percorreram esse caminho?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "Sapo, galinha e pato"},
+      {"letra": "B", "texto": "Pato, sapo e galinha"},
+      {"letra": "C", "texto": "Pato, galinha e sapo"},
+      {"letra": "D", "texto": "Galinha, sapo e pato"},
+      {"letra": "E", "texto": "Galinha, pato e sapo"}
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["lógica", "observação"],
+    "dica_curta": "Quando uma pegada fica por cima da outra, é porque foi feita depois. Veja qual pegada tampa qual, para descobrir quem passou primeiro e quem passou por último.",
+    "primeiro_passo": "Olhe as 3 pegadas de exemplo (galinha, pato e sapo) para aprender o formato de cada uma. Depois procure, no desenho grande, os lugares onde duas pegadas se cruzam.",
+    "solucao_completa": "Cada bicho tem uma pegada com um formato diferente: a da galinha é fininha, com dedos compridos e pontudos; a do pato é redondinha, com as bordas arredondadas; e a do sapo é escura, com dedos e bolinhas na ponta.\n\nQuando duas pegadas se cruzam, a que fica por cima foi feita depois (é mais nova), e a que fica escondida embaixo foi feita antes (é mais velha) — igual quando a gente pisa na areia molhada duas vezes no mesmo lugar.\n\nOlhando com cuidado onde as pegadas se cruzam:\n\n- A pegada do pato tampa a da galinha → a galinha passou antes do pato.\n- A pegada do sapo tampa as outras duas → o sapo foi o último a passar.\n\nJuntando tudo: primeiro veio a **galinha**, depois o **pato**, e por último o **sapo**.\n\nResposta: **E**"
+  },
+  "11": {
+    "enunciado_md": "Quatro laranjas custam 15 centavos a mais do que uma laranja. Quantos centavos custam quatro laranjas?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "20"},
+      {"letra": "B", "texto": "25"},
+      {"letra": "C", "texto": "30"},
+      {"letra": "D", "texto": "35"},
+      {"letra": "E", "texto": "40"}
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["dinheiro", "lógica"],
+    "dica_curta": "Se 4 laranjas custam 15 centavos a mais do que 1 laranja, pense em quantas laranjas \"a mais\" isso são.",
+    "primeiro_passo": "Compare \"4 laranjas\" com \"1 laranja\": quantas laranjas sobram nessa comparação? Esse tanto de laranjas vale os 15 centavos.",
+    "solucao_completa": "Se 4 laranjas custam 15 centavos a mais do que 1 laranja, então a diferença entre \"4 laranjas\" e \"1 laranja\" — ou seja, 3 laranjas — vale exatamente 15 centavos.\n\n3 laranjas = 15 centavos, então 1 laranja sozinha custa 15 ÷ 3 = **5 centavos**.\n\nAgora é só multiplicar: 4 laranjas custam 4 × 5 = **20 centavos**.\n\nResposta: **A**"
+  },
+  "12": {
+    "enunciado_md": "Na figura, vemos uma mesma locomotiva puxando 2 ou 3 vagões iguais. O primeiro trem tem 28 metros de comprimento no total, e o segundo trem tem 38 metros de comprimento no total. Qual é o comprimento da locomotiva?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "6 metros"},
+      {"letra": "B", "texto": "8 metros"},
+      {"letra": "C", "texto": "10 metros"},
+      {"letra": "D", "texto": "12 metros"},
+      {"letra": "E", "texto": "14 metros"}
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["medidas", "subtração"],
+    "dica_curta": "Compare os dois trens: o segundo tem 1 vagão a mais do que o primeiro. Essa diferença de tamanho entre os trens é o tamanho de 1 vagão só.",
+    "primeiro_passo": "Subtraia o comprimento do primeiro trem do comprimento do segundo trem. Esse resultado é o tamanho de um vagão.",
+    "solucao_completa": "O primeiro trem (locomotiva + 2 vagões) mede 28 metros. O segundo trem (locomotiva + 3 vagões) mede 38 metros. A única diferença entre os dois trens é 1 vagão a mais.\n\nEntão, 1 vagão mede 38 − 28 = **10 metros**.\n\nO primeiro trem tem locomotiva + 2 vagões = 28 metros. Como os 2 vagões juntos medem 2 × 10 = 20 metros, a locomotiva mede 28 − 20 = **8 metros**.\n\nResposta: **B**"
+  },
+  "13": {
+    "enunciado_md": "No jogo do pirata, a peça de Marcelo está na casa de número 6. Ele joga uma moeda: se sair cara, anda com a peça uma casa para a direita; se sair coroa, volta uma casa para a esquerda. Ele pode jogar só mais 4 vezes para tentar chegar com a peça até o tesouro. O que podemos dizer com certeza?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "Marcelo nunca vai chegar ao tesouro."},
+      {"letra": "B", "texto": "Marcelo pode ser pego pelo pirata depois das 4 jogadas."},
+      {"letra": "C", "texto": "Marcelo pode terminar o jogo na casa 9."},
+      {"letra": "D", "texto": "Marcelo pode terminar o jogo na casa 6, onde começou."},
+      {"letra": "E", "texto": "Marcelo pode terminar o jogo na casa 5."}
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "figura_essencial": true,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["lógica", "pares e ímpares"],
+    "dica_curta": "Marcelo começa numa casa par (a casa 6), e a cada jogada ele anda só 1 casinha. Pense: depois de 4 jogadas, ele para numa casa par ou numa casa ímpar?",
+    "primeiro_passo": "Imagine 2 caras e 2 coroas, em qualquer ordem. Vá andando a peça casinha por casinha e veja onde ela para no final.",
+    "solucao_completa": "Marcelo começa na casa 6. A cada jogada ele anda só 1 casinha, para a direita ou para a esquerda, e ele vai jogar 4 vezes ao todo.\n\nSe sair 2 caras e 2 coroas, em qualquer ordem, ele anda 2 casas pra frente e 2 pra trás — e termina de volta na casa **6**, onde começou! Então essa opção pode realmente acontecer.\n\nAs outras opções não podem ser garantidas:\n\n- Chegar ao tesouro (casa 10) é possível, bastam 4 caras seguidas — então dizer que ele \"nunca\" chega é falso.\n- Com só 4 jogadas, ele anda no máximo 4 casas, então não dá para chegar até a casa 0, do pirata.\n- Começando numa casa par, depois de 4 jogadas Marcelo sempre para numa casa par também. Por isso as casas 9 e 5, que são ímpares, são impossíveis.\n\nA única coisa que podemos afirmar com certeza é que ele pode terminar na casa 6, de onde começou.\n\nResposta: **D**"
+  },
+  "14": {
+    "enunciado_md": "Quantos são os números de 2 algarismos que têm a dezena ímpar e a unidade par?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "5"},
+      {"letra": "B", "texto": "10"},
+      {"letra": "C", "texto": "15"},
+      {"letra": "D", "texto": "20"},
+      {"letra": "E", "texto": "25"}
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["contagem", "pares e ímpares"],
+    "dica_curta": "Pense separado: quantos algarismos ímpares existem para a casa da dezena? E quantos algarismos pares existem para a casa da unidade?",
+    "primeiro_passo": "Liste os algarismos ímpares que podem ficar na dezena, o primeiro número. Depois liste os algarismos pares que podem ficar na unidade, o segundo número.",
+    "solucao_completa": "Um número de 2 algarismos tem uma casa da dezena e uma casa da unidade.\n\nA dezena precisa ser ímpar. Os algarismos ímpares são 1, 3, 5, 7 e 9 → **5 opções**.\n\nA unidade precisa ser par. Os algarismos pares são 0, 2, 4, 6 e 8 → **5 opções**.\n\nPara cada uma das 5 dezenas possíveis, dá para combinar com qualquer uma das 5 unidades possíveis. Então o total é 5 × 5 = **25 números**.\n\n(Por exemplo: 10, 12, 14... até 98.)\n\nResposta: **E**"
+  },
+  "15": {
+    "enunciado_md": "Cinco amigos estavam juntos durante as férias e se esqueceram em que dia da semana estavam. Ao tentar descobrir que dia era, cada um deles disse o seguinte:\n\n- Alceu: \"ontem foi quarta-feira\".\n- Bruno: \"amanhã será sexta-feira\".\n- Célio: \"anteontem foi terça-feira\".\n- Davi: \"depois de amanhã será sábado\".\n- Ernesto: \"hoje é segunda-feira\".\n\nApenas um dos amigos estava errado. Qual deles errou?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {"letra": "A", "texto": "Alceu"},
+      {"letra": "B", "texto": "Bruno"},
+      {"letra": "C", "texto": "Célio"},
+      {"letra": "D", "texto": "Davi"},
+      {"letra": "E", "texto": "Ernesto"}
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "figura_essencial": false,
+    "problemas": "",
+    "status": "aprovado",
+    "tags": ["lógica", "dias da semana"],
+    "dica_curta": "Todo mundo está pensando no mesmo dia de \"hoje\". Descubra que dia cada amigo quis dizer, e veja quem ficou sozinho com uma resposta diferente.",
+    "primeiro_passo": "Comece pelo Alceu: se ontem foi quarta-feira, que dia é hoje? Faça a mesma pergunta para cada amigo.",
+    "solucao_completa": "Vamos descobrir que dia é \"hoje\" segundo cada amigo:\n\n- Alceu: ontem foi quarta-feira → hoje é **quinta-feira**.\n- Bruno: amanhã será sexta-feira → hoje é **quinta-feira**.\n- Célio: anteontem foi terça-feira → hoje é **quinta-feira**.\n- Davi: depois de amanhã será sábado → hoje é **quinta-feira**.\n- Ernesto: hoje é **segunda-feira**.\n\nQuatro amigos (Alceu, Bruno, Célio e Davi) chegaram todos na mesma resposta: quinta-feira! Só o Ernesto disse um dia diferente.\n\nComo apenas um amigo errou, esse amigo só pode ser o **Ernesto**.\n\nResposta: **E**"
+  }
+}
