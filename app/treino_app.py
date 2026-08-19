@@ -48,6 +48,8 @@ ACCESS_PIN = st.secrets.get("PIN", "")
 PERFIS = {
     "rui": {"nome": "Rui", "trilhas": ["mirim_m2"], "gist_arquivo": "progresso_rui.json"},
     "rafael": {"nome": "Rafael", "trilhas": ["mirim_m1"], "gist_arquivo": "progresso_rafael.json"},
+    "bebel": {"nome": "Bebel", "trilhas": ["mirim_m2"], "gist_arquivo": "progresso_bebel.json"},
+    "rui_filho": {"nome": "Rui Filho", "trilhas": ["mirim_m2"], "gist_arquivo": "progresso_rui_filho.json"},
 }
 
 st.set_page_config(layout="centered", page_title="Cangurivis - Treino")
