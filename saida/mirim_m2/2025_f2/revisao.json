@@ -1,0 +1,541 @@
+{
+  "1": {
+    "enunciado_md": "Paulinho escreveu os números de 1 até 10 em seus dedos, olhou para eles e viu que ficaram como na figura ao lado. Depois ele virou as mãos, cruzou os braços e dobrou 2 de seus dedos; ficou assim: Qual é a soma dos números escritos nos dedos que ele dobrou?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10"
+      },
+      {
+        "letra": "B",
+        "texto": "11"
+      },
+      {
+        "letra": "C",
+        "texto": "12"
+      },
+      {
+        "letra": "D",
+        "texto": "13"
+      },
+      {
+        "letra": "E",
+        "texto": "14"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "operacoes basicas",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Olha com calma pra imagem de depois: quais dois dedos ficaram dobrados, escondidos por baixo dos braços cruzados?",
+    "primeiro_passo": "Ache o número que estava escrito em cada um desses dois dedos antes de cruzar os braços.",
+    "solucao_completa": "- Na primeira figura, cada dedo tem um número de 1 a 10.\n- Quando Paulinho cruza os braços e dobra 2 dedos, os dedos dobrados são o anelar da mão esquerda (que tinha o número **4**) e o dedo médio da mão direita (que tinha o número **8**).\n- Somando: 4 + 8 = **12**.\n- Resposta certa: **C**."
+  },
+  "2": {
+    "enunciado_md": "Rafael escreveu em seu caderno os números de 10 a 30. Quantas vezes ele escreveu o algarismo 1?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9"
+      },
+      {
+        "letra": "B",
+        "texto": "10"
+      },
+      {
+        "letra": "C",
+        "texto": "12"
+      },
+      {
+        "letra": "D",
+        "texto": "13"
+      },
+      {
+        "letra": "E",
+        "texto": "14"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "sistema de numeracao",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Não conta só os números que começam com 1 — o algarismo 1 também pode aparecer na casa das unidades.",
+    "primeiro_passo": "Separe em duas contagens: quantas vezes o 1 aparece na casa das dezenas (nos números de 10 a 19), e quantas vezes ele aparece na casa das unidades (nos números terminados em 1).",
+    "solucao_completa": "- Na casa das dezenas: os números 10, 11, 12, 13, 14, 15, 16, 17, 18 e 19 têm todos um 1 na dezena — são **10** algarismos 1.\n- Na casa das unidades: de 10 a 30, os números terminados em 1 são 11 e 21 — mais **2** algarismos 1.\n- Repara que o 11 já foi contado uma vez na dezena e agora conta mais uma vez na unidade, porque tem os dois 1 mesmo.\n- No total: 10 + 2 = **12**.\n- Resposta certa: **C**."
+  },
+  "3": {
+    "enunciado_md": "Três carrinhos estão posicionados numa pista, como na figura ao lado. Os três carrinhos andam sempre com a mesma velocidade e dão uma volta completa na pista em 10 segundos. Como os carrinhos estarão depois de 5 segundos andando no sentido indicado pela seta?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "orientacao espacial",
+      "raciocinio visual"
+    ],
+    "dica_curta": "5 segundos é bem menos que 10 — pensa em que fração da volta completa isso é.",
+    "primeiro_passo": "10 segundos é uma volta inteira, então 5 segundos é meia volta. Cada carrinho vai parar exatamente do lado oposto de onde estava, andando na mesma direção.",
+    "solucao_completa": "- 5 segundos é a metade de 10 segundos, então em 5 segundos cada carrinho dá **meia volta** na pista.\n- O carrinho verde (1) está à esquerda, voltado para cima; depois de meia volta ele vai parar à direita, voltado para baixo.\n- Os carrinhos amarelo (2) e vermelho (3) estão embaixo, voltados para a esquerda; depois de meia volta eles vão parar em cima, voltados para a direita — com o amarelo na frente do vermelho (a ordem entre eles não muda).\n- A alternativa que mostra exatamente essa posição é a **C**."
+  },
+  "4": {
+    "enunciado_md": "Ana, Bia, Carla e Duda são as únicas na fila da lanchonete. Ana é a última da fila e Duda está junto de Bia e Ana na fila. Quem são as duas primeiras meninas da fila?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Bia e Duda"
+      },
+      {
+        "letra": "B",
+        "texto": "Carla e Bia"
+      },
+      {
+        "letra": "C",
+        "texto": "Carla e Duda"
+      },
+      {
+        "letra": "D",
+        "texto": "Bia e Ana"
+      },
+      {
+        "letra": "E",
+        "texto": "Carla e Ana"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas"
+    ],
+    "dica_curta": "Ana é a última — então quem fica bem na frente dela, encostada nela?",
+    "primeiro_passo": "Duda está do lado de Bia e também do lado de Ana. Como só tem 4 pessoas na fila, isso só é possível numa posição: Duda fica entre Bia e Ana.",
+    "solucao_completa": "- Ana é a última da fila (4ª posição).\n- Duda está \"junto de\" Bia e de Ana ao mesmo tempo — ou seja, Duda fica entre as duas, na 3ª posição, com Bia na 2ª e Ana na 4ª.\n- Sobra Carla para a 1ª posição, porque é a única que ainda não tem lugar.\n- Fila: Carla, Bia, Duda, Ana.\n- As duas primeiras são **Carla e Bia** — alternativa **B**."
+  },
+  "5": {
+    "enunciado_md": "Marcelina quer guardar 4 livros diferentes em uma estante, em pé, lado a lado. São 2 livros de Português e 2 de Matemática. Ela quer que os livros da mesma matéria fiquem juntos. De quantas maneiras diferentes ela pode fazer isso?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "8"
+      },
+      {
+        "letra": "E",
+        "texto": "12"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "combinatoria basica",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Primeiro decide qual matéria fica do lado esquerdo, depois pensa na ordem dentro de cada dupla.",
+    "primeiro_passo": "Os livros de Matemática podem ficar à esquerda ou à direita dos de Português (2 jeitos). Dentro de cada dupla, os 2 livros também podem trocar de lugar entre si.",
+    "solucao_completa": "- As duas matérias podem ficar em 2 ordens: Matemática-Português ou Português-Matemática.\n- Dentro do grupo de Matemática, os 2 livros podem trocar de posição entre si: 2 jeitos.\n- Dentro do grupo de Português, os 2 livros também podem trocar de posição entre si: 2 jeitos.\n- Multiplicando tudo: 2 × 2 × 2 = **8** maneiras diferentes.\n- Resposta certa: **D**."
+  },
+  "6": {
+    "enunciado_md": "A tabela mostra a quantidade de ração que cada tipo de peixe e o polvo comem por dia. Para manter o aquário da figura é preciso 105 gramas de ração por dia. Quantos gramas de ração o polvo come por dia?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10"
+      },
+      {
+        "letra": "B",
+        "texto": "15"
+      },
+      {
+        "letra": "C",
+        "texto": "20"
+      },
+      {
+        "letra": "D",
+        "texto": "25"
+      },
+      {
+        "letra": "E",
+        "texto": "30"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "leitura de tabelas e graficos",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Soma primeiro quanto só os peixes comem, sem contar o polvo.",
+    "primeiro_passo": "Olhe a tabela e o desenho do aquário: quantos peixes de cada tipo tem, e quanto cada um come. Multiplique quantidade × ração de cada tipo.",
+    "solucao_completa": "- No aquário tem 2 peixes que comem 15g cada: 2 × 15 = 30g.\n- Tem 1 peixe que come 20g: 1 × 20 = 20g.\n- Tem 3 peixes que comem 10g cada: 3 × 10 = 30g.\n- Só os peixes comem, juntos: 30 + 20 + 30 = 80g por dia.\n- Como o aquário todo (peixes + polvo) precisa de 105g, o polvo come 105 − 80 = **25g**.\n- Resposta certa: **D**."
+  },
+  "7": {
+    "enunciado_md": "Um cubo de madeira foi pintado de vermelho e depois cortado em 27 cubinhos de mesmo tamanho, como indicado na figura. Quantos dos 27 cubinhos possuem apenas uma de suas faces pintadas de vermelho?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "8"
+      },
+      {
+        "letra": "D",
+        "texto": "10"
+      },
+      {
+        "letra": "E",
+        "texto": "27"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "geometria de solidos",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Pensa em cada face grande do cubo separadamente: só o quadradinho bem no meio de cada face é que tem só 1 lado pintado.",
+    "primeiro_passo": "O cubo grande tem 6 faces. Em cada face, o cubinho central (o do meio dos 9 quadradinhos daquela face) é o único que só encosta no vermelho por um lado.",
+    "solucao_completa": "- O cubo grande é cortado em 3×3×3 = 27 cubinhos.\n- Em cada uma das 6 faces do cubo grande, olhando de fora, tem 9 quadradinhos: os 4 cantos, os 4 do meio de cada lado e 1 bem no centro.\n- Só o cubinho do **centro de cada face** tem exatamente 1 face pintada — os outros da borda têm 2 ou 3 faces pintadas (porque também encostam nas quinas).\n- Como são 6 faces, tem 6 cubinhos assim — um no centro de cada face.\n- Resposta certa: **B**."
+  },
+  "8": {
+    "enunciado_md": "Dez figuras, duas de cada tipo, foram distribuídas para Ana, Beto, Carla, Daniel e Elisa: Ana recebeu quadrado e círculo; Beto recebeu triângulo e coração; Carla recebeu círculo e estrela; Daniel recebeu triângulo e quadrado; Elisa recebeu duas figuras que faltam descobrir. Quais figuras Elisa recebeu?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Cada tipo de figura só existe em 2 cópias — se já apareceram as duas de um tipo, aquele tipo já está completo.",
+    "primeiro_passo": "Veja quais figuras já apareceram duas vezes (quadrado: Ana e Daniel; círculo: Ana e Carla; triângulo: Beto e Daniel) — essas já estão completas. Sobra achar quais tipos ainda faltam aparecer a 2ª vez.",
+    "solucao_completa": "- Os dois quadrados já apareceram: um com Ana, outro com Daniel.\n- Os dois círculos já apareceram: um com Ana, outro com Carla.\n- Os dois triângulos já apareceram: um com Beto, outro com Daniel.\n- Só apareceu 1 coração (com Beto) e 1 estrela (com Carla) até agora — então a segunda estrela e o segundo coração são de Elisa.\n- Resposta certa: **A** (estrela e coração)."
+  },
+  "9": {
+    "enunciado_md": "O cubo de Martina tem as letras A, B, C, D, E e F, uma em cada face. Martina rolou seu cubo sobre a mesa, como mostrado abaixo. Qual é a letra que está na face oposta à face com a letra F?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A"
+      },
+      {
+        "letra": "B",
+        "texto": "B"
+      },
+      {
+        "letra": "C",
+        "texto": "C"
+      },
+      {
+        "letra": "D",
+        "texto": "D"
+      },
+      {
+        "letra": "E",
+        "texto": "E"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "geometria de solidos",
+      "orientacao espacial"
+    ],
+    "dica_curta": "Cada vez que o cubo rola, dá pra ver quais letras ficam encostadas uma na outra — as que nunca ficam encostadas são as opostas.",
+    "primeiro_passo": "No 1º giro dá pra ver que C e D nunca ficam encostadas — elas são opostas. No 2º giro, o mesmo acontece com A e E: são opostas.",
+    "solucao_completa": "- Rolando o cubo, dá pra observar quais pares de letras nunca aparecem encostadas uma na outra nesses giros — esses pares são as faces opostas.\n- No primeiro giro, dá pra ver que **C e D são opostas**.\n- No segundo giro, dá pra ver que **A e E são opostas**.\n- Sobraram as letras B e F, que são as duas que restam — como só existem 3 pares de faces opostas (6 faces = 3 pares), **B e F são o par que falta**.\n- Resposta certa: **B**."
+  },
+  "10": {
+    "enunciado_md": "Se Paulinho desse todo seu dinheiro para Aninha, ela ficaria com 25 reais. Se Aninha desse metade do seu dinheiro para Paulinho, ele ficaria com 19 reais. Quantos reais tem Paulinho?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12"
+      },
+      {
+        "letra": "B",
+        "texto": "13"
+      },
+      {
+        "letra": "C",
+        "texto": "15"
+      },
+      {
+        "letra": "D",
+        "texto": "16"
+      },
+      {
+        "letra": "E",
+        "texto": "18"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "operacoes basicas",
+      "logica com pistas"
+    ],
+    "dica_curta": "As duas frases falam de somas diferentes envolvendo o dinheiro dos dois — tenta escrever cada uma como uma soma.",
+    "primeiro_passo": "Chame de P o dinheiro do Paulinho e A o da Aninha. A 1ª frase diz P + A = 25. A 2ª diz P + metade de A = 19. A diferença entre as duas somas é justamente a outra metade de A.",
+    "solucao_completa": "- Juntos, Paulinho e Aninha têm 25 reais (P + A = 25).\n- Se Aninha dá só metade do seu dinheiro pro Paulinho, ele fica com 19 reais (P + metade de A = 19).\n- A diferença entre as duas contas é 25 − 19 = 6, e essa diferença é exatamente a **outra metade** do dinheiro de Aninha que não entrou na segunda conta.\n- Então a metade do dinheiro de Aninha é 6, ou seja, Aninha tem 12 reais.\n- Como P + A = 25, Paulinho tem 25 − 12 = **13 reais**.\n- Resposta certa: **B**."
+  },
+  "11": {
+    "enunciado_md": "As duas figuras foram feitas com quadradinhos brancos de um lado e pretos do outro. Se um quadradinho for virado, ele deve permanecer na mesma posição em que estava. Quantos quadradinhos da figura da esquerda devem ser virados para que ela se transforme na figura da direita?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12"
+      },
+      {
+        "letra": "B",
+        "texto": "14"
+      },
+      {
+        "letra": "C",
+        "texto": "16"
+      },
+      {
+        "letra": "D",
+        "texto": "18"
+      },
+      {
+        "letra": "E",
+        "texto": "20"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem sistematica",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Separa o retângulo final em duas partes: a borda (que ficou branca) e o miolo (que ficou preto), e compara cada parte com o que tinha antes naquele lugar.",
+    "primeiro_passo": "Conte quantos quadradinhos pretos estão na posição da borda da figura inicial (eles precisam virar pra branco) e quantos quadradinhos brancos estão na posição do miolo da figura inicial (eles precisam virar pra preto).",
+    "solucao_completa": "- Na figura final, a borda é toda branca e o miolo é todo preto.\n- Olhando a figura inicial: na posição da borda, tem **10 quadradinhos pretos** que precisam virar para ficarem brancos.\n- Na posição do miolo, tem **8 quadradinhos brancos** que precisam virar para ficarem pretos.\n- No total: 10 + 8 = **18** quadradinhos precisam ser virados.\n- Resposta certa: **D**."
+  },
+  "12": {
+    "enunciado_md": "Milena tinha um colar com 8 miçangas, como mostra a figura ao lado. Ela removeu 4 miçangas pelas pontas do colar. Qual alternativa NÃO mostra como o colar pode ter ficado?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "padroes e sequencias",
+      "raciocinio visual"
+    ],
+    "dica_curta": "O colar original tem uma ordem fixa de miçangas — remover pelas pontas só tira pedaços inteiros de uma ponta ou das duas, sem embaralhar a ordem do meio.",
+    "primeiro_passo": "Escreva a sequência original com uma letra pra cada tipo de miçanga, e veja quais 4 seguidas (de uma ponta, da outra, ou de cada ponta) sobram em cada alternativa.",
+    "solucao_completa": "- A sequência original do colar, de uma ponta à outra, é: estrela, coração, coração, bolinha, bolinha, coração, bolinha, estrela.\n- Remover 4 miçangas pelas pontas só pode tirar um pedaço do começo, um pedaço do fim, ou um pedaço de cada ponta — nunca do meio.\n- Nas alternativas A, B, C e D, sobra sempre um pedaço de 4 miçangas seguidas que realmente aparece nessa ordem dentro do colar original.\n- Na alternativa **E**, a ordem que sobrou não bate com nenhum pedaço contínuo do colar original — por isso ela é a que **NÃO** pode ter acontecido.\n- Resposta certa: **E**."
+  },
+  "13": {
+    "enunciado_md": "Marcelo vai pintar um cartaz e tem 4 cores de tinta à sua disposição: amarela, branca, cinza e dourada. Ele precisa usar duas ou três dessas cores, porém: se usar tinta amarela, não pode usar branca; se usar tinta cinza, não pode usar dourada; se usar tinta cinza, também deve usar branca. Qual das alternativas mostra uma possível combinação de cores para Marcelo pintar o cartaz?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Amarela e cinza"
+      },
+      {
+        "letra": "B",
+        "texto": "Branca, cinza e dourada"
+      },
+      {
+        "letra": "C",
+        "texto": "Amarela e branca"
+      },
+      {
+        "letra": "D",
+        "texto": "Cinza, dourada e amarela"
+      },
+      {
+        "letra": "E",
+        "texto": "Branca e dourada"
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas",
+      "combinatoria basica"
+    ],
+    "dica_curta": "Vai testando cada alternativa contra as 3 regras, uma de cada vez — no primeiro 'não pode' que a combinação quebrar, já dá pra descartar.",
+    "primeiro_passo": "Lembre as 3 regras: amarela proíbe branca; cinza proíbe dourada; cinza exige branca junto.",
+    "solucao_completa": "- Alternativa A (amarela e cinza): usar cinza exige usar branca junto, e essa combinação não tem branca — quebra a regra.\n- Alternativa B (branca, cinza e dourada): cinza proíbe dourada, e aqui as duas aparecem juntas — quebra a regra.\n- Alternativa C (amarela e branca): amarela proíbe branca, e aqui as duas aparecem juntas — quebra a regra.\n- Alternativa D (cinza, dourada e amarela): cinza proíbe dourada, e aqui as duas aparecem juntas — quebra a regra.\n- Alternativa E (branca e dourada): não tem amarela, então a 1ª regra nem entra em jogo; não tem cinza, então a 2ª e a 3ª regra também nem entram em jogo — nenhuma regra é quebrada.\n- Resposta certa: **E**."
+  },
+  "14": {
+    "enunciado_md": "Ana e Bia têm juntas seis doces (2 laranja, 2 rosa, 2 azul). Elas dividem os doces em quantidades iguais e de acordo com o que cada uma gosta: Ana gosta do doce laranja e do rosa, mas não gosta do azul; Bia gosta do doce laranja e do azul, mas não gosta do rosa. Qual alternativa mostra os doces com que uma delas ficou?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Cada uma fica com 3 doces (metade de 6) — e nenhuma das duas pode ficar com um doce que não gosta.",
+    "primeiro_passo": "Ana não gosta de azul, então os 2 doces azuis têm que ir todos para a Bia. Bia não gosta de rosa, então os 2 doces rosa têm que ir todos para a Ana.",
+    "solucao_completa": "- No total são 6 doces, então cada menina fica com 3.\n- Ana não gosta do doce azul, então os **2 doces azuis** só podem ficar com a Bia.\n- Bia não gosta do doce rosa, então os **2 doces rosa** só podem ficar com a Ana.\n- Sobraram os 2 doces laranja, que as duas gostam — um fica com cada uma.\n- Então: Ana fica com laranja + rosa + rosa, e Bia fica com laranja + azul + azul.\n- A alternativa que mostra certinho um desses dois conjuntos é a **E** (Bia: laranja, azul, azul).\n- Resposta certa: **E**."
+  },
+  "15": {
+    "enunciado_md": "Um mágico transforma 4 chapéus em uma varinha e 4 varinhas em um chapéu. Sempre que o mágico pode, ele faz uma transformação. Agora ele está com 3 chapéus e 7 varinhas. Após fazer as transformações possíveis, com o que vai ficar o mágico?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1 chapéu"
+      },
+      {
+        "letra": "B",
+        "texto": "1 varinha"
+      },
+      {
+        "letra": "C",
+        "texto": "2 chapéus"
+      },
+      {
+        "letra": "D",
+        "texto": "2 varinhas"
+      },
+      {
+        "letra": "E",
+        "texto": "1 chapéu e 1 varinha"
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "operacoes basicas",
+      "logica com pistas"
+    ],
+    "dica_curta": "Vai fazendo uma troca de cada vez, sempre que der: 4 varinhas viram 1 chapéu, ou 4 chapéus viram 1 varinha — repete até não dar mais pra trocar nada.",
+    "primeiro_passo": "Ele começa com 3 chapéus e 7 varinhas. Como tem 4 ou mais varinhas, já pode trocar 4 varinhas por 1 chapéu.",
+    "solucao_completa": "- Começando com 3 chapéus e 7 varinhas: como tem 7 varinhas (≥4), troca 4 varinhas por 1 chapéu → fica com 4 chapéus e 3 varinhas.\n- Agora tem 4 chapéus (≥4) e só 3 varinhas: troca 4 chapéus por 1 varinha → fica com 0 chapéus e 4 varinhas.\n- Agora tem 4 varinhas de novo: troca 4 varinhas por 1 chapéu → fica com 1 chapéu e 0 varinhas.\n- Não dá mais pra fazer nenhuma troca (não chega a 4 de nada), então ele termina com **1 chapéu**.\n- Resposta certa: **A**."
+  }
+}

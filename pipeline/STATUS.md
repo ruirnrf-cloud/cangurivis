@@ -1,5 +1,46 @@
 # Fase 3 — status
 
+## Fase 7 — 2025 F2 M2 extraída manualmente, Rui zerou o banco (31/08/2026)
+
+O Rui respondeu as 105/105 questões disponíveis (7 provas, 2022-2025 F1) e pediu mais. A 8ª prova
+da trilha (`2025_F2_M2`) estava pendente desde a Fase 3 por ter texto vetorizado no PDF (`get_text()`
+devolve 0-74 caracteres por página — o segmentador por âncora de texto não funciona nela, mesmo
+problema já registrado antes).
+
+**Resolvido sem mudar o pipeline automático**: como o texto não existe, não dá pra usar
+`segmentar.py`/`gabarito.py` (dependem de `get_text()`). Em vez disso:
+- **Bandas de questão**: as linhas horizontais que separam as questões são desenho vetorial de
+  verdade (não texto), então `page.get_drawings()` acha essas linhas normalmente mesmo com o texto
+  vetorizado. Usei isso pra recortar as 15 bandas por posição (3 páginas × 5 questões), sem precisar
+  ler número de questão nenhum via OCR.
+- **Gabarito**: o PDF de solução (`2025_F2_SOL_M2.pdf`) tem texto normal em quase todas as páginas
+  (só a primeira página, com as questões 1-3, veio vetorizada) — o regex `QUESTAO N - ALTERNATIVA X`
+  funcionou direto pra Q4-15; Q1-3 eu li visualmente na página renderizada.
+- **Enunciados, alternativas, tags e as 3 camadas de solução** (`dica_curta`/`primeiro_passo`/
+  `solucao_completa`) escritos por mim, olhando a imagem de cada questão + o PDF de solução oficial
+  completo (que tem raciocínio comentado, não só gabarito) — mesmo padrão de qualidade da Fase 4.
+  **0 divergências** entre minha resolução e a oficial nas 15.
+
+**Achado colateral, não bloqueante**: o cabeçalho de repetição nas páginas internas do PDF de
+solução (`2025_F2_SOL_M2.pdf`) imprime "MIRIM 1" por engano (typo da própria OBMEP) mesmo sendo a
+prova de "4º e 5º anos" (= Mirim 2, nível do Rui) — confirmado pela capa da mesma prova, que diz
+corretamente "MIRIM 2 - 2025", e pelo teor das questões (mesmo padrão de dificuldade das outras 7
+provas M2 já no banco). Não afeta nada porque o pipeline nunca leu esse título, só documentando
+caso alguém estranhe ao abrir o PDF original.
+
+Saída em `saida/mirim_m2/2025_f2/` (`rascunho.json`, `revisao.json`, `paginas/qNN_full.png`),
+mesmo schema das outras 7 provas — validado: 15/15 ids únicos e no padrão `mirim-2025-f2-m2-qNN`,
+gabarito batendo entre `rascunho.json` e `revisao.json`, todas com as 3 camadas de solução
+preenchidas, distribuição de letras não degenerada (`{C:3, B:4, D:3, A:2, E:3}`), todas as 15
+imagens existindo em disco. Confirmado via `carregar_banco()` do próprio app: o pool da trilha
+`mirim_m2` foi de 105 para **120 questões** (8 provas × 15) sem tocar em nenhum código do app —
+só apareceu porque o glob já varre `saida/mirim_m2/*/rascunho.json`. Não rodei figura isolada
+(`figuras.py`) porque `treino_app.py` nunca usa esse campo, só a imagem cheia da banda.
+
+**Falta**: commitar e dar push pro repo (`ruirnrf-cloud/cangurivis`) — o app rodando no Streamlit
+Community Cloud lê o banco a partir do git, não do disco local, então sem o push o Rui não vê as
+15 questões novas no app publicado.
+
 ## Fase 6 — segundo perfil: Rafael entra no app (18-19/08/2026, sessão noturna autônoma)
 
 O usuário pediu pra partir pro Rafael (7 anos, 2º ano) e foi dormir, autorizando trabalho

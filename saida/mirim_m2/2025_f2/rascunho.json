@@ -1,0 +1,486 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m2",
+    "ano": 2025,
+    "fase": 2
+  },
+  "pdf_prova": "acervo/mirim/2025_F2_PROVA_M2.pdf",
+  "pdf_solucao": "acervo/mirim/2025_F2_SOL_M2.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2025-f2-m2-q01",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 59.9,
+        "y_bottom": 227.9
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q01_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Paulinho escreveu os números de 1 até 10 em seus dedos, olhou para eles e viu que ficaram como na figura ao lado. Depois ele virou as mãos, cruzou os braços e dobrou 2 de seus dedos; ficou assim: Qual é a soma dos números escritos nos dedos que ele dobrou?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "10"
+        },
+        {
+          "letra": "B",
+          "texto": "11"
+        },
+        {
+          "letra": "C",
+          "texto": "12"
+        },
+        {
+          "letra": "D",
+          "texto": "13"
+        },
+        {
+          "letra": "E",
+          "texto": "14"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2025-f2-m2-q02",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 231.9,
+        "y_bottom": 343.2
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q02_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Rafael escreveu em seu caderno os números de 10 a 30. Quantas vezes ele escreveu o algarismo 1?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "9"
+        },
+        {
+          "letra": "B",
+          "texto": "10"
+        },
+        {
+          "letra": "C",
+          "texto": "12"
+        },
+        {
+          "letra": "D",
+          "texto": "13"
+        },
+        {
+          "letra": "E",
+          "texto": "14"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2025-f2-m2-q03",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 347.2,
+        "y_bottom": 562.0
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q03_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Três carrinhos estão posicionados numa pista, como na figura ao lado. Os três carrinhos andam sempre com a mesma velocidade e dão uma volta completa na pista em 10 segundos. Como os carrinhos estarão depois de 5 segundos andando no sentido indicado pela seta?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2025-f2-m2-q04",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 566.0,
+        "y_bottom": 691.6
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q04_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Ana, Bia, Carla e Duda são as únicas na fila da lanchonete. Ana é a última da fila e Duda está junto de Bia e Ana na fila. Quem são as duas primeiras meninas da fila?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "Bia e Duda"
+        },
+        {
+          "letra": "B",
+          "texto": "Carla e Bia"
+        },
+        {
+          "letra": "C",
+          "texto": "Carla e Duda"
+        },
+        {
+          "letra": "D",
+          "texto": "Bia e Ana"
+        },
+        {
+          "letra": "E",
+          "texto": "Carla e Ana"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2025-f2-m2-q05",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 695.6,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q05_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Marcelina quer guardar 4 livros diferentes em uma estante, em pé, lado a lado. São 2 livros de Português e 2 de Matemática. Ela quer que os livros da mesma matéria fiquem juntos. De quantas maneiras diferentes ela pode fazer isso?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "6"
+        },
+        {
+          "letra": "D",
+          "texto": "8"
+        },
+        {
+          "letra": "E",
+          "texto": "12"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2025-f2-m2-q06",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 59.7,
+        "y_bottom": 230.7
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q06_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "A tabela mostra a quantidade de ração que cada tipo de peixe e o polvo comem por dia. Para manter o aquário da figura é preciso 105 gramas de ração por dia. Quantos gramas de ração o polvo come por dia?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "10"
+        },
+        {
+          "letra": "B",
+          "texto": "15"
+        },
+        {
+          "letra": "C",
+          "texto": "20"
+        },
+        {
+          "letra": "D",
+          "texto": "25"
+        },
+        {
+          "letra": "E",
+          "texto": "30"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2025-f2-m2-q07",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 234.7,
+        "y_bottom": 374.8
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q07_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Um cubo de madeira foi pintado de vermelho e depois cortado em 27 cubinhos de mesmo tamanho, como indicado na figura. Quantos dos 27 cubinhos possuem apenas uma de suas faces pintadas de vermelho?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "6"
+        },
+        {
+          "letra": "C",
+          "texto": "8"
+        },
+        {
+          "letra": "D",
+          "texto": "10"
+        },
+        {
+          "letra": "E",
+          "texto": "27"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2025-f2-m2-q08",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 378.8,
+        "y_bottom": 533.4
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q08_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Dez figuras, duas de cada tipo, foram distribuídas para Ana, Beto, Carla, Daniel e Elisa: Ana recebeu quadrado e círculo; Beto recebeu triângulo e coração; Carla recebeu círculo e estrela; Daniel recebeu triângulo e quadrado; Elisa recebeu duas figuras que faltam descobrir. Quais figuras Elisa recebeu?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2025-f2-m2-q09",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 537.4,
+        "y_bottom": 685.2
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q09_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "O cubo de Martina tem as letras A, B, C, D, E e F, uma em cada face. Martina rolou seu cubo sobre a mesa, como mostrado abaixo. Qual é a letra que está na face oposta à face com a letra F?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "A"
+        },
+        {
+          "letra": "B",
+          "texto": "B"
+        },
+        {
+          "letra": "C",
+          "texto": "C"
+        },
+        {
+          "letra": "D",
+          "texto": "D"
+        },
+        {
+          "letra": "E",
+          "texto": "E"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2025-f2-m2-q10",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 689.2,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q10_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Se Paulinho desse todo seu dinheiro para Aninha, ela ficaria com 25 reais. Se Aninha desse metade do seu dinheiro para Paulinho, ele ficaria com 19 reais. Quantos reais tem Paulinho?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "12"
+        },
+        {
+          "letra": "B",
+          "texto": "13"
+        },
+        {
+          "letra": "C",
+          "texto": "15"
+        },
+        {
+          "letra": "D",
+          "texto": "16"
+        },
+        {
+          "letra": "E",
+          "texto": "18"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2025-f2-m2-q11",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 59.9,
+        "y_bottom": 198.3
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q11_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "As duas figuras foram feitas com quadradinhos brancos de um lado e pretos do outro. Se um quadradinho for virado, ele deve permanecer na mesma posição em que estava. Quantos quadradinhos da figura da esquerda devem ser virados para que ela se transforme na figura da direita?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "12"
+        },
+        {
+          "letra": "B",
+          "texto": "14"
+        },
+        {
+          "letra": "C",
+          "texto": "16"
+        },
+        {
+          "letra": "D",
+          "texto": "18"
+        },
+        {
+          "letra": "E",
+          "texto": "20"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2025-f2-m2-q12",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 202.3,
+        "y_bottom": 309.7
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q12_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Milena tinha um colar com 8 miçangas, como mostra a figura ao lado. Ela removeu 4 miçangas pelas pontas do colar. Qual alternativa NÃO mostra como o colar pode ter ficado?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2025-f2-m2-q13",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 313.7,
+        "y_bottom": 487.4
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q13_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Marcelo vai pintar um cartaz e tem 4 cores de tinta à sua disposição: amarela, branca, cinza e dourada. Ele precisa usar duas ou três dessas cores, porém: se usar tinta amarela, não pode usar branca; se usar tinta cinza, não pode usar dourada; se usar tinta cinza, também deve usar branca. Qual das alternativas mostra uma possível combinação de cores para Marcelo pintar o cartaz?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "Amarela e cinza"
+        },
+        {
+          "letra": "B",
+          "texto": "Branca, cinza e dourada"
+        },
+        {
+          "letra": "C",
+          "texto": "Amarela e branca"
+        },
+        {
+          "letra": "D",
+          "texto": "Cinza, dourada e amarela"
+        },
+        {
+          "letra": "E",
+          "texto": "Branca e dourada"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2025-f2-m2-q14",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 491.4,
+        "y_bottom": 682.4
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q14_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Ana e Bia têm juntas seis doces (2 laranja, 2 rosa, 2 azul). Elas dividem os doces em quantidades iguais e de acordo com o que cada uma gosta: Ana gosta do doce laranja e do rosa, mas não gosta do azul; Bia gosta do doce laranja e do azul, mas não gosta do rosa. Qual alternativa mostra os doces com que uma delas ficou?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2025-f2-m2-q15",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 686.4,
+        "y_bottom": 837.9
+      },
+      "imagem_questao": "saida/mirim_m2/2025_f2/paginas/q15_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Um mágico transforma 4 chapéus em uma varinha e 4 varinhas em um chapéu. Sempre que o mágico pode, ele faz uma transformação. Agora ele está com 3 chapéus e 7 varinhas. Após fazer as transformações possíveis, com o que vai ficar o mágico?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "1 chapéu"
+        },
+        {
+          "letra": "B",
+          "texto": "1 varinha"
+        },
+        {
+          "letra": "C",
+          "texto": "2 chapéus"
+        },
+        {
+          "letra": "D",
+          "texto": "2 varinhas"
+        },
+        {
+          "letra": "E",
+          "texto": "1 chapéu e 1 varinha"
+        }
+      ],
+      "confianca_texto": "alta"
+    }
+  }
+}
