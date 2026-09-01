@@ -46,7 +46,7 @@ ACCESS_PIN = st.secrets.get("PIN", "")
 # diferente) e tem o progresso gravado num arquivo proprio dentro do mesmo
 # Gist -- nunca mistura o banco nem o log dos dois.
 PERFIS = {
-    "rui": {"nome": "Rui", "trilhas": ["mirim_m2"], "gist_arquivo": "progresso_rui.json"},
+    "rui": {"nome": "Rui", "trilhas": ["mirim_m2", "pmc"], "gist_arquivo": "progresso_rui.json"},
     "rafael": {"nome": "Rafael", "trilhas": ["mirim_m1"], "gist_arquivo": "progresso_rafael.json"},
     "bebel": {"nome": "Bebel", "trilhas": ["mirim_m2"], "gist_arquivo": "progresso_bebel.json"},
     "rui_filho": {"nome": "Rui Filho", "trilhas": ["mirim_m2"], "gist_arquivo": "progresso_rui_filho.json"},
@@ -81,7 +81,11 @@ def carregar_banco(trilhas):
             pool.append({
                 "id": q_raw["id"],
                 "prova": prova_dir.split("/")[-1],
-                "imagem_questao": q_raw["imagem_questao"],
+                "modo": q_raw.get("modo", "imagem"),
+                "imagem_questao": q_raw.get("imagem_questao"),
+                "enunciado_md": q_raw.get("enunciado_md"),
+                "alternativas": q_raw.get("alternativas"),
+                "figura": q_raw.get("figura"),
                 "gabarito": q_rev["gabarito"],
                 "tags": q_rev.get("tags", []),
                 "dica_curta": q_rev.get("dica_curta", ""),
@@ -347,7 +351,13 @@ col_nivel.metric("🏆 Nível", stats["nivel"])
 col_combo.metric("🔥 Combo", st.session_state.combo)
 
 st.caption(f"Questão {st.session_state.pos + 1} de {len(fila)} nesta sessão · {q['prova']}")
-st.image(q["imagem_questao"], width="stretch")
+if q.get("modo") == "texto":
+    st.markdown(q["enunciado_md"])
+    if q.get("figura"):
+        st.image(q["figura"], width="stretch")
+    st.markdown("  \n".join(f"**{a['letra']})** {a['texto']}" for a in q["alternativas"]))
+else:
+    st.image(q["imagem_questao"], width="stretch")
 
 if st.session_state.get("acabou_de_acertar"):
     st.balloons()

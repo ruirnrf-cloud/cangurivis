@@ -1,5 +1,67 @@
 # Fase 3 — status
 
+## Fase 8 — primeira fonte estrangeira: Primary Maths Challenge (Reino Unido), traduzida (31/08/2026)
+
+Usuário pediu pra buscar provas de outros países pra não depender só da OBMEP. Antes de sair
+extraindo, pesquisei 3 fontes (Canguru Internacional/França, Primary Maths Challenge do Reino
+Unido, agregadores tipo matematica.pt) comparando nível de idade, formato e — mais importante —
+se cada uma publica **gabarito comentado oficial** (o que torna possível conferir minha resolução
+contra uma fonte de verdade, como já fazemos com a OBMEP) ou só a letra certa sem explicação.
+
+**Descartado**: Canguru da França (mathkang.org) tem "corrigé détaillé" excelente e nível de idade
+ótimo (8-10 anos, Sujet É), mas cada PDF traz um aviso explícito proibindo qualquer reprodução,
+mesmo parcial, sem autorização — mais restritivo que qualquer coisa já usada no projeto. Descartado
+por decisão consciente, não tentei extrair nada de lá. Canguru Brasil/agregadores só têm gabarito
+sem explicação — não dá pra verificar.
+
+**Escolhido**: Primary Maths Challenge (organizado pela The Mathematical Association, Reino
+Unido) — "Answers and Notes" oficiais e gratuitos com raciocínio explicado por questão, nível
+Year 5/6 (9-11 anos, bate com os 10 anos do Rui), copyright padrão "all rights reserved" sem aviso
+extra de proibição de reprodução parcial (mesmo nível de risco já aceito com a OBMEP, uso privado
+em repositório fechado).
+
+**Prova extraída**: novembro de 2022 (25 questões no original; usei só as 20 primeiras, que são de
+múltipla escolha A-E — as 5 finais são de resposta numérica livre, formato que o app não suporta
+ainda). PDF de questões e de gabarito comentado têm texto real extraível (não vetorizado) —
+`pipeline/segmentar.py` funcionou direto neles sem nenhuma adaptação, mesmo sendo de outra fonte.
+
+**Mudança de arquitetura necessária**: diferente da OBMEP (onde a imagem da questão já vem pronta
+em português), aqui o texto original está em inglês *dentro da imagem* — não dava pra só recortar
+a página como sempre fizemos, porque isso mostraria a pergunta em inglês pro Rui. Resolvido
+adicionando um segundo modo de exibição no app: `treino_app.py` agora aceita questões com
+`"modo": "texto"` no rascunho (enunciado e alternativas traduzidos, renderizados como Markdown,
+com uma figura opcional só do diagrama — sem o texto em inglês ao redor — quando a questão
+depende de uma imagem, tipo o problema do estacionamento ou o "zigue-zague" de triângulos). O modo
+antigo (`"imagem"`, imagem inteira pronta) continua funcionando exatamente igual pras 8 provas da
+OBMEP — mudança aditiva, sem regressão. Isolei as figuras essenciais (4 das 20 questões: esfinge
+de triângulos, zigue-zague, estacionamento, planta de dois cômodos) cortando pela posição do
+desenho vetorial/raster na página, excluindo o texto ao redor — testado visualmente questão por
+questão num app Streamlit isolado até sobrar zero sobra de texto em inglês nas figuras.
+
+**Tradução e verificação**: as 20 questões foram traduzidas pra um português simples de criança de
+10 anos, mantendo as unidades originais (libras, pence, milhas, mph) em vez de converter pra
+reais/km — trocar as unidades exigiria reescrever a matemática do problema, não só o idioma.
+Solução em 3 camadas escrita conferindo contra o raciocínio oficial do "Answers and Notes" de
+cada questão (não inventei nada nem resolvi diferente do gabarito). Uma ressalva registrada na
+Q12 (estacionamento): a nota oficial descreve uma sequência de movimentos usando letras de carro
+(A, B, C...) que não consegui mapear com certeza pros carros da imagem que recortei — a solução
+escrita explica a *estratégia* geral (desembaraçar primeiro os carros que travam outros carros)
+sem inventar uma sequência de movimentos que eu não tenho como confirmar pixel a pixel.
+
+**Novo perfil de trilha**: `saida/pmc/2022_uk/` (mesmo padrão de pastas — `rascunho.json` +
+`revisao.json`, mas sem `paginas/`, já que o modo texto não usa imagem cheia). `PERFIS["rui"]` em
+`treino_app.py` ganhou a trilha `"pmc"` além de `"mirim_m2"`. Validado: 20/20 ids únicos
+(`pmc-2022-qNN`), gabarito batendo entre rascunho/revisão, distribuição de letras não degenerada
+(`{D:6, C:5, A:3, B:3, E:3}`), todas as figuras existindo. Testado ao vivo: rodei
+`streamlit run app/treino_app.py` localmente (precisou `pip install streamlit requests` nessa
+máquina) e conferi que o perfil do Rui carrega as 35 questões pendentes (15 da 2025_f2 + 20 do
+PMC) sem erro, com o modo texto renderizando enunciado + figura + alternativas certinho.
+
+**Fica pra próxima**: as 5 questões finais de cada prova do PMC (resposta numérica livre, sem
+alternativa) ainda não têm suporte no app — se vier mais gente pra esse pipeline, dá pra adicionar
+um terceiro modo de resposta livre. Só uma prova (nov/2022) processada; tem pelo menos mais 4 anos
+disponíveis gratuitamente pra repetir o processo se o Rui gostar do formato.
+
 ## Fase 7 — 2025 F2 M2 extraída manualmente, Rui zerou o banco (31/08/2026)
 
 O Rui respondeu as 105/105 questões disponíveis (7 provas, 2022-2025 F1) e pediu mais. A 8ª prova

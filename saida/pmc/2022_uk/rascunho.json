@@ -1,0 +1,613 @@
+{
+  "fonte": {
+    "olimpiada_slug": "pmc",
+    "pais": "reino-unido",
+    "ano": 2022,
+    "edicao": "novembro"
+  },
+  "pdf_prova_original": "https://www.m-a.org.uk/resources/Primary%20Mathematics%20Challenge%2022.pdf",
+  "pdf_solucao_original": "https://www.m-a.org.uk/resources/Answersandnotesnov22v2.pdf",
+  "n_questoes": 20,
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "pmc-2022-q01",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Qual é a menor quantidade de moedas necessária para formar 8 pence (8p)? (No Reino Unido, 100 pence = 1 libra; existem moedas de 1p, 2p, 5p, 10p, 20p, 50p, entre outras.)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "5"
+        },
+        {
+          "letra": "D",
+          "texto": "6"
+        },
+        {
+          "letra": "E",
+          "texto": "8"
+        }
+      ],
+      "figura": null
+    },
+    "2": {
+      "numero": 2,
+      "id": "pmc-2022-q02",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Custa 20 pence (20p) para carregar a bateria da minha patinete elétrica, e com essa carga ela percorre 25 milhas. Quanto custaria se essa patinete percorresse 100 milhas?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "80p"
+        },
+        {
+          "letra": "B",
+          "texto": "£1"
+        },
+        {
+          "letra": "C",
+          "texto": "£2"
+        },
+        {
+          "letra": "D",
+          "texto": "£4"
+        },
+        {
+          "letra": "E",
+          "texto": "£6"
+        }
+      ],
+      "figura": null
+    },
+    "3": {
+      "numero": 3,
+      "id": "pmc-2022-q03",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "A gata Tilly e seus 4 filhotes comem, cada um, 3 petiscos por dia. Quantos petiscos eles comem juntos, ao todo, em um dia?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "7"
+        },
+        {
+          "letra": "C",
+          "texto": "15"
+        },
+        {
+          "letra": "D",
+          "texto": "20"
+        },
+        {
+          "letra": "E",
+          "texto": "21"
+        }
+      ],
+      "figura": null
+    },
+    "4": {
+      "numero": 4,
+      "id": "pmc-2022-q04",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "A gaivota Chico está voando para o leste. Só que ela é atingida por outra gaivota, que a faz girar 180° no sentido horário. Para que direção Chico fica voltado agora?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "leste"
+        },
+        {
+          "letra": "B",
+          "texto": "norte"
+        },
+        {
+          "letra": "C",
+          "texto": "nordeste"
+        },
+        {
+          "letra": "D",
+          "texto": "sul"
+        },
+        {
+          "letra": "E",
+          "texto": "oeste"
+        }
+      ],
+      "figura": null
+    },
+    "5": {
+      "numero": 5,
+      "id": "pmc-2022-q05",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Ringa Bell demora 20 minutos para ir de bicicleta até a escola, que fica a 1 milha da casa dela. Qual é a velocidade média dela?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2 mph"
+        },
+        {
+          "letra": "B",
+          "texto": "3 mph"
+        },
+        {
+          "letra": "C",
+          "texto": "4 mph"
+        },
+        {
+          "letra": "D",
+          "texto": "5 mph"
+        },
+        {
+          "letra": "E",
+          "texto": "6 mph"
+        }
+      ],
+      "figura": null
+    },
+    "6": {
+      "numero": 6,
+      "id": "pmc-2022-q06",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Essa forma, chamada de \"esfinge\", é feita de triângulos equiláteros, todos do mesmo tamanho. Quantos desses triângulos são necessários para formar essa esfinge?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "6"
+        },
+        {
+          "letra": "D",
+          "texto": "8"
+        },
+        {
+          "letra": "E",
+          "texto": "10"
+        }
+      ],
+      "figura": "saida/pmc/2022_uk/figuras/q06.png"
+    },
+    "7": {
+      "numero": 7,
+      "id": "pmc-2022-q07",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Um abrigo de animais tem a mesma quantidade de papagaios, gatos e cachorros. Quando a dona do abrigo olha para todos os bichinhos, ela conta 30 patas ao todo. Quantos gatos tem no abrigo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "3"
+        },
+        {
+          "letra": "C",
+          "texto": "4"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ],
+      "figura": null
+    },
+    "8": {
+      "numero": 8,
+      "id": "pmc-2022-q08",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "A aranha e a lesma se gostam muito. Elas estão a 44 cm de distância uma da outra. A aranha corre em direção à lesma a 7 cm por segundo, e a lesma desliza em direção à aranha a 4 cm por segundo. Quanto tempo até elas se encontrarem?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2 seg"
+        },
+        {
+          "letra": "B",
+          "texto": "3 seg"
+        },
+        {
+          "letra": "C",
+          "texto": "4 seg"
+        },
+        {
+          "letra": "D",
+          "texto": "12 seg"
+        },
+        {
+          "letra": "E",
+          "texto": "60 seg"
+        }
+      ],
+      "figura": null
+    },
+    "9": {
+      "numero": 9,
+      "id": "pmc-2022-q09",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Meu professor de matemática, o senhor Adão Rapidinho, tem 18 meias (9 pares). Ele troca de meias limpas a cada três dias. Por quantos dias ele consegue usar essas meias até precisar lavar todas?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12"
+        },
+        {
+          "letra": "B",
+          "texto": "18"
+        },
+        {
+          "letra": "C",
+          "texto": "21"
+        },
+        {
+          "letra": "D",
+          "texto": "27"
+        },
+        {
+          "letra": "E",
+          "texto": "36"
+        }
+      ],
+      "figura": null
+    },
+    "10": {
+      "numero": 10,
+      "id": "pmc-2022-q10",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Na figura abaixo, todos os triângulos são equiláteros. A linha pontilhada mede 12 cm de comprimento. Qual é o comprimento total da linha em ziguezague?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12 cm"
+        },
+        {
+          "letra": "B",
+          "texto": "16 cm"
+        },
+        {
+          "letra": "C",
+          "texto": "18 cm"
+        },
+        {
+          "letra": "D",
+          "texto": "24 cm"
+        },
+        {
+          "letra": "E",
+          "texto": "28 cm"
+        }
+      ],
+      "figura": "saida/pmc/2022_uk/figuras/q10.png"
+    },
+    "11": {
+      "numero": 11,
+      "id": "pmc-2022-q11",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "O Guloso adora pacotinhos de Bombons Docinhos™. As lojas fazem promoções do tipo \"leve X pelo preço de 2\". Qual dessas promoções dá o preço mais barato por pacotinho?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 pelo preço de 2"
+        },
+        {
+          "letra": "B",
+          "texto": "2 pelo preço de 2"
+        },
+        {
+          "letra": "C",
+          "texto": "3 pelo preço de 2"
+        },
+        {
+          "letra": "D",
+          "texto": "4 pelo preço de 2"
+        },
+        {
+          "letra": "E",
+          "texto": "5 pelo preço de 2"
+        }
+      ],
+      "figura": null
+    },
+    "12": {
+      "numero": 12,
+      "id": "pmc-2022-q12",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Nesse problema de estacionamento, os carros só podem andar para frente e para trás (não para os lados). Qual é a menor quantidade de carros que preciso mover antes de conseguir tirar o meu carro do estacionamento em linha reta? (Na figura, \"MY CAR\" é o seu carro e a seta \"EXIT\" mostra a saída.)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "5"
+        },
+        {
+          "letra": "D",
+          "texto": "6"
+        },
+        {
+          "letra": "E",
+          "texto": "7"
+        }
+      ],
+      "figura": "saida/pmc/2022_uk/figuras/q12.png"
+    },
+    "13": {
+      "numero": 13,
+      "id": "pmc-2022-q13",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Os algarismos do ano 2022 somam 6 (2+0+2+2=6). Quantos anos vai demorar até isso acontecer de novo (a soma dos algarismos de um ano dar 6 outra vez)?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "7"
+        },
+        {
+          "letra": "C",
+          "texto": "8"
+        },
+        {
+          "letra": "D",
+          "texto": "9"
+        },
+        {
+          "letra": "E",
+          "texto": "10"
+        }
+      ],
+      "figura": null
+    },
+    "14": {
+      "numero": 14,
+      "id": "pmc-2022-q14",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Uma barrinha de cereal tem 7,5 g de açúcar. É recomendado que crianças de 10 anos consumam no máximo 24 g de açúcar por dia. Quantas dessas barrinhas você pode comer sem ultrapassar esse limite?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ],
+      "figura": null
+    },
+    "15": {
+      "numero": 15,
+      "id": "pmc-2022-q15",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Qual é a opção mais barata para o contrato de celular da Seerat, pensando no custo de um ano inteiro?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "£50 a cada 6 meses"
+        },
+        {
+          "letra": "B",
+          "texto": "£26 a cada 3 meses"
+        },
+        {
+          "letra": "C",
+          "texto": "£18 a cada 2 meses"
+        },
+        {
+          "letra": "D",
+          "texto": "um pagamento anual de £120"
+        },
+        {
+          "letra": "E",
+          "texto": "um pagamento mensal de £9"
+        }
+      ],
+      "figura": null
+    },
+    "16": {
+      "numero": 16,
+      "id": "pmc-2022-q16",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "O Dr. Beto Trilho diz que um trem viajando a uma velocidade média de 50 mph consegue completar uma viagem em 3 horas. Quanto tempo vai levar um trem-bala viajando a uma velocidade média de 150 mph para fazer a mesma viagem?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "36 min"
+        },
+        {
+          "letra": "B",
+          "texto": "40 min"
+        },
+        {
+          "letra": "C",
+          "texto": "45 min"
+        },
+        {
+          "letra": "D",
+          "texto": "1 hora"
+        },
+        {
+          "letra": "E",
+          "texto": "80 min"
+        }
+      ],
+      "figura": null
+    },
+    "17": {
+      "numero": 17,
+      "id": "pmc-2022-q17",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "A senhora Maçã tem um pomar de macieiras e adora organizar as maçãs. Ela consegue colocar todas as maçãs em sacolas de 4 sem sobrar nenhuma, ou em sacolas de 5 sem sobrar nenhuma. Qual desses números pode ser a quantidade de maçãs que ela tem?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "88"
+        },
+        {
+          "letra": "B",
+          "texto": "92"
+        },
+        {
+          "letra": "C",
+          "texto": "108"
+        },
+        {
+          "letra": "D",
+          "texto": "112"
+        },
+        {
+          "letra": "E",
+          "texto": "120"
+        }
+      ],
+      "figura": null
+    },
+    "18": {
+      "numero": 18,
+      "id": "pmc-2022-q18",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "O diagrama mostra a planta de dois cômodos vizinhos. Alguns dos comprimentos e das áreas estão indicados. Qual é o perímetro (a soma de todos os lados de fora) da forma combinada dos dois cômodos?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "36 m"
+        },
+        {
+          "letra": "B",
+          "texto": "38 m"
+        },
+        {
+          "letra": "C",
+          "texto": "41 m"
+        },
+        {
+          "letra": "D",
+          "texto": "42 m"
+        },
+        {
+          "letra": "E",
+          "texto": "45 m"
+        }
+      ],
+      "figura": "saida/pmc/2022_uk/figuras/q18.png"
+    },
+    "19": {
+      "numero": 19,
+      "id": "pmc-2022-q19",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Qual é o resultado se você somar essas frações gigantes corretamente? 333.333.333⁄999.999.999 + 444.444.444⁄888.888.888 + 111.111.111⁄666.666.666",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "8.888.888.888/2.323.232.323"
+        },
+        {
+          "letra": "B",
+          "texto": "8/23"
+        },
+        {
+          "letra": "C",
+          "texto": "5/6"
+        },
+        {
+          "letra": "D",
+          "texto": "1"
+        },
+        {
+          "letra": "E",
+          "texto": "72"
+        }
+      ],
+      "figura": null
+    },
+    "20": {
+      "numero": 20,
+      "id": "pmc-2022-q20",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Uma pessoa comum consegue prender a respiração por cerca de 30 segundos, mas o recorde mundial pertence a Budimir Šobat, que prendeu a respiração por 24 minutos e 37,36 segundos. Quantos segundos é isso, arredondando pro segundo mais próximo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1440"
+        },
+        {
+          "letra": "B",
+          "texto": "1475"
+        },
+        {
+          "letra": "C",
+          "texto": "1476"
+        },
+        {
+          "letra": "D",
+          "texto": "1477"
+        },
+        {
+          "letra": "E",
+          "texto": "1480"
+        }
+      ],
+      "figura": null
+    }
+  }
+}

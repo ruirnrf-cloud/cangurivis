@@ -1,0 +1,217 @@
+{
+  "1": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "operacoes basicas"
+    ],
+    "dica_curta": "Pensa nas moedas inglesas disponíveis (1p, 2p, 5p, 10p...) e tenta usar as moedas de maior valor possível primeiro, pra sobrar menos moedas.",
+    "primeiro_passo": "Tenta montar 8p usando a moeda de 5p primeiro — quanto ainda falta depois disso?",
+    "solucao_completa": "- Usando 1 moeda de 5p, ainda falta 8 − 5 = 3p.\n- Pra fazer 3p com o menor número de moedas, usa 1 moeda de 2p e 1 moeda de 1p (2 + 1 = 3).\n- No total: 1 moeda de 5p + 1 de 2p + 1 de 1p = **3 moedas**.\n- Não dá pra fazer com menos de 3, porque não existe moeda de 3p, 6p, 7p nem 8p sozinha.\n- Resposta certa: **A**."
+  },
+  "2": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "proporcao e razao",
+      "operacoes basicas"
+    ],
+    "dica_curta": "100 milhas é quantas vezes 25 milhas?",
+    "primeiro_passo": "Descubra quantas 'cargas de 25 milhas' cabem dentro de 100 milhas, e multiplique o custo de uma carga por esse número.",
+    "solucao_completa": "- 100 milhas ÷ 25 milhas = 4 vezes.\n- Ou seja, pra andar 100 milhas, a patinete precisa ser carregada 4 vezes.\n- Custo: 4 × 20p = 80p.\n- Resposta certa: **A**."
+  },
+  "3": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "operacoes basicas",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Quantos gatos são ao todo, contando a Tilly e os filhotes?",
+    "primeiro_passo": "Tilly + 4 filhotes = 5 gatos no total. Cada um come 3 petiscos.",
+    "solucao_completa": "- Ao todo são 1 (Tilly) + 4 (filhotes) = 5 gatos.\n- Cada gato come 3 petiscos por dia.\n- 5 × 3 = **15** petiscos.\n- Resposta certa: **C**."
+  },
+  "4": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "orientacao espacial"
+    ],
+    "dica_curta": "180° é meia volta — não importa se é sentido horário ou anti-horário, dá na mesma direção final.",
+    "primeiro_passo": "Pensa numa bússola: leste fica de um lado — qual é a direção exatamente oposta a ela?",
+    "solucao_completa": "- Girar 180° é dar meia volta — a direção final é sempre o **oposto exato** da direção inicial, não importa girar pro lado horário ou anti-horário.\n- O oposto de leste é **oeste**.\n- Resposta certa: **E**."
+  },
+  "5": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "proporcao e razao",
+      "operacoes basicas"
+    ],
+    "dica_curta": "1 hora tem 60 minutos — quantas vezes 20 minutos cabem numa hora?",
+    "primeiro_passo": "Se ela faz 1 milha em 20 minutos, em 1 hora (60 minutos, ou seja, 3 vezes mais tempo) ela faria 3 vezes mais milhas.",
+    "solucao_completa": "- 60 minutos (1 hora) ÷ 20 minutos = 3.\n- Em 1 hora ela percorreria 3 × 1 milha = 3 milhas.\n- Velocidade média: **3 mph** (milhas por hora).\n- Resposta certa: **B**."
+  },
+  "6": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "quebra-cabeca espacial",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Tenta dividir a forma em triângulos pequenos iguais, olhando os ângulos e os lados.",
+    "primeiro_passo": "Repare que a forma pode ser dividida em triangulozinhos do mesmo tamanho — quantos cabem em cada pedaço dela?",
+    "solucao_completa": "- A esfinge pode ser dividida em 6 triangulozinhos equiláteros iguais: 4 formando o triângulo maior da esquerda (ponta pra cima) e 2 formando o pedaço menor da direita.\n- Contando todos: 4 + 2 = **6** triângulos.\n- Resposta certa: **C**."
+  },
+  "7": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "logica com pistas",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Papagaio tem 2 patas, gato e cachorro têm 4 patas cada. Se tem a mesma quantidade dos três, pensa em 'um grupo' com 1 de cada.",
+    "primeiro_passo": "Um papagaio + um gato + um cachorro = 2 + 4 + 4 = 10 patas. Quantas vezes esse grupo de 10 patas cabe em 30?",
+    "solucao_completa": "- Um grupo com 1 papagaio, 1 gato e 1 cachorro tem 2 + 4 + 4 = 10 patas.\n- 30 patas ÷ 10 patas por grupo = 3 grupos.\n- Como tem a mesma quantidade de cada bicho, tem **3 gatos** (e também 3 papagaios e 3 cachorros).\n- Resposta certa: **B**."
+  },
+  "8": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "medidas",
+      "operacoes basicas"
+    ],
+    "dica_curta": "As duas estão se aproximando ao mesmo tempo, uma da outra — a distância entre elas diminui pela soma das duas velocidades a cada segundo.",
+    "primeiro_passo": "A cada segundo, a distância entre as duas diminui 7 + 4 cm. Quantos segundos até essa distância chegar a zero, partindo de 44 cm?",
+    "solucao_completa": "- A cada segundo, elas se aproximam 7 + 4 = 11 cm (a soma das duas velocidades).\n- 44 cm ÷ 11 cm por segundo = **4 segundos**.\n- Resposta certa: **C**."
+  },
+  "9": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "operacoes basicas",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Quantos 'pares' de meias ele tem, e quantos dias dura cada par?",
+    "primeiro_passo": "Ele tem 9 pares de meias, e cada par dura 3 dias antes de trocar.",
+    "solucao_completa": "- Ele tem 18 meias, ou seja, 9 pares.\n- Cada par de meias dura 3 dias antes de ele trocar por um par limpo.\n- 9 pares × 3 dias por par = **27 dias**.\n- Resposta certa: **D**."
+  },
+  "10": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "perimetro e area",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Compara, em cada triângulo, os dois lados que formam o ziguezague com o pedacinho da linha pontilhada que fica dentro dele — tem uma relação direta entre os dois.",
+    "primeiro_passo": "Em cada triângulo equilátero, os dois lados que formam o ziguezague juntos valem o dobro do pedaço da linha pontilhada que passa por aquele triângulo.",
+    "solucao_completa": "- Em cada triângulo, os dois lados que formam a linha em ziguezague juntos medem o dobro do pedacinho da linha pontilhada que atravessa aquele triângulo.\n- Isso vale pra linha toda: o comprimento total do ziguezague é o dobro do comprimento total da linha pontilhada.\n- A linha pontilhada mede 12 cm, então o ziguezague mede 2 × 12 = **24 cm**.\n- Resposta certa: **D**."
+  },
+  "11": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "logica com pistas"
+    ],
+    "dica_curta": "Em todas as opções ele paga o preço de 2 pacotinhos — o que muda é quantos pacotinhos ele LEVA por esse mesmo dinheiro.",
+    "primeiro_passo": "Quanto mais pacotinhos ele leva pagando sempre o preço de 2, mais barato fica cada pacotinho individualmente.",
+    "solucao_completa": "- Em todas as promoções, o Guloso paga sempre o preço de 2 pacotinhos — o que muda é a quantidade que ele leva para casa.\n- Quanto mais pacotinhos ele leva pagando o mesmo dinheiro (preço de 2), mais barato sai cada um.\n- A promoção que dá mais pacotinhos pelo preço de 2 é 'leve **5** pelo preço de 2' — é a mais vantajosa.\n- Resposta certa: **E**."
+  },
+  "12": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "quebra-cabeca espacial",
+      "orientacao espacial"
+    ],
+    "dica_curta": "Só vale andar carro pra frente/trás na própria fileira — vê qual caminho seu carro precisa percorrer até a saída, e quais carros bloqueiam esse caminho.",
+    "primeiro_passo": "Seu carro está numa fileira do meio e precisa atravessar até a saída — quais carros estão nesse caminho, e será que ELES têm espaço livre pra sair da frente?",
+    "solucao_completa": "- Esse é um quebra-cabeça de 'estacionar e sair', parecido com os jogos de arrastar carrinho: cada carro só anda pra frente ou pra trás dentro da própria fileira (coluna) em que está.\n- O seu carro está numa fileira do meio, e o caminho até a saída ('EXIT') está bloqueado por outros carros logo na frente.\n- Alguns desses carros bloqueadores não têm espaço livre na própria coluna — nesse caso, é preciso primeiro abrir espaço nessa coluna, movendo outro carro que está nela, antes de poder mover o bloqueador.\n- Seguindo esse raciocínio com cuidado (desembaraçando primeiro os carros que travam outros carros), dá pra abrir o caminho todo movendo **5 carros**, e nenhuma solução com menos movimentos funciona.\n- Resposta certa: **C**."
+  },
+  "13": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "contagem sistematica",
+      "sistema de numeracao"
+    ],
+    "dica_curta": "Vai testando os anos seguintes, um por um, somando os algarismos de cada um, até achar outro que dê 6.",
+    "primeiro_passo": "2023 soma 2+0+2+3=7. Continue testando os próximos anos, um de cada vez.",
+    "solucao_completa": "- 2023: 2+0+2+3 = 7 (não é 6).\n- 2024: 8. 2025: 9. 2026: 10. 2027: 11. 2028: 12. 2029: 13.\n- 2030: 2+0+3+0 = 5.\n- 2031: 2+0+3+1 = **6**! Achou.\n- De 2022 até 2031 são 2031 − 2022 = **9 anos**.\n- Resposta certa: **D**."
+  },
+  "14": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "operacoes basicas"
+    ],
+    "dica_curta": "Vai somando o açúcar barrinha por barrinha até passar de 24g — o número de barrinhas ANTES de passar é a resposta.",
+    "primeiro_passo": "4 barrinhas dariam 4 × 7,5 = 30g — isso já passa do limite. Testa com 3.",
+    "solucao_completa": "- 4 barrinhas teriam 4 × 7,5 = 30 g de açúcar — passa do limite de 24 g.\n- 3 barrinhas têm 3 × 7,5 = 22,5 g — isso fica dentro do limite de 24 g.\n- Então dá pra comer no máximo **3** barrinhas.\n- Resposta certa: **C**."
+  },
+  "15": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "proporcao e razao",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Cada opção dá o preço de um período diferente (6 meses, 3 meses, 2 meses...) — pra comparar direito, calcula quanto cada uma custaria num ANO inteiro (12 meses).",
+    "primeiro_passo": "Um ano tem 12 meses. Descubra quantas vezes cada período (6, 3, 2 ou 1 mês) cabe em 12 meses, e multiplique pelo preço daquele período.",
+    "solucao_completa": "- £50 a cada 6 meses: em 12 meses são 2 pagamentos de £50 → 2 × 50 = **£100 por ano**.\n- £26 a cada 3 meses: em 12 meses são 4 pagamentos de £26 → 4 × 26 = £104 por ano.\n- £18 a cada 2 meses: em 12 meses são 6 pagamentos de £18 → 6 × 18 = £108 por ano.\n- Pagamento anual de £120: já é o valor do ano inteiro, £120.\n- £9 por mês: em 12 meses → 12 × 9 = £108 por ano.\n- A opção mais barata no ano é **£50 a cada 6 meses** (£100).\n- Resposta certa: **A**."
+  },
+  "16": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "proporcao e razao",
+      "medidas"
+    ],
+    "dica_curta": "Se o trem novo é mais rápido, ele vai demorar MENOS tempo — quantas vezes mais rápido ele é?",
+    "primeiro_passo": "150 mph é quantas vezes mais rápido que 50 mph? O tempo de viagem diminui na mesma proporção.",
+    "solucao_completa": "- A distância da viagem é a mesma nos dois casos: 50 mph × 3 horas = 150 milhas.\n- O trem-bala é 150 ÷ 50 = 3 vezes mais rápido.\n- Sendo 3 vezes mais rápido, ele demora 3 vezes menos tempo: 3 horas ÷ 3 = **1 hora**.\n- Resposta certa: **D**."
+  },
+  "17": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "sistema de numeracao",
+      "operacoes basicas"
+    ],
+    "dica_curta": "O número de maçãs precisa ser múltiplo de 4 E múltiplo de 5 ao mesmo tempo.",
+    "primeiro_passo": "Testa cada alternativa: ela é múltiplo de 4? E de 5? Só serve se for as duas coisas ao mesmo tempo.",
+    "solucao_completa": "- Pra dar certo nas sacolas de 4 sem sobrar, o número tem que ser múltiplo de 4.\n- Pra dar certo nas sacolas de 5 sem sobrar, o número também tem que ser múltiplo de 5.\n- 88, 92, 108 e 112 não são múltiplos exatos de 5.\n- 120 ÷ 4 = 30 (exato) e 120 ÷ 5 = 24 (exato) — os dois funcionam!\n- Resposta certa: **E**."
+  },
+  "18": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "perimetro e area",
+      "medidas"
+    ],
+    "dica_curta": "Pra achar os lados que não estão marcados, usa a área e um dos lados que você já sabe de cada retângulo (área = base × altura).",
+    "primeiro_passo": "O retângulo de cima tem altura 6m e área 42m² — qual é a largura dele? O de baixo tem largura 4m e área 20m² — qual é a altura dele?",
+    "solucao_completa": "- O comprimento do retângulo de cima é 42 ÷ 6 = 7 m.\n- O comprimento do retângulo de baixo é 20 ÷ 4 = 5 m.\n- O trecho onde os dois retângulos se encostam mede 3 m (a diferença entre os 7m de cima e os 4m de baixo).\n- Somando todos os lados de fora da forma, no sentido horário a partir do topo: 7 + 6 + 2 + 4 + 5 + 4 + 4 + 6 = **38 m**.\n- Resposta certa: **B**."
+  },
+  "19": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "fracoes"
+    ],
+    "dica_curta": "Cada fração gigante, na verdade, simplifica pra uma fração bem menor e mais fácil — repara no padrão dos números repetidos.",
+    "primeiro_passo": "333333333/999999999 é a mesma coisa que 3/9, simplificado. Faz o mesmo com as outras duas frações.",
+    "solucao_completa": "- 333.333.333⁄999.999.999 é o mesmo que 3⁄9, ou seja, **1⁄3** (porque cada número é 111.111.111 multiplicado por 3 ou por 9).\n- 444.444.444⁄888.888.888 é o mesmo que 4⁄8, ou seja, **1⁄2**.\n- 111.111.111⁄666.666.666 é o mesmo que 1⁄6.\n- Somando: 1⁄3 + 1⁄2 + 1⁄6 = 2⁄6 + 3⁄6 + 1⁄6 = 6⁄6 = **1**.\n- Resposta certa: **D**."
+  },
+  "20": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "medidas",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Primeiro transforma os 24 minutos inteiros em segundos, depois soma os 37,36 segundos que sobraram.",
+    "primeiro_passo": "24 minutos × 60 segundos por minuto = quantos segundos?",
+    "solucao_completa": "- 24 minutos × 60 = 1440 segundos.\n- Somando os 37,36 segundos que sobram: 1440 + 37,36 = 1477,36 segundos.\n- Arredondando pro segundo mais próximo: **1477** segundos.\n- Resposta certa: **D**."
+  }
+}
