@@ -1,5 +1,46 @@
 # Fase 3 — status
 
+## Fase 10 — modos de treino no app: "Só 2ª fase" e "Simulado 2ª fase" (16/09/2026)
+
+**Por quê**: os dois passaram pra 2ª fase (10/11/2026) e o app sorteava F1 e F2 misturadas do
+pool inteiro — o Rafael ainda tinha muita F1 pela frente e não dava pra focar na 2ª fase.
+
+**O que mudou em `app/treino_app.py`** (item 2 da lista combinada na Fase 9):
+- **Tela de modo** depois de escolher o perfil (`MODOS`): `treino` (comportamento antigo, todas
+  as provas + escada de dicas), `f2` (só questões com `fase == 2`, com dicas) e `simulado`.
+  Cada questão do pool ganhou o campo `fase` (2 se a pasta termina em `_f2`, 1 se `_f1`, `None`
+  pro PMC `2022_uk`). A tela de fim de sessão ganhou o botão "Escolher outro modo de treino",
+  que limpa a sessão sem trocar o perfil (`limpar_sessao`).
+- **Simulado**: 15 questões de 2ª fase (`SIMULADO_N`), uma resposta por questão, sem dica, sem
+  dizer se acertou, com minutos decorridos no lugar dos pontos/nível/combo. A criança marca a
+  letra (botão vira `primary`) e pode trocar antes de "Confirmar e ir pra próxima" — evita perder
+  questão por toque errado no tablet. No final: acertos/15, tempo, e um expander por questão
+  errada com a imagem da questão, a letra marcada, o gabarito e a solução completa. Se não
+  sobram 15 F2 inéditas, completa com F2 já respondidas (embaralhadas) e avisa quantas foram
+  repetidas na tela final — simulado é pra treinar ritmo e formato, não só conteúdo.
+- **Log**: registro do simulado leva `"modo": "simulado"`, `tentativas: 1`, `dicas_usadas` 0
+  (acertou) ou 3 (errou). `calcular_stats`: errou no simulado vale **0 ponto** (não o 1 ponto do
+  "viu a solução" do treino) e **entra no denominador** da taxa de acerto de primeira (no
+  treino normal, `dicas_usadas == 3` continua fora, porque lá mede dificuldade, não resposta).
+- **Progresso sobre o banco inteiro**: `progresso_banco()` conta ids distintos do log que
+  existem no banco total do perfil (`ids_banco`), em vez de `ja_feitas_antes + feitas_agora`.
+  Isso corrigiu um bug pego no teste: no simulado com repetidas, a tela de progresso mostrava
+  "70/60" (repetidas contadas duas vezes, total do banco filtrado só em F2).
+- **Teste local sem sujar o Gist**: `CANGURIVIS_LOG_DIR` (env) manda o log pra arquivos nessa
+  pasta em vez do Gist e pula o PIN (que só protege a URL pública). Nova config
+  `cangurivis-treino-local` em `.claude/launch.json` (porta 8503, `.log_local/`, no
+  `.gitignore`). O app mostra "⚠️ Modo de teste" no topo quando está assim.
+
+**Testado ao vivo** (streamlit local, log em arquivo): Rafael → simulado de 15 (marcar, trocar
+letra, confirmar, tela final com 3/15, 30 pontos = 3 × 10, expander mostrando imagem + solução)
+→ "Escolher outro modo" → "Só 2ª fase" mostrou "Questão 1 de 45" (60 F2 − 15 do simulado).
+Bebel com log fabricado de 55 F2 respondidas → simulado montou 15 (5 inéditas + 10 repetidas,
+aviso correto no final) → progresso 60/120 e 81% de primeira (57/70) batendo com a conta na
+mão. Zero erros no console e no log do servidor.
+
+**Não mudou**: o treino normal e a escada de dicas ficaram idênticos; nenhum registro antigo
+do Gist precisa de migração (`modo` ausente = treino normal).
+
 ## Fase 9 — 2025 F2 M1 extraída manualmente: trilha do Rafael completa com as 4 provas de 2ª fase (16/09/2026)
 
 **Contexto**: Rui Neto e Rafael passaram pra 2ª fase da OBMEP Mirim 2026 (prova em 10/11/2026,

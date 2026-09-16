@@ -14,3 +14,6 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# progresso de teste local do app (CANGURIVIS_LOG_DIR=.log_local no launch.json)
+.log_local/
