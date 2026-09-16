@@ -1,0 +1,423 @@
+{
+  "fonte": {
+    "olimpiada_slug": "mirim",
+    "nivel_slug": "m1",
+    "ano": 2025,
+    "fase": 2
+  },
+  "pdf_prova": "acervo/mirim/2025_F2_PROVA_M1.pdf",
+  "pdf_solucao": "acervo/mirim/2025_F2_SOL_M1.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "mirim-2025-f2-m1-q01",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 56.0,
+        "y_bottom": 242.4
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q01_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Paulinho escreveu os números de 1 até 10 em seus dedos, olhou para eles e viu que ficaram como na figura ao lado. Depois ele virou as mãos, cruzou os braços e dobrou um de seus dedos; ficou assim: Qual é o número escrito no dedo que ele dobrou?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "3"
+        },
+        {
+          "letra": "C",
+          "texto": "7"
+        },
+        {
+          "letra": "D",
+          "texto": "8"
+        },
+        {
+          "letra": "E",
+          "texto": "9"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "2": {
+      "numero": 2,
+      "id": "mirim-2025-f2-m1-q02",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 245.4,
+        "y_bottom": 396.8
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q02_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "O professor de educação física contou 13 alunos na sua aula. Ele escolheu um dos alunos para apitar o jogo e dividiu os demais em dois times com a mesma quantidade de jogadores. Quantos jogadores ficaram em cada time?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "5"
+        },
+        {
+          "letra": "D",
+          "texto": "6"
+        },
+        {
+          "letra": "E",
+          "texto": "7"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "3": {
+      "numero": 3,
+      "id": "mirim-2025-f2-m1-q03",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 399.8,
+        "y_bottom": 589.2
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q03_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "A figura ao lado mostra como estava um painel duas horas atrás. Daquele instante até agora, a temperatura diminuiu 3 graus. Qual figura mostra o painel agora?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "4": {
+      "numero": 4,
+      "id": "mirim-2025-f2-m1-q04",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 592.2,
+        "y_bottom": 719.6
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q04_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Amanda tem seis cartões, com os números 1, 2, 3, 4, 5 e 6. Amanda escolheu três desses cartões e somou os números que estavam escritos nos cartões escolhidos. Qual é a maior soma que ela pode ter obtido?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "13"
+        },
+        {
+          "letra": "B",
+          "texto": "14"
+        },
+        {
+          "letra": "C",
+          "texto": "15"
+        },
+        {
+          "letra": "D",
+          "texto": "16"
+        },
+        {
+          "letra": "E",
+          "texto": "17"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "5": {
+      "numero": 5,
+      "id": "mirim-2025-f2-m1-q05",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 2,
+        "y_top": 722.6,
+        "y_bottom": 838.0
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q05_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Qual pulseira abaixo é diferente das outras quatro?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "6": {
+      "numero": 6,
+      "id": "mirim-2025-f2-m1-q06",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 55.8,
+        "y_bottom": 191.5
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q06_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Com 6 reais Luisinho pode comprar três lápis ou comprar um lápis e uma caneta, sem receber troco. Quanto custa a caneta?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "2 reais e 50 centavos"
+        },
+        {
+          "letra": "B",
+          "texto": "3 reais"
+        },
+        {
+          "letra": "C",
+          "texto": "3 reais e 50 centavos"
+        },
+        {
+          "letra": "D",
+          "texto": "4 reais"
+        },
+        {
+          "letra": "E",
+          "texto": "4 reais e 50 centavos"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "7": {
+      "numero": 7,
+      "id": "mirim-2025-f2-m1-q07",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 194.5,
+        "y_bottom": 397.0
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q07_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "José olhou o relógio pela manhã e ele marcava 10:00. No outro dia à tarde, ele olhou novamente para o relógio e viu que ele marcava 16:00. Quantas horas se passaram entre esses dois momentos?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "28 horas"
+        },
+        {
+          "letra": "B",
+          "texto": "30 horas"
+        },
+        {
+          "letra": "C",
+          "texto": "32 horas"
+        },
+        {
+          "letra": "D",
+          "texto": "33 horas"
+        },
+        {
+          "letra": "E",
+          "texto": "34 horas"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "8": {
+      "numero": 8,
+      "id": "mirim-2025-f2-m1-q08",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 400.0,
+        "y_bottom": 523.8
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q08_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Júlia quer terminar de preencher o tabuleiro ao lado com triângulos, círculos e estrelas nas cores branca, cinza e preta. Ela quer que cada linha e cada coluna do tabuleiro tenha figuras de todas essas formas e cores. Qual figura Júlia deve colocar no lugar da interrogação?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "9": {
+      "numero": 9,
+      "id": "mirim-2025-f2-m1-q09",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 526.8,
+        "y_bottom": 672.0
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q09_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Qual das peças abaixo pode ser encaixada em algum espaço em branco no tabuleiro ao lado?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "10": {
+      "numero": 10,
+      "id": "mirim-2025-f2-m1-q10",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "y_top": 675.0,
+        "y_bottom": 838.0
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q10_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Carolina cortou um triângulo grande em 3 pedaços: um quadrado e dois triângulos iguais, como na figura ao lado. Qual das figuras a seguir NÃO pode ser montada juntando esses 3 pedaços, lado a lado?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "11": {
+      "numero": 11,
+      "id": "mirim-2025-f2-m1-q11",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 56.0,
+        "y_bottom": 202.2
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q11_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Camila quer montar a figura pontilhada com quatro das cinco peças das alternativas. Duas peças só se juntam se os encaixes nas pontas forem iguais. Qual peça ela NÃO vai usar?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "12": {
+      "numero": 12,
+      "id": "mirim-2025-f2-m1-q12",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 205.2,
+        "y_bottom": 341.2
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q12_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Os bonequinhos abaixo formaram uma roda e cada um deles deu uma mão para seu vizinho da esquerda e outra mão para seu vizinho da direita. Quantas mãos ficaram livres?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "5"
+        },
+        {
+          "letra": "C",
+          "texto": "6"
+        },
+        {
+          "letra": "D",
+          "texto": "7"
+        },
+        {
+          "letra": "E",
+          "texto": "8"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "13": {
+      "numero": 13,
+      "id": "mirim-2025-f2-m1-q13",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 344.2,
+        "y_bottom": 509.7
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q13_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "Renato quer preencher toda a figura pontilhada usando a menor quantidade possível das peças abaixo (triângulo e losango). Quantas peças em forma de losango ele vai usar?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "3"
+        },
+        {
+          "letra": "C",
+          "texto": "4"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "14": {
+      "numero": 14,
+      "id": "mirim-2025-f2-m1-q14",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 512.7,
+        "y_bottom": 658.6
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q14_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "O cachorro e o gato pesam, juntos, 16 quilogramas. O cachorro e o coelho, 14 quilogramas. O gato e o coelho, 10 quilogramas. Qual é o peso, em quilogramas, dos três animais juntos?",
+      "alternativas_rascunho": [
+        {
+          "letra": "A",
+          "texto": "17"
+        },
+        {
+          "letra": "B",
+          "texto": "18"
+        },
+        {
+          "letra": "C",
+          "texto": "19"
+        },
+        {
+          "letra": "D",
+          "texto": "20"
+        },
+        {
+          "letra": "E",
+          "texto": "21"
+        }
+      ],
+      "confianca_texto": "alta"
+    },
+    "15": {
+      "numero": 15,
+      "id": "mirim-2025-f2-m1-q15",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 4,
+        "y_top": 661.6,
+        "y_bottom": 838.0
+      },
+      "imagem_questao": "saida/mirim_m1/2025_f2/paginas/q15_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "João tem uma roleta com dois círculos, um azul claro por cima e outro azul escuro por baixo. Cada círculo está dividido em seis partes e, em cada parte, há uma figura. João pode girar um círculo de cada vez. Ele girou um círculo e estas figuras ficaram juntas (foguete sobre foguete). Quais figuras também podem ter ficado juntas?",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    }
+  }
+}

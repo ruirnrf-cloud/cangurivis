@@ -1,5 +1,49 @@
 # Fase 3 — status
 
+## Fase 9 — 2025 F2 M1 extraída manualmente: trilha do Rafael completa com as 4 provas de 2ª fase (16/09/2026)
+
+**Contexto**: Rui Neto e Rafael passaram pra 2ª fase da OBMEP Mirim 2026 (prova em 10/11/2026,
+mesmo formato: 15 questões objetivas). A trilha `mirim_m1` do Rafael tinha 7 provas (faltava a
+`2025_F2_M1`, fora do pipeline automático desde a Fase 6 pelo texto vetorizado — `get_text()`
+devolve 0 caracteres nas páginas 2-4, e o `diagnostico.json` registrava "nenhuma âncora
+encontrada"). Repeti exatamente o caminho manual da Fase 7 (irmã `2025_F2_M2`).
+
+**Como foi feito** (script de geração ficou só no scratchpad da sessão, não entrou no repo —
+é descartável, o produto são os JSONs + PNGs):
+- **Bandas**: `get_drawings()` acha 5 linhas horizontais por página nas páginas 2-4
+  (p2: 45.0/243.4/397.8/590.2/720.6; p3: 44.8/192.5/398.0/524.8/673.0; p4:
+  45.0/203.2/342.2/510.7/659.6). Recorte linha-a-linha, 1ª banda começa 11pt abaixo da 1ª linha
+  (pra pular o rodapé do cabeçalho amarelo), última banda vai até y=838. 3 páginas × 5 = 15
+  bandas, renderizadas a 200 dpi (mesma escala das outras provas), full-width.
+- **Gabarito**: regex `QUESTAO N - ALTERNATIVA X` do `gabarito.py` pegou Q5-15 no PDF de solução;
+  a página 1 do PDF de solução (Q1-4) veio vetorizada e foi lida na imagem renderizada:
+  Q1 D, Q2 D, Q3 E, Q4 C. Distribuição final `{D:6, E:4, C:2, B:2, A:1}` — D domina 40%, abaixo
+  do limiar de 60% do `validar_basico`.
+- **Enunciados, alternativas, tags e as 3 camadas de solução** escritos olhando a imagem de cada
+  questão + as 6 páginas do PDF de solução oficial renderizadas (raciocínio comentado). Resolvi
+  as 15 do zero antes de olhar a solução: **0 divergências** com o gabarito oficial. Questões
+  visuais (Q5 pulseiras, Q9 tetraminós, Q11 encaixes, Q15 roleta) reconferidas em zoom a 220 dpi.
+  Q3, Q5, Q8, Q9, Q10, Q11 e Q15 têm alternativas em imagem (`alternativa_tipo: "imagem"`,
+  textos vazios, `alternativas_rascunho: null`, `confianca_texto: "baixa"`), mesmo padrão da
+  Fase 7.
+
+**Achado colateral, não bloqueante**: na solução oficial da Q11 o texto diz "A peça C tem em
+todos vértices círculos brancos" — mas a peça com três bolinhas brancas simples é a **A** (o
+gabarito oficial "ALTERNATIVA A" está certo, e a contagem de encaixes da própria solução
+oficial, 3 brancas finas / 5 pretas / 4 de borda grossa, só fecha com A de fora). Typo de letra
+da OBMEP, não afeta nada; minha solução usa a letra certa.
+
+**Validado**: 15/15 ids únicos no padrão `mirim-2025-f2-m1-qNN`, gabarito batendo entre
+`rascunho.json` e `revisao.json`, 3 camadas preenchidas em todas, 15 PNGs em disco, amostra
+(q01, q06, q10, q11, q15) conferida visualmente. Via `carregar_banco(["mirim_m1"])`: pool do
+Rafael foi de 105 para **120 questões** (8 provas × 15), sem tocar em código do app.
+`diagnostico.json` e a pasta `figuras/` vazia da Fase 6 foram removidos (mesmo estado final da
+pasta irmã `mirim_m2/2025_f2/`).
+
+**Próximos passos combinados pra preparação da 2ª fase** (não feitos nesta rodada): filtro de
+fase no app ("só 2ª fase" + simulado de 15 questões), lista de revisão das F2 erradas pelo Rui
+(via Gist), e mais uma prova do PMC pro Rui ter material novo.
+
 ## Fase 8 — primeira fonte estrangeira: Primary Maths Challenge (Reino Unido), traduzida (31/08/2026)
 
 Usuário pediu pra buscar provas de outros países pra não depender só da OBMEP. Antes de sair

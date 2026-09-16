@@ -1,0 +1,544 @@
+{
+  "1": {
+    "enunciado_md": "Paulinho escreveu os números de 1 até 10 em seus dedos, olhou para eles e viu que ficaram como na figura ao lado. Depois ele virou as mãos, cruzou os braços e dobrou um de seus dedos; ficou assim: Qual é o número escrito no dedo que ele dobrou?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2"
+      },
+      {
+        "letra": "B",
+        "texto": "3"
+      },
+      {
+        "letra": "C",
+        "texto": "7"
+      },
+      {
+        "letra": "D",
+        "texto": "8"
+      },
+      {
+        "letra": "E",
+        "texto": "9"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocínio visual",
+      "lateralidade"
+    ],
+    "dica_curta": "Olha a figura dos braços cruzados: qual dedo está dobrado? É o dedo do meio de uma das mãos.",
+    "primeiro_passo": "Na primeira figura, veja qual número está escrito no dedo do meio da mão que tem os números de 6 a 10.",
+    "solucao_completa": "- Na figura dos braços cruzados, o dedo dobrado é o dedo do meio (o mais comprido) da mão da direita de Paulinho.\n- Na primeira figura, essa mão tem os números 6, 7, 8, 9 e 10, e o dedo do meio tem o **8**.\n- Resposta certa: **D**."
+  },
+  "2": {
+    "enunciado_md": "O professor de educação física contou 13 alunos na sua aula. Ele escolheu um dos alunos para apitar o jogo e dividiu os demais em dois times com a mesma quantidade de jogadores. Quantos jogadores ficaram em cada time?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "5"
+      },
+      {
+        "letra": "D",
+        "texto": "6"
+      },
+      {
+        "letra": "E",
+        "texto": "7"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "subtração",
+      "divisão"
+    ],
+    "dica_curta": "Antes de dividir em times, tira da conta o aluno que vai apitar o jogo.",
+    "primeiro_passo": "13 − 1 = 12 alunos vão jogar.",
+    "solucao_completa": "- Dos 13 alunos, 1 vai apitar. Sobram 13 − 1 = **12** jogadores.\n- Os 12 são divididos em 2 times iguais: 6 + 6 = 12, então cada time tem **6** jogadores.\n- Resposta certa: **D**."
+  },
+  "3": {
+    "enunciado_md": "A figura ao lado mostra como estava um painel duas horas atrás. Daquele instante até agora, a temperatura diminuiu 3 graus. Qual figura mostra o painel agora?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "horas",
+      "subtração"
+    ],
+    "dica_curta": "Duas coisas mudam: o relógio anda 2 horas pra frente e a temperatura desce 3 graus.",
+    "primeiro_passo": "6:20 mais 2 horas dá 8:20. Agora vê o que acontece com os 20 graus.",
+    "solucao_completa": "- O relógio marcava 6:20 e passaram 2 horas, então agora marca **8:20**.\n- A temperatura era 20 graus e diminuiu 3: 20 − 3 = **17** graus.\n- O painel com 8:20 e 17 °C é o da alternativa **E**."
+  },
+  "4": {
+    "enunciado_md": "Amanda tem seis cartões, com os números 1, 2, 3, 4, 5 e 6. Amanda escolheu três desses cartões e somou os números que estavam escritos nos cartões escolhidos. Qual é a maior soma que ela pode ter obtido?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "13"
+      },
+      {
+        "letra": "B",
+        "texto": "14"
+      },
+      {
+        "letra": "C",
+        "texto": "15"
+      },
+      {
+        "letra": "D",
+        "texto": "16"
+      },
+      {
+        "letra": "E",
+        "texto": "17"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "soma",
+      "maior número"
+    ],
+    "dica_curta": "Pra soma ficar a maior possível, escolhe os cartões com os maiores números.",
+    "primeiro_passo": "Os três maiores cartões são 4, 5 e 6.",
+    "solucao_completa": "- A maior soma vem dos três maiores números: 4, 5 e 6.\n- 4 + 5 + 6 = **15**.\n- Resposta certa: **C**."
+  },
+  "5": {
+    "enunciado_md": "Qual pulseira abaixo é diferente das outras quatro?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocínio visual",
+      "rotação",
+      "padrões"
+    ],
+    "dica_curta": "Cada pulseira tem 5 bolinhas pretas e 3 brancas. Repara em como as pretas estão agrupadas: quantas ficam seguidas, uma do lado da outra?",
+    "primeiro_passo": "Em cada pulseira, conta o maior grupo de bolinhas pretas que estão juntas.",
+    "solucao_completa": "- Uma pulseira pode ser girada sem mudar. Então o que importa é a ordem das bolinhas, não a posição.\n- Nas pulseiras A, B, C e E, as bolinhas pretas aparecem em grupos de 2, 2 e 1 (com brancas entre eles). Girando uma delas, ela fica igual às outras.\n- Só a pulseira **D** tem 3 bolinhas pretas seguidas. Ela é a diferente.\n- Resposta certa: **D**."
+  },
+  "6": {
+    "enunciado_md": "Com 6 reais Luisinho pode comprar três lápis ou comprar um lápis e uma caneta, sem receber troco. Quanto custa a caneta?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2 reais e 50 centavos"
+      },
+      {
+        "letra": "B",
+        "texto": "3 reais"
+      },
+      {
+        "letra": "C",
+        "texto": "3 reais e 50 centavos"
+      },
+      {
+        "letra": "D",
+        "texto": "4 reais"
+      },
+      {
+        "letra": "E",
+        "texto": "4 reais e 50 centavos"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "dinheiro",
+      "subtração"
+    ],
+    "dica_curta": "Primeiro descobre quanto custa um lápis: 3 lápis custam 6 reais.",
+    "primeiro_passo": "6 ÷ 3 = 2, então cada lápis custa 2 reais.",
+    "solucao_completa": "- 3 lápis custam 6 reais, então 1 lápis custa 2 reais (2 + 2 + 2 = 6).\n- 1 lápis + 1 caneta = 6 reais. Tirando o lápis: 6 − 2 = **4 reais** é o preço da caneta.\n- Outro jeito: 3 lápis valem o mesmo que 1 lápis + 1 caneta. Tirando 1 lápis dos dois lados, a caneta vale 2 lápis = 2 + 2 = 4 reais.\n- Resposta certa: **D**."
+  },
+  "7": {
+    "enunciado_md": "José olhou o relógio pela manhã e ele marcava 10:00. No outro dia à tarde, ele olhou novamente para o relógio e viu que ele marcava 16:00. Quantas horas se passaram entre esses dois momentos?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "28 horas"
+      },
+      {
+        "letra": "B",
+        "texto": "30 horas"
+      },
+      {
+        "letra": "C",
+        "texto": "32 horas"
+      },
+      {
+        "letra": "D",
+        "texto": "33 horas"
+      },
+      {
+        "letra": "E",
+        "texto": "34 horas"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "horas",
+      "soma"
+    ],
+    "dica_curta": "De um dia pro outro, na mesma hora, passam 24 horas. Depois ainda passam mais algumas.",
+    "primeiro_passo": "Das 10:00 de um dia até as 10:00 do dia seguinte são 24 horas.",
+    "solucao_completa": "- Das 10:00 de manhã até as 10:00 do dia seguinte: **24 horas**.\n- Das 10:00 até as 16:00 do mesmo dia: 16 − 10 = **6 horas**.\n- Total: 24 + 6 = **30 horas**.\n- Resposta certa: **B**."
+  },
+  "8": {
+    "enunciado_md": "Júlia quer terminar de preencher o tabuleiro ao lado com triângulos, círculos e estrelas nas cores branca, cinza e preta. Ela quer que cada linha e cada coluna do tabuleiro tenha figuras de todas essas formas e cores. Qual figura Júlia deve colocar no lugar da interrogação?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "lógica",
+      "padrões"
+    ],
+    "dica_curta": "Olha só as cores primeiro: a primeira linha já tem preto e branco, a segunda já tem cinza e preto.",
+    "primeiro_passo": "Descobre a cor que falta na primeira linha (cinza) e na segunda linha (branco). As duas ficam na última coluna.",
+    "solucao_completa": "- Linha 1 tem triângulo preto e estrela branca, então a figura que falta nela é **cinza**.\n- Linha 2 tem estrela cinza e círculo preto, então a figura que falta nela é **branca**.\n- Essas duas figuras ficam na última coluna, em cima da interrogação. Então a interrogação só pode ser **preta**.\n- Entre as alternativas, a única figura preta é a estrela preta. (E bate com a forma: a última coluna já vai ter círculo e triângulo, então falta a estrela.)\n- Resposta certa: **E**."
+  },
+  "9": {
+    "enunciado_md": "Qual das peças abaixo pode ser encaixada em algum espaço em branco no tabuleiro ao lado?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocínio espacial",
+      "quebra-cabeça"
+    ],
+    "dica_curta": "Conta os quadradinhos brancos de cada buraco do tabuleiro: quase todos têm 3 casas em fila, e só um buraco tem 4 casas.",
+    "primeiro_passo": "Todas as peças têm 4 quadradinhos, então só podem caber no buraco de 4 casas.",
+    "solucao_completa": "- As peças têm 4 quadradinhos. Nos buracos com 3 casas em fila, nenhuma delas cabe.\n- O único buraco com 4 casas tem formato de escadinha (dois quadradinhos embaixo e dois em cima, deslocados).\n- A peça B (formato de L) não cabe nesse buraco. A peça **E**, girada, encaixa certinho.\n- Resposta certa: **E**."
+  },
+  "10": {
+    "enunciado_md": "Carolina cortou um triângulo grande em 3 pedaços: um quadrado e dois triângulos iguais, como na figura ao lado. Qual das figuras a seguir NÃO pode ser montada juntando esses 3 pedaços, lado a lado?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "formas geométricas",
+      "raciocínio espacial"
+    ],
+    "dica_curta": "Tenta montar cada figura na cabeça: onde entra o quadrado e onde entram os dois triângulos?",
+    "primeiro_passo": "Repara que os dois triângulos juntos formam um quadrado igual ao outro. Isso ajuda a montar a figura A.",
+    "solucao_completa": "- **A** (retângulo): quadrado + os dois triângulos juntos formando outro quadrado.\n- **B** e **C**: triângulo, quadrado, triângulo em fila, com os triângulos virados pro mesmo lado (B) ou pra fora (C).\n- **D**: quadrado com um triângulo em cima e outro do lado.\n- Na **E**, o miolo da figura teria que ser o quadrado, mas as pontas dos triângulos precisariam encostar no quadrado pelo lado comprido (o inclinado), que é maior que o lado do quadrado. Não encaixa.\n- Resposta certa: **E**."
+  },
+  "11": {
+    "enunciado_md": "Camila quer montar a figura pontilhada com quatro das cinco peças das alternativas. Duas peças só se juntam se os encaixes nas pontas forem iguais. Qual peça ela NÃO vai usar?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "lógica",
+      "quebra-cabeça"
+    ],
+    "dica_curta": "Repara nos três tipos de bolinha: preta, branca simples e branca de borda grossa. A peça A só tem bolinha branca simples nas três pontas.",
+    "primeiro_passo": "Pra peça A encaixar em outra, a outra precisaria ter duas bolinhas brancas simples (uma em cada ponta do lado que encosta). Procura uma peça assim.",
+    "solucao_completa": "- Duas peças se juntam por um lado inteiro, então as duas pontas desse lado precisam ser iguais nas duas peças.\n- A peça **A** tem bolinha branca simples nas três pontas. Pra encostar nela, outra peça precisaria ter duas bolinhas brancas simples.\n- Nenhuma outra peça tem isso: B, C e E têm só uma branca simples, e D não tem nenhuma. Então a A fica de fora.\n- As outras quatro montam a figura: a C fica no meio (tem uma bolinha de cada tipo) e B, D e E ficam nos cantos.\n- Resposta certa: **A**."
+  },
+  "12": {
+    "enunciado_md": "Os bonequinhos abaixo formaram uma roda e cada um deles deu uma mão para seu vizinho da esquerda e outra mão para seu vizinho da direita. Quantas mãos ficaram livres?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "5"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "7"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem",
+      "subtração"
+    ],
+    "dica_curta": "Cada bonequinho usa 2 mãos pra dar as mãos aos vizinhos. As outras ficam livres.",
+    "primeiro_passo": "Conta as mãos de cada bonequinho: 3, 2, 5 e 4.",
+    "solucao_completa": "- Os bonequinhos têm 3, 2, 5 e 4 mãos.\n- Cada um usa 2 mãos, então sobram 3 − 2 = 1, 2 − 2 = 0, 5 − 2 = 3 e 4 − 2 = 2 mãos livres.\n- 1 + 0 + 3 + 2 = **6** mãos livres.\n- Outro jeito: 3 + 2 + 5 + 4 = 14 mãos no total, 4 bonequinhos × 2 = 8 mãos ocupadas, 14 − 8 = 6.\n- Resposta certa: **C**."
+  },
+  "13": {
+    "enunciado_md": "Renato quer preencher toda a figura pontilhada usando a menor quantidade possível das peças abaixo (triângulo e losango). Quantas peças em forma de losango ele vai usar?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2"
+      },
+      {
+        "letra": "B",
+        "texto": "3"
+      },
+      {
+        "letra": "C",
+        "texto": "4"
+      },
+      {
+        "letra": "D",
+        "texto": "5"
+      },
+      {
+        "letra": "E",
+        "texto": "6"
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "formas geométricas",
+      "raciocínio espacial"
+    ],
+    "dica_curta": "A figura grande tem 9 triangulinhos. Cada losango cobre 2 deles, um de pé e um de cabeça pra baixo, vizinhos.",
+    "primeiro_passo": "Conta quantos triangulinhos estão de cabeça pra baixo na figura grande: são 3. Cada losango precisa usar um deles.",
+    "solucao_completa": "- O triângulo grande é feito de 9 triângulos pequenos: 6 de pé e 3 de cabeça pra baixo.\n- Um losango sempre cobre um triângulo de pé e um de cabeça pra baixo, vizinhos. Como só há 3 de cabeça pra baixo, cabem no máximo **3 losangos**.\n- 3 losangos cobrem 6 triângulos. Sobram os 3 cantos, cobertos com 3 peças de triângulo. Total: 6 peças, que é o menor possível.\n- Resposta certa: **B**."
+  },
+  "14": {
+    "enunciado_md": "O cachorro e o gato pesam, juntos, 16 quilogramas. O cachorro e o coelho, 14 quilogramas. O gato e o coelho, 10 quilogramas. Qual é o peso, em quilogramas, dos três animais juntos?",
+    "alternativa_tipo": "texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "17"
+      },
+      {
+        "letra": "B",
+        "texto": "18"
+      },
+      {
+        "letra": "C",
+        "texto": "19"
+      },
+      {
+        "letra": "D",
+        "texto": "20"
+      },
+      {
+        "letra": "E",
+        "texto": "21"
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "soma",
+      "lógica",
+      "medidas"
+    ],
+    "dica_curta": "Se você somar as três pesagens, cada animal aparece 2 vezes.",
+    "primeiro_passo": "16 + 14 + 10 = 40. Isso é o peso de dois cachorros, dois gatos e dois coelhos.",
+    "solucao_completa": "- Somando as três pesagens: 16 + 14 + 10 = **40** kg. Nessa soma, cada animal foi pesado 2 vezes.\n- Então os três animais juntos pesam a metade: 40 ÷ 2 = **20** kg.\n- Conferindo: cachorro 10 kg, gato 6 kg, coelho 4 kg. 10 + 6 = 16, 10 + 4 = 14, 6 + 4 = 10. Tudo bate, e 10 + 6 + 4 = 20.\n- Resposta certa: **D**."
+  },
+  "15": {
+    "enunciado_md": "João tem uma roleta com dois círculos, um azul claro por cima e outro azul escuro por baixo. Cada círculo está dividido em seis partes e, em cada parte, há uma figura. João pode girar um círculo de cada vez. Ele girou um círculo e estas figuras ficaram juntas (foguete sobre foguete). Quais figuras também podem ter ficado juntas?",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "rotação",
+      "raciocínio espacial"
+    ],
+    "dica_curta": "O círculo de dentro tem dois foguetes e o de fora tem só um. Gira o de dentro até um foguete de dentro ficar em cima do foguete de fora, e aí olha o que ficou embaixo do outro foguete de dentro.",
+    "primeiro_passo": "Girando o círculo de dentro uma casa no sentido do relógio, o foguete de dentro cai em cima do foguete de fora.",
+    "solucao_completa": "- Girando o círculo de dentro uma casa no sentido do relógio, um foguete de dentro fica sobre o foguete de fora. Nesse giro, o outro foguete de dentro fica sobre o **sol** de fora: foguete com sol.\n- Girando três casas, o outro foguete de dentro cai sobre uma estrela, e não tem alternativa com estrela.\n- Girar o círculo de fora em vez do de dentro dá o mesmo resultado.\n- A única alternativa possível é foguete (dentro) com sol (fora): **D**."
+  }
+}
