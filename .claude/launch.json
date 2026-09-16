@@ -40,6 +40,18 @@
       "env": {
         "CANGURIVIS_LOG_DIR": ".log_local"
       }
+    },
+    {
+      "name": "docs-estaticos",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8510",
+        "--directory",
+        "docs"
+      ],
+      "port": 8510
     }
   ]
 }
