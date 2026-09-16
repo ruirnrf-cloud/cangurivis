@@ -1,0 +1,598 @@
+{
+  "fonte": {
+    "olimpiada_slug": "pmc",
+    "pais": "reino-unido",
+    "ano": 2021,
+    "edicao": "novembro"
+  },
+  "pdf_prova_original": "https://www.m-a.org.uk/resources/PMC November 2021.pdf",
+  "pdf_solucao_original": "https://www.m-a.org.uk/resources/PMC November 2021 Answers and Notes.pdf",
+  "n_questoes": 20,
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "pmc-2021-q01",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Comprei 10 dinossauros de plástico a 99p cada um e paguei com uma nota de £10. Quanto devo receber de troco?\n\n*(Dinheiro inglês: 100p = £1, como 100 centavos = 1 real.)*",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1p"
+        },
+        {
+          "letra": "B",
+          "texto": "10p"
+        },
+        {
+          "letra": "C",
+          "texto": "£1"
+        },
+        {
+          "letra": "D",
+          "texto": "£10"
+        },
+        {
+          "letra": "E",
+          "texto": "£100"
+        }
+      ]
+    },
+    "2": {
+      "numero": 2,
+      "id": "pmc-2021-q02",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Qual destas medidas é a mais parecida com o comprimento de um carro?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4 mm"
+        },
+        {
+          "letra": "B",
+          "texto": "40 cm"
+        },
+        {
+          "letra": "C",
+          "texto": "4 m"
+        },
+        {
+          "letra": "D",
+          "texto": "40 m"
+        },
+        {
+          "letra": "E",
+          "texto": "4 km"
+        }
+      ]
+    },
+    "3": {
+      "numero": 3,
+      "id": "pmc-2021-q03",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "A altura de um elefante é mais ou menos o dobro da medida da volta (circunferência) de um dos pés dele. A volta do pé da elefanta Nellie mede 150 cm. Qual é, mais ou menos, a altura dela?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "350 mm"
+        },
+        {
+          "letra": "B",
+          "texto": "2 m"
+        },
+        {
+          "letra": "C",
+          "texto": "3 m"
+        },
+        {
+          "letra": "D",
+          "texto": "4 m"
+        },
+        {
+          "letra": "E",
+          "texto": "450 cm"
+        }
+      ]
+    },
+    "4": {
+      "numero": 4,
+      "id": "pmc-2021-q04",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Emma resolveu pintar na parede do quarto as 11 letras da palavra **MATHEMATICS** (\"matemática\" em inglês). Nas férias, ela pintou uma letra por dia, sem pular nenhum dia. Ela terminou numa sexta-feira. Em que dia da semana ela pintou a primeira letra?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Segunda-feira"
+        },
+        {
+          "letra": "B",
+          "texto": "Terça-feira"
+        },
+        {
+          "letra": "C",
+          "texto": "Quarta-feira"
+        },
+        {
+          "letra": "D",
+          "texto": "Quinta-feira"
+        },
+        {
+          "letra": "E",
+          "texto": "Sexta-feira"
+        }
+      ]
+    },
+    "5": {
+      "numero": 5,
+      "id": "pmc-2021-q05",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "O gráfico de pizza mostra quantos alunos responderam \"sim\" ou \"não\" à pergunta \"Existe vida fora da Terra?\". 21 alunos responderam \"sim\". Quantos alunos responderam \"não\"?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "5"
+        },
+        {
+          "letra": "C",
+          "texto": "6"
+        },
+        {
+          "letra": "D",
+          "texto": "7"
+        },
+        {
+          "letra": "E",
+          "texto": "8"
+        }
+      ],
+      "figura": "saida/pmc/2021_uk/figuras/q05.png"
+    },
+    "6": {
+      "numero": 6,
+      "id": "pmc-2021-q06",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "No primeiro dia deste mês, o sol nasceu em Greenwich às 06:54 e se pôs 9 horas e 40 minutos depois. A que horas o sol se pôs?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "15:34"
+        },
+        {
+          "letra": "B",
+          "texto": "15:54"
+        },
+        {
+          "letra": "C",
+          "texto": "16:34"
+        },
+        {
+          "letra": "D",
+          "texto": "16:54"
+        },
+        {
+          "letra": "E",
+          "texto": "21:34"
+        }
+      ]
+    },
+    "7": {
+      "numero": 7,
+      "id": "pmc-2021-q07",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Hannah colocou um espelho logo depois da palavra **SWIMS**, como na figura. Como fica o reflexo da palavra no espelho?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "B",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "C",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "D",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "E",
+          "texto": "ver figura"
+        }
+      ],
+      "figura": "saida/pmc/2021_uk/figuras/q07.png"
+    },
+    "8": {
+      "numero": 8,
+      "id": "pmc-2021-q08",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "A figura de cima é girada 90° no sentido horário (o sentido do ponteiro do relógio) em volta do ponto P. Qual das alternativas mostra como a figura fica depois do giro?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "B",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "C",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "D",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "E",
+          "texto": "ver figura"
+        }
+      ],
+      "figura": "saida/pmc/2021_uk/figuras/q08.png"
+    },
+    "9": {
+      "numero": 9,
+      "id": "pmc-2021-q09",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "O fazendeiro Baar tem 36 ovelhas: algumas cor-de-rosa e o resto brancas. Tem o dobro de ovelhas cor-de-rosa em relação às brancas. Quantas ovelhas são cor-de-rosa?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10"
+        },
+        {
+          "letra": "B",
+          "texto": "12"
+        },
+        {
+          "letra": "C",
+          "texto": "20"
+        },
+        {
+          "letra": "D",
+          "texto": "24"
+        },
+        {
+          "letra": "E",
+          "texto": "30"
+        }
+      ]
+    },
+    "10": {
+      "numero": 10,
+      "id": "pmc-2021-q10",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Sir Pent tem um aquário com 4 cobras.\n\n- Slither tem o dobro do comprimento de Monty.\n- Viper tem a metade do comprimento de Slither.\n- Rattle mede 15 cm e tem a metade do comprimento de Viper.\n\nQuanto mede Monty?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "15 cm"
+        },
+        {
+          "letra": "B",
+          "texto": "30 cm"
+        },
+        {
+          "letra": "C",
+          "texto": "45 cm"
+        },
+        {
+          "letra": "D",
+          "texto": "60 cm"
+        },
+        {
+          "letra": "E",
+          "texto": "75 cm"
+        }
+      ]
+    },
+    "11": {
+      "numero": 11,
+      "id": "pmc-2021-q11",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "A tartaruga Jonathan come 20 g de folhas de salada por dia. As folhas são vendidas em sacos de 80 g que custam 90p cada. Quanto custa alimentar Jonathan por 4 semanas?\n\n*(100p = £1.)*",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "£4.20"
+        },
+        {
+          "letra": "B",
+          "texto": "£4.80"
+        },
+        {
+          "letra": "C",
+          "texto": "£5.30"
+        },
+        {
+          "letra": "D",
+          "texto": "£5.70"
+        },
+        {
+          "letra": "E",
+          "texto": "£6.30"
+        }
+      ]
+    },
+    "12": {
+      "numero": 12,
+      "id": "pmc-2021-q12",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Pat e Sam gostam de sentar nas duas pontas do sofá, com os três filhos sentados entre eles. De quantas maneiras diferentes a família pode se sentar assim?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "12"
+        },
+        {
+          "letra": "C",
+          "texto": "24"
+        },
+        {
+          "letra": "D",
+          "texto": "25"
+        },
+        {
+          "letra": "E",
+          "texto": "130"
+        }
+      ]
+    },
+    "13": {
+      "numero": 13,
+      "id": "pmc-2021-q13",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "O Sr. Waddle caminha a 2 milhas por hora e o Sr. Ramble a 4 milhas por hora. Os dois saem juntos pra uma caminhada de 12 milhas, sem parar. Quanto tempo depois do Sr. Ramble terminar o Sr. Waddle termina a caminhada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 hora"
+        },
+        {
+          "letra": "B",
+          "texto": "3 horas"
+        },
+        {
+          "letra": "C",
+          "texto": "4 horas"
+        },
+        {
+          "letra": "D",
+          "texto": "6 horas"
+        },
+        {
+          "letra": "E",
+          "texto": "12 horas"
+        }
+      ]
+    },
+    "14": {
+      "numero": 14,
+      "id": "pmc-2021-q14",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Somo três números inteiros seguidos (consecutivos, tipo 4, 5 e 6). A soma é **sempre**...",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "um múltiplo de 5"
+        },
+        {
+          "letra": "B",
+          "texto": "ímpar"
+        },
+        {
+          "letra": "C",
+          "texto": "um número primo"
+        },
+        {
+          "letra": "D",
+          "texto": "par"
+        },
+        {
+          "letra": "E",
+          "texto": "um múltiplo de 3"
+        }
+      ]
+    },
+    "15": {
+      "numero": 15,
+      "id": "pmc-2021-q15",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "A professora Fitt gosta de organizar a turma em filas de jeitos diferentes. Quando todos os alunos estão presentes, ela consegue formar filas de 2 em 2, ou de 3 em 3, ou de 5 em 5, sem sobrar ninguém. Qual é o menor número de alunos que a turma pode ter?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "60"
+        },
+        {
+          "letra": "B",
+          "texto": "45"
+        },
+        {
+          "letra": "C",
+          "texto": "30"
+        },
+        {
+          "letra": "D",
+          "texto": "20"
+        },
+        {
+          "letra": "E",
+          "texto": "15"
+        }
+      ]
+    },
+    "16": {
+      "numero": 16,
+      "id": "pmc-2021-q16",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Cinco meninas (Ava, Bina, Clare, Dora e Elph) estão sentadas em volta de uma mesa. Cada menina bate um \"toca aqui\" com cada uma das outras. Quantos \"toca aqui\" acontecem no total?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10"
+        },
+        {
+          "letra": "B",
+          "texto": "15"
+        },
+        {
+          "letra": "C",
+          "texto": "20"
+        },
+        {
+          "letra": "D",
+          "texto": "25"
+        },
+        {
+          "letra": "E",
+          "texto": "50"
+        }
+      ]
+    },
+    "17": {
+      "numero": 17,
+      "id": "pmc-2021-q17",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Isaac tem 53 anos. A mãe dele tem 81. Há quantos anos a idade de Isaac era um terço da idade da mãe dele?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "29"
+        },
+        {
+          "letra": "B",
+          "texto": "31"
+        },
+        {
+          "letra": "C",
+          "texto": "34"
+        },
+        {
+          "letra": "D",
+          "texto": "37"
+        },
+        {
+          "letra": "E",
+          "texto": "39"
+        }
+      ]
+    },
+    "18": {
+      "numero": 18,
+      "id": "pmc-2021-q18",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "O chão do quarto retangular do Milo está todo coberto com pisos quadrados iguais. Medindo em pisos, o quarto tem 11 pisos de comprimento e 8 pisos de largura. Quantos pisos **não** encostam em nenhuma parede?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "34"
+        },
+        {
+          "letra": "B",
+          "texto": "38"
+        },
+        {
+          "letra": "C",
+          "texto": "50"
+        },
+        {
+          "letra": "D",
+          "texto": "54"
+        },
+        {
+          "letra": "E",
+          "texto": "88"
+        }
+      ]
+    },
+    "19": {
+      "numero": 19,
+      "id": "pmc-2021-q19",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Penny tem uma moeda de cada valor: 1p, 2p, 5p, 10p, 20p e 50p. Ela coloca cada moeda dentro do desenho, como na figura. As moedas dentro do círculo somam 61p e as moedas dentro do quadrado somam 38p. Quais duas moedas estão na parte onde o círculo e o quadrado se cruzam?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10p e 1p"
+        },
+        {
+          "letra": "B",
+          "texto": "20p e 1p"
+        },
+        {
+          "letra": "C",
+          "texto": "10p e 2p"
+        },
+        {
+          "letra": "D",
+          "texto": "50p e 2p"
+        },
+        {
+          "letra": "E",
+          "texto": "2p e 1p"
+        }
+      ],
+      "figura": "saida/pmc/2021_uk/figuras/q19.png"
+    },
+    "20": {
+      "numero": 20,
+      "id": "pmc-2021-q20",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "O quadrado grande foi dividido em quadrados menores, como na figura. Que fração do quadrado grande está pintada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/3"
+        },
+        {
+          "letra": "B",
+          "texto": "5/12"
+        },
+        {
+          "letra": "C",
+          "texto": "3/7"
+        },
+        {
+          "letra": "D",
+          "texto": "4/9"
+        },
+        {
+          "letra": "E",
+          "texto": "1/2"
+        }
+      ],
+      "figura": "saida/pmc/2021_uk/figuras/q20.png"
+    }
+  }
+}

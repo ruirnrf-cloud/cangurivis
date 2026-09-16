@@ -1,0 +1,222 @@
+{
+  "1": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "dinheiro",
+      "operacoes basicas"
+    ],
+    "dica_curta": "10 dinossauros de 99p custam quase £10. Quanto falta pra chegar exatamente em £10?",
+    "primeiro_passo": "10 × 99p = 990p = £9,90. Uma nota de £10 vale 1000p.",
+    "solucao_completa": "- Cada dinossauro custa 99p, então 10 custam 10 × 99 = 990p = £9,90.\n- Paguei £10 = 1000p. Troco: 1000 − 990 = **10p**.\n- Jeito esperto: cada dinossauro custa 1p a menos que £1, então 10 deles custam 10p a menos que £10.\n- Resposta certa: **B**."
+  },
+  "2": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "medidas",
+      "estimativa"
+    ],
+    "dica_curta": "Pensa num carro parado na rua: quantos passos grandes ele tem de comprimento?",
+    "primeiro_passo": "1 m é mais ou menos um passo grande de adulto. Um carro tem uns 4 passos desses.",
+    "solucao_completa": "- 4 mm é do tamanho de uma formiga; 40 cm é uma régua grande; 40 m é quase meio campo de futebol; 4 km é uma caminhada de uma hora.\n- Um carro comum tem uns 4 metros de comprimento.\n- Resposta certa: **C**."
+  },
+  "3": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "medidas",
+      "dobro"
+    ],
+    "dica_curta": "Dobro de 150 cm. Depois converte pra metros com cuidado.",
+    "primeiro_passo": "2 × 150 cm = 300 cm.",
+    "solucao_completa": "- Altura ≈ 2 × 150 cm = 300 cm.\n- 100 cm = 1 m, então 300 cm = **3 m**.\n- Cuidado com as pegadinhas: 350 mm são só 35 cm, e 450 cm seriam 4,5 m.\n- Resposta certa: **C**."
+  },
+  "4": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "calendario",
+      "dias da semana"
+    ],
+    "dica_curta": "A última letra foi na sexta. A primeira foi 10 dias antes (da 1ª letra até a 11ª são 10 pulos de um dia).",
+    "primeiro_passo": "7 dias antes da sexta é sexta de novo. Faltam mais 3 dias pra trás.",
+    "solucao_completa": "- Da 1ª letra (dia 1) até a 11ª letra (dia 11) passam 10 dias.\n- 7 dias antes da sexta é a sexta da semana anterior. Faltam mais 3 dias pra trás: quinta, quarta, **terça**.\n- Conferindo pra frente: terça (M), quarta (A), quinta (T), sexta (H), sábado (E), domingo (M), segunda (A), terça (T), quarta (I), quinta (C), sexta (S). Fecha!\n- Resposta certa: **B**."
+  },
+  "5": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "leitura de tabelas e graficos",
+      "fracoes"
+    ],
+    "dica_curta": "Olha a fatia do \"não\": o cantinho quadrado no centro mostra que é exatamente um quarto da pizza. Então o \"sim\" é três quartos.",
+    "primeiro_passo": "Se 3 quartos = 21 alunos, quanto vale 1 quarto?",
+    "solucao_completa": "- A fatia do \"não\" é 1/4 da pizza (ângulo reto no centro). A fatia do \"sim\" é 3/4.\n- 3/4 = 21 alunos, então 1/4 = 21 ÷ 3 = **7** alunos.\n- Resposta certa: **D**."
+  },
+  "6": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "horas",
+      "operacoes basicas"
+    ],
+    "dica_curta": "9 h 40 min é a mesma coisa que 10 horas menos 20 minutos.",
+    "primeiro_passo": "06:54 + 10 h = 16:54. Agora tira 20 minutos.",
+    "solucao_completa": "- 06:54 + 10 horas = 16:54.\n- Mas eram só 9 h 40 min, ou seja, 20 minutos a menos: 16:54 − 20 min = **16:34**.\n- Resposta certa: **C**."
+  },
+  "7": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "simetria",
+      "raciocinio visual"
+    ],
+    "dica_curta": "No espelho, a ordem das letras fica invertida (a última vira a primeira). E cada letra também vira ao contrário: algumas ficam iguais, outras não.",
+    "primeiro_passo": "Quais letras de SWIMS ficam iguais quando viradas de lado? W, I e M sim. O S, não.",
+    "solucao_completa": "- O espelho inverte a ordem: SWIMS lido de trás pra frente é SMIWS.\n- Cada letra também é espelhada: W, I e M são simétricas (ficam iguais), mas o S vira ao contrário.\n- A única alternativa com a ordem S-M-I-W-S e os dois S virados é a **D**.\n- Resposta certa: **D**."
+  },
+  "8": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "rotacao",
+      "raciocinio visual"
+    ],
+    "dica_curta": "90° no sentido horário é um quarto de volta pra direita. O que estava apontando pra cima passa a apontar pra direita.",
+    "primeiro_passo": "Antes do giro, o triângulo cinza-claro aponta pra cima. Depois, vai apontar pra direita. Isso já elimina A, C e D.",
+    "solucao_completa": "- Um quarto de volta no sentido horário: o que aponta pra cima passa a apontar pra direita.\n- O triângulo cinza-claro apontava pra cima, então agora aponta pra direita: sobram B e E.\n- O quadrado escuro estava acima do triângulo. Girando pra direita, ele fica à direita e **abaixo** do triângulo. É a **B** (na E ele ficou acima, o que seria um giro pro outro lado).\n- Resposta certa: **B**."
+  },
+  "9": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "proporcao e razao",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Junta as ovelhas em grupinhos: pra cada 1 branca, 2 rosas. Cada grupinho tem 3 ovelhas.",
+    "primeiro_passo": "36 ÷ 3 = 12 grupinhos.",
+    "solucao_completa": "- Pra cada ovelha branca tem 2 rosas, então dá pra separar em grupos de 3 (1 branca + 2 rosas).\n- 36 ÷ 3 = 12 grupos → 12 brancas e 12 × 2 = **24** rosas.\n- Conferindo: 24 + 12 = 36, e 24 é o dobro de 12.\n- Resposta certa: **D**."
+  },
+  "10": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "logica com pistas",
+      "dobro e metade"
+    ],
+    "dica_curta": "Começa pela única cobra com medida conhecida: Rattle, 15 cm. Vai subindo pista por pista.",
+    "primeiro_passo": "Rattle é metade de Viper, então Viper mede 2 × 15 = 30 cm.",
+    "solucao_completa": "- Rattle = 15 cm e é metade de Viper → Viper = 30 cm.\n- Viper é metade de Slither → Slither = 60 cm.\n- Slither é o dobro de Monty → Monty = 60 ÷ 2 = **30 cm**.\n- Repara: Monty e Viper têm o mesmo tamanho.\n- Resposta certa: **B**."
+  },
+  "11": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "operacoes basicas",
+      "dinheiro"
+    ],
+    "dica_curta": "Descobre quantos dias um saco dura, e quantos dias tem em 4 semanas.",
+    "primeiro_passo": "Um saco de 80 g dura 80 ÷ 20 = 4 dias. 4 semanas = 28 dias.",
+    "solucao_completa": "- 1 saco = 80 g = 4 dias de comida (80 ÷ 20).\n- 4 semanas = 28 dias → 28 ÷ 4 = 7 sacos.\n- 7 × 90p = 630p = **£6.30** (100p = £1).\n- Resposta certa: **E**."
+  },
+  "12": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "combinatoria basica",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Conta de quantos jeitos os 3 filhos podem se organizar no meio. Depois lembra que os pais podem trocar de ponta.",
+    "primeiro_passo": "Chama os filhos de A, B e C. Pro primeiro lugar do meio tem 3 escolhas, pro segundo sobram 2, pro último sobra 1.",
+    "solucao_completa": "- Os 3 filhos no meio: 3 × 2 × 1 = 6 ordens (ABC, ACB, BAC, BCA, CAB, CBA).\n- Pra cada uma dessas, Pat e Sam podem ficar Pat na esquerda e Sam na direita, ou o contrário: 2 jeitos.\n- Total: 6 × 2 = **12**.\n- Resposta certa: **B**."
+  },
+  "13": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "medidas",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Calcula quanto tempo cada um leva pra fazer as 12 milhas.",
+    "primeiro_passo": "Sr. Ramble anda 4 milhas por hora: 12 ÷ 4 = 3 horas.",
+    "solucao_completa": "- Sr. Ramble: 12 ÷ 4 = 3 horas.\n- Sr. Waddle: 12 ÷ 2 = 6 horas.\n- Diferença: 6 − 3 = **3 horas**.\n- Resposta certa: **B**."
+  },
+  "14": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "padroes e sequencias",
+      "multiplos"
+    ],
+    "dica_curta": "Testa alguns: 1+2+3, 2+3+4, 3+4+5. O que essas somas têm em comum?",
+    "primeiro_passo": "1+2+3 = 6, 2+3+4 = 9, 3+4+5 = 12. Todas estão na tabuada do 3.",
+    "solucao_completa": "- Testando: 1+2+3 = 6, 2+3+4 = 9, 3+4+5 = 12, 10+11+12 = 33. Sempre múltiplo de 3.\n- Por quê: o menor tem 1 a menos que o do meio e o maior tem 1 a mais. O −1 e o +1 se cancelam, e a soma vira 3 vezes o número do meio.\n- As outras opções falham: 6 é par e 9 é ímpar (então não é \"sempre\" par nem \"sempre\" ímpar); 6 não é primo nem múltiplo de 5.\n- Resposta certa: **E**."
+  },
+  "15": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "multiplos",
+      "operacoes basicas"
+    ],
+    "dica_curta": "O número precisa estar na tabuada do 2, do 3 e do 5 ao mesmo tempo.",
+    "primeiro_passo": "Testa as alternativas menores primeiro: 15 dá pra dividir por 2?",
+    "solucao_completa": "- O número de alunos tem que ser múltiplo de 2, de 3 e de 5.\n- 15: não é par. 20: não é múltiplo de 3. 30: 30 ÷ 2 = 15, 30 ÷ 3 = 10, 30 ÷ 5 = 6. Serve!\n- 45 não é par; 60 serve, mas é maior que 30.\n- Resposta certa: **C**."
+  },
+  "16": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "contagem sistematica",
+      "combinatoria basica"
+    ],
+    "dica_curta": "Cuidado pra não contar duas vezes: o toca-aqui da Ava com a Bina é o mesmo da Bina com a Ava.",
+    "primeiro_passo": "Ava bate com 4 meninas. Bina já bateu com a Ava, então faltam só 3 pra ela.",
+    "solucao_completa": "- Ava: 4 toca-aqui. Bina: mais 3 (o com a Ava já contou). Clare: mais 2. Dora: mais 1 (com a Elph). Elph: já bateu com todas.\n- 4 + 3 + 2 + 1 = **10**.\n- Outro jeito: cada menina bate 4 vezes, 5 × 4 = 20, mas cada toca-aqui foi contado 2 vezes (uma pra cada menina): 20 ÷ 2 = 10.\n- Resposta certa: **A**."
+  },
+  "17": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "logica com pistas",
+      "operacoes basicas"
+    ],
+    "dica_curta": "A diferença de idade entre os dois nunca muda: 81 − 53 = 28 anos.",
+    "primeiro_passo": "Quando a mãe tinha o triplo da idade do Isaac, a diferença (28) valia 2 vezes a idade dele.",
+    "solucao_completa": "- A diferença de idade é sempre 81 − 53 = 28 anos.\n- Quando a mãe tinha 3 vezes a idade do Isaac, a diferença era 3 − 1 = 2 \"idades do Isaac\". Então Isaac tinha 28 ÷ 2 = 14 anos (e a mãe 42; conferindo: 42 − 14 = 28).\n- Isso foi há 53 − 14 = **39 anos**.\n- Resposta certa: **E**."
+  },
+  "18": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "perimetro e area",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Os pisos que não encostam na parede formam um retângulo menor dentro do quarto.",
+    "primeiro_passo": "Tirando uma fileira de cada lado, o retângulo de dentro tem 11 − 2 = 9 pisos de comprimento.",
+    "solucao_completa": "- Os pisos encostados nas paredes são a \"moldura\". Os de dentro formam um retângulo com 2 pisos a menos em cada direção: (11 − 2) × (8 − 2) = 9 × 6 = **54**.\n- Conferindo pelo outro caminho: total 11 × 8 = 88 pisos; moldura = 11 + 11 + 8 + 8 − 4 cantos (contados duas vezes) = 34; 88 − 34 = 54.\n- Resposta certa: **D**."
+  },
+  "19": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "logica com pistas",
+      "dinheiro"
+    ],
+    "dica_curta": "Soma tudo que ela tem. Depois soma 61 + 38. Por que a segunda soma é maior?",
+    "primeiro_passo": "Todas as moedas: 1 + 2 + 5 + 10 + 20 + 50 = 88p. Mas 61 + 38 = 99p: o que está na parte do meio foi contado duas vezes.",
+    "solucao_completa": "- Total das moedas: 88p. Círculo + quadrado = 61 + 38 = 99p.\n- A diferença 99 − 88 = 11p é o que foi contado duas vezes: as moedas da parte do meio somam 11p.\n- Duas moedas diferentes que somam 11p: só **10p e 1p**.\n- Resposta certa: **A**."
+  },
+  "20": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "fracoes",
+      "perimetro e area"
+    ],
+    "dica_curta": "Olha primeiro os 4 cantos pintados: o quadrado grande cabe 4 × 4 = 16 quadrados desse tamanho. Depois olha o quadrado do meio.",
+    "primeiro_passo": "Os 4 cantos juntos são 4/16 = 1/4 do grande. O quadrado do meio (2 × 2) também é 1/4 do grande, e dentro dele 3 de 9 quadradinhos estão pintados.",
+    "solucao_completa": "- O quadrado grande é 4 × 4 = 16 quadrados médios. Os 4 cantos pintados = 4/16 = 1/4.\n- O quadrado do meio ocupa 2 × 2 = 4 dos 16, ou seja, 1/4 do grande. Ele está dividido em 9 quadradinhos, e 3 estão pintados: 3/9 = 1/3 dele.\n- 1/3 de 1/4 = 1/12. Total pintado: 1/4 + 1/12 = 3/12 + 1/12 = 4/12 = **1/3**.\n- Resposta certa: **A**."
+  }
+}

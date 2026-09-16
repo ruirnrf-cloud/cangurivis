@@ -1,5 +1,49 @@
 # Fase 3 — status
 
+## Fase 11 — modo "Revisar o que errei" + 2ª prova do PMC (nov/2021) pro Rui (16/09/2026)
+
+Itens 3 e 4 da lista combinada na Fase 9.
+
+**Item 3 — o que os dois erraram (lido do Gist real, `progresso_rui.json` e `progresso_rafael.json`)**.
+Critério: vale o **último registro** de cada questão; "errada" = `dicas_usadas > 0` nesse registro.
+- **Rui**: 105 ids distintos respondidos (as 7 provas F1/F2 de 2022-2025 F1; a 2025 F2 e o PMC
+  2022 ainda não tinham sido tocados no Gist, último registro em 25/08). 30 erradas, **15 de F2**:
+  2022 F2 q06/q11/q15; 2023 F2 q06/q09/q12/q13/q14/q15; 2024 F2 q01/q06/q09/q11/q13/q14. Tags mais
+  erradas (todas as fases): lógica com pistas (9), operações básicas (7), medidas (5), raciocínio
+  visual (4), quebra-cabeça espacial (4), contagem sistemática (3).
+- **Rafael**: 21 ids distintos, 11 erradas, 5 de F2 (2022 F2 q12; 2023 F2 q14; 2024 F2 q13/q14/q15).
+  Tags: contagem (3), raciocínio espacial, lógica, dinheiro (2 cada).
+
+Em vez de só uma lista estática, virou um **4º modo no app**: "🔁 Revisar o que errei"
+(`modo == "revisao"`). Monta a fila com as questões cujo último registro precisou de dica (ou foi
+erro no simulado), **2ª fase primeiro** (sort estável depois do shuffle), com a escada de dicas
+normal. Acertou sem dica, sai da lista na próxima vez; errou de novo, continua. É a única exceção
+à regra "questão usada é queimada". Registros do treino/f2/revisão agora levam `"modo"` também
+(antes só o simulado levava). Testado local com cópia do log real do Rui: "Revisão · Questão 1 de
+30", primeira questão de F2.
+
+**Item 4 — PMC novembro/2021** (`saida/pmc/2021_uk/`, ids `pmc-2021-qNN`, 20 questões de múltipla
+escolha; as 5 de resposta livre seguem fora, como na Fase 8). PDFs oficiais baixados de
+m-a.org.uk pra `acervo/pmc/` (2,2 MB prova + 60 KB Answers and Notes; pasta ignorada pelo git):
+- Texto real extraível nos dois PDFs (não vetorizado), então a transcrição foi por `get_text()`
+  + leitura da página renderizada pra conferir. Tradução pra português de criança de 10 anos,
+  **mantendo unidades inglesas** (p/£, milhas por hora) com uma nota "100p = £1" nas questões de
+  dinheiro — mesma decisão da Fase 8.
+- **Gabarito e raciocínio** conferidos questão por questão contra o Answers and Notes oficial:
+  1B 2C 3C 4B 5D 6C 7D 8B 9D 10B 11E 12B 13B 14E 15C 16A 17E 18D 19A 20A, distribuição
+  `{B:6, C:4, D:4, E:3, A:3}`. 0 divergências.
+- **5 figuras** recortadas por coordenadas do desenho vetorial/raster (`get_drawings` /
+  `get_image_info`), sem texto em inglês ao redor: Q5 (pizza; os rótulos "yes/no" dentro do
+  desenho foram cobertos e reescritos como "sim/não" com PIL), Q7 (linha "SWIMS |" + fila de
+  alternativas espelhadas, empilhadas num PNG só — alternativas são imagem, texto "ver figura"),
+  Q8 (figura original + grade A-E de rotações, idem), Q19 (moedas + diagrama círculo/quadrado),
+  Q20 (quadrado com partes pintadas). Q16 tem os nomes das meninas no enunciado, então a figura
+  decorativa da mesa ficou de fora; Q1/Q3/Q10/Q11/Q12 têm só ilustração decorativa.
+- Validado via `carregar_banco(["mirim_m2","pmc"])`: pool do Rui foi de 140 pra **160**
+  (10 provas); no app local o perfil do Rui abre com 55 pendentes (15 da 2025 F2 + 40 do PMC).
+
+Script gerador (`gerar_pmc_2021.py`) ficou só no scratchpad da sessão, como os anteriores.
+
 ## Fase 10 — modos de treino no app: "Só 2ª fase" e "Simulado 2ª fase" (16/09/2026)
 
 **Por quê**: os dois passaram pra 2ª fase (10/11/2026) e o app sorteava F1 e F2 misturadas do

@@ -27,6 +27,9 @@ tempo -- do jeito que a prova de verdade e). Os dois ultimos existem porque
 o Rui Neto e o Rafael passaram pra 2a fase da OBMEP Mirim 2026 (10/11/2026).
 No simulado, se faltam questoes de 2a fase ineditas, ele completa com
 questoes ja respondidas (simulado serve pra treinar ritmo, nao so conteudo).
+O modo "revisao" refaz as questoes cujo ultimo registro no log precisou de
+dica (ou foi erro no simulado), 2a fase primeiro -- e a unica excecao a
+regra de "questao usada e queimada".
 
 Nao tem ainda: agendador por tag/habilidade, Elo/dificuldade adaptativa. Fica
 pra quando houver dado de uso real pra guiar o design disso.
@@ -61,6 +64,9 @@ MODOS = {
     "simulado": {"rotulo": "⏱️ Simulado 2ª fase",
                  "desc": "15 questões de 2ª fase, uma resposta por questão, sem dica, com o tempo marcando. "
                          "Igual à prova de verdade: o resultado só aparece no final."},
+    "revisao": {"rotulo": "🔁 Revisar o que errei",
+                "desc": "Refaz as questões que você errou ou precisou de dica, começando pelas de 2ª fase. "
+                        "Acertou sem dica, sai da lista."},
 }
 SIMULADO_N = 15
 
@@ -277,8 +283,19 @@ if "fila" not in st.session_state:
     ja_feitas = {r["id"] for r in log["respostas"]}
     banco_total = carregar_banco(config_perfil["trilhas"])
     banco = [q for q in banco_total if q["fase"] == 2] if modo in ("f2", "simulado") else banco_total
-    pendentes = [q for q in banco if q["id"] not in ja_feitas]
-    random.shuffle(pendentes)
+    if modo == "revisao":
+        # vale o ultimo registro de cada questao: se ainda precisou de dica (ou errou no
+        # simulado), volta pra fila; acertou de primeira depois, sai. 2a fase primeiro.
+        ultimo = {}
+        for r in sorted(log["respostas"], key=lambda r: r["quando"]):
+            ultimo[r["id"]] = r
+        para_rever = {i for i, r in ultimo.items() if r["dicas_usadas"] > 0}
+        pendentes = [q for q in banco if q["id"] in para_rever]
+        random.shuffle(pendentes)
+        pendentes.sort(key=lambda q: q["fase"] != 2)  # sort estavel: F2 na frente, embaralhadas
+    else:
+        pendentes = [q for q in banco if q["id"] not in ja_feitas]
+        random.shuffle(pendentes)
     if simulado:
         # simulado e pra treinar ritmo e formato: se nao sobram 15 ineditas de 2a fase,
         # completa com questoes que a crianca ja viu (marcadas na tela final).
@@ -346,7 +363,7 @@ def responder(letra, q):
             "id": q["id"], "prova": q["prova"], "tags": q["tags"],
             "acertou_de_primeira": st.session_state.tentativas == 0,
             "tentativas": st.session_state.tentativas + 1,
-            "dicas_usadas": st.session_state.revelado,
+            "dicas_usadas": st.session_state.revelado, "modo": modo,
             "quando": datetime.now().isoformat(timespec="seconds"),
         }
         salvar_no_log(config_perfil["gist_arquivo"], registro)
@@ -366,7 +383,7 @@ def responder(letra, q):
             registro = {
                 "id": q["id"], "prova": q["prova"], "tags": q["tags"],
                 "acertou_de_primeira": False, "tentativas": st.session_state.tentativas,
-                "dicas_usadas": 3, "quando": datetime.now().isoformat(timespec="seconds"),
+                "dicas_usadas": 3, "modo": modo, "quando": datetime.now().isoformat(timespec="seconds"),
             }
             salvar_no_log(config_perfil["gist_arquivo"], registro)
             st.session_state.log_completo["respostas"].append(registro)
@@ -454,6 +471,8 @@ if st.session_state.pos >= len(fila):
         if st.session_state.simulado_repetidas:
             st.caption(f"{len(st.session_state.simulado_repetidas)} dessas questões você já tinha visto antes "
                        "(não sobravam 15 inéditas de 2ª fase).")
+    elif feitas_agora == 0 and modo == "revisao":
+        st.success("Nada pra revisar: todas as questões que você já fez foram acertadas sem dica! 🎉")
     elif feitas_agora == 0 and modo == "f2":
         st.success("Você já respondeu todas as questões de 2ª fase disponíveis! 🎉")
         st.caption("Dá pra treinar o ritmo no modo Simulado, que repete questões já vistas quando precisa.")
@@ -492,7 +511,7 @@ else:
     col_pts.metric("⭐ Pontos", stats["pontos_totais"])
     col_nivel.metric("🏆 Nível", stats["nivel"])
     col_combo.metric("🔥 Combo", st.session_state.combo)
-    rotulo_modo = "Só 2ª fase · " if modo == "f2" else ""
+    rotulo_modo = {"f2": "Só 2ª fase · ", "revisao": "Revisão · "}.get(modo, "")
     st.caption(f"{rotulo_modo}Questão {st.session_state.pos + 1} de {len(fila)} nesta sessão · {q['prova']}")
 
 if q.get("modo") == "texto":
