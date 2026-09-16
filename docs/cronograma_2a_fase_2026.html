@@ -1,0 +1,224 @@
+<title>Rumo à 2ª Fase</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+:root{
+  --bg:#F5F7F9; --paper:#FFFFFF; --ink:#1C2430; --muted:#5C6773; --line:#D9DFE6;
+  --rui:#0E7C7B; --rui-soft:#DDF1EF; --raf:#D2541D; --raf-soft:#FBE6DA;
+  --sim:#3B3F9E; --sim-soft:#E4E4F7; --prova:#B3261E; --prova-soft:#F9E0DD;
+  --rest:#EEF1F4; --today:#F6C453;
+  --shadow:0 1px 2px rgba(20,30,40,.06), 0 8px 24px -16px rgba(20,30,40,.25);
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#121821; --paper:#1A2230; --ink:#EEF2F6; --muted:#9AA6B4; --line:#2C3644;
+  --rui:#4FC3BF; --rui-soft:#153A3A; --raf:#F0855A; --raf-soft:#4A2717;
+  --sim:#A5A7F0; --sim-soft:#2A2C5C; --prova:#F28B82; --prova-soft:#5A2320;
+  --rest:#1F2836; --today:#D9A93A; --shadow:none; } }
+:root[data-theme="dark"]{
+  --bg:#121821; --paper:#1A2230; --ink:#EEF2F6; --muted:#9AA6B4; --line:#2C3644;
+  --rui:#4FC3BF; --rui-soft:#153A3A; --raf:#F0855A; --raf-soft:#4A2717;
+  --sim:#A5A7F0; --sim-soft:#2A2C5C; --prova:#F28B82; --prova-soft:#5A2320;
+  --rest:#1F2836; --today:#D9A93A; --shadow:none; }
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Nunito Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.5;padding-block:28px 56px;padding-inline:clamp(16px,4vw,40px)}
+h1,h2,h3{font-family:"Baloo 2","Nunito Sans",system-ui,sans-serif;line-height:1.1;margin:0;text-wrap:balance}
+h1{font-size:clamp(34px,6vw,52px);font-weight:800;letter-spacing:-.01em}
+h2{font-size:22px;font-weight:700}
+h3{font-size:16px;font-weight:700}
+p{margin:0}
+.wrap{max-width:1080px;margin:0 auto;display:grid;gap:36px}
+
+/* cabecalho */
+.hero{display:grid;gap:14px}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.lede{max-width:62ch;color:var(--muted);font-size:16px}
+.facts{display:flex;flex-wrap:wrap;gap:10px 22px;font-variant-numeric:tabular-nums;color:var(--muted);font-size:14px}
+.facts b{color:var(--ink);font-weight:700}
+
+/* quem e quem */
+.kids{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.kid{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 20px;box-shadow:var(--shadow);display:grid;gap:10px;border-top:5px solid var(--kid)}
+.kid.rui{--kid:var(--rui)} .kid.raf{--kid:var(--raf)}
+.kid h2{color:var(--kid)}
+.kid ul{margin:0;padding-left:18px;display:grid;gap:4px}
+.kid .meta{color:var(--muted);font-size:14px}
+
+/* legenda */
+.legend{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;font-size:13px;color:var(--muted)}
+.tag{display:inline-flex;align-items:center;gap:6px;padding:3px 9px;border-radius:999px;font-weight:700;font-size:12px;line-height:1.3;white-space:nowrap}
+.tag.rui{background:var(--rui-soft);color:var(--rui)}
+.tag.raf{background:var(--raf-soft);color:var(--raf)}
+.tag.sim{background:var(--sim-soft);color:var(--sim)}
+.tag.prova{background:var(--prova-soft);color:var(--prova)}
+
+/* semanas */
+.weeks{display:grid;gap:18px}
+.week{background:var(--paper);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
+.week header{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline;padding:12px 18px;border-bottom:1px solid var(--line)}
+.week header h2{font-size:18px}
+.week header .range{color:var(--muted);font-variant-numeric:tabular-nums;font-size:14px}
+.week header .note{color:var(--muted);font-size:13px;font-style:italic;flex-basis:100%}
+.days{display:grid;grid-template-columns:repeat(7,1fr)}
+.day{padding:10px 10px 12px;border-right:1px solid var(--line);min-height:96px;display:grid;grid-template-rows:auto 1fr;gap:8px;align-content:start}
+.day:last-child{border-right:0}
+.day.rest{background:var(--rest)}
+.day.off{opacity:.45}
+.day.sim{background:var(--sim-soft)}
+.day.prova{background:var(--prova-soft)}
+.day.today{box-shadow:inset 0 0 0 3px var(--today)}
+.dh{display:flex;justify-content:space-between;align-items:baseline;font-variant-numeric:tabular-nums}
+.dh .dn{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.dh .dd{font-family:"Baloo 2",sans-serif;font-weight:700;font-size:16px}
+.slots{display:grid;gap:5px;align-content:start}
+.slot{display:grid;grid-template-columns:auto 1fr;gap:6px;align-items:start;font-size:12.5px;line-height:1.3}
+.slot .who{width:18px;height:18px;border-radius:50%;display:inline-grid;place-items:center;font-size:10px;font-weight:800;color:#fff;margin-top:1px}
+.slot.rui .who{background:var(--rui)} .slot.raf .who{background:var(--raf)}
+.slot .q{color:var(--muted)}
+.day .big{font-family:"Baloo 2",sans-serif;font-weight:800;font-size:15px;line-height:1.15}
+.day.sim .big{color:var(--sim)} .day.prova .big{color:var(--prova)}
+.day .small{font-size:12px;color:var(--muted)}
+.holiday{font-size:12px;color:var(--muted);font-style:italic}
+
+/* regras */
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.rule{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 18px;display:grid;gap:6px;box-shadow:var(--shadow)}
+.rule p{color:var(--muted);font-size:14px}
+
+.foot{color:var(--muted);font-size:13px;max-width:70ch}
+
+@media (max-width:760px){
+  .days{grid-template-columns:1fr}
+  .day{border-right:0;border-bottom:1px solid var(--line);min-height:0;grid-template-rows:auto;grid-template-columns:76px 1fr;align-items:start}
+  .day:last-child{border-bottom:0}
+  .day.off{display:none}
+  .dh{flex-direction:column;align-items:flex-start;gap:0}
+}
+@media print{
+  body{background:#fff;color:#000;padding:0}
+  .week,.kid,.rule{box-shadow:none;break-inside:avoid}
+  .day.today{box-shadow:none}
+}
+@media (prefers-reduced-motion:no-preference){ .day{transition:background .2s} }
+</style>
+
+<div class="wrap">
+  <section class="hero">
+    <p class="eyebrow">Cangurivis · OBMEP Mirim 2026</p>
+    <h1>Rumo à 2ª Fase</h1>
+    <p class="lede">Oito semanas de treino curto e constante pro Rui Neto e pro Rafael, de 16 de setembro até a prova de 10 de novembro. Tudo acontece no app: cada dia diz o modo e quantas questões.</p>
+    <div class="facts">
+      <span>Prova: <b>terça, 10/11/2026</b></span>
+      <span>Formato: <b>15 questões, 1h30</b></span>
+      <span>Faltam: <b id="countdown">55 dias</b></span>
+      <span>Última atualização: <b>16/09/2026</b></span>
+    </div>
+  </section>
+
+  <section class="kids">
+    <article class="kid rui">
+      <h2>Rui Neto · Mirim 2</h2>
+      <p class="meta">10 anos · sessões de ~20 min · 4 dias por semana + simulado no sábado</p>
+      <ul>
+        <li><b>Treino normal</b>: 6 questões. Material novo: 15 da 2ª fase 2025 e 40 do PMC (Reino Unido).</li>
+        <li><b>Revisão</b>: 5 questões. Começa com 30 na lista, 15 delas de 2ª fase.</li>
+        <li><b>Simulado</b>: 5 ao todo (26/09, 10/10, 24/10, 31/10, 07/11). Como ele já viu quase todas as questões de 2ª fase, o app repete: o objetivo é ritmo e concentração.</li>
+      </ul>
+    </article>
+    <article class="kid raf">
+      <h2>Rafael · Mirim 1</h2>
+      <p class="meta">quase 8 anos · sessões de 10 a 15 min · 3 dias por semana + simulado a cada duas semanas</p>
+      <ul>
+        <li><b>Só 2ª fase</b>: 4 questões. Tem 50 inéditas de 2ª fase pra começar.</li>
+        <li><b>Revisão</b>: 3 questões. Começa com 11 na lista, 5 de 2ª fase.</li>
+        <li><b>Simulado</b>: 4 ao todo (26/09, 10/10, 24/10, 07/11). Quando o app avisar que acabaram as de 2ª fase inéditas, as sessões de "Só 2ª fase" viram <b>Treino normal</b>.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="legend" aria-label="Legenda">
+    <span class="tag rui">R Rui Neto</span>
+    <span class="tag raf">Ra Rafael</span>
+    <span class="tag sim">Simulado · os dois, sábado de manhã</span>
+    <span class="tag prova">Dia da prova</span>
+    <span>Dia cinza = folga. Contorno amarelo = hoje.</span>
+  </section>
+
+  <section class="weeks" id="weeks"></section>
+
+  <section class="rules">
+    <article class="rule"><h3>Sempre na mesma hora</h3><p>Escolham um horário fixo (depois do jantar funciona bem) e mantenham nos dias marcados. Sessão curta todo dia vale mais que uma sessão longa no fim de semana.</p></article>
+    <article class="rule"><h3>Simulado é prova de mentira</h3><p>Sábado de manhã, mesa limpa, papel de rascunho, sem ajuda e sem pausa. Meta: terminar as 15 em até 60 minutos (a prova de verdade dá 1h30). O resultado só aparece no final, como no dia.</p></article>
+    <article class="rule"><h3>Depois do simulado, revisão</h3><p>A primeira sessão da semana seguinte é sempre "Revisar o que errei". O app já sabe o que errou e coloca as de 2ª fase primeiro. Vale sentar junto e ler a solução completa.</p></article>
+    <article class="rule"><h3>Quando o material novo acabar</h3><p>Se o app disser que acabaram as questões de um modo, troca: Rui vai pra Revisão, Rafael vai pra Treino normal. Nunca fica sem sessão por falta de questão.</p></article>
+    <article class="rule"><h3>Feriados e véspera</h3><p>12/10 (Dia das Crianças) e 02/11 (Finados) são folga. Segunda 09/11, véspera, não tem treino nenhum: dormir cedo e separar lápis e borracha.</p></article>
+    <article class="rule"><h3>Acompanhar sem pressionar</h3><p>Uma vez por semana, abram o 📊 do app juntos e olhem a taxa de acerto por habilidade. Comemorem o combo, não só o placar do simulado.</p></article>
+  </section>
+
+  <p class="foot">Material disponível hoje no app: Rui Neto tem 55 questões inéditas e 30 pra revisar; Rafael tem 99 inéditas (50 de 2ª fase) e 11 pra revisar. Se o Rui esgotar tudo antes do fim, há mais provas do PMC (fev/2022, nov/2020, nov/2019) prontas pra serem processadas.</p>
+</div>
+
+<script>
+(function(){
+  // modos: T = treino normal, F = so 2a fase, V = revisao. Cada dia: {r:[modo,q], a:[modo,q]} (r=Rui, a=Rafael)
+  const M = {T:"Treino normal", F:"Só 2ª fase", V:"Revisão"};
+  const R = (m,q)=>({m,q}), NONE=null;
+  const weeks = [
+    {n:1, from:"2026-09-16", to:"2026-09-20", note:"Começo leve: as 15 questões novas de 2ª fase do Rui e as primeiras de 2ª fase do Rafael.",
+     days:{ "2026-09-16":{r:R("F",5),a:R("F",4)}, "2026-09-17":"rest", "2026-09-18":{r:R("V",5),a:R("V",3)}, "2026-09-19":{r:R("F",5),a:R("F",4)}, "2026-09-20":"rest" }},
+    {n:2, from:"2026-09-21", to:"2026-09-27", note:"Primeiro simulado no sábado: serve de ponto de partida, sem cobrança de nota.",
+     days:{ "2026-09-21":{r:R("F",5),a:R("F",4)}, "2026-09-22":{r:R("V",5),a:NONE}, "2026-09-23":{r:R("T",6),a:R("V",3)}, "2026-09-24":"rest", "2026-09-25":{r:R("V",5),a:R("F",4)}, "2026-09-26":"sim1", "2026-09-27":"rest" }},
+    {n:3, from:"2026-09-28", to:"2026-10-04", note:"Semana de revisar o simulado. Rui entra nas questões do PMC (Reino Unido).",
+     days:{ "2026-09-28":{r:R("V",5),a:R("V",3)}, "2026-09-29":{r:R("T",6),a:NONE}, "2026-09-30":{r:R("T",6),a:R("F",4)}, "2026-10-01":"rest", "2026-10-02":{r:R("V",5),a:R("F",4)}, "2026-10-03":{r:R("T",6),a:NONE}, "2026-10-04":"rest" }},
+    {n:4, from:"2026-10-05", to:"2026-10-11", note:"Segundo simulado no sábado.",
+     days:{ "2026-10-05":{r:R("T",6),a:R("F",4)}, "2026-10-06":{r:R("V",5),a:NONE}, "2026-10-07":{r:R("T",6),a:R("V",3)}, "2026-10-08":"rest", "2026-10-09":{r:R("V",5),a:R("F",4)}, "2026-10-10":"sim2", "2026-10-11":"rest" }},
+    {n:5, from:"2026-10-12", to:"2026-10-18", note:"Segunda é feriado (Dia das Crianças). A revisão do simulado fica pra terça.",
+     days:{ "2026-10-12":"holiday:Dia das Crianças", "2026-10-13":{r:R("V",5),a:R("V",3)}, "2026-10-14":{r:R("T",6),a:R("F",4)}, "2026-10-15":"rest", "2026-10-16":{r:R("V",5),a:R("F",4)}, "2026-10-17":{r:R("T",6),a:NONE}, "2026-10-18":"rest" }},
+    {n:6, from:"2026-10-19", to:"2026-10-25", note:"Terceiro simulado. A partir daqui o Rui provavelmente já esgotou o material novo: mais Revisão.",
+     days:{ "2026-10-19":{r:R("T",6),a:R("F",4)}, "2026-10-20":{r:R("V",5),a:NONE}, "2026-10-21":{r:R("T",6),a:R("V",3)}, "2026-10-22":"rest", "2026-10-23":{r:R("V",5),a:R("F",4)}, "2026-10-24":"sim3", "2026-10-25":"rest" }},
+    {n:7, from:"2026-10-26", to:"2026-11-01", note:"Quarto simulado só pro Rui (semanal na reta final). Rafael descansa no sábado.",
+     days:{ "2026-10-26":{r:R("V",5),a:R("V",3)}, "2026-10-27":{r:R("T",6),a:NONE}, "2026-10-28":{r:R("T",6),a:R("F",4)}, "2026-10-29":"rest", "2026-10-30":{r:R("V",5),a:R("F",4)}, "2026-10-31":"sim4r", "2026-11-01":"rest" }},
+    {n:8, from:"2026-11-02", to:"2026-11-08", note:"Reta final, mais leve. Segunda é feriado (Finados). Último simulado no sábado, os dois.",
+     days:{ "2026-11-02":"holiday:Finados", "2026-11-03":{r:R("V",5),a:R("V",3)}, "2026-11-04":{r:R("T",5),a:R("F",4)}, "2026-11-05":"rest", "2026-11-06":{r:R("V",4),a:R("V",3)}, "2026-11-07":"sim5", "2026-11-08":"rest" }},
+    {n:9, from:"2026-11-09", to:"2026-11-10", note:"Véspera sem treino. Terça é o dia.",
+     days:{ "2026-11-09":"eve", "2026-11-10":"prova" }},
+  ];
+  const SIM = {sim1:"Simulado 1", sim2:"Simulado 2", sim3:"Simulado 3", sim4r:"Simulado 4", sim5:"Simulado 5 (último)"};
+  const DN = ["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"];
+  const MN = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+  const parse = s => { const [y,m,d]=s.split("-").map(Number); return new Date(y,m-1,d); };
+  const iso = d => d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+  const fmt = d => d.getDate()+" "+MN[d.getMonth()];
+  const today = iso(new Date());
+  const prova = parse("2026-11-10"), now = new Date(); now.setHours(0,0,0,0);
+  const left = Math.round((prova-now)/86400000);
+  const cd = document.getElementById("countdown");
+  if (left > 1) cd.textContent = left+" dias"; else if (left === 1) cd.textContent = "1 dia (é amanhã!)"; else if (left === 0) cd.textContent = "é hoje!"; else cd.textContent = "prova já aconteceu";
+
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const slot = (cls, who, v) => v ? `<div class="slot ${cls}"><span class="who">${who}</span><span>${M[v.m]} <span class="q">· ${v.q} questões</span></span></div>` : "";
+  const root = document.getElementById("weeks");
+  root.innerHTML = weeks.map(w => {
+    const from = parse(w.from), to = parse(w.to);
+    // grade sempre de segunda a domingo; dias fora do intervalo ficam apagados
+    const monday = new Date(from); monday.setDate(from.getDate() - ((from.getDay()+6)%7));
+    let cells = "";
+    for (let i=0;i<7;i++){
+      const d = new Date(monday); d.setDate(monday.getDate()+i);
+      const k = iso(d), v = w.days[k];
+      const inRange = d >= from && d <= to;
+      const head = `<div class="dh"><span class="dn">${DN[d.getDay()]}</span><span class="dd">${fmt(d)}</span></div>`;
+      let cls = "day", body = "";
+      if (!inRange) { cls += " off"; }
+      else if (v === "rest" || v === undefined) { cls += " rest"; body = `<span class="small">folga</span>`; }
+      else if (typeof v === "string" && v.startsWith("holiday:")) { cls += " rest"; body = `<span class="small">folga</span><span class="holiday">${esc(v.slice(8))}</span>`; }
+      else if (v === "eve") { cls += " rest"; body = `<span class="big">Véspera</span><span class="small">nada de treino, dormir cedo</span>`; }
+      else if (v === "prova") { cls += " prova"; body = `<span class="big">PROVA · 2ª fase</span><span class="small">15 questões · 1h30 · na escola</span>`; }
+      else if (SIM[v]) { cls += " sim"; body = `<span class="big">${SIM[v]}</span><span class="small">${v==="sim4r" ? "só o Rui Neto · 15 questões" : "os dois · 15 questões cada"}</span>`; }
+      else { body = `<div class="slots">${slot("rui","R",v.r)}${slot("raf","Ra",v.a)}</div>`; }
+      if (k === today) cls += " today";
+      cells += `<div class="${cls}">${head}${body}</div>`;
+    }
+    return `<article class="week"><header><h2>Semana ${w.n}</h2><span class="range">${fmt(from)} – ${fmt(to)}</span>${w.note ? `<span class="note">${esc(w.note)}</span>` : ""}</header><div class="days">${cells}</div></article>`;
+  }).join("");
+})();
+</script>

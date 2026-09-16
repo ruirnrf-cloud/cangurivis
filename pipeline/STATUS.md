@@ -1,5 +1,16 @@
 # Fase 3 — status
 
+## Fase 12 — cronograma de treino até a 2ª fase (16/09/2026)
+
+Página `docs/cronograma_2a_fase_2026.html` (publicada como artefato privado em
+https://claude.ai/artifact/DamUwuehKWLUPVVtwnWsoH — republicar pelo mesmo caminho pra manter a URL).
+Semanas 1-9 (16/09 a 10/11) com o modo do app e o número de questões por dia, por filho; simulados
+aos sábados (Rui: 26/09, 10/10, 24/10, 31/10, 07/11; Rafael: sem o de 31/10); revisão sempre na
+primeira sessão depois de cada simulado; feriados 12/10 e 02/11 e véspera 09/11 sem treino.
+Calibrado pelo material do app na data: Rui 55 inéditas + 30 pra revisar; Rafael 99 inéditas (50 de
+F2) + 11 pra revisar. Prova oficial: 15 questões, 1h30 (meta no simulado: até 60 min). A grade é
+data-driven no `<script>` da própria página (`weeks`), então mudar um dia é editar uma linha.
+
 ## Fase 11 — modo "Revisar o que errei" + 2ª prova do PMC (nov/2021) pro Rui (16/09/2026)
 
 Itens 3 e 4 da lista combinada na Fase 9.
