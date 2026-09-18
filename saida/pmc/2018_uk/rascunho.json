@@ -7,7 +7,7 @@
   },
   "pdf_prova_original": "https://www.m-a.org.uk/resources/PMC November 2018 v8.1.pdf",
   "pdf_solucao_original": "https://www.m-a.org.uk/resources/Nov18 Answers and Notes.pdf",
-  "n_questoes": 20,
+  "n_questoes": 25,
   "questoes": {
     "1": {
       "numero": 1,
@@ -594,6 +594,52 @@
           "texto": "uma semana"
         }
       ]
+    },
+    "21": {
+      "numero": 21,
+      "id": "pmc-2018-q21",
+      "gabarito": "25",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Anna pensa num número, divide por 5, soma 20 ao resultado e chega no número que pensou. Que número era esse? (Responda só o número.)",
+      "alternativas": null
+    },
+    "22": {
+      "numero": 22,
+      "id": "pmc-2018-q22",
+      "gabarito": "21",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "A figura mostra a planta de uma casa com as áreas de três cômodos. O quarto e a sala têm o comprimento igual ao dobro da largura. Qual é a área da cozinha, em m²? (Responda só o número.)",
+      "alternativas": null,
+      "figura": "saida/pmc/2018_uk/figuras/q22.png"
+    },
+    "23": {
+      "numero": 23,
+      "id": "pmc-2018-q23",
+      "gabarito": "897798",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Um palíndromo, como 707 ou 2552, é um número que fica igual lido de trás pra frente. Qual é o maior palíndromo de seis algarismos que é múltiplo de 6? (Responda só o número.)",
+      "alternativas": null
+    },
+    "24": {
+      "numero": 24,
+      "id": "pmc-2018-q24",
+      "gabarito": "94",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Numa balsa, o total de carros, bicicletas e caminhões é um número par menor que 100. O número de carros é um terço a mais que o de bicicletas. O número de bicicletas é um quarto a mais que o de caminhões. Quantos veículos há na balsa ao todo? (Responda só o número.)",
+      "alternativas": null
+    },
+    "25": {
+      "numero": 25,
+      "id": "pmc-2018-q25",
+      "gabarito": "16",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Oito amigos estão sentados em volta de uma mesa redonda na festa de Abbie. Ela tem só 3 línguas-de-sogra e quer dar pra três amigos, de modo que dois vizinhos de mesa nunca ganhem as duas. De quantas maneiras ela pode fazer isso? (Responda só o número.)",
+      "alternativas": null
     }
   }
 }

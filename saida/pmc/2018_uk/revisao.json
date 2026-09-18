@@ -217,5 +217,65 @@
     "dica_curta": "Faz uma tabela: dia a dia, quanto falta depois da manhã e depois da noite.",
     "primeiro_passo": "Dia 1: 444 − 20 = 424 de manhã; à noite lê metade, sobram 212.",
     "solucao_completa": "- Dia 1: manhã 444 − 20 = 424; noite: sobram 212.\n- Dia 2: manhã 192; noite: 96.\n- Dia 3: manhã 76; noite: 38.\n- Dia 4: manhã 18; noite: 9.\n- Dia 5: de manhã ela lê as 9 que faltam. Acabou em **5 dias**.\n- Resposta certa: **C**."
+  },
+  "21": {
+    "status": "aprovado",
+    "gabarito": "25",
+    "tags": [
+      "fracoes",
+      "algebra"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Dividir por 5 e somar 20 dá o próprio número: então os 20 valem os 4/5 que 'sumiram' na divisão.",
+    "primeiro_passo": "4/5 do número = 20.",
+    "solucao_completa": "- N ÷ 5 + 20 = N, então 20 = N − N/5 = 4N/5. Logo N = 20 × 5 ÷ 4 = **25**.\n- Conferindo: 25 ÷ 5 = 5, 5 + 20 = 25 ✓."
+  },
+  "22": {
+    "status": "aprovado",
+    "gabarito": "21",
+    "tags": [
+      "perimetro e area",
+      "logica com pistas"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Quarto de 18 m² com comprimento = dobro da largura: 6 por 3. Sala de 32 m²: 8 por 4. O escritório divide a parede de 4 m com a sala.",
+    "primeiro_passo": "Escritório: 20 m² com 4 m de altura → 5 m de comprimento. A cozinha tem 3 m de altura (a mesma do quarto).",
+    "solucao_completa": "- Quarto: 6 × 3. Sala: 8 × 4. Escritório: 20 ÷ 4 = 5 m de comprimento.\n- Largura total da casa: 8 + 5 = 13 m; a cozinha ocupa 13 − 6 = 7 m, com 3 m de altura: 7 × 3 = **21 m²**."
+  },
+  "23": {
+    "status": "aprovado",
+    "gabarito": "897798",
+    "tags": [
+      "multiplos",
+      "sistema de numeracao"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "O palíndromo é ABCCBA. Múltiplo de 6 = par e múltiplo de 3. Par: A tem que ser par. Múltiplo de 3: a soma dos algarismos (2A + 2B + 2C) é múltiplo de 3.",
+    "primeiro_passo": "O maior A par é 8. O maior B é 9. Então 8 + 9 + C tem que ser múltiplo de 3 (a soma total é o dobro disso).",
+    "solucao_completa": "- A = 8 (par e o maior), B = 9. Precisa que 2 × (8 + 9 + C) seja múltiplo de 3, ou seja, 17 + C múltiplo de 3: C = 1, 4 ou 7.\n- Maior: C = 7 → **897798**."
+  },
+  "24": {
+    "status": "aprovado",
+    "gabarito": "94",
+    "tags": [
+      "proporcao e razao",
+      "multiplos"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Carros : bicicletas = 4 : 3. Bicicletas : caminhões = 5 : 4. Junta as duas razões pelo número de bicicletas.",
+    "primeiro_passo": "Carros : bicicletas : caminhões = 20 : 15 : 12 (soma 47).",
+    "solucao_completa": "- 4 : 3 e 5 : 4 → multiplicando pra bicicletas valerem 15: 20 : 15 : 12. Soma de uma 'unidade': 47.\n- O total é múltiplo de 47, par e menor que 100: **94** (40 carros, 30 bicicletas, 24 caminhões)."
+  },
+  "25": {
+    "status": "aprovado",
+    "gabarito": "16",
+    "tags": [
+      "combinatoria basica",
+      "contagem sistematica"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Numera as cadeiras de 1 a 8 em círculo e lista os trios sem vizinhos. Uma pista: os trios com 'espaços' de 2 cadeiras entre eles (como 1, 4, 7) são poucos.",
+    "primeiro_passo": "Fixa o primeiro amigo na cadeira 1: os outros dois ficam entre as cadeiras 3 e 7, sem serem vizinhos entre si: (3,5), (3,6), (3,7), (4,6), (4,7), (5,7) = 6 trios. Faz o mesmo pra cada cadeira e desconta as repetições.",
+    "solucao_completa": "- Com a cadeira 1 escolhida, há 6 jeitos de escolher as outras duas sem vizinhos. Como qualquer uma das 8 cadeiras pode ser 'a primeira', 8 × 6 = 48, mas cada trio foi contado 3 vezes (uma por membro).\n- 48 ÷ 3 = **16** maneiras."
   }
 }

@@ -213,5 +213,64 @@
     "dica_curta": "Primeiro transforma os 24 minutos inteiros em segundos, depois soma os 37,36 segundos que sobraram.",
     "primeiro_passo": "24 minutos × 60 segundos por minuto = quantos segundos?",
     "solucao_completa": "- 24 minutos × 60 = 1440 segundos.\n- Somando os 37,36 segundos que sobram: 1440 + 37,36 = 1477,36 segundos.\n- Arredondando pro segundo mais próximo: **1477** segundos.\n- Resposta certa: **D**."
+  },
+  "21": {
+    "status": "aprovado",
+    "gabarito": "48",
+    "tags": [
+      "perimetro e area"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Área do retângulo menos as áreas dos três triângulos brancos dos cantos.",
+    "primeiro_passo": "Retângulo: 15 × 8 = 120. Triângulo de cima à direita: 8 × 8 ÷ 2 = 32.",
+    "solucao_completa": "- Retângulo: 15 × 8 = 120 cm².\n- Triângulos brancos: 8 × 8 ÷ 2 = 32; 5 × 7 ÷ 2 = 17,5; 15 × 3 ÷ 2 = 22,5. Total 72.\n- Pintado: 120 − 72 = **48 cm²**."
+  },
+  "22": {
+    "status": "aprovado",
+    "gabarito": "198",
+    "tags": [
+      "perimetro e area",
+      "medidas"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Conta as ripas horizontais (3, atravessando tudo) e as verticais (6 pedaços de 15 cm).",
+    "primeiro_passo": "Largura total da moldura: 2 + 15 + 2 + 15 + 2 = 36 cm. São 3 ripas de 36 cm.",
+    "solucao_completa": "- 3 ripas horizontais de 36 cm (2 + 15 + 2 + 15 + 2): 108 cm.\n- 6 pedaços verticais de 15 cm (entre as ripas): 90 cm.\n- Total: 108 + 90 = **198 cm**."
+  },
+  "23": {
+    "status": "aprovado",
+    "gabarito": "45",
+    "tags": [
+      "porcentagem",
+      "fracoes"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Imagina 100 crianças: 75 gostam de netball. Quantas dessas 75 gostam de tênis?",
+    "primeiro_passo": "60% de 75 = 45.",
+    "solucao_completa": "- Em 100 crianças, 75 gostam de netball. 60% de 75 = 45 gostam também de tênis.\n- **45%** da turma."
+  },
+  "24": {
+    "status": "aprovado",
+    "gabarito": "36",
+    "tags": [
+      "angulos",
+      "formas geometricas"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Cada ângulo interno de um pentágono regular mede 108°. Em cada 'bico', três pentágonos se encontram num ponto.",
+    "primeiro_passo": "Em volta de um ponto tem 360°. Três pentágonos ocupam 3 × 108°.",
+    "solucao_completa": "- Ângulo interno do pentágono regular: 108°. Em cada ponto de encontro, três pentágonos ocupam 3 × 108 = 324°.\n- Sobra 360 − 324 = **36°**."
+  },
+  "25": {
+    "status": "aprovado",
+    "gabarito": "49",
+    "tags": [
+      "perimetro e area",
+      "simetria"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "A diagonal corta o retângulo (e cada círculo) em duas metades iguais. Toda parte pintada tem uma parte branca gêmea do outro lado.",
+    "primeiro_passo": "Então a área pintada é exatamente metade do retângulo.",
+    "solucao_completa": "- Cada pedaço pintado tem um pedaço branco de mesma área do outro lado da diagonal (a figura é simétrica em relação ao centro).\n- Pintado = metade do retângulo: 14 × 7 ÷ 2 = **49 cm²**."
   }
 }

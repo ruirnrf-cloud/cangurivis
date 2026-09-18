@@ -218,5 +218,65 @@
     "dica_curta": "Olha primeiro os 4 cantos pintados: o quadrado grande cabe 4 × 4 = 16 quadrados desse tamanho. Depois olha o quadrado do meio.",
     "primeiro_passo": "Os 4 cantos juntos são 4/16 = 1/4 do grande. O quadrado do meio (2 × 2) também é 1/4 do grande, e dentro dele 3 de 9 quadradinhos estão pintados.",
     "solucao_completa": "- O quadrado grande é 4 × 4 = 16 quadrados médios. Os 4 cantos pintados = 4/16 = 1/4.\n- O quadrado do meio ocupa 2 × 2 = 4 dos 16, ou seja, 1/4 do grande. Ele está dividido em 9 quadradinhos, e 3 estão pintados: 3/9 = 1/3 dele.\n- 1/3 de 1/4 = 1/12. Total pintado: 1/4 + 1/12 = 3/12 + 1/12 = 4/12 = **1/3**.\n- Resposta certa: **A**."
+  },
+  "21": {
+    "status": "aprovado",
+    "gabarito": "18",
+    "tags": [
+      "perimetro e area",
+      "fracoes"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Lado do quadrado grande: 48 ÷ 4 = 12. O quadrado de dentro divide o grande em 4 triângulos de canto iguais mais o quadrado do meio.",
+    "primeiro_passo": "O triângulo RMS é um dos 4 cantos, e os 4 cantos juntos são metade do quadrado grande.",
+    "solucao_completa": "- Lado de JKLM: 12 cm, área 144 cm². O quadrado PQRS ocupa metade (72 cm²); os 4 triângulos de canto dividem a outra metade.\n- RMS = 72 ÷ 4 = **18 cm²**."
+  },
+  "22": {
+    "status": "aprovado",
+    "gabarito": "108",
+    "tags": [
+      "angulos",
+      "formas geometricas"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Olha o triângulo formado pela reta, pelo lado do quadrado e pelo lado do hexágono, entre os dois ângulos de 21°. O quadrado tem ângulo de 90° e o hexágono tem ângulo interno de 120°.",
+    "primeiro_passo": "No pé do quadrado: 180 − 21 − 90 = 69°. No pé do hexágono: 180 − 120 − 21 = 39°.",
+    "solucao_completa": "- Ângulos do triângulo entre as figuras: 69° (lado do quadrado) e 39° (lado do hexágono), então o terceiro é 180 − 69 − 39 = 72°.\n- x é o suplemento: 180 − 72 = **108°**."
+  },
+  "23": {
+    "status": "aprovado",
+    "gabarito": "8",
+    "tags": [
+      "fracoes",
+      "porcentagem"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Testa frações simples e converte em porcentagem: metade = 50%, dois terços = 66,6%, três quintos = 60%... Procura uma entre 60% e 65%.",
+    "primeiro_passo": "Com 8 aranhas, 5/8 = 62,5%.",
+    "solucao_completa": "- 60% e 65% são 3/5 e 13/20. Testando denominadores pequenos: 1/2, 2/3, 3/4, 3/5, 4/6, 4/7 ≈ 57%, 5/7 ≈ 71%... nenhum entre 60 e 65 até o 7.\n- Com 8: 5/8 = 62,5% ✓. Menor número: **8** aranhas."
+  },
+  "24": {
+    "status": "aprovado",
+    "gabarito": "6",
+    "tags": [
+      "logica com pistas",
+      "soma"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Somando as três pesagens, cada gato foi pesado duas vezes.",
+    "primeiro_passo": "5 + 8 + 9 = 22 = 2 × (peso dos três). Os três juntos pesam 11 kg.",
+    "solucao_completa": "- Os três juntos: 22 ÷ 2 = 11 kg.\n- O mais pesado é o que fica de fora do par mais leve (5 kg): 11 − 5 = **6 kg**."
+  },
+  "25": {
+    "status": "aprovado",
+    "gabarito": "2245",
+    "tags": [
+      "sistema de numeracao",
+      "logica com pistas"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Se ela apagasse qualquer algarismo que não fosse o último, N e M terminariam no mesmo algarismo e a diferença terminaria em 0. Mas 2021 termina em 1.",
+    "primeiro_passo": "Então ela apagou o último algarismo: N = 10 × M + (último algarismo). E N − M = 9 × M + último = 2021.",
+    "solucao_completa": "- Apagou o último algarismo s: N = 10M + s, então N − M = 9M + s = 2021.\n- 2021 ÷ 9 = 224 com resto 5: M = 224 e s = 5.\n- N = **2245** (conferindo: 2245 − 224 = 2021)."
   }
 }

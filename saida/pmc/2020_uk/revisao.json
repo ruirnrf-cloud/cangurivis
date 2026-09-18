@@ -216,5 +216,65 @@
     "dica_curta": "O símbolo do 5 é o menor de todos. Procura um símbolo que só aparece como \"menor que\" e nunca como \"maior que\".",
     "primeiro_passo": "Encadeia as pistas: se X é menor que Y e Y é menor que Z, então X é o menor dos três.",
     "solucao_completa": "- Das três primeiras pistas dá pra encadear: o símbolo C é menor que o D, que é menor que o E, que é menor que o A.\n- A quarta pista diz que o B é maior que o C.\n- Então o símbolo **C** é menor que os outros quatro: ele é o **5**.\n- Resposta certa: **C**."
+  },
+  "21": {
+    "status": "aprovado",
+    "gabarito": "91",
+    "tags": [
+      "padroes e sequencias",
+      "logica com pistas"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Testa entradas 1, 2, 3, 4 e olha as respostas: elas crescem sempre do mesmo tanto.",
+    "primeiro_passo": "Entrada 1 → 1; 2 → 16; 3 → 31; 4 → 46. Cresce de 15 em 15.",
+    "solucao_completa": "- Respostas: 1, 16, 31, 46, 61, 76, 91, 106... (cresce 15 por vez).\n- O maior com dois algarismos é **91** (entrada 7)."
+  },
+  "22": {
+    "status": "aprovado",
+    "gabarito": "40",
+    "tags": [
+      "soma",
+      "logica com pistas"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "De 1 a 9 a soma é 45. Somando os três retângulos (9 + 16 + 25 = 50), os dois quadradinhos brancos foram contados duas vezes.",
+    "primeiro_passo": "50 − 45 = 5 é a soma dos dois quadradinhos brancos.",
+    "solucao_completa": "- 1 + 2 + ... + 9 = 45. Os retângulos somam 9 + 16 + 25 = 50; a diferença (5) é a soma dos dois brancos, contados duas vezes.\n- Pintados: 45 − 5 = **40**."
+  },
+  "23": {
+    "status": "aprovado",
+    "gabarito": "18",
+    "tags": [
+      "dinheiro",
+      "multiplos"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "500 e 30 são múltiplos de 10, então o que ele gastou em laranjas também é múltiplo de 10. Isso obriga o número de laranjas a ser múltiplo de 5.",
+    "primeiro_passo": "Testa 5 laranjas (130p, sobram 370p: não dá pra limões de 30p), 10 laranjas (260p, sobram 240p = 8 limões ✓)...",
+    "solucao_completa": "- Laranjas em múltiplos de 5: 5 → sobram 370p (não é múltiplo de 30); 10 → sobram 240p = 8 limões ✓; 15 → sobram 110p (não); 20 → 520p, passa.\n- 10 laranjas + 8 limões = **18** frutas."
+  },
+  "24": {
+    "status": "aprovado",
+    "gabarito": "80",
+    "tags": [
+      "perimetro e area",
+      "fracoes"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Os três triângulos brancos são 1/4, 1/4 e 1/8 do quadrado. Então o pintado é 3/8 do quadrado.",
+    "primeiro_passo": "3/8 do quadrado = 150 → 1/8 = 50 → quadrado = 400 cm².",
+    "solucao_completa": "- Brancos: 1/4 + 1/4 + 1/8 = 5/8. Pintado: 3/8 = 150 cm², então o quadrado tem 400 cm².\n- Lado: 20 cm (20 × 20 = 400). Perímetro: **80 cm**."
+  },
+  "25": {
+    "status": "aprovado",
+    "gabarito": "54",
+    "tags": [
+      "padroes e sequencias",
+      "multiplos"
+    ],
+    "resposta_tipo": "numero",
+    "dica_curta": "Uma carta na linha L e coluna C vale, no arranjo de Alun, 16 × (L − 1) + C. No de Bree, vale 10 × (C − 1) + L. Procura L e C que deem o mesmo número.",
+    "primeiro_passo": "16(L − 1) + C = 10(C − 1) + L → 15(L − 1) = 9(C − 1) → 5(L − 1) = 3(C − 1).",
+    "solucao_completa": "- Igualando as duas fórmulas: 5 × (L − 1) = 3 × (C − 1). Além de (1, 1) e (10, 16), a primeira solução é L − 1 = 3, C − 1 = 5, ou seja, linha 4 e coluna 6.\n- Número: 16 × 3 + 6 = **54** (o outro é 107, na linha 7, coluna 11)."
   }
 }

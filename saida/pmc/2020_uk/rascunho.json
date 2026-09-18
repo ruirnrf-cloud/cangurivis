@@ -7,7 +7,7 @@
   },
   "pdf_prova_original": "https://www.m-a.org.uk/resources/PMC November 2020 v6.2 (002).pdf",
   "pdf_solucao_original": "https://www.m-a.org.uk/resources/PMC November 2020 Answers Notes v6.2.pdf",
-  "n_questoes": 20,
+  "n_questoes": 25,
   "questoes": {
     "1": {
       "numero": 1,
@@ -594,6 +594,53 @@
         }
       ],
       "figura": "saida/pmc/2020_uk/figuras/q20.png"
+    },
+    "21": {
+      "numero": 21,
+      "id": "pmc-2020-q21",
+      "gabarito": "91",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Marcia pensa num número inteiro positivo e coloca ele nesta máquina de números:\n\n**pense num número → multiplique por 3 → subtraia 4 → multiplique por 5 → some 6 → resposta**\n\nQual é o maior número de dois algarismos que ela pode obter como resposta? (Responda só o número.)",
+      "alternativas": null
+    },
+    "22": {
+      "numero": 22,
+      "id": "pmc-2020-q22",
+      "gabarito": "40",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Os números de 1 a 9 são colocados, um em cada quadradinho, na figura. Os três números de cada retângulo vertical somam 9 e 16, e os cinco números do retângulo horizontal somam 25. Qual é a soma dos números dos sete quadradinhos pintados? (Responda só o número.)",
+      "alternativas": null,
+      "figura": "saida/pmc/2020_uk/figuras/q22.png"
+    },
+    "23": {
+      "numero": 23,
+      "id": "pmc-2020-q23",
+      "gabarito": "18",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Laranjas custam 26p cada e limões custam 30p cada. Gordon gastou exatamente £5 (500p) numa mistura de laranjas e limões. Quantas frutas ele comprou ao todo? (Responda só o número.)",
+      "alternativas": null
+    },
+    "24": {
+      "numero": 24,
+      "id": "pmc-2020-q24",
+      "gabarito": "80",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "A figura mostra um quadrado e um triângulo. O triângulo é formado por um canto do quadrado e pelos pontos médios de dois lados. A área do triângulo é 150 cm². Qual é o perímetro do quadrado, em cm? (Responda só o número.)",
+      "alternativas": null,
+      "figura": "saida/pmc/2020_uk/figuras/q24.png"
+    },
+    "25": {
+      "numero": 25,
+      "id": "pmc-2020-q25",
+      "gabarito": "54",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Alun escreveu os números de 1 a 160 em cartas e organizou em 10 linhas de 16 cartas (linha 1: 1 a 16; linha 2: 17 a 32; e assim por diante). Bree pegou as cartas e organizou em 16 colunas de 10 cartas (coluna 1: 1 a 10 de cima pra baixo; coluna 2: 11 a 20; e assim por diante). As cartas 1 e 160 ficaram no mesmo lugar nos dois arranjos. Outras duas cartas também ficaram no mesmo lugar. Qual é o menor desses dois números? (Responda só o número.)",
+      "alternativas": null
     }
   }
 }

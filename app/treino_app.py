@@ -130,6 +130,8 @@ def carregar_banco(trilhas):
                 "prova": prova,
                 "fase": 2 if prova.endswith("_f2") else 1 if prova.endswith("_f1") else None,
                 "modo": q_raw.get("modo", "imagem"),
+                # "letra" (A-E, padrao) ou "numero" (resposta numerica livre, ex.: PMC Q21-25)
+                "resposta_tipo": q_raw.get("resposta_tipo", "letra"),
                 "imagem_questao": q_raw.get("imagem_questao"),
                 "enunciado_md": q_raw.get("enunciado_md"),
                 "alternativas": q_raw.get("alternativas"),
@@ -424,9 +426,25 @@ def mostrar_questao(q):
         st.markdown(q["enunciado_md"])
         if q.get("figura"):
             st.image(q["figura"], width="stretch")
-        st.markdown("  \n".join(f"**{a['letra']})** {a['texto']}" for a in q["alternativas"]))
+        if q.get("alternativas"):
+            st.markdown("  \n".join(f"**{a['letra']})** {a['texto']}" for a in q["alternativas"]))
     else:
         st.image(q["imagem_questao"], width="stretch")
+
+
+def normalizar_numero(texto):
+    """'48', ' 48,0 ', '48.0' -> 48.0; texto nao numerico volta como string limpa."""
+    t = str(texto).strip().replace(" ", "").replace(",", ".")
+    try:
+        return float(t)
+    except ValueError:
+        return t.lower()
+
+
+def acertou_resposta(resposta, q):
+    if q.get("resposta_tipo") == "numero":
+        return normalizar_numero(resposta) == normalizar_numero(q["gabarito"])
+    return resposta == q["gabarito"]
 
 
 def progresso_banco():
@@ -469,7 +487,7 @@ def responder_simulado(letra, q):
 
 
 def responder(letra, q):
-    if letra == q["gabarito"]:
+    if acertou_resposta(letra, q):
         registro = {
             "id": q["id"], "prova": q["prova"], "tags": q["tags"],
             "acertou_de_primeira": st.session_state.tentativas == 0,
@@ -677,12 +695,25 @@ if st.session_state.get("acabou_de_acertar"):
         st.rerun()
     st.stop()
 
-cols = st.columns(5)
-for i, letra in enumerate(LETRAS):
-    if cols[i].button(letra, key=f"resp_{st.session_state.pos}_{letra}",
-                       width="stretch", disabled=st.session_state.travado):
-        responder(letra, q)
+if q.get("resposta_tipo") == "numero":
+    # resposta numerica livre (PMC Q21-25): campo + botao num form (Enter ou clique enviam o
+    # valor junto, sem depender de o campo ter sido 'commitado' antes), mesma escada de dicas
+    with st.form(key=f"form_num_{st.session_state.pos}_{st.session_state.tentativas}", border=False):
+        col_campo, col_btn = st.columns([3, 1])
+        valor = col_campo.text_input("Sua resposta (só o número)", placeholder="ex.: 48",
+                                     disabled=st.session_state.travado)
+        enviou = col_btn.form_submit_button("Responder ▶", type="primary", width="stretch",
+                                            disabled=st.session_state.travado)
+    if enviou and valor.strip():
+        responder(valor, q)
         st.rerun()
+else:
+    cols = st.columns(5)
+    for i, letra in enumerate(LETRAS):
+        if cols[i].button(letra, key=f"resp_{st.session_state.pos}_{letra}",
+                           width="stretch", disabled=st.session_state.travado):
+            responder(letra, q)
+            st.rerun()
 
 if st.session_state.tentativas > 0 and not st.session_state.travado:
     st.warning("Essa não foi... tenta de novo! 💪")

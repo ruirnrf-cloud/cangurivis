@@ -7,7 +7,7 @@
   },
   "pdf_prova_original": "https://www.m-a.org.uk/resources/PMC November 2021.pdf",
   "pdf_solucao_original": "https://www.m-a.org.uk/resources/PMC November 2021 Answers and Notes.pdf",
-  "n_questoes": 20,
+  "n_questoes": 25,
   "questoes": {
     "1": {
       "numero": 1,
@@ -593,6 +593,53 @@
         }
       ],
       "figura": "saida/pmc/2021_uk/figuras/q20.png"
+    },
+    "21": {
+      "numero": 21,
+      "id": "pmc-2021-q21",
+      "gabarito": "18",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "JKLM é um quadrado. Outro quadrado, PQRS, toca o ponto médio de cada lado de JKLM (figura). O perímetro de JKLM é 48 cm. Qual é a área, em cm², do triângulo RMS? (Responda só o número.)",
+      "alternativas": null,
+      "figura": "saida/pmc/2021_uk/figuras/q21.png"
+    },
+    "22": {
+      "numero": 22,
+      "id": "pmc-2021-q22",
+      "gabarito": "108",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "A figura mostra um quadrado e um hexágono regular encostados numa reta e se sobrepondo. Quanto mede, em graus, o ângulo marcado x? (Responda só o número.)",
+      "alternativas": null,
+      "figura": "saida/pmc/2021_uk/figuras/q22.png"
+    },
+    "23": {
+      "numero": 23,
+      "id": "pmc-2021-q23",
+      "gabarito": "8",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Mais de 60% mas menos de 65% das aranhas do meu armário têm pernas peludas. Qual é o menor número de aranhas que pode haver no armário? (Responda só o número.)",
+      "alternativas": null
+    },
+    "24": {
+      "numero": 24,
+      "id": "pmc-2021-q24",
+      "gabarito": "6",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Três gatos, Flopsie, Lopsie e Topsie, foram pesados de dois em dois. Os pesos dos três pares foram 5 kg, 8 kg e 9 kg. Quanto pesa, em kg, o gato mais pesado? (Responda só o número.)",
+      "alternativas": null
+    },
+    "25": {
+      "numero": 25,
+      "id": "pmc-2021-q25",
+      "gabarito": "2245",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Tabitha escreve um número N de quatro algarismos. Depois apaga um dos algarismos e forma um número M de três algarismos com os que sobraram, na mesma ordem. A diferença entre N e M é 2021. Qual é o número N? (Responda só o número.)",
+      "alternativas": null
     }
   }
 }

@@ -1,5 +1,29 @@
 # Fase 3 — status
 
+## Fase 16 — modo de resposta numérica no app + as 20 questões 21-25 do PMC de novembro (17/09/2026)
+
+As provas de novembro do PMC têm 5 questões finais de resposta livre (número), que ficaram de
+fora desde a Fase 8 porque o app só aceitava A-E. Agora:
+
+- **App**: questão com `"resposta_tipo": "numero"` no rascunho (e `alternativas: null`) mostra um
+  `st.form` com campo de texto + "Responder ▶" (Enter ou clique enviam o valor junto; a chave do
+  form inclui `tentativas` pra limpar o campo a cada erro). `acertou_resposta()` normaliza
+  vírgula/ponto/espaços e compara como número ("18", "18,0", " 18.0 " valem; "18 cm" não — o
+  enunciado sempre diz "responda só o número"). Mesma escada de dicas e mesmo registro no log
+  do treino. `mostrar_questao` só imprime alternativas quando existem. Simulado não é afetado
+  (essas questões têm `fase = None`). Primeira versão usava `st.button` + `disabled=not valor`,
+  que dependia de o valor do campo ter chegado ao servidor antes do clique — falhou no teste
+  (botão ficava desabilitado); o form resolveu.
+- **Questões**: 21-25 de nov/2022, 2021, 2020 e 2018 (ids `pmc-AAAA-q21..q25`) acrescentadas aos
+  `rascunho.json`/`revisao.json` existentes de cada prova. 9 figuras novas (retângulo/triângulo,
+  moldura, pentágonos, círculos de 2022; quadrados e hexágono de 2021; grade e triângulo de 2020;
+  planta da casa de 2018 com nomes dos cômodos reescritos em português). Máquina de números
+  (2020 Q21) e cartas de Alun/Bree (2020 Q25) viraram texto. Gabaritos conferidos contra o
+  Answers and Notes: 2022 48/198/45/36/49; 2021 18/108/8/6/2245; 2020 91/40/18/80/54;
+  2018 25/21/897798/94/16.
+- **Pool do Rui: 350 → 370.** Testado local (log fabricado deixando só as 20 numéricas
+  pendentes): errar mostra a dica, acertar mostra "Isso aí", "18,0" é aceito como 18.
+
 ## Fase 15 — as cinco Bonus Rounds restantes do PMC (fev/2018 a fev/2023) e o Canguru de Portugal avaliado (17/09/2026)
 
 Continuação autônoma da Fase 14 ("trabalhe até acabar os tokens"). Esgotei o que o site da

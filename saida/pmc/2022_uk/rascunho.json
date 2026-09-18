@@ -7,7 +7,7 @@
   },
   "pdf_prova_original": "https://www.m-a.org.uk/resources/Primary%20Mathematics%20Challenge%2022.pdf",
   "pdf_solucao_original": "https://www.m-a.org.uk/resources/Answersandnotesnov22v2.pdf",
-  "n_questoes": 20,
+  "n_questoes": 25,
   "questoes": {
     "1": {
       "numero": 1,
@@ -608,6 +608,55 @@
         }
       ],
       "figura": null
+    },
+    "21": {
+      "numero": 21,
+      "id": "pmc-2022-q21",
+      "gabarito": "48",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Qual é a área, em cm², do triângulo pintado dentro do retângulo da figura? (Responda só o número.)",
+      "alternativas": null,
+      "figura": "saida/pmc/2022_uk/figuras/q21.png"
+    },
+    "22": {
+      "numero": 22,
+      "id": "pmc-2022-q22",
+      "gabarito": "198",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Manjeet está fazendo uma moldura com uma ripa de madeira comprida, pra quatro fotos quadradas, como na figura. Cada foto mede 15 cm × 15 cm e a ripa tem 2 cm de largura. Qual é o comprimento total de madeira, em cm, que Manjeet vai usar? (Responda só o número.)",
+      "alternativas": null,
+      "figura": "saida/pmc/2022_uk/figuras/q22.png"
+    },
+    "23": {
+      "numero": 23,
+      "id": "pmc-2022-q23",
+      "gabarito": "45",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Numa turma, 75% das crianças gostam de netball. 60% das que gostam de netball também gostam de tênis. Que porcentagem das crianças da turma gosta dos dois? (Responda só o número, sem o %.)",
+      "alternativas": null
+    },
+    "24": {
+      "numero": 24,
+      "id": "pmc-2022-q24",
+      "gabarito": "36",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "Penny montou o padrão da figura encostando pentágonos regulares uns nos outros. Tristan repara que ficam ângulos agudos entre os pentágonos de fora. Quanto medem esses ângulos, em graus? (Responda só o número.)",
+      "alternativas": null,
+      "figura": "saida/pmc/2022_uk/figuras/q24.png"
+    },
+    "25": {
+      "numero": 25,
+      "id": "pmc-2022-q25",
+      "gabarito": "49",
+      "modo": "texto",
+      "resposta_tipo": "numero",
+      "enunciado_md": "O retângulo ABCD mede 14 cm × 7 cm. Tem dois círculos iguais que encostam nos lados do retângulo e um no outro, e a diagonal BD. Qual é a área total, em cm², da parte pintada (listrada) da figura? (Responda só o número.)",
+      "alternativas": null,
+      "figura": "saida/pmc/2022_uk/figuras/q25.png"
     }
   }
 }
