@@ -1,0 +1,540 @@
+{
+  "1": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem"
+    ],
+    "dica_curta": "Conta cada letra separadamente, marcando no dedo pra não repetir.",
+    "primeiro_passo": "O: 3, B: 3, M: 3, P: 2. E o E?",
+    "solucao_completa": "- O aparece 3 vezes, B 3, M 3, P 2 e **E** 6 vezes.\n- Resposta certa: **D**."
+  },
+  "2": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "dias da semana",
+      "calendario"
+    ],
+    "dica_curta": "9 dias = 1 semana + 2 dias. Uma semana depois do sábado é sábado.",
+    "primeiro_passo": "Sábado + 7 dias = sábado. + 1 = domingo. + 1 = ?",
+    "solucao_completa": "- 9 dias depois do sábado: 7 dias dá sábado, mais 2: domingo, **segunda-feira**.\n- Resposta certa: **B**."
+  },
+  "3": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "simetria",
+      "raciocinio visual"
+    ],
+    "dica_curta": "No espelho, esquerda e direita trocam de lado, mas o que está em cima continua em cima. Olha os dentes e as sobrancelhas.",
+    "primeiro_passo": "Os dentes do Fiascone estão de um lado só: no espelho, ficam do outro lado. Isso deixa só D ou E. Aí olha as sobrancelhas.",
+    "solucao_completa": "- Os dentes trocam de lado: só D e E servem.\n- As sobrancelhas (uma levantada) também trocam de lado: só a **E** bate.\n- Resposta certa: **E**."
+  },
+  "4": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "medidas",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Conta quantos pedacinhos diagonais tem cada linha. Cada pedacinho é a diagonal de um quadradinho.",
+    "primeiro_passo": "Todas as linhas têm 8 pedacinhos diagonais.",
+    "solucao_completa": "- Cada linha é feita de 8 diagonais de quadradinho, todas do mesmo tamanho.\n- Então **todas têm o mesmo comprimento**.\n- Resposta certa: **E**."
+  },
+  "5": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocinio visual",
+      "formas geometricas"
+    ],
+    "dica_curta": "Olha o buraco do espelho: o pedaço que falta tem um canto reto (90°) e o canto oposto é 'fechadinho' (agudo).",
+    "primeiro_passo": "Só uma alternativa tem um canto reto e o canto oposto agudo.",
+    "solucao_completa": "- O pedaço que falta é um quadrilátero com um ângulo reto e o ângulo oposto agudo. A, C, D e E não têm esse formato.\n- Encaixando a **B** no buraco, o espelho fica completo.\n- Resposta certa: **B**."
+  },
+  "6": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "divisao",
+      "multiplicacao"
+    ],
+    "dica_curta": "Cada sanduíche usa 2 fatias. Quantos sanduíches saem de 1 pacote de 24 fatias?",
+    "primeiro_passo": "24 ÷ 2 = 12 sanduíches por pacote. E com 2 pacotes e meio?",
+    "solucao_completa": "- 1 pacote: 24 ÷ 2 = 12 sanduíches. 2 pacotes e meio: 12 + 12 + 6 = **30**.\n- Resposta certa: **C**."
+  },
+  "7": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "sistema de numeracao",
+      "soma"
+    ],
+    "dica_curta": "Vai somando os algarismos dos anos seguintes: 2020 dá 4, 2021 dá 5...",
+    "primeiro_passo": "2020 → 4, 2021 → 5, 2022 → 6... cresce 1 por ano. Quando chega em 12?",
+    "solucao_completa": "- 2 + 0 + 2 + x = 12 → x = 8: o ano é 2028.\n- 2028 − 2019 = **9** anos.\n- Resposta certa: **C**."
+  },
+  "8": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem",
+      "padroes e sequencias"
+    ],
+    "dica_curta": "Com as mesas em fila, cabe uma cadeira de cada lado por mesa, mais uma em cada ponta.",
+    "primeiro_passo": "10 mesas: 10 cadeiras de um lado, 10 do outro, e 2 nas pontas.",
+    "solucao_completa": "- 10 + 10 nos lados + 2 nas cabeceiras = **22** cadeiras.\n- Resposta certa: **B**."
+  },
+  "9": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas",
+      "soma"
+    ],
+    "dica_curta": "Quais dois pesos somam 9? Só 3+6 ou 4+5. Testa cada caso vendo se sobra um par que soma 8.",
+    "primeiro_passo": "Se a primeira gaveta for 3 e 6, sobram 1, 2, 4, 5: nenhum par soma 8. Então é 4 e 5.",
+    "solucao_completa": "- Primeira gaveta (9): 4 e 5 (3 e 6 não serve, porque não sobraria par somando 8).\n- Segunda gaveta (8): 2 e 6. Terceira: **1 g e 3 g**.\n- Resposta certa: **A**."
+  },
+  "10": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "perimetro e area",
+      "contagem"
+    ],
+    "dica_curta": "Conta os quadradinhos da figura do enunciado. Depois calcula a área de cada retângulo (largura × altura).",
+    "primeiro_passo": "A figura tem 18 quadradinhos.",
+    "solucao_completa": "- Figura: 18 quadradinhos. Retângulos: A = 30, B = 21, **C = 9 × 2 = 18**, D = 16, E = 35.\n- Resposta certa: **C**."
+  },
+  "11": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocinio visual",
+      "quebra-cabeca"
+    ],
+    "dica_curta": "Procura cada peça das alternativas dentro do quebra-cabeça, lembrando que elas podem estar giradas ou com a cor trocada (viradas).",
+    "primeiro_passo": "A, B, D e E aparecem (giradas ou viradas). E a C?",
+    "solucao_completa": "- No quebra-cabeça aparecem: a A girada, a B girada, a D girada e a E virada (na outra cor).\n- Da **C** existe só uma peça parecida, mas com a cor invertida: o formato da C, na cor preta, não foi usado.\n- Resposta certa: **C**."
+  },
+  "12": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas"
+    ],
+    "dica_curta": "Se Olga não mora com Érica nem com Karina, então Érica e Karina moram juntas. Faz o mesmo com a pista da Ana.",
+    "primeiro_passo": "Érica e Karina juntas; Irene e Karina juntas. Então as três estão no mesmo andar.",
+    "solucao_completa": "- Érica, Karina e Irene estão no mesmo andar, que só pode ser o segundo (tem 3 lá).\n- Sobram **Ana e Olga** no primeiro.\n- Resposta certa: **E**."
+  },
+  "13": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem sistematica",
+      "combinatoria basica"
+    ],
+    "dica_curta": "Com o 1 no canto, a primeira linha só pode ser 1-2-3 ou 1-3-2. Pra cada uma, quantas segundas linhas existem?",
+    "primeiro_passo": "Pra cada primeira linha há 2 segundas linhas, e a terceira fica obrigada.",
+    "solucao_completa": "- Primeira linha: 2 jeitos. Segunda linha: 2 jeitos pra cada. Terceira: só 1 jeito.\n- 2 × 2 = **4** maneiras.\n- Resposta certa: **C**."
+  },
+  "14": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "pares e impares",
+      "soma"
+    ],
+    "dica_curta": "Três dos números são ímpares (5, 7, 9) e dois são pares (6, 8). Somando três e tirando dois, o resultado sempre é ímpar.",
+    "primeiro_passo": "Testa fazer 11: (9 + 8 + 6) − (5 + 7) = 23 − 12.",
+    "solucao_completa": "- O resultado é sempre ímpar (fora 0, 6 e 8). O menor possível é 1 e o maior é 13, então 15 não dá.\n- **11** = (9 + 8 + 6) − (5 + 7).\n- Resposta certa: **D**."
+  },
+  "15": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas",
+      "medidas"
+    ],
+    "dica_curta": "Começa pelo lado que tem números: a bola de 30 g equilibra o trapézio, e assim por diante. Cada barra equilibrada tem o mesmo peso dos dois lados.",
+    "primeiro_passo": "Lado direito: trapézio = 30 + 30 = 60 g; esse lado todo pesa 120 g. O lado esquerdo também pesa 120 g.",
+    "solucao_completa": "- Lado direito: 30 + 30 + 60 = 120 g. O esquerdo também: 2 corações + 2 quadrados = 120 g.\n- Na barrinha dos corações, um coração equilibra dois quadrados. Então 2 corações + 2 quadrados = 6 quadrados = 120 g.\n- Cada quadrado (a interrogação): 120 ÷ 6 = **20 g**.\n- Resposta certa: **B**."
+  }
+}

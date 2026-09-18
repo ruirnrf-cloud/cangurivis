@@ -1,0 +1,270 @@
+{
+  "fonte": {
+    "olimpiada_slug": "obmep",
+    "nivel_slug": "nivel_a",
+    "ano": 2019,
+    "fase": null
+  },
+  "pdf_prova": "acervo/mirim/NIVELA_2a_PROVA.pdf",
+  "pdf_solucao": "acervo/mirim/NIVELA_2a_SOL.pdf",
+  "n_questoes_segmentadas": 15,
+  "n_gabaritos_extraidos": 15,
+  "problemas_bloqueantes": [],
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "obmep-nivela-2019-q01",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 1,
+        "coluna": 0,
+        "y_top": 402.2,
+        "y_bottom": 578.9
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q01_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "2": {
+      "numero": 2,
+      "id": "obmep-nivela-2019-q02",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 1,
+        "coluna": 0,
+        "y_top": 578.9,
+        "y_bottom": 754.5
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q02_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "3": {
+      "numero": 3,
+      "id": "obmep-nivela-2019-q03",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 1,
+        "coluna": 1,
+        "y_top": 402.2,
+        "y_bottom": 754.5
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q03_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "4": {
+      "numero": 4,
+      "id": "obmep-nivela-2019-q04",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 2,
+        "coluna": 0,
+        "y_top": 54.4,
+        "y_bottom": 284.3
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q04_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "5": {
+      "numero": 5,
+      "id": "obmep-nivela-2019-q05",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 2,
+        "coluna": 0,
+        "y_top": 284.3,
+        "y_bottom": 452.7
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q05_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "6": {
+      "numero": 6,
+      "id": "obmep-nivela-2019-q06",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "coluna": 0,
+        "y_top": 452.7,
+        "y_bottom": 632.0
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q06_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "7": {
+      "numero": 7,
+      "id": "obmep-nivela-2019-q07",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "coluna": 0,
+        "y_top": 632.0,
+        "y_bottom": 754.5
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q07_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "8": {
+      "numero": 8,
+      "id": "obmep-nivela-2019-q08",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 2,
+        "coluna": 1,
+        "y_top": 54.4,
+        "y_bottom": 317.1
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q08_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "9": {
+      "numero": 9,
+      "id": "obmep-nivela-2019-q09",
+      "gabarito": "A",
+      "banda": {
+        "pagina_pdf": 2,
+        "coluna": 1,
+        "y_top": 317.1,
+        "y_bottom": 448.4
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q09_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "10": {
+      "numero": 10,
+      "id": "obmep-nivela-2019-q10",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 2,
+        "coluna": 1,
+        "y_top": 448.4,
+        "y_bottom": 754.5
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q10_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "11": {
+      "numero": 11,
+      "id": "obmep-nivela-2019-q11",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "coluna": 0,
+        "y_top": 54.4,
+        "y_bottom": 457.0
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q11_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "12": {
+      "numero": 12,
+      "id": "obmep-nivela-2019-q12",
+      "gabarito": "E",
+      "banda": {
+        "pagina_pdf": 3,
+        "coluna": 0,
+        "y_top": 457.0,
+        "y_bottom": 754.5
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q12_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "13": {
+      "numero": 13,
+      "id": "obmep-nivela-2019-q13",
+      "gabarito": "C",
+      "banda": {
+        "pagina_pdf": 3,
+        "coluna": 1,
+        "y_top": 54.4,
+        "y_bottom": 303.8
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q13_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "14": {
+      "numero": 14,
+      "id": "obmep-nivela-2019-q14",
+      "gabarito": "D",
+      "banda": {
+        "pagina_pdf": 3,
+        "coluna": 1,
+        "y_top": 303.8,
+        "y_bottom": 493.1
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q14_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    },
+    "15": {
+      "numero": 15,
+      "id": "obmep-nivela-2019-q15",
+      "gabarito": "B",
+      "banda": {
+        "pagina_pdf": 3,
+        "coluna": 1,
+        "y_top": 493.1,
+        "y_bottom": 754.5
+      },
+      "imagem_questao": "saida/nivel_a/2019_na/paginas/q15_full.png",
+      "figuras": [],
+      "n_figuras": 0,
+      "enunciado_rascunho": "",
+      "alternativas_rascunho": null,
+      "confianca_texto": "baixa"
+    }
+  }
+}

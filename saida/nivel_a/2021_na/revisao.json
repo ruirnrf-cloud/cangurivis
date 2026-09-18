@@ -1,0 +1,541 @@
+{
+  "1": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "subtracao"
+    ],
+    "dica_curta": "Calcula o lado esquerdo: 2020 − 10. Depois vê quanto falta pra 2005 chegar nele.",
+    "primeiro_passo": "2020 − 10 = 2010. E 2005 + ? = 2010.",
+    "solucao_completa": "- 2020 − 10 = 2010. A borboleta esconde 2010 − 2005 = **5**.\n- Resposta certa: **B**."
+  },
+  "2": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "formas geometricas",
+      "contagem"
+    ],
+    "dica_curta": "Quais figuras têm 4 lados? Só os quadrados. O círculo não tem lados.",
+    "primeiro_passo": "Apagando os 5 quadrados, sobram os triângulos e os círculos.",
+    "solucao_completa": "- Apagou os 5 quadrados (4 lados). Sobram 3 triângulos + 4 círculos = **7**.\n- Resposta certa: **E**."
+  },
+  "3": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "dinheiro",
+      "divisao"
+    ],
+    "dica_curta": "Descobre o preço de uma colher (4 por 20) e de um garfo (4 por 28).",
+    "primeiro_passo": "Colher: 20 ÷ 4 = 5. Garfo: 28 ÷ 4 = 7.",
+    "solucao_completa": "- Colher 5 reais, garfo 7 reais. 2 colheres + 2 garfos = 10 + 14 = **24**.\n- Resposta certa: **C**."
+  },
+  "4": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "multiplicacao",
+      "logica"
+    ],
+    "dica_curta": "Uma dezena = 10 pés. Coelho tem 4 pés, passarinho 2, peixe 0. Testa cada alternativa.",
+    "primeiro_passo": "2 coelhos = 8 pés. Falta 2: um passarinho.",
+    "solucao_completa": "- A: 8. B: 4 + 4 = 8. **C: 8 + 2 = 10** ✓. D: 6. E: 4.\n- Resposta certa: **C**."
+  },
+  "5": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "soma",
+      "estimativa"
+    ],
+    "dica_curta": "Soma o peso de todos. Em 2 viagens cabem no máximo 2 × 180 = 360 kg. Cabe?",
+    "primeiro_passo": "50 + 55 + 60 + 65 + 70 + 75 = 375 kg, mais que 360.",
+    "solucao_completa": "- Total 375 kg > 360 kg, então 2 viagens não bastam.\n- Com **3** viagens dá (por exemplo, duas pessoas por viagem).\n- Resposta certa: **B**."
+  },
+  "6": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "fracoes",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Continua as linhas dos cortes até o outro lado da torta: em quantos pedaços iguais ela foi dividida?",
+    "primeiro_passo": "A torta tinha 10 pedaços. Quantos faltam?",
+    "solucao_completa": "- Prolongando os cortes, a torta tinha 10 pedaços iguais; sobraram 6, faltam 4.\n- Cada netinho comeu 1: **4** netinhos.\n- Resposta certa: **B**."
+  },
+  "7": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas",
+      "contagem"
+    ],
+    "dica_curta": "Sala (1 cadeado) + armário (1) + as 4 caixas dele (4) dá 40 celulares. Ainda faltam 12.",
+    "primeiro_passo": "Pra pegar mais 12, abre outro armário (1) e 2 caixas (2).",
+    "solucao_completa": "- 1 (sala) + 1 (armário) + 4 (caixas) = 40 celulares. Mais 1 (segundo armário) + 2 (caixas) = 60 celulares, o bastante.\n- Total: 1 + 1 + 4 + 1 + 2 = **9** cadeados.\n- Resposta certa: **E**."
+  },
+  "8": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "medidas",
+      "reta numerica"
+    ],
+    "dica_curta": "O bem-te-vi está no meio: a distância dele até a andorinha é igual à distância dele até o canário.",
+    "primeiro_passo": "Andorinha a 380, bem-te-vi a 450: distância 70 m. O canário está 70 m depois do bem-te-vi.",
+    "solucao_completa": "- 450 − 380 = 70 m. Canário: 450 + 70 = **520 m**.\n- Resposta certa: **D**."
+  },
+  "9": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem",
+      "logica"
+    ],
+    "dica_curta": "Um par precisa de um pé esquerdo e um direito do mesmo número. Vai número por número.",
+    "primeiro_passo": "Confere cada número: tem um esquerdo E um direito?",
+    "solucao_completa": "- Dá pra formar 1 par de cada: 35, 36, 37, 40 e 41. Os outros sapatos do mesmo número são do mesmo pé.\n- **5** pares.\n- Resposta certa: **B**."
+  },
+  "10": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas",
+      "proporcao e razao"
+    ],
+    "dica_curta": "Troca tudo por patos: 2 galinhas = 1 pato. Então 2 patos + 2 galinhas = 3 patos = 1 leitão.",
+    "primeiro_passo": "1 leitão = 3 patos. 1 cabra = 1 leitão + 3 patos = ?",
+    "solucao_completa": "- 2 galinhas = 1 pato, então 1 leitão = 2 patos + 1 pato = 3 patos.\n- 1 cabra = 1 leitão + 3 patos = 3 + 3 = **6 patos**.\n- Resposta certa: **D**."
+  },
+  "11": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocinio visual",
+      "logica"
+    ],
+    "dica_curta": "Conta as peças por linha e por coluna. Alguma linha tem 1 peça só e outra tem 3: pelo menos uma peça precisa mudar de linha. Mas uma só resolve?",
+    "primeiro_passo": "Com 1 movimento não dá (alguma linha ou coluna continua errada). Testa com 2.",
+    "solucao_completa": "- Uma linha tem 3 peças e outra tem 1, então pelo menos uma peça se move. Mas qualquer movimento único deixa alguma linha ou coluna errada.\n- Com **2** movimentos dá pra deixar exatamente 2 peças em cada linha e coluna.\n- Resposta certa: **C**."
+  },
+  "12": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "pares e impares",
+      "subtracao"
+    ],
+    "dica_curta": "Pra diferença ser a maior possível: o maior número de 3 algarismos menos o menor de 2. Mas o resultado tem que ser par!",
+    "primeiro_passo": "999 − 10 = 989 é ímpar. Ajusta um dos números em 1.",
+    "solucao_completa": "- 999 − 10 = 989 (ímpar, não serve). 998 − 10 = 988 ou 999 − 11 = 988.\n- Maior diferença par: **988**.\n- Resposta certa: **B**."
+  },
+  "13": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "soma",
+      "logica com pistas"
+    ],
+    "dica_curta": "Se um par de faces opostas soma 3, esses números são 1 e 2. Os outros pares vêm de 3, 4, 5 e 6.",
+    "primeiro_passo": "Somas possíveis com 3, 4, 5, 6: 7, 8, 9, 10, 11. Qual das alternativas não aparece?",
+    "solucao_completa": "- As outras quatro faces são 3, 4, 5 e 6, e somas de pares delas dão 7, 8, 9, 10 ou 11.\n- **6** nunca aparece.\n- Resposta certa: **A**."
+  },
+  "14": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "multiplos",
+      "logica"
+    ],
+    "dica_curta": "Grandes têm 6 pintas e pequenas 5. Testa quantas grandes: o que sobra de 43 tem que ser múltiplo de 5.",
+    "primeiro_passo": "0 grandes → 43 (não). 1 → 37 (não). 2 → 31 (não). 3 → 25 ✓.",
+    "solucao_completa": "- Com 3 grandes (18 pintas) sobram 25 = 5 pequenas. Nenhuma outra quantidade fecha.\n- 3 + 5 = **8** joaninhas.\n- Resposta certa: **C**."
+  },
+  "15": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "planificacao de solidos",
+      "visualizacao espacial"
+    ],
+    "dica_curta": "Na planificação, a face toda cinza é vizinha das 4 brancas inteiras e fica oposta à face com os dois quadradinhos cinzas.",
+    "primeiro_passo": "Elimina: A e B (cinza inteira não está oposta aos quadradinhos), C (quadradinhos compartilhando lado), D (cinza inteira escondida).",
+    "solucao_completa": "- A face cinza inteira é oposta à face dos dois quadradinhos cinzas (que só se tocam num vértice) e cercada pelas brancas.\n- Só a alternativa **E** mostra isso.\n- Resposta certa: **E**."
+  }
+}

@@ -87,10 +87,11 @@ SIMULADO_N = 15
 # diferente) e tem o progresso gravado num arquivo proprio dentro do mesmo
 # Gist -- nunca mistura o banco nem o log dos dois.
 PERFIS = {
-    "rui": {"nome": "Rui", "trilhas": ["mirim_m2", "pmc"], "gist_arquivo": "progresso_rui.json"},
+    # nivel_a = OBMEP Nivel A (4o e 5o anos, 2018/2019/2021): mesmo nivel do Mirim 2, em portugues
+    "rui": {"nome": "Rui", "trilhas": ["mirim_m2", "nivel_a", "pmc"], "gist_arquivo": "progresso_rui.json"},
     "rafael": {"nome": "Rafael", "trilhas": ["mirim_m1"], "gist_arquivo": "progresso_rafael.json"},
-    "bebel": {"nome": "Bebel", "trilhas": ["mirim_m2"], "gist_arquivo": "progresso_bebel.json"},
-    "rui_filho": {"nome": "Rui Filho", "trilhas": ["mirim_m2"], "gist_arquivo": "progresso_rui_filho.json"},
+    "bebel": {"nome": "Bebel", "trilhas": ["mirim_m2", "nivel_a"], "gist_arquivo": "progresso_bebel.json"},
+    "rui_filho": {"nome": "Rui Filho", "trilhas": ["mirim_m2", "nivel_a"], "gist_arquivo": "progresso_rui_filho.json"},
 }
 
 st.set_page_config(layout="centered", page_title="Cangurivis - Treino")

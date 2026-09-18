@@ -1,5 +1,29 @@
 # Fase 3 — status
 
+## Fase 17 — OBMEP Nível A (4º e 5º anos, 2018/2019/2021) vira a trilha `nivel_a` (17/09/2026)
+
+Os três PDFs `acervo/mirim/NIVELA_{1a,2a,3a}_{PROVA,SOL}.pdf` que estavam no acervo desde o
+começo (sem registro no STATUS) são as provas da **OBMEP Nível A** de 2018, 2019 e 2021 (4º e 5º
+anos, prova única de 20/15/15 questões), com "Solução da prova" oficial comentada — a mesma
+fonte-tipo da Mirim, em português, no nível do Mirim 2. Entraram como trilha `nivel_a` pro Rui
+(e pra Bebel e Rui Filho, que também são Mirim 2): `saida/nivel_a/{2018,2019,2021}_na/`, ids
+`obmep-nivela-AAAA-qNN`, modo imagem.
+
+**Segmentação própria (layout em duas colunas)**: o `segmentar.py` da Mirim não serve (uma
+coluna). Âncoras = palavra `N.`/`N` no começo de coluna (x < 45 pra esquerda, 297 < x < 315 pra
+direita — limites apertados porque os valores das alternativas, tipo "A) 5", ficam em x ≈ 55 e
+x ≈ 322 e confundiam), abaixo de y = 400 na página 1 (instruções numeradas ficam acima), com
+**filtro sequencial** (só aceita o próximo número esperado, varrendo coluna esquerda e depois
+direita de cada página). Banda = coluna inteira (24-292 ou 300-572) da âncora até a próxima
+âncora da mesma coluna ou até `altura − 25`. Páginas 4 de 2019 e 2021 são "Atividade Extra"
+(mágica de aniversário / moedas) e ficaram de fora. Gabarito por regex no PDF de solução
+(`QUESTÃO N ALTERNATIVA X` em 2018/2019, `N. ALTERNATIVA X` em 2021), 50/50. Distribuição das
+50: `{B:12, C:12, D:12, E:10, A:4}`. Soluções em 3 camadas escritas a partir das oficiais
+(o gerador confere cada gabarito escrito contra o extraído do PDF antes de gravar).
+
+**Pool do Rui: 370 → 420.** Bebel e Rui Filho: 120 → 170. O recorte da Q20 de 2018 inclui o
+crédito vertical "Operacionalização: Fundação Carlos Chagas" na margem (em português, inofensivo).
+
 ## Fase 16 — modo de resposta numérica no app + as 20 questões 21-25 do PMC de novembro (17/09/2026)
 
 As provas de novembro do PMC têm 5 questões finais de resposta livre (número), que ficaram de

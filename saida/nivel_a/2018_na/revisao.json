@@ -1,0 +1,718 @@
+{
+  "1": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "soma"
+    ],
+    "dica_curta": "Arma a conta com as casas alinhadas: unidades embaixo de unidades.",
+    "primeiro_passo": "8 + 2 = 10: escreve 0 e vai 1 pra dezena.",
+    "solucao_completa": "- 2018 + 8012: unidades 8 + 2 = 10 (vai 1); dezenas 1 + 1 + 1 = 3; centenas 0 + 0 = 0; milhares 2 + 8 = 10.\n- Resultado: **10 030**.\n- Resposta certa: **C**."
+  },
+  "2": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "soma",
+      "subtracao"
+    ],
+    "dica_curta": "Começa com 25, tira quem desceu e soma quem subiu.",
+    "primeiro_passo": "25 − 7 = 18.",
+    "solucao_completa": "- 25 − 7 = 18 pessoas depois da descida; 18 + 5 = **23** depois da subida.\n- Resposta certa: **D**."
+  },
+  "3": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "logica",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Procura os números que estão nas duas figuras (círculo E retângulo) ao mesmo tempo. Depois tira os que estão dentro do triângulo.",
+    "primeiro_passo": "Dentro do círculo e do retângulo: 2, 10 e 13. Qual deles está dentro do triângulo?",
+    "solucao_completa": "- Dentro do círculo e do retângulo ao mesmo tempo: 2, 10 e 13.\n- O 13 está dentro do triângulo; o 2 e o 10 estão fora.\n- 2 + 10 = **12**.\n- Resposta certa: **E**."
+  },
+  "4": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas",
+      "soma"
+    ],
+    "dica_curta": "A diferença de idade entre dois irmãos nunca muda.",
+    "primeiro_passo": "Quando a irmã nasceu (0 anos), Geraldo tinha 5. Então ele é sempre 5 anos mais velho.",
+    "solucao_completa": "- Geraldo é 5 anos mais velho que a irmã, sempre.\n- Hoje a irmã faz 9, então Geraldo tem 9 + 5 = **14**.\n- Resposta certa: **D**."
+  },
+  "5": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "medidas",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Conta quantos lados de quarteirão cada caminho percorre. O mais curto é o que tem menos.",
+    "primeiro_passo": "O caminho D (cinza, quase reto) tem 9 lados. Os outros dão voltas.",
+    "solucao_completa": "- Contando lados de quarteirão: A passa de 14, B tem 13, C tem 13, E passa de 13.\n- O caminho **D** tem só 9: é o mais curto.\n- Resposta certa: **D**."
+  },
+  "6": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "medidas"
+    ],
+    "dica_curta": "A figurinha vai da marca 16 até a marca 20 da régua. Não precisa começar no zero!",
+    "primeiro_passo": "20 − 16.",
+    "solucao_completa": "- A figurinha começa no 16 e termina no 20: 20 − 16 = **4 cm**.\n- Resposta certa: **D**."
+  },
+  "7": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocinio visual",
+      "ordem"
+    ],
+    "dica_curta": "O quadrado que está por cima de todos foi o último a ser colocado. O que está por baixo de todos foi o primeiro.",
+    "primeiro_passo": "O E está embaixo de todos. O A está em cima de todos.",
+    "solucao_completa": "- De baixo pra cima: E (embaixo de C), C (embaixo de B), B (embaixo de D), D (embaixo de A), A por cima.\n- Ordem de colocação: **E, C, B, D, A**.\n- Resposta certa: **A**."
+  },
+  "8": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "calendario",
+      "dias da semana"
+    ],
+    "dica_curta": "Os dias da semana se repetem de 7 em 7. 17 dias = 14 dias + 3 dias.",
+    "primeiro_passo": "14 dias depois de um domingo é domingo de novo. Faltam 3 dias.",
+    "solucao_completa": "- 17 = 14 + 3. Duas semanas depois do domingo é domingo; mais 3 dias: segunda, terça, **quarta**.\n- Resposta certa: **E**."
+  },
+  "9": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "contagem"
+    ],
+    "dica_curta": "Conta os quadrados pretos e os brancos. Quantos brancos precisam virar pretos pra ficar igual?",
+    "primeiro_passo": "São 4 pretos e 8 brancos. Pra empatar, 6 de cada.",
+    "solucao_completa": "- 4 pretos e 8 brancos, 12 no total. Pra ficar 6 e 6, pinta **2** brancos de preto.\n- Resposta certa: **B**."
+  },
+  "10": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "padroes e sequencias",
+      "potencias"
+    ],
+    "dica_curta": "Conta os triângulos de cada figura: 1, 4, 9, 16... Reconhece esses números?",
+    "primeiro_passo": "1 = 1×1, 4 = 2×2, 9 = 3×3, 16 = 4×4.",
+    "solucao_completa": "- As figuras têm 1, 4, 9 e 16 triângulos: são os quadrados perfeitos (1×1, 2×2, 3×3, 4×4).\n- A quinta tem 5 × 5 = **25**.\n- Outro jeito: cada figura ganha 3, 5, 7... triângulos a mais: 16 + 9 = 25.\n- Resposta certa: **C**."
+  },
+  "11": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "raciocinio visual",
+      "logica"
+    ],
+    "dica_curta": "Olha a segunda linha do retângulo do enunciado: a primeira e a última casa têm cores diferentes. O retângulo que vai por cima precisa cobrir as brancas com pretas.",
+    "primeiro_passo": "Nas alternativas, olha essas mesmas duas casas (primeira e última da segunda linha): só uma alternativa tem preta exatamente onde o enunciado tem branca.",
+    "solucao_completa": "- Pra ficar tudo preto, cada casa branca do retângulo de cima precisa ter uma casa preta embaixo, e vice-versa.\n- Só a alternativa **E** tem preto onde o retângulo do enunciado é branco, em todas as casas.\n- Resposta certa: **E**."
+  },
+  "12": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "logica",
+      "divisao"
+    ],
+    "dica_curta": "Tira 2 bombons de cada prato: a balança continua equilibrada. O que sobra?",
+    "primeiro_passo": "Sobram 6 bombons de um lado e 300 g do outro.",
+    "solucao_completa": "- Tirando 2 bombons de cada lado, ficam 6 bombons = 300 g.\n- Cada bombom: 300 ÷ 6 = **50 g**.\n- Resposta certa: **B**."
+  },
+  "13": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "A",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "soma",
+      "logica com pistas"
+    ],
+    "dica_curta": "Somando as linhas ou somando as colunas, o total dos quatro números é o mesmo.",
+    "primeiro_passo": "Linhas: 8 + 3 = 11. Colunas: 7 + ? = 11.",
+    "solucao_completa": "- Total das linhas: 8 + 3 = 11. O total das colunas tem que ser 11 também: 7 + ? = 11.\n- ? = **4**.\n- Resposta certa: **A**."
+  },
+  "14": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "C",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "subtracao",
+      "contagem"
+    ],
+    "dica_curta": "De 24 pra 55 pulam as páginas 25, 26, ..., 54. Cuidado: as páginas 24 e 55 estão lá.",
+    "primeiro_passo": "55 − 24 = 31, mas isso conta uma página a mais.",
+    "solucao_completa": "- Faltam as páginas de 25 a 54: 55 − 24 − 1 = **30**.\n- Resposta certa: **C**."
+  },
+  "15": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "B",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "planificacao de solidos",
+      "visualizacao espacial"
+    ],
+    "dica_curta": "Numa planificação em cruz, faces opostas ficam separadas por uma face no meio (nunca vizinhas).",
+    "primeiro_passo": "Procura a alternativa em que os dois cinzas (e os dois brancos) não se tocam e têm uma face entre eles.",
+    "solucao_completa": "- Faces opostas do cubo nunca são vizinhas na planificação: ficam com uma face no meio.\n- Em A, C, D e E as faces cinzas são vizinhas. Só na **B** as faces opostas têm a mesma cor.\n- Resposta certa: **B**."
+  },
+  "16": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "subtracao",
+      "padroes e sequencias"
+    ],
+    "dica_curta": "Não precisa fazer todas as contas: compara com 52 − 39. Se somar o mesmo número aos dois, a diferença não muda.",
+    "primeiro_passo": "42 − 29 é 52 − 39 com 10 a menos nos dois. 72 − 59 é com 20 a mais. 53 − 40 é com 1 a mais. 152 − 139 é com 100 a mais.",
+    "solucao_completa": "- 52 − 39 = 13. A, B, C e E são a mesma conta 'deslocada' (os dois números mudam do mesmo tanto), então dão 13 também.\n- 54 − 37 = **17**, diferente.\n- Resposta certa: **D**."
+  },
+  "17": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas",
+      "fila"
+    ],
+    "dica_curta": "Desenha a fila numa linha. Conta a posição da Maria a partir do fim, depois a do Tiago.",
+    "primeiro_passo": "Maria é a 18ª a partir do fim (17 atrás dela). Tiago está 6 posições atrás dela (5 alunos entre os dois).",
+    "solucao_completa": "- A partir do fim: Maria é a 18ª; Tiago fica 6 posições antes: 12º a partir do fim.\n- Tiago tem 14 na frente: a fila tem 12 + 14 = **26** alunos.\n- Resposta certa: **D**."
+  },
+  "18": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "fracoes"
+    ],
+    "dica_curta": "Sobrou metade das laranjas e três quartos das maçãs. Três quartos é mais ou menos que a metade?",
+    "primeiro_passo": "Se sobrou metade de uma parte e mais da metade da outra, sobrou mais da metade do total.",
+    "solucao_completa": "- Laranjas: sobrou 1/2. Maçãs: sobrou 3/4, que é mais que a metade.\n- Juntando: **mais da metade** das frutas.\n- Resposta certa: **D**."
+  },
+  "19": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "E",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "soma",
+      "subtracao",
+      "medidas"
+    ],
+    "dica_curta": "Mede o desvio inteiro (os três pedaços) e compara com os 40 km que ele substitui.",
+    "primeiro_passo": "Desvio: 20 + 50 + 30 = 100 km.",
+    "solucao_completa": "- Desvio: 20 + 50 + 30 = 100 km, no lugar dos 40 km interrompidos.\n- A mais: 100 − 40 = **60 km**.\n- Resposta certa: **E**."
+  },
+  "20": {
+    "enunciado_md": "",
+    "alternativa_tipo": "imagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ""
+      },
+      {
+        "letra": "B",
+        "texto": ""
+      },
+      {
+        "letra": "C",
+        "texto": ""
+      },
+      {
+        "letra": "D",
+        "texto": ""
+      },
+      {
+        "letra": "E",
+        "texto": ""
+      }
+    ],
+    "gabarito": "D",
+    "solucao_md": "",
+    "status": "aprovado",
+    "tags": [
+      "logica com pistas"
+    ],
+    "dica_curta": "A casa rosa tem duas vizinhas (verde e azul), então não pode estar nas pontas. Testa colocar ela no meio.",
+    "primeiro_passo": "Rosa na casa 3, com azul e verde nas casas 2 e 4. A amarela é vizinha da azul e a vermelha é vizinha da verde. E a amarela não é a 5.",
+    "solucao_completa": "- A rosa tem que ser a casa 3 (precisa de duas vizinhas, e nas casas 2 ou 4 as pistas não fecham).\n- Azul e verde nas casas 2 e 4; amarela ao lado da azul e vermelha ao lado da verde, nas pontas.\n- Como a amarela não é a 5: 1 amarela, 2 azul, 3 rosa, 4 **verde**, 5 vermelha.\n- Resposta certa: **D**."
+  }
+}
