@@ -1,0 +1,276 @@
+{
+  "1": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "dinheiro",
+      "divisao"
+    ],
+    "dica_curta": "Quantas vezes 2 cabe em 50?",
+    "primeiro_passo": "50 ÷ 2.",
+    "solucao_completa": "- 50 ÷ 2 = **25** moedas.\n- Resposta certa: **C**."
+  },
+  "2": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "operacoes basicas",
+      "ordem das operacoes"
+    ],
+    "dica_curta": "Calcula cada uma. Cuidado com o zero nas multiplicações.",
+    "primeiro_passo": "A: 2 × 9 = 18. C: qualquer coisa vezes 0 dá 0.",
+    "solucao_completa": "- A: 2 × 9 = 18. B: −7. C: 0. D: 11. E: 2 + 0 = 2.\n- O maior é **A**.\n- Resposta certa: **A**."
+  },
+  "3": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "fracoes",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Depois dos três quartos, o que sobrou (um quarto do livro) são as 22 páginas lidas de manhã mais as 35 que faltam.",
+    "primeiro_passo": "Um quarto do livro = 22 + 35 = 57 páginas.",
+    "solucao_completa": "- O último quarto do livro tem 22 + 35 = 57 páginas.\n- Livro inteiro: 57 × 4 = **228**.\n- Resposta certa: **E**."
+  },
+  "4": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "logica com pistas",
+      "multiplicacao"
+    ],
+    "dica_curta": "Todas as opções dão 14 cabeças. Conta as pernas: ganso tem 2, ovelha tem 4.",
+    "primeiro_passo": "Testa: 9 gansos = 18 pernas, 5 ovelhas = 20 pernas.",
+    "solucao_completa": "- Pernas: A: 16 + 24 = 40. B: 12 + 32 = 44. C: 18 + 20 = **38** ✓. D: 10 + 36 = 46. E: 20 + 16 = 36.\n- Resposta certa: **C**."
+  },
+  "5": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "fracoes",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Calcula o lado direito de cada uma e vê se dá a mesma fração do lado esquerdo (simplifica).",
+    "primeiro_passo": "A: (1 × 5)/(2 × 4) = 5/8. E 15/24 simplificado por 3 dá 5/8!",
+    "solucao_completa": "- A: 15/24 = 5/8 (dividindo por 3), e (1 × 5)/(2 × 4) = 5/8. Verdadeira!\n- As outras não batem: B: 24/35 ≠ 8/15; C: 33/46 ≠ 9/24; D: 42/57 ≠ 8/35; E: 51/68 ≠ 5/48.\n- Resposta certa: **A**."
+  },
+  "6": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "divisao",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Quantos ele já vacinou nos primeiros 10 minutos? Quantos faltam?",
+    "primeiro_passo": "10 × 6 = 60 vacinados. Faltam 240 em 20 minutos.",
+    "solucao_completa": "- Primeiros 10 min: 60 pacientes. Faltam 300 − 60 = 240 em 20 minutos: 240 ÷ 20 = **12** por minuto.\n- Resposta certa: **B**."
+  },
+  "7": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "multiplos"
+    ],
+    "dica_curta": "Lista os múltiplos de 91: 91, 182, 273, 364...",
+    "primeiro_passo": "91, 182, 273, 364, 455. Qual cai num dos intervalos?",
+    "solucao_completa": "- Múltiplos de 91: 91, 182, 273, 364, 455. Só o 455 cai num dos intervalos: **de 401 a 460**.\n- Resposta certa: **E**."
+  },
+  "8": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "dinheiro",
+      "logica com pistas"
+    ],
+    "dica_curta": "O pacote de 5 é mais barato por música (70p cada). Compra o máximo de pacotes e depois vê o que dá pra comprar com o troco.",
+    "primeiro_passo": "2 pacotes = £7, sobram £3. Com £3 dá pra comprar quantas músicas de 79p?",
+    "solucao_completa": "- 2 pacotes de 5 = £7 (10 músicas). Sobram £3, que compram 3 músicas avulsas (3 × 79p = £2.37). Total: **13**.\n- (3 pacotes custariam £10.50, não dá.)\n- Resposta certa: **D**."
+  },
+  "9": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "soma",
+      "padroes e sequencias"
+    ],
+    "dica_curta": "Cada número de 11 a 20 é 10 a mais que um número de 1 a 10.",
+    "primeiro_passo": "10 números, cada um 10 a mais: a soma cresce 100.",
+    "solucao_completa": "- 11 + 12 + ... + 20 = (1 + 10) + (2 + 10) + ... + (10 + 10) = 55 + 100 = **155**.\n- Resposta certa: **C**."
+  },
+  "10": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "medidas",
+      "multiplicacao"
+    ],
+    "dica_curta": "Converte o peso pra gramas: 50 kg = 50 000 g.",
+    "primeiro_passo": "50 000 × 35.",
+    "solucao_completa": "- 50 kg = 50 000 g. 50 000 × £35 = **£1 750 000**.\n- Resposta certa: **D**."
+  },
+  "11": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "logica com pistas",
+      "dinheiro"
+    ],
+    "dica_curta": "Compara 'feijão com torrada' (£1.20) com 'ovo com torrada' (80p): a diferença é entre feijão e ovo.",
+    "primeiro_passo": "Feijão custa 40p a mais que ovo. Se o caro custa o dobro, o feijão é 80p e os outros 40p.",
+    "solucao_completa": "- Feijão + torrada = 120p e ovo + torrada = 80p, então feijão = ovo + 40p. O mais caro custa o dobro: feijão 80p, os outros 40p.\n- Conferindo: bacon + salsicha + ovo = 120p ✓; torrada + feijão + salsicha = 40 + 80 + 40 = 160p ✓.\n- Resposta certa: **B** (feijão)."
+  },
+  "12": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "leitura de tabelas e graficos",
+      "raciocinio visual"
+    ],
+    "dica_curta": "No começo ela se afasta de S; depois de dobrar o canto de dentro do L, chega mais perto por um trecho; depois se afasta de novo e por fim volta. O gráfico tem que subir, descer um pouco, subir e descer até zero.",
+    "primeiro_passo": "Só um gráfico tem esse formato de 'M' com o vale no meio e volta ao zero no fim.",
+    "solucao_completa": "- A distância até S cresce, depois diminui um pouco quando ela dobra o canto de dentro do L, cresce de novo e por fim cai até zero quando ela volta a S. A segunda metade é o espelho da primeira.\n- O único gráfico com esse desenho é o **A**.\n- Resposta certa: **A**."
+  },
+  "13": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "geometria de solidos",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Olha o enfeite de cada lado (frente, trás, esquerda, direita) e de cima: de cada direção, quantas faces de cubinho você vê?",
+    "primeiro_passo": "De cada lado vemos 4 × 4 = 16 faces. E de cima também 16.",
+    "solucao_completa": "- De cada uma das 4 direções laterais aparecem 16 faces de cubinhos (uma grade 4 × 4, mesmo com os degraus). De cima, mais 16.\n- 5 × 16 = **80** diamantes.\n- Resposta certa: **E**."
+  },
+  "14": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "multiplos",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Primeiro conta os divisores de 20 e de 18. Multiplica os dois números. Depois conta os divisores desse resultado.",
+    "primeiro_passo": "Divisores de 20: 1, 2, 4, 5, 10, 20 (são 6). De 18: 1, 2, 3, 6, 9, 18 (são 6). Então 6 × 6 = 36.",
+    "solucao_completa": "- ⟨20⟩ = 6 e ⟨18⟩ = 6, então ⟨20⟩ × ⟨18⟩ = 36.\n- Divisores de 36: 1, 2, 3, 4, 6, 9, 12, 18, 36: **9**.\n- Resposta certa: **D**."
+  },
+  "15": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "angulos",
+      "formas geometricas"
+    ],
+    "dica_curta": "Os dois triângulos dos cantos são retângulos e isósceles (ângulos de 45°). A 'ponta de flecha' do meio tem um ângulo de 212°, um de 90° (no canto) e dois de x.",
+    "primeiro_passo": "Os quatro ângulos da ponta de flecha somam 360°: 212 + 90 + x + x = 360.",
+    "solucao_completa": "- Na 'ponta de flecha': 212 + 90 + 2x = 360, então 2x = 58 e x = **29°**.\n- Outro caminho: 360 − 212 = 148° no vértice de baixo; os dois ângulos da base do triângulo isósceles medem (180 − 148) ÷ 2 = 16°; e x = 90 − 45 − 16 = 29°.\n- Resposta certa: **E**."
+  },
+  "16": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "horas",
+      "divisao"
+    ],
+    "dica_curta": "Converte 2018 minutos em dias, horas e minutos: 1 dia = 1440 minutos.",
+    "primeiro_passo": "2018 − 1440 = 578 minutos = 9 h 38 min. Então 2018 min = 1 dia, 9 h e 38 min.",
+    "solucao_completa": "- 2018 min = 1 dia + 9 h 38 min.\n- Meio-dia de quarta menos 1 dia = meio-dia de terça. Menos 9 h 38 min = **2h22 de terça**.\n- Resposta certa: **B**."
+  },
+  "17": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "proporcao e razao",
+      "padroes e sequencias"
+    ],
+    "dica_curta": "Procura um bloco que se repete no padrão. Um quadrado de 3 × 3 azulejos se repete pela parede toda.",
+    "primeiro_passo": "No bloco 3 × 3: 1 preto, 4 cinzas e 4 brancos.",
+    "solucao_completa": "- O padrão se repete em blocos de 3 × 3 = 9 azulejos: 1 preto, 4 cinzas e 4 brancos.\n- Proporção: **1 : 4 : 4**.\n- Resposta certa: **B**."
+  },
+  "18": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "multiplos",
+      "sistema de numeracao"
+    ],
+    "dica_curta": "Se 100 001 é 1 a menos que um múltiplo de 7, então 100 002 é múltiplo de 7. E 200 004, 300 006, 400 008 e 500 010 também (são 2, 3, 4 e 5 vezes 100 002).",
+    "primeiro_passo": "Então 100 003, 200 005, 300 007, 400 009 e 500 011 são 1 a mais que um múltiplo de 7. Qual opção é um múltiplo de 7 a mais que um desses?",
+    "solucao_completa": "- 500 010 é múltiplo de 7 (5 × 100 002), então 500 011 é 1 a mais. E 500 018 = 500 011 + 7 também é 1 a mais que um múltiplo de 7.\n- As outras não são: 100 006 = 100 002 + 4; 200 009 = 200 004 + 5; 300 012 = 300 006 + 6; 400 015 = 400 008 + 7 (é múltiplo, não 1 a mais).\n- Resposta certa: **E**."
+  },
+  "19": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "proporcao e razao",
+      "medidas"
+    ],
+    "dica_curta": "Converte 450 km pra centímetros e divide pelos 18 cm do mapa.",
+    "primeiro_passo": "450 km = 450 000 m = 45 000 000 cm.",
+    "solucao_completa": "- 450 km = 45 000 000 cm. 45 000 000 ÷ 18 = 2 500 000.\n- Escala **1 : 2 500 000**.\n- Resposta certa: **A**."
+  },
+  "20": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "perimetro e area",
+      "formas geometricas"
+    ],
+    "dica_curta": "Lado do quadrado: 6 cm. O triângulo pequeno e o hexágono têm lado igual à metade do lado do quadrado (3 cm). O triângulo grande tem lado 6, e o pentágono tem lado 6 + 3 = 9.",
+    "primeiro_passo": "Conta quantos lados de cada forma ficam no contorno: 3 do quadrado, 2 do hexágono, 4 do pentágono e 1 do triângulo grande.",
+    "solucao_completa": "- Lados: quadrado 6 cm, hexágono e triângulo pequeno 3 cm, triângulo grande 6 cm, pentágono 9 cm.\n- Contorno: 3 × 6 (quadrado) + 2 × 3 (hexágono) + 4 × 9 (pentágono) + 6 (triângulo grande) = 18 + 6 + 36 + 6 = **66 cm**.\n- Resposta certa: **E**."
+  },
+  "21": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "fracoes",
+      "logica com pistas"
+    ],
+    "dica_curta": "12 comem laranja, 8 maçã, 6 pera: 26 'vagas' pra 24 crianças. Então alguém come mais de uma fruta. Como concentrar as repetições no menor número de crianças?",
+    "primeiro_passo": "Se uma única criança come as três frutas, ela usa 3 vagas, e sobram 23 vagas pras outras 23 crianças, uma fruta cada.",
+    "solucao_completa": "- 12 + 8 + 6 = 26, duas a mais que 24. Se uma criança come as três frutas (3 vagas), as outras 23 crianças usam exatamente 23 vagas, uma fruta cada.\n- Máximo: **23**.\n- Resposta certa: **D**."
+  },
+  "22": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "contagem sistematica",
+      "sistema de numeracao"
+    ],
+    "dica_curta": "Os que começam com 3 são os 6 menores. O sétimo e o oitavo começam com 5.",
+    "primeiro_passo": "Começando com 5, os menores são 5369 (7º) e 5396 (8º).",
+    "solucao_completa": "- Começam com 3: 3569, 3596, 3659, 3695, 3956, 3965 (posições 1 a 6). Depois: 5369 (7º) e **5396** (8º).\n- Resposta certa: **C**."
+  },
+  "23": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "fracoes",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Em P, a parte branca (uma 'pipa') é 1/5 da estrela. Em Q, cada triângulo branco é 1/7. A parte pintada de R é feita de duas pipas e um triângulo.",
+    "primeiro_passo": "Pintado em R = 2 × 1/5 + 1/7.",
+    "solucao_completa": "- Pipa = 1/5 da estrela (P). Triângulo de ponta = 1/7 (Q, com dois brancos = 2/7).\n- R tem pintado 2 pipas + 1 triângulo: 2/5 + 1/7 = 14/35 + 5/35 = **19/35**.\n- Resposta certa: **D**."
+  },
+  "24": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "perimetro e area",
+      "formas geometricas"
+    ],
+    "dica_curta": "Divide a parte pintada em dois triângulos pela linha MK: o triângulo KXM (base XK = 6,5 cm, altura JM = 4 cm) e o triângulo KYM (base YM = 5,5 cm, altura KL = 8 cm).",
+    "primeiro_passo": "Área de KXM = 6,5 × 4 ÷ 2 = 13 cm².",
+    "solucao_completa": "- Triângulo KXM: base 13 ÷ 2 = 6,5 cm, altura 4 cm: 13 cm². Triângulo KYM: base 11 ÷ 2 = 5,5 cm, altura 8 cm: 22 cm².\n- 13 + 22 = **35 cm²**.\n- Resposta certa: **C**."
+  },
+  "25": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "proporcao e razao",
+      "logica com pistas"
+    ],
+    "dica_curta": "Primeiro descobre quantos de cada cor: 5 : 4 é o mesmo que 10 : 8, então vermelho : branco : azul = 10 : 8 : 7.",
+    "primeiro_passo": "10 + 8 + 7 = 25 partes = 100 bilhetes → 40 vermelhos, 32 brancos, 28 azuis. Pior caso: tira o máximo de cada cor sem chegar na metade.",
+    "solucao_completa": "- 40 vermelhos, 32 brancos, 28 azuis. Sem chegar na metade de nenhuma cor dá pra tirar 19 + 15 + 13 = 47 bilhetes.\n- O 48º bilhete, seja de que cor for, completa a metade de alguma cor: **48**.\n- Resposta certa: **A**."
+  }
+}

@@ -1,0 +1,745 @@
+{
+  "fonte": {
+    "olimpiada_slug": "pmc",
+    "pais": "reino-unido",
+    "ano": 2018,
+    "edicao": "fevereiro (bonus round)"
+  },
+  "pdf_prova_original": "https://www.m-a.org.uk/resources/BonusRoundQuestionPaperFeb2018.pdf",
+  "pdf_solucao_original": "https://www.m-a.org.uk/resources/February_2018_Answers.pdf",
+  "n_questoes": 25,
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "pmc-2018feb-q01",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Quantas moedas de £2 valem o mesmo que uma nota de £50?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10"
+        },
+        {
+          "letra": "B",
+          "texto": "15"
+        },
+        {
+          "letra": "C",
+          "texto": "25"
+        },
+        {
+          "letra": "D",
+          "texto": "30"
+        },
+        {
+          "letra": "E",
+          "texto": "35"
+        }
+      ]
+    },
+    "2": {
+      "numero": 2,
+      "id": "pmc-2018feb-q02",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Qual destas contas tem o maior valor?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2 × (0 + 1 + 8)"
+        },
+        {
+          "letra": "B",
+          "texto": "2 − 0 − 1 − 8"
+        },
+        {
+          "letra": "C",
+          "texto": "2 × 0 × 1 × 8"
+        },
+        {
+          "letra": "D",
+          "texto": "2 + 0 + 1 + 8"
+        },
+        {
+          "letra": "E",
+          "texto": "2 + (0 × 1 × 8)"
+        }
+      ]
+    },
+    "3": {
+      "numero": 3,
+      "id": "pmc-2018feb-q03",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Comecei um livro, li três quartos dele antes de dormir e mais 22 páginas no café da manhã. Agora faltam 35 páginas. Quantas páginas tem o livro?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "57"
+        },
+        {
+          "letra": "B",
+          "texto": "76"
+        },
+        {
+          "letra": "C",
+          "texto": "114"
+        },
+        {
+          "letra": "D",
+          "texto": "140"
+        },
+        {
+          "letra": "E",
+          "texto": "228"
+        }
+      ]
+    },
+    "4": {
+      "numero": 4,
+      "id": "pmc-2018feb-q04",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Jake vê 14 cabeças e 38 pernas. O que ele pode estar olhando?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "8 gansos e 6 ovelhas"
+        },
+        {
+          "letra": "B",
+          "texto": "6 gansos e 8 ovelhas"
+        },
+        {
+          "letra": "C",
+          "texto": "9 gansos e 5 ovelhas"
+        },
+        {
+          "letra": "D",
+          "texto": "5 gansos e 9 ovelhas"
+        },
+        {
+          "letra": "E",
+          "texto": "10 gansos e 4 ovelhas"
+        }
+      ]
+    },
+    "5": {
+      "numero": 5,
+      "id": "pmc-2018feb-q05",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Qual destas igualdades é verdadeira?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "15/24 = (1 × 5)/(2 × 4)"
+        },
+        {
+          "letra": "B",
+          "texto": "24/35 = (2 × 4)/(3 × 5)"
+        },
+        {
+          "letra": "C",
+          "texto": "33/46 = (3 × 3)/(4 × 6)"
+        },
+        {
+          "letra": "D",
+          "texto": "42/57 = (4 × 2)/(5 × 7)"
+        },
+        {
+          "letra": "E",
+          "texto": "51/68 = (5 × 1)/(6 × 8)"
+        }
+      ]
+    },
+    "6": {
+      "numero": 6,
+      "id": "pmc-2018feb-q06",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "O Dr. Picadão precisa vacinar 300 pacientes em 30 minutos. Nos primeiros dez minutos, ele vacina 6 pacientes por minuto. Quantos por minuto ele precisa vacinar nos 20 minutos seguintes pra terminar a tarefa?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "12"
+        },
+        {
+          "letra": "C",
+          "texto": "15"
+        },
+        {
+          "letra": "D",
+          "texto": "20"
+        },
+        {
+          "letra": "E",
+          "texto": "30"
+        }
+      ]
+    },
+    "7": {
+      "numero": 7,
+      "id": "pmc-2018feb-q07",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Em qual destes intervalos existe um múltiplo de 91?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "de 1 a 60"
+        },
+        {
+          "letra": "B",
+          "texto": "de 101 a 160"
+        },
+        {
+          "letra": "C",
+          "texto": "de 201 a 260"
+        },
+        {
+          "letra": "D",
+          "texto": "de 301 a 360"
+        },
+        {
+          "letra": "E",
+          "texto": "de 401 a 460"
+        }
+      ]
+    },
+    "8": {
+      "numero": 8,
+      "id": "pmc-2018feb-q08",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Baixar uma música custa 79p. Mas dá pra comprar 5 músicas juntas por £3.50. Qual é o número máximo de músicas que Gethin consegue comprar com £10?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10"
+        },
+        {
+          "letra": "B",
+          "texto": "11"
+        },
+        {
+          "letra": "C",
+          "texto": "12"
+        },
+        {
+          "letra": "D",
+          "texto": "13"
+        },
+        {
+          "letra": "E",
+          "texto": "14"
+        }
+      ]
+    },
+    "9": {
+      "numero": 9,
+      "id": "pmc-2018feb-q09",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "A soma dos 10 primeiros inteiros positivos (1 a 10) é 55. Qual é a soma dos 10 inteiros seguintes (11 a 20)?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "55"
+        },
+        {
+          "letra": "B",
+          "texto": "110"
+        },
+        {
+          "letra": "C",
+          "texto": "155"
+        },
+        {
+          "letra": "D",
+          "texto": "210"
+        },
+        {
+          "letra": "E",
+          "texto": "550"
+        }
+      ]
+    },
+    "10": {
+      "numero": 10,
+      "id": "pmc-2018feb-q10",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "O Sr. Midas diz que a filha dele, Audrey, vale o peso dela em ouro. Se Audrey pesa 50 kg e o ouro custa £35 por grama, quanto o pai acha que ela vale?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "£17.50"
+        },
+        {
+          "letra": "B",
+          "texto": "£1750"
+        },
+        {
+          "letra": "C",
+          "texto": "£175 000"
+        },
+        {
+          "letra": "D",
+          "texto": "£1 750 000"
+        },
+        {
+          "letra": "E",
+          "texto": "£17 500 000"
+        }
+      ]
+    },
+    "11": {
+      "numero": 11,
+      "id": "pmc-2018feb-q11",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "O cardápio de um café é:\n\n| Prato | Preço |\n|---|---|\n| Feijão com torrada | £1.20 |\n| Bacon, salsicha e ovo | £1.20 |\n| Ovo com torrada | 80p |\n| Torrada, feijão e salsicha | £1.60 |\n\nOs cinco ingredientes (bacon, feijão, ovo, salsicha, torrada) custam todos o mesmo, **exceto um**, que custa o dobro dos outros. Qual ingrediente custa mais?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Bacon"
+        },
+        {
+          "letra": "B",
+          "texto": "Feijão"
+        },
+        {
+          "letra": "C",
+          "texto": "Ovo"
+        },
+        {
+          "letra": "D",
+          "texto": "Salsicha"
+        },
+        {
+          "letra": "E",
+          "texto": "Torrada"
+        }
+      ]
+    },
+    "12": {
+      "numero": 12,
+      "id": "pmc-2018feb-q12",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Asmita começa no canto S e corre em velocidade constante, no sentido horário, em volta do prédio em forma de L (figura). Qual gráfico pode mostrar a distância dela até o ponto de partida S ao longo do tempo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "B",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "C",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "D",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "E",
+          "texto": "ver figura"
+        }
+      ],
+      "figura": "saida/pmc/2018_feb_uk/figuras/q12.png"
+    },
+    "13": {
+      "numero": 13,
+      "id": "pmc-2018feb-q13",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Este enfeite (figura) é feito só de cubinhos dourados. Um diamante vai ser colado em cada face externa de cada cubinho, menos na base do enfeite. Quantos diamantes o joalheiro precisa?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "30"
+        },
+        {
+          "letra": "B",
+          "texto": "48"
+        },
+        {
+          "letra": "C",
+          "texto": "60"
+        },
+        {
+          "letra": "D",
+          "texto": "75"
+        },
+        {
+          "letra": "E",
+          "texto": "80"
+        }
+      ],
+      "figura": "saida/pmc/2018_feb_uk/figuras/q13.png"
+    },
+    "14": {
+      "numero": 14,
+      "id": "pmc-2018feb-q14",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Vamos usar ⟨N⟩ pra indicar o número de divisores do número N. Por exemplo, ⟨4⟩ = 3, porque o 4 tem 3 divisores (1, 2 e 4). Quanto vale ⟨ ⟨20⟩ × ⟨18⟩ ⟩?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "6"
+        },
+        {
+          "letra": "C",
+          "texto": "8"
+        },
+        {
+          "letra": "D",
+          "texto": "9"
+        },
+        {
+          "letra": "E",
+          "texto": "11"
+        }
+      ]
+    },
+    "15": {
+      "numero": 15,
+      "id": "pmc-2018feb-q15",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Qual é a medida do ângulo marcado x na figura?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "25°"
+        },
+        {
+          "letra": "B",
+          "texto": "26°"
+        },
+        {
+          "letra": "C",
+          "texto": "27°"
+        },
+        {
+          "letra": "D",
+          "texto": "28°"
+        },
+        {
+          "letra": "E",
+          "texto": "29°"
+        }
+      ],
+      "figura": "saida/pmc/2018_feb_uk/figuras/q15.png"
+    },
+    "16": {
+      "numero": 16,
+      "id": "pmc-2018feb-q16",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Que horas são 2018 minutos antes do meio-dia de quarta-feira?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "21h38 de quinta"
+        },
+        {
+          "letra": "B",
+          "texto": "2h22 de terça"
+        },
+        {
+          "letra": "C",
+          "texto": "14h52 de terça"
+        },
+        {
+          "letra": "D",
+          "texto": "11h38 de quarta"
+        },
+        {
+          "letra": "E",
+          "texto": "20h18 de segunda"
+        }
+      ]
+    },
+    "17": {
+      "numero": 17,
+      "id": "pmc-2018feb-q17",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Se você fosse cobrir uma parede enorme com o padrão de azulejos pequenos da figura, em que proporção de pretos, cinzas e brancos precisaria comprar os azulejos?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 : 4 : 2"
+        },
+        {
+          "letra": "B",
+          "texto": "1 : 4 : 4"
+        },
+        {
+          "letra": "C",
+          "texto": "1 : 4 : 8"
+        },
+        {
+          "letra": "D",
+          "texto": "1 : 2 : 1"
+        },
+        {
+          "letra": "E",
+          "texto": "1 : 2 : 4"
+        }
+      ],
+      "figura": "saida/pmc/2018_feb_uk/figuras/q17.png"
+    },
+    "18": {
+      "numero": 18,
+      "id": "pmc-2018feb-q18",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "O número favorito de Sam é 100 001, que é 1 a menos que um múltiplo de 7. Qual destes números é 1 a **mais** que um múltiplo de 7?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "100 006"
+        },
+        {
+          "letra": "B",
+          "texto": "200 009"
+        },
+        {
+          "letra": "C",
+          "texto": "300 012"
+        },
+        {
+          "letra": "D",
+          "texto": "400 015"
+        },
+        {
+          "letra": "E",
+          "texto": "500 018"
+        }
+      ]
+    },
+    "19": {
+      "numero": 19,
+      "id": "pmc-2018feb-q19",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Num mapa da Inglaterra, a distância entre duas cidades chamadas St Ives mede 18 cm. Na realidade, a distância é de cerca de 450 km. Qual é a escala do mapa?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 : 2 500 000"
+        },
+        {
+          "letra": "B",
+          "texto": "1 : 1 000 000"
+        },
+        {
+          "letra": "C",
+          "texto": "1 : 750 000"
+        },
+        {
+          "letra": "D",
+          "texto": "1 : 500 000"
+        },
+        {
+          "letra": "E",
+          "texto": "1 : 250 000"
+        }
+      ]
+    },
+    "20": {
+      "numero": 20,
+      "id": "pmc-2018feb-q20",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "A figura mostra uma forma feita de dois triângulos equiláteros, um quadrado, um pentágono regular e um hexágono regular. O perímetro do quadrado é 24 cm. Qual é o perímetro da forma toda?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "54 cm"
+        },
+        {
+          "letra": "B",
+          "texto": "57 cm"
+        },
+        {
+          "letra": "C",
+          "texto": "60 cm"
+        },
+        {
+          "letra": "D",
+          "texto": "63 cm"
+        },
+        {
+          "letra": "E",
+          "texto": "66 cm"
+        }
+      ],
+      "figura": "saida/pmc/2018_feb_uk/figuras/q20.png"
+    },
+    "21": {
+      "numero": 21,
+      "id": "pmc-2018feb-q21",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Todas as 24 crianças da minha turma comem pelo menos um tipo de fruta. Metade come laranja, um terço come maçã e um quarto come pera. Qual é o maior número possível de crianças que comem só **um** tipo dessas frutas?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12"
+        },
+        {
+          "letra": "B",
+          "texto": "14"
+        },
+        {
+          "letra": "C",
+          "texto": "22"
+        },
+        {
+          "letra": "D",
+          "texto": "23"
+        },
+        {
+          "letra": "E",
+          "texto": "24"
+        }
+      ]
+    },
+    "22": {
+      "numero": 22,
+      "id": "pmc-2018feb-q22",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Existem 24 números de quatro algarismos que usam cada um dos algarismos 3, 5, 6 e 9 exatamente uma vez. Colocando todos em ordem crescente, qual fica na oitava posição?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3569"
+        },
+        {
+          "letra": "B",
+          "texto": "5369"
+        },
+        {
+          "letra": "C",
+          "texto": "5396"
+        },
+        {
+          "letra": "D",
+          "texto": "5639"
+        },
+        {
+          "letra": "E",
+          "texto": "5936"
+        }
+      ]
+    },
+    "23": {
+      "numero": 23,
+      "id": "pmc-2018feb-q23",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Nas figuras, 4/5 da forma P está pintada e 5/7 da forma Q está pintada. Que fração da forma R está pintada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3/5"
+        },
+        {
+          "letra": "B",
+          "texto": "3/7"
+        },
+        {
+          "letra": "C",
+          "texto": "16/35"
+        },
+        {
+          "letra": "D",
+          "texto": "19/35"
+        },
+        {
+          "letra": "E",
+          "texto": "33/35"
+        }
+      ],
+      "figura": "saida/pmc/2018_feb_uk/figuras/q23.png"
+    },
+    "24": {
+      "numero": 24,
+      "id": "pmc-2018feb-q24",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "O quadrilátero JKLM da figura tem lados de 4 cm, 8 cm, 11 cm e 13 cm, e ângulos retos em J e em L. Os pontos X e Y são os pontos médios de JK e de LM. Foram traçadas linhas formando o quadrilátero pintado XKYM. Qual é a área de XKYM?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "28 cm²"
+        },
+        {
+          "letra": "B",
+          "texto": "32 cm²"
+        },
+        {
+          "letra": "C",
+          "texto": "35 cm²"
+        },
+        {
+          "letra": "D",
+          "texto": "37 cm²"
+        },
+        {
+          "letra": "E",
+          "texto": "40 cm²"
+        }
+      ],
+      "figura": "saida/pmc/2018_feb_uk/figuras/q24.png"
+    },
+    "25": {
+      "numero": 25,
+      "id": "pmc-2018feb-q25",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Um saco tem 100 bilhetes de rifa, vermelhos, brancos e azuis. A razão entre vermelhos e brancos é 5 : 4, e entre brancos e azuis é 8 : 7. Qual é o menor número de bilhetes que precisam ser tirados pra garantir que pelo menos a metade de **uma** das cores foi tirada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "48"
+        },
+        {
+          "letra": "B",
+          "texto": "49"
+        },
+        {
+          "letra": "C",
+          "texto": "50"
+        },
+        {
+          "letra": "D",
+          "texto": "51"
+        },
+        {
+          "letra": "E",
+          "texto": "52"
+        }
+      ]
+    }
+  }
+}
