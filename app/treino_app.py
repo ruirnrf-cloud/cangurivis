@@ -39,6 +39,7 @@ import json
 import os
 import random
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 import requests
@@ -46,6 +47,18 @@ import streamlit as st
 
 BASE = "saida"
 LETRAS = ["A", "B", "C", "D", "E"]
+# O Community Cloud roda em UTC: sem isso, treino depois das 21h vira "dia seguinte"
+# no log e quebra a contagem de dias seguidos.
+FUSO = ZoneInfo("America/Sao_Paulo")
+
+
+def agora():
+    return datetime.now(FUSO)
+
+
+# tamanho padrao da sessao por perfil (o cronograma pede sessoes curtas: 4 pro Rafael, 6 pro Rui)
+TAMANHOS_SESSAO = [4, 6, 10, "todas"]
+TAMANHO_PADRAO = {"rafael": 4}
 # pontos por resposta certa, conforme quantas dicas precisou (0 = sem ajuda nenhuma)
 PONTOS_POR_DICAS = {0: 10, 1: 6, 2: 3, 3: 1}
 
@@ -87,8 +100,11 @@ if LOG_LOCAL_DIR:
 
 # ---------- dados ----------
 
+@st.cache_data(show_spinner=False)
 def carregar_banco(trilhas):
-    """Junta as questoes aprovadas das trilhas do perfil (ex.: mirim_m2 pro Rui) num pool so."""
+    """Junta as questoes aprovadas das trilhas do perfil (ex.: mirim_m2 pro Rui) num pool so.
+    `trilhas` e uma tupla (precisa ser hashavel pro cache); o cache dura enquanto o
+    container viver -- um redeploy (que e como novas provas chegam) recria tudo."""
     pool = []
     caminhos = []
     for trilha in trilhas:
@@ -148,9 +164,7 @@ def carregar_log(gist_arquivo):
     return json.loads(arquivo["content"])
 
 
-def salvar_no_log(gist_arquivo, registro):
-    log = carregar_log(gist_arquivo)
-    log["respostas"].append(registro)
+def _escrever_log(gist_arquivo, log):
     conteudo = json.dumps(log, ensure_ascii=False, indent=2)
     if LOG_LOCAL_DIR:
         os.makedirs(LOG_LOCAL_DIR, exist_ok=True)
@@ -164,6 +178,51 @@ def salvar_no_log(gist_arquivo, registro):
         timeout=10,
     )
     resp.raise_for_status()
+
+
+def salvar_no_log(gist_arquivo, registro=None):
+    """Grava no Gist tudo que ainda nao foi gravado (o registro novo + o que falhou antes).
+    Se o GitHub estiver fora do ar ou no limite, a crianca nao ve traceback: o registro fica
+    numa fila em memoria e vai junto na proxima tentativa (proxima resposta ou o botao
+    'tentar de novo'). A fila sobrevive a troca de modo, nao a troca de perfil."""
+    pendentes = st.session_state.setdefault("gravacao_pendente", {})  # {arquivo: [registros]}
+    if registro is not None:
+        pendentes.setdefault(gist_arquivo, []).append(registro)
+    try:
+        for arquivo, fila_grav in list(pendentes.items()):
+            if not fila_grav:
+                continue
+            log = carregar_log(arquivo)
+            log["respostas"].extend(fila_grav)
+            _escrever_log(arquivo, log)
+            fila_grav.clear()
+        st.session_state.pop("aviso_gravacao", None)
+        return True
+    except Exception as e:  # rede, rate limit, token expirado...
+        st.session_state.aviso_gravacao = f"{type(e).__name__}: {e}"
+        return False
+
+
+def n_gravacoes_pendentes():
+    return sum(len(v) for v in st.session_state.get("gravacao_pendente", {}).values())
+
+
+CHAVES_SESSAO = ("fila", "reserva", "pos", "tentativas", "revelado", "travado", "sessao_registros",
+                 "acabou_de_acertar", "combo", "mostrar_progresso", "modo", "escolha", "tamanho",
+                 "simulado_inicio", "simulado_id", "simulado_repetidas")
+CHAVES_PERFIL = ("perfil", "log_completo", "banco_total", "ids_banco")
+
+
+def limpar_sessao(trocar_perfil):
+    """Volta pra tela de modo (mantendo o log e o banco do perfil em memoria) ou, com
+    trocar_perfil, pra tela de escolha de quem treina. A fila de gravacao pendente fica."""
+    for chave in CHAVES_SESSAO:
+        st.session_state.pop(chave, None)
+    if trocar_perfil:
+        for chave in CHAVES_PERFIL:
+            st.session_state.pop(chave, None)
+        st.query_params.clear()
+    st.rerun()
 
 
 def calcular_stats(respostas):
@@ -202,11 +261,27 @@ def calcular_stats(respostas):
     dias_com_treino = {r["quando"][:10] for r in respostas}
     dias_seguidos = 0
     if dias_com_treino:
-        hoje = datetime.now().date()
+        hoje = agora().date()
         cursor = hoje if hoje.isoformat() in dias_com_treino else hoje - timedelta(days=1)
         while cursor.isoformat() in dias_com_treino:
             dias_seguidos += 1
             cursor -= timedelta(days=1)
+
+    # historico de simulados: agrupa pelo id do simulado (registros antigos sem id ficam fora)
+    por_simulado = {}
+    for r in respostas:
+        if r.get("modo") == "simulado" and r.get("simulado"):
+            s = por_simulado.setdefault(r["simulado"], {"quando": r["quando"][:10], "acertos": 0, "total": 0})
+            s["total"] += 1
+            if r["dicas_usadas"] == 0:
+                s["acertos"] += 1
+    simulados = [por_simulado[k] for k in sorted(por_simulado)]
+
+    # questoes cujo ultimo registro precisou de dica (ou errou no simulado): a lista da revisao
+    ultimo = {}
+    for r in sorted(respostas, key=lambda r: r["quando"]):
+        ultimo[r["id"]] = r
+    para_rever = {i for i, r in ultimo.items() if r["dicas_usadas"] > 0}
 
     return {
         "pontos_totais": pontos_totais,
@@ -215,6 +290,8 @@ def calcular_stats(respostas):
         "taxa_de_primeira": taxa_de_primeira,
         "acerto_por_tag": acerto_por_tag,
         "dias_seguidos": dias_seguidos,
+        "simulados": simulados,
+        "para_rever": para_rever,
     }
 
 
@@ -257,20 +334,44 @@ if "perfil" not in st.session_state:
 perfil = st.session_state.perfil
 config_perfil = PERFIS[perfil]
 
+# ---------- dados do perfil (uma leitura do Gist por perfil, reaproveitada entre modos) ----------
+
+if "log_completo" not in st.session_state:
+    st.session_state.log_completo = carregar_log(config_perfil["gist_arquivo"])
+    st.session_state.banco_total = carregar_banco(tuple(config_perfil["trilhas"]))
+    st.session_state.ids_banco = {q["id"] for q in st.session_state.banco_total}
+
+banco_total = st.session_state.banco_total
+stats = calcular_stats(st.session_state.log_completo["respostas"])
+ja_feitas = {r["id"] for r in st.session_state.log_completo["respostas"]}
+
 # ---------- modo de treino ----------
 
 if "modo" not in st.session_state:
+    ineditas = [q for q in banco_total if q["id"] not in ja_feitas]
+    ineditas_f2 = [q for q in ineditas if q["fase"] == 2]
+    rever = [q for q in banco_total if q["id"] in stats["para_rever"]]
+    contagens = {
+        "treino": f"{len(ineditas)} questões novas",
+        "f2": f"{len(ineditas_f2)} questões novas de 2ª fase",
+        "simulado": f"{SIMULADO_N} questões" + ("" if len(ineditas_f2) >= SIMULADO_N
+                                                  else f" ({len(ineditas_f2)} novas + repetidas)"),
+        "revisao": f"{len(rever)} pra revisar" + (f", {sum(1 for q in rever if q['fase'] == 2)} de 2ª fase" if rever else ""),
+    }
     st.markdown(f"## 🦘 Cangurivis — {config_perfil['nome']}, como vai treinar hoje?")
+    # o seletor vem antes dos botoes: o clique num modo faz rerun na hora, e o valor do
+    # seletor precisa ja estar em session_state.tamanho nesse momento
+    st.session_state.tamanho = st.segmented_control(
+        "Quantas questões hoje? (o simulado é sempre 15)",
+        TAMANHOS_SESSAO, default=TAMANHO_PADRAO.get(perfil, 6), key="seletor_tamanho")
     for chave, m in MODOS.items():
-        if st.button(m["rotulo"], width="stretch", type="primary" if chave == "treino" else "secondary",
-                     key=f"modo_{chave}"):
+        if st.button(f"{m['rotulo']}  ·  {contagens[chave]}", width="stretch",
+                     type="primary" if chave == "treino" else "secondary", key=f"modo_{chave}"):
             st.session_state.modo = chave
             st.rerun()
         st.caption(m["desc"])
     if st.button("↩ Trocar quem vai treinar", key="trocar_na_tela_de_modo"):
-        st.session_state.pop("perfil", None)
-        st.query_params.clear()
-        st.rerun()
+        limpar_sessao(trocar_perfil=True)
     st.stop()
 
 modo = st.session_state.modo
@@ -279,18 +380,11 @@ simulado = modo == "simulado"
 # ---------- estado da sessao ----------
 
 if "fila" not in st.session_state:
-    log = carregar_log(config_perfil["gist_arquivo"])
-    ja_feitas = {r["id"] for r in log["respostas"]}
-    banco_total = carregar_banco(config_perfil["trilhas"])
     banco = [q for q in banco_total if q["fase"] == 2] if modo in ("f2", "simulado") else banco_total
     if modo == "revisao":
         # vale o ultimo registro de cada questao: se ainda precisou de dica (ou errou no
         # simulado), volta pra fila; acertou de primeira depois, sai. 2a fase primeiro.
-        ultimo = {}
-        for r in sorted(log["respostas"], key=lambda r: r["quando"]):
-            ultimo[r["id"]] = r
-        para_rever = {i for i, r in ultimo.items() if r["dicas_usadas"] > 0}
-        pendentes = [q for q in banco if q["id"] in para_rever]
+        pendentes = [q for q in banco if q["id"] in stats["para_rever"]]
         random.shuffle(pendentes)
         pendentes.sort(key=lambda q: q["fase"] != 2)  # sort estavel: F2 na frente, embaralhadas
     else:
@@ -304,19 +398,35 @@ if "fila" not in st.session_state:
             random.shuffle(repetidas)
             pendentes += repetidas[:SIMULADO_N - len(pendentes)]
         pendentes = pendentes[:SIMULADO_N]
-        st.session_state.simulado_inicio = datetime.now()
+        st.session_state.simulado_inicio = agora()
+        st.session_state.simulado_id = st.session_state.simulado_inicio.strftime("%Y-%m-%dT%H:%M")
         st.session_state.simulado_repetidas = {q["id"] for q in pendentes if q["id"] in ja_feitas}
-    st.session_state.fila = pendentes
-    st.session_state.ids_banco = {q["id"] for q in banco_total}  # progresso e sempre sobre o banco inteiro
+        st.session_state.fila, st.session_state.reserva = pendentes, []
+    else:
+        # sessao curta (cronograma): a fila e so o primeiro bloco, o resto fica na reserva
+        # e entra com o botao "mais N" na tela de fim de sessao.
+        tam = st.session_state.get("tamanho") or 6
+        n = len(pendentes) if tam == "todas" else int(tam)
+        st.session_state.fila, st.session_state.reserva = pendentes[:n], pendentes[n:]
     st.session_state.pos = 0
     st.session_state.escolha = None  # letra marcada no simulado, antes de confirmar
     st.session_state.tentativas = 0
     st.session_state.revelado = 0  # 0=nada, 1=dica_curta, 2=primeiro_passo, 3=solucao_completa
     st.session_state.travado = False  # trava os botoes depois que a solucao aparece
     st.session_state.sessao_registros = []  # so as desta sessao, pra tela final
-    st.session_state.log_completo = log  # cache em memoria pra stats sem bater no Gist de novo
     st.session_state.combo = 0  # respostas certas seguidas sem pedir dica, nesta sessao
     st.session_state.mostrar_progresso = False
+
+
+def mostrar_questao(q):
+    """Enunciado + figura + alternativas (modo texto) ou a imagem cheia da prova (modo imagem)."""
+    if q.get("modo") == "texto":
+        st.markdown(q["enunciado_md"])
+        if q.get("figura"):
+            st.image(q["figura"], width="stretch")
+        st.markdown("  \n".join(f"**{a['letra']})** {a['texto']}" for a in q["alternativas"]))
+    else:
+        st.image(q["imagem_questao"], width="stretch")
 
 
 def progresso_banco():
@@ -344,7 +454,8 @@ def responder_simulado(letra, q):
         "id": q["id"], "prova": q["prova"], "tags": q["tags"],
         "acertou_de_primeira": acertou, "tentativas": 1,
         "dicas_usadas": 0 if acertou else 3, "modo": "simulado",
-        "quando": datetime.now().isoformat(timespec="seconds"),
+        "simulado": st.session_state.simulado_id,
+        "quando": agora().isoformat(timespec="seconds"),
     }
     salvar_no_log(config_perfil["gist_arquivo"], registro)
     st.session_state.log_completo["respostas"].append(registro)
@@ -364,14 +475,14 @@ def responder(letra, q):
             "acertou_de_primeira": st.session_state.tentativas == 0,
             "tentativas": st.session_state.tentativas + 1,
             "dicas_usadas": st.session_state.revelado, "modo": modo,
-            "quando": datetime.now().isoformat(timespec="seconds"),
+            "quando": agora().isoformat(timespec="seconds"),
         }
         salvar_no_log(config_perfil["gist_arquivo"], registro)
         st.session_state.log_completo["respostas"].append(registro)
         st.session_state.combo = st.session_state.combo + 1 if st.session_state.revelado == 0 else 0
         st.session_state.sessao_registros.append({
             "prova": q["prova"], "acertou_de_primeira": st.session_state.tentativas == 0,
-            "dicas_usadas": st.session_state.revelado, "tags": q["tags"],
+            "dicas_usadas": st.session_state.revelado, "tags": q["tags"], "questao": q,
         })
         st.session_state.acabou_de_acertar = True
     else:
@@ -383,13 +494,13 @@ def responder(letra, q):
             registro = {
                 "id": q["id"], "prova": q["prova"], "tags": q["tags"],
                 "acertou_de_primeira": False, "tentativas": st.session_state.tentativas,
-                "dicas_usadas": 3, "modo": modo, "quando": datetime.now().isoformat(timespec="seconds"),
+                "dicas_usadas": 3, "modo": modo, "quando": agora().isoformat(timespec="seconds"),
             }
             salvar_no_log(config_perfil["gist_arquivo"], registro)
             st.session_state.log_completo["respostas"].append(registro)
             st.session_state.sessao_registros.append({
                 "prova": q["prova"], "acertou_de_primeira": False,
-                "dicas_usadas": 3, "tags": q["tags"],
+                "dicas_usadas": 3, "tags": q["tags"], "questao": q,
             })
 
 
@@ -400,24 +511,17 @@ col_titulo.markdown(f"## 🦘 Cangurivis — hora de treinar, {config_perfil['no
 if col_progresso.button("📊", help="Ver meu progresso"):
     st.session_state.mostrar_progresso = not st.session_state.mostrar_progresso
     st.rerun()
-CHAVES_SESSAO = ("fila", "pos", "tentativas", "revelado", "travado", "sessao_registros",
-                 "ids_banco", "acabou_de_acertar", "log_completo", "combo",
-                 "mostrar_progresso", "modo", "escolha", "simulado_inicio", "simulado_repetidas")
-
-
-def limpar_sessao(trocar_perfil):
-    for chave in CHAVES_SESSAO:
-        st.session_state.pop(chave, None)
-    if trocar_perfil:
-        st.session_state.pop("perfil", None)
-        st.query_params.clear()
-    st.rerun()
-
-
 if col_trocar.button("↩", help="Trocar quem vai treinar"):
     limpar_sessao(trocar_perfil=True)
 
-stats = calcular_stats(st.session_state.log_completo["respostas"])
+if st.session_state.get("aviso_gravacao"):
+    st.warning(f"Não consegui salvar as últimas {n_gravacoes_pendentes()} resposta(s) no GitHub. "
+               "Pode continuar: eu tento de novo na próxima resposta.")
+    with st.expander("Detalhe do erro"):
+        st.code(st.session_state.aviso_gravacao)
+    if st.button("Tentar salvar agora"):
+        salvar_no_log(config_perfil["gist_arquivo"])
+        st.rerun()
 
 if st.session_state.mostrar_progresso:
     feitas, total = progresso_banco()
@@ -432,6 +536,16 @@ if st.session_state.mostrar_progresso:
 
     if stats["taxa_de_primeira"]:
         st.markdown(f"**{stats['taxa_de_primeira']:.0f}%** das questões você acerta de primeira, sem pedir dica.")
+    n_rever = len(stats["para_rever"] & st.session_state.ids_banco)
+    if n_rever:
+        st.markdown(f"**{n_rever}** questão(ões) esperando no modo 🔁 Revisar o que errei.")
+
+    if stats["simulados"]:
+        st.markdown("**Simulados** (acertos em 15):")
+        df_sim = pd.DataFrame(stats["simulados"])
+        df_sim["quando"] = pd.to_datetime(df_sim["quando"]).dt.strftime("%d/%m")
+        df_sim = df_sim.rename(columns={"quando": "dia", "acertos": "acertos", "total": "questões"})
+        st.dataframe(df_sim, hide_index=True, width="stretch")
 
     if stats["acerto_por_tag"]:
         st.markdown("**Acerto por habilidade** (sem usar dica):")
@@ -451,7 +565,7 @@ if st.session_state.pos >= len(fila):
     feitas_agora = len(st.session_state.sessao_registros)
     if simulado and feitas_agora:
         acertos = sum(1 for r in st.session_state.sessao_registros if r["acertou_de_primeira"])
-        minutos = int((datetime.now() - st.session_state.simulado_inicio).total_seconds() // 60)
+        minutos = int((agora() - st.session_state.simulado_inicio).total_seconds() // 60)
         st.success(f"Simulado terminado! **{acertos} de {feitas_agora}** certas em {minutos} min. 🎉")
         erradas = [r for r in st.session_state.sessao_registros if not r["acertou_de_primeira"]]
         if erradas:
@@ -459,12 +573,7 @@ if st.session_state.pos >= len(fila):
             for r in erradas:
                 qe = r["questao"]
                 with st.expander(f"{qe['prova']} — marcou {r['resposta']}, certa era {qe['gabarito']}"):
-                    if qe.get("modo") == "texto":
-                        st.markdown(qe["enunciado_md"])
-                        if qe.get("figura"):
-                            st.image(qe["figura"], width="stretch")
-                    else:
-                        st.image(qe["imagem_questao"], width="stretch")
+                    mostrar_questao(qe)
                     st.markdown(qe["solucao_completa"])
         else:
             st.markdown("Gabaritou! 🏆")
@@ -487,14 +596,27 @@ if st.session_state.pos >= len(fila):
         if precisou_dica:
             st.markdown(f"**Questões que deram mais trabalho (pra revisar com {config_perfil['nome']}):**")
             for r in precisou_dica:
+                qe = r["questao"]
                 tags = ", ".join(r["tags"]) if r["tags"] else "sem tag"
-                st.markdown(f"- {r['prova']} — {tags} ({r['dicas_usadas']} dica(s) usada(s))")
+                with st.expander(f"{qe['prova']} — {tags} ({r['dicas_usadas']} dica(s) usada(s))"):
+                    mostrar_questao(qe)
+                    st.markdown(qe["solucao_completa"])
     feitas, total = progresso_banco()
     st.caption(f"Progresso total: {feitas}/{total} questões do banco já respondidas.")
     if feitas_agora:
         st.markdown(f"⭐ **{stats['pontos_totais']} pontos** · 🏆 **nível {stats['nivel']}** · "
                      f"🔥 **{stats['dias_seguidos']} dia(s) seguido(s)** treinando")
-    if st.button("🎲 Escolher outro modo de treino", type="primary", width="stretch"):
+    reserva = st.session_state.get("reserva", [])
+    if reserva and not simulado:
+        tam = st.session_state.get("tamanho") or 6
+        n = len(reserva) if tam == "todas" else min(int(tam), len(reserva))
+        if st.button(f"➕ Mais {n} questões", type="primary", width="stretch"):
+            st.session_state.fila = st.session_state.fila + reserva[:n]
+            st.session_state.reserva = reserva[n:]
+            st.rerun()
+        st.caption(f"Ainda tem {len(reserva)} questão(ões) esperando neste modo.")
+    if st.button("🎲 Escolher outro modo de treino", type="primary" if not (reserva and not simulado) else "secondary",
+                 width="stretch"):
         limpar_sessao(trocar_perfil=False)
     if st.button("📊 Ver meu progresso completo", width="stretch"):
         st.session_state.mostrar_progresso = True
@@ -504,8 +626,12 @@ if st.session_state.pos >= len(fila):
 q = fila[st.session_state.pos]
 
 if simulado:
-    minutos = int((datetime.now() - st.session_state.simulado_inicio).total_seconds() // 60)
-    st.caption(f"⏱️ Simulado 2ª fase · Questão {st.session_state.pos + 1} de {len(fila)} · {minutos} min")
+    @st.fragment(run_every="30s")
+    def cronometro():
+        minutos = int((agora() - st.session_state.simulado_inicio).total_seconds() // 60)
+        alerta = " · passou da meta de 60 min, mas termina!" if minutos >= 60 else ""
+        st.caption(f"⏱️ Simulado 2ª fase · Questão {st.session_state.pos + 1} de {len(fila)} · {minutos} min{alerta}")
+    cronometro()
 else:
     col_pts, col_nivel, col_combo = st.columns(3)
     col_pts.metric("⭐ Pontos", stats["pontos_totais"])
@@ -514,13 +640,11 @@ else:
     rotulo_modo = {"f2": "Só 2ª fase · ", "revisao": "Revisão · "}.get(modo, "")
     st.caption(f"{rotulo_modo}Questão {st.session_state.pos + 1} de {len(fila)} nesta sessão · {q['prova']}")
 
-if q.get("modo") == "texto":
-    st.markdown(q["enunciado_md"])
-    if q.get("figura"):
-        st.image(q["figura"], width="stretch")
-    st.markdown("  \n".join(f"**{a['letra']})** {a['texto']}" for a in q["alternativas"]))
-else:
-    st.image(q["imagem_questao"], width="stretch")
+mostrar_questao(q)
+
+# botoes de letra maiores: no tablet, o botao padrao do Streamlit e pequeno pra dedo de crianca
+st.markdown('<style>[class*="st-key-resp_"] button, [class*="st-key-sim_"] button '
+            '{font-size:1.5rem; font-weight:700; min-height:3.2rem}</style>', unsafe_allow_html=True)
 
 if simulado:
     # marca a letra (pode trocar) e so grava ao confirmar -- evita perder questao por

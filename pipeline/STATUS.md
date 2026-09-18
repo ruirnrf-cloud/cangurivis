@@ -1,5 +1,50 @@
 # Fase 3 — status
 
+## Fase 13 — revisão do app: sessões curtas, gravação resiliente, fuso, histórico de simulados (17/09/2026)
+
+Usuário pediu "veja o que dá pra melhorar no app" e autorizou decisões autônomas (foi dormir).
+Revisão linha a linha do `treino_app.py`; o que entrou:
+
+- **Bug de fuso horário** (real): o Community Cloud roda em UTC, então `datetime.now()` carimbava
+  treino das 21h+ como dia seguinte, quebrando "dias seguidos" e a data do log. Agora tudo usa
+  `agora()` = `datetime.now(ZoneInfo("America/Sao_Paulo"))`; registros novos gravam
+  `"quando"` com offset (`2026-09-17T22:12:01-03:00`). Registros antigos ficam como estão
+  (`[:10]` continua funcionando; noite antiga pode estar um dia adiantada, sem conserto retroativo).
+- **Gravação no Gist com fila de retentativa**: `salvar_no_log` não estoura mais traceback na cara
+  da criança se o GitHub falhar (rede, rate limit, token). O registro vai pra
+  `session_state.gravacao_pendente` (dict por arquivo) e é regravado junto na próxima resposta
+  ou pelo botão "Tentar salvar agora" do aviso amarelo no topo. A fila sobrevive a troca de modo
+  e de perfil (por isso é keyed por arquivo).
+- **Tamanho de sessão** (o cronograma pede 4 a 6 questões): seletor "Quantas questões hoje?"
+  (4 / 6 / 10 / todas; padrão 4 pro Rafael, 6 pros outros) na tela de modo. A fila vira só o
+  primeiro bloco e o resto fica em `reserva`; a tela de fim de sessão ganha "➕ Mais N questões".
+  Simulado continua fixo em 15. O seletor fica antes dos botões de modo de propósito (o clique
+  no modo faz rerun na hora e o valor precisa já estar em `session_state.tamanho`).
+- **Uma leitura do Gist por perfil**: log e banco carregam ao escolher o perfil e ficam em
+  memória entre modos (`limpar_sessao(trocar_perfil=False)` preserva; `=True` limpa).
+  `carregar_banco` ganhou `@st.cache_data` (recebe tupla de trilhas). Com isso a tela de modo
+  mostra contagens em cada botão: "99 questões novas", "53 novas de 2ª fase", "15 questões
+  (7 novas + repetidas)", "11 pra revisar, 5 de 2ª fase".
+- **Histórico de simulados**: cada registro de simulado leva `"simulado": "<inicio YYYY-MM-DDTHH:MM>"`;
+  `calcular_stats` agrupa por esse id e a tela 📊 mostra uma tabela dia / acertos / questões.
+  Também mostra "N questão(ões) esperando no modo Revisar". `para_rever` saiu da tela de modo
+  e foi pra `calcular_stats` (fonte única).
+- **Fim de sessão do treino** agora mostra cada questão que precisou de dica num expander com a
+  imagem/enunciado e a solução completa (antes só listava prova + tags), igual ao simulado.
+  `mostrar_questao(q)` virou função comum.
+- **Cronômetro vivo** no simulado via `@st.fragment(run_every="30s")` (antes só atualizava no
+  rerun) e aviso quando passa de 60 min (meta do cronograma; prova oficial dá 1h30).
+- **Botões de letra maiores** (24px, 3.2rem de altura) via CSS nos containers `st-key-resp_*` /
+  `st-key-sim_*` — no tablet o botão padrão é pequeno pra dedo de criança.
+
+**Testado local** (`cangurivis-treino-local`, cópia do log real do Rafael): tela de modo com
+contagens e seletor; treino com 4 → "Questão 1 de 4" → fim com expanders → "Mais 4" →
+"Questão 5 de 8"; simulado completo (15) com id gravado e tabela na tela 📊; fonte do botão
+A = 24px; zero erros no console e no servidor.
+
+**Não fiz** (ideias que ficaram): agendador por habilidade (SRS), modo de resposta numérica
+pras 5 últimas do PMC, deep-link `?modo=`.
+
 ## Fase 12 — cronograma de treino até a 2ª fase (16/09/2026)
 
 Página `docs/cronograma_2a_fase_2026.html` (publicada como artefato privado em
