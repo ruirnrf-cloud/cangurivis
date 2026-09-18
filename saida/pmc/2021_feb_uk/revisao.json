@@ -1,0 +1,276 @@
+{
+  "1": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "sistema de numeracao",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Vai contando de 1 em 1 a partir de 45 126 e olha os algarismos de cada número.",
+    "primeiro_passo": "45 126, 45 127, 45 128, 45 129, 45 130... algum tem algarismo repetido?",
+    "solucao_completa": "- 45 126, 45 127, 45 128, 45 129, 45 130: todos com algarismos diferentes.\n- 45 131 tem dois 1. É o primeiro: 45 131 − 45 125 = **6** milhas.\n- Resposta certa: **B**."
+  },
+  "2": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "estimativa",
+      "divisao"
+    ],
+    "dica_curta": "£6.81 é quase £7. Quantas vezes 7 cabe em 100?",
+    "primeiro_passo": "7 × 14 = 98 (não chega). 7 × 15 = 105.",
+    "solucao_completa": "- 100 ÷ 7 ≈ 14,3. Com 14 horas ele ganha 14 × 6,81 = £95,34, ainda não chega. Com 15 horas, £102,15.\n- **15** horas.\n- Resposta certa: **D**."
+  },
+  "3": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "horas",
+      "logica com pistas"
+    ],
+    "dica_curta": "Primeiro descobre a hora certa: o relógio do Tock marca 16:31 mas está 3 minutos atrasado.",
+    "primeiro_passo": "Hora certa: 16:31 + 3 = 16:34.",
+    "solucao_completa": "- Hora certa = 16:31 + 3 min = 16:34.\n- O relógio do Tick marca 16:27, ou seja, 34 − 27 = **7 minutos atrasado**.\n- Resposta certa: **A**."
+  },
+  "4": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "perimetro e area"
+    ],
+    "dica_curta": "O perímetro do quadrado também é 48 cm. Quanto mede cada lado?",
+    "primeiro_passo": "48 ÷ 4 = 12 cm de lado.",
+    "solucao_completa": "- Perímetro do quadrado = 48 cm, então o lado é 48 ÷ 4 = 12 cm.\n- Área: 12 × 12 = **144 cm²**.\n- Resposta certa: **E**."
+  },
+  "5": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "raciocinio visual",
+      "padroes e sequencias"
+    ],
+    "dica_curta": "Olha azulejo por azulejo: a faixa cinza pode estar em posições diferentes e a diagonal pode ir pra um lado ou pro outro.",
+    "primeiro_passo": "Compara cada azulejo com o primeiro (canto de cima, à esquerda) e vai anotando os que são diferentes.",
+    "solucao_completa": "- Olhando com cuidado, aparecem **4** azulejos diferentes: a diagonal pode ir pra um lado ou pro outro, e a faixa cinza pode estar em cima ou embaixo da diagonal.\n- Todos os 25 são cópias de um desses 4.\n- Resposta certa: **C**."
+  },
+  "6": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "potencias",
+      "pares e impares"
+    ],
+    "dica_curta": "Dois números consecutivos: um é par e o outro é ímpar. Par ao quadrado é par, ímpar ao quadrado é ímpar. Par + ímpar dá...?",
+    "primeiro_passo": "A soma tem que ser ímpar. Isso elimina 808 e 818. E 161 não fica igual de cabeça pra baixo.",
+    "solucao_completa": "- Quadrado de par é par, quadrado de ímpar é ímpar: a soma é ímpar. Fora 808 e 818.\n- 161 virado de cabeça pra baixo vira 191, não serve. 101 = 1 + 100 = 1² + 10², mas 1 e 10 não são consecutivos.\n- 181 = 81 + 100 = 9² + 10². Consecutivos! E 181 virado fica 181.\n- Resposta certa: **C**."
+  },
+  "7": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "divisao",
+      "multiplos"
+    ],
+    "dica_curta": "Esse número é 8 000 000 000 menos 1. E 8 bilhões é múltiplo de 8.",
+    "primeiro_passo": "Se 8 000 000 000 deixa resto 0, o número que vem logo antes dele deixa resto...",
+    "solucao_completa": "- 8 000 000 000 = 8 × 1 000 000 000 é múltiplo de 8 (resto 0).\n- 7 999 999 999 é 1 a menos, então deixa resto 8 − 1 = **7**.\n- Resposta certa: **C**."
+  },
+  "8": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "padroes e sequencias",
+      "soma"
+    ],
+    "dica_curta": "Vai somando: 1, 1 + 2 = 3, 3 + 4 = 7, 7 + 8 = 15... até chegar em 127.",
+    "primeiro_passo": "1 + 2 + 4 + 8 + 16 + 32 = 63. Ainda não.",
+    "solucao_completa": "- 1 + 2 + 4 + 8 + 16 + 32 + 64 = 127. São **7** parcelas, uma por pergunta.\n- Resposta certa: **B**."
+  },
+  "9": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "multiplicacao",
+      "multiplos"
+    ],
+    "dica_curta": "Não precisa multiplicar tudo: tenta montar 32, 33 e 34 com os números do lado esquerdo.",
+    "primeiro_passo": "4 × 8 = 32 e 3 × 11 = 33. Sobra 2 × N = 34.",
+    "solucao_completa": "- 4 × 8 = 32, 3 × 11 = 33, e sobra 2 × N = 34, então N = **17**.\n- Resposta certa: **E**."
+  },
+  "10": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "logica com pistas",
+      "sistema de numeracao"
+    ],
+    "dica_curta": "Menos 500 dá negativo: então é menor que 500. Mais 501 dá 4 algarismos (pelo menos 1000): então é pelo menos 499.",
+    "primeiro_passo": "Menor que 500 e pelo menos 499: só pode ser 499.",
+    "solucao_completa": "- N − 500 < 0 → N < 500. N + 501 ≥ 1000 → N ≥ 499. Então N = 499.\n- 4 + 9 + 9 = **22**.\n- Resposta certa: **C**."
+  },
+  "11": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "perimetro e area",
+      "algebra"
+    ],
+    "dica_curta": "Chama a largura da horta de x. Escreve as três áreas usando x: canteiro (2 × altura total), horta (6 × x) e grama.",
+    "primeiro_passo": "Canteiro = horta: 2 × altura = 6x, então a altura total do jardim é 3x. A grama tem largura x e altura 3x − 6.",
+    "solucao_completa": "- Seja x a largura da horta (e da grama). Horta = 6x. Canteiro = 2 × altura, e altura = 3x (pra canteiro = horta). Então canteiro = 6x.\n- Grama = x × (3x − 6), e tem que ser o dobro do canteiro: 12x. Logo 3x − 6 = 12, x = 6.\n- Grama: 6 × 12 = **72 m²**.\n- Resposta certa: **D**."
+  },
+  "12": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "logica com pistas",
+      "algebra"
+    ],
+    "dica_curta": "Testa as alternativas: se ela tem 9, quatro anos atrás tinha 5, e daqui a seis anos vai ter 15. 15 é o triplo de 5?",
+    "primeiro_passo": "Com 9 anos: 9 − 4 = 5, e 9 + 6 = 15 = 3 × 5. Bateu!",
+    "solucao_completa": "- Testando 9: há 4 anos tinha 5; daqui a 6 anos terá 15 = 3 × 5. Fecha.\n- (Com 6: 2 e 12, não é triplo. Com 12: 8 e 18, não.)\n- Penny tem **9** anos.\n- Resposta certa: **D**."
+  },
+  "13": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "media",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Primeiro descobre quantos botões cada pote vai ter no final: divide o total por 3.",
+    "primeiro_passo": "16 + 28 + 37 = 81, e 81 ÷ 3 = 27 por pote.",
+    "solucao_completa": "- Total 81, então 27 em cada pote.\n- O segundo pote precisa perder 1 (28 → 27) e o terceiro perder 10 (37 → 27). Esses 11 vão pro primeiro (16 + 11 = 27).\n- **11** botões movidos.\n- Resposta certa: **B**."
+  },
+  "14": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "angulos",
+      "formas geometricas"
+    ],
+    "dica_curta": "O ângulo interno de um octógono regular é 135°. A seta pintada tem um ângulo reto (no centro) e um ângulo grande que é o lado de fora do octógono.",
+    "primeiro_passo": "Ângulo de fora do octógono: 360 − 135 = 225°. Os quatro ângulos da seta somam 360°.",
+    "solucao_completa": "- Ângulo interno do octógono regular: 135°. O ângulo da seta encostado nele, por fora, mede 360 − 135 = 225°.\n- A seta tem ainda um ângulo reto (90°) e dois ângulos pequenos iguais (x): 2x + 90 + 225 = 360, então 2x = 45 e x = **22,5°**.\n- Resposta certa: **B**."
+  },
+  "15": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "multiplos",
+      "sistema de numeracao"
+    ],
+    "dica_curta": "1313 = 13 × 101. E 131313 = 13 × 10101. Já 131 = 130 + 1...",
+    "primeiro_passo": "Os que terminam em 13 são 13 vezes alguma coisa. Os que terminam em 31 sobram 1.",
+    "solucao_completa": "- 13 = 13 × 1, 1313 = 13 × 101, 131313 = 13 × 10101: múltiplos.\n- 131 = 13 × 10 + 1 e 13131 = 13 × 1010 + 1: sobra 1, não são.\n- **3** múltiplos.\n- Resposta certa: **C**."
+  },
+  "16": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "estimativa",
+      "medidas"
+    ],
+    "dica_curta": "Arredonda: 24 m × 11 m, em centímetros é 2400 × 1100. Depois multiplica por 18 (ou por 20, pra facilitar).",
+    "primeiro_passo": "2400 × 1100 ≈ 2 600 000 cm². Vezes 20 dá uns 50 milhões.",
+    "solucao_completa": "- Área ≈ 24 m × 11 m = 264 m² = 2 640 000 cm².\n- × 18 folhinhas ≈ 47 500 000. A opção mais próxima é **50 000 000**.\n- Resposta certa: **E**."
+  },
+  "17": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "multiplos",
+      "logica com pistas"
+    ],
+    "dica_curta": "Soma e diferença têm que ser dois números que multiplicados dão 21: só 1 × 21 ou 3 × 7.",
+    "primeiro_passo": "Se a soma é 21 e a diferença é 1, quais são os dois números?",
+    "solucao_completa": "- Os pares (soma, diferença) possíveis: (21, 1) ou (7, 3).\n- Soma 21 e diferença 1: os números são 11 e 10. Soma 7 e diferença 3: 5 e 2.\n- O maior possível é **11**.\n- Resposta certa: **E**."
+  },
+  "18": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "fracoes",
+      "logica com pistas"
+    ],
+    "dica_curta": "O total precisa dar pra dividir por 3, por 5 e por 9 sem cortar. O menor número assim é 45. Testa 45 e vê a diferença entre mãe e avó.",
+    "primeiro_passo": "Com 45: mãe 9, avó 5, diferença 4. Precisa ser 8: dobra tudo.",
+    "solucao_completa": "- Com 45 cupcakes: amiga 15, mãe 9, avó 5; a mãe ganha 4 a mais que a avó. Pra diferença ser 8, o total é 90.\n- Com 90: amiga 30, mãe 18, avó 10. Alice fica com 90 − 30 − 18 − 10 = **32**.\n- Resposta certa: **E**."
+  },
+  "19": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "geometria de solidos",
+      "visualizacao espacial"
+    ],
+    "dica_curta": "O sólido que sobra tem 7 faces: 3 quadrados inteiros, 3 metades de quadrado (triângulos retângulos) e 1 triângulo equilátero (onde foi o corte).",
+    "primeiro_passo": "Confere em cada planificação se tem 3 quadrados, 3 meios-quadrados e 1 triângulo equilátero, e se eles se ligam do jeito certo.",
+    "solucao_completa": "- Faces do sólido: 3 quadrados, 3 triângulos retângulos (meio quadrado cada) e 1 triângulo equilátero.\n- As planificações A, B, C e E podem ser dobradas pra formar o sólido. A **D** não fecha: as faces não se encaixam na posição certa.\n- Resposta certa: **D**."
+  },
+  "20": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "logica com pistas",
+      "subtracao"
+    ],
+    "dica_curta": "Compara as medidas de duas em duas: a diferença entre 'tudo' e 'sem cartola' é a cartola.",
+    "primeiro_passo": "Cartola: 320 − 285 = 35 cm.",
+    "solucao_completa": "- Cartola = 320 − 285 = 35 cm.\n- Homem = (homem + cartola) − cartola = 225 − 35 = **190 cm**.\n- Conferindo: pernas de pau = 285 − 190 = 95; 190 + 35 + 95 = 320 ✓.\n- Resposta certa: **C**."
+  },
+  "21": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "angulos",
+      "formas geometricas"
+    ],
+    "dica_curta": "Num triângulo isósceles os dois ângulos da base são iguais, e os três ângulos somam 180°. Começa pelos triângulos de 44°.",
+    "primeiro_passo": "j = (180 − 44) ÷ 2 = 68°. Depois descobre o ângulo do vértice dos triângulos de k: os cinco ângulos do ponto central somam 180°.",
+    "solucao_completa": "- Triângulos de 44°: j = (180 − 44) ÷ 2 = 68°.\n- No ponto central, os cinco ângulos formam uma linha reta (180°): 3 × 44 = 132, sobram 48° pros dois triângulos de fora, 24° cada.\n- k = (180 − 24) ÷ 2 = 78°. Diferença: 78 − 68 = **10°**.\n- Resposta certa: **D**."
+  },
+  "22": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "proporcao e razao",
+      "logica com pistas"
+    ],
+    "dica_curta": "Quando uma engrenagem gira, ela passa todos os dentes dela pela vizinha. Uma volta da engrenagem de 32 dentes empurra 32 dentes da vizinha de 16: quantas voltas ela dá?",
+    "primeiro_passo": "32 → 16: 2 voltas. 16 girando 2 voltas → 8: 4 voltas. 8 girando 4 voltas → 32: ?",
+    "solucao_completa": "- 32 dentes, 1 volta = 32 dentes passados. A de 16 dá 32 ÷ 16 = 2 voltas. A de 8 dá 2 × 16 ÷ 8 = 4 voltas. A última, de 32, recebe 4 × 8 = 32 dentes = **1 volta completa**.\n- Resposta certa: **C**."
+  },
+  "23": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "perimetro e area",
+      "formas geometricas"
+    ],
+    "dica_curta": "Cada corte é paralelo a um lado do triângulo. Os cantos cortados são triângulos equiláteros menores.",
+    "primeiro_passo": "Chama os lados do paralelogramo de x e y: 2x + 2y = 20, então x + y = 10. Cada lado do triângulo grande mede x + y.",
+    "solucao_completa": "- Os cortes tiram dois triangulinhos equiláteros dos cantos. O paralelogramo tem lados x e y, com 2x + 2y = 20, ou seja, x + y = 10.\n- Cada lado do triângulo original mede x + y = 10 cm. Perímetro: 3 × 10 = **30 cm**.\n- Resposta certa: **E**."
+  },
+  "24": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "multiplos",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Múltiplo de 12 = múltiplo de 4 e de 3. Múltiplo de 4: os dois últimos algarismos formam múltiplo de 4, e com 1 e 2 só dá '12'. Múltiplo de 3: a soma dos algarismos é múltiplo de 3.",
+    "primeiro_passo": "Termina em 12. Os algarismos da frente, só com 1 e 2, precisam somar múltiplo de 3 (a soma dos dois últimos, 1 + 2 = 3, já é).",
+    "solucao_completa": "- Termina em 12 (único final múltiplo de 4 com 1 e 2). Os algarismos da frente precisam somar múltiplo de 3.\n- 2 algarismos: 12. 3 algarismos: nenhum (1 ou 2 na frente não é múltiplo de 3). 4 algarismos: 1212, 2112. 5 algarismos: 11112, 22212. 6 algarismos: dois 1 e dois 2 na frente, em 6 ordens (112212, 121212, 122112, 211212, 212112, 221112).\n- 1 + 2 + 2 + 6 = **11**.\n- Resposta certa: **A**."
+  },
+  "25": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "logica com pistas",
+      "quebra-cabeca espacial"
+    ],
+    "dica_curta": "A peça R/S é vertical (R em cima de S). S encosta em Q na diagonal: então a peça P/Q fica ao lado, um pouco acima ou abaixo. Testa as posições possíveis da peça R/S.",
+    "primeiro_passo": "S não pode estar na coluna 2. Testa S em X1, X3, Z1, Z3... e vê se a peça T/U ainda cabe com uma casa vazia em cima do T.",
+    "solucao_completa": "- A peça R/S é vertical, então S está na linha Y ou Z. Fora a coluna 2, sobram Y1, Y3, Z1 e Z3.\n- S encosta em Q na diagonal, o que fixa a peça P/Q ao lado. Nas três primeiras opções não sobra lugar pra peça T/U com uma casa vazia em cima do T.\n- Só funciona com S em **Z3** (R em Y3, P/Q na coluna 2 e T/U na linha Z, colunas 1 e 2, com Y1 vazia acima do T).\n- Resposta certa: **E**."
+  }
+}

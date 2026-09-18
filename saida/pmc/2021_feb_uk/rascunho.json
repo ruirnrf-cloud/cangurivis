@@ -1,0 +1,745 @@
+{
+  "fonte": {
+    "olimpiada_slug": "pmc",
+    "pais": "reino-unido",
+    "ano": 2021,
+    "edicao": "fevereiro (bonus round)"
+  },
+  "pdf_prova_original": "http://www.m-a.org.uk/resources/PMCFebruary2021.pdf",
+  "pdf_solucao_original": "https://www.m-a.org.uk/resources/PMCBRFeb2021AnswersNotes.pdf",
+  "n_questoes": 25,
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "pmc-2021feb-q01",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "O odômetro do carro do Martin mostra que o carro já rodou 45 125 milhas. O algarismo 5 aparece duas vezes. Quantas milhas a mais Martin precisa rodar até a quilometragem voltar a ter dois algarismos iguais?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5"
+        },
+        {
+          "letra": "B",
+          "texto": "6"
+        },
+        {
+          "letra": "C",
+          "texto": "7"
+        },
+        {
+          "letra": "D",
+          "texto": "8"
+        },
+        {
+          "letra": "E",
+          "texto": "9"
+        }
+      ]
+    },
+    "2": {
+      "numero": 2,
+      "id": "pmc-2021feb-q02",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "O salário médio de um garçom no Reino Unido é £6.81 por hora. Mais ou menos quantas horas um garçom precisa trabalhar pra ganhar £100?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5"
+        },
+        {
+          "letra": "B",
+          "texto": "8"
+        },
+        {
+          "letra": "C",
+          "texto": "11"
+        },
+        {
+          "letra": "D",
+          "texto": "15"
+        },
+        {
+          "letra": "E",
+          "texto": "18"
+        }
+      ]
+    },
+    "3": {
+      "numero": 3,
+      "id": "pmc-2021feb-q03",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "O relógio do Tick marca 16:27, e o relógio do Tock marca 16:31. O relógio do Tock está 3 minutos atrasado. Então o relógio do Tick está...",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "7 minutos atrasado"
+        },
+        {
+          "letra": "B",
+          "texto": "6 minutos atrasado"
+        },
+        {
+          "letra": "C",
+          "texto": "na hora certa"
+        },
+        {
+          "letra": "D",
+          "texto": "1 minuto adiantado"
+        },
+        {
+          "letra": "E",
+          "texto": "3 minutos adiantados"
+        }
+      ]
+    },
+    "4": {
+      "numero": 4,
+      "id": "pmc-2021feb-q04",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Um quadrado tem o mesmo perímetro que um hexágono regular. O perímetro do hexágono é 48 cm. Qual é a área do quadrado?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "36 cm²"
+        },
+        {
+          "letra": "B",
+          "texto": "48 cm²"
+        },
+        {
+          "letra": "C",
+          "texto": "64 cm²"
+        },
+        {
+          "letra": "D",
+          "texto": "120 cm²"
+        },
+        {
+          "letra": "E",
+          "texto": "144 cm²"
+        }
+      ]
+    },
+    "5": {
+      "numero": 5,
+      "id": "pmc-2021feb-q05",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Este padrão é feito com 25 azulejos pequenos como o da figura. Quantos tipos diferentes de azulejo existem no padrão?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "3"
+        },
+        {
+          "letra": "C",
+          "texto": "4"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ],
+      "figura": "saida/pmc/2021_feb_uk/figuras/q05.png"
+    },
+    "6": {
+      "numero": 6,
+      "id": "pmc-2021feb-q06",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Quem sou eu? Sou a soma dos quadrados de dois números consecutivos menores que 20, e fico igual quando viro de cabeça pra baixo! (Os números das alternativas estão escritos em fonte de calculadora.)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "101"
+        },
+        {
+          "letra": "B",
+          "texto": "161"
+        },
+        {
+          "letra": "C",
+          "texto": "181"
+        },
+        {
+          "letra": "D",
+          "texto": "808"
+        },
+        {
+          "letra": "E",
+          "texto": "818"
+        }
+      ]
+    },
+    "7": {
+      "numero": 7,
+      "id": "pmc-2021feb-q07",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Qual é o resto da divisão de 7 999 999 999 por 8?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0"
+        },
+        {
+          "letra": "B",
+          "texto": "1"
+        },
+        {
+          "letra": "C",
+          "texto": "7"
+        },
+        {
+          "letra": "D",
+          "texto": "8"
+        },
+        {
+          "letra": "E",
+          "texto": "9"
+        }
+      ]
+    },
+    "8": {
+      "numero": 8,
+      "id": "pmc-2021feb-q08",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Adie está viciada num jogo de perguntas no celular. Ela ganha 1 diamante por acertar a primeira pergunta, 2 pela segunda, 4 pela terceira: a cada acerto o prêmio dobra! Ela recebeu 127 diamantes ao todo. Quantas perguntas ela acertou?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "7"
+        },
+        {
+          "letra": "C",
+          "texto": "8"
+        },
+        {
+          "letra": "D",
+          "texto": "9"
+        },
+        {
+          "letra": "E",
+          "texto": "10"
+        }
+      ]
+    },
+    "9": {
+      "numero": 9,
+      "id": "pmc-2021feb-q09",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Na conta **4 × 8 × 3 × 11 × 2 × N = 32 × 33 × 34**, qual é o valor de N?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "13"
+        },
+        {
+          "letra": "B",
+          "texto": "14"
+        },
+        {
+          "letra": "C",
+          "texto": "15"
+        },
+        {
+          "letra": "D",
+          "texto": "16"
+        },
+        {
+          "letra": "E",
+          "texto": "17"
+        }
+      ]
+    },
+    "10": {
+      "numero": 10,
+      "id": "pmc-2021feb-q10",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Patrick lembra do número favorito dele assim: se você tirar 500 dele, dá um número negativo; mas se somar 501, dá um número de 4 algarismos. Qual é a soma dos algarismos do número favorito do Patrick?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20"
+        },
+        {
+          "letra": "B",
+          "texto": "21"
+        },
+        {
+          "letra": "C",
+          "texto": "22"
+        },
+        {
+          "letra": "D",
+          "texto": "23"
+        },
+        {
+          "letra": "E",
+          "texto": "24"
+        }
+      ]
+    },
+    "11": {
+      "numero": 11,
+      "id": "pmc-2021feb-q11",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "A planta de um jardim retangular mostra que ele está dividido em três retângulos menores: canteiro de flores, grama e horta (figura). A área do canteiro é igual à área da horta e é a metade da área da grama. O canteiro tem 2 metros de largura e a horta tem 6 metros de comprimento (na vertical). Qual é a área da grama?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12 m²"
+        },
+        {
+          "letra": "B",
+          "texto": "36 m²"
+        },
+        {
+          "letra": "C",
+          "texto": "48 m²"
+        },
+        {
+          "letra": "D",
+          "texto": "72 m²"
+        },
+        {
+          "letra": "E",
+          "texto": "impossível saber"
+        }
+      ],
+      "figura": "saida/pmc/2021_feb_uk/figuras/q11.png"
+    },
+    "12": {
+      "numero": 12,
+      "id": "pmc-2021feb-q12",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Daqui a seis anos, Penny vai ter o triplo da idade que tinha quatro anos atrás. Quantos anos Penny tem agora?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "7"
+        },
+        {
+          "letra": "C",
+          "texto": "8"
+        },
+        {
+          "letra": "D",
+          "texto": "9"
+        },
+        {
+          "letra": "E",
+          "texto": "12"
+        }
+      ]
+    },
+    "13": {
+      "numero": 13,
+      "id": "pmc-2021feb-q13",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Tenho três potes. No primeiro tem 16 botões, no segundo 28 e no terceiro 37. Qual é o menor número de botões que preciso mover pra que os três potes fiquem com a mesma quantidade?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10"
+        },
+        {
+          "letra": "B",
+          "texto": "11"
+        },
+        {
+          "letra": "C",
+          "texto": "12"
+        },
+        {
+          "letra": "D",
+          "texto": "13"
+        },
+        {
+          "letra": "E",
+          "texto": "14"
+        }
+      ]
+    },
+    "14": {
+      "numero": 14,
+      "id": "pmc-2021feb-q14",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "A figura mostra o desenho de um azulejo islâmico de um museu. Ele é feito de octógonos regulares, trapézios e quadriláteros em forma de seta. Qual é a medida de cada um dos ângulos menores do quadrilátero pintado?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20°"
+        },
+        {
+          "letra": "B",
+          "texto": "22,5°"
+        },
+        {
+          "letra": "C",
+          "texto": "25°"
+        },
+        {
+          "letra": "D",
+          "texto": "27,5°"
+        },
+        {
+          "letra": "E",
+          "texto": "30°"
+        }
+      ],
+      "figura": "saida/pmc/2021_feb_uk/figuras/q14.png"
+    },
+    "15": {
+      "numero": 15,
+      "id": "pmc-2021feb-q15",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Quantos dos cinco números abaixo são múltiplos de 13?\n\n13 · 131 · 1313 · 13131 · 131313",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ]
+    },
+    "16": {
+      "numero": 16,
+      "id": "pmc-2021feb-q16",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "As quadras de grama de Wimbledon são impecáveis! Uma quadra de tênis é um retângulo de 23,77 m por 10,97 m. Contei 18 folhinhas de grama em um centímetro quadrado. Mais ou menos quantas folhinhas de grama tem uma quadra inteira?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5 000"
+        },
+        {
+          "letra": "B",
+          "texto": "50 000"
+        },
+        {
+          "letra": "C",
+          "texto": "500 000"
+        },
+        {
+          "letra": "D",
+          "texto": "5 000 000"
+        },
+        {
+          "letra": "E",
+          "texto": "50 000 000"
+        }
+      ]
+    },
+    "17": {
+      "numero": 17,
+      "id": "pmc-2021feb-q17",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Pense em dois números inteiros positivos de modo que (soma dos dois) × (diferença dos dois) = 21. Qual é o maior valor possível pra um desses números?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "7"
+        },
+        {
+          "letra": "B",
+          "texto": "8"
+        },
+        {
+          "letra": "C",
+          "texto": "9"
+        },
+        {
+          "letra": "D",
+          "texto": "10"
+        },
+        {
+          "letra": "E",
+          "texto": "11"
+        }
+      ]
+    },
+    "18": {
+      "numero": 18,
+      "id": "pmc-2021feb-q18",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Alice fez cupcakes. Deu 1/3 pra melhor amiga, 1/5 pra mãe e 1/9 pra avó, e ficou com o resto. A mãe ganhou 8 cupcakes a mais que a avó, e nenhum cupcake foi cortado. Com quantos cupcakes Alice ficou?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "16"
+        },
+        {
+          "letra": "B",
+          "texto": "20"
+        },
+        {
+          "letra": "C",
+          "texto": "24"
+        },
+        {
+          "letra": "D",
+          "texto": "28"
+        },
+        {
+          "letra": "E",
+          "texto": "32"
+        }
+      ]
+    },
+    "19": {
+      "numero": 19,
+      "id": "pmc-2021feb-q19",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "A figura mostra um cubo antes e depois de uma pirâmide ser cortada fora de um canto. Qual das planificações abaixo **não** é uma planificação possível do sólido que sobrou?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "B",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "C",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "D",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "E",
+          "texto": "ver figura"
+        }
+      ],
+      "figura": "saida/pmc/2021_feb_uk/figuras/q19.png"
+    },
+    "20": {
+      "numero": 20,
+      "id": "pmc-2021feb-q20",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Um homem de cartola em cima de pernas de pau mede 320 cm! Só com a cartola (sem pernas de pau) ele mede 225 cm. Com as pernas de pau mas sem cartola, 285 cm. Quanto mede o homem sem cartola e sem pernas de pau?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "170 cm"
+        },
+        {
+          "letra": "B",
+          "texto": "180 cm"
+        },
+        {
+          "letra": "C",
+          "texto": "190 cm"
+        },
+        {
+          "letra": "D",
+          "texto": "200 cm"
+        },
+        {
+          "letra": "E",
+          "texto": "210 cm"
+        }
+      ]
+    },
+    "21": {
+      "numero": 21,
+      "id": "pmc-2021feb-q21",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Este hexágono está dividido em cinco triângulos isósceles (figura). Quanto o ângulo k° é maior que o ângulo j°?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2,5°"
+        },
+        {
+          "letra": "B",
+          "texto": "5°"
+        },
+        {
+          "letra": "C",
+          "texto": "7,5°"
+        },
+        {
+          "letra": "D",
+          "texto": "10°"
+        },
+        {
+          "letra": "E",
+          "texto": "15°"
+        }
+      ],
+      "figura": "saida/pmc/2021_feb_uk/figuras/q21.png"
+    },
+    "22": {
+      "numero": 22,
+      "id": "pmc-2021feb-q22",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Na figura, o número perto de cada engrenagem é o número de dentes dela. Quando a engrenagem da esquerda dá 1 volta completa, quanto gira a engrenagem da direita?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "um quarto de volta"
+        },
+        {
+          "letra": "B",
+          "texto": "meia volta"
+        },
+        {
+          "letra": "C",
+          "texto": "uma volta completa"
+        },
+        {
+          "letra": "D",
+          "texto": "2 voltas completas"
+        },
+        {
+          "letra": "E",
+          "texto": "4 voltas completas"
+        }
+      ],
+      "figura": "saida/pmc/2021_feb_uk/figuras/q22.png"
+    },
+    "23": {
+      "numero": 23,
+      "id": "pmc-2021feb-q23",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Polly fez um paralelogramo cortando fora dois cantos de um triângulo equilátero. O perímetro do paralelogramo é 20 cm. Qual era o perímetro do triângulo equilátero?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "18 cm"
+        },
+        {
+          "letra": "B",
+          "texto": "21 cm"
+        },
+        {
+          "letra": "C",
+          "texto": "24 cm"
+        },
+        {
+          "letra": "D",
+          "texto": "27 cm"
+        },
+        {
+          "letra": "E",
+          "texto": "30 cm"
+        }
+      ]
+    },
+    "24": {
+      "numero": 24,
+      "id": "pmc-2021feb-q24",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Quantos números positivos menores que 1 000 000 são múltiplos de 12 e têm só os algarismos 1 e/ou 2?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "11"
+        },
+        {
+          "letra": "B",
+          "texto": "12"
+        },
+        {
+          "letra": "C",
+          "texto": "13"
+        },
+        {
+          "letra": "D",
+          "texto": "14"
+        },
+        {
+          "letra": "E",
+          "texto": "15"
+        }
+      ]
+    },
+    "25": {
+      "numero": 25,
+      "id": "pmc-2021feb-q25",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "As três peças de quebra-cabeça da figura (P/Q, R/S e T/U) encaixam na grade 3 por 3, sem girar nem espelhar. Pistas:\n\n- U não está na mesma linha que P nem que Q.\n- T tem uma casa vazia logo acima dele.\n- S encosta em Q na diagonal e não está na coluna 2.\n\nEm qual casa fica o S?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "X1"
+        },
+        {
+          "letra": "B",
+          "texto": "X3"
+        },
+        {
+          "letra": "C",
+          "texto": "Y2"
+        },
+        {
+          "letra": "D",
+          "texto": "Z1"
+        },
+        {
+          "letra": "E",
+          "texto": "Z3"
+        }
+      ],
+      "figura": "saida/pmc/2021_feb_uk/figuras/q25.png"
+    }
+  }
+}
