@@ -1,5 +1,37 @@
 # Fase 3 — status
 
+## Fase 14 — mais três provas do PMC pro Rui: nov/2020, nov/2018 e Bonus Round fev/2022 (17/09/2026)
+
+Usuário pediu pra "trabalhar até acabar os tokens, nem que seja acrescentando questões de provas
+de outros países, traduzidas" (autônomo, ele foi dormir). Mesma fonte já aprovada (PMC, Reino
+Unido — critério em `cangurivis-fontes-estrangeiras`), mesmo processo da Fase 11.
+
+| prova | pasta | ids | questões | figuras | observação |
+|---|---|---|---|---|---|
+| nov/2020 | `saida/pmc/2020_uk` | `pmc-2020-qNN` | 20 | 6 | Q20 (símbolos "cnujianos") recomposta com PIL: glifos recortados a 300 dpi + frases em português |
+| nov/2018 | `saida/pmc/2018_uk` | `pmc-2018-qNN` | 20 | 6 | rótulos em inglês dentro do gráfico (Q6) e do bloco de cubos (Q11) apagados via `get_text("words")` e reescritos em português |
+| fev/2022 (Bonus Round) | `saida/pmc/2022_feb_uk` | `pmc-2022feb-qNN` | **25** | 6 | rodada extra pros melhores da 1ª rodada: mais difícil (média, porcentagem, fórmula 2n−1, razão de áreas, taxa de trabalho, relógio decimal francês, ISBN). Todas as 25 são de múltipla escolha, então entraram todas |
+
+Gabaritos conferidos questão por questão contra o "Answers and Notes" oficial de cada prova,
+0 divergências. Distribuições: 2020 `{A:4,B:4,C:4,D:4,E:4}`, 2018 `{D:5,B:5,C:4,E:4,A:2}`,
+fev/2022 `{D:9,E:5,A:4,C:4,B:3}` (D em 36%, abaixo do limiar de 60%).
+
+Detalhes de tradução que valem registro: Q1 de 2020 e Q4 de 2018 dependem do ano da prova
+("quantos anos atrás") — o enunciado traduzido diz explicitamente "em 2020/2018 (o ano desta
+prova)"; Q3 de 2018 (simetria de rotação das letras) manteve as palavras em inglês porque a
+pergunta é sobre a forma das letras; Q14 de 2020 manteve as siglas D/G/P/T/W das alternativas
+com a explicação em português de cada letra; unidades inglesas mantidas (milhas, £, pence) como
+sempre. Q14 de fev/2022 (frações com 4s) virou texto com ÷ e parênteses em vez de fração empilhada.
+
+**Pool do Rui**: 160 → **225** (6 provas do PMC + 8 da OBMEP). PDFs originais em `acervo/pmc/`
+(fora do git). Ainda disponíveis no site pra depois: Bonus Round fev/2023, fev/2021, fev/2020,
+fev/2019 e fev/2018 (só bonus rounds; a prova de nov/2019 não está publicada, só o gabarito).
+Scripts geradores (`gerar_pmc_2020.py`, `gerar_pmc_2018.py`, `gerar_pmc_2022feb.py`) ficaram
+no scratchpad da sessão.
+
+**Achado**: o arquivo do site chamado "PMC November 2018 v8.1.pdf" é mesmo a prova de nov/2018
+(o link está listado junto do gabarito de 2019, o que confunde) — conferido pela capa.
+
 ## Fase 13 — revisão do app: sessões curtas, gravação resiliente, fuso, histórico de simulados (17/09/2026)
 
 Usuário pediu "veja o que dá pra melhorar no app" e autorizou decisões autônomas (foi dormir).
