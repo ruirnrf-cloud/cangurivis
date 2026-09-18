@@ -1,0 +1,744 @@
+{
+  "fonte": {
+    "olimpiada_slug": "pmc",
+    "pais": "reino-unido",
+    "ano": 2020,
+    "edicao": "fevereiro (bonus round)"
+  },
+  "pdf_prova_original": "https://www.m-a.org.uk/resources/PMC February 2020.pdf",
+  "pdf_solucao_original": "https://www.m-a.org.uk/resources/PMCFebruary2020AnswersNotes.pdf",
+  "n_questoes": 25,
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "pmc-2020feb-q01",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Um voo de Singapura a Manchester dura 15 horas. O relógio de Singapura está 7 horas adiantado em relação ao de Manchester. Meu voo sai de Singapura às 15h (hora de Singapura). A que horas ele deve pousar em Manchester (hora de Manchester)?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3h da manhã"
+        },
+        {
+          "letra": "B",
+          "texto": "6h da manhã"
+        },
+        {
+          "letra": "C",
+          "texto": "22h"
+        },
+        {
+          "letra": "D",
+          "texto": "23h"
+        },
+        {
+          "letra": "E",
+          "texto": "1h da manhã"
+        }
+      ]
+    },
+    "2": {
+      "numero": 2,
+      "id": "pmc-2020feb-q02",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Meu pai odeia casca de pão. Todo dia minha mãe tira as bordas da torrada dele, que mede 10 cm × 10 cm: ela corta 1 cm de cada lado e joga fora. Que porcentagem da torrada vai pro lixo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12%"
+        },
+        {
+          "letra": "B",
+          "texto": "19%"
+        },
+        {
+          "letra": "C",
+          "texto": "24%"
+        },
+        {
+          "letra": "D",
+          "texto": "32%"
+        },
+        {
+          "letra": "E",
+          "texto": "36%"
+        }
+      ]
+    },
+    "3": {
+      "numero": 3,
+      "id": "pmc-2020feb-q03",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Seagram sabe que 1111 × 2222 = 2 468 642. Qual destas opções deve ser o resultado de 3333 × 4444?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "14 811 850"
+        },
+        {
+          "letra": "B",
+          "texto": "14 811 851"
+        },
+        {
+          "letra": "C",
+          "texto": "14 811 852"
+        },
+        {
+          "letra": "D",
+          "texto": "14 811 853"
+        },
+        {
+          "letra": "E",
+          "texto": "14 811 854"
+        }
+      ]
+    },
+    "4": {
+      "numero": 4,
+      "id": "pmc-2020feb-q04",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Astrod somou todos os números ímpares positivos menores que 100 e obteve 2500. Steven somou todos os números pares positivos até 100 (incluindo o 100). Que total Steven obteve?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2500"
+        },
+        {
+          "letra": "B",
+          "texto": "2502"
+        },
+        {
+          "letra": "C",
+          "texto": "2540"
+        },
+        {
+          "letra": "D",
+          "texto": "2550"
+        },
+        {
+          "letra": "E",
+          "texto": "2600"
+        }
+      ]
+    },
+    "5": {
+      "numero": 5,
+      "id": "pmc-2020feb-q05",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Na figura, quatro triângulos retângulos foram colados nos lados de um quadrado, formando uma estrela. O lado do quadrado mede 3 cm e a altura de cada triângulo é 5 cm. Qual é a área da estrela?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "15 cm²"
+        },
+        {
+          "letra": "B",
+          "texto": "25 cm²"
+        },
+        {
+          "letra": "C",
+          "texto": "30 cm²"
+        },
+        {
+          "letra": "D",
+          "texto": "34 cm²"
+        },
+        {
+          "letra": "E",
+          "texto": "39 cm²"
+        }
+      ],
+      "figura": "saida/pmc/2020_feb_uk/figuras/q05.png"
+    },
+    "6": {
+      "numero": 6,
+      "id": "pmc-2020feb-q06",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Hoje meu professor de matemática comprou 80 meias, todas iguais. Ele usa um par por dia. Cada meia aguenta 100 dias de uso. Daqui a aproximadamente quantos anos ele vai ter que trocar todas?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "6"
+        },
+        {
+          "letra": "D",
+          "texto": "8"
+        },
+        {
+          "letra": "E",
+          "texto": "mais de 10"
+        }
+      ]
+    },
+    "7": {
+      "numero": 7,
+      "id": "pmc-2020feb-q07",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Numa turma de 28 alunos, 8 dizem que gostam de repolho e 10 dizem que gostam de couve-de-bruxelas. 13 dizem que não gostam de nenhum dos dois. Quantos gostam dos dois?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "5"
+        },
+        {
+          "letra": "C",
+          "texto": "7"
+        },
+        {
+          "letra": "D",
+          "texto": "9"
+        },
+        {
+          "letra": "E",
+          "texto": "11"
+        }
+      ]
+    },
+    "8": {
+      "numero": 8,
+      "id": "pmc-2020feb-q08",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Dougie tem seis cachorros pra passear. Se ele leva dois de cada vez, quantas duplas diferentes de cachorros ele pode levar?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "9"
+        },
+        {
+          "letra": "C",
+          "texto": "12"
+        },
+        {
+          "letra": "D",
+          "texto": "15"
+        },
+        {
+          "letra": "E",
+          "texto": "30"
+        }
+      ]
+    },
+    "9": {
+      "numero": 9,
+      "id": "pmc-2020feb-q09",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Uma cidade tem um sistema de aluguel de bicicletas pra viagens curtas. No ano passado, aluguei uma bicicleta 60 vezes e pedalei 13 horas ao todo. Em média, quanto tempo durou cada aluguel?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "13 minutos"
+        },
+        {
+          "letra": "B",
+          "texto": "23 minutos"
+        },
+        {
+          "letra": "C",
+          "texto": "39 minutos"
+        },
+        {
+          "letra": "D",
+          "texto": "47 minutos"
+        },
+        {
+          "letra": "E",
+          "texto": "73 minutos"
+        }
+      ]
+    },
+    "10": {
+      "numero": 10,
+      "id": "pmc-2020feb-q10",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Na figura da esquerda, uma mesa está apoiada em pilhas de três tijolos, e o tampo fica a 150 cm do chão. Na figura da direita, a mesma mesa está no chão com um tijolo em cima, e o topo do tijolo fica a 140 cm do chão. Qual é a altura real da mesa?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "120 cm"
+        },
+        {
+          "letra": "B",
+          "texto": "125 cm"
+        },
+        {
+          "letra": "C",
+          "texto": "128 cm"
+        },
+        {
+          "letra": "D",
+          "texto": "130 cm"
+        },
+        {
+          "letra": "E",
+          "texto": "135 cm"
+        }
+      ],
+      "figura": "saida/pmc/2020_feb_uk/figuras/q10.png"
+    },
+    "11": {
+      "numero": 11,
+      "id": "pmc-2020feb-q11",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Penso num número, somo 5, multiplico o resultado por 2 e depois inverto a ordem dos algarismos da resposta. Aí chego no número que pensei no começo. Qual é o meu número?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "15"
+        },
+        {
+          "letra": "B",
+          "texto": "26"
+        },
+        {
+          "letra": "C",
+          "texto": "37"
+        },
+        {
+          "letra": "D",
+          "texto": "48"
+        },
+        {
+          "letra": "E",
+          "texto": "59"
+        }
+      ]
+    },
+    "12": {
+      "numero": 12,
+      "id": "pmc-2020feb-q12",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Toby está num jogo de contar veículos: 9 pontos por carro de bombeiros, 5 por ônibus e 2 por moto. Ele viu o mesmo número de motos e de carros de bombeiros, e fez 63 pontos ao todo. Quantos ônibus ele viu?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "5"
+        },
+        {
+          "letra": "D",
+          "texto": "6"
+        },
+        {
+          "letra": "E",
+          "texto": "7"
+        }
+      ]
+    },
+    "13": {
+      "numero": 13,
+      "id": "pmc-2020feb-q13",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Katherine escolheu três números primos. A média deles é 8. A diferença entre os dois primos menores também é um número primo. Qual foi o maior primo que ela escolheu?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5"
+        },
+        {
+          "letra": "B",
+          "texto": "7"
+        },
+        {
+          "letra": "C",
+          "texto": "13"
+        },
+        {
+          "letra": "D",
+          "texto": "17"
+        },
+        {
+          "letra": "E",
+          "texto": "19"
+        }
+      ]
+    },
+    "14": {
+      "numero": 14,
+      "id": "pmc-2020feb-q14",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "O fazendeiro Patch está plantando repolhos. Ele quer plantar num quadrado, com o mesmo número de repolhos em cada linha e em cada coluna. Mas ele fica bravo, porque quando tenta, ou sobram 6 repolhos, ou faltam 11 pra completar o quadrado seguinte! Quantos repolhos ele tem?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "31"
+        },
+        {
+          "letra": "B",
+          "texto": "38"
+        },
+        {
+          "letra": "C",
+          "texto": "42"
+        },
+        {
+          "letra": "D",
+          "texto": "55"
+        },
+        {
+          "letra": "E",
+          "texto": "70"
+        }
+      ]
+    },
+    "15": {
+      "numero": 15,
+      "id": "pmc-2020feb-q15",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "As sete peças de um tangram formam um quadrado de lado 12 cm, como na figura. Qual é a área, em centímetros quadrados, do paralelogramo pintado?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12"
+        },
+        {
+          "letra": "B",
+          "texto": "18"
+        },
+        {
+          "letra": "C",
+          "texto": "24"
+        },
+        {
+          "letra": "D",
+          "texto": "27"
+        },
+        {
+          "letra": "E",
+          "texto": "36"
+        }
+      ],
+      "figura": "saida/pmc/2020_feb_uk/figuras/q15.png"
+    },
+    "16": {
+      "numero": 16,
+      "id": "pmc-2020feb-q16",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "4 máquinas levam 6 dias pra colher uma plantação. Quanto tempo levariam 3 máquinas?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6 dias"
+        },
+        {
+          "letra": "B",
+          "texto": "8 dias"
+        },
+        {
+          "letra": "C",
+          "texto": "9 dias"
+        },
+        {
+          "letra": "D",
+          "texto": "12 dias"
+        },
+        {
+          "letra": "E",
+          "texto": "24 dias"
+        }
+      ]
+    },
+    "17": {
+      "numero": 17,
+      "id": "pmc-2020feb-q17",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "O raio de uma moeda é 3 cm. Colocando 4000 dessas moedas lado a lado, em linha reta, que comprimento tem a fila?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "240 cm"
+        },
+        {
+          "letra": "B",
+          "texto": "12 m"
+        },
+        {
+          "letra": "C",
+          "texto": "240 m"
+        },
+        {
+          "letra": "D",
+          "texto": "1,2 km"
+        },
+        {
+          "letra": "E",
+          "texto": "2,4 km"
+        }
+      ]
+    },
+    "18": {
+      "numero": 18,
+      "id": "pmc-2020feb-q18",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Usando só os algarismos 1, 2, 3, 4, 5, 6 e 7, no máximo uma vez cada, dá pra formar muitos números: 43 716 ou 7 325 641, por exemplo. Qual é o maior desses números em que **todo** par de algarismos vizinhos forma um múltiplo de 3?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "75 421"
+        },
+        {
+          "letra": "B",
+          "texto": "637 542"
+        },
+        {
+          "letra": "C",
+          "texto": "721 543"
+        },
+        {
+          "letra": "D",
+          "texto": "751 263"
+        },
+        {
+          "letra": "E",
+          "texto": "7 563 421"
+        }
+      ]
+    },
+    "19": {
+      "numero": 19,
+      "id": "pmc-2020feb-q19",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Corto um octógono regular com um único corte reto. Qual destes pares de formas eu **não** consigo obter?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 triângulo e 1 hexágono"
+        },
+        {
+          "letra": "B",
+          "texto": "2 pentágonos"
+        },
+        {
+          "letra": "C",
+          "texto": "1 quadrilátero e 1 hexágono"
+        },
+        {
+          "letra": "D",
+          "texto": "2 hexágonos"
+        },
+        {
+          "letra": "E",
+          "texto": "1 pentágono e 1 hexágono"
+        }
+      ]
+    },
+    "20": {
+      "numero": 20,
+      "id": "pmc-2020feb-q20",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Cassie quer pintar as arestas de um cubo de vermelho ou azul. Ela quer que toda face do cubo tenha pelo menos uma aresta vermelha. Qual é o menor número de arestas vermelhas possível?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "3"
+        },
+        {
+          "letra": "C",
+          "texto": "4"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ]
+    },
+    "21": {
+      "numero": 21,
+      "id": "pmc-2020feb-q21",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Icosa tem um pentágono regular, um hexágono regular e um octógono regular de cartolina, todos com lados do mesmo tamanho. Ela encosta o hexágono no octógono lado a lado, e depois o pentágono no octógono, de modo que os três se encontram no ponto P. Qual é o ângulo formado pela sobreposição do pentágono com o hexágono?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2°"
+        },
+        {
+          "letra": "B",
+          "texto": "2,5°"
+        },
+        {
+          "letra": "C",
+          "texto": "3°"
+        },
+        {
+          "letra": "D",
+          "texto": "3,5°"
+        },
+        {
+          "letra": "E",
+          "texto": "4°"
+        }
+      ],
+      "figura": "saida/pmc/2020_feb_uk/figuras/q21.png"
+    },
+    "22": {
+      "numero": 22,
+      "id": "pmc-2020feb-q22",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Na figura, o retângulo PJOM tem área 3 cm², o retângulo JQKO tem área 4 cm² e o retângulo OKRL tem área 5 cm². Qual é a área do retângulo inteiro PQRS, em cm²?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "15"
+        },
+        {
+          "letra": "B",
+          "texto": "15,3"
+        },
+        {
+          "letra": "C",
+          "texto": "15,75"
+        },
+        {
+          "letra": "D",
+          "texto": "16"
+        },
+        {
+          "letra": "E",
+          "texto": "18"
+        }
+      ],
+      "figura": "saida/pmc/2020_feb_uk/figuras/q22.png"
+    },
+    "23": {
+      "numero": 23,
+      "id": "pmc-2020feb-q23",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Estou fazendo suco misto. Tenho dois potes iguais, X e Y. O X está com um quarto de suco de groselha. O Y está com um quarto de suco de laranja. Despejo metade do X no Y e misturo bem. Depois despejo metade do que está no Y de volta no X. Qual é a proporção entre groselha e laranja no X agora?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 : 1"
+        },
+        {
+          "letra": "B",
+          "texto": "1 : 2"
+        },
+        {
+          "letra": "C",
+          "texto": "3 : 1"
+        },
+        {
+          "letra": "D",
+          "texto": "3 : 2"
+        },
+        {
+          "letra": "E",
+          "texto": "5 : 3"
+        }
+      ],
+      "figura": "saida/pmc/2020_feb_uk/figuras/q23.png"
+    },
+    "24": {
+      "numero": 24,
+      "id": "pmc-2020feb-q24",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Uma caixa oca em forma de cubo, sem tampa, contém 125 cubinhos de madeira iguais que enchem a caixa exatamente. Quantos cubinhos não encostam nem nas laterais nem no fundo da caixa?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "27"
+        },
+        {
+          "letra": "B",
+          "texto": "36"
+        },
+        {
+          "letra": "C",
+          "texto": "40"
+        },
+        {
+          "letra": "D",
+          "texto": "49"
+        },
+        {
+          "letra": "E",
+          "texto": "89"
+        }
+      ]
+    },
+    "25": {
+      "numero": 25,
+      "id": "pmc-2020feb-q25",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Edward tem uma folha A4, de 210 mm por 297 mm. Com um corte, ele separa um quadrado e sobra um retângulo. Ele repete o processo com o retângulo que sobrou, e continua até que os dois últimos pedaços sejam quadrados. Qual é o lado desses quadrados finais?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 mm"
+        },
+        {
+          "letra": "B",
+          "texto": "2 mm"
+        },
+        {
+          "letra": "C",
+          "texto": "3 mm"
+        },
+        {
+          "letra": "D",
+          "texto": "4 mm"
+        },
+        {
+          "letra": "E",
+          "texto": "5 mm"
+        }
+      ]
+    }
+  }
+}
