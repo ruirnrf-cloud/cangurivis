@@ -1,5 +1,42 @@
 # Fase 3 — status
 
+## Fase 15 — as cinco Bonus Rounds restantes do PMC (fev/2018 a fev/2023) e o Canguru de Portugal avaliado (17/09/2026)
+
+Continuação autônoma da Fase 14 ("trabalhe até acabar os tokens"). Esgotei o que o site da
+Mathematical Association publica de graça: além das provas de novembro (2018, 2020, 2021, 2022),
+entraram todas as **Bonus Rounds** de fevereiro — a rodada extra pros melhores da 1ª rodada,
+sempre 25 questões de múltipla escolha e mais difíceis (percentagem, razão, ângulos, potências,
+raiz quadrada, contagem sistemática). A prova de nov/2019 não está publicada (só o gabarito),
+então não dá pra usar.
+
+| prova | pasta | ids | q | figuras | observação |
+|---|---|---|---|---|---|
+| fev/2023 | `saida/pmc/2023_feb_uk` | `pmc-2023feb-qNN` | 25 | 1 | notas oficiais com mais texto corrido (PDF Word) |
+| fev/2021 | `saida/pmc/2021_feb_uk` | `pmc-2021feb-qNN` | 25 | 7 | planta do jardim (Q11) com rótulos reescritos; azulejos (Q5) e cubo cortado + planificações (Q19) compostos |
+| fev/2020 | `saida/pmc/2020_feb_uk` | `pmc-2020feb-qNN` | 25 | 6 | polígonos (Q21) e potes de suco (Q23) com rótulos traduzidos |
+| fev/2019 | `saida/pmc/2019_feb_uk` | `pmc-2019feb-qNN` | 25 | 11 | mapa do tesouro (Q15) com "Treasure" → "Tesouro"; logo USB + alternativas compostos (Q13) |
+| fev/2018 | `saida/pmc/2018_feb_uk` | `pmc-2018feb-qNN` | 25 | 7 | **PDF vetorizado** (0 chars): questões transcritas das páginas renderizadas; gráficos da Q12 recortados só na área do desenho e recompostos com "distância/tempo" em português |
+
+Todas conferidas questão por questão contra o "Answers and Notes" oficial (0 divergências).
+Cardápio da Q11 de fev/2018 e teclado da Q24 de fev/2022 viraram tabelas Markdown no enunciado;
+a notação de "número de divisores" da Q14 de fev/2018 virou ⟨N⟩ no texto.
+
+**Pool do Rui: 225 → 350** (18 provas: 8 da OBMEP Mirim 2 = 120 questões, mais 10 do PMC =
+4 de novembro × 20 + 6 bonus rounds × 25 = 230). Ids únicos e figuras validados pelo
+`carregar_banco` a cada prova. Tudo commitado prova a prova.
+
+**Canguru Matemático sem Fronteiras (Portugal) — avaliado e NÃO usado.** Seria ideal pro Rafael:
+Mini-Escolar I é exatamente o 2º ano, provas em português (mat.uc.pt/canguru, arquivo 2011-2026,
+15 questões, chave oficial com a célula verde). Mas: (1) não tem solução comentada, só a chave;
+(2) cada página traz na lateral "Este material pode ser reproduzido apenas com autorização do
+Canguru Matemático®" — restrição explícita, do mesmo tipo que fez descartar o Canguru da França
+na Fase 8. Respeitei o critério (`cangurivis-fontes-estrangeiras`) e não extraí nada. Fica a
+sugestão pro usuário: pedir autorização por e-mail (o regulamento diz que o objetivo é "promover
+a divulgação da matemática elementar por todos os meios"); com autorização, dá pra usar em modo
+imagem (banda por questão, sem tradução), e a verificação seria contra a chave oficial + minha
+resolução. PDFs de amostra ficaram em `acervo/canguru_pt/` (fora do git). Também chequei o First
+Maths Challenge (MA, 7-9 anos): sem provas gratuitas.
+
 ## Fase 14 — mais três provas do PMC pro Rui: nov/2020, nov/2018 e Bonus Round fev/2022 (17/09/2026)
 
 Usuário pediu pra "trabalhar até acabar os tokens, nem que seja acrescentando questões de provas
