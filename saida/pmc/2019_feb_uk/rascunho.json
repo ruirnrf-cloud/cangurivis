@@ -1,0 +1,749 @@
+{
+  "fonte": {
+    "olimpiada_slug": "pmc",
+    "pais": "reino-unido",
+    "ano": 2019,
+    "edicao": "fevereiro (bonus round)"
+  },
+  "pdf_prova_original": "https://www.m-a.org.uk/resources/PMC February 2019.pdf",
+  "pdf_solucao_original": "https://www.m-a.org.uk/resources/PMC February 2019 Answers Notes (final).pdf",
+  "n_questoes": 25,
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "pmc-2019feb-q01",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Qual destes números é o mais próximo de 2019?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1029"
+        },
+        {
+          "letra": "B",
+          "texto": "1902"
+        },
+        {
+          "letra": "C",
+          "texto": "2190"
+        },
+        {
+          "letra": "D",
+          "texto": "2901"
+        },
+        {
+          "letra": "E",
+          "texto": "9210"
+        }
+      ]
+    },
+    "2": {
+      "numero": 2,
+      "id": "pmc-2019feb-q02",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Na figura, o triângulo equilátero grande está dividido em triângulos equiláteros menores. Que porcentagem do triângulo grande está pintada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "60%"
+        },
+        {
+          "letra": "B",
+          "texto": "65%"
+        },
+        {
+          "letra": "C",
+          "texto": "70%"
+        },
+        {
+          "letra": "D",
+          "texto": "75%"
+        },
+        {
+          "letra": "E",
+          "texto": "80%"
+        }
+      ],
+      "figura": "saida/pmc/2019_feb_uk/figuras/q02.png"
+    },
+    "3": {
+      "numero": 3,
+      "id": "pmc-2019feb-q03",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Paula quer inserir o algarismo 5 entre os algarismos do número 4637, formando um número de cinco algarismos. Onde ela deve colocar o 5 pra que o número fique o menor possível?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "antes do 4"
+        },
+        {
+          "letra": "B",
+          "texto": "depois do 4"
+        },
+        {
+          "letra": "C",
+          "texto": "depois do 6"
+        },
+        {
+          "letra": "D",
+          "texto": "depois do 3"
+        },
+        {
+          "letra": "E",
+          "texto": "depois do 7"
+        }
+      ]
+    },
+    "4": {
+      "numero": 4,
+      "id": "pmc-2019feb-q04",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Glasgow, Stirling, Perth, Aberdeen e Thurso são as únicas estações da linha de trem Scotmost. De quantas maneiras um passageiro pode escolher um par de estações, uma pra começar a viagem e outra pra terminar?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5"
+        },
+        {
+          "letra": "B",
+          "texto": "10"
+        },
+        {
+          "letra": "C",
+          "texto": "20"
+        },
+        {
+          "letra": "D",
+          "texto": "25"
+        },
+        {
+          "letra": "E",
+          "texto": "30"
+        }
+      ]
+    },
+    "5": {
+      "numero": 5,
+      "id": "pmc-2019feb-q05",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Que número deve ir na caixa?\n\n**10 × 30 × 50 × 70 = 1 × 30 × 500 × ☐**",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,07"
+        },
+        {
+          "letra": "B",
+          "texto": "0,7"
+        },
+        {
+          "letra": "C",
+          "texto": "7"
+        },
+        {
+          "letra": "D",
+          "texto": "70"
+        },
+        {
+          "letra": "E",
+          "texto": "700"
+        }
+      ]
+    },
+    "6": {
+      "numero": 6,
+      "id": "pmc-2019feb-q06",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "O quadrado de fora tem lado 8 cm e o de dentro tem lado 4 cm (figura). Qual é a área do trapézio pintado?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4 cm²"
+        },
+        {
+          "letra": "B",
+          "texto": "6 cm²"
+        },
+        {
+          "letra": "C",
+          "texto": "8 cm²"
+        },
+        {
+          "letra": "D",
+          "texto": "10 cm²"
+        },
+        {
+          "letra": "E",
+          "texto": "12 cm²"
+        }
+      ],
+      "figura": "saida/pmc/2019_feb_uk/figuras/q06.png"
+    },
+    "7": {
+      "numero": 7,
+      "id": "pmc-2019feb-q07",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "A fábrica de chocolates Kit-Clat faz 2000 barras por minuto. A cada segundo, 50 barras são comidas no país. Por quanto tempo a fábrica precisa funcionar pra produzir o que é comido em uma hora?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "90 segundos"
+        },
+        {
+          "letra": "B",
+          "texto": "4 minutos"
+        },
+        {
+          "letra": "C",
+          "texto": "15 minutos"
+        },
+        {
+          "letra": "D",
+          "texto": "90 minutos"
+        },
+        {
+          "letra": "E",
+          "texto": "2 horas"
+        }
+      ]
+    },
+    "8": {
+      "numero": 8,
+      "id": "pmc-2019feb-q08",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "A figura mostra seis triângulos, cada um com lados de 3 cm, 7 cm e 8 cm. Qual é o perímetro dessa forma de 12 lados?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "60 cm"
+        },
+        {
+          "letra": "B",
+          "texto": "66 cm"
+        },
+        {
+          "letra": "C",
+          "texto": "72 cm"
+        },
+        {
+          "letra": "D",
+          "texto": "90 cm"
+        },
+        {
+          "letra": "E",
+          "texto": "108 cm"
+        }
+      ],
+      "figura": "saida/pmc/2019_feb_uk/figuras/q08.png"
+    },
+    "9": {
+      "numero": 9,
+      "id": "pmc-2019feb-q09",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Qual destes cinco números **não** é múltiplo de 7?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2345"
+        },
+        {
+          "letra": "B",
+          "texto": "2352"
+        },
+        {
+          "letra": "C",
+          "texto": "2359"
+        },
+        {
+          "letra": "D",
+          "texto": "2366"
+        },
+        {
+          "letra": "E",
+          "texto": "2374"
+        }
+      ]
+    },
+    "10": {
+      "numero": 10,
+      "id": "pmc-2019feb-q10",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Os gráficos de pizza da figura mostram quantas vezes cada letra aparece no nome de cinco países (em inglês). Qual deles ficaria igual ao gráfico de CROATIA (Croácia)?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "ANDORRA"
+        },
+        {
+          "letra": "B",
+          "texto": "FINLAND"
+        },
+        {
+          "letra": "C",
+          "texto": "MOROCCO"
+        },
+        {
+          "letra": "D",
+          "texto": "URUGUAY"
+        },
+        {
+          "letra": "E",
+          "texto": "VIETNAM"
+        }
+      ],
+      "figura": "saida/pmc/2019_feb_uk/figuras/q10.png"
+    },
+    "11": {
+      "numero": 11,
+      "id": "pmc-2019feb-q11",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Agnijo tem metade dos aplicativos de Sam, e Sam tem um terço dos aplicativos de Naomi. Juntos, eles têm 180 aplicativos. Quantos aplicativos Sam tem?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20"
+        },
+        {
+          "letra": "B",
+          "texto": "30"
+        },
+        {
+          "letra": "C",
+          "texto": "40"
+        },
+        {
+          "letra": "D",
+          "texto": "60"
+        },
+        {
+          "letra": "E",
+          "texto": "90"
+        }
+      ]
+    },
+    "12": {
+      "numero": 12,
+      "id": "pmc-2019feb-q12",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "20% do queijo cheddar de Pete pesa o mesmo que a metade do queijo camembert de Erica. 10% do camembert pesa 28 g. Quanto pesa o cheddar de Pete ao todo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "70 g"
+        },
+        {
+          "letra": "B",
+          "texto": "280 g"
+        },
+        {
+          "letra": "C",
+          "texto": "700 g"
+        },
+        {
+          "letra": "D",
+          "texto": "1400 g"
+        },
+        {
+          "letra": "E",
+          "texto": "14 kg"
+        }
+      ]
+    },
+    "13": {
+      "numero": 13,
+      "id": "pmc-2019feb-q13",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "A figura mostra o logotipo padrão do USB. Qual das alternativas **não** é uma reflexão (imagem no espelho) desse logotipo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "B",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "C",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "D",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "E",
+          "texto": "ver figura"
+        }
+      ],
+      "figura": "saida/pmc/2019_feb_uk/figuras/q13.png"
+    },
+    "14": {
+      "numero": 14,
+      "id": "pmc-2019feb-q14",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "A figura mostra um losango PQRS ligado a dois triângulos equiláteros. Um dos ângulos menores do losango mede 37°. Qual é a medida do ângulo marcado x?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "91°"
+        },
+        {
+          "letra": "B",
+          "texto": "93°"
+        },
+        {
+          "letra": "C",
+          "texto": "95°"
+        },
+        {
+          "letra": "D",
+          "texto": "97°"
+        },
+        {
+          "letra": "E",
+          "texto": "99°"
+        }
+      ],
+      "figura": "saida/pmc/2019_feb_uk/figuras/q14.png"
+    },
+    "15": {
+      "numero": 15,
+      "id": "pmc-2019feb-q15",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Matthew precisa passar por todas as casas do mapa, uma vez cada, pra chegar ao Tesouro. Cada casa tem uma instrução: \"2S 1E\" quer dizer \"vá pra casa 2 quadrados ao Sul e 1 quadrado ao Leste\" (N = norte, S = sul, E = leste, W = oeste). Seguindo as instruções, qual é a instrução da casa onde Matthew começa?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1S 2E"
+        },
+        {
+          "letra": "B",
+          "texto": "1N 2W"
+        },
+        {
+          "letra": "C",
+          "texto": "1S 2W"
+        },
+        {
+          "letra": "D",
+          "texto": "2N 1W"
+        },
+        {
+          "letra": "E",
+          "texto": "1S 1W"
+        }
+      ],
+      "figura": "saida/pmc/2019_feb_uk/figuras/q15.png"
+    },
+    "16": {
+      "numero": 16,
+      "id": "pmc-2019feb-q16",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Tenho 21 tulipas brancas, 35 amarelas e 28 vermelhas. Qual é o maior número de buquês que consigo montar, todos exatamente iguais e sem sobrar tulipa?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "7"
+        },
+        {
+          "letra": "B",
+          "texto": "12"
+        },
+        {
+          "letra": "C",
+          "texto": "14"
+        },
+        {
+          "letra": "D",
+          "texto": "21"
+        },
+        {
+          "letra": "E",
+          "texto": "28"
+        }
+      ]
+    },
+    "17": {
+      "numero": 17,
+      "id": "pmc-2019feb-q17",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Beattie está fazendo brownies em duas formas. Uma é retangular, 15 cm por 24 cm; a outra é quadrada, 20 cm por 20 cm. Na forma retangular a massa tem 2 cm de altura. As duas formas têm a mesma quantidade de massa. Qual é a altura da massa na forma quadrada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1,5 cm"
+        },
+        {
+          "letra": "B",
+          "texto": "1,8 cm"
+        },
+        {
+          "letra": "C",
+          "texto": "2,1 cm"
+        },
+        {
+          "letra": "D",
+          "texto": "2,2 cm"
+        },
+        {
+          "letra": "E",
+          "texto": "4,0 cm"
+        }
+      ]
+    },
+    "18": {
+      "numero": 18,
+      "id": "pmc-2019feb-q18",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Panath e Ranesh dividem um tubo de 32 balas na proporção das idades deles. A soma das idades é um múltiplo de 5 e é menor que 50. Se Panath fica com 20 balas, qual é a diferença de idade entre os dois?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5"
+        },
+        {
+          "letra": "B",
+          "texto": "10"
+        },
+        {
+          "letra": "C",
+          "texto": "15"
+        },
+        {
+          "letra": "D",
+          "texto": "20"
+        },
+        {
+          "letra": "E",
+          "texto": "25"
+        }
+      ]
+    },
+    "19": {
+      "numero": 19,
+      "id": "pmc-2019feb-q19",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Que fração do quadrado grande está pintada pelos três quadrados menores?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/3"
+        },
+        {
+          "letra": "B",
+          "texto": "4/9"
+        },
+        {
+          "letra": "C",
+          "texto": "1/2"
+        },
+        {
+          "letra": "D",
+          "texto": "5/9"
+        },
+        {
+          "letra": "E",
+          "texto": "7/12"
+        }
+      ],
+      "figura": "saida/pmc/2019_feb_uk/figuras/q19.png"
+    },
+    "20": {
+      "numero": 20,
+      "id": "pmc-2019feb-q20",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Quais são os três últimos algarismos do resultado de 123 × 124 × 125 × 126 × 127?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "000"
+        },
+        {
+          "letra": "B",
+          "texto": "222"
+        },
+        {
+          "letra": "C",
+          "texto": "444"
+        },
+        {
+          "letra": "D",
+          "texto": "666"
+        },
+        {
+          "letra": "E",
+          "texto": "888"
+        }
+      ]
+    },
+    "21": {
+      "numero": 21,
+      "id": "pmc-2019feb-q21",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "A média das idades de John e Leo é a idade de Kelly. A média das idades de Kelly e Mila é a idade de Leo. John é o mais novo e Mila a mais velha. A média das idades de John e Mila é 11. Qual é a soma das idades de Kelly e Leo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "14"
+        },
+        {
+          "letra": "B",
+          "texto": "16"
+        },
+        {
+          "letra": "C",
+          "texto": "18"
+        },
+        {
+          "letra": "D",
+          "texto": "20"
+        },
+        {
+          "letra": "E",
+          "texto": "22"
+        }
+      ]
+    },
+    "22": {
+      "numero": 22,
+      "id": "pmc-2019feb-q22",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Cada círculo da figura tem raio 3 cm e área de aproximadamente 28,26 cm². Os círculos se encostam e tocam os lados do quadrado. Qual é, aproximadamente, a área da região pintada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "entre 3 cm² e 5 cm²"
+        },
+        {
+          "letra": "B",
+          "texto": "entre 5 cm² e 7 cm²"
+        },
+        {
+          "letra": "C",
+          "texto": "entre 7 cm² e 9 cm²"
+        },
+        {
+          "letra": "D",
+          "texto": "entre 9 cm² e 11 cm²"
+        },
+        {
+          "letra": "E",
+          "texto": "entre 11 cm² e 13 cm²"
+        }
+      ],
+      "figura": "saida/pmc/2019_feb_uk/figuras/q22.png"
+    },
+    "23": {
+      "numero": 23,
+      "id": "pmc-2019feb-q23",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "A figura mostra quatro hexágonos regulares. O perímetro do maior é 60 cm. A soma dos perímetros dos três menores é 96 cm. Qual é o perímetro da forma combinada (o contorno grosso)?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "90 cm"
+        },
+        {
+          "letra": "B",
+          "texto": "92 cm"
+        },
+        {
+          "letra": "C",
+          "texto": "96 cm"
+        },
+        {
+          "letra": "D",
+          "texto": "108 cm"
+        },
+        {
+          "letra": "E",
+          "texto": "120 cm"
+        }
+      ],
+      "figura": "saida/pmc/2019_feb_uk/figuras/q23.png"
+    },
+    "24": {
+      "numero": 24,
+      "id": "pmc-2019feb-q24",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Na figura, um quadrado de lado 6 cm se sobrepõe a um retângulo de 3 cm por 8 cm. Cada diagonal do quadrado é paralela a um lado do retângulo. Qual é a área total pintada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "42 cm²"
+        },
+        {
+          "letra": "B",
+          "texto": "45 cm²"
+        },
+        {
+          "letra": "C",
+          "texto": "48 cm²"
+        },
+        {
+          "letra": "D",
+          "texto": "51 cm²"
+        },
+        {
+          "letra": "E",
+          "texto": "54 cm²"
+        }
+      ],
+      "figura": "saida/pmc/2019_feb_uk/figuras/q24.png"
+    },
+    "25": {
+      "numero": 25,
+      "id": "pmc-2019feb-q25",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Tenho uma caixa em forma de paralelepípedo com arestas de 5 cm, 5 cm e 6 cm. Tenho também 148 cubinhos de 1 cm e um 'cubo duplo' (dois cubinhos colados face a face). Quando encaixo tudo na caixa, quantas posições diferentes o cubo duplo pode ocupar?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "356"
+        },
+        {
+          "letra": "B",
+          "texto": "365"
+        },
+        {
+          "letra": "C",
+          "texto": "536"
+        },
+        {
+          "letra": "D",
+          "texto": "563"
+        },
+        {
+          "letra": "E",
+          "texto": "635"
+        }
+      ]
+    }
+  }
+}

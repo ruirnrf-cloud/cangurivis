@@ -1,0 +1,274 @@
+{
+  "1": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "subtracao",
+      "comparacao"
+    ],
+    "dica_curta": "Os dois candidatos são 1902 (antes) e 2190 (depois). Calcula a distância de cada um até 2019.",
+    "primeiro_passo": "2019 − 1902 = 117. 2190 − 2019 = 171.",
+    "solucao_completa": "- 2019 − 1902 = 117 e 2190 − 2019 = 171. O mais perto é **1902**.\n- Resposta certa: **B**."
+  },
+  "2": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "fracoes",
+      "porcentagem"
+    ],
+    "dica_curta": "Conta os triangulinhos: quantos ao todo e quantos pintados.",
+    "primeiro_passo": "São 16 triangulinhos (4 por lado). 12 estão pintados.",
+    "solucao_completa": "- 16 triangulinhos, 12 pintados: 12/16 = 3/4 = **75%**.\n- Resposta certa: **D**."
+  },
+  "3": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "sistema de numeracao",
+      "comparacao"
+    ],
+    "dica_curta": "Escreve os cinco números possíveis e compara.",
+    "primeiro_passo": "54637, 45637, 46537, 46357, 46375.",
+    "solucao_completa": "- Opções: 54637, 45637, 46537, 46357, 46375. O menor é 45637 (o 5 depois do 4).\n- Resposta certa: **B**."
+  },
+  "4": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "combinatoria basica"
+    ],
+    "dica_curta": "A ordem importa: ir de Glasgow a Perth é diferente de ir de Perth a Glasgow.",
+    "primeiro_passo": "5 estações de partida, e pra cada uma, 4 de chegada.",
+    "solucao_completa": "- 5 escolhas de partida × 4 de chegada = **20** viagens diferentes.\n- Resposta certa: **C**."
+  },
+  "5": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "multiplicacao",
+      "sistema de numeracao"
+    ],
+    "dica_curta": "Compara os dois lados fator a fator: 10 e 1, 30 e 30, 50 e 500. O que falta?",
+    "primeiro_passo": "Do lado esquerdo tem um 10 a mais (10 vs 1) e um 10 a menos (50 vs 500). Isso se cancela. Sobra o 70.",
+    "solucao_completa": "- Esquerda: 10 × 30 × 50 × 70. Direita: 1 × 30 × 500 × ☐. O 30 é igual nos dois. 10 × 50 = 500 = 1 × 500. Sobra ☐ = **70**.\n- Resposta certa: **D**."
+  },
+  "6": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "perimetro e area"
+    ],
+    "dica_curta": "A área entre os dois quadrados está dividida em 4 trapézios iguais.",
+    "primeiro_passo": "Área de fora: 64. Área de dentro: 16. Entre eles: 48.",
+    "solucao_completa": "- Entre os quadrados: 8 × 8 − 4 × 4 = 64 − 16 = 48 cm². São 4 trapézios iguais: 48 ÷ 4 = **12 cm²**.\n- Resposta certa: **E**."
+  },
+  "7": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "proporcao e razao",
+      "horas"
+    ],
+    "dica_curta": "Quantas barras são comidas por minuto? E por hora?",
+    "primeiro_passo": "50 por segundo = 3000 por minuto = 180 000 por hora.",
+    "solucao_completa": "- Comidas em 1 hora: 50 × 60 × 60 = 180 000 barras.\n- A fábrica faz 2000 por minuto: 180 000 ÷ 2000 = **90 minutos**.\n- Resposta certa: **D**."
+  },
+  "8": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "perimetro e area"
+    ],
+    "dica_curta": "Cada ponta da estrela tem um lado de 7 cm e um pedaço do lado de 8 cm que sobra depois de encostar o de 3 cm do vizinho.",
+    "primeiro_passo": "Cada ponta contribui com 7 + (8 − 3) = 12 cm.",
+    "solucao_completa": "- Cada uma das 6 pontas tem um lado de 7 cm e um de 8 − 3 = 5 cm pra fora: 12 cm por ponta.\n- 6 × 12 = **72 cm**.\n- Resposta certa: **C**."
+  },
+  "9": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "multiplos",
+      "divisao"
+    ],
+    "dica_curta": "2345 = 7 × 335. Olha a diferença entre cada opção e 2345.",
+    "primeiro_passo": "2352, 2359 e 2366 são 7, 14 e 21 a mais que 2345.",
+    "solucao_completa": "- 2345 = 7 × 335 é múltiplo de 7. 2352, 2359, 2366 são 7, 14 e 21 a mais: múltiplos também.\n- 2374 é 8 a mais que 2366: não é múltiplo.\n- Resposta certa: **E**."
+  },
+  "10": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "leitura de tabelas e graficos",
+      "contagem sistematica"
+    ],
+    "dica_curta": "CROATIA tem 7 letras: o A aparece 2 vezes e as outras 5 letras aparecem 1 vez cada. Qual país tem o mesmo padrão?",
+    "primeiro_passo": "Conta as repetições em cada nome: ANDORRA tem A×2 e R×2; FINLAND tem N×2 e o resto 1 vez...",
+    "solucao_completa": "- CROATIA: uma letra repetida 2 vezes (A) e 5 letras únicas.\n- ANDORRA: A×2, R×2. MOROCCO: O×3, C×2. URUGUAY: U×3. VIETNAM: todas únicas. FINLAND: N×2 e 5 únicas. Igual!\n- Resposta certa: **B**."
+  },
+  "11": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "proporcao e razao",
+      "divisao"
+    ],
+    "dica_curta": "Se Agnijo tem 1 parte, Sam tem 2 partes e Naomi tem 6 partes.",
+    "primeiro_passo": "1 + 2 + 6 = 9 partes = 180.",
+    "solucao_completa": "- Agnijo 1 parte, Sam 2, Naomi 6: total 9 partes = 180, então 1 parte = 20.\n- Sam: 2 × 20 = **40**.\n- Resposta certa: **C**."
+  },
+  "12": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "porcentagem",
+      "proporcao e razao"
+    ],
+    "dica_curta": "Começa pelo camembert: 10% é 28 g, então o inteiro pesa 280 g.",
+    "primeiro_passo": "Metade do camembert = 140 g = 20% do cheddar.",
+    "solucao_completa": "- Camembert: 28 × 10 = 280 g. Metade: 140 g. Isso é 20% (um quinto) do cheddar.\n- Cheddar: 140 × 5 = **700 g**.\n- Resposta certa: **C**."
+  },
+  "13": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "simetria",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Num espelho, o círculo e o quadrado das pontas trocam de lado junto com os ramos onde estão. Procura a opção em que só as pontas trocaram.",
+    "primeiro_passo": "Compara cada opção com o original: o ramo que sobe tem círculo ou quadrado?",
+    "solucao_completa": "- B, E, A e C são reflexões (espelhos em eixos diferentes: horizontal, vertical e nas diagonais).\n- Na **D**, o círculo e o quadrado trocaram de lugar, mas os ramos não: isso não acontece num espelho.\n- Resposta certa: **D**."
+  },
+  "14": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "angulos",
+      "formas geometricas"
+    ],
+    "dica_curta": "Num losango, ângulos vizinhos somam 180°. E cada ângulo de um triângulo equilátero é 60°.",
+    "primeiro_passo": "O ângulo do losango em S é 180 − 37 = 143°. Em volta de S, tudo soma 360°.",
+    "solucao_completa": "- Ângulo PSR do losango = 180 − 37 = 143°. Os dois triângulos equiláteros contribuem com 60° cada em S.\n- Em volta do ponto S: x = 360 − 143 − 60 − 60 = **97°**.\n- Resposta certa: **D**."
+  },
+  "15": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "logica com pistas",
+      "orientacao espacial"
+    ],
+    "dica_curta": "Dá pra ir de trás pra frente: qual casa manda direto pro Tesouro? E qual casa manda pra essa? Outro jeito: soma todas as instruções e vê pra onde o caminho inteiro leva.",
+    "primeiro_passo": "Somando as 8 instruções: 6N, 5S, 6E, 6W. Leste e oeste se cancelam; sobra 1 casa pro Norte. Então o começo é 1 casa ao Sul do Tesouro.",
+    "solucao_completa": "- Somando todas as 8 instruções: 6N, 5S, 6E, 6W. Leste e oeste se cancelam, e sobra 1 pro Norte.\n- Então o começo fica 1 casa ao Sul do Tesouro: é a casa do meio, **1S 1W**.\n- Conferindo o caminho: 1S 1W → 1N 2E → 2N 1W → 2S 1E → 1N 2W → 2N 1E → 1S 2E → 1S 2W → Tesouro. Passa por todas!\n- Resposta certa: **E**."
+  },
+  "16": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "multiplos",
+      "divisao"
+    ],
+    "dica_curta": "O número de buquês tem que dividir 21, 35 e 28 ao mesmo tempo.",
+    "primeiro_passo": "Divisores de 21: 1, 3, 7, 21. Quais desses dividem 35 e 28?",
+    "solucao_completa": "- O número de buquês é um divisor comum de 21, 35 e 28. O maior é **7** (cada buquê: 3 brancas, 5 amarelas e 4 vermelhas).\n- Resposta certa: **A**."
+  },
+  "17": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "medidas",
+      "geometria de solidos"
+    ],
+    "dica_curta": "Calcula o volume de massa na forma retangular. Esse mesmo volume vai na quadrada.",
+    "primeiro_passo": "15 × 24 × 2 = 720 cm³.",
+    "solucao_completa": "- Volume: 15 × 24 × 2 = 720 cm³. Na forma quadrada: 720 ÷ (20 × 20) = 720 ÷ 400 = **1,8 cm**.\n- Resposta certa: **B**."
+  },
+  "18": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "proporcao e razao",
+      "multiplos"
+    ],
+    "dica_curta": "Panath 20, Ranesh 12: proporção 20 : 12 = 5 : 3. A soma das idades é múltiplo de 5 + 3 = 8 e também de 5.",
+    "primeiro_passo": "Múltiplo de 8 e de 5, menor que 50: só 40.",
+    "solucao_completa": "- Proporção 20 : 12 = 5 : 3. A soma das idades é múltiplo de 8 e de 5 → múltiplo de 40, menor que 50: é 40.\n- Idades: 25 e 15. Diferença: **10**.\n- Resposta certa: **B**."
+  },
+  "19": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "fracoes",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Divide o quadrado grande em partes (a faixa do meio e dois triângulos dos cantos) e vê quanto de cada parte está pintado.",
+    "primeiro_passo": "Em cada parte, a metade está pintada.",
+    "solucao_completa": "- O quadrado grande pode ser dividido em três pedaços (dois triângulos de canto e uma faixa diagonal), e em cada pedaço exatamente a metade está pintada.\n- Total pintado: **1/2**.\n- Resposta certa: **C**."
+  },
+  "20": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "multiplos",
+      "sistema de numeracao"
+    ],
+    "dica_curta": "Tem um 125 na conta (125 × 8 = 1000). Dá pra achar um 8 nos outros fatores?",
+    "primeiro_passo": "124 = 4 × 31 e 126 = 2 × 63: juntos têm 4 × 2 = 8.",
+    "solucao_completa": "- 125 × 8 = 1000, e o 8 vem de 124 (tem 4) e 126 (tem 2). Então o produto é múltiplo de 1000 e termina em **000**.\n- Resposta certa: **A**."
+  },
+  "21": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "media",
+      "logica com pistas"
+    ],
+    "dica_curta": "Coloca os quatro numa reta: Kelly fica no meio entre John e Leo; Leo fica no meio entre Kelly e Mila.",
+    "primeiro_passo": "Os quatro ficam igualmente espaçados: John, Kelly, Leo, Mila. O meio de John e Mila é o mesmo meio de Kelly e Leo.",
+    "solucao_completa": "- Na reta das idades, John, Kelly, Leo e Mila ficam igualmente espaçados. O ponto do meio de John e Mila (11) é também o meio de Kelly e Leo.\n- Média de Kelly e Leo = 11, soma = **22**.\n- Resposta certa: **E**."
+  },
+  "22": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "perimetro e area",
+      "estimativa"
+    ],
+    "dica_curta": "Liga os centros dos quatro círculos: forma um quadrado de lado 6 cm. A região pintada é esse quadrado menos quatro quartos de círculo.",
+    "primeiro_passo": "Quadrado dos centros: 6 × 6 = 36 cm². Quatro quartos de círculo = 1 círculo = 28,26 cm².",
+    "solucao_completa": "- Quadrado ligando os centros: 6 × 6 = 36 cm². Dentro dele, quatro quartos de círculo = um círculo inteiro = 28,26 cm².\n- Pintado: 36 − 28,26 = 7,74 cm², **entre 7 e 9**.\n- Resposta certa: **C**."
+  },
+  "23": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "perimetro e area",
+      "formas geometricas"
+    ],
+    "dica_curta": "Cada hexágono pequeno 'esconde' um pedaço do contorno do grande, mas acrescenta um pedaço igual. A diferença são os dois lados que sobram pra fora.",
+    "primeiro_passo": "Cada hexágono pequeno acrescenta 2 dos seus 6 lados ao contorno: 1/3 do perímetro dele.",
+    "solucao_completa": "- Cada hexágono pequeno acrescenta ao contorno exatamente 2 lados seus (1/3 do perímetro dele), porque o pedaço que ele cobre do grande é reposto por um pedaço igual dele.\n- Perímetro: 60 + 96 ÷ 3 = 60 + 32 = **92 cm**.\n- Resposta certa: **B**."
+  },
+  "24": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "perimetro e area",
+      "formas geometricas"
+    ],
+    "dica_curta": "Pintado = quadrado + retângulo − 2 × (parte branca), porque a parte branca está dentro dos dois. A parte branca é um triângulo retângulo isósceles.",
+    "primeiro_passo": "O triângulo branco tem 3 cm de altura (a largura do retângulo) e 6 cm de base: área 6 × 3 ÷ 2 = 9 cm².",
+    "solucao_completa": "- Quadrado: 6 × 6 = 36 cm². Retângulo: 3 × 8 = 24 cm².\n- A sobreposição branca é um triângulo retângulo isósceles com altura 3 cm e base 6 cm: área 9 cm² (as duas metades dele formam um quadrado de lado 3).\n- A parte branca está nos dois e não é pintada: 36 + 24 − 2 × 9 = **42 cm²**.\n- Resposta certa: **A**."
+  },
+  "25": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "contagem sistematica",
+      "geometria de solidos"
+    ],
+    "dica_curta": "O cubo duplo pode ficar deitado em duas direções (ao longo de cada lado de 5) ou em pé (ao longo do lado de 6). Conta as posições de cada jeito.",
+    "primeiro_passo": "Deitado numa direção: 4 × 5 posições por camada, 6 camadas = 120. A outra direção deitada: mais 120.",
+    "solucao_completa": "- Deitado ao longo de um lado de 5: 4 × 5 = 20 posições por camada × 6 camadas = 120. Deitado na outra direção: outros 120.\n- Em pé (ao longo do 6): 5 × 5 = 25 posições na base × 5 alturas = 125.\n- 120 + 120 + 125 = **365**.\n- Resposta certa: **B**."
+  }
+}
