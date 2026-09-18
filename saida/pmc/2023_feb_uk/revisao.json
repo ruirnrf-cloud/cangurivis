@@ -1,0 +1,276 @@
+{
+  "1": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "fracoes",
+      "horas"
+    ],
+    "dica_curta": "O dia tem 24 horas. Quantas ela fica acordada?",
+    "primeiro_passo": "24 − 20 = 4 horas acordada, de 24.",
+    "solucao_completa": "- Acordada: 24 − 20 = 4 horas por dia.\n- 4/24 = **1/6**.\n- Resposta certa: **A**."
+  },
+  "2": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "dinheiro",
+      "logica com pistas"
+    ],
+    "dica_curta": "A única diferença entre as duas compras é um pêssego a mais.",
+    "primeiro_passo": "140 − 100.",
+    "solucao_completa": "- A segunda compra tem só um pêssego a mais, e custa 140 − 100 = **40p** a mais.\n- Resposta certa: **E**."
+  },
+  "3": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "operacoes basicas",
+      "algebra"
+    ],
+    "dica_curta": "Testa com um número qualquer, tipo 10. Depois testa com outro.",
+    "primeiro_passo": "Com 10: 10 + 6 − 4 + 3 = 15, e 15 − 10 = 5.",
+    "solucao_completa": "- O número que ele pensou entra e sai da conta, então sobra só o que foi somado e tirado: 6 − 4 + 3 = **5**.\n- Testando com 10: 10 + 6 − 4 + 3 − 10 = 5. Com 100: 100 + 6 − 4 + 3 − 100 = 5.\n- Resposta certa: **A**."
+  },
+  "4": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "angulos",
+      "formas geometricas"
+    ],
+    "dica_curta": "Os ângulos de um quadrilátero somam 360°. Descobre o quarto ângulo e pensa em quais formas têm ângulos assim.",
+    "primeiro_passo": "360 − 120 − 120 − 80 = 40°. Os ângulos são 120°, 120°, 80° e 40°.",
+    "solucao_completa": "- O quarto ângulo é 360 − 320 = 40°: os ângulos são 120°, 120°, 80° e 40°.\n- Paralelogramo, retângulo e losango têm os ângulos opostos iguais aos pares (dois pares): não serve. Trapézio tem dois pares de ângulos vizinhos somando 180°: 120 + 40 = 160, não serve.\n- Uma pipa tem só um par de ângulos iguais (os dois de 120°) e os outros dois diferentes: serve!\n- Resposta certa: **A**."
+  },
+  "5": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "medidas",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Ida: 6 milhas a 3 por hora. Volta: 6 milhas a 6 por hora.",
+    "primeiro_passo": "Ida: 6 ÷ 3 = 2 horas.",
+    "solucao_completa": "- Ida: 6 ÷ 3 = 2 horas. Volta, ao dobro da velocidade (6 milhas por hora): 6 ÷ 6 = 1 hora.\n- Total: **3 h**.\n- Resposta certa: **E**."
+  },
+  "6": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "divisao",
+      "soma"
+    ],
+    "dica_curta": "Calcula os saquinhos de cada um separado.",
+    "primeiro_passo": "Gulpa: 30 ÷ 2 = 15 saquinhos.",
+    "solucao_completa": "- Gulpa: 30 ÷ 2 = 15 saquinhos. Marido: 30 ÷ 3 = 10 saquinhos.\n- 15 + 10 = **25**.\n- Resposta certa: **C**."
+  },
+  "7": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "proporcao e razao",
+      "logica com pistas"
+    ],
+    "dica_curta": "Se 10 professores corrigem 10 cadernos em 10 minutos, cada professor corrigiu quantos cadernos nesses 10 minutos?",
+    "primeiro_passo": "10 cadernos pra 10 professores: 1 caderno cada, nos mesmos 10 minutos.",
+    "solucao_completa": "- Em 10 minutos, os 10 professores corrigiram 10 cadernos: 1 caderno por professor.\n- Então 1 professor leva **10 min** pra corrigir 1 caderno.\n- Resposta certa: **E**."
+  },
+  "8": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "divisao",
+      "logica com pistas"
+    ],
+    "dica_curta": "Se ele está no pacote 7, os 6 primeiros já estão cheios. 6 pacotes cheios têm menos de 37 réguas, mas 7 pacotes teriam 37 ou mais.",
+    "primeiro_passo": "Testa: com 6 réguas por pacote, 6 pacotes cheios = 36 réguas, e a 37ª começa o pacote 7.",
+    "solucao_completa": "- Com 5 por pacote, 6 pacotes = 30 e a 37ª régua estaria no pacote 8: não bate. Com 7 por pacote, 6 pacotes = 42 e a 37ª ainda estaria no pacote 6: não bate.\n- Com **6** por pacote, 6 pacotes = 36 réguas e a 37ª é a primeira do pacote 7. Bate! Todo pacote tem 6.\n- Resposta certa: **A**."
+  },
+  "9": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "proporcao e razao",
+      "divisao"
+    ],
+    "dica_curta": "Três pais deitados em fila medem quanto? Isso é igual a quatro de você.",
+    "primeiro_passo": "3 × 180 = 540 cm = 4 × (minha altura).",
+    "solucao_completa": "- 3 × 180 = 540 cm. Isso é 4 vezes a minha altura: 540 ÷ 4 = **135 cm**.\n- Resposta certa: **D**."
+  },
+  "10": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "porcentagem",
+      "dinheiro"
+    ],
+    "dica_curta": "A diferença entre os dois descontos é 15% − 10% = 5% do preço original. E isso vale 45p.",
+    "primeiro_passo": "Se 5% = 45p, então 100% = 20 × 45p.",
+    "solucao_completa": "- Diferença de desconto: 15% − 10% = 5% do preço original = 45p.\n- 100% = 20 × 45p = 900p = **£9**.\n- Resposta certa: **C**."
+  },
+  "11": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "potencias",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Calcula os dois.",
+    "primeiro_passo": "2 × 2 × 2 × 2 = 16.",
+    "solucao_completa": "- 2⁴ = 16 e 4² = 16. Diferença: **0**.\n- Resposta certa: **A**."
+  },
+  "12": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "logica com pistas",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Cada jogo elimina exatamente um time. Quantos times precisam ser eliminados?",
+    "primeiro_passo": "De 8 times, 7 são eliminados até sobrar 1.",
+    "solucao_completa": "- Cada jogo elimina um time. Pra sobrar 1 de 8, precisam sair 7 times: **7** jogos.\n- Conferindo por rodadas: 4 jogos + 2 jogos + 1 final = 7.\n- Resposta certa: **C**."
+  },
+  "13": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "dinheiro",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Olha cada compra-e-venda separada: comprou por 50 e vendeu por 60 é um negócio; comprou por 70 e vendeu por 80 é outro.",
+    "primeiro_passo": "Primeiro negócio: 60 − 50 = £10 de lucro.",
+    "solucao_completa": "- Negócio 1: 60 − 50 = £10 de lucro. Negócio 2: 80 − 70 = £10 de lucro.\n- Total: **£20**. (Não importa que seja o mesmo papagaio.)\n- Resposta certa: **D**."
+  },
+  "14": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "combinatoria basica"
+    ],
+    "dica_curta": "Pra primeira posição tem 4 letras possíveis. Pra segunda, sobram 3...",
+    "primeiro_passo": "4 × 3 × 2 × 1.",
+    "solucao_completa": "- Primeira letra: 4 escolhas. Segunda: 3. Terceira: 2. Última: 1.\n- 4 × 3 × 2 × 1 = **24**.\n- Resposta certa: **D**."
+  },
+  "15": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "multiplicacao",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Conta cada tamanho: 1 enorme, 4 grandes, quantas pequenas, quantas minúsculas. E não esquece de somar a enorme!",
+    "primeiro_passo": "Pequenas: 4 × 2 = 8. Minúsculas: 8 × 4 = 32.",
+    "solucao_completa": "- 1 enorme + 4 grandes + 8 pequenas (4 × 2) + 32 minúsculas (8 × 4).\n- 1 + 4 + 8 + 32 = **45**.\n- Resposta certa: **E**."
+  },
+  "16": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "proporcao e razao",
+      "medidas"
+    ],
+    "dica_curta": "Uma \"fornada\" tem 20 + 25 + 5 = 50 g. Quantas fornadas cabem em 1 kg?",
+    "primeiro_passo": "1000 ÷ 50 = 20 fornadas.",
+    "solucao_completa": "- Cada porção: 20 + 25 + 5 = 50 g. Em 1 kg = 1000 g cabem 1000 ÷ 50 = 20 porções.\n- Lama: 20 porções × 20 g = **400 g**.\n- Resposta certa: **E**."
+  },
+  "17": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "perimetro e area",
+      "formas geometricas"
+    ],
+    "dica_curta": "Desenha as duas diagonais: o quadrado vira 4 triângulos iguais, cada um com dois lados de 6 cm (metade da diagonal) formando ângulo reto.",
+    "primeiro_passo": "Área de cada triângulo: 6 × 6 ÷ 2 = 18 cm².",
+    "solucao_completa": "- As diagonais se cruzam no meio, em ângulo reto, e cortam o quadrado em 4 triângulos retângulos com catetos de 6 cm.\n- Cada triângulo: 6 × 6 ÷ 2 = 18 cm². O quadrado: 4 × 18 = **72 cm²**.\n- Resposta certa: **D**."
+  },
+  "18": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "angulos",
+      "horas"
+    ],
+    "dica_curta": "Às 2h30 o ponteiro dos minutos aponta pro 6. O das horas não está no 2: está no meio do caminho entre o 2 e o 3.",
+    "primeiro_passo": "Do 3 até o 6 são 90°. Do 2 até o 3 são 30°, e o ponteiro das horas andou metade disso.",
+    "solucao_completa": "- Ponteiro dos minutos: no 6. Ponteiro das horas: no meio entre o 2 e o 3.\n- Do 3 ao 6: 90°. Da metade entre 2 e 3 até o 3: metade de 30° = 15°.\n- Total: 90 + 15 = **105°**.\n- Resposta certa: **C**."
+  },
+  "19": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "logica com pistas",
+      "horas"
+    ],
+    "dica_curta": "Pra cobrir 24 horas com turnos de 12 horas, precisa de 2 seguranças por dia. E quando esses 2 folgam?",
+    "primeiro_passo": "Dias 1 a 4: seguranças 1 e 2. Dias 5 a 8: eles folgam, então precisa de mais 2.",
+    "solucao_completa": "- Cada dia precisa de 2 seguranças (2 turnos de 12 h).\n- Nos 4 dias de folga dessa dupla, outra dupla cobre. As duas duplas se revezam pelos 80 dias.\n- Mínimo: **4** seguranças.\n- Resposta certa: **C**."
+  },
+  "20": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "multiplos",
+      "logica com pistas"
+    ],
+    "dica_curta": "Começa pela pista mais forte: qual das alternativas, dividida por 2, dá um quadrado perfeito (1, 4, 9, 16, 25...)?",
+    "primeiro_passo": "18 ÷ 2 = 9, que é 3 × 3. Agora confere as outras pistas com o 18.",
+    "solucao_completa": "- Metade quadrado perfeito: só 18 (18 ÷ 2 = 9 = 3 × 3). Os outros são ímpares, nem dá pra dividir por 2 exato.\n- Conferindo: 18 × 8 = 144 (múltiplo de 3 ✓); 18 ÷ 9 = 2 (primo ✓); 18 × 2 = 36 (tem 3 ✓); 18 não tem algarismo 4 ✓.\n- Resposta certa: **D**."
+  },
+  "21": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "operacoes basicas",
+      "medidas"
+    ],
+    "dica_curta": "Ângulo reto = 90°. Um metro = 1000 mm. Primeiro faz a divisão, depois a raiz.",
+    "primeiro_passo": "90 ÷ 1000 = 0,09. Que número vezes ele mesmo dá 0,09?",
+    "solucao_completa": "- 90 ÷ 1000 = 0,09.\n- Raiz quadrada de 0,09: 0,3 × 0,3 = 0,09, então é **0,3**.\n- Resposta certa: **B**."
+  },
+  "22": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "geometria de solidos",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Cada aresta é a fronteira entre um quadrado e um triângulo. Conta os lados de todos os quadrados.",
+    "primeiro_passo": "6 quadrados × 4 lados = 24 lados. Cada um desses lados é uma aresta encostada num triângulo.",
+    "solucao_completa": "- Os 6 quadrados têm 6 × 4 = 24 lados. Como cada quadrado só encosta em triângulos, cada um desses lados é uma aresta diferente.\n- Conferindo pelos triângulos: 8 × 3 = 24 lados, cada um encostado num quadrado. Bate.\n- **24** arestas.\n- Resposta certa: **B**."
+  },
+  "23": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "padroes e sequencias",
+      "soma"
+    ],
+    "dica_curta": "Junta em pares: o primeiro com o último, o segundo com o penúltimo... Quanto dá cada par?",
+    "primeiro_passo": "1 + 100 = 101, 2 + 99 = 101, 3 + 98 = 101... Quantos pares assim?",
+    "solucao_completa": "- 1 + 100 = 101, 2 + 99 = 101, ..., 50 + 51 = 101: são 50 pares, todos somando 101.\n- 50 × 101 = **5050**.\n- Resposta certa: **D**."
+  },
+  "24": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "logica com pistas",
+      "soma"
+    ],
+    "dica_curta": "Quais turmas podem ser as três de 30? Pré, 2º e 6º não podem (têm 1 a menos que o 1º, e ninguém passa de 30). O 3º também não (o 4º tem mais que ele).",
+    "primeiro_passo": "Então as de 30 são 1º, 4º e 5º. Pré, 2º e 6º têm 29.",
+    "solucao_completa": "- As turmas de 30 só podem ser 1º, 4º e 5º (Pré, 2º e 6º têm 1 a menos que o 1º; e o 3º tem menos que o 4º).\n- Então 1º = 4º = 5º = 30, e Pré = 2º = 6º = 29. Soma: 90 + 87 = 177.\n- 3º ano: 200 − 177 = **23**.\n- Resposta certa: **A**."
+  },
+  "25": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "multiplos",
+      "sistema de numeracao"
+    ],
+    "dica_curta": "W × W termina em W. Quais algarismos têm essa propriedade? Testa cada alternativa.",
+    "primeiro_passo": "5 × 5 = 25 (termina em 5 ✓). 6 × 6 = 36 (termina em 6 ✓). 7 × 7 = 49, 8 × 8 = 64, 9 × 9 = 81: não.",
+    "solucao_completa": "- W × W termina em W: só 5 (25) e 6 (36) servem.\n- Y × W também termina em W, com Y diferente de W. Na tabuada do 6, só 6 × 6 termina em 6 (Y seria igual a W). Na do 5, 3 × 5 = 15 termina em 5 ✓.\n- Tabuada do **5**.\n- Resposta certa: **A**."
+  }
+}

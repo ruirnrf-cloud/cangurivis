@@ -1,0 +1,739 @@
+{
+  "fonte": {
+    "olimpiada_slug": "pmc",
+    "pais": "reino-unido",
+    "ano": 2023,
+    "edicao": "fevereiro (bonus round)"
+  },
+  "pdf_prova_original": "https://www.m-a.org.uk/resources/Feb2023BRPaper.pdf",
+  "pdf_solucao_original": "https://www.m-a.org.uk/resources/MA PMC Notes Feb 2023.pdf",
+  "n_questoes": 25,
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "pmc-2023feb-q01",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "A gata Pimenta dorme 20 horas por dia. Que fração do dia ela fica acordada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/6"
+        },
+        {
+          "letra": "B",
+          "texto": "2/6"
+        },
+        {
+          "letra": "C",
+          "texto": "3/6"
+        },
+        {
+          "letra": "D",
+          "texto": "4/6"
+        },
+        {
+          "letra": "E",
+          "texto": "5/6"
+        }
+      ]
+    },
+    "2": {
+      "numero": 2,
+      "id": "pmc-2023feb-q02",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Uma maçã, uma pera e um pêssego custam 100p. Uma maçã, uma pera e dois pêssegos custam 140p. Quanto custa um pêssego?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10p"
+        },
+        {
+          "letra": "B",
+          "texto": "20p"
+        },
+        {
+          "letra": "C",
+          "texto": "22p"
+        },
+        {
+          "letra": "D",
+          "texto": "24p"
+        },
+        {
+          "letra": "E",
+          "texto": "40p"
+        }
+      ]
+    },
+    "3": {
+      "numero": 3,
+      "id": "pmc-2023feb-q03",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Addum pensa num número, soma 6, tira 4 e soma 3. Depois ele subtrai o número que pensou no começo. Qual vai ser sempre o resultado?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5"
+        },
+        {
+          "letra": "B",
+          "texto": "6"
+        },
+        {
+          "letra": "C",
+          "texto": "7"
+        },
+        {
+          "letra": "D",
+          "texto": "8"
+        },
+        {
+          "letra": "E",
+          "texto": "9"
+        }
+      ]
+    },
+    "4": {
+      "numero": 4,
+      "id": "pmc-2023feb-q04",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Rohit desenhou um quadrilátero. Três dos ângulos dele medem 120°, 120° e 80°. Que tipo de quadrilátero Rohit pode ter desenhado?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "pipa"
+        },
+        {
+          "letra": "B",
+          "texto": "paralelogramo"
+        },
+        {
+          "letra": "C",
+          "texto": "retângulo"
+        },
+        {
+          "letra": "D",
+          "texto": "losango"
+        },
+        {
+          "letra": "E",
+          "texto": "trapézio"
+        }
+      ]
+    },
+    "5": {
+      "numero": 5,
+      "id": "pmc-2023feb-q05",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Eu caminho 6 milhas a 3 milhas por hora e depois volto correndo pra casa no dobro dessa velocidade. Quanto tempo durou a ida e a volta?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "45 min"
+        },
+        {
+          "letra": "B",
+          "texto": "1 h 30 min"
+        },
+        {
+          "letra": "C",
+          "texto": "1 h 45 min"
+        },
+        {
+          "letra": "D",
+          "texto": "2 h 15 min"
+        },
+        {
+          "letra": "E",
+          "texto": "3 h"
+        }
+      ]
+    },
+    "6": {
+      "numero": 6,
+      "id": "pmc-2023feb-q06",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Gulpa faz duas xícaras de chá com cada saquinho de chá. O marido dela faz três xícaras com cada saquinho. Cada um bebe 30 xícaras por semana. Quantos saquinhos os dois usam por semana, ao todo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12"
+        },
+        {
+          "letra": "B",
+          "texto": "20"
+        },
+        {
+          "letra": "C",
+          "texto": "25"
+        },
+        {
+          "letra": "D",
+          "texto": "30"
+        },
+        {
+          "letra": "E",
+          "texto": "60"
+        }
+      ]
+    },
+    "7": {
+      "numero": 7,
+      "id": "pmc-2023feb-q07",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "10 professores levam 10 minutos pra corrigir 10 cadernos ao todo, todos corrigindo na mesma velocidade. Quanto tempo 1 professor leva pra corrigir 1 caderno?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6 segundos"
+        },
+        {
+          "letra": "B",
+          "texto": "1 min"
+        },
+        {
+          "letra": "C",
+          "texto": "2 min"
+        },
+        {
+          "letra": "D",
+          "texto": "5 min"
+        },
+        {
+          "letra": "E",
+          "texto": "10 min"
+        }
+      ]
+    },
+    "8": {
+      "numero": 8,
+      "id": "pmc-2023feb-q08",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Ben está colocando réguas em pacotes, todos com a mesma quantidade de réguas. Ele acabou de pegar a 37ª régua e está enchendo o pacote número 7 quando o telefone toca. Quantas réguas tem o quarto pacote?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "8"
+        },
+        {
+          "letra": "C",
+          "texto": "10"
+        },
+        {
+          "letra": "D",
+          "texto": "12"
+        },
+        {
+          "letra": "E",
+          "texto": "14"
+        }
+      ]
+    },
+    "9": {
+      "numero": 9,
+      "id": "pmc-2023feb-q09",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Meu pai tem 180 cm e está deitado. Três comprimentos dele valem o mesmo que quatro comprimentos meus. Quanto eu meço?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "80 cm"
+        },
+        {
+          "letra": "B",
+          "texto": "100 cm"
+        },
+        {
+          "letra": "C",
+          "texto": "120 cm"
+        },
+        {
+          "letra": "D",
+          "texto": "135 cm"
+        },
+        {
+          "letra": "E",
+          "texto": "140 cm"
+        }
+      ]
+    },
+    "10": {
+      "numero": 10,
+      "id": "pmc-2023feb-q10",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Simone e James compraram bonecos iguais na mesma loja. Simone comprou na terça, com 10% de desconto no preço original. James comprou no domingo, com 15% de desconto. Simone pagou 45 pence a mais que James. Qual era o preço original do boneco?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "£4.50"
+        },
+        {
+          "letra": "B",
+          "texto": "£5"
+        },
+        {
+          "letra": "C",
+          "texto": "£9"
+        },
+        {
+          "letra": "D",
+          "texto": "£10"
+        },
+        {
+          "letra": "E",
+          "texto": "£90"
+        }
+      ]
+    },
+    "11": {
+      "numero": 11,
+      "id": "pmc-2023feb-q11",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Qual é a diferença entre 2⁴ (2 × 2 × 2 × 2) e 4² (4 × 4)?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0"
+        },
+        {
+          "letra": "B",
+          "texto": "1"
+        },
+        {
+          "letra": "C",
+          "texto": "2"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "8"
+        }
+      ]
+    },
+    "12": {
+      "numero": 12,
+      "id": "pmc-2023feb-q12",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Num torneio de netball eliminatório, os times que perdem saem do torneio até sobrar só o campeão. Quantos jogos são disputados num torneio que começa com 8 times?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "6"
+        },
+        {
+          "letra": "C",
+          "texto": "7"
+        },
+        {
+          "letra": "D",
+          "texto": "8"
+        },
+        {
+          "letra": "E",
+          "texto": "12"
+        }
+      ]
+    },
+    "13": {
+      "numero": 13,
+      "id": "pmc-2023feb-q13",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Robyn compra um papagaio por £50 e vende por £60. Depois compra o mesmo papagaio de volta por £70 e vende de novo por £80. Quanto de lucro ela teve ao todo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "£0"
+        },
+        {
+          "letra": "B",
+          "texto": "£5"
+        },
+        {
+          "letra": "C",
+          "texto": "£10"
+        },
+        {
+          "letra": "D",
+          "texto": "£20"
+        },
+        {
+          "letra": "E",
+          "texto": "£50"
+        }
+      ]
+    },
+    "14": {
+      "numero": 14,
+      "id": "pmc-2023feb-q14",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Dá pra reorganizar as letras da palavra **TIME** de vários jeitos e formar \"palavras\" de quatro letras, a maioria sem sentido. Ao todo, quantas sequências diferentes dá pra formar com essas quatro letras?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "6"
+        },
+        {
+          "letra": "C",
+          "texto": "12"
+        },
+        {
+          "letra": "D",
+          "texto": "24"
+        },
+        {
+          "letra": "E",
+          "texto": "120"
+        }
+      ]
+    },
+    "15": {
+      "numero": 15,
+      "id": "pmc-2023feb-q15",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Uma caixa enorme contém 4 caixas grandes, e cada caixa grande contém 2 caixas pequenas. Cada caixa pequena contém 4 caixinhas minúsculas. Quantas caixas existem ao todo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "32"
+        },
+        {
+          "letra": "B",
+          "texto": "36"
+        },
+        {
+          "letra": "C",
+          "texto": "40"
+        },
+        {
+          "letra": "D",
+          "texto": "42"
+        },
+        {
+          "letra": "E",
+          "texto": "45"
+        }
+      ]
+    },
+    "16": {
+      "numero": 16,
+      "id": "pmc-2023feb-q16",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Maud está fazendo tortas de lama. Pra cada 20 g de lama, ela acrescenta 25 g de gosma e 5 g de areia. Ao todo, Maud faz 1 kg de tortas de lama. Quanta lama ela usa?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20 g"
+        },
+        {
+          "letra": "B",
+          "texto": "40 g"
+        },
+        {
+          "letra": "C",
+          "texto": "50 g"
+        },
+        {
+          "letra": "D",
+          "texto": "200 g"
+        },
+        {
+          "letra": "E",
+          "texto": "400 g"
+        }
+      ]
+    },
+    "17": {
+      "numero": 17,
+      "id": "pmc-2023feb-q17",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Qual é a área de um quadrado cuja diagonal mede 12 cm?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "24 cm²"
+        },
+        {
+          "letra": "B",
+          "texto": "36 cm²"
+        },
+        {
+          "letra": "C",
+          "texto": "60 cm²"
+        },
+        {
+          "letra": "D",
+          "texto": "72 cm²"
+        },
+        {
+          "letra": "E",
+          "texto": "144 cm²"
+        }
+      ]
+    },
+    "18": {
+      "numero": 18,
+      "id": "pmc-2023feb-q18",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Qual é o ângulo entre o ponteiro dos minutos e o ponteiro das horas de um relógio marcando duas e meia?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "90°"
+        },
+        {
+          "letra": "B",
+          "texto": "100°"
+        },
+        {
+          "letra": "C",
+          "texto": "105°"
+        },
+        {
+          "letra": "D",
+          "texto": "110°"
+        },
+        {
+          "letra": "E",
+          "texto": "120°"
+        }
+      ]
+    },
+    "19": {
+      "numero": 19,
+      "id": "pmc-2023feb-q19",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Alice quer manter um segurança num banco 24 horas por dia, sete dias por semana, durante 80 dias. Cada segurança trabalha 12 horas por dia durante 4 dias e depois folga 4 dias. Qual é o menor número de seguranças que ela precisa?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "3"
+        },
+        {
+          "letra": "C",
+          "texto": "4"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ]
+    },
+    "20": {
+      "numero": 20,
+      "id": "pmc-2023feb-q20",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Que número é este?\n\n- Multiplicado por 8, vira um múltiplo de 3.\n- Dividido por 9, dá um número primo.\n- Dobrado, tem um algarismo 3 ou um algarismo 1.\n- Pela metade, é um quadrado perfeito, mas o algarismo 4 ele não tem.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "9"
+        },
+        {
+          "letra": "B",
+          "texto": "13"
+        },
+        {
+          "letra": "C",
+          "texto": "17"
+        },
+        {
+          "letra": "D",
+          "texto": "18"
+        },
+        {
+          "letra": "E",
+          "texto": "27"
+        }
+      ]
+    },
+    "21": {
+      "numero": 21,
+      "id": "pmc-2023feb-q21",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Calcule: **raiz quadrada de** (número de graus num ângulo reto) ÷ (número de milímetros em um metro).",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,1"
+        },
+        {
+          "letra": "B",
+          "texto": "0,3"
+        },
+        {
+          "letra": "C",
+          "texto": "0,9"
+        },
+        {
+          "letra": "D",
+          "texto": "1"
+        },
+        {
+          "letra": "E",
+          "texto": "3"
+        }
+      ]
+    },
+    "22": {
+      "numero": 22,
+      "id": "pmc-2023feb-q22",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Um cuboctaedro é um sólido com 6 faces quadradas e 8 faces triangulares (triângulos equiláteros). Cada quadrado é cercado só por triângulos, e cada triângulo é cercado só por quadrados. Quantas arestas tem um cuboctaedro?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12"
+        },
+        {
+          "letra": "B",
+          "texto": "24"
+        },
+        {
+          "letra": "C",
+          "texto": "25"
+        },
+        {
+          "letra": "D",
+          "texto": "48"
+        },
+        {
+          "letra": "E",
+          "texto": "50"
+        }
+      ],
+      "figura": "saida/pmc/2023_feb_uk/figuras/q22.png"
+    },
+    "23": {
+      "numero": 23,
+      "id": "pmc-2023feb-q23",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Qual é a soma de todos os números inteiros de 1 até 100?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "101"
+        },
+        {
+          "letra": "B",
+          "texto": "1000"
+        },
+        {
+          "letra": "C",
+          "texto": "5000"
+        },
+        {
+          "letra": "D",
+          "texto": "5050"
+        },
+        {
+          "letra": "E",
+          "texto": "10100"
+        }
+      ]
+    },
+    "24": {
+      "numero": 24,
+      "id": "pmc-2023feb-q24",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "A Escola Pitágoras tem 200 alunos em sete turmas: Pré, 1º, 2º, 3º, 4º, 5º e 6º ano. Três turmas têm exatamente 30 alunos, e nenhuma turma tem mais de 30. Pré, 2º e 6º ano têm, cada uma, um aluno a menos que o 1º ano. O 4º ano tem mais alunos que o 3º. Quantos alunos tem o 3º ano?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "23"
+        },
+        {
+          "letra": "B",
+          "texto": "24"
+        },
+        {
+          "letra": "C",
+          "texto": "25"
+        },
+        {
+          "letra": "D",
+          "texto": "26"
+        },
+        {
+          "letra": "E",
+          "texto": "27"
+        }
+      ]
+    },
+    "25": {
+      "numero": 25,
+      "id": "pmc-2023feb-q25",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Uma tabuada foi escrita em código, com letras no lugar dos algarismos. As letras W, X, Y e Z representam algarismos diferentes. De qual tabuada podem ser estes dois fatos: **W × W = XW** e **Y × W = ZW**? (XW e ZW são números de dois algarismos.)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5"
+        },
+        {
+          "letra": "B",
+          "texto": "6"
+        },
+        {
+          "letra": "C",
+          "texto": "7"
+        },
+        {
+          "letra": "D",
+          "texto": "8"
+        },
+        {
+          "letra": "E",
+          "texto": "9"
+        }
+      ]
+    }
+  }
+}
