@@ -1,0 +1,599 @@
+{
+  "fonte": {
+    "olimpiada_slug": "pmc",
+    "pais": "reino-unido",
+    "ano": 2020,
+    "edicao": "novembro"
+  },
+  "pdf_prova_original": "https://www.m-a.org.uk/resources/PMC November 2020 v6.2 (002).pdf",
+  "pdf_solucao_original": "https://www.m-a.org.uk/resources/PMC November 2020 Answers Notes v6.2.pdf",
+  "n_questoes": 20,
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "pmc-2020-q01",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Harry Potter nasceu em 31 de julho de 1980. Em 2020 (o ano desta prova), quantos anos fazia que ele tinha nascido?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10"
+        },
+        {
+          "letra": "B",
+          "texto": "20"
+        },
+        {
+          "letra": "C",
+          "texto": "30"
+        },
+        {
+          "letra": "D",
+          "texto": "40"
+        },
+        {
+          "letra": "E",
+          "texto": "50"
+        }
+      ]
+    },
+    "2": {
+      "numero": 2,
+      "id": "pmc-2020-q02",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Qual destas medidas é a mais parecida com o comprimento do meu dedo mindinho?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 pé (uns 30 cm)"
+        },
+        {
+          "letra": "B",
+          "texto": "2 km"
+        },
+        {
+          "letra": "C",
+          "texto": "3 mm"
+        },
+        {
+          "letra": "D",
+          "texto": "4 m"
+        },
+        {
+          "letra": "E",
+          "texto": "5 cm"
+        }
+      ]
+    },
+    "3": {
+      "numero": 3,
+      "id": "pmc-2020-q03",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "O vovô Gabola diz que consegue andar 10 milhas (uns 16 km) em 3 minutos. Isso é...",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "impossível"
+        },
+        {
+          "letra": "B",
+          "texto": "improvável"
+        },
+        {
+          "letra": "C",
+          "texto": "possível"
+        },
+        {
+          "letra": "D",
+          "texto": "provável"
+        },
+        {
+          "letra": "E",
+          "texto": "muito provável"
+        }
+      ]
+    },
+    "4": {
+      "numero": 4,
+      "id": "pmc-2020-q04",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Chay Pup dobrou um hexágono regular ao longo de cada uma das diagonais dele. O resultado é a forma triangular dobrada da figura. Quando ele desdobrar e cortar ao longo de todas as dobras, quantos pedaços triangulares vão sobrar?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "3"
+        },
+        {
+          "letra": "C",
+          "texto": "4"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ],
+      "figura": "saida/pmc/2020_uk/figuras/q04.png"
+    },
+    "5": {
+      "numero": 5,
+      "id": "pmc-2020-q05",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "A família Simpson sai de férias ao meio-dia de 22 de agosto e volta pra casa ao meio-dia de 2 de setembro. Quantas noites eles passam fora de casa?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "11"
+        },
+        {
+          "letra": "B",
+          "texto": "12"
+        },
+        {
+          "letra": "C",
+          "texto": "13"
+        },
+        {
+          "letra": "D",
+          "texto": "14"
+        },
+        {
+          "letra": "E",
+          "texto": "15"
+        }
+      ]
+    },
+    "6": {
+      "numero": 6,
+      "id": "pmc-2020-q06",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "A ouriça Spike come 8 lesmas por dia, menos aos domingos, quando come 10. Quantas lesmas ela come em uma semana?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "50"
+        },
+        {
+          "letra": "B",
+          "texto": "58"
+        },
+        {
+          "letra": "C",
+          "texto": "60"
+        },
+        {
+          "letra": "D",
+          "texto": "66"
+        },
+        {
+          "letra": "E",
+          "texto": "70"
+        }
+      ]
+    },
+    "7": {
+      "numero": 7,
+      "id": "pmc-2020-q07",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Minha irmãzinha tem 1000 dias de vida hoje. Quantos anos ela vai fazer no próximo aniversário?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "5"
+        },
+        {
+          "letra": "D",
+          "texto": "10"
+        },
+        {
+          "letra": "E",
+          "texto": "12"
+        }
+      ]
+    },
+    "8": {
+      "numero": 8,
+      "id": "pmc-2020-q08",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Em cada face de um cubo mágico, os 9 quadradinhos são da mesma cor, e cada face tem uma cor diferente. Uma das faces tem 9 quadradinhos brancos. Quantos quadradinhos da superfície do cubo **não** são brancos?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "18"
+        },
+        {
+          "letra": "B",
+          "texto": "27"
+        },
+        {
+          "letra": "C",
+          "texto": "36"
+        },
+        {
+          "letra": "D",
+          "texto": "45"
+        },
+        {
+          "letra": "E",
+          "texto": "54"
+        }
+      ],
+      "figura": "saida/pmc/2020_uk/figuras/q08.png"
+    },
+    "9": {
+      "numero": 9,
+      "id": "pmc-2020-q09",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "A carteira Patrícia entrega cartas em todas as casas de número **ímpar** de uma rua. Se ela começa na casa 1 e termina na casa 29, em quantas casas ela passou?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "14"
+        },
+        {
+          "letra": "B",
+          "texto": "15"
+        },
+        {
+          "letra": "C",
+          "texto": "16"
+        },
+        {
+          "letra": "D",
+          "texto": "17"
+        },
+        {
+          "letra": "E",
+          "texto": "18"
+        }
+      ]
+    },
+    "10": {
+      "numero": 10,
+      "id": "pmc-2020-q10",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "A figura mostra um pentágono com um quadrado encostado num dos lados dele. George coloca mais um quadrado em cada um dos outros quatro lados do pentágono. Quantos lados de fora a figura toda vai ter?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "13"
+        },
+        {
+          "letra": "B",
+          "texto": "14"
+        },
+        {
+          "letra": "C",
+          "texto": "15"
+        },
+        {
+          "letra": "D",
+          "texto": "16"
+        },
+        {
+          "letra": "E",
+          "texto": "17"
+        }
+      ],
+      "figura": "saida/pmc/2020_uk/figuras/q10.png"
+    },
+    "11": {
+      "numero": 11,
+      "id": "pmc-2020-q11",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Linus desenhou este padrão no papel quadriculado. Se ele continuar o mesmo padrão, por qual dos pontos A, B, C, D ou E a linha dele vai passar?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A"
+        },
+        {
+          "letra": "B",
+          "texto": "B"
+        },
+        {
+          "letra": "C",
+          "texto": "C"
+        },
+        {
+          "letra": "D",
+          "texto": "D"
+        },
+        {
+          "letra": "E",
+          "texto": "E"
+        }
+      ],
+      "figura": "saida/pmc/2020_uk/figuras/q11.png"
+    },
+    "12": {
+      "numero": 12,
+      "id": "pmc-2020-q12",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Quantos dos números da caixa são divisores de 2020?\n\n| 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "3"
+        },
+        {
+          "letra": "C",
+          "texto": "4"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ]
+    },
+    "13": {
+      "numero": 13,
+      "id": "pmc-2020-q13",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Semana passada minha professora de matemática disse que hoje viria com um cachecol novo. Kiran achou que seria vermelho e liso; Lila, azul e listrado; Manul, vermelho e florido. Cada um dos três acertou **ou** a cor **ou** a estampa (só uma das duas). Como é o cachecol?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "azul e florido"
+        },
+        {
+          "letra": "B",
+          "texto": "azul e liso"
+        },
+        {
+          "letra": "C",
+          "texto": "vermelho e florido"
+        },
+        {
+          "letra": "D",
+          "texto": "vermelho e liso"
+        },
+        {
+          "letra": "E",
+          "texto": "vermelho e listrado"
+        }
+      ]
+    },
+    "14": {
+      "numero": 14,
+      "id": "pmc-2020-q14",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Estou começando o meu dia. Em que ordem devo fazer estas coisas?\n\n- **D** = me secar (*dry*)\n- **G** = sair da cama (*get out of bed*)\n- **P** = vestir a roupa (*put on clothes*)\n- **T** = tomar banho (*take a shower*)\n- **W** = acordar (*wake up*)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "WDGPT"
+        },
+        {
+          "letra": "B",
+          "texto": "PDTWG"
+        },
+        {
+          "letra": "C",
+          "texto": "GDTPW"
+        },
+        {
+          "letra": "D",
+          "texto": "WGTDP"
+        },
+        {
+          "letra": "E",
+          "texto": "PTDGW"
+        }
+      ]
+    },
+    "15": {
+      "numero": 15,
+      "id": "pmc-2020-q15",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Marge Rine tem um cubo de manteiga com 4 cm de lado. Ela espalha toda a manteiga, bem por igual, numa torrada de 8 cm por 10 cm. Qual é a espessura da camada de manteiga na torrada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2 mm"
+        },
+        {
+          "letra": "B",
+          "texto": "4 mm"
+        },
+        {
+          "letra": "C",
+          "texto": "8 mm"
+        },
+        {
+          "letra": "D",
+          "texto": "1 cm"
+        },
+        {
+          "letra": "E",
+          "texto": "4 cm"
+        }
+      ]
+    },
+    "16": {
+      "numero": 16,
+      "id": "pmc-2020-q16",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Uma sociedade de proteção aos pássaros plantou 12 000 árvores em 32 dias, com a ajuda de 15 voluntários. Se todos os voluntários trabalharam no mesmo ritmo, quantas árvores, em média, cada voluntário plantou por dia?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12"
+        },
+        {
+          "letra": "B",
+          "texto": "16"
+        },
+        {
+          "letra": "C",
+          "texto": "20"
+        },
+        {
+          "letra": "D",
+          "texto": "25"
+        },
+        {
+          "letra": "E",
+          "texto": "32"
+        }
+      ]
+    },
+    "17": {
+      "numero": 17,
+      "id": "pmc-2020-q17",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Um pedaço retangular de papel é dobrado ao meio e vira um quadrado. A área do quadrado é 36 cm². Qual é o perímetro do retângulo original?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "9 cm"
+        },
+        {
+          "letra": "B",
+          "texto": "18 cm"
+        },
+        {
+          "letra": "C",
+          "texto": "36 cm"
+        },
+        {
+          "letra": "D",
+          "texto": "72 cm"
+        },
+        {
+          "letra": "E",
+          "texto": "144 cm"
+        }
+      ]
+    },
+    "18": {
+      "numero": 18,
+      "id": "pmc-2020-q18",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "A figura mostra **quatro** flores sobrepostas. As áreas das flores são 4 cm², 9 cm², 16 cm² e 25 cm². Qual é a área total pintada de cinza, em cm²?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "13"
+        },
+        {
+          "letra": "B",
+          "texto": "14"
+        },
+        {
+          "letra": "C",
+          "texto": "15"
+        },
+        {
+          "letra": "D",
+          "texto": "16"
+        },
+        {
+          "letra": "E",
+          "texto": "17"
+        }
+      ],
+      "figura": "saida/pmc/2020_uk/figuras/q18.png"
+    },
+    "19": {
+      "numero": 19,
+      "id": "pmc-2020-q19",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Em 2010, cerca de 120 milhões de câmeras fotográficas digitais foram vendidas no mundo. Até 2018, esse número caiu 85%. Cerca de quantos milhões de câmeras foram vendidas em 2018?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "18"
+        },
+        {
+          "letra": "B",
+          "texto": "28"
+        },
+        {
+          "letra": "C",
+          "texto": "38"
+        },
+        {
+          "letra": "D",
+          "texto": "48"
+        },
+        {
+          "letra": "E",
+          "texto": "58"
+        }
+      ]
+    },
+    "20": {
+      "numero": 20,
+      "id": "pmc-2020-q20",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Murben sabe que, em alguma ordem, os cinco símbolos da língua cnujiana (na figura) representam os números cinco, seis, sete, oito e nove. Ela também sabe das quatro comparações mostradas na figura. Qual símbolo representa o número 5?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "B",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "C",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "D",
+          "texto": "ver figura"
+        },
+        {
+          "letra": "E",
+          "texto": "ver figura"
+        }
+      ],
+      "figura": "saida/pmc/2020_uk/figuras/q20.png"
+    }
+  }
+}

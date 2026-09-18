@@ -1,0 +1,220 @@
+{
+  "1": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "subtracao",
+      "calendario"
+    ],
+    "dica_curta": "A prova é de 2020. É só ver quantos anos separam 1980 de 2020.",
+    "primeiro_passo": "2020 − 1980.",
+    "solucao_completa": "- 2020 − 1980 = **40** anos.\n- Resposta certa: **D**."
+  },
+  "2": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "medidas",
+      "estimativa"
+    ],
+    "dica_curta": "Mede o seu mindinho com uma régua e vê qual opção chega perto.",
+    "primeiro_passo": "3 mm é a espessura de uma moeda; 1 pé (30 cm) é uma régua inteira.",
+    "solucao_completa": "- Um dedo mindinho tem entre 5 e 7 cm.\n- 3 mm é fininho demais (espessura de uma moeda), 1 pé são 30 cm (uma régua), 4 m e 2 km são enormes.\n- Resposta certa: **E**."
+  },
+  "3": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "medidas",
+      "estimativa"
+    ],
+    "dica_curta": "Quanto tempo você leva pra andar 1 km? Uns 12 minutos, andando rápido.",
+    "primeiro_passo": "16 km em 3 minutos seria mais de 300 km por hora: mais rápido que um carro na estrada.",
+    "solucao_completa": "- 10 milhas em 3 minutos dá 200 milhas por hora (uns 320 km/h). Nem carro de corrida na rua anda assim, quanto mais um vovô a pé.\n- Andando, uma pessoa leva de 17 a 22 minutos por milha, ou seja, umas 3 horas pras 10 milhas.\n- Resposta certa: **A** (impossível)."
+  },
+  "4": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "formas geometricas",
+      "dobradura"
+    ],
+    "dica_curta": "As diagonais de um hexágono regular que passam pelo centro dividem ele em triângulos iguais. Quantos?",
+    "primeiro_passo": "Desenha um hexágono e liga cada vértice ao vértice oposto: são 3 diagonais, todas passando pelo centro.",
+    "solucao_completa": "- As 3 diagonais grandes do hexágono passam pelo centro e cortam ele em 6 triângulos equiláteros iguais (como uma pizza de 6 fatias).\n- Dobrando por elas, tudo vira um triângulo só, com 6 camadas. Cortando nas dobras: **6** pedaços.\n- Resposta certa: **E**."
+  },
+  "5": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "calendario",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Agosto tem 31 dias. Conta as noites de agosto e depois as de setembro.",
+    "primeiro_passo": "Noites de agosto fora de casa: 22, 23, ..., 31. Quantas são?",
+    "solucao_completa": "- Em agosto, dormem fora nas noites de 22 a 31: 31 − 22 + 1 = 10 noites.\n- Em setembro, só a noite do dia 1 (voltam no dia 2 ao meio-dia): 1 noite.\n- 10 + 1 = **11** noites.\n- Resposta certa: **A**."
+  },
+  "6": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "multiplicacao",
+      "soma"
+    ],
+    "dica_curta": "São 6 dias de 8 lesmas e 1 dia de 10.",
+    "primeiro_passo": "6 × 8 = 48.",
+    "solucao_completa": "- 6 dias × 8 = 48, mais as 10 do domingo: 48 + 10 = **58**.\n- Resposta certa: **B**."
+  },
+  "7": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "medidas",
+      "estimativa"
+    ],
+    "dica_curta": "Um ano tem 365 dias. Quantos anos cabem em 1000 dias?",
+    "primeiro_passo": "2 anos = 730 dias; 3 anos = 1095 dias. 1000 está entre os dois.",
+    "solucao_completa": "- 2 anos ≈ 730 dias e 3 anos ≈ 1095 dias. Com 1000 dias, ela tem 2 anos e alguns meses.\n- No próximo aniversário ela faz **3** anos.\n- Resposta certa: **A**."
+  },
+  "8": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "geometria de solidos",
+      "multiplicacao"
+    ],
+    "dica_curta": "Um cubo tem 6 faces. Só uma é branca.",
+    "primeiro_passo": "5 faces não são brancas, cada uma com 9 quadradinhos.",
+    "solucao_completa": "- 6 faces no total, 1 branca, então 5 faces de outras cores.\n- 5 × 9 = **45** quadradinhos não brancos.\n- Resposta certa: **D**."
+  },
+  "9": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "contagem sistematica",
+      "pares e impares"
+    ],
+    "dica_curta": "Cuidado com a pegadinha: não é 29 dividido por 2. Conta os ímpares de 1 a 29.",
+    "primeiro_passo": "De 1 a 9 são 5 ímpares (1, 3, 5, 7, 9). E de 11 a 19? E de 21 a 29?",
+    "solucao_completa": "- De 1 a 29 tem 29 números: 14 pares (2, 4, ..., 28) e 29 − 14 = **15** ímpares.\n- Outro jeito: de 1 a 9 são 5 ímpares, de 11 a 19 mais 5, de 21 a 29 mais 5: 15.\n- Resposta certa: **B**."
+  },
+  "10": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "formas geometricas",
+      "contagem sistematica"
+    ],
+    "dica_curta": "Cada quadrado encosta no pentágono por 1 lado e deixa 3 lados pra fora.",
+    "primeiro_passo": "5 quadrados × 3 lados de fora cada.",
+    "solucao_completa": "- Com um quadrado em cada lado, o pentágono fica todo coberto: nenhum lado dele fica de fora.\n- Cada quadrado contribui com 3 lados de fora: 5 × 3 = **15**.\n- Resposta certa: **C**."
+  },
+  "11": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "padroes e sequencias",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Olha o desenho com calma: sobe 3 quadradinhos na diagonal, cai reto, sobe 2, cai, sobe 1, cai, e recomeça.",
+    "primeiro_passo": "Continua o desenho no papel quadriculado, tracinho por tracinho, até chegar na região dos pontos.",
+    "solucao_completa": "- O padrão se repete a cada 6 quadradinhos de largura: sobe 3 (na diagonal), desce reto, sobe 2, desce, sobe 1, desce.\n- Continuando o traço pontilhado com esse padrão até a região dos pontos, a linha passa pelo ponto **E** (o de baixo, à direita).\n- Resposta certa: **E**."
+  },
+  "12": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "multiplos",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Testa um por um: 2020 dá pra dividir por 2? Por 3? Por 4?",
+    "primeiro_passo": "2020 termina em 0, então é divisível por 2 e por 5. Pra testar o 3, soma os algarismos: 2 + 0 + 2 + 0 = 4.",
+    "solucao_completa": "- 2: 2020 é par, sim. 5: termina em 0, sim. 4: os dois últimos algarismos (20) dão pra dividir por 4, sim (2020 ÷ 4 = 505).\n- 3: 2 + 0 + 2 + 0 = 4, que não é múltiplo de 3, então não. 6: precisaria ser divisível por 3, então não.\n- São **3** divisores (2, 4 e 5).\n- Resposta certa: **B**."
+  },
+  "13": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "logica com pistas"
+    ],
+    "dica_curta": "Testa: se o cachecol fosse azul, o que Kiran e Manul teriam acertado?",
+    "primeiro_passo": "Se fosse azul, Kiran (vermelho e liso) só poderia ter acertado o liso, e Manul (vermelho e florido) só o florido. Liso e florido ao mesmo tempo? Impossível.",
+    "solucao_completa": "- Se fosse azul, Kiran e Manul erraram a cor, então cada um acertou a estampa: liso e florido ao mesmo tempo. Impossível. Logo o cachecol é **vermelho**.\n- Sendo vermelho, Kiran e Manul acertaram a cor, então erraram a estampa: não é liso nem florido.\n- Lila (azul e listrado) errou a cor, então acertou a estampa: **listrado**.\n- Resposta certa: **E** (vermelho e listrado)."
+  },
+  "14": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "logica com pistas",
+      "ordem"
+    ],
+    "dica_curta": "Primeiro de tudo, você precisa acordar (W). Isso já corta várias opções.",
+    "primeiro_passo": "Depois de acordar (W), sair da cama (G). Depois: banho (T), se secar (D) e roupa (P).",
+    "solucao_completa": "- A ordem que faz sentido: acordar (W), sair da cama (G), tomar banho (T), se secar (D), vestir a roupa (P) = **WGTDP**.\n- As outras têm coisas absurdas: tomar banho já vestido (A e B) ou acordar por último (C e E).\n- Resposta certa: **D**."
+  },
+  "15": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "medidas",
+      "geometria de solidos"
+    ],
+    "dica_curta": "A quantidade de manteiga não muda: o volume do cubo é o mesmo volume da camada na torrada.",
+    "primeiro_passo": "Volume do cubo: 4 × 4 × 4 = 64 cm³. Área da torrada: 8 × 10 = 80 cm².",
+    "solucao_completa": "- Volume da manteiga: 4 × 4 × 4 = 64 cm³.\n- Espalhada numa área de 8 × 10 = 80 cm², a espessura é 64 ÷ 80 = 0,8 cm = **8 mm**.\n- Resposta certa: **C**."
+  },
+  "16": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "divisao",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Divide as 12 000 árvores pelos dias e depois pelos voluntários (ou o contrário).",
+    "primeiro_passo": "12 000 ÷ 32 = 375 árvores por dia (todos juntos).",
+    "solucao_completa": "- Por dia, o grupo plantou 12 000 ÷ 32 = 375 árvores.\n- Por voluntário: 375 ÷ 15 = **25**.\n- Jeito mais leve: 12 000 ÷ (32 × 15) = 12 000 ÷ 480 = 25.\n- Resposta certa: **D**."
+  },
+  "17": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "perimetro e area"
+    ],
+    "dica_curta": "Que quadrado tem área 36? Lado 6. O retângulo era dois desses quadrados lado a lado.",
+    "primeiro_passo": "O retângulo mede 12 cm por 6 cm.",
+    "solucao_completa": "- Área 36 cm² → lado do quadrado = 6 cm (6 × 6 = 36).\n- O retângulo original é dois quadrados juntos: 12 cm por 6 cm.\n- Perímetro: 12 + 6 + 12 + 6 = **36 cm**.\n- Resposta certa: **C**."
+  },
+  "18": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "perimetro e area",
+      "raciocinio visual"
+    ],
+    "dica_curta": "A área cinza é a flor grande menos a segunda, mais a terceira menos a pequena.",
+    "primeiro_passo": "Anel cinza de fora: 25 − 16 = 9.",
+    "solucao_completa": "- Anel cinza de fora: 25 − 16 = 9 cm². Miolo cinza: 9 − 4 = 5 cm².\n- Total: 9 + 5 = **14 cm²**.\n- Resposta certa: **B**."
+  },
+  "19": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "porcentagem",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Se caiu 85%, sobrou 15%. Quanto é 15% de 120?",
+    "primeiro_passo": "10% de 120 = 12. 5% = 6.",
+    "solucao_completa": "- Caiu 85% → sobraram 100 − 85 = 15%.\n- 15% de 120 milhões: 10% = 12, 5% = 6, então 12 + 6 = **18 milhões**.\n- Resposta certa: **A**."
+  },
+  "20": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "logica com pistas",
+      "ordenacao"
+    ],
+    "dica_curta": "O símbolo do 5 é o menor de todos. Procura um símbolo que só aparece como \"menor que\" e nunca como \"maior que\".",
+    "primeiro_passo": "Encadeia as pistas: se X é menor que Y e Y é menor que Z, então X é o menor dos três.",
+    "solucao_completa": "- Das três primeiras pistas dá pra encadear: o símbolo C é menor que o D, que é menor que o E, que é menor que o A.\n- A quarta pista diz que o B é maior que o C.\n- Então o símbolo **C** é menor que os outros quatro: ele é o **5**.\n- Resposta certa: **C**."
+  }
+}
