@@ -1,0 +1,274 @@
+{
+  "1": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "multiplicacao"
+    ],
+    "dica_curta": "8 pessoas, 6 couves cada.",
+    "primeiro_passo": "8 × 6.",
+    "solucao_completa": "- 8 × 6 = **48** couves.\n- Resposta certa: **E**."
+  },
+  "2": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "combinatoria basica",
+      "multiplicacao"
+    ],
+    "dica_curta": "Cada estampa vem em 3 tamanhos. São 3 estampas.",
+    "primeiro_passo": "3 estampas × 3 tamanhos.",
+    "solucao_completa": "- 3 estampas × 3 tamanhos = **9** camisas diferentes, uma por cabide.\n- Resposta certa: **D**."
+  },
+  "3": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "media",
+      "operacoes basicas"
+    ],
+    "dica_curta": "Média: soma tudo e divide pela quantidade de números (3).",
+    "primeiro_passo": "32 + 100 + 150 = 282.",
+    "solucao_completa": "- (32 + 100 + 150) ÷ 3 = 282 ÷ 3 = **94 cm**.\n- Resposta certa: **B**."
+  },
+  "4": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "divisao",
+      "medidas"
+    ],
+    "dica_curta": "Distância dividida pelo tempo.",
+    "primeiro_passo": "171 ÷ 3.",
+    "solucao_completa": "- 171 milhões de milhas em 3 horas: 171 ÷ 3 = **57** milhões de milhas por hora.\n- Resposta certa: **A**."
+  },
+  "5": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "proporcao e razao"
+    ],
+    "dica_curta": "A largura foi de 10 pra 20: dobrou. A altura tem que dobrar também.",
+    "primeiro_passo": "15 × 2.",
+    "solucao_completa": "- Largura: 10 → 20 cm, multiplicou por 2. Pra manter o formato, a altura também: 15 × 2 = **30 cm**.\n- Resposta certa: **E**."
+  },
+  "6": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "multiplos",
+      "subtracao"
+    ],
+    "dica_curta": "Maior múltiplo de 3 com um algarismo: 9. Menor com dois algarismos: 12.",
+    "primeiro_passo": "12 − 9.",
+    "solucao_completa": "- 9 é o maior múltiplo de 3 de um algarismo; 12 é o menor de dois algarismos.\n- 12 − 9 = **3**.\n- Resposta certa: **C**."
+  },
+  "7": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "fracoes",
+      "proporcao e razao"
+    ],
+    "dica_curta": "Calcula quantas bolas cada uma acerta em 20: 4 de cada 5, e 3 de cada 4.",
+    "primeiro_passo": "Roya: 20 ÷ 5 = 4 grupos de 5, acerta 4 em cada → 16.",
+    "solucao_completa": "- Roya: 4/5 de 20 = 16 bolas. Khalida: 3/4 de 20 = 15 bolas.\n- Roya acerta **uma a mais**.\n- Resposta certa: **A**."
+  },
+  "8": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "fracoes",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Imagina o triângulo grande todo dividido em triangulinhos do tamanho dos pintados. Quantos caberiam?",
+    "primeiro_passo": "O lado do grande tem 4 triangulinhos. Um triângulo de lado 4 tem 16 triangulinhos.",
+    "solucao_completa": "- O triângulo grande tem lado igual a 4 triangulinhos, então cabem 4 × 4 = 16 triangulinhos nele.\n- 2 estão pintados: 2/16 = **1/8**.\n- Resposta certa: **D**."
+  },
+  "9": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "fracoes",
+      "divisao"
+    ],
+    "dica_curta": "Sobraram 3/4 do bolo pra 6 pessoas. Divide 3/4 em 6 pedaços iguais.",
+    "primeiro_passo": "3/4 = 6/8. Seis pedaços de 1/8 cada.",
+    "solucao_completa": "- Sobrou 3/4 do bolo. 3/4 = 6/8, e 6/8 dividido entre 6 pessoas dá **1/8** pra cada um.\n- Resposta certa: **A**."
+  },
+  "10": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "formas geometricas",
+      "angulos"
+    ],
+    "dica_curta": "Os ângulos do triângulo retângulo isósceles são 90°, 45° e 45°. Um triângulo equilátero precisa de ângulos de 60°.",
+    "primeiro_passo": "Juntando os dois pelo lado maior dá um quadrado; pelo lado menor, um triângulo maior ou um losango.",
+    "solucao_completa": "- Dois triângulos de 45°-45°-90° juntos formam: um quadrado (pelo lado grande), um triângulo isósceles maior (pelos catetos), um losango (encostados de outro jeito) e até um hexágono (encostando só uma parte do lado).\n- Um triângulo equilátero precisa de três ângulos de 60°, e só temos ângulos de 45° e 90° pra combinar: impossível.\n- Resposta certa: **D**."
+  },
+  "11": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "medidas",
+      "unidades"
+    ],
+    "dica_curta": "5 dias úteis de 100 ml mais 250 ml do fim de semana. Depois converte pra litros (1 L = 1000 ml).",
+    "primeiro_passo": "5 × 100 = 500 ml.",
+    "solucao_completa": "- Dias úteis: 5 × 100 = 500 ml. Mais 250 ml do fim de semana: 750 ml.\n- 750 ml = **0,75 L**.\n- Resposta certa: **B**."
+  },
+  "12": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "logica com pistas",
+      "operacoes basicas"
+    ],
+    "dica_curta": "A diferença de idade nunca muda: 38 − 14 = 24 anos.",
+    "primeiro_passo": "Quando ela tem o dobro, a diferença (24) é igual à minha idade.",
+    "solucao_completa": "- A diferença entre nós é sempre 38 − 14 = 24 anos.\n- Se a mãe tem o dobro da minha idade, a diferença é exatamente a minha idade: tenho **24** anos (e ela 48).\n- Resposta certa: **C**."
+  },
+  "13": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "perimetro e area",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Área do quadrado grande menos os 4 triângulos dos cantos.",
+    "primeiro_passo": "Cada canto é um triângulo retângulo com catetos de 4 cm e 8 cm (um terço e dois terços de 12).",
+    "solucao_completa": "- Quadrado grande: 12 × 12 = 144 cm².\n- Cada triângulo de canto tem catetos 4 cm e 8 cm: área 4 × 8 ÷ 2 = 16 cm². Os quatro: 64 cm².\n- Quadrado menor: 144 − 64 = **80 cm²**.\n- Resposta certa: **D**."
+  },
+  "14": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "operacoes basicas",
+      "ordem das operacoes"
+    ],
+    "dica_curta": "Calcula uma por uma, com calma.",
+    "primeiro_passo": "A: 8 ÷ 4 + 8 ÷ 4 = 2 + 2 = 4. B: 64 ÷ 16 = 4.",
+    "solucao_completa": "- A: 2 + 2 = 4. B: 64 ÷ 16 = 4. C: 16 ÷ 4 = 4. D: 256 ÷ 64 = 4.\n- E: (44 + 44) ÷ 44 = 88 ÷ 44 = **2**. Não dá 4.\n- Resposta certa: **E**."
+  },
+  "15": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "proporcao e razao",
+      "divisao"
+    ],
+    "dica_curta": "Pra cada cebola, tem 2 cenouras e 4 batatas. Quantos legumes tem em cada grupinho desses?",
+    "primeiro_passo": "1 + 2 + 4 = 7 legumes por cebola.",
+    "solucao_completa": "- Pra cada cebola: 2 cenouras e 4 batatas, ou seja, 1 + 2 + 4 = 7 legumes.\n- 84 ÷ 7 = **12** cebolas (24 cenouras e 48 batatas: 12 + 24 + 48 = 84).\n- Resposta certa: **C**."
+  },
+  "16": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "porcentagem"
+    ],
+    "dica_curta": "Depois da primeira tradução sobram 80%. A segunda tira 20% *desses* 80%, não do total.",
+    "primeiro_passo": "80% de 80%: 0,8 × 80.",
+    "solucao_completa": "- Primeira tradução: sobram 80%. Segunda: sobram 80% de 80% = 0,8 × 80 = **64%**.\n- Resposta certa: **D**."
+  },
+  "17": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "perimetro e area",
+      "geometria de solidos"
+    ],
+    "dica_curta": "Soma as áreas das 5 faces de metal: fundo, frente, trás e os dois lados. A de cima não conta.",
+    "primeiro_passo": "Frente e trás: 3 × 2 = 6 m² cada.",
+    "solucao_completa": "- Frente e trás: 2 × (3 × 2) = 12 m². Lados: 2 × (1 × 2) = 4 m². Fundo: 3 × 1 = 3 m².\n- 12 + 4 + 3 = **19 m²**.\n- Resposta certa: **D**."
+  },
+  "18": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "padroes e sequencias",
+      "algebra"
+    ],
+    "dica_curta": "Testa a fórmula com o dia 1 (tem que dar 1) e o dia 2 (tem que dar 3).",
+    "primeiro_passo": "Dia 1: 2 × 1 − 1 = 1. Dia 2: 2 × 2 − 1 = 3.",
+    "solucao_completa": "- Dias 1, 2, 3, 4 → flexões 1, 3, 5, 7: sempre o dobro do dia menos 1.\n- Fórmula: **2n − 1**. Conferindo: dia 3 → 2 × 3 − 1 = 5.\n- Resposta certa: **C**."
+  },
+  "19": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "proporcao e razao",
+      "perimetro e area"
+    ],
+    "dica_curta": "Se os perímetros são iguais, o lado do triângulo é o dobro do lado do hexágono. Divide os dois em triangulinhos equiláteros do tamanho do lado do hexágono.",
+    "primeiro_passo": "Um triângulo equilátero de lado 2 tem 4 triangulinhos de lado 1. Um hexágono regular de lado 1 tem 6.",
+    "solucao_completa": "- Perímetros iguais: 3 lados do triângulo = 6 lados do hexágono, então o lado do triângulo é o dobro.\n- Ligando os pontos médios dos lados do triângulo, ele vira 4 triangulinhos equiláteros de lado igual ao do hexágono. O hexágono regular é feito de 6 desses mesmos triangulinhos.\n- Razão: 4 : 6 = **2 : 3**.\n- Resposta certa: **D**."
+  },
+  "20": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "estimativa",
+      "multiplicacao"
+    ],
+    "dica_curta": "27 m por hora × 24 horas por dia × 365 dias. Arredonda pra fazer de cabeça.",
+    "primeiro_passo": "27 × 24 ≈ 650 m por dia.",
+    "solucao_completa": "- Por dia: 27 × 24 ≈ 650 m. Por ano: 650 × 365 ≈ 237 000 m ≈ 237 km.\n- A opção mais próxima é **240 km**. (Exato: 27 × 24 × 365 = 236 520 m.)\n- Resposta certa: **E**."
+  },
+  "21": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "logica com pistas",
+      "conjuntos"
+    ],
+    "dica_curta": "Pra sobrar o máximo de gente de fora, os grupos precisam se sobrepor o máximo possível.",
+    "primeiro_passo": "Só a loja beneficente já ocupa 18 dos 20. Os outros dois grupos podem estar dentro desses 18.",
+    "solucao_completa": "- 18 dos 20 amigos querem a loja. Os 14 da leitura e os 10 dos animais podem ser todos gente que também está nos 18.\n- Então no máximo 20 − 18 = **2** amigos ficam de fora de tudo.\n- Resposta certa: **B**."
+  },
+  "22": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "proporcao e razao",
+      "logica com pistas"
+    ],
+    "dica_curta": "Pensa em quanto da caixa cada um faz por minuto. Joe faz 1/140 da caixa por minuto; os dois juntos, 1/60.",
+    "primeiro_passo": "Josie faz 1/60 − 1/140 da caixa por minuto. Escolhe um tempo grande, tipo 420 minutos, pra comparar sem fração.",
+    "solucao_completa": "- Em 420 minutos (7 horas): Joe sozinho apontaria 420 ÷ 140 = 3 caixas; os dois juntos, 420 ÷ 60 = 7 caixas.\n- Então Josie sozinha faz 7 − 3 = 4 caixas em 420 minutos, ou seja, 1 caixa em 420 ÷ 4 = 105 minutos = **1 hora e 45 min**.\n- Resposta certa: **D**."
+  },
+  "23": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "horas",
+      "proporcao e razao"
+    ],
+    "dica_curta": "O dia inteiro tem 24 horas nossas e 10 horas francesas. Quanto vale 1 hora francesa nas nossas horas?",
+    "primeiro_passo": "24 ÷ 10 = 2,4 horas nossas por hora francesa. 3 horas francesas = 3 × 2,4 = 7,2 horas.",
+    "solucao_completa": "- 1 hora francesa = 24 ÷ 10 = 2,4 horas nossas.\n- 3 horas francesas = 7,2 horas = 7 horas e 0,2 × 60 = 12 minutos: **7h12** da manhã.\n- Resposta certa: **D**."
+  },
+  "24": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "multiplos",
+      "numeros primos"
+    ],
+    "dica_curta": "Um número é divisível por 3 quando a soma dos algarismos é múltiplo de 3. Soma os algarismos de cada linha reta.",
+    "primeiro_passo": "7 + 8 + 9 = 24, 4 + 5 + 6 = 15, 7 + 4 + 1 = 12, 7 + 5 + 3 = 15... todas as somas dão múltiplo de 3.",
+    "solucao_completa": "- Toda linha reta do teclado (linhas, colunas e diagonais) tem algarismos que somam um múltiplo de 3: 24, 15, 6, 12, 15, 18, 15, 15.\n- Ler pra trás não muda a soma. Então todos os 16 números são divisíveis por 3, e nenhum é primo.\n- Resposta certa: **A** (0)."
+  },
+  "25": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "multiplos",
+      "sistema de numeracao"
+    ],
+    "dica_curta": "Separa os algarismos nas duas listas (posições pares e ímpares) e monta a conta com o ? no lugar.",
+    "primeiro_passo": "Posições pares: 7, 0, 0, 5, 8 e ?. Posições ímpares: 9, 8, 9, 6, 8, 9, 7, que somam 56.",
+    "solucao_completa": "- Ímpares: 9 + 8 + 9 + 6 + 8 + 9 + 7 = 56. Pares sem o ?: 7 + 0 + 0 + 5 + 8 = 20.\n- Total = 3 × (20 + ?) + 56 = 116 + 3 × ?. Pra terminar em 0, 3 × ? tem que terminar em 4: ? = 8 (3 × 8 = 24, total 140).\n- Resposta certa: **E**."
+  }
+}

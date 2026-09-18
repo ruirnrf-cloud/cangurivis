@@ -1,0 +1,744 @@
+{
+  "fonte": {
+    "olimpiada_slug": "pmc",
+    "pais": "reino-unido",
+    "ano": 2022,
+    "edicao": "fevereiro (bonus round)"
+  },
+  "pdf_prova_original": "https://www.m-a.org.uk/resources/February Paper 22.pdf",
+  "pdf_solucao_original": "https://www.m-a.org.uk/resources/PMC Feb22 Answers and Notes amended.pdf",
+  "n_questoes": 25,
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "pmc-2022feb-q01",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Val, que é vegana, está cozinhando pra 8 pessoas. Cada pessoa vai receber 6 couves-de-bruxelas. Quantas couves ela precisa?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "8"
+        },
+        {
+          "letra": "C",
+          "texto": "24"
+        },
+        {
+          "letra": "D",
+          "texto": "32"
+        },
+        {
+          "letra": "E",
+          "texto": "48"
+        }
+      ]
+    },
+    "2": {
+      "numero": 2,
+      "id": "pmc-2022feb-q02",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Uma loja vende camisas listradas, de bolinhas e lisas, todas nos tamanhos pequeno, médio e grande, cada uma no seu próprio cabide. A loja põe uma camisa de cada tipo em exposição. Quantos cabides são necessários?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "7"
+        },
+        {
+          "letra": "C",
+          "texto": "8"
+        },
+        {
+          "letra": "D",
+          "texto": "9"
+        },
+        {
+          "letra": "E",
+          "texto": "10"
+        }
+      ]
+    },
+    "3": {
+      "numero": 3,
+      "id": "pmc-2022feb-q03",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Uma pulga pula 32 cm, um gafanhoto pula 100 cm e um sapo pula 150 cm. Qual é a média dessas três distâncias?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "32 cm"
+        },
+        {
+          "letra": "B",
+          "texto": "94 cm"
+        },
+        {
+          "letra": "C",
+          "texto": "100 cm"
+        },
+        {
+          "letra": "D",
+          "texto": "150 cm"
+        },
+        {
+          "letra": "E",
+          "texto": "282 cm"
+        }
+      ]
+    },
+    "4": {
+      "numero": 4,
+      "id": "pmc-2022feb-q04",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "As informações de uma sonda em Marte levam cerca de três horas pra chegar à sede da NASA, na Terra. Marte está a cerca de 171 milhões de milhas. A quantos milhões de milhas por hora essa informação viaja?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "57"
+        },
+        {
+          "letra": "B",
+          "texto": "60"
+        },
+        {
+          "letra": "C",
+          "texto": "86"
+        },
+        {
+          "letra": "D",
+          "texto": "120"
+        },
+        {
+          "letra": "E",
+          "texto": "172"
+        }
+      ]
+    },
+    "5": {
+      "numero": 5,
+      "id": "pmc-2022feb-q05",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Uma foto de 10 cm × 15 cm é ampliada, mantendo o mesmo formato (só maior). A largura da foto grande é 20 cm. Qual é a altura da foto ampliada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10 cm"
+        },
+        {
+          "letra": "B",
+          "texto": "15 cm"
+        },
+        {
+          "letra": "C",
+          "texto": "20 cm"
+        },
+        {
+          "letra": "D",
+          "texto": "25 cm"
+        },
+        {
+          "letra": "E",
+          "texto": "30 cm"
+        }
+      ],
+      "figura": "saida/pmc/2022_feb_uk/figuras/q05.png"
+    },
+    "6": {
+      "numero": 6,
+      "id": "pmc-2022feb-q06",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Qual é a diferença entre o maior múltiplo de 3 de um algarismo e o menor múltiplo de 3 de dois algarismos?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "5"
+        }
+      ]
+    },
+    "7": {
+      "numero": 7,
+      "id": "pmc-2022feb-q07",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Roya acerta 4 de cada 5 bolas de críquete lançadas pra ela. Khalida acerta 3 de cada 4. Cada uma recebe 20 bolas. O que acontece?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Roya acerta uma bola a mais que Khalida"
+        },
+        {
+          "letra": "B",
+          "texto": "Khalida acerta uma bola a mais que Roya"
+        },
+        {
+          "letra": "C",
+          "texto": "Roya acerta quatro bolas a mais que Khalida"
+        },
+        {
+          "letra": "D",
+          "texto": "Khalida acerta cinco bolas a menos que Roya"
+        },
+        {
+          "letra": "E",
+          "texto": "As duas acertam o mesmo número de bolas"
+        }
+      ]
+    },
+    "8": {
+      "numero": 8,
+      "id": "pmc-2022feb-q08",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Na figura, os triângulos equiláteros pequenos são todos do mesmo tamanho. Que fração do triângulo grande está pintada de cinza?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/5"
+        },
+        {
+          "letra": "B",
+          "texto": "1/6"
+        },
+        {
+          "letra": "C",
+          "texto": "1/7"
+        },
+        {
+          "letra": "D",
+          "texto": "1/8"
+        },
+        {
+          "letra": "E",
+          "texto": "1/9"
+        }
+      ],
+      "figura": "saida/pmc/2022_feb_uk/figuras/q08.png"
+    },
+    "9": {
+      "numero": 9,
+      "id": "pmc-2022feb-q09",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Sandy fez um bolo e guardou 1/4 dele pra ela. O resto ela deu pra Katie, Richard, Mo, Mim, Max e Maisie dividirem igualmente entre os seis. Que fração do bolo original o Mo recebeu?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/8"
+        },
+        {
+          "letra": "B",
+          "texto": "1/4"
+        },
+        {
+          "letra": "C",
+          "texto": "1/3"
+        },
+        {
+          "letra": "D",
+          "texto": "3/8"
+        },
+        {
+          "letra": "E",
+          "texto": "3/4"
+        }
+      ]
+    },
+    "10": {
+      "numero": 10,
+      "id": "pmc-2022feb-q10",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Tenho dois triângulos retângulos isósceles iguais (idênticos em forma e tamanho). Qual destas formas **nunca** dá pra montar juntando esses dois triângulos lado a lado?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "quadrado"
+        },
+        {
+          "letra": "B",
+          "texto": "triângulo isósceles"
+        },
+        {
+          "letra": "C",
+          "texto": "losango"
+        },
+        {
+          "letra": "D",
+          "texto": "triângulo equilátero"
+        },
+        {
+          "letra": "E",
+          "texto": "hexágono"
+        }
+      ]
+    },
+    "11": {
+      "numero": 11,
+      "id": "pmc-2022feb-q11",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Philla mediu a água desperdiçada por uma torneira pingando durante uma semana. No fim de semana (sábado e domingo juntos) vazaram 250 ml, e em cada dia útil vazaram 100 ml. Quantos litros de água foram desperdiçados na semana?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,5"
+        },
+        {
+          "letra": "B",
+          "texto": "0,75"
+        },
+        {
+          "letra": "C",
+          "texto": "1"
+        },
+        {
+          "letra": "D",
+          "texto": "1,5"
+        },
+        {
+          "letra": "E",
+          "texto": "1,8"
+        }
+      ]
+    },
+    "12": {
+      "numero": 12,
+      "id": "pmc-2022feb-q12",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Quando eu tinha 14 anos, minha mãe tinha 38. Agora ela tem exatamente o dobro da minha idade. Quantos anos eu tenho agora?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20"
+        },
+        {
+          "letra": "B",
+          "texto": "22"
+        },
+        {
+          "letra": "C",
+          "texto": "24"
+        },
+        {
+          "letra": "D",
+          "texto": "26"
+        },
+        {
+          "letra": "E",
+          "texto": "28"
+        }
+      ]
+    },
+    "13": {
+      "numero": 13,
+      "id": "pmc-2022feb-q13",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "A figura mostra dois quadrados. O quadrado menor encosta no maior a um terço do caminho de cada lado. O quadrado maior tem lado de 12 cm. Qual é a área do quadrado menor?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "24 cm²"
+        },
+        {
+          "letra": "B",
+          "texto": "60 cm²"
+        },
+        {
+          "letra": "C",
+          "texto": "64 cm²"
+        },
+        {
+          "letra": "D",
+          "texto": "80 cm²"
+        },
+        {
+          "letra": "E",
+          "texto": "100 cm²"
+        }
+      ],
+      "figura": "saida/pmc/2022_feb_uk/figuras/q13.png"
+    },
+    "14": {
+      "numero": 14,
+      "id": "pmc-2022feb-q14",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Yazeed está brincando com um monte de 4 tentando obter o total 4. Qual destas contas **não** dá 4?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "(4 + 4) ÷ 4 + (4 + 4) ÷ 4"
+        },
+        {
+          "letra": "B",
+          "texto": "(4 × 4 × 4) ÷ (4 × 4)"
+        },
+        {
+          "letra": "C",
+          "texto": "4 × 4 ÷ 4"
+        },
+        {
+          "letra": "D",
+          "texto": "4⁴ ÷ 4³  (quatro 4 multiplicados, dividido por três 4 multiplicados)"
+        },
+        {
+          "letra": "E",
+          "texto": "(44 + 44) ÷ 44"
+        }
+      ]
+    },
+    "15": {
+      "numero": 15,
+      "id": "pmc-2022feb-q15",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Gregory colheu todas as batatas, cenouras e cebolas da horta. Ele tem o dobro de batatas em relação às cenouras, e o dobro de cenouras em relação às cebolas. No total, são 84 legumes. Quantas cebolas ele tem?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "8"
+        },
+        {
+          "letra": "B",
+          "texto": "10"
+        },
+        {
+          "letra": "C",
+          "texto": "12"
+        },
+        {
+          "letra": "D",
+          "texto": "14"
+        },
+        {
+          "letra": "E",
+          "texto": "42"
+        }
+      ]
+    },
+    "16": {
+      "numero": 16,
+      "id": "pmc-2022feb-q16",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Um programa de tradução ruim perde 20% do significado a cada tradução. Quanto do significado sobra depois de duas traduções?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20%"
+        },
+        {
+          "letra": "B",
+          "texto": "40%"
+        },
+        {
+          "letra": "C",
+          "texto": "50%"
+        },
+        {
+          "letra": "D",
+          "texto": "64%"
+        },
+        {
+          "letra": "E",
+          "texto": "80%"
+        }
+      ]
+    },
+    "17": {
+      "numero": 17,
+      "id": "pmc-2022feb-q17",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Um tanque de água de metal, sem tampa, tem 3 m de comprimento, 1 m de largura e 2 m de altura. A tampa vai ser de plástico. Qual é a área de metal usada pra fazer o tanque?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6 m²"
+        },
+        {
+          "letra": "B",
+          "texto": "9 m²"
+        },
+        {
+          "letra": "C",
+          "texto": "12 m²"
+        },
+        {
+          "letra": "D",
+          "texto": "19 m²"
+        },
+        {
+          "letra": "E",
+          "texto": "22 m²"
+        }
+      ],
+      "figura": "saida/pmc/2022_feb_uk/figuras/q17.png"
+    },
+    "18": {
+      "numero": 18,
+      "id": "pmc-2022feb-q18",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "No primeiro dia faço 1 flexão. No segundo, 3 flexões. No terceiro, 5, e assim por diante até o dia *n*. Qual fórmula diz quantas flexões faço no dia *n*?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "n − 1"
+        },
+        {
+          "letra": "B",
+          "texto": "n"
+        },
+        {
+          "letra": "C",
+          "texto": "2n − 1"
+        },
+        {
+          "letra": "D",
+          "texto": "2n"
+        },
+        {
+          "letra": "E",
+          "texto": "2n + 1"
+        }
+      ]
+    },
+    "19": {
+      "numero": 19,
+      "id": "pmc-2022feb-q19",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "O triângulo equilátero ABC tem o mesmo perímetro que o hexágono regular DEFGHI. Qual é a razão entre a área do triângulo ABC e a área do hexágono DEFGHI?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 : 2"
+        },
+        {
+          "letra": "B",
+          "texto": "1 : 3"
+        },
+        {
+          "letra": "C",
+          "texto": "1 : 4"
+        },
+        {
+          "letra": "D",
+          "texto": "2 : 3"
+        },
+        {
+          "letra": "E",
+          "texto": "3 : 4"
+        }
+      ],
+      "figura": "saida/pmc/2022_feb_uk/figuras/q19.png"
+    },
+    "20": {
+      "numero": 20,
+      "id": "pmc-2022feb-q20",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "O ponteiro dos minutos do Big Ben tem cerca de 4,3 m de comprimento. A cada hora, a ponta dele percorre um círculo de pouco mais de 27 m. Aproximadamente quanto ela percorre em um ano?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10 000 m"
+        },
+        {
+          "letra": "B",
+          "texto": "12 km"
+        },
+        {
+          "letra": "C",
+          "texto": "24 km"
+        },
+        {
+          "letra": "D",
+          "texto": "100 km"
+        },
+        {
+          "letra": "E",
+          "texto": "240 km"
+        }
+      ]
+    },
+    "21": {
+      "numero": 21,
+      "id": "pmc-2022feb-q21",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Jenny Jackson tem 20 amigos. 18 gostariam de ajudar numa loja beneficente, 14 gostariam de ajudar crianças pequenas com a leitura, e 10 gostariam de ajudar com animais. Qual é o maior número possível de amigos que **não** gostariam de fazer nenhuma dessas coisas?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "4"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ]
+    },
+    "22": {
+      "numero": 22,
+      "id": "pmc-2022feb-q22",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Joe adora apontar lápis! Ele leva 2 horas e 20 minutos pra apontar uma caixa de 144 lápis. No dia seguinte, Joe (no mesmo ritmo) tem a ajuda de Josie. Juntos, levam exatamente uma hora pra apontar outra caixa de 144 lápis. Quanto tempo Josie levaria pra apontar 144 lápis sozinha, no ritmo dela?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 hora e 10 min"
+        },
+        {
+          "letra": "B",
+          "texto": "1 hora e 12 min"
+        },
+        {
+          "letra": "C",
+          "texto": "1 hora e 36 min"
+        },
+        {
+          "letra": "D",
+          "texto": "1 hora e 45 min"
+        },
+        {
+          "letra": "E",
+          "texto": "2 horas"
+        }
+      ]
+    },
+    "23": {
+      "numero": 23,
+      "id": "pmc-2022feb-q23",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Durante 13 anos, no século XVIII, a França usou dias de 10 horas (de meia-noite a meia-noite), com 100 minutos em cada hora. O relógio francês da figura marca 3 horas. Que horas seriam no nosso relógio de 24 horas?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3h da manhã"
+        },
+        {
+          "letra": "B",
+          "texto": "4h da manhã"
+        },
+        {
+          "letra": "C",
+          "texto": "5h30 da manhã"
+        },
+        {
+          "letra": "D",
+          "texto": "7h12 da manhã"
+        },
+        {
+          "letra": "E",
+          "texto": "8h da manhã"
+        }
+      ],
+      "figura": "saida/pmc/2022_feb_uk/figuras/q23.png"
+    },
+    "24": {
+      "numero": 24,
+      "id": "pmc-2022feb-q24",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Li Wei está olhando os números de 1 a 9 na calculadora, dispostos assim:\n\n| 7 | 8 | 9 |\n|---|---|---|\n| 4 | 5 | 6 |\n| 1 | 2 | 3 |\n\nEle percebe que consegue formar 16 números de três algarismos lendo em linha reta (horizontal, vertical e diagonal), tanto pra frente quanto pra trás. Quantos desses 16 números são primos?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0"
+        },
+        {
+          "letra": "B",
+          "texto": "1"
+        },
+        {
+          "letra": "C",
+          "texto": "3"
+        },
+        {
+          "letra": "D",
+          "texto": "6"
+        },
+        {
+          "letra": "E",
+          "texto": "9"
+        }
+      ]
+    },
+    "25": {
+      "numero": 25,
+      "id": "pmc-2022feb-q25",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Todo livro novo recebe um código ISBN de 13 algarismos. Regra: some o 2º, 4º, 6º, 8º, 10º e 12º algarismos, multiplique por 3 e some com os outros sete (1º, 3º, 5º, 7º, 9º, 11º e 13º). O total é sempre divisível por 10. Exemplo: no ISBN 978-3-16-148410-0, dá 3 × (7 + 3 + 6 + 4 + 4 + 0) + (9 + 8 + 1 + 1 + 8 + 1 + 0) = 72 + 28 = 100. No ISBN **978-0-90-65889?-7**, o 12º algarismo está apagado. Qual é ele?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0"
+        },
+        {
+          "letra": "B",
+          "texto": "1"
+        },
+        {
+          "letra": "C",
+          "texto": "2"
+        },
+        {
+          "letra": "D",
+          "texto": "6"
+        },
+        {
+          "letra": "E",
+          "texto": "8"
+        }
+      ]
+    }
+  }
+}
