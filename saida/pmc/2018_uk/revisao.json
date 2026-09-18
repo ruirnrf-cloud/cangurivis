@@ -1,0 +1,221 @@
+{
+  "1": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "multiplicacao",
+      "soma"
+    ],
+    "dica_curta": "Conta os balões de cada grupo separado e depois soma.",
+    "primeiro_passo": "3 crianças × 4 balões = 12.",
+    "solucao_completa": "- Primeiro grupo: 3 × 4 = 12 balões. Segundo grupo: 4 × 3 = 12 balões.\n- 12 + 12 = **24**.\n- Resposta certa: **D**."
+  },
+  "2": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "medidas",
+      "unidades"
+    ],
+    "dica_curta": "1 kg = 1000 g. Quanto é 0,4 desses 1000 g?",
+    "primeiro_passo": "0,4 kg é 4 décimos de 1 kg, ou seja, 4 × 100 g.",
+    "solucao_completa": "- 1 kg = 1000 g, então 0,4 kg = 0,4 × 1000 = **400 g**.\n- Resposta certa: **D**."
+  },
+  "3": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "simetria",
+      "raciocinio visual"
+    ],
+    "dica_curta": "Vira cada letra de cabeça pra baixo na sua cabeça: O continua O, N continua N. E o B? E o D?",
+    "primeiro_passo": "As letras maiúsculas que continuam iguais com meia-volta são só H, I, N, O, S, X e Z.",
+    "solucao_completa": "- Com um giro de meia-volta, só as letras H, I, N, O, S, X e Z ficam iguais.\n- BISON tem B, DOZEN tem D e E, SAXON tem A, CHINO tem C. Só **ONION** usa apenas O, N e I.\n- Resposta certa: **A**."
+  },
+  "4": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "subtracao",
+      "calendario"
+    ],
+    "dica_curta": "É 2018 menos 1028. Faz com calma, de 1028 até 2028 seriam 1000 anos.",
+    "primeiro_passo": "De 1028 a 2028 são 1000 anos. 2018 é 10 anos antes de 2028.",
+    "solucao_completa": "- 2018 − 1028 = **990** anos (1000 anos daria em 2028, e 2018 é 10 antes).\n- Resposta certa: **D**."
+  },
+  "5": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "medidas",
+      "estimativa"
+    ],
+    "dica_curta": "Converte pra centímetros: 201,8 mm são cerca de 20 cm.",
+    "primeiro_passo": "Um dedão tem uns 2 cm, uma porta uns 200 cm, um estádio uns 200 m. O que tem uns 20 cm?",
+    "solucao_completa": "- 201,8 mm ≈ 20 cm.\n- Dedão: 2 cm. Porta: 2 m. Estádio: 200 m. Galáxia: nem dá pra escrever em centímetros. Uma folha de papel comum tem cerca de 21 cm de largura.\n- Resposta certa: **B**."
+  },
+  "6": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "leitura de tabelas e graficos",
+      "soma"
+    ],
+    "dica_curta": "O gráfico mostra a distância até a casa do avô ao longo do tempo. Cada vez que a linha sobe, ele está voltando; cada descida, indo pra casa.",
+    "primeiro_passo": "Sem as voltas, seriam 800 m. Cada volta de 200 m faz ele andar 200 m pra trás e mais 200 m de novo pra frente.",
+    "solucao_completa": "- A casa fica a 800 m. Se fosse direto, ele andaria 800 m.\n- Ele voltou 200 m (gato) e andou esses 200 m de novo: +400 m. Voltou mais 200 m (banco) e refez: +400 m.\n- 800 + 400 + 400 = **1600 m**.\n- Resposta certa: **E**."
+  },
+  "7": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "horas",
+      "soma"
+    ],
+    "dica_curta": "Soma todos os minutos: dois tempos, dois acréscimos e o intervalo.",
+    "primeiro_passo": "45 + 3 + 15 + 45 + 3 = 111 minutos = 1 hora e 51 minutos.",
+    "solucao_completa": "- Total: 45 + 3 + 15 + 45 + 3 = 111 minutos = 1 h 51 min.\n- 19h45 + 2 h = 21h45; tirando os 9 minutos que faltam pra 2 h: 21h45 − 9 min = **21h36**.\n- Resposta certa: **E**."
+  },
+  "8": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "operacoes basicas",
+      "estimativa"
+    ],
+    "dica_curta": "O resultado deu bem menor que 50,45, mas não tão pequeno. Testa o que cada erro daria, mais ou menos.",
+    "primeiro_passo": "Multiplicar por 0,4 é achar 4 décimos do número. 4 décimos de 50 é 20.",
+    "solucao_completa": "- 50,45 × 0,4 = 20,18. Bate exatamente!\n- Os outros erros dariam números bem diferentes: + dá 50,85; − 40 dá 10,45; ÷ 0,4 dá 126,125; sem vírgula dá 46,45 ou 5044,6.\n- Resposta certa: **C**."
+  },
+  "9": {
+    "status": "aprovado",
+    "gabarito": "A",
+    "tags": [
+      "pares e impares",
+      "soma"
+    ],
+    "dica_curta": "Cada par (2, 4, 6, 8, 10) é 1 a mais que o ímpar correspondente (1, 3, 5, 7, 9).",
+    "primeiro_passo": "São 5 números, cada um 1 a mais. Então a soma cresce 5.",
+    "solucao_completa": "- 2 + 4 + 6 + 8 + 10: cada parcela é 1 a mais que em 1 + 3 + 5 + 7 + 9 = 25.\n- 25 + 5 = **30**.\n- Resposta certa: **A**."
+  },
+  "10": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "contagem sistematica",
+      "sistema de numeracao"
+    ],
+    "dica_curta": "Conta quantas casas TÊM o 4 e tira de 100. Cuidado pra não contar o 44 duas vezes.",
+    "primeiro_passo": "Com 4 nas unidades: 4, 14, 24, ..., 94 (10 casas). Com 4 nas dezenas: 40 a 49 (10 casas). O 44 está nas duas listas.",
+    "solucao_completa": "- Casas com 4: 4, 14, 24, 34, 44, 54, 64, 74, 84, 94 (10) e 40, 41, ..., 49 (10). O 44 apareceu duas vezes, então são 10 + 10 − 1 = 19 casas com 4.\n- 100 − 19 = **81** casas sem 4.\n- Resposta certa: **D**."
+  },
+  "11": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "visualizacao espacial",
+      "raciocinio visual"
+    ],
+    "dica_curta": "A vista tem 4 quadrados embaixo e 1 em cima, na ponta da direita. Pensa: de qual lado o cubo mais alto fica na ponta direita?",
+    "primeiro_passo": "Olhando da frente, o cubo alto fica à esquerda. Olhando de trás, também não fica na ponta. Testa a direita.",
+    "solucao_completa": "- Da esquerda, a vista tem 3 quadrados embaixo e o alto na ponta esquerda. Da frente, o alto fica à esquerda. De trás, o alto fica no meio. De cima, aparece um formato de L.\n- Da **direita**, aparecem 4 quadrados em fila embaixo e o cubo alto na ponta direita: é exatamente a vista de Sam.\n- Resposta certa: **C**."
+  },
+  "12": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "porcentagem",
+      "fracoes"
+    ],
+    "dica_curta": "600 mil de 3 milhões: quantas vezes 600 mil cabe em 3 milhões?",
+    "primeiro_passo": "3 000 000 ÷ 600 000 = 5. Então é um quinto.",
+    "solucao_completa": "- 600 000 / 3 000 000 = 1/5.\n- 1/5 = **20%**.\n- Resposta certa: **B**."
+  },
+  "13": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "multiplos",
+      "logica com pistas"
+    ],
+    "dica_curta": "A parte de Mo é múltiplo de 13 e também múltiplo de 5 (só notas de £5). Que número é múltiplo dos dois?",
+    "primeiro_passo": "Múltiplo de 13 e de 5 = múltiplo de 65. Abaixo de 100, só o próprio 65.",
+    "solucao_completa": "- Mo levou um múltiplo de 13 feito só de notas de 5, então um múltiplo de 13 × 5 = 65. Como o total é 100, Mo levou £65.\n- Jo levou 100 − 65 = **£35**.\n- Resposta certa: **C**."
+  },
+  "14": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "multiplicacao"
+    ],
+    "dica_curta": "É multiplicação em cadeia: tijolos × tábuas × palitos.",
+    "primeiro_passo": "4 × 6 = 24 tábuas.",
+    "solucao_completa": "- 4 tijolos × 6 tábuas = 24 tábuas. 24 tábuas × 4 palitos = **96** palitos.\n- Resposta certa: **E**."
+  },
+  "15": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "perimetro e area",
+      "subtracao"
+    ],
+    "dica_curta": "Área da torrada inteira menos a área das 4 mordidas.",
+    "primeiro_passo": "Cada mordida tira 3 × 3 = 9 cm².",
+    "solucao_completa": "- Torrada: 12 × 12 = 144 cm². Cada mordida: 3 × 3 = 9 cm², quatro mordidas = 36 cm².\n- Sobra 144 − 36 = **108 cm²**.\n- Resposta certa: **B**."
+  },
+  "16": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "dinheiro",
+      "logica com pistas"
+    ],
+    "dica_curta": "A única diferença entre as duas compras é 1 bolinho. Então a diferença de preço é o preço do bolinho.",
+    "primeiro_passo": "£6.25 − £3.75 = £2.50 é o preço de um bolinho.",
+    "solucao_completa": "- Bolinho: 6.25 − 3.75 = £2.50.\n- Café: 3.75 − 2.50 = **£1.25**.\n- Resposta certa: **B**."
+  },
+  "17": {
+    "status": "aprovado",
+    "gabarito": "B",
+    "tags": [
+      "formas geometricas",
+      "contagem sistematica"
+    ],
+    "dica_curta": "De cada vértice do hexágono saem diagonais pra todos os outros vértices, menos ele mesmo e os 2 vizinhos.",
+    "primeiro_passo": "Cada um dos 6 vértices tem 3 diagonais. Mas cada diagonal liga 2 vértices, então foi contada 2 vezes.",
+    "solucao_completa": "- De cada vértice saem 6 − 3 = 3 diagonais (não vale ele mesmo nem os dois vizinhos).\n- 6 vértices × 3 = 18, mas cada diagonal foi contada pelos seus dois vértices: 18 ÷ 2 = **9**.\n- Resposta certa: **B**."
+  },
+  "18": {
+    "status": "aprovado",
+    "gabarito": "E",
+    "tags": [
+      "multiplos",
+      "calendario"
+    ],
+    "dica_curta": "Chama 12 de novembro de dia 0. O pai troca nos dias pares, Tammy nos múltiplos de 3. Timmy troca nas quartas: dias 2, 9, 16, 23, 30...",
+    "primeiro_passo": "Procura um dia que seja múltiplo de 2 e de 3 (ou seja, de 6) e que também esteja na lista das quartas.",
+    "solucao_completa": "- Dia 0 = 12/11 (segunda). Pai: dias 0, 2, 4, 6... Tammy: dias 0, 3, 6, 9... Os dois juntos: múltiplos de 6 (0, 6, 12, 18, 24, 30...).\n- Timmy (quartas): dias 2, 9, 16, 23, 30... O primeiro múltiplo de 6 que é quarta é o dia **30**.\n- 30 dias depois de 12 de novembro: novembro tem 30 dias, então cai em **12 de dezembro**.\n- Resposta certa: **E**."
+  },
+  "19": {
+    "status": "aprovado",
+    "gabarito": "D",
+    "tags": [
+      "angulos",
+      "formas geometricas"
+    ],
+    "dica_curta": "Em cada ponto onde o quadrado encosta no triângulo, os dois ângulos pintados mais o ângulo reto do quadrado formam uma linha reta (180°).",
+    "primeiro_passo": "Em cada ponto: 180° − 90° = 90° pros dois ângulos pintados juntos.",
+    "solucao_completa": "- Em cada um dos 3 pontos de contato, os dois ângulos pintados + 90° (canto do quadrado) = 180°. Então os dois pintados somam 90°.\n- 3 pontos × 90° = **270°**.\n- Resposta certa: **D**."
+  },
+  "20": {
+    "status": "aprovado",
+    "gabarito": "C",
+    "tags": [
+      "operacoes basicas",
+      "padroes e sequencias"
+    ],
+    "dica_curta": "Faz uma tabela: dia a dia, quanto falta depois da manhã e depois da noite.",
+    "primeiro_passo": "Dia 1: 444 − 20 = 424 de manhã; à noite lê metade, sobram 212.",
+    "solucao_completa": "- Dia 1: manhã 444 − 20 = 424; noite: sobram 212.\n- Dia 2: manhã 192; noite: 96.\n- Dia 3: manhã 76; noite: 38.\n- Dia 4: manhã 18; noite: 9.\n- Dia 5: de manhã ela lê as 9 que faltam. Acabou em **5 dias**.\n- Resposta certa: **C**."
+  }
+}

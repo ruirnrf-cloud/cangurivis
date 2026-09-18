@@ -1,0 +1,599 @@
+{
+  "fonte": {
+    "olimpiada_slug": "pmc",
+    "pais": "reino-unido",
+    "ano": 2018,
+    "edicao": "novembro"
+  },
+  "pdf_prova_original": "https://www.m-a.org.uk/resources/PMC November 2018 v8.1.pdf",
+  "pdf_solucao_original": "https://www.m-a.org.uk/resources/Nov18 Answers and Notes.pdf",
+  "n_questoes": 20,
+  "questoes": {
+    "1": {
+      "numero": 1,
+      "id": "pmc-2018-q01",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Três crianças voltaram de uma festa com quatro balões cada uma, e quatro crianças voltaram com três balões cada uma. Quantos balões são ao todo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "12"
+        },
+        {
+          "letra": "D",
+          "texto": "24"
+        },
+        {
+          "letra": "E",
+          "texto": "36"
+        }
+      ]
+    },
+    "2": {
+      "numero": 2,
+      "id": "pmc-2018-q02",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Quantos gramas de geleia tem neste pote cheio? (No rótulo está escrito 0,4 kg.)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,4 gramas"
+        },
+        {
+          "letra": "B",
+          "texto": "4 gramas"
+        },
+        {
+          "letra": "C",
+          "texto": "40 gramas"
+        },
+        {
+          "letra": "D",
+          "texto": "400 gramas"
+        },
+        {
+          "letra": "E",
+          "texto": "4000 gramas"
+        }
+      ],
+      "figura": "saida/pmc/2018_uk/figuras/q02.png"
+    },
+    "3": {
+      "numero": 3,
+      "id": "pmc-2018-q03",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "Em **uma** das cinco palavras abaixo (em inglês), todas as letras têm simetria de rotação, ou seja, viradas de cabeça pra baixo (giro de meia-volta) continuam iguais. Qual palavra?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "ONION"
+        },
+        {
+          "letra": "B",
+          "texto": "BISON"
+        },
+        {
+          "letra": "C",
+          "texto": "DOZEN"
+        },
+        {
+          "letra": "D",
+          "texto": "SAXON"
+        },
+        {
+          "letra": "E",
+          "texto": "CHINO"
+        }
+      ]
+    },
+    "4": {
+      "numero": 4,
+      "id": "pmc-2018-q04",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "Os historiadores dizem que Guilherme, o Conquistador, nasceu em 1028. Em 2018 (o ano desta prova), quantos anos fazia disso?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "790"
+        },
+        {
+          "letra": "B",
+          "texto": "810"
+        },
+        {
+          "letra": "C",
+          "texto": "910"
+        },
+        {
+          "letra": "D",
+          "texto": "990"
+        },
+        {
+          "letra": "E",
+          "texto": "1010"
+        }
+      ]
+    },
+    "5": {
+      "numero": 5,
+      "id": "pmc-2018-q05",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Qual destas medidas é a mais próxima de 201,8 mm de comprimento?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "o comprimento de um dedão do pé"
+        },
+        {
+          "letra": "B",
+          "texto": "a largura de uma das páginas desta prova"
+        },
+        {
+          "letra": "C",
+          "texto": "a altura de uma porta"
+        },
+        {
+          "letra": "D",
+          "texto": "a largura de um estádio de futebol"
+        },
+        {
+          "letra": "E",
+          "texto": "a largura de uma galáxia pequena"
+        }
+      ]
+    },
+    "6": {
+      "numero": 6,
+      "id": "pmc-2018-q06",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "O gráfico mostra a caminhada de Pat da casa do avô até a casa dele. No caminho, ele teve que voltar pra devolver o gato do avô, e depois voltou até um banco pra ler o gibi. Quanto ele andou ao todo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "800 m"
+        },
+        {
+          "letra": "B",
+          "texto": "1000 m"
+        },
+        {
+          "letra": "C",
+          "texto": "1200 m"
+        },
+        {
+          "letra": "D",
+          "texto": "1400 m"
+        },
+        {
+          "letra": "E",
+          "texto": "1600 m"
+        }
+      ],
+      "figura": "saida/pmc/2018_uk/figuras/q06.png"
+    },
+    "7": {
+      "numero": 7,
+      "id": "pmc-2018-q07",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Um jogo de futebol começa às 19h45 e tem dois tempos de 45 minutos. O intervalo dura 15 minutos, e o juiz dá 3 minutos de acréscimo no fim de cada tempo. A que horas o jogo termina?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20h30"
+        },
+        {
+          "letra": "B",
+          "texto": "21h30"
+        },
+        {
+          "letra": "C",
+          "texto": "21h21"
+        },
+        {
+          "letra": "D",
+          "texto": "21h33"
+        },
+        {
+          "letra": "E",
+          "texto": "21h36"
+        }
+      ]
+    },
+    "8": {
+      "numero": 8,
+      "id": "pmc-2018-q08",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Michaela queria calcular 50,45 − 0,4 na calculadora, mas errou e obteve 20,18. Qual destes erros ela deve ter cometido?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "apertou + em vez de −"
+        },
+        {
+          "letra": "B",
+          "texto": "digitou 40 em vez de 0,4"
+        },
+        {
+          "letra": "C",
+          "texto": "apertou × em vez de −"
+        },
+        {
+          "letra": "D",
+          "texto": "esqueceu uma das vírgulas"
+        },
+        {
+          "letra": "E",
+          "texto": "apertou ÷ em vez de −"
+        }
+      ]
+    },
+    "9": {
+      "numero": 9,
+      "id": "pmc-2018-q09",
+      "gabarito": "A",
+      "modo": "texto",
+      "enunciado_md": "A soma dos 5 primeiros números ímpares positivos é 25. Qual é a soma dos 5 primeiros números pares positivos?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "30"
+        },
+        {
+          "letra": "B",
+          "texto": "35"
+        },
+        {
+          "letra": "C",
+          "texto": "40"
+        },
+        {
+          "letra": "D",
+          "texto": "45"
+        },
+        {
+          "letra": "E",
+          "texto": "50"
+        }
+      ]
+    },
+    "10": {
+      "numero": 10,
+      "id": "pmc-2018-q10",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "O Sr. Fresco quer comprar uma casa nova, mas não quer uma casa com o algarismo 4 no número da porta! As casas novas são numeradas de 1 a 100. Entre quantas casas o Sr. Fresco pode escolher?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "19"
+        },
+        {
+          "letra": "B",
+          "texto": "20"
+        },
+        {
+          "letra": "C",
+          "texto": "80"
+        },
+        {
+          "letra": "D",
+          "texto": "81"
+        },
+        {
+          "letra": "E",
+          "texto": "90"
+        }
+      ]
+    },
+    "11": {
+      "numero": 11,
+      "id": "pmc-2018-q11",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Sam está olhando este bloco de cubos de uma das cinco direções mostradas na figura (A = da esquerda, B = da frente, C = da direita, D = de trás, E = de cima). O que ele vê é o desenho de quadrados. De qual direção ele está olhando?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "da esquerda"
+        },
+        {
+          "letra": "B",
+          "texto": "da frente"
+        },
+        {
+          "letra": "C",
+          "texto": "da direita"
+        },
+        {
+          "letra": "D",
+          "texto": "de trás"
+        },
+        {
+          "letra": "E",
+          "texto": "de cima"
+        }
+      ],
+      "figura": "saida/pmc/2018_uk/figuras/q11.png"
+    },
+    "12": {
+      "numero": 12,
+      "id": "pmc-2018-q12",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Cerca de três milhões de pessoas moram no País de Gales. Quase seiscentas mil delas falam galês. Aproximadamente que porcentagem das pessoas do País de Gales fala galês?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10%"
+        },
+        {
+          "letra": "B",
+          "texto": "20%"
+        },
+        {
+          "letra": "C",
+          "texto": "30%"
+        },
+        {
+          "letra": "D",
+          "texto": "40%"
+        },
+        {
+          "letra": "E",
+          "texto": "50%"
+        }
+      ]
+    },
+    "13": {
+      "numero": 13,
+      "id": "pmc-2018-q13",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Mo e Jo roubaram um banco e levaram £100 entre os dois, tudo em notas de £5. A quantia que Mo levou era um múltiplo de £13. Quanto Jo levou?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "£13"
+        },
+        {
+          "letra": "B",
+          "texto": "£25"
+        },
+        {
+          "letra": "C",
+          "texto": "£35"
+        },
+        {
+          "letra": "D",
+          "texto": "£50"
+        },
+        {
+          "letra": "E",
+          "texto": "£87"
+        }
+      ]
+    },
+    "14": {
+      "numero": 14,
+      "id": "pmc-2018-q14",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Palitos de peixe são feitos de um bloco de bacalhau. O bloco é cortado em 4 tijolos, cada tijolo é cortado em 6 tábuas e cada tábua dá 4 palitos. Quantos palitos de peixe saem de cada bloco?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "14"
+        },
+        {
+          "letra": "B",
+          "texto": "16"
+        },
+        {
+          "letra": "C",
+          "texto": "24"
+        },
+        {
+          "letra": "D",
+          "texto": "72"
+        },
+        {
+          "letra": "E",
+          "texto": "96"
+        }
+      ]
+    },
+    "15": {
+      "numero": 15,
+      "id": "pmc-2018-q15",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Como tem dentadura quadrada, minha esposa dá mordidas quadradas (de 3 cm de lado) quando come torrada. Que área sobra depois de ela dar quatro mordidas numa torrada quadrada de 12 cm × 12 cm?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "36 cm²"
+        },
+        {
+          "letra": "B",
+          "texto": "108 cm²"
+        },
+        {
+          "letra": "C",
+          "texto": "132 cm²"
+        },
+        {
+          "letra": "D",
+          "texto": "140 cm²"
+        },
+        {
+          "letra": "E",
+          "texto": "144 cm²"
+        }
+      ],
+      "figura": "saida/pmc/2018_uk/figuras/q15.png"
+    },
+    "16": {
+      "numero": 16,
+      "id": "pmc-2018-q16",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "Teddy compra um café e um bolinho por £3.75, e Freddy compra um café e 2 bolinhos por £6.25. Todos os bolinhos custam o mesmo. Quanto custa o café?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "£1"
+        },
+        {
+          "letra": "B",
+          "texto": "£1.25"
+        },
+        {
+          "letra": "C",
+          "texto": "£1.50"
+        },
+        {
+          "letra": "D",
+          "texto": "£2"
+        },
+        {
+          "letra": "E",
+          "texto": "£2.50"
+        }
+      ]
+    },
+    "17": {
+      "numero": 17,
+      "id": "pmc-2018-q17",
+      "gabarito": "B",
+      "modo": "texto",
+      "enunciado_md": "A figura mostra um pentágono com as cinco diagonais dele desenhadas. Quantas diagonais dá pra desenhar num hexágono regular?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "8"
+        },
+        {
+          "letra": "B",
+          "texto": "9"
+        },
+        {
+          "letra": "C",
+          "texto": "10"
+        },
+        {
+          "letra": "D",
+          "texto": "11"
+        },
+        {
+          "letra": "E",
+          "texto": "12"
+        }
+      ],
+      "figura": "saida/pmc/2018_uk/figuras/q17.png"
+    },
+    "18": {
+      "numero": 18,
+      "id": "pmc-2018-q18",
+      "gabarito": "E",
+      "modo": "texto",
+      "enunciado_md": "Na família Fedorenta, a mãe troca de meia todo dia, o pai dia sim dia não, Tammy a cada três dias e Timmy toda quarta-feira. No começo desta semana, segunda-feira 12 de novembro, a mãe, o pai e Tammy trocaram de meia. Em que data os quatro vão trocar de meia no mesmo dia?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "21 de novembro"
+        },
+        {
+          "letra": "B",
+          "texto": "24 de novembro"
+        },
+        {
+          "letra": "C",
+          "texto": "28 de novembro"
+        },
+        {
+          "letra": "D",
+          "texto": "6 de dezembro"
+        },
+        {
+          "letra": "E",
+          "texto": "12 de dezembro"
+        }
+      ]
+    },
+    "19": {
+      "numero": 19,
+      "id": "pmc-2018-q19",
+      "gabarito": "D",
+      "modo": "texto",
+      "enunciado_md": "A figura mostra um quadrado encostando em três lados de um triângulo. Qual é a soma dos ângulos pintados?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "90°"
+        },
+        {
+          "letra": "B",
+          "texto": "150°"
+        },
+        {
+          "letra": "C",
+          "texto": "180°"
+        },
+        {
+          "letra": "D",
+          "texto": "270°"
+        },
+        {
+          "letra": "E",
+          "texto": "360°"
+        }
+      ],
+      "figura": "saida/pmc/2018_uk/figuras/q19.png"
+    },
+    "20": {
+      "numero": 20,
+      "id": "pmc-2018-q20",
+      "gabarito": "C",
+      "modo": "texto",
+      "enunciado_md": "Paige Turner lê vinte páginas toda manhã e, toda noite, metade do que ainda falta. Quantos dias ela leva pra ler um livro de 444 páginas?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3 dias"
+        },
+        {
+          "letra": "B",
+          "texto": "4 dias"
+        },
+        {
+          "letra": "C",
+          "texto": "5 dias"
+        },
+        {
+          "letra": "D",
+          "texto": "6 dias"
+        },
+        {
+          "letra": "E",
+          "texto": "uma semana"
+        }
+      ]
+    }
+  }
+}
